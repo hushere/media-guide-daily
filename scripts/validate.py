@@ -73,6 +73,29 @@ def validate(path: Path, data: dict) -> list:
     if not isinstance(rv, dict) or rv.get("status") not in REVIEW_STATUSES:
         errs.append(f"review.status şunlardan biri olmalı: {sorted(REVIEW_STATUSES)}")
 
+    matches = data.get("matches", [])
+    if not isinstance(matches, list):
+        errs.append("matches liste olmalı")
+        matches = []
+    for i, m in enumerate(matches):
+        tag = f"matches[{i}]"
+        for k in ("date", "sport", "competition", "home", "away"):
+            if not nonempty_str(m.get(k)):
+                errs.append(f"{tag}: {k} eksik")
+        if nonempty_str(m.get("date")) and not DATE_RE.match(m["date"]):
+            errs.append(f"{tag}: date YYYY-MM-DD olmalı")
+        t = m.get("time")
+        if t is not None and not re.match(r"^\d{2}:\d{2}$", str(t)):
+            errs.append(f"{tag}: time SS:DD olmalı veya teyitsizse null")
+        if m.get("broadcaster") is not None and not nonempty_str(m.get("broadcaster")):
+            errs.append(f"{tag}: broadcaster metin olmalı veya teyitsizse null")
+        if not nonempty_str(m.get("source")) or not m["source"].startswith("https://"):
+            errs.append(f"{tag}: source https:// ile başlayan resmî kaynak olmalı")
+        if m.get("sport") in ("Erkek voleybolu", "Kadın futbolu", "Kadın basketbolu", "Hentbol"):
+            errs.append(f"{tag}: {m['sport']} kapsam dışı")
+    if matches and not nonempty_str(data.get("matchesWindow")):
+        errs.append("matches varsa matchesWindow (kapsanan tarih aralığı) gerekli")
+
     arts = data["articles"]
     if not isinstance(arts, list) or not arts:
         errs.append("articles boş olamaz")

@@ -87,6 +87,13 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 - Çıktıdan önce kapsam içindeki derbi, final ve önemli uluslararası maçların atlanmadığını; tarih, saat, yayıncı ve dönem doğruluğunu yeniden kontrol et. Kontrol yapılmadıysa yapılmış gibi davranma. Önceki bültendeki maç listesinde eksik varsa corrections içinde belirt.
 - Anlamlı maç yoksa bölümü ekleme.
 
+**Yayın biçimi (12 Ekim 2026 güncellemesi):**
+- Maç listesi haber kartı (article) olarak değil, bültenin `matches` alanına yapılandırılmış satırlar olarak yazılır; sitede sağdaki "Haftanın önemli maçları" panelinde gösterilir. `matchesWindow` alanına kapsanan tarih aralığını yaz.
+- Her maç: `date`, `time` (TSİ, SS:DD; teyitsizse `null`), `sport`, `competition`, `home`, `away`, `broadcaster` (doğrulanmışsa; değilse `null`), `source` (resmî kaynak URL'si), gerekiyorsa kısa `note` ve `tags` (Derbi, Final, Millî maç).
+- Teyitsiz saat veya yayıncıyı tahminle doldurma; `null` bırak, panel bunu "teyitsiz" olarak gösterir.
+- `Spor` kategorisinde haber kartı yalnız gerçek bir gelişme varsa yazılır (yayın hakkı, sponsorluk, yayıncı değişikliği, fikstür değişikliği gibi) ve planlama etkisi, Counter-View gibi standart haber alanlarını taşır.
+- Medya etkisi yorumunu panelde değil, gerekiyorsa ilgili haber kartında veya `watchlist` içinde yaz; tahmini etkiyi ölçülmüş sonuç gibi sunma.
+
 ### 5.4 Yaklaşan Sinema Filmleri ve sinema kampanyaları
 
 **a) Erken uyarı eşikleri**

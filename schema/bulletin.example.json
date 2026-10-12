@@ -63,5 +63,22 @@
   "highlights": [
     "2-3 öne çıkan madde"
   ],
-  "proposal": "İsteğe bağlı: tek cümlelik 'Öneri:' satırı. Anlamlı öneri yoksa alanı hiç ekleme."
+  "proposal": "İsteğe bağlı: tek cümlelik 'Öneri:' satırı. Anlamlı öneri yoksa alanı hiç ekleme.",
+  "matchesWindow": "Spor takviminin kapsadığı aralık (örn. 13-18 Ekim 2026)",
+  "matches": [
+    {
+      "date": "YYYY-MM-DD",
+      "time": "SS:DD veya teyitsizse null",
+      "sport": "Futbol | Basketbol | Kadın voleybolu",
+      "competition": "Turnuva adı",
+      "home": "Ev sahibi",
+      "away": "Deplasman",
+      "broadcaster": "Doğrulanmış yayıncı veya teyitsizse null",
+      "source": "https:// resmî fikstür/kulüp/federasyon sayfası",
+      "note": "İsteğe bağlı kısa teyit notu",
+      "tags": [
+        "İsteğe bağlı: Derbi, Final, Millî maç"
+      ]
+    }
+  ]
 }

@@ -168,18 +168,59 @@
     });
   }
 
+  /* Haftanın önemli maçları paneli */
+  var SHORT_DAYS = ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"];
+  function fixturesHTML(b) {
+    var list = (b.matches || []).slice().sort(function (x, y) {
+      return (x.date + (x.time || "99:99")).localeCompare(y.date + (y.time || "99:99"));
+    });
+    if (!list.length) return "";
+    var groups = [], cur = null;
+    list.forEach(function (m) {
+      if (!cur || cur.date !== m.date) { cur = { date: m.date, items: [] }; groups.push(cur); }
+      cur.items.push(m);
+    });
+    var rows = 0;
+    var body = groups.map(function (g) {
+      var p = g.date.split("-").map(Number);
+      var d = new Date(Date.UTC(p[0], p[1] - 1, p[2]));
+      var isToday = g.date === b.date;
+      var items = g.items.map(function (m) {
+        rows++;
+        var extra = rows > 8 && !(m.tags && m.tags.length);
+        var tags = (m.tags || []).map(function (t) { return '<span class="fx-tag">' + esc(t) + '</span>'; }).join("");
+        var bc = m.broadcaster ? esc(m.broadcaster) : '<span class="fx-unverified">Yayıncı teyitsiz</span>';
+        var time = m.time ? esc(m.time) : '<span class="fx-unverified" title="Saat teyitsiz">--:--</span>';
+        var teams = esc(m.home) + ' <span class="fx-vs">–</span> ' + esc(m.away);
+        var link = m.source ? '<a class="fx-src" href="' + esc(safeUrl(m.source)) + '" target="_blank" rel="noopener" aria-label="Kaynak">↗</a>' : "";
+        return '<li class="fx-row' + (extra ? ' fx-extra' : '') + '"><span class="fx-time">' + time + '</span>' +
+          '<div class="fx-body"><div class="fx-teams">' + teams + tags + '</div>' +
+          '<div class="fx-meta">' + esc(m.sport) + ' · ' + esc(m.competition) + ' · ' + bc + (m.note ? ' · ' + esc(m.note) : '') + '</div></div>' + link + '</li>';
+      }).join("");
+      var allExtra = items.indexOf('fx-row"') === -1;
+      return '<div class="fx-day' + (allExtra ? ' fx-extra-day' : '') + '"><span>' + p[2] + ' ' + MONTHS[p[1] - 1] + '</span> ' + SHORT_DAYS[d.getUTCDay()] +
+        (isToday ? ' <span class="fx-today">Bugün</span>' : '') + '</div><ul>' + items + '</ul>';
+    }).join("");
+    var hidden = (body.match(/fx-extra/g) || []).length;
+    var more = hidden ? '<button type="button" class="fx-more" onclick="this.closest(\'.fixtures\').classList.add(\'show-all\');this.remove()">Tüm maçlar (' + rows + ') ↓</button>' : "";
+    return '<aside class="fixtures" aria-labelledby="fxTitle"><div class="fx-head"><span class="eyebrow">Spor takvimi</span>' +
+      '<h2 id="fxTitle">Haftanın önemli maçları</h2>' + (b.matchesWindow ? '<p>' + esc(b.matchesWindow) + ' · Türkiye saati</p>' : '') + '</div>' +
+      body + more + '<p class="fx-foot">Tarih, saat ve yayıncı resmî kaynaklardan alınır; teyit edilemeyenler işaretlidir.</p></aside>';
+  }
+
   function renderBulletin(b) {
     state.bulletin = b; state.region = "Tümü"; state.category = null;
     document.title = fmtDate(b.date) + " · Media Guide Daily";
     var rv = REVIEW_LABEL[(b.review || {}).status] || REVIEW_LABEL.not_reviewed;
     var highlights = (b.highlights || []).map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("");
+    var fixtures = fixturesHTML(b);
     $main.innerHTML =
-      '<section class="hero"><div class="hero-copy">' +
+      '<section class="hero' + (fixtures ? '' : ' no-fixtures') + '"><div class="hero-left"><div class="hero-copy">' +
         '<div class="eyebrow">Daily Media Intelligence <span class="pill">' + (b.edition === "daily" ? "Günlük bülten" : "Editörün seçkisi") + '</span></div>' +
-        '<h1>Gündemi oku.<br><em>Etkisini gör.</em></h1>' +
-        '<p class="hero-intro">Medya dünyasında ne değişti, neden önemli,<br>bir sonraki adım ne olmalı?</p>' +
-        '<div class="hero-meta">' + esc(fmtDate(b.date)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
-      '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></section>' +
+        '<h1>Gündemi oku. <em>Etkisini gör.</em></h1>' +
+        '<div class="hero-meta">' + esc(fmtDate(b.date, true)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
+      '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></div>' +
+      fixtures + '</section>' +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
         '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
