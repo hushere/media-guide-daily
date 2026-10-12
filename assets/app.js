@@ -14,7 +14,7 @@
   var MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
   var DAYS = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
 
-  var state = { index: [], bulletin: null, region: "Tümü", category: null };
+  var state = { index: [], bulletin: null, region: "Tümü", category: null, query: "" };
   var $main = document.getElementById("main");
 
   function esc(s) {
@@ -60,9 +60,10 @@
   })();
 
   document.getElementById("archiveToggle").addEventListener("click", function () {
-    var a = document.getElementById("archive");
-    var open = a.classList.toggle("open");
-    this.setAttribute("aria-expanded", open ? "true" : "false");
+    document.getElementById("archive").showModal();
+  });
+  document.getElementById("archiveClose").addEventListener("click", function () {
+    document.getElementById("archive").close();
   });
   document.getElementById("shareBtn").addEventListener("click", function () {
     var date = state.bulletin && state.bulletin.date;
@@ -98,8 +99,10 @@
         '<h3>' + esc(a.title) + '</h3>' +
         '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + '</div>' +
         '<p class="summary">' + esc(a.summary) + '</p>' +
+        '<div class="impact-preview"><h4>Planlama etkisi</h4><p>' + esc(a.impact) + '</p></div>' +
+        '<div class="source-preview">' + esc((a.sources || []).length ? a.sources[0].name : 'Kaynak belirtilmedi') + ' · ' + (a.sources || []).length + ' kaynak</div>' +
       '</div>' +
-      '<details><summary>Detay, planlama etkisi ve kaynaklar</summary><div class="detail">' +
+      '<details><summary>Analizi oku <span aria-hidden="true">↗</span></summary><div class="detail">' +
         '<div class="block"><h4>Gelişme</h4>' + body + '</div>' +
         '<div class="block callout"><h4>Planner/Buyer açısından</h4><p>' + esc(a.impact) + '</p></div>' +
         '<div class="block callout"><h4>Takip / aksiyon</h4><p>' + esc(a.action) + '</p></div>' +
@@ -121,8 +124,10 @@
     var b = state.bulletin;
     var arts = b.articles.filter(function (a) {
       return (state.region === "Tümü" || a.region === state.region) &&
-        (!state.category || a.category === state.category);
+        (!state.category || a.category === state.category) &&
+        (!state.query || [a.title, a.summary, a.impact, a.category].join(" ").toLocaleLowerCase("tr").includes(state.query));
     });
+    document.getElementById("resultCount").textContent = arts.length + " kaynaklı gelişme";
     var html = "";
     ["Türkiye", "Global"].forEach(function (region) {
       var group = arts.filter(function (a) { return a.region === region; });
@@ -169,26 +174,28 @@
     var rv = REVIEW_LABEL[(b.review || {}).status] || REVIEW_LABEL.not_reviewed;
     var highlights = (b.highlights || []).map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("");
     $main.innerHTML =
-      '<header class="issue-head">' +
-        '<div class="issue-date">' + esc(fmtDate(b.date, true)) + '</div>' +
-        '<h1 class="issue-title">' + esc(b.title) + '</h1>' +
-        '<p class="issue-summary">' + esc(b.summary) + '</p>' +
-        '<div class="meta-row">' +
-          '<span class="pill">' + (b.edition === "daily" ? "Tam günlük tarama" : "Seçki, kapsam kısmi") + '</span>' +
-          '<span class="pill ' + rv[1] + '">' + rv[0] + '</span>' +
-          '<span class="pill">' + b.articles.length + ' içerik</span>' +
-        '</div>' +
-        '<div class="window"><strong>Tarama penceresi:</strong> ' + esc(b.window) + '</div>' +
-      '</header>' +
-      (highlights ? '<section class="highlights"><h2>Öne çıkanlar</h2><ul>' + highlights + '</ul></section>' : "") +
-      '<div id="filters"></div><div id="articles"></div>' +
-      '<section class="closing">' +
-        listBlock("Watchlist", b.watchlist, true) +
+      '<section class="hero"><div class="hero-copy">' +
+        '<div class="eyebrow">Daily Media Intelligence <span class="pill">' + (b.edition === "daily" ? "Günlük bülten" : "Editörün seçkisi") + '</span></div>' +
+        '<h1>Gündemi oku.<br><em>Etkisini gör.</em></h1>' +
+        '<p class="hero-intro">Medya dünyasında ne değişti, neden önemli,<br>bir sonraki adım ne olmalı?</p>' +
+        '<div class="hero-meta">' + esc(fmtDate(b.date)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
+      '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></section>' +
+      '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
+      '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
+        '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
+      '<section class="feed"><div class="feed-head"><div><h2>Öne çıkan gelişmeler</h2><p id="resultCount" role="status"></p></div><input type="search" id="search" aria-label="Bu bültende ara" placeholder="Bu bültende ara…"></div>' +
+      '<details class="issue-context"><summary>Bu sayının kapsamı ve denetimi <span class="pill ' + rv[1] + '">' + rv[0] + '</span></summary><div><h3>' + esc(b.title) + '</h3><p>' + esc(b.summary) + '</p><p><strong>Tarama penceresi:</strong> ' + esc(b.window) + '</p></div></details>' +
+      '<div id="articles"></div><section class="closing">' +
         listBlock("Düzeltmeler", b.corrections, true) +
         listBlock("Eksik ve doğrulanamayan kontroller", b.limitations, false) +
         (b.review && b.review.summary ? listBlock("Denetim notu", [b.review.summary], false) : "") +
         (b.proposal ? '<div class="proposal"><strong>Öneri:</strong> ' + esc(b.proposal) + '</div>' : "") +
-      '</section>';
+      '</section></section><aside class="radar"><span class="eyebrow">Radarda</span><h2>Sırada ne var?</h2><p class="muted">Kararları değiştirebilecek sinyaller.</p><ol>' +
+        (b.watchlist || []).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') +
+      '</ol><div class="share-card"><h3>İyi bilgi paylaştıkça değerli.</h3><p>Bu sayıyı ekibinizle paylaşın. Üyelik gerektirmez.</p><button class="btn" id="shareIssue">Bağlantıyı kopyala ↗</button></div></aside></div>';
+    document.getElementById("allIssues").addEventListener("click", function () { document.getElementById("archive").showModal(); });
+    document.getElementById("shareIssue").addEventListener("click", function () { document.getElementById("shareBtn").click(); });
+    document.getElementById("search").addEventListener("input", function () { state.query = this.value.trim().toLocaleLowerCase("tr"); renderArticles(); });
     renderFilters(); bindFilters(); renderArticles();
     if (location.hash) {
       var el = document.getElementById(location.hash.slice(1));

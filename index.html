@@ -21,27 +21,27 @@
           <small>Medya planlama ve satın alma bülteni</small>
         </span>
       </a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a class="current" href="./">Günlük bülten</a>
+        <button id="archiveToggle" type="button" aria-haspopup="dialog">Arşiv</button>
+        <a href="#yontem">Yaklaşımımız</a>
+      </nav>
       <div class="topbar-actions">
-        <button class="btn ghost" id="archiveToggle" type="button" aria-expanded="false">Arşiv</button>
-        <button class="btn ghost" id="shareBtn" type="button">Linki kopyala</button>
+        <span class="access">● Açık erişim</span>
+        <button class="btn ghost" id="shareBtn" type="button">Bülteni paylaş</button>
         <button class="btn ghost icon" id="themeBtn" type="button" aria-label="Tema değiştir"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
       </div>
     </div>
   </header>
 
-  <div class="layout">
-    <aside class="archive" id="archive" aria-label="Bülten arşivi">
-      <h2 class="archive-title">Arşiv</h2>
-      <ul id="archiveList" class="archive-list"></ul>
-    </aside>
-
-    <main id="main" class="content">
-      <p class="loading">Bülten yükleniyor…</p>
-    </main>
-  </div>
-
-  <footer class="footer">
-    <p>Kamuya açık kaynaklardan derlenen özetlerdir. Her haberde kaynak, yayın ve olay tarihi ayrı verilir; tahminler ölçülmüş sonuç olarak sunulmaz.</p>
+  <main id="main" class="layout"><p class="loading">Bülten yükleniyor…</p></main>
+  <dialog id="archive" aria-labelledby="archiveTitle">
+    <div class="dialog-head"><h2 id="archiveTitle">Bülten arşivi</h2><button class="btn" id="archiveClose" autofocus>Kapat ×</button></div>
+    <p class="muted">Geçmiş sayılara göz atın.</p><ul id="archiveList" class="archive-list"></ul>
+  </dialog>
+  <footer class="footer" id="yontem">
+    <div><a class="footer-brand" href="./">media guide</a><p>Haberden içgörüye. İçgörüden karara.</p></div>
+    <div><h2>Yaklaşımımız</h2><p>Veri ve yorum ayrılır. Kaynaklar doğrudan gösterilir. Belirsizlikler saklanmaz.</p><p>Kamuya açık kaynaklardan derlenen özetlerdir. Yayın ve olay tarihi ayrı verilir; tahminler ölçülmüş sonuç olarak sunulmaz.</p></div>
   </footer>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
