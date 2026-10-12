@@ -2,14 +2,27 @@
 
 Bu dosya bültenin nasıl yazılıp denetlendiğini ve yayımlandığını tanımlar. İçerik kuralları `PROMPT.md` içindedir.
 
-## Roller
+## Güncel düzen: karşılaştırma dönemi (12 Ekim 2026'dan itibaren)
+
+| Site | Kim yazar | Klasör | Link |
+|---|---|---|---|
+| **Ana bülten** | Claude (araştırır, yazar, kendi kalite kontrolünü yapar, yayımlar) | kök dizin, `bulletins/` | https://hushere.github.io/media-guide-daily/ |
+| **GPT sürümü** | ChatGPT (aynı içerik kurallarıyla bağımsız) | yalnız `gpt/` | https://hushere.github.io/media-guide-daily/gpt/ |
+
+- Ana kontrol Claude'dadır. Kök dizindeki dosyalar yalnız Claude veya kullanıcının açık onayıyla değişir.
+- ChatGPT yalnız `gpt/` içine yazar; talimatı `gpt/README.md` dosyasındadır.
+- Claude `gpt/` klasörüne yazmaz ve bağımsızlık için kendi bültenini yazmadan önce GPT bültenlerini okumaz.
+- Her gün Claude, `python3 scripts/guard.py` ile Claude dışı commit'lerin kök dizine dokunup dokunmadığını kontrol eder. Dokunduysa commit, tarih ve dosya listesiyle kullanıcıya bildirir ve kendisi geri almaz; kararı kullanıcı verir.
+- Bu dönemde ana bülten tek yazarlıdır: aşağıdaki "Denetçi" adımlarının denetim listesi Claude'un yayın öncesi öz kontrolü olarak uygulanır ve `review.status` alanı `not_reviewed` kalır (bağımsız bir denetim yapılmadığı için).
+
+## Roller (ileride yazar/denetçi düzenine geçilirse)
 
 | Rol | Görev | Yetki |
 |---|---|---|
 | **Yazar** | Araştırır, bülteni taslak olarak yazar | Yalnız `draft/YYYY-MM-DD` dalına yazar |
 | **Denetçi (ana kontrol)** | Taslağı doğrular, düzeltir, onaylar ve yayımlar | `main` dalına yazan tek rol |
 
-Rollerin hangi yapay zekâ tarafından üstlenileceği henüz kesinleşmemiştir. Ana kontrol (denetçi ve `main` dalı) Claude'dadır. Rol dağılımı değişirse yalnız bu tablo güncellenir.
+Rol dağılımı kullanıcı kararıyla değişir; değişirse yalnız bu bölüm güncellenir.
 
 ## Depo düzeni
 
@@ -20,7 +33,9 @@ schema/bulletin.example.json  Bülten JSON örneği ve alan açıklamaları
 bulletins/YYYY-MM-DD.json     Günlük bülten
 bulletins/index.json          Arşiv dizini (betik üretir, elle düzenleme)
 reviews/YYYY-MM-DD.md         Denetim raporu
-scripts/validate.py           Doğrulama ve dizin üretimi
+scripts/validate.py           Doğrulama ve dizin üretimi (--dir gpt/bulletins ile GPT sürümü)
+scripts/guard.py              Ana site dosyalarına Claude dışı değişiklik kontrolü
+gpt/                          GPT sürümü (ChatGPT yazar)
 index.html, assets/           Site (GitHub Pages)
 ```
 

@@ -4,6 +4,7 @@
 Kullanım:
     python3 scripts/validate.py            # tüm bültenleri doğrula + index üret
     python3 scripts/validate.py --check    # yalnız doğrula, dosya yazma
+    python3 scripts/validate.py --dir gpt/bulletins   # GPT klonunun bültenleri
 
 Yalnız Python standart kütüphanesi kullanır. Hata varsa çıkış kodu 1 olur.
 """
@@ -13,8 +14,13 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BULLETINS = ROOT / "bulletins"
-INDEX = BULLETINS / "index.json"
+
+
+def bulletin_dir():
+    """--dir <klasör> verilirse o klasördeki bültenler kullanılır (örn. gpt/bulletins)."""
+    if "--dir" in sys.argv:
+        return (ROOT / sys.argv[sys.argv.index("--dir") + 1]).resolve()
+    return ROOT / "bulletins"
 
 CATEGORIES = {
     "TV & Entertainment", "Dijital & AI", "Ölçüm & Araştırma", "Ajans & Marka",
@@ -108,6 +114,8 @@ def validate(path: Path, data: dict) -> list:
 
 def main():
     check_only = "--check" in sys.argv
+    BULLETINS = bulletin_dir()
+    INDEX = BULLETINS / "index.json"
     files = sorted(p for p in BULLETINS.glob("*.json") if DATE_RE.match(p.stem))
     all_errs = {}
     entries = []
