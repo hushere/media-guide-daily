@@ -168,6 +168,16 @@
     });
   }
 
+  function matchesHTML(b) {
+    var matches = (b.matches || []).slice().sort(function (a, c) {
+      return (a.date + (a.time || "99:99")).localeCompare(c.date + (c.time || "99:99"));
+    });
+    return '<aside class="match-panel" aria-labelledby="matches-title"><div class="match-heading"><div><span class="eyebrow">Spor takvimi · Türkiye saati</span><h2 id="matches-title">Haftanın karşılaşmaları</h2></div><span class="pill">' + matches.length + ' maç</span></div><p class="match-period">' + esc(b.matchesWindow || 'Güncel maç takvimi') + '</p><div class="match-list" tabindex="0" aria-label="Maç listesi">' +
+      (matches.length ? matches.map(function (m) {
+        return '<div class="match-row"><div class="match-date"><time datetime="' + esc(m.date) + '">' + esc(fmtDate(m.date).replace(/ \d{4}$/, '')) + '</time><strong>' + esc(m.time || 'Saat teyitsiz') + '</strong></div><div class="match-info"><span class="match-tournament">' + esc(m.sport) + ' · ' + esc(m.competition) + '</span><h3>' + esc(m.home) + ' <span>–</span> ' + esc(m.away) + '</h3><p class="match-broadcaster">Yayın: ' + esc(m.broadcaster || 'Teyit bekleniyor') + '</p>' + (m.note ? '<p class="match-note">' + esc(m.note) + '</p>' : '') + '<details><summary>Kaynaklar ve planlama etkisi</summary><p>' + esc(m.impact) + '</p>' + (m.sources || []).map(function (source) {return '<a href="' + esc(safeUrl(source.url)) + '" target="_blank" rel="noopener">' + esc(source.name) + ' ↗</a>';}).join(' · ') + '</details></div></div>';
+      }).join('') : '<p class="empty">Bu sayı için doğrulanmış maç kaydı bulunmuyor.</p>') + '</div><p class="match-footnote">' + esc(b.matchNote || 'Saat ve yayıncı bilgileri değişebilir. Son kontrol kaynaklarını açın.') + '</p></aside>';
+  }
+
   function renderBulletin(b) {
     state.bulletin = b; state.region = "Tümü"; state.category = null;
     document.title = fmtDate(b.date) + " · Media Guide Daily GPT";
@@ -179,7 +189,7 @@
         '<h1>Gündemi oku.<br><em>Etkisini gör.</em></h1>' +
         '<p class="hero-intro">Medya dünyasında ne değişti, neden önemli,<br>bir sonraki adım ne olmalı?</p>' +
         '<div class="hero-meta">' + esc(fmtDate(b.date)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
-      '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></section>' +
+      '</div></section><section class="briefing-grid" aria-label="Sayı özeti ve maç takvimi"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' + matchesHTML(b) + '</section>' +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
         '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
@@ -222,3 +232,4 @@
 
   load();
 })();
+

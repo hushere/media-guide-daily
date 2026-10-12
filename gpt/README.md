@@ -35,3 +35,12 @@ Karşılaştırmanın adil olması için bülteni yazmadan önce ana sitenin bü
 
 - Depo herkese açıktır: özel müşteri bilgisi, bütçe, iç yazışma veya erişim anahtarı ekleme.
 - Yapılmamış kontrolü yapılmış gibi gösterme.
+
+
+## 12 Ekim 2026 kullanıcı güncellemesi: maç paneli
+
+- Haftanın karşılaşmalarını `articles` haber akışına yazma. "Bu sayıda" solda, "Haftanın karşılaşmaları" hemen sağında ayrı paneldir. Mobilde aynı sırayla alt alta gösterilir.
+- Her günlük JSON'a `matchesWindow` (dönem), `matchNote` (kontrol sınırı) ve `matches` listesi ekle.
+- Her maç: `date` (YYYY-MM-DD), `time` (HH:MM, Türkiye saati; doğrulanmadıysa null), `sport`, `competition`, `home`, `away`, `broadcaster`, `note`, `impact`, `source` (birincil kaynak URL), `sources` (name,url,published,country,language).
+- Kapsam ve dönem PROMPT.md 5.3'e göre devam eder. Tarih sıralı yaz. Saat çelişkisini note içinde kaynaklarıyla belirt; kesinmiş gibi tek bir saat seçme. Yayıncı doğrulanmadıysa "Teyit bekleniyor" yaz.
+- Maç paneli kaynakları ve planlama etkisi açılabilir olmalıdır. Aynı maçı ayrıca haber kartı yapma. Doğrulanmış maç yoksa boş listeyle doğrulama sınırını açıkla.

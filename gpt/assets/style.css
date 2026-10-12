@@ -414,3 +414,34 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
  .main-nav { gap: 26px; }
  .main-nav a, .main-nav button { font-size: 12px; }
 }
+
+
+/* GPT: highlights on the left, weekly fixtures on the right. */
+.hero { display: block; padding-bottom: 28px; }
+.hero-copy { max-width: 900px; }
+.hero h1 { font-size: clamp(36px,4vw,54px); margin: 18px 0; }
+.hero h1 br { display: none; }
+.hero h1 em { margin-left: 12px; }
+.hero-intro br { display: none; }
+.hero-meta { margin-top: 18px; }
+.briefing-grid { display: grid; grid-template-columns: minmax(0,.85fr) minmax(0,1.35fr); gap: 28px; align-items: stretch; margin: 0 0 36px; }
+.briefing-grid .highlights { align-self: start; }
+.match-panel { min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 7px; padding: 24px; }
+.match-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.match-heading h2 { font-size: 20px; line-height: 1.4; letter-spacing: -.5px; margin: 6px 0; }
+.match-period, .match-footnote { font-size: 11px; color: var(--muted); line-height: 1.7; }
+.match-list { max-height: 430px; overflow: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; padding-right: 8px; overscroll-behavior: contain; }
+.match-row { display: grid; grid-template-columns: 74px minmax(0,1fr); gap: 16px; padding: 17px 0; border-top: 1px solid var(--line); }
+.match-date { display: flex; flex-direction: column; gap: 5px; color: var(--muted); font-size: 11px; }
+.match-date strong { font-size: 17px; color: var(--accent); }
+.match-tournament { color: var(--muted); font-size: 10px; }
+.match-info h3 { font-size: 14px; line-height: 1.6; margin: 4px 0; }
+.match-info h3 span { color: var(--muted); }
+.match-broadcaster { font-size: 11px; margin: 6px 0; color: var(--muted); }
+.match-note { font-size: 11px; color: var(--warn); margin: 5px 0; }
+.match-info details { font-size: 11px; margin-top: 8px; }
+.match-info summary { cursor: pointer; color: var(--accent); }
+.match-info details p { line-height: 1.8; }
+.match-footnote { padding-top: 12px; border-top: 1px solid var(--line); margin-bottom: 0; }
+@media(max-width:860px) { .briefing-grid { grid-template-columns: 1fr; gap: 20px; } .hero h1 br { display: block; } .hero h1 em { margin: 0; } }
+@media(max-width:580px) { .match-panel { padding: 20px 16px; } .match-row { gap: 10px; grid-template-columns: 66px minmax(0,1fr); } .main-nav { gap: 16px; } .match-heading h2 { font-size: 18px; } }

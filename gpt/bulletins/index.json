@@ -1,3 +1,19 @@
 {
-  "bulletins": []
+  "bulletins": [
+    {
+      "date": "2026-10-12",
+      "title": "Hedef kitle ayrımı, AI satın alma ve mecranın yaratıcı gücü",
+      "summary": "İlk bağımsız GPT seçkisi: hafta sonu TV sonuçları, ajans seçimi, commerce ile birleşen içerikler, yaklaşan sinema fırsatı ve Cadbury OOH vakası. 12–18 Ekim maçları ayrı takvim panelinde.",
+      "edition": "selection",
+      "articleCount": 9,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "Sinema",
+        "TV & Entertainment",
+        "Yaratıcı Mecra"
+      ],
+      "review": "not_reviewed"
+    }
+  ]
 }
