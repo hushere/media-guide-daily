@@ -1,0 +1,67 @@
+{
+  "date": "YYYY-MM-DD",
+  "title": "Günün gündemine göre başlık",
+  "summary": "2-3 cümlelik özet.",
+  "edition": "daily | selection",
+  "window": "Gerçek tarama penceresi, Türkiye saatiyle (örn. 12 Ekim 2026 09:46 - 13 Ekim 2026 10:05 TSİ)",
+  "status": "draft | published",
+  "review": {
+    "status": "not_reviewed | approved | approved_with_changes | unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "YYYY-MM-DDTHH:MM+03:00",
+    "summary": "Denetimde ne değişti, tek paragraf.",
+    "reportPath": "reviews/YYYY-MM-DD.md"
+  },
+  "source": {
+    "writer": "Claude | ChatGPT",
+    "note": "İsteğe bağlı"
+  },
+  "articles": [
+    {
+      "id": "alti-ustu-istanbul-kanal-teyidi",
+      "title": "Altı Üstü İstanbul: 12 Ekim dönüşü ATV akışında teyitli",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "12 Ekim 2026, 20.00 (planlanan yayın)",
+      "label": "Kanal teyitli",
+      "summary": "8 Ekim sayısında sektör kaynağıyla aktarılan dönüş, ATV'nin tarihli akışı ve 16. bölüm fragmanlarıyla destekleniyor.",
+      "body": [
+        "Altı Üstü İstanbul | ATV | Önceki bilgi: 12 Ekim dönüşü, henüz kanal teyidi yok | Güncel: 12 Ekim 20.00, 16. bölüm | Durum: kanal teyitli, henüz gerçekleşmiş yayın olarak kaydedilmedi.",
+        "ATV aynı gün 14.00'te 15. bölümü, 20.00'de 16. bölümü listeliyor. Gündüz tekrarını yeni bölüm başlangıcı saymıyoruz; program sayfasında 12 Ekim tarihli 16. bölüm fragmanları bulunuyor."
+      ],
+      "impact": "Pazartesi prime time rekabeti ve ilgili reklam kuşağı rezervasyonları güncel yayın planıyla değerlendirilmelidir.",
+      "action": "Akşam gerçekleşen yayını ve ertesi gün bölüm kaydını kontrol edin; performans değerlendirmesini reklam kuşağı verisiyle tamamlayın.",
+      "counterView": "Akış ve fragman yayın niyetini doğrular; yayının gerçekleştiğini veya izleyici performansını kanıtlamaz.",
+      "sources": [
+        {
+          "name": "ATV • 12 Ekim yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "Yayın tarihi belirtilmiyor; 12 Ekim 2026'da kontrol edildi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ATV • Altı Üstü İstanbul program sayfası",
+          "url": "https://www.atv.com.tr/alti-ustu-istanbul",
+          "published": "12 Ekim 2026 tarihli fragmanlar",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    "..."
+  ],
+  "limitations": [
+    "Eksik veya doğrulanamayan kontroller"
+  ],
+  "corrections": [
+    "Önceki sayılara düzeltmeler"
+  ],
+  "highlights": [
+    "2-3 öne çıkan madde"
+  ],
+  "proposal": "İsteğe bağlı: tek cümlelik 'Öneri:' satırı. Anlamlı öneri yoksa alanı hiç ekleme."
+}
