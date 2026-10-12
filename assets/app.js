@@ -83,6 +83,57 @@
     document.getElementById("archiveList").innerHTML = html || '<li class="empty">Henüz bülten yok.</li>';
   }
 
+  /* Okuma süresi ve okundu takibi (yalnız bu tarayıcıda) */
+  function readMinutes(a) {
+    var txt = [a.summary, a.impact, a.action, a.counterView].concat(a.body || []).join(" ");
+    return Math.max(1, Math.round(txt.split(/\s+/).length / 200));
+  }
+  function readKey() { return "mg-read-" + (state.bulletin ? state.bulletin.date : ""); }
+  function getRead() { try { return JSON.parse(localStorage.getItem(readKey()) || "{}"); } catch (e) { return {}; } }
+  function markRead(id) {
+    var r = getRead(); if (r[id]) return; r[id] = 1;
+    try { localStorage.setItem(readKey(), JSON.stringify(r)); } catch (e) {}
+    var el = document.getElementById(id); if (el) el.classList.add("is-read");
+    updateProgress();
+  }
+  function updateProgress() {
+    var b = state.bulletin; if (!b) return;
+    var r = getRead(), n = b.articles.filter(function (a) { return r[a.id]; }).length;
+    var el = document.getElementById("readProgress");
+    if (el) el.innerHTML = '<span class="rp-bar"><span style="width:' + Math.round(100 * n / b.articles.length) + '%"></span></span>' +
+      n + ' / ' + b.articles.length + ' okundu';
+  }
+  function watchReading() {
+    if (!("IntersectionObserver" in window)) return;
+    var timers = {};
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var id = en.target.id;
+        if (en.isIntersecting) { timers[id] = setTimeout(function () { markRead(id); }, 6000); }
+        else { clearTimeout(timers[id]); }
+      });
+    }, { threshold: 0.6 });
+    state.watching = function () { io.disconnect(); document.querySelectorAll("#articles article.card").forEach(function (c) { io.observe(c); }); };
+    state.watching();
+    document.getElementById("articles").addEventListener("toggle", function (e) {
+      if (e.target.open) { var c = e.target.closest("article"); if (c) markRead(c.id); }
+    }, true);
+  }
+
+  /* Önceki / sonraki sayı */
+  function issueNavHTML(b) {
+    var i = state.index.findIndex(function (x) { return x.date === b.date; });
+    if (i < 0) return "";
+    var newer = state.index[i - 1], older = state.index[i + 1];
+    function cell(x, dir) {
+      if (!x) return '<span class="in-cell empty"></span>';
+      return '<a class="in-cell ' + dir + '" href="?tarih=' + x.date + '"><span class="in-dir">' + (dir === "prev" ? "← Önceki sayı" : "Sonraki sayı →") + '</span>' +
+        '<strong>' + esc(fmtDate(x.date, true)) + '</strong><span class="in-title">' + esc(x.title) + '</span></a>';
+    }
+    if (!newer && !older) return "";
+    return '<nav class="issue-nav" aria-label="Sayılar arası geçiş">' + cell(older, "prev") + cell(newer, "next") + '</nav>';
+  }
+
   /* Kategori görsel yedeği: haberde görsel yoksa ya da yüklenemezse */
   var CAT_ICON = {
     "TV & Entertainment": '<rect x="6" y="10" width="36" height="24" rx="3"/><path d="M18 40h12M24 34v6"/>',
@@ -126,12 +177,12 @@
       return '<li><a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' +
         '<span class="s-meta">' + esc(s.published) + ' · ' + esc(s.country) + ' · ' + esc(s.language) + '</span></li>';
     }).join("");
-    return '<article class="card' + (i === 0 ? (a.image && a.image.url ? ' featured' : ' lead') : '') + '" id="' + esc(a.id) + '" data-fallback="' + esc(fallbackVisual(a)) + '">' +
+    return '<article class="card' + (getRead()[a.id] ? ' is-read' : '') + (i === 0 ? (a.image && a.image.url ? ' featured' : ' lead') : '') + '" id="' + esc(a.id) + '" data-fallback="' + esc(fallbackVisual(a)) + '">' +
       visualHTML(a) +
       '<div class="card-main">' +
         '<div class="card-tags">' + tags + '</div>' +
         '<h3>' + esc(a.title) + '</h3>' +
-        '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + '</div>' +
+        '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + ' · ' + readMinutes(a) + ' dk okuma<span class="read-mark">✓ Okundu</span></div>' +
         '<p class="summary">' + esc(a.summary) + '</p>' +
         '<div class="kv"><h4>Ne değişti?</h4>' + bullets(preview, "facts") + '</div>' +
         '<div class="kv why"><h4>Neden önemli?</h4><p>' + esc(a.impact) + '</p></div>' +
@@ -184,7 +235,7 @@
         (!state.category || a.category === state.category) &&
         (!state.query || [a.title, a.summary, a.impact, a.action, a.category].concat(a.body || []).join(" ").toLocaleLowerCase("tr").includes(state.query));
     });
-    document.getElementById("resultCount").textContent = arts.length + " kaynaklı gelişme";
+    document.getElementById("resultCount").textContent = arts.length + " kaynaklı gelişme · toplam " + arts.reduce(function (t, a) { return t + readMinutes(a); }, 0) + " dk okuma";
     var html = "";
     ["Türkiye", "Global"].forEach(function (region) {
       var group = arts.filter(function (a) { return a.region === region; });
@@ -196,6 +247,7 @@
         '</h2><span>' + group.length + ' içerik</span></div><div class="card-grid">' + group.map(function (a, i) { return articleHTML(a, i); }).join("") + '</div>';
     });
     document.getElementById("articles").innerHTML = html || '<p class="empty">Bu filtrede içerik yok.</p>';
+    if (state.watching) state.watching();
   }
 
   function renderFilters() {
@@ -282,20 +334,20 @@
       socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
         '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
-      '<section class="feed"><div class="feed-head"><div><h2>Öne çıkan gelişmeler</h2><p id="resultCount" role="status"></p></div><input type="search" id="search" aria-label="Bu bültende ara" placeholder="Bu bültende ara…"></div>' +
+      '<section class="feed"><div class="feed-head"><div><h2>Öne çıkan gelişmeler</h2><p id="resultCount" role="status"></p><p id="readProgress" class="read-progress"></p></div><input type="search" id="search" aria-label="Bu bültende ara" placeholder="Bu bültende ara…"></div>' +
       '<details class="issue-context"><summary>Bu sayının kapsamı ve denetimi <span class="pill ' + rv[1] + '">' + rv[0] + '</span></summary><div><h3>' + esc(b.title) + '</h3><p>' + esc(b.summary) + '</p><p><strong>Tarama penceresi:</strong> ' + esc(b.window) + '</p></div></details>' +
       '<div id="articles"></div><section class="closing">' +
         listBlock("Düzeltmeler", b.corrections, true) +
         listBlock("Eksik ve doğrulanamayan kontroller", b.limitations, false) +
         (b.review && b.review.summary ? listBlock("Denetim notu", [b.review.summary], false) : "") +
         (b.proposal ? '<div class="proposal"><strong>Öneri:</strong> ' + esc(b.proposal) + '</div>' : "") +
-      '</section></section><aside class="radar"><span class="eyebrow">Radarda</span><h2>Sırada ne var?</h2><p class="muted">Kararları değiştirebilecek sinyaller.</p><ol>' +
+      '</section>' + issueNavHTML(b) + '</section><aside class="radar"><span class="eyebrow">Radarda</span><h2>Sırada ne var?</h2><p class="muted">Kararları değiştirebilecek sinyaller.</p><ol>' +
         (b.watchlist || []).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') +
       '</ol><div class="share-card"><h3>İyi bilgi paylaştıkça değerli.</h3><p>Bu sayıyı ekibinizle paylaşın. Üyelik gerektirmez.</p><button class="btn" id="shareIssue">Bağlantıyı kopyala ↗</button></div></aside></div>';
     document.getElementById("allIssues").addEventListener("click", function () { document.getElementById("archive").showModal(); });
     document.getElementById("shareIssue").addEventListener("click", function () { document.getElementById("shareBtn").click(); });
     document.getElementById("search").addEventListener("input", function () { state.query = this.value.trim().toLocaleLowerCase("tr"); renderArticles(); });
-    renderFilters(); bindFilters(); renderArticles();
+    renderFilters(); bindFilters(); renderArticles(); updateProgress(); watchReading();
     if (location.hash) {
       var el = document.getElementById(location.hash.slice(1));
       if (el) { var d = el.querySelector("details"); if (d) d.open = true; el.scrollIntoView(); }
@@ -318,6 +370,15 @@
       $main.innerHTML = '<p class="empty">Arşiv yüklenemedi. Sayfayı yenilemeyi deneyin.</p>';
     });
   }
+
+  /* Sayfa okuma çubuğu */
+  (function () {
+    var bar = document.createElement("div"); bar.className = "scroll-bar"; document.body.appendChild(bar);
+    window.addEventListener("scroll", function () {
+      var h = document.documentElement.scrollHeight - innerHeight;
+      bar.style.transform = "scaleX(" + (h > 0 ? Math.min(1, scrollY / h) : 0) + ")";
+    }, { passive: true });
+  })();
 
   load();
 })();

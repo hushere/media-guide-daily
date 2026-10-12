@@ -155,7 +155,8 @@ Sitedeki her kart üç hızlı okuma alanıyla gösterilir: **Ne değişti?** (`
 ### Haber görselleri (13 Ekim 2026 güncellemesi)
 
 - Her haber için mümkünse `image` alanı ekle: `url` (görselin doğrudan https adresi), `alt` (görselde ne olduğu), `credit` (görsel sahibi/yayıncı), `sourceUrl` (görselin alındığı sayfa).
-- Kaynak önceliği: (1) haberin konusu olan şirket, kanal, platform, dağıtımcı veya kurumun resmî basın/haber sayfasındaki görsel; (2) haberin birincil kaynağı olan yayının paylaşım görseli (og:image). Görseli indirme veya depoya kopyalama; yalnız bağlantısını ver ve kredisini yaz.
+- Kaynak: haberin birincil kaynağındaki görsel (paylaşım görseli/og:image veya haber içi ana görsel) ya da konunun resmî basın görseli. Site yalnız iş arkadaşlarıyla paylaşılan bir iç kaynak olarak kullanılır; kullanıcı haber görsellerinin kredili kullanımını onayladı (12 Ekim 2026). Görseli indirme veya depoya kopyalama; yalnız bağlantısını ver, kredisini ve kaynak sayfasını yaz.
+- Her haberde görsel bulmaya çalış; bulunamazsa `limitations` içinde kaç haberde görsel eklenemediğini tek satırla belirt.
 - Görsel haberin konusunu göstermiyorsa (genel stok görsel, logo dışı alakasız fotoğraf) veya doğrudan adresi doğrulanamıyorsa alanı ekleme; site kategori görselini otomatik kullanır. Görsel uydurma, yapay zekâyla görsel üretme.
 - Kişilerin özel fotoğraflarını, sosyal medya hesaplarından kişisel görselleri ve çocuk görüntülerini kullanma.
 

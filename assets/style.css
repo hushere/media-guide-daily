@@ -505,3 +505,31 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
 .soc-src:hover { color: var(--accent); }
 @media (max-width: 1190px) { .card-grid { grid-template-columns: minmax(0, 1fr); } .card-grid .card.featured { display: flex; } .card.featured .card-visual { aspect-ratio: 16 / 9; } }
 @media (max-width: 580px) { .soc-head { flex-direction: column; align-items: flex-start; } .soc-note { text-align: left; } .soc-list { grid-auto-columns: 78%; } }
+
+/* Okuma deneyimi: ilerleme, okundu, sayılar arası geçiş */
+.scroll-bar { position: fixed; top: 0; left: 0; right: 0; height: 3px; background: var(--accent); transform-origin: 0 50%; transform: scaleX(0); z-index: 50; pointer-events: none; }
+.read-progress { display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--muted); margin: 6px 0 0; }
+.rp-bar { width: 90px; height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; display: inline-block; }
+.rp-bar span { display: block; height: 100%; background: var(--ok); transition: width .3s; }
+.read-mark { display: none; margin-left: 8px; color: var(--ok); font-weight: 600; }
+.card.is-read .read-mark { display: inline; }
+.card.is-read .card-visual { opacity: .78; }
+.card-grid .card { transition: box-shadow .15s, transform .15s; }
+.card-grid .card:hover { box-shadow: 0 6px 22px rgba(20, 24, 31, .08); transform: translateY(-1px); }
+.issue-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 32px; }
+.in-cell { display: flex; flex-direction: column; gap: 4px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); text-decoration: none; color: var(--text); }
+.in-cell.next { text-align: right; }
+.in-cell:hover { border-color: var(--accent); }
+.in-cell.empty { border: 0; background: none; }
+.in-dir { font-size: 11px; color: var(--accent); font-weight: 600; }
+.in-cell strong { font-size: 14px; }
+.in-title { font-size: 12px; color: var(--muted); line-height: 1.5; }
+/* Boşluk ayarları: üst bölüm daha sıkı, akış daha ferah */
+.layout { padding-top: 32px; }
+.hero { padding-bottom: 32px; gap: 40px; }
+.hero-left { gap: 20px; }
+.edition-bar { margin-bottom: 28px; }
+.social { margin-bottom: 36px; }
+.card-grid { gap: 20px; }
+@media (max-width: 580px) { .issue-nav { grid-template-columns: 1fr; } .in-cell.next { text-align: left; } .layout { padding-top: 20px; } }
+@media (prefers-reduced-motion: reduce) { .card-grid .card, .rp-bar span { transition: none; } .card-grid .card:hover { transform: none; } }
