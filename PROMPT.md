@@ -121,6 +121,16 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 - Doğrulanabilir güçlü vaka bulunamazsa örnek uydurma veya önceki vakayı tekrar kullanma.
 - Bölümün sonunda tek bir kısa tartışma sorusu sor: vaka hangi marka veya kategoriye uyarlanabilir?
 
+### 5.6 Dijital gündem: sosyal medyada konuşulanlar ve en çok izlenenler (13 Ekim 2026 eklemesi)
+
+- Her bültende Türkiye'de dijital ve sosyal platformlarda öne çıkan içerik ve konuları kontrol et; sonuçları bültenin `social` alanına yaz. Sitede bülten akışının üstünde ayrı bir şerit olarak görünür.
+- Öncelikli kaynaklar (yalnız platformun kendi veya resmî listeleri): Netflix Top 10 (Türkiye, haftalık), YouTube'un Türkiye listeleri/trend sayfaları, TikTok Creative Center (Türkiye trend hashtag/şarkı/video), Google Trends Türkiye günlük aramalar, Spotify Türkiye listeleri, Disney+/Prime Video gibi platformların kendi Top 10 listeleri. X gündemi için resmî bir liste erişilebilir değilse üçüncü taraf trend sitelerini yalnız "sinyal" olarak, kaynağını açıkça yazarak kullan.
+- Medya açısından anlamlı olanları seç: marka/reklam içeren viral içerikler, kampanyalar, diziler ve programlar, genç kitle trendleri, rakip markaların sosyal hareketleri. Siyasi, kişisel veya hassas gündemleri ve özel kişileri listeleme.
+- Her öğe: `platform`, `type`, varsa `rank`, `title`, kaynağın verdiği `metric` (kaynak adıyla; yoksa alanı ekleme, sayı uydurma), tek cümle `whyItMatters`, doğrudan `url`, `source`, liste tarihi `published`.
+- `note` alanına bu listelerin neyi ölçtüğünü yaz (örn. "platform sıralamasıdır; erişim veya reklam etkisi ölçümü değildir"). En fazla 8 öğe.
+- Bir platforma erişilemezse o platformu listeleme ve `limitations` içinde belirt. Erişilebilir hiçbir kaynak yoksa `social` alanını ekleme.
+- Önemli bir sosyal gelişme ayrıca haber değerindeyse (ör. platform kuralı değişikliği, büyük bir marka krizi) `Dijital & AI` kategorisinde normal haber kartı da yazılabilir.
+
 ## 6. Haber yapısı ve editoryal standart
 
 Her haber şu yapıda olur:
@@ -131,6 +141,23 @@ Her haber şu yapıda olur:
 5. Takip/aksiyon: Planner/buyer neyi takip etmeli veya değiştirmeli?
 6. Counter-View: gerçek bir alternatif açıklama, metodolojik sınır veya risk (özellikle hype yaratan gelişmelerde)
 7. Gerekirse öğrenme notu (yeni kavramlar için)
+
+### Okunabilirlik ve yazım biçimi (13 Ekim 2026 güncellemesi)
+
+Sitedeki her kart üç hızlı okuma alanıyla gösterilir: **Ne değişti?** (`body` maddeleri), **Neden önemli?** (`impact`), **Ne yapmalı?** (`action`). Bu yüzden:
+- `summary`: tek cümle, en fazla ~25 kelime. Haberi bilmeyen biri için "ne oldu" sorusunu yanıtlar.
+- `body`: 2-5 madde. Her madde tek bir olgu, en fazla ~25 kelime. Paragraf yazma, maddeye birden fazla bilgi sıkıştırma. En önemli olgu ilk maddede. İlk 3 madde kartta görünür, gerisi "Detay" altına iner.
+- Sayı, tarih ve saat varsa maddenin başına yakın yaz; kaynağı belirsizse belirt.
+- TV takvim satırlarını ("Yapım | Kanal | Önceki plan | ...") tek madde yerine anlamlı parçalara böl: ör. "Önceki bilgi: ...", "Güncel durum: ...", "Kaynak: ...".
+- `impact`: 1-2 kısa cümle. `action`: emir kipiyle tek cümle, somut. `counterView`: 1-2 cümle.
+- Doğrulama sınırlarını gizleme, ama uzun açıklamaları `limitations` alanına taşı; kartı yalnız gerekli uyarıyla bırak.
+
+### Haber görselleri (13 Ekim 2026 güncellemesi)
+
+- Her haber için mümkünse `image` alanı ekle: `url` (görselin doğrudan https adresi), `alt` (görselde ne olduğu), `credit` (görsel sahibi/yayıncı), `sourceUrl` (görselin alındığı sayfa).
+- Kaynak önceliği: (1) haberin konusu olan şirket, kanal, platform, dağıtımcı veya kurumun resmî basın/haber sayfasındaki görsel; (2) haberin birincil kaynağı olan yayının paylaşım görseli (og:image). Görseli indirme veya depoya kopyalama; yalnız bağlantısını ver ve kredisini yaz.
+- Görsel haberin konusunu göstermiyorsa (genel stok görsel, logo dışı alakasız fotoğraf) veya doğrudan adresi doğrulanamıyorsa alanı ekleme; site kategori görselini otomatik kullanır. Görsel uydurma, yapay zekâyla görsel üretme.
+- Kişilerin özel fotoğraflarını, sosyal medya hesaplarından kişisel görselleri ve çocuk görüntülerini kullanma.
 
 Kurallar:
 - Veri, şirket/kaynak yorumu ve kendi analitik çıkarımını ayır.
@@ -144,7 +171,8 @@ Kurallar:
 Uygun olduğunda şu bölümleri kullan; anlamlı doğrulanmış içerik yoksa kısa bir durum satırı ver veya bölümü ekleme, dolgu haber üretme:
 
 1. Başlık (günün gündemine göre), özet, tarama penceresi, sürüm (tam/seçki)
-2. Türkiye: TV & Entertainment, Rakip Marka Gelişmeleri, Ajans & Marka, diğer yerel gelişmeler
+2. Dijital gündem şeridi (`social`, bölüm 5.6)
+3. Türkiye: TV & Entertainment, Rakip Marka Gelişmeleri, Ajans & Marka, diğer yerel gelişmeler
 3. Global
 4. Research & Reports
 5. Campaign / Case Study
@@ -176,6 +204,8 @@ Yayımlamadan önce kontrol et:
 - Türkiye/Global ayrımı ve coğrafi çeşitlilik
 - Veri/yorum ayrımı
 - Her önemli haberde somut planlama etkisi
+- Biçim: `summary` tek cümle, `body` kısa maddeler, `action` tek somut cümle
+- Görseller haberin konusuyla ilgili, kredili ve doğrudan https adresli; `social` öğelerinde metrikler kaynaklı ve uydurma değil
 
 Yapılmamış kontrollerin tamamlandığını iddia etme.
 

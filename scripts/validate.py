@@ -96,6 +96,19 @@ def validate(path: Path, data: dict) -> list:
     if matches and not nonempty_str(data.get("matchesWindow")):
         errs.append("matches varsa matchesWindow (kapsanan tarih aralığı) gerekli")
 
+    soc = data.get("social")
+    if soc is not None:
+        if not isinstance(soc, dict) or not isinstance(soc.get("items"), list):
+            errs.append("social {window, note, items[]} biçiminde olmalı")
+        else:
+            for i, it in enumerate(soc["items"]):
+                tag = f"social.items[{i}]"
+                for k in ("platform", "title", "url", "source"):
+                    if not nonempty_str(it.get(k)):
+                        errs.append(f"{tag}: {k} eksik")
+                if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
+                    errs.append(f"{tag}: url https:// ile başlamalı")
+
     arts = data["articles"]
     if not isinstance(arts, list) or not arts:
         errs.append("articles boş olamaz")
@@ -122,6 +135,12 @@ def validate(path: Path, data: dict) -> list:
                 errs.append(f"{tag}: {k} boş olamaz")
         if not isinstance(a["body"], list) or not all(nonempty_str(x) for x in a["body"]) or not a["body"]:
             errs.append(f"{tag}: body boş olmayan metin listesi olmalı")
+        img = a.get("image")
+        if img is not None:
+            if not isinstance(img, dict) or not nonempty_str(img.get("url")) or not img["url"].startswith("https://"):
+                errs.append(f"{tag}: image.url https:// ile başlamalı")
+            elif not nonempty_str(img.get("credit")) or not nonempty_str(img.get("sourceUrl")):
+                errs.append(f"{tag}: image için credit ve sourceUrl zorunlu")
         srcs = a["sources"]
         if not isinstance(srcs, list) or not srcs:
             errs.append(f"{tag}: en az bir kaynak gerekli")

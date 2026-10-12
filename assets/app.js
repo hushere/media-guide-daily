@@ -83,34 +83,91 @@
     document.getElementById("archiveList").innerHTML = html || '<li class="empty">Henüz bülten yok.</li>';
   }
 
-  function articleHTML(a) {
+  /* Kategori görsel yedeği: haberde görsel yoksa ya da yüklenemezse */
+  var CAT_ICON = {
+    "TV & Entertainment": '<rect x="6" y="10" width="36" height="24" rx="3"/><path d="M18 40h12M24 34v6"/>',
+    "Rekabet": '<path d="M8 38l10-12 8 6 14-18"/><path d="M32 14h8v8"/>',
+    "Ajans & Marka": '<circle cx="24" cy="24" r="14"/><path d="M24 14v20M14 24h20"/>',
+    "Dijital & AI": '<rect x="10" y="10" width="28" height="28" rx="4"/><path d="M18 18h12v12H18zM24 4v6M24 38v6M4 24h6M38 24h6"/>',
+    "Ölçüm & Araştırma": '<path d="M10 38V22M20 38V12M30 38V26M40 38V16"/>',
+    "Etkinlik": '<rect x="8" y="12" width="32" height="28" rx="3"/><path d="M8 20h32M16 8v8M32 8v8"/>',
+    "Spor": '<circle cx="24" cy="24" r="15"/><path d="M24 9v30M9 24h30"/>',
+    "Sinema": '<rect x="8" y="14" width="32" height="22" rx="2"/><path d="M8 20h32M14 14l4 6M22 14l4 6M30 14l4 6"/>',
+    "Yaratıcı Mecra": '<path d="M24 6l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1z"/>'
+  };
+  function domainOf(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return ""; } }
+  function fallbackVisual(a) {
+    var src = (a.sources || [])[0];
+    return '<div class="card-visual fallback cat-' + (CATEGORY_ORDER.indexOf(a.category) + 1) + '" aria-hidden="true">' +
+      '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' + (CAT_ICON[a.category] || "") + '</svg>' +
+      '<span class="fv-cat">' + esc(a.category) + '</span>' +
+      (src ? '<span class="fv-src">' + esc(domainOf(src.url)) + '</span>' : '') + '</div>';
+  }
+  function visualHTML(a) {
+    var img = a.image;
+    if (!img || !/^https:\/\//.test(img.url || "")) return fallbackVisual(a);
+    return '<figure class="card-visual has-img"><img src="' + esc(img.url) + '" alt="' + esc(img.alt || "") + '" loading="lazy" referrerpolicy="no-referrer" ' +
+      'onerror="var c=this.closest(\'article\');if(c.classList.contains(\'featured\')){c.classList.remove(\'featured\');c.classList.add(\'lead\');}this.closest(\'figure\').outerHTML=c.dataset.fallback">' +
+      (img.credit ? '<figcaption>Görsel: ' + (img.sourceUrl ? '<a href="' + esc(safeUrl(img.sourceUrl)) + '" target="_blank" rel="noopener">' + esc(img.credit) + '</a>' : esc(img.credit)) + '</figcaption>' : '') +
+      '</figure>';
+  }
+  function bullets(list, cls) {
+    return '<ul class="' + cls + '">' + list.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>';
+  }
+
+  function articleHTML(a, i) {
     var regionCls = a.region === "Türkiye" ? "tr" : "gl";
     var tags = '<span class="pill ' + regionCls + '">' + esc(a.region) + '</span>' +
       '<span class="pill accent">' + esc(a.category) + '</span>' +
       (a.label ? '<span class="pill warn">' + esc(a.label) + '</span>' : "");
-    var body = (a.body || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
+    var body = a.body || [];
+    var preview = body.slice(0, 3), rest = body.slice(3);
     var sources = (a.sources || []).map(function (s) {
       return '<li><a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' +
         '<span class="s-meta">' + esc(s.published) + ' · ' + esc(s.country) + ' · ' + esc(s.language) + '</span></li>';
     }).join("");
-    return '<article class="card" id="' + esc(a.id) + '">' +
+    return '<article class="card' + (i === 0 ? (a.image && a.image.url ? ' featured' : ' lead') : '') + '" id="' + esc(a.id) + '" data-fallback="' + esc(fallbackVisual(a)) + '">' +
+      visualHTML(a) +
       '<div class="card-main">' +
         '<div class="card-tags">' + tags + '</div>' +
         '<h3>' + esc(a.title) + '</h3>' +
         '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + '</div>' +
         '<p class="summary">' + esc(a.summary) + '</p>' +
-        '<div class="impact-preview"><h4>Planlama etkisi</h4><p>' + esc(a.impact) + '</p></div>' +
-        '<div class="source-preview">' + esc((a.sources || []).length ? a.sources[0].name : 'Kaynak belirtilmedi') + ' · ' + (a.sources || []).length + ' kaynak</div>' +
+        '<div class="kv"><h4>Ne değişti?</h4>' + bullets(preview, "facts") + '</div>' +
+        '<div class="kv why"><h4>Neden önemli?</h4><p>' + esc(a.impact) + '</p></div>' +
+        '<div class="kv act"><h4>Ne yapmalı?</h4><p>' + esc(a.action) + '</p></div>' +
       '</div>' +
-      '<details><summary>Analizi oku <span aria-hidden="true">↗</span></summary><div class="detail">' +
-        '<div class="block"><h4>Gelişme</h4>' + body + '</div>' +
-        '<div class="block callout"><h4>Planner/Buyer açısından</h4><p>' + esc(a.impact) + '</p></div>' +
-        '<div class="block callout"><h4>Takip / aksiyon</h4><p>' + esc(a.action) + '</p></div>' +
+      '<details><summary>Detay ve kaynaklar · ' + (a.sources || []).length + ' kaynak <span aria-hidden="true">↗</span></summary><div class="detail">' +
+        (rest.length ? '<div class="block"><h4>Diğer ayrıntılar</h4>' + bullets(rest, "facts") + '</div>' : "") +
         '<div class="block counter"><h4 lang="en">Counter-View</h4><p>' + esc(a.counterView) + '</p></div>' +
         (a.learning ? '<div class="block learn"><h4>Öğrenme notu</h4><p>' + esc(a.learning) + '</p></div>' : "") +
         '<div class="block"><h4>Kaynaklar</h4><ul class="sources">' + sources + '</ul></div>' +
       '</div></details>' +
     '</article>';
+  }
+
+  /* Dijital gündem: sosyal medyada konuşulanlar ve en çok izlenenler */
+  var PLATFORM_CLS = { "YouTube": "yt", "TikTok": "tt", "Instagram": "ig", "X": "x", "Netflix": "nf", "Google": "gg", "Spotify": "sp", "Disney+": "dp", "Prime Video": "pv" };
+  function socialHTML(b) {
+    var soc = b.social;
+    if (!soc || !soc.items || !soc.items.length) return "";
+    var cards = soc.items.map(function (it) {
+      var cls = PLATFORM_CLS[it.platform] || "other";
+      return '<li class="soc-card">' +
+        '<div class="soc-top"><span class="soc-plat ' + cls + '">' + esc(it.platform) + '</span>' +
+          (it.type ? '<span class="soc-type">' + esc(it.type) + '</span>' : '') +
+          (it.rank ? '<span class="soc-rank">#' + esc(it.rank) + '</span>' : '') + '</div>' +
+        '<h3>' + esc(it.title) + '</h3>' +
+        (it.metric ? '<div class="soc-metric">' + esc(it.metric) + '</div>' : '') +
+        (it.whyItMatters ? '<p>' + esc(it.whyItMatters) + '</p>' : '') +
+        '<a class="soc-src" href="' + esc(safeUrl(it.url)) + '" target="_blank" rel="noopener">' + esc(it.source) + (it.published ? ' · ' + esc(it.published) : '') + ' ↗</a>' +
+      '</li>';
+    }).join("");
+    return '<section class="social" aria-labelledby="socTitle"><div class="soc-head"><div><span class="eyebrow">Dijital gündem</span>' +
+      '<h2 id="socTitle">Sosyal medyada konuşulanlar ve en çok izlenenler</h2>' +
+      (soc.window ? '<p>' + esc(soc.window) + '</p>' : '') + '</div>' +
+      (soc.note ? '<p class="soc-note">' + esc(soc.note) + '</p>' : '') + '</div>' +
+      '<ul class="soc-list">' + cards + '</ul></section>';
   }
 
   function listBlock(title, items, open) {
@@ -125,7 +182,7 @@
     var arts = b.articles.filter(function (a) {
       return (state.region === "Tümü" || a.region === state.region) &&
         (!state.category || a.category === state.category) &&
-        (!state.query || [a.title, a.summary, a.impact, a.category].join(" ").toLocaleLowerCase("tr").includes(state.query));
+        (!state.query || [a.title, a.summary, a.impact, a.action, a.category].concat(a.body || []).join(" ").toLocaleLowerCase("tr").includes(state.query));
     });
     document.getElementById("resultCount").textContent = arts.length + " kaynaklı gelişme";
     var html = "";
@@ -136,7 +193,7 @@
         return CATEGORY_ORDER.indexOf(x.category) - CATEGORY_ORDER.indexOf(y.category);
       });
       html += '<div class="region-head ' + (region === "Türkiye" ? "tr" : "gl") + '"><h2>' + region +
-        '</h2><span>' + group.length + ' içerik</span></div>' + group.map(articleHTML).join("");
+        '</h2><span>' + group.length + ' içerik</span></div><div class="card-grid">' + group.map(function (a, i) { return articleHTML(a, i); }).join("") + '</div>';
     });
     document.getElementById("articles").innerHTML = html || '<p class="empty">Bu filtrede içerik yok.</p>';
   }
@@ -222,6 +279,7 @@
       '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></div>' +
       fixtures + '</section>' +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
+      socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
         '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
       '<section class="feed"><div class="feed-head"><div><h2>Öne çıkan gelişmeler</h2><p id="resultCount" role="status"></p></div><input type="search" id="search" aria-label="Bu bültende ara" placeholder="Bu bültende ara…"></div>' +
