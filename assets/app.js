@@ -326,11 +326,10 @@
       return '<div class="fx-day' + (allExtra ? ' fx-extra-day' : '') + '"><span>' + p[2] + ' ' + MONTHS[p[1] - 1] + '</span> ' + SHORT_DAYS[d.getUTCDay()] +
         (isToday ? ' <span class="fx-today">Bugün</span>' : '') + '</div><ul>' + items + '</ul>';
     }).join("");
-    var hidden = (body.match(/fx-extra/g) || []).length;
-    var more = hidden ? '<button type="button" class="fx-more" onclick="this.closest(\'.fixtures\').classList.add(\'show-all\');this.remove()">Tüm maçlar (' + rows + ') ↓</button>' : "";
-    return '<aside class="fixtures" aria-labelledby="fxTitle"><div class="fx-head"><span class="eyebrow">Spor takvimi</span>' +
-      '<h2 id="fxTitle">Haftanın önemli maçları</h2>' + (b.matchesWindow ? '<p>' + esc(b.matchesWindow) + ' · Türkiye saati</p>' : '') + '</div>' +
-      body + more + '<p class="fx-foot">Tarih, saat ve yayıncı resmî kaynaklardan alınır; teyit edilemeyenler işaretlidir.</p></aside>';
+    return '<div class="fx-wrap"><aside class="fixtures show-all" aria-labelledby="fxTitle"><div class="fx-head"><span class="eyebrow">Spor takvimi</span>' +
+      '<h2 id="fxTitle">Haftanın önemli maçları</h2>' + (b.matchesWindow ? '<p>' + esc(b.matchesWindow) + ' · Türkiye saati · ' + rows + ' maç</p>' : '') + '</div>' +
+      '<div class="fx-scroll" tabindex="0" aria-label="Maç listesi, kaydırılabilir">' + body +
+      '<p class="fx-foot">Tarih, saat ve yayıncı resmî kaynaklardan alınır; teyit edilemeyenler işaretlidir.</p></div></aside></div>';
   }
 
   function renderBulletin(b) {
@@ -340,12 +339,12 @@
     var highlights = (b.highlights || []).map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("");
     var fixtures = fixturesHTML(b);
     $main.innerHTML =
-      '<section class="hero' + (fixtures ? '' : ' no-fixtures') + '"><div class="hero-left"><div class="hero-copy">' +
+      '<section class="hero' + (fixtures ? '' : ' no-fixtures') + '"><div class="hero-copy">' +
         '<div class="eyebrow">Daily Media Intelligence <span class="pill">' + (b.edition === "daily" ? "Günlük bülten" : "Editörün seçkisi") + '</span></div>' +
         '<h1>Gündemi oku. <em>Etkisini gör.</em></h1>' +
         '<div class="hero-meta">' + esc(fmtDate(b.date, true)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
-      '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></div>' +
-      fixtures + '</section>' +
+      '</div><div class="hero-row"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' +
+      fixtures + '</div></section>' +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       weeklyHTML(b) + socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
