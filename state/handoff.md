@@ -6,9 +6,7 @@ Son güncelleme: 13 Ekim 2026, Claude (bülten 2026-10-13 sonrası)
 - Son bülten: 2026-10-13 | Gerçek bilgi kesimi: **13 Ekim 2026 09:45 TSİ** → sonraki pencere buradan başlar.
 
 ## 2. Ertesi güne bırakılan kontroller
-- 12 Ekim (pazartesi) reytingleri kesimde açıklanmamıştı: Total/AB/ABC1; Sevdam Karadeniz (NOW) prömiyeri vs Uzak Şehir, Altı Üstü İstanbul, Evlilik Güzeldir. Kaynak denemesi: TGRT Haber, Sabah, Habergazetesi, Onedio.
-- 13 Ekim (salı) reytingleri: TRT 1 Galatasaray–Barcelona (22.00) akşamında Haysiyet, Anne Yarısı, Tuzlu Kahve.
-- Sevdam Karadeniz ilk 3 bölüm takibi: 1. bölüm 12 Ekim.
+- Reyting takibi 13 Ekim'den itibaren kapsam dışı (kullanıcı kararı); reyting araması yapma.
 - Mehmed: Fetihler Sultanı 13 Ekim yeni bölüm mü tekrar mı? Güneşin Doğduğu Yer (ATV) 00.20 slotu ne anlama geliyor?
 - Yaş doğrulama yönetmeliği: Resmî Gazete metni (10 Ekim) ve uygulama tarihi (1 Kasım mı, yayım tarihi mi?).
 
@@ -48,7 +46,6 @@ Erişilemeyen (o gün deneme, alternatifi kullan):
 Çalışan:
 - trends.google.com/trending?geo=TR (sosyal şerit için tek resmî kaynak)
 - atv.com.tr, showtv.com.tr akış sayfaları; birsenaltuntas.com (ikinci denemede)
-- Reyting: habergazetesi.com.tr, onedio.com (sonuçlar ~10.00-11.30 arası çıkıyor)
 - Global: globenewswire, digiday (bazıları paywall), mediapost, ppc.land, bestmediainfo, adlatina
 - Türkiye: mediacat.com, marketingturkiye.com.tr, gastrofill.com, campaigntr.com
 

@@ -63,7 +63,7 @@ index.html, assets/           Site (GitHub Pages)
    - Veri, kaynak yorumu ve analitik çıkarım ayrılmış mı?
    - Planlama etkisi ve aksiyon somut mu, uydurma mı?
    - Counter-View gerçek bir alternatif açıklama veya sınır mı?
-3. Bölüm kontrolleri: `PROMPT.md` bölüm 8 listesinin tamamı. Özellikle spor (derbi, Avrupa maçları, dışlanan branşlar, yayıncı), TV takvim karşılaştırması ve reyting veri sınırı.
+3. Bölüm kontrolleri: `PROMPT.md` bölüm 8 listesinin tamamı. Özellikle spor (derbi, Avrupa maçları, dışlanan branşlar, yayıncı) ve TV takvim karşılaştırması (reyting takibi 13 Ekim 2026 itibarıyla kapsam dışı).
 4. Eksik kalan önemli konuyu araştırıp ekle veya `limitations` içine yaz. Yanlış bilgiyi düzelt; doğrulanamayan bilgiyi çıkar veya etiketle.
 5. `reviews/YYYY-MM-DD.md` raporunu yaz (şablon aşağıda).
 6. Bülten dosyasında:

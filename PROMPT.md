@@ -30,7 +30,7 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 - Kaynak sırası: (1) resmî şirket/marka/kanal/federasyon/organizasyon açıklamaları, (2) orijinal araştırma yayıncısı, (3) güvenilir sektör yayınları, (4) ajans/platform vaka sayfaları, (5) güvenilir haber kaynakları, (6) sosyal medya yalnız resmî açıklama veya ilk sinyal olarak. Blog ve forumlar keşif sinyalidir, doğrulanmış kanıt değildir.
 - Türkiye kaynak havuzu: Marketing Türkiye, MediaCat, Campaign Türkiye, IAB Türkiye, MMA Türkiye, TİAK, Box Office Türkiye, yayıncılar ve resmî spor organizasyonları. Birsen Altuntaş öncelikli TV kaynaklarındandır; önemli bilgileri kanal, platform, yapım şirketi veya başka güvenilir kaynakla çapraz kontrol et, doğrulanmamış bilgiyi "Kulis" olarak etiketle.
 - Global havuz: WARC, Campaign, Adweek, Ad Age, The Drum, Digiday, Marketing Week, Nielsen, Kantar, GWI, Thinkbox, System1 ve platformların resmî açıklamaları.
-- Konuları Türkçe ve İngilizce sorgularla ara, gerekirse ilgili ülkenin dilinde de ara. Sorguları konuya, tarihe ve ülkeye göre çeşitlendir. Örnek sorgular: medya ajansı müşteri kazandı; TV reytingleri dün Total AB ABC1; retail media network launch; CTV advertising research; attention measurement advertising; media agency account win; chocolate brand campaign Turkey; upcoming cinema releases Turkey; sports schedule Turkey official broadcaster.
+- Konuları Türkçe ve İngilizce sorgularla ara, gerekirse ilgili ülkenin dilinde de ara. Sorguları konuya, tarihe ve ülkeye göre çeşitlendir. Örnek sorgular: medya ajansı müşteri kazandı; retail media network launch; CTV advertising research; attention measurement advertising; media agency account win; chocolate brand campaign Turkey; upcoming cinema releases Turkey; sports schedule Turkey official broadcaster.
 - Başlık/snippet ile yetinme. Sayfayı aç; yayın tarihini, olay tarihini, içeriği ve iddianın asıl kaynağını kontrol et. Erişilemeyen kaynağı taranmış sayma. Paywall varsa belirt.
 - Tarih, saat, yayıncı, yatırım, reyting ve araştırma sonuçlarını mümkünse iki bağımsız kaynaktan doğrula. Aynı basın bültenini kopyalayan iki yayın bağımsız doğrulama değildir.
 - Araştırmalarda ülke, dönem, örneklem, yöntem ve finansman sağlayan kuruluşu incele; erişilemeyen metodolojiyi belirt.
@@ -53,13 +53,9 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 - Kullanıcı düzeltmeleri dahil hiçbir bilgi kontrol edilmeden kesin bilgiye dönüşmez. (Örnek kontrol vakası: "Taşacak Bu Deniz 9 Ekim yerine 2 Ekim'de başladı" türündeki farklar.)
 - "TV haberi yok" sonucuna yalnız bu kontrollerden sonra var. Kaynaklara erişilemediyse "gelişme yok" deme, doğrulama yapılamadığını belirt.
 
-**b) Reyting kontrolü (günlük zorunlu)**
-- Bir önceki yayın gününün Total, AB ve ABC1 sonuçlarını doğrulanabilir ölçüde karşılaştır. Pazartesi bülteninde cuma, cumartesi ve pazar günlerini kapsa.
-- Yalnız sıralama değil; hedef kitle profili, önceki karşılaştırılabilir bölüm/gün ve rekabet açısından anlamını yaz.
-- Yeni dizilerin ilk üç bölümünü izle; yeterli bölüm veya veri yoksa açıkla.
-- Kamuya açık TİAK verisi yoksa ikincil reyting kaynağını TİAK'tan doğrudan edinilmiş gibi sunma.
-- Sonuçlar bilgi kesiminden sonra açıklanıyorsa henüz açıklanmadığını belirt ve sonraki bültende değerlendir. Ön sonuç veya sayısal tahmin kullanma.
-- Reytingi attention ölçümü gibi sunma. Program reytingi ile reklam kuşağı reytingini ayır; attention veya reklam etkisi yorumu yalnız açıkça etiketlenmiş olasılık/yorum olarak yazılabilir.
+**b) Reyting kontrolü: kapsam dışı (13 Ekim 2026, kullanıcı kararı)**
+- Reyting sonuçları (Total, AB, ABC1) bültende takip edilmez ve ayrı haber kartı yapılmaz; kullanıcı bu veriyi kendi raporlarından izliyor. Kullanıcı aksini söyleyene kadar bu kontrol için arama yapma.
+- Bir TV haberinde reyting yalnız haberin kendisi olduğunda anılabilir (ör. bir dizinin düşük reyting gerekçesiyle final kararı); bu durumda veri kaynağını yaz, TİAK'tan doğrudan alınmış gibi sunma ve reytingi attention ölçümü gibi yorumlama.
 
 **c) Diğer TV/entertainment başlıkları:** Yeni diziler, final kararları, yeni programlar, cast ve yapım gelişmeleri, platform içerikleri, sponsorluk ve branded content fırsatları.
 
@@ -201,7 +197,6 @@ Yayımlamadan önce kontrol et:
 - Spor: tarih, saat, yayıncı, dönem ve dışlanan branşlar
 - Şirket/marka ayrımı, Ülker'in rakip olarak etiketlenmemesi
 - Önceki TV takvimi ile gerçekleşen yayınların karşılaştırılması
-- Total/AB/ABC1 veri sınırı
 - Türkiye/Global ayrımı ve coğrafi çeşitlilik
 - Veri/yorum ayrımı
 - Her önemli haberde somut planlama etkisi
