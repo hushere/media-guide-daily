@@ -104,5 +104,18 @@
         "published": "Liste tarihi/dönemi"
       }
     ]
+  },
+  "weekly": {
+    "window": "Yalnız cuma bülteninde: kapsanan hafta (örn. 12-16 Ekim 2026)",
+    "items": [
+      {
+        "title": "Haftanın ana gelişmesi (en fazla 3)",
+        "text": "1-2 cümle: ne oldu, planlama için neden önemli",
+        "ref": "YYYY-MM-DD#haber-id (ilgili sayı ve kart)"
+      }
+    ],
+    "open": [
+      "Hafta içinde açılan ve hâlâ sonuçlanmamış konu"
+    ]
   }
 }

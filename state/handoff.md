@@ -5,6 +5,12 @@ Son güncelleme: 13 Ekim 2026, Claude (bülten 2026-10-13 sonrası)
 ## 1. Pencere
 - Son bülten: 2026-10-13 | Gerçek bilgi kesimi: **13 Ekim 2026 09:45 TSİ** → sonraki pencere buradan başlar.
 
+## 1b. Haftanın gelişmeleri (cuma özeti için; cuma sonrası boşalt)
+- 2026-10-12#pepsico-publicis-veri-yetenegi: PepsiCo, Publicis tercihini veri yetkinliğiyle gerekçelendirdi.
+- 2026-10-13#sosyal-medya-yas-dogrulama-yonetmeligi: 15 yaş sınırı ve e-Devlet yaş doğrulaması; çocuk hesaplarında kişiselleştirilmiş reklam yasak.
+- 2026-10-13#apple-safari-ad-tech-engeli-ilk-kayiplar: Safari ad-tech engeli yeni iOS'ta eCPM'i %10,5 düşürdü.
+- 2026-10-13#pazartesi-prime-time-alti-ustu-sevdam-karadeniz: Sevdam Karadeniz pazartesi 20.00'ye girdi; Altı Üstü İstanbul döndü.
+
 ## 2. Ertesi güne bırakılan kontroller
 - Reyting takibi 13 Ekim'den itibaren kapsam dışı (kullanıcı kararı); reyting araması yapma.
 - Mehmed: Fetihler Sultanı 13 Ekim yeni bölüm mü tekrar mı? Güneşin Doğduğu Yer (ATV) 00.20 slotu ne anlama geliyor?
@@ -25,6 +31,7 @@ Son güncelleme: 13 Ekim 2026, Claude (bülten 2026-10-13 sonrası)
 - 19 Ekim pzt 20.00 Trabzonspor–Beşiktaş; 25 Ekim Barcelona–Real Madrid 23.00 TSİ; 26 Ekim pzt Galatasaray–Fenerbahçe; 25 Ekim voleybol: Fenerbahçe–Eczacıbaşı, VakıfBank–Galatasaray. Millî ara: 12-17 Kasım.
 
 ## 5. Sinema (yalnız cuma kontrol edilir)
+- Arşivde 9 Ekim ve öncesi yok; kullanıcı kararıyla aktarılmayacak (limitations'a her gün yazma).
 - Bildirilen: 6 Kasım → Godzilla Minus Zero, Cinlerin Düğünü (tarih belirsiz) [4 hafta eşiği, 13 Ekim]. 9 Ekim sayısında (arşivde yok): Clayface, Çatlı 2, Şapkalı Kedi, Çakallarla Dans 8.
 - Sıradaki: 13 Kasım → Av. Mahsun Karaca: Ben Sana İnanıyorum (Ö. F. Sorak), Ebenezer (UIP), How to Rob a Bank; 20 Kasım → Hunger Games: Sunrise on the Reaping, Aşk Tesadüfleri Sever 3. Clayface güncel listelerde 23 Ekim.
 

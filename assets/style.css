@@ -533,3 +533,17 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
 .card-grid { gap: 20px; }
 @media (max-width: 580px) { .issue-nav { grid-template-columns: 1fr; } .in-cell.next { text-align: left; } .layout { padding-top: 20px; } }
 @media (prefers-reduced-motion: reduce) { .card-grid .card, .rp-bar span { transition: none; } .card-grid .card:hover { transform: none; } }
+
+/* Cuma: haftanın özeti */
+.weekly { margin: 0 0 36px; }
+.wk-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.wk-card { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 7px; padding: 16px; display: flex; gap: 12px; }
+.wk-num { font-size: 22px; font-weight: 700; color: var(--accent); line-height: 1; }
+.wk-card h3 { font-size: 15px; line-height: 1.4; margin: 0 0 6px; }
+.wk-card p { font-size: 13px; line-height: 1.55; color: var(--muted); margin: 0 0 8px; }
+.wk-ref { font-size: 11px; color: var(--muted); text-decoration: none; }
+.wk-ref:hover { color: var(--accent); }
+.wk-open { margin-top: 14px; background: var(--warn-soft); border-radius: 7px; padding: 12px 16px; }
+.wk-open h3 { font-size: 13px; margin: 0 0 6px; color: var(--warn); }
+.wk-open ul { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.55; }
+@media (max-width: 860px) { .wk-list { grid-template-columns: minmax(0, 1fr); } }

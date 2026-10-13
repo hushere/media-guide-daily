@@ -223,6 +223,14 @@ Yayın, GitHub deposu `hushere/media-guide-daily` üzerinden yapılır. Site: ht
 - **Üst sınırlar:** Global bölümünde en fazla 5 haber. Sinema erken uyarı (5.4 a) ve salon kampanyası (5.4 b) kontrolü yalnız cuma bülteninde yapılır; diğer günlerde yalnız tesadüfen görülen tarih değişikliği veya büyük kampanya haberi eklenir.
 - **Erişilemeyen kaynak:** Bir kaynak açılmazsa (zaman aşımı, izin isteği, robots, paywall, JS ile yüklenen sayfa) tekrar denenmez; alternatif kaynağa geçilir veya doğrudan `limitations` içine yazılır ve `state/handoff.md` içindeki erişim listesine eklenir. Devir notunda "erişilemiyor" diye işaretli kaynaklar o gün denenmez, alternatifi kullanılır. (Yayın/gönderim hatasındaki tek tekrar kuralı bölüm 9'da ayrıca geçerlidir.)
 
+### Cuma: Haftanın özeti (13 Ekim 2026, kullanıcı onaylı)
+
+- Yalnız cuma bülteninde `weekly` alanı yazılır; sitede Dijital gündem şeridinin üstünde gösterilir.
+- `items`: haftanın en önemli 3 gelişmesi. Her biri `title`, 1-2 cümlelik `text` (ne oldu, planlama açısından neden önemli) ve ilgili sayıya bağlantı için `ref` (`YYYY-MM-DD#haber-id`).
+- `open`: hafta içinde açılan ve hâlâ sonuçlanmamış konular (teyit bekleyen yayın tarihleri, kulis bilgileri, beklenen kararlar).
+- Kaynak: `state/handoff.md` içindeki "Haftanın gelişmeleri" listesi ve haftanın bültenleri. Ek web araştırması yapılmaz; yeni bilgi yalnız günün haber kartlarında yer alır.
+- Her gün devir notundaki "Haftanın gelişmeleri" listesine o günün en önemli 1-2 gelişmesi (tarih ve haber id'siyle) eklenir; cuma bülteninden sonra liste boşaltılır.
+
 ## 11. Sınırlar
 
 - Web araştırması ve bu depo dışında ücretli ek API veya hizmet kullanma.

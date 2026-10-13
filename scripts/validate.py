@@ -109,6 +109,19 @@ def validate(path: Path, data: dict) -> list:
                 if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
                     errs.append(f"{tag}: url https:// ile başlamalı")
 
+    wk = data.get("weekly")
+    if wk is not None:
+        if not isinstance(wk, dict) or not isinstance(wk.get("items"), list) or not wk["items"]:
+            errs.append("weekly {window, items[], open[]} biçiminde olmalı")
+        else:
+            if len(wk["items"]) > 3:
+                errs.append("weekly.items en fazla 3 öğe olmalı")
+            for i, it in enumerate(wk["items"]):
+                if not nonempty_str(it.get("title")):
+                    errs.append(f"weekly.items[{i}]: title eksik")
+            if not isinstance(wk.get("open", []), list):
+                errs.append("weekly.open metin listesi olmalı")
+
     arts = data["articles"]
     if not isinstance(arts, list) or not arts:
         errs.append("articles boş olamaz")

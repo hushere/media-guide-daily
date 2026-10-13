@@ -221,6 +221,22 @@
       '<ul class="soc-list">' + cards + '</ul></section>';
   }
 
+  /* Cuma: haftanın özeti */
+  function weeklyHTML(b) {
+    var w = b.weekly;
+    if (!w || !w.items || !w.items.length) return "";
+    var items = w.items.map(function (it, i) {
+      var ref = it.ref ? '<a class="wk-ref" href="?tarih=' + esc(String(it.ref).split("#")[0]) + (String(it.ref).indexOf("#") > -1 ? "#" + esc(String(it.ref).split("#")[1]) : "") + '">İlgili sayı ↗</a>' : "";
+      return '<li class="wk-card"><span class="wk-num">' + (i + 1) + '</span><div><h3>' + esc(it.title) + '</h3>' +
+        (it.text ? '<p>' + esc(it.text) + '</p>' : '') + ref + '</div></li>';
+    }).join("");
+    var open = (w.open || []).length ? '<div class="wk-open"><h3>Açık kalan konular</h3><ul>' +
+      w.open.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join("") + '</ul></div>' : "";
+    return '<section class="weekly" aria-labelledby="wkTitle"><div class="soc-head"><div><span class="eyebrow">Haftanın özeti</span>' +
+      '<h2 id="wkTitle">Bu haftanın 3 ana gelişmesi</h2>' + (w.window ? '<p>' + esc(w.window) + '</p>' : '') + '</div></div>' +
+      '<ol class="wk-list">' + items + '</ol>' + open + '</section>';
+  }
+
   function listBlock(title, items, open) {
     if (!items || !items.length) return "";
     return '<details' + (open ? " open" : "") + '><summary>' + esc(title) +
@@ -331,7 +347,7 @@
       '</div><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside></div>' +
       fixtures + '</section>' +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
-      socialHTML(b) +
+      weeklyHTML(b) + socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
         '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
       '<section class="feed"><div class="feed-head"><div><h2>Öne çıkan gelişmeler</h2><p id="resultCount" role="status"></p><p id="readProgress" class="read-progress"></p></div><input type="search" id="search" aria-label="Bu bültende ara" placeholder="Bu bültende ara…"></div>' +
