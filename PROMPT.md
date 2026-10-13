@@ -221,7 +221,14 @@ Yayın, GitHub deposu `hushere/media-guide-daily` üzerinden yapılır. Site: ht
 - Yayından sonra `main` dalında dosyanın ve `bulletins/index.json` kaydının bulunduğunu doğrula. Bildirimde 2-3 başlık ve o güne özel bağlantıyı ver: https://hushere.github.io/media-guide-daily/?tarih=YYYY-MM-DD
 - Gönderim başarısızsa "yayımlandı" deme. Önce dalı okuyarak işlemin gerçekleşip gerçekleşmediğini kontrol et, geçici hatada bir kez tekrar dene. Sorun sürerse açıkça bildir ve bülteni bildirim içinde ilet. Sonraki çalışmada eksik günü kontrol et.
 
-## 10. Sınırlar
+## 10. Verimlilik ve maliyet kuralları (13 Ekim 2026, kullanıcı onaylı)
+
+- **Günlük devir notu:** Her çalışma işe `state/handoff.md` dosyasını okuyarak başlar ve yayından sonra aynı dosyayı günceller (bilgi kesim saati, ertesi güne bırakılan kontroller, TV takip tablosu, bildirilen sinema eşikleri, kullanılmış yaratıcı vakalar, çalışan/erişilemeyen kaynaklar). Son 5 bülten yalnız devir notunda eksik veya şüpheli bilgi varsa açılır.
+- **Alt ajanlar:** Araştırma alt ajanlarında daha hafif model kullanılır (Agent çağrısında `model: "sonnet"`). Bülten yazımı, karar verme ve bölüm 8 kalite kontrolü ana modelde kalır. Alt ajan sayısı şimdilik değişmez.
+- **Üst sınırlar:** Global bölümünde en fazla 5 haber. Sinema erken uyarı (5.4 a) ve salon kampanyası (5.4 b) kontrolü yalnız cuma bülteninde yapılır; diğer günlerde yalnız tesadüfen görülen tarih değişikliği veya büyük kampanya haberi eklenir.
+- **Erişilemeyen kaynak:** Bir kaynak açılmazsa (zaman aşımı, izin isteği, robots, paywall, JS ile yüklenen sayfa) tekrar denenmez; alternatif kaynağa geçilir veya doğrudan `limitations` içine yazılır ve `state/handoff.md` içindeki erişim listesine eklenir. Devir notunda "erişilemiyor" diye işaretli kaynaklar o gün denenmez, alternatifi kullanılır. (Yayın/gönderim hatasındaki tek tekrar kuralı bölüm 9'da ayrıca geçerlidir.)
+
+## 11. Sınırlar
 
 - Web araştırması ve bu depo dışında ücretli ek API veya hizmet kullanma.
 - Erişim veya onay hatasında kontrolleri aşmaya çalışma.

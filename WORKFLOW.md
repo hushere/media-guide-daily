@@ -13,6 +13,7 @@ Bu dosya bültenin nasıl yazılıp denetlendiğini ve yayımlandığını tanı
 - ChatGPT yalnız `gpt/` içine yazar; talimatı `gpt/README.md` dosyasındadır.
 - Claude `gpt/` klasörüne yazmaz ve bağımsızlık için kendi bültenini yazmadan önce GPT bültenlerini okumaz.
 - Her gün Claude, `python3 scripts/guard.py` ile Claude dışı commit'lerin kök dizine dokunup dokunmadığını kontrol eder. Dokunduysa commit, tarih ve dosya listesiyle kullanıcıya bildirir ve kendisi geri almaz; kararı kullanıcı verir.
+- **Devir notu (13 Ekim 2026'dan itibaren):** Claude her çalışmada önce `state/handoff.md` dosyasını okur; günlük talimattaki "son 5 bülteni oku" adımının yerine geçer (bülten dosyaları yalnız gerektiğinde açılır). Bülten yayımlandıktan sonra devir notu güncellenir ve bülten dosyalarıyla aynı commit'e eklenir. Dosya en fazla ~150 satır tutulur; eskiyen satırlar silinir.
 - Bu dönemde ana bülten tek yazarlıdır: aşağıdaki "Denetçi" adımlarının denetim listesi Claude'un yayın öncesi öz kontrolü olarak uygulanır ve `review.status` alanı `not_reviewed` kalır (bağımsız bir denetim yapılmadığı için).
 
 ## Roller (ileride yazar/denetçi düzenine geçilirse)
@@ -33,6 +34,7 @@ schema/bulletin.example.json  Bülten JSON örneği ve alan açıklamaları
 bulletins/YYYY-MM-DD.json     Günlük bülten
 bulletins/index.json          Arşiv dizini (betik üretir, elle düzenleme)
 reviews/YYYY-MM-DD.md         Denetim raporu
+state/handoff.md              Günlük devir notu (bir sonraki çalışmanın hafızası)
 scripts/validate.py           Doğrulama ve dizin üretimi (--dir gpt/bulletins ile GPT sürümü)
 scripts/guard.py              Ana site dosyalarına Claude dışı değişiklik kontrolü
 gpt/                          GPT sürümü (ChatGPT yazar)
