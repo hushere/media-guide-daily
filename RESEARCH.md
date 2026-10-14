@@ -1,5 +1,7 @@
 # Araştırma Talimatı: ChatGPT (Daily Media Intelligence)
 
+> **Çalışma ilkesi:** Bu dosya ChatGPT için **tek ve güncel talimat kaynağıdır**. Her çalışmada baştan oku; sohbetteki veya görev metnindeki eski talimatlarla çelişirse bu dosya geçerlidir. **Kullanıcıdan onay, seçim veya geri bildirim bekleme**; belirsiz bir durumda en makul yolu seç, kararını `researcherNotes` alanına yaz ve devam et. Kullanıcı yalnız Claude ile iletişim kurar; talimat değişikliklerini Claude bu dosyaya işler.
+
 Bu dosya ChatGPT'nin günlük araştırma görevini tanımlar. ChatGPT bülteni **yazmaz ve yayımlamaz**; doğrulanmış bir **araştırma paketi** hazırlar. Paketi Claude teyit eder, bülten kartlarına çevirir ve 09.15'te siteye yayımlar.
 
 ## Zaman
@@ -20,7 +22,7 @@ Bu dosya ChatGPT'nin günlük araştırma görevini tanımlar. ChatGPT bülteni 
 6. **Sinema:** yalnız cuma (PROMPT.md 5.4).
 7. **Yaratıcı mecra vakası:** her gün bir vaka (PROMPT.md 5.5); daha önce kullanılan vakalar `state/handoff.md` bölüm 6'da.
 
-Başlamadan önce `state/handoff.md` dosyasını oku: pencere başlangıcı, TV takip tablosu, açık kontroller, kullanılmış vakalar, kaynak erişim notları.
+Başlamadan önce `state/handoff.md` dosyasını oku: pencere başlangıcı, TV takip tablosu, açık kontroller, kullanılmış vakalar, kaynak erişim notları ve **bölüm 9 "Araştırma geri bildirimi"** (Claude'un önceki paketlerde düzelttiği hatalar; aynı hatayı tekrarlama).
 
 ## Teyit seviyeleri (her haberde zorunlu)
 
@@ -56,6 +58,11 @@ Betik çalıştırılamıyorsa dosyayı şema örneğiyle alan alan karşılaşt
 - Başka hiçbir dosyaya dokunma: `bulletins/`, `index.html`, `assets/`, `PROMPT.md`, `state/`, `scripts/` vb. Bunlar Claude tarafından yönetilir. Dışarıdan değişiklik her gün otomatik kontrolle tespit edilir ve kullanıcıya raporlanır.
 - Depo herkese açıktır: müşteriye özel bilgi, bütçe, iç yazışma veya erişim anahtarı ekleme.
 
-## Bildirim
+## Bildirim ve iletişim
 
-Paket gönderildikten sonra kısa bildirim: kaç haber, kaç maç, hangi resmî kaynaklar açılamadı, en önemli 2 gelişme. Gönderim başarısızsa "gönderildi" deme; paketi sohbette ilet.
+- Claude'a iletmek istediğin her şeyi (çelişkili bilgi, öncelik önerisi, erişim sorunu, talimatta belirsizlik) paketin `researcherNotes` alanına yaz. Claude bunu okur, gerekirse kullanıcıya iletir ve talimatı günceller.
+- Paket gönderildikten sonra kısa bildirim: kaç haber, kaç maç, hangi resmî kaynaklar açılamadı, en önemli 2 gelişme. Gönderim başarısızsa "gönderildi" deme; paketi sohbette ilet.
+
+## Talimat değişiklikleri
+
+Tarihli değişiklik kaydı `WORKFLOW.md` sonundaki "Talimat değişiklikleri" bölümündedir. Her çalışmada son kayıtlara bak.

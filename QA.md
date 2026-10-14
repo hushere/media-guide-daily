@@ -1,11 +1,17 @@
 # Günlük Site Kontrolü: Antigravity
 
+> **Çalışma ilkesi:** Bu dosya Antigravity için **tek ve güncel talimat kaynağıdır**. Her çalışmada baştan oku; sohbetteki eski talimatlarla çelişirse bu dosya geçerlidir. **Kullanıcıdan onay veya seçim bekleme**; kontrolü yap, raporu yaz, gönder. Belirsiz bir durumu raporun "Diğer notlar" bölümüne yaz. Kullanıcı yalnız Claude ile iletişim kurar; talimat değişikliklerini Claude bu dosyaya işler.
+
 Antigravity her iş günü, bülten 09.15'te yayımlandıktan sonra siteyi kontrol eder ve sonucu bir rapor olarak depoya yazar. Claude ertesi sabah bu raporu okur ve teknik hataları düzeltir.
 
 ## Ne zaman
 
 - Hafta içi, 09.15'ten sonra (önerilen: 09.30 - 10.00 arası).
 - Antigravity kullanıcının bilgisayarında çalışır; bilgisayar kapalıysa o gün kontrol yapılmaz. Bu bir hata sayılmaz; rapor yoksa Claude devam eder.
+
+## Başlamadan önce
+
+`state/handoff.md` dosyasındaki bölüm 10 "QA geri bildirimi" kısmını oku: Claude'un önceki raporlara göre düzelttikleri, yanlış alarm olarak işaretledikleri ve özellikle kontrol edilmesini istedikleri burada.
 
 ## Kontrol listesi
 
@@ -51,3 +57,7 @@ Günün bülteni: https://hushere.github.io/media-guide-daily/?tarih=YYYY-MM-DD
 ```
 
 "Kritik sorun": bülten açılmıyor, sayfa boş, günün tarihi yanlış, ya da kartların yarısından fazlası bozuk.
+
+## Talimat değişiklikleri
+
+Tarihli değişiklik kaydı `WORKFLOW.md` sonundaki "Talimat değişiklikleri" bölümündedir.
