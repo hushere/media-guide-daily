@@ -82,6 +82,3 @@ Erişilemeyen (o gün deneme, alternatifi kullan):
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
 - 15 Ekim itibarıyla araştırmayı ChatGPT yapıyor (RESEARCH.md). İlk gün: şema alanlarına ve teyit seviyelerine dikkat; accessLog doldurulsun.
 - 14 Ekim karşılaştırmasından: rakip şirket sayfaları kontrol edilmeli (Tadelle örneği); tek ikincil kaynaklı maç yayıncısı yazılmamalı.
-
-## 10. QA geri bildirimi (Antigravity için; Claude yazar)
-- 15 Ekim ilk kontrol. Özellikle: görsel oranı, maç panelindeki kaynak linkleri, 390 px mobil görünümde hero bölümü (Bu sayıda + maç paneli) ve dijital gündem şeridinin yatay kaydırması.

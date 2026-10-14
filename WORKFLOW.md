@@ -2,22 +2,21 @@
 
 Bu dosya bültenin nasıl yazılıp denetlendiğini ve yayımlandığını tanımlar. İçerik kuralları `PROMPT.md` içindedir.
 
-## Güncel düzen: üç araçlı akış (15 Ekim 2026'dan itibaren, kullanıcı kararı)
+## Güncel düzen: iki araçlı akış (15 Ekim 2026'dan itibaren, kullanıcı kararı)
 
 | Saat (hafta içi) | Araç | Görev | Yazdığı yer |
 |---|---|---|---|
 | 07.30 - 08.30 | **ChatGPT** | Araştırma ve ilk teyit (`RESEARCH.md`) | yalnız `research/YYYY-MM-DD.json` |
-| 08.40 - 09.15 | **Claude** | Paketi doğrular, riskli bilgileri yeniden teyit eder, kartları yazar, **09.15'te yayımlar** | `bulletins/`, `state/`, gerekirse site dosyaları |
-| 09.30 - 10.00 | **Antigravity** | Canlı siteyi kontrol eder (`QA.md`) | yalnız `qa/YYYY-MM-DD.md` |
+| 08.40 - 09.15 | **Claude** | Paketi doğrular, riskli bilgileri yeniden teyit eder, kartları yazar, yayın öncesi görünüm kontrolü yapar (`scripts/render_check.py`), **09.15'te yayımlar** | `bulletins/`, `state/`, gerekirse site dosyaları |
 | Gün içi | **Kullanıcı** | Editoryal geri bildirim, düzeltme talebi | - |
 
-- **Ana kontrol Claude'dadır.** `main` dalında `research/` ve `qa/` dışındaki her dosya yalnız Claude veya kullanıcının açık onayıyla değişir. `scripts/guard.py` her sabah bunu denetler; ihlal varsa commit, tarih ve dosya listesiyle kullanıcıya bildirilir, Claude kendiliğinden geri almaz.
+- **Ana kontrol Claude'dadır.** `main` dalında `research/` dışındaki her dosya yalnız Claude veya kullanıcının açık onayıyla değişir. `scripts/guard.py` her sabah bunu denetler; ihlal varsa commit, tarih ve dosya listesiyle kullanıcıya bildirilir, Claude kendiliğinden geri almaz.
 - **Claude'un teyit kapsamı:** Her haberi baştan araştırmaz. Yeniden teyit eder: `single_secondary` ve `rumor` haberleri, maç yayıncı/saatleri, TV durum değişiklikleri, sayısal veriler ve `accessLog`'da açılamadığı görülen resmî kaynaklara dayanan bilgiler. Teyit edemediğini etiketler veya çıkarır; paketteki önemli bir eksiği görürse kısa ek araştırma yapabilir.
 - **Bülten alanları:** `source: {"writer": "ChatGPT araştırması, Claude teyit ve yazım"}`; `review.status`: değişiklik yoksa `approved`, düzeltme/çıkarma varsa `approved_with_changes`; `review.summary`: neyin yeniden teyit edildiği, neyin değiştiği (tek paragraf).
 - **Yedek kural:** 08.40'ta paket yoksa veya `validate_research.py` hata veriyorsa Claude bülteni kendi araştırmasıyla hazırlar (`review.status: "unreviewed_fallback"`, `source.writer: "Claude (yedek)"`). Bu durumda yayın 09.15'i geçebilir; bildirimde belirtilir. Paket sonradan gelirse yayımlanmış bülten körlemesine ezilmez; yalnız yeni ve doğrulanabilir bilgi eklenir.
-- **QA geri bildirimi:** Claude her sabah önce önceki günün `qa/` raporunu okur; teknik hataları (kırık görsel/link, görünüm, konsol hatası) düzeltir, düzeltemediklerini bildirimde belirtir. Rapor yoksa devam eder.
+- **Görünüm kontrolü (Antigravity yerine):** Claude yayından önce `python3 scripts/render_check.py <tarih>` ile bülteni yerelde masaüstü ve mobil genişlikte açar: JavaScript hatası, kart sayısı, yatay taşma, maç paneli, dijital gündem şeridi, 'Bu sayıda'. Sorun varsa yayından önce düzeltir. Sınır: bulut ortamından dış görsellerin ve linklerin açılıp açılmadığı test edilemez; kullanıcı bir kırık görürse Claude'a bildirir.
 - **Araştırmacıya geri bildirim:** Claude düzelttiği veya çıkardığı bilgileri `state/handoff.md` içindeki "Araştırma geri bildirimi" bölümüne yazar; ChatGPT ertesi gün bunu okur.
-- **İletişim düzeni (14 Ekim 2026, kullanıcı kararı):** Kullanıcı yalnız Claude ile konuşur. ChatGPT ve Antigravity talimatlarını yalnız bu depodan (`RESEARCH.md`, `QA.md`, `state/handoff.md`) alır ve kullanıcıdan onay beklemeden çalışır. Kullanıcının istediği değişiklikleri Claude bu dosyalara işler ve aşağıdaki "Talimat değişiklikleri" kaydına tarihli olarak ekler. Araç → Claude iletişimi: ChatGPT `researcherNotes`, Antigravity `qa/` raporu. Claude → araç iletişimi: `state/handoff.md` bölüm 9 (ChatGPT) ve bölüm 10 (Antigravity). Claude, araçlardan gelen ve kullanıcının kararını gerektiren konuları kullanıcıya iletir.
+- **İletişim düzeni (14 Ekim 2026, kullanıcı kararı):** Kullanıcı yalnız Claude ile konuşur. ChatGPT talimatlarını yalnız bu depodan (`RESEARCH.md`, `state/handoff.md`) alır ve kullanıcıdan onay beklemeden çalışır. Kullanıcının istediği değişiklikleri Claude bu dosyalara işler ve aşağıdaki "Talimat değişiklikleri" kaydına tarihli olarak ekler. ChatGPT → Claude: paketteki `researcherNotes`. Claude → ChatGPT: `state/handoff.md` bölüm 9. Claude, araçlardan gelen ve kullanıcının kararını gerektiren konuları kullanıcıya iletir.
 - **Devir notu:** Claude her çalışmada önce `state/handoff.md` dosyasını okur ve yayından sonra günceller (bülten dosyalarıyla aynı commit). Dosya en fazla ~150 satır tutulur.
 
 ## Roller (ileride yazar/denetçi düzenine geçilirse)
@@ -40,12 +39,11 @@ bulletins/index.json          Arşiv dizini (betik üretir, elle düzenleme)
 reviews/YYYY-MM-DD.md         Denetim raporu
 state/handoff.md              Günlük devir notu (bir sonraki çalışmanın hafızası)
 RESEARCH.md                   ChatGPT araştırma talimatı
-QA.md                         Antigravity kontrol talimatı
 schema/research.example.json  Araştırma paketi şeması
 research/YYYY-MM-DD.json      ChatGPT araştırma paketi
-qa/YYYY-MM-DD.md              Antigravity kontrol raporu
 scripts/validate.py           Bülten doğrulama ve dizin üretimi
 scripts/validate_research.py  Araştırma paketi doğrulama
+scripts/render_check.py       Yayın öncesi masaüstü/mobil görünüm kontrolü
 scripts/guard.py              İzinli klasörler dışına Claude dışı değişiklik kontrolü
 index.html, assets/           Site (GitHub Pages)
 ```
@@ -121,7 +119,9 @@ index.html, assets/           Site (GitHub Pages)
 
 ## Talimat değişiklikleri
 
-En yeni en üstte. ChatGPT ve Antigravity her çalışmada bu kayda bakar.
+En yeni en üstte. ChatGPT her çalışmada bu kayda bakar.
+
+- **2026-10-14:** Antigravity akıştan çıkarıldı (kullanıcı kararı). Site görünüm kontrolünü Claude yayından önce `scripts/render_check.py` ile yapar. `QA.md` ve `qa/` kaldırıldı.
 
 - **2026-10-14:** Üç araçlı akış başladı (ilk çalışma 15 Ekim). ChatGPT 07.30-08.30 araştırma paketi (`RESEARCH.md`), Claude 08.40 teyit ve 09.15 yayın, Antigravity 09.30 site kontrolü (`QA.md`). GPT karşılaştırma sitesi kaldırıldı. Araçlar kullanıcıdan onay beklemeden çalışır; talimat kaynağı yalnız bu depo.
 - **2026-10-14:** PROMPT.md 4.1: resmî kaynak listesi; "Fiilen yayında" yalnız resmî akış/bölüm arşiviyle; maç yayıncısı resmî veya iki bağımsız kaynakla; rakip şirket sayfaları zorunlu; madde ≤22 kelime.

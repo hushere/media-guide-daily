@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Ana siteyi koruma kontrolü.
 
-Claude dışındaki commit'lerin izinli klasörler (`research/`: ChatGPT araştırma paketi,
-`qa/`: Antigravity kontrol raporu) dışındaki dosyaları değiştirip değiştirmediğini listeler. Ana sitenin dosyaları yalnız Claude veya kullanıcının
+Claude dışındaki commit'lerin izinli klasör (`research/`: ChatGPT araştırma paketi) dışındaki dosyaları değiştirip değiştirmediğini listeler. Ana sitenin dosyaları yalnız Claude veya kullanıcının
 açık onayıyla değişmelidir.
 
 Kullanım:
@@ -16,7 +15,7 @@ hesap üzerinden yaptığı değişiklikler yazar adından ayırt edilemez; ikis
 import subprocess
 import sys
 
-ALLOWED_PREFIX = ("research/", "qa/")
+ALLOWED_PREFIX = ("research/",)
 CLAUDE_EMAIL = "noreply@anthropic.com"
 
 
