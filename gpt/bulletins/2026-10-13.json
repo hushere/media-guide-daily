@@ -1,0 +1,580 @@
+{
+  "date": "2026-10-13",
+  "title": "Yayın dönüşleri, marka yakınlığı ve ortak reklam arası",
+  "summary": "13 Ekim araştırmasının gecikmeli arşiv seçkisi. TV dönüşleri, Sagra ataması, creator modelleri ve Maltesers vakası.",
+  "edition": "selection",
+  "window": "12 Ekim 2026 16:58 – 13 Ekim 2026 09:30 TSİ; 14 Ekim’de gecikmeli arşiv kaydı",
+  "status": "published",
+  "review": {
+    "status": "not_reviewed"
+  },
+  "source": {
+    "writer": "ChatGPT",
+    "note": "Yalnız GPT arşivine dayanan bağımsız seçki."
+  },
+  "articles": [
+    {
+      "id": "alti-ustu-gerceklesen",
+      "title": "Altı Üstü İstanbul: dönüş artık bölüm arşivinde",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "12 Ekim 2026, 20.00",
+      "summary": "ATV’nin 16. bölüm kaydı, önceki sayıda planlanan dönüşün gerçekleştiğini doğruluyor.",
+      "body": [
+        "Yapım: Altı Üstü İstanbul. Kanal: ATV.",
+        "Önceki bilgi: 12 Ekim 20.00 dönüşü, kanal akışında planlanıyordu.",
+        "Güncel durum: 16. bölüm, 12 Ekim tarihli tam bölüm kaydında mevcut."
+      ],
+      "impact": "Pazartesi prime time rekabeti için dönüş varsayımı gerçekleşen yayın bilgisine dönüştü.",
+      "action": "Yayın takviminde durumu ‘fiilen yayında’ olarak güncelleyin.",
+      "counterView": "Bölüm kaydı reklam kuşağı erişimi veya attention ölçümü değildir.",
+      "sources": [
+        {
+          "name": "ATV • 16. bölüm",
+          "url": "https://www.atv.com.tr/alti-ustu-istanbul/16-bolum/izle",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "label": "Fiilen yayında",
+      "related": [
+        {
+          "date": "2026-10-12",
+          "id": "pazartesi-yayin-kontrol",
+          "title": "Önceki yayın planı"
+        }
+      ]
+    },
+    {
+      "id": "sevdam-ilk-bolum",
+      "title": "Sevdam Karadeniz’in ilk bölümü NOW arşivinde",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "12 Ekim 2026",
+      "summary": "NOW’un ilk bölüm sayfası, Sevdam Karadeniz’in yayına geçtiğini gösteriyor.",
+      "body": [
+        "Kanal akışında 12 Ekim için ilk bölüm planlanmıştı.",
+        "Resmî bölüm arşivinde birinci bölüm izlenebilir durumda.",
+        "Başlangıç teyidi, fragman veya eski sezon kaydına dayanmıyor."
+      ],
+      "impact": "Yeni yapımın pazartesi izleyici rekabetindeki yerini takip etmek mümkün.",
+      "action": "Takvimde planlanan başlangıcı gerçekleşen yayın olarak işaretleyin.",
+      "counterView": "İlk bölümün varlığı izleyici devamlılığını veya reklam etkinliğini kanıtlamaz.",
+      "sources": [
+        {
+          "name": "NOW • 1. bölüm",
+          "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolum/1",
+          "published": "Sayfa tarihsiz; 13 Ekim 2026 kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "label": "Fiilen yayında"
+    },
+    {
+      "id": "lovemark-kategori-siniri",
+      "title": "Lovemark: Ülker sonucunu doğru kategoriyle okuyun",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "market": "Türkiye",
+      "eventDate": "2026 araştırması; saha dönemi açıklanmıyor",
+      "summary": "Ülker, MediaCat–Ipsos Lovemark araştırmasında çikolata kaplamalı gofret kategorisinin kazananı olarak açıklandı.",
+      "body": [
+        "Yayın: 12 Ekim. Sonuç bütün çikolata kategorisinin liderliği anlamına gelmiyor.",
+        "Araştırma 15–55 yaşta 2.000 kişiyle CATI yöntemini kullanıyor.",
+        "Kategori bazlı örneklem, saha tarihleri ve finansman ayrıntıları erişilen haberde yok."
+      ],
+      "impact": "Marka yakınlığı göstergesi; satış payı veya kampanya kaynaklı artış ölçümü değildir.",
+      "action": "Marka takibiyle karşılaştırmadan önce kategori örneklemini ve soru formunu isteyin.",
+      "counterView": "Hatırlanma ve yakınlık, dağıtım gücü veya geçmiş yatırımlarla ilişkili olabilir.",
+      "sources": [
+        {
+          "name": "MediaCat • Lovemark 2026",
+          "url": "https://mediacat.com/turkiyenin-kalbinde-atan-lovemarklar-2026da-kimler-oldu/",
+          "published": "12 Ekim 2026, 14.07",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "label": "Gecikmeli fakat önemli"
+    },
+    {
+      "id": "sagra-yonetim",
+      "title": "Tamek & Sagra Grup’ta üst düzey atama",
+      "region": "Türkiye",
+      "category": "Rekabet",
+      "market": "Türkiye",
+      "eventDate": "Atama duyurusu: 12 Ekim 2026",
+      "summary": "Kadir Büyükhelvacıgil’in genel koordinatör olarak atanması duyuruldu.",
+      "body": [
+        "Şirket: Tamek & Sagra Grup. İzlenen tüketici markaları: Tadelle ve Sarelle.",
+        "Sagra’nın resmî tarihçesi grubun kurumsal yapısını doğruluyor.",
+        "Göreve başlama tarihi ile duyuru tarihinin aynı olduğu ayrıca doğrulanmadı."
+      ],
+      "impact": "Yönetim değişikliği kategori stratejisi için takip sinyalidir; medya bütçesi değişimi açıklanmadı.",
+      "action": "Yeni kampanya, dağıtım veya portföy kararları açıklanırsa izlemeye alın.",
+      "counterView": "Atama tek başına rekabet yoğunluğunun artacağını göstermez.",
+      "sources": [
+        {
+          "name": "MediaCat • Atama",
+          "url": "https://mediacat.com/tamek-sagra-grupta-ust-duzey-atama/",
+          "published": "12 Ekim 2026, 17.28",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Sagra • Tarihçe",
+          "url": "https://sagra.com.tr/hakkimizda.html",
+          "published": "Tarihsiz; 13 Ekim 2026 kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "creator-iki-model",
+      "title": "Creator iş birliklerinde iki farklı satın alma modeli",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "ABD",
+      "eventDate": "13 Ekim 2026 podcast yayını",
+      "summary": "Portal A kurucusu, büyük yaratıcı ortaklıklarla ölçekli creator medya satın alımının ayrışmasını tartışıyor.",
+      "body": [
+        "Zach Blume’un görüşü: büyük creator’lar yaratıcı ortaklık, küçük ölçekliler dağıtım modeli içinde değerlendiriliyor.",
+        "Kaynak bir sektör profesyoneliyle söyleşi; temsilî pazar araştırması değil."
+      ],
+      "impact": "Haklar, üretim ve dağıtım bedellerini tek bir CPM karşılaştırmasına sıkıştırmak hatalı olabilir.",
+      "action": "Tekliflerde yaratıcı geliştirme, kullanım hakları ve ücretli dağıtımı ayrı karşılaştırın.",
+      "counterView": "Creator büyüklüğü tek başına performansı veya marka uyumunu açıklamaz.",
+      "sources": [
+        {
+          "name": "Digiday • Podcast",
+          "url": "https://digiday.com/podcasts/media-buys-and-mega-partnerships-how-the-creator-economy-is-splitting-in-two/",
+          "published": "13 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "hbbtv-olcum-webinar",
+      "title": "HbbTV ölçüm webinarı: panel ve cihaz verisinin birleşimi",
+      "region": "Global",
+      "category": "Etkinlik",
+      "market": "Almanya / uluslararası",
+      "eventDate": "14 Ekim 2026, 16.00–17.00 TSİ",
+      "summary": "HbbTV’nin ücretsiz webinarı, hibrit TV verisinin izleyici ölçümündeki rolünü ele alacak.",
+      "body": [
+        "Program, AGF’nin HbbTV dönüş verisi ve panel entegrasyonuna ilişkin 2028 planını içeriyor.",
+        "Katılım kayıt gerektiriyor; etkinlik saati 15.00–16.00 CEST."
+      ],
+      "impact": "Panel dışı cihaz verisinin erişim hesabına nasıl katılacağını öğrenme fırsatı.",
+      "action": "Kayıt sayfasından katılımı ve saat dilimini kontrol edin.",
+      "counterView": "Planlanan entegrasyon, bugün uygulanmış ve doğrulanmış bir ölçüm standardı değildir.",
+      "sources": [
+        {
+          "name": "HbbTV • Resmî etkinlik",
+          "url": "https://www.hbbtv.org/event/webinar-taking-audience-measurement-to-the-next-level-with-hbbtv/",
+          "published": "Sayfa tarihsiz; etkinlik 14 Ekim 2026",
+          "country": "İsviçre",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "maltesers-reklam-arasi",
+      "title": "Yaratıcı mecra: Maltesers, reklam arasını ortak mesaja çevirdi",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "market": "Birleşik Krallık",
+      "eventDate": "7 Eylül 2018",
+      "summary": "Maltesers, Nationwide ve McCain, Channel 4 reklam arasında çevrimiçi nefrete karşı ortak bir yayın oluşturdu.",
+      "body": [
+        "Marka/kampanya: Maltesers • Together Against Hate • Birleşik Krallık, 2018.",
+        "Mevcut reklamların üzerine gerçek nefret yorumları taşındı; bütün reklam arası ortak bağlam oluşturdu.",
+        "Mecra fikri, tek filmden çok farklı markaların art arda aynı televizyon aralığını paylaşmasına dayanıyordu.",
+        "Türkiye uyarlaması: yayıncıyla koordine edilen, farklı kategorilerden markaların ortak bir toplumsal meseleye yer verdiği reklam arası."
+      ],
+      "impact": "Yorum: ortak yayın bağlamı dikkat çekebilir; bağımsız satış veya attention sonucu erişilen kaynakta yok.",
+      "action": "Birlikte yayın, içerik izinleri ve marka güvenliği koşullarını önce yayıncıyla tasarlayın.",
+      "counterView": "Koordinasyon ve onay maliyeti yüksektir; hassas yorumları tekrar yayımlamak zararı yeniden üretebilir. Bu ortak reklam arası hangi kategoriye uyarlanabilir?",
+      "sources": [
+        {
+          "name": "Channel 4 • Kampanya duyurusu",
+          "url": "https://www.channel4.com/press/news/nationwide-maltesers-and-mccain-take-stand-against-online-abuse-channel-4-ad-break",
+          "published": "7 Eylül 2018",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ],
+      "label": "Arşivden öğretici vaka",
+      "image": {
+        "url": "https://assets-corporate.channel4.com/_flysystem/s3/styles/widescreen_cropped/s3/2018-11/Screenshot%202018-11-14%20at%2017.06.20.png?itok=zOlEAf6s",
+        "alt": "Together Against Hate kampanyasının Channel 4 duyuru görseli",
+        "credit": "Channel 4 • kampanya basın görseli",
+        "sourceUrl": "https://www.channel4.com/press/news/nationwide-maltesers-and-mccain-take-stand-against-online-abuse-channel-4-ad-break"
+      }
+    }
+  ],
+  "watchlist": [
+    "HbbTV ölçüm webinarı: 14 Ekim 16.00–17.00 TSİ; 13 Ekim kartındaki resmî kayıt bağlantısı.",
+    "KuPS–Trabzonspor ve Hoffenheim–Beşiktaş için Türkiye yayıncısı teyidi.",
+    "Cuma sinema kontrolü: Şapkalı Kedi için 3 hafta eşiği ve dağıtımcı teyidi."
+  ],
+  "limitations": [
+    "13 Ekim dosyası zamanında gönderilmemişti. Bu seçki 14 Ekim’de geriye dönük yayımlanıyor; 13 Ekim’de canlı olduğu iddia edilmiyor.",
+    "Bu sayı tam günlük kapsam değil, doğrulanmış kaynaklardan seçkidir. Tüm mecra, regülasyon ve rakip şirket evreninin taraması tamamlanmadı.",
+    "TV kanallarının akışları incelendi; tüm programların bölüm arşivleriyle kapsamlı planlanan/gerçekleşen karşılaştırması tamamlanmadı. Taşacak Bu Deniz için 2/9 Ekim farkı çözülemedi.",
+    "YouTube, Instagram, TikTok ve X genelinde karşılaştırılabilir doğrudan video izlenme verisi doğrulanamadı. Arama trendi izlenme olarak sunulmuyor.",
+    "EuroLeague/TBF takvimlerine önceki erişim hataları nedeniyle tam resmî çapraz kontrol yapılamadı; bazı basketbol saatleri AA programına dayanıyor. TVF ve tüm uluslararası takvimler eksiksiz doğrulanmadı.",
+    "Güncel kuralla reyting takibi kaldırıldı; ayrıntılı sinema taraması cuma gününe ayrıldı.",
+    "Kaynak görselleri haber/vaka bağlamıyla sınırlı; uygun görsel bulunmayan kartlar tipografik."
+  ],
+  "corrections": [],
+  "highlights": [
+    "Altı Üstü İstanbul: dönüş artık bölüm arşivinde",
+    "Sevdam Karadeniz’in ilk bölümü NOW arşivinde",
+    "Lovemark: Ülker sonucunu doğru kategoriyle okuyun"
+  ],
+  "matchesWindow": "13–18 Ekim 2026, Türkiye saati",
+  "matchNote": "Takvim önceki GPT kaydından taşındı; yenilenen teyitler kaynak notlarında ayrıldı. Yayıncı eksikleri açık bırakıldı. Resmî takvimlerin tümü eksiksiz taranmış sayılmıyor.",
+  "matches": [
+    {
+      "date": "2026-10-13",
+      "time": "20:45",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Žalgiris Kaunas",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı · EuroLeague haftalık program",
+          "url": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "S Sport Plus · resmî yayın takvimi",
+          "url": "https://www.ssportplus.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Passo · salon bileti",
+          "url": "https://ssrprod.passo.com.tr/tr/etkinlik/fenerbahce-tarfin-zalgiris-kaunas-basket-mac-bileti/12890322",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "S Sport Plus",
+      "note": "Resmî yayın akışı 20.00’de maç önüyle başlıyor; karşılaşma 20.45.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "EuroLeague · 5. hafta",
+      "source": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "22:00",
+      "home": "Galatasaray",
+      "away": "Barcelona",
+      "sport": "Erkek futbolu",
+      "sources": [
+        {
+          "name": "Galatasaray · Maça Doğru",
+          "url": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/maca-dogru-galatasaray-barcelona/61119",
+          "published": "12 Ekim 2026, 14:30",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "Teyit bekleniyor",
+      "note": "Tarih ve saat kulüp teyitli. Türkiye yayıncısı resmî akıştan teyit edilemedi.",
+      "impact": "Yorum: yüksek ilgi potansiyelli Avrupa karşılaşması; aynı akşam basketbol yayınıyla örtüşme, sponsorluk ve frekans planında dikkate alınmalı.",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "source": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/maca-dogru-galatasaray-barcelona/61119"
+    },
+    {
+      "date": "2026-10-14",
+      "time": null,
+      "home": "Hapoel IBI Tel Aviv",
+      "away": "Beşiktaş",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı · EuroLeague haftalık program",
+          "url": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "S Sport Plus · resmî yayın takvimi",
+          "url": "https://www.ssportplus.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Beşiktaş · maç merkezi",
+          "url": "https://bjk.com.tr/tr/mac_merkezi/canli/25777",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "S Sport Plus",
+      "note": "Saat çelişkili: AA ve yayıncı 19.00, kulüp 20.00 gösteriyor. Kesin saat için organizasyon teyidi bekleniyor.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "EuroLeague · 5. hafta",
+      "source": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "20:30",
+      "home": "Anadolu Efes",
+      "away": "Bayern Münih",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı · EuroLeague haftalık program",
+          "url": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "S Sport Plus · resmî yayın takvimi",
+          "url": "https://www.ssportplus.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "S Sport Plus",
+      "note": "Başlama AA programından; yayıncıda maç önü 19.45. Kulüp takvimi metin olarak okunamadı.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "EuroLeague · 5. hafta",
+      "source": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799"
+    },
+    {
+      "date": "2026-10-14",
+      "time": null,
+      "home": "Aston Villa",
+      "away": "Fenerbahçe",
+      "sport": "Erkek futbolu",
+      "sources": [
+        {
+          "name": "AA · Aston Villa hazırlığı",
+          "url": "https://f.aa.com.tr/tr/spor/fenerbahce-aston-villa-macinin-hazirliklarina-basladi/4085123",
+          "published": "11 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "Teyit bekleniyor",
+      "note": "14 Ekim tarihi AA’da kulüp açıklamasına dayanıyor. 22.00 bilgisi resmî maç sayfasından doğrulanamadı.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "source": "https://f.aa.com.tr/tr/spor/fenerbahce-aston-villa-macinin-hazirliklarina-basladi/4085123"
+    },
+    {
+      "date": "2026-10-15",
+      "time": null,
+      "home": "KuPS",
+      "away": "Trabzonspor",
+      "sport": "Erkek futbolu",
+      "sources": [
+        {
+          "name": "Trabzonspor · maç hazırlığı",
+          "url": "https://www.trabzonspor.org.tr/tr/haberler/kups-maci-hazirliklarimiz-basladi-11-10-2026",
+          "published": "11 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "trabzon.org · bilet haberi (kulüp sitesi değil)",
+          "url": "https://www.trabzon.org/haber/trabzonsporun-kups-deplasman-biletleri-satisa-cikiyor-fiyat-850-tl",
+          "published": "7 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "Teyit bekleniyor",
+      "note": "Tarih kulüp teyitli. 19.45 ikincil kaynakta; resmî saat ve yayıncı teyidi eksik.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "UEFA Konferans Ligi",
+      "source": "https://www.trabzonspor.org.tr/tr/haberler/kups-maci-hazirliklarimiz-basladi-11-10-2026"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "20:45",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Partizan",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı · EuroLeague haftalık program",
+          "url": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "S Sport Plus · resmî yayın takvimi",
+          "url": "https://www.ssportplus.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "S Sport Plus",
+      "note": "Maç önü yayını 20.00, karşılaşma AA programına göre 20.45.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "EuroLeague · 6. hafta",
+      "source": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "22:00",
+      "home": "Hoffenheim",
+      "away": "Beşiktaş",
+      "sport": "Erkek futbolu",
+      "sources": [
+        {
+          "name": "Beşiktaş · resmî maç kaydı",
+          "url": "https://bjk.com.tr/tr/mac_merkezi/canli/27164",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Hoffenheim · resmî bilet sayfası",
+          "url": "https://tickets.tsg-hoffenheim.de/shop/110/event/3233",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Almanya",
+          "language": "Almanca"
+        }
+      ],
+      "broadcaster": "Teyit bekleniyor",
+      "note": "Kulüp Türkiye saatini 22.00 veriyor; Almanya bilet kaydı yerel saatle 21.00.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "UEFA Avrupa Ligi",
+      "source": "https://bjk.com.tr/tr/mac_merkezi/canli/27164"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
+      "home": "Beşiktaş",
+      "away": "Bayern Münih",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı · EuroLeague haftalık program",
+          "url": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "S Sport Plus · resmî yayın takvimi",
+          "url": "https://www.ssportplus.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "S Sport Plus",
+      "note": "Maç önü yayını 19.15; karşılaşma AA programına göre 20.00.",
+      "impact": "Yorum: canlı spor izleyicisiyle aynı saat dilimindeki yayınlar arasında erişim bölünmesi olabilir; kuşak ve sponsorluk planında çakışmayı kontrol edin.",
+      "competition": "EuroLeague · 6. hafta",
+      "source": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
+      "home": "Žalgiris Kaunas",
+      "away": "Anadolu Efes",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Anadolu Ajansı · EuroLeague haftalık program",
+          "url": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "S Sport Plus · resmî yayın takvimi",
+          "url": "https://www.ssportplus.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "S Sport Plus",
+      "note": "",
+      "impact": "Yorum: Beşiktaş maçının başlangıcıyla aynı saat. İki yayının izleyicisini toplamak tekil erişimi olduğundan yüksek gösterebilir.",
+      "competition": "EuroLeague · 6. hafta",
+      "source": "https://aa.com.tr/tr/spor/basketbol-avrupa-liginde-2-kez-cift-mac-haftasi-heyecani-yasanacak/4085799"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "18:00",
+      "home": "Eczacıbaşı Peron İstanbul",
+      "away": "VakıfBank",
+      "sport": "Kadın voleybolu",
+      "sources": [
+        {
+          "name": "VakıfBank · kulüp fikstürü",
+          "url": "https://www.vakifbanksporkulubu.com/",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "Teyit bekleniyor",
+      "note": "Kulüp fikstürü; TVF ve resmî yayıncı üzerinden ikinci teyit tamamlanamadı.",
+      "impact": "Yorum: iki güçlü kulübün karşılaşması, voleybol odaklı hedef kitle ve sponsorluk planı için dikkat noktası. Sayısal erişim tahmini yapılmadı.",
+      "competition": "Vodafone Sultanlar Ligi",
+      "source": "https://www.vakifbanksporkulubu.com/"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "20:30",
+      "home": "Beşiktaş",
+      "away": "Galatasaray MCT Technic",
+      "sport": "Erkek basketbolu",
+      "sources": [
+        {
+          "name": "Beşiktaş · lig fikstürü",
+          "url": "https://bjk.com.tr/en/fikstur/2/10/709/673/5140?fromMobile=true",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Passo · derbi bileti",
+          "url": "https://www.passo.com.tr/tr/etkinlik/besiktas-galatasaray-mct-technic-basketbol-mac-bileti/13411320",
+          "published": "12 Ekim 2026 kontrolü; kaynakta yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "broadcaster": "Teyit bekleniyor",
+      "note": "",
+      "impact": "Yorum: erkek basketbol derbisi. Pazar akşamı dizi rekabetiyle birlikte değerlendirin; reklam kuşağı performansını program ilgisinden ayrı ölçün.",
+      "competition": "Türkiye Sigorta Basketbol Süper Ligi",
+      "source": "https://bjk.com.tr/en/fikstur/2/10/709/673/5140?fromMobile=true"
+    }
+  ],
+  "social": {
+    "window": "13 Ekim 2026 sabah kontrolü",
+    "note": "Arşiv sayısına bugün görülen canlı sosyal metrikler geriye dönük eklenmedi. Önceki ölçüm görüntüsü kalıcı olarak korunmadığı için sayı yayımlanmıyor.",
+    "items": []
+  }
+}

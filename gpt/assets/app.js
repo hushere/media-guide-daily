@@ -83,34 +83,21 @@
     document.getElementById("archiveList").innerHTML = html || '<li class="empty">Henüz bülten yok.</li>';
   }
 
+
+  function points(items) { return '<ul class="quick-points">' + items.map(function(t) {return '<li>' + esc(t) + '</li>';}).join('') + '</ul>'; }
   function articleHTML(a) {
-    var regionCls = a.region === "Türkiye" ? "tr" : "gl";
-    var tags = '<span class="pill ' + regionCls + '">' + esc(a.region) + '</span>' +
-      '<span class="pill accent">' + esc(a.category) + '</span>' +
-      (a.label ? '<span class="pill warn">' + esc(a.label) + '</span>' : "");
-    var body = (a.body || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
-    var sources = (a.sources || []).map(function (s) {
-      return '<li><a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a>' +
-        '<span class="s-meta">' + esc(s.published) + ' · ' + esc(s.country) + ' · ' + esc(s.language) + '</span></li>';
-    }).join("");
-    return '<article class="card" id="' + esc(a.id) + '">' +
-      '<div class="card-main">' +
-        '<div class="card-tags">' + tags + '</div>' +
-        '<h3>' + esc(a.title) + '</h3>' +
-        '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + '</div>' +
-        '<p class="summary">' + esc(a.summary) + '</p>' +
-        '<div class="impact-preview"><h4>Planlama etkisi</h4><p>' + esc(a.impact) + '</p></div>' +
-        '<div class="source-preview">' + esc((a.sources || []).length ? a.sources[0].name : 'Kaynak belirtilmedi') + ' · ' + (a.sources || []).length + ' kaynak</div>' +
-      '</div>' +
-      '<details><summary>Analizi oku <span aria-hidden="true">↗</span></summary><div class="detail">' +
-        '<div class="block"><h4>Gelişme</h4>' + body + '</div>' +
-        '<div class="block callout"><h4>Planner/Buyer açısından</h4><p>' + esc(a.impact) + '</p></div>' +
-        '<div class="block callout"><h4>Takip / aksiyon</h4><p>' + esc(a.action) + '</p></div>' +
-        '<div class="block counter"><h4 lang="en">Counter-View</h4><p>' + esc(a.counterView) + '</p></div>' +
-        (a.learning ? '<div class="block learn"><h4>Öğrenme notu</h4><p>' + esc(a.learning) + '</p></div>' : "") +
-        '<div class="block"><h4>Kaynaklar</h4><ul class="sources">' + sources + '</ul></div>' +
-      '</div></details>' +
-    '</article>';
+    var tags = '<span class="pill ' + (a.region === "Türkiye" ? "tr" : "gl") + '">' + esc(a.region) + '</span><span class="pill accent">' + esc(a.category) + '</span>' + (a.label ? '<span class="pill warn">' + esc(a.label) + '</span>' : '');
+    var img = a.image && safeUrl(a.image.url) !== "#" ? a.image : null;
+    var media = img ? '<figure class="news-visual"><img src="' + esc(img.url) + '" alt="' + esc(img.alt || a.title) + '" width="800" height="450" loading="lazy" decoding="async" referrerpolicy="no-referrer"><figcaption><a href="' + esc(safeUrl(img.sourceUrl)) + '" target="_blank" rel="noopener noreferrer">Görsel: ' + esc(img.credit) + ' ↗</a></figcaption></figure>' : '<div class="type-visual" aria-hidden="true"><span>MEDIA GUIDE</span><strong>' + esc(a.category) + '</strong></div>';
+    var sources = (a.sources || []).map(function(s) { return '<li><a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + ' ↗</a><span class="s-meta">' + esc(s.published) + ' · ' + esc(s.country) + ' · ' + esc(s.language) + '</span></li>'; }).join('');
+    var related = (a.related || []).filter(function(r) {return /^\d{4}-\d{2}-\d{2}$/.test(r.date) && /^[a-z0-9-]+$/.test(r.id);}).map(function(r) {return '<a href="?tarih=' + r.date + '#' + r.id + '">' + esc(r.title) + ' →</a>';}).join('');
+    return '<article class="card" id="' + esc(a.id) + '">' + media + '<div class="card-main"><div class="card-tags">' + tags + '</div><h3>' + esc(a.title) + '</h3><p class="summary">' + esc(a.summary) + '</p><div class="quick-read"><section><h4>Ne oldu?</h4>' + points((a.body || []).slice(0,3)) + '</section><section class="quick-impact"><h4>Medya etkisi</h4>' + points([a.impact]) + '</section><section class="quick-action"><h4>Ne yapmalı?</h4>' + points([a.action]) + '</section></div></div><details><summary>Detayı oku <span aria-hidden="true">＋</span></summary><div class="detail"><div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + '</div>' + ((a.body || []).length > 3 ? '<div class="block">' + points(a.body.slice(3)) + '</div>' : '') + '<div class="block counter"><h4>Counter-View</h4><p>' + esc(a.counterView) + '</p></div>' + (a.learning ? '<div class="block learn"><h4>Öğrenme notu</h4><p>' + esc(a.learning) + '</p></div>' : '') + '<div class="block"><h4>Kaynaklar ve tarihler</h4><ul class="sources">' + sources + '</ul></div>' + (related ? '<div class="related"><h4>Önceki sayıyla bağlantı</h4>' + related + '</div>' : '') + '</div></details></article>';
+  }
+
+  function socialHTML(b) {
+    var s=b.social;
+    if (!s || !s.items || !s.items.length) return '<section class="social-strip" id="sosyal"><h2>Sosyal medyada gündem</h2><p class="muted">Bu sayıda yayımlanabilecek doğrulanmış platform verisi bulunmuyor.</p><p class="social-note">' + esc(s && s.note || 'Kapsam notlarını kontrol edin.') + '</p></section>';
+    return '<section class="social-strip" id="sosyal" aria-labelledby="social-title"><div class="section-title"><div><span class="eyebrow">Dijital radar</span><h2 id="social-title">Sosyal medyada gündem</h2></div><span class="pill">Öne çıkan içerikler</span></div><p class="social-window">' + esc(s.window) + '</p><div class="social-grid">' + s.items.slice(0,8).map(function(it) {return '<article class="social-card"><span class="eyebrow">' + esc(it.platform) + ' · ' + esc(it.country || "Türkiye") + '</span><h3>' + (Number.isInteger(it.rank) ? '<span class="social-rank">#' + it.rank + '</span> ' : '') + esc(it.title) + '</h3>' + (it.metric ? '<p class="social-metric">' + esc(it.metric) + '</p>' : '') + points([it.whyItMatters].concat(it.action ? [it.action] : [])) + '<details><summary>Dönem ve kaynak</summary><p>' + esc(it.published) + '</p><p>' + esc(it.checkedAt || '') + '</p><p>' + esc(it.type) + ' · ' + esc(it.measurementWindow || s.window) + '</p><a href="' + esc(safeUrl(it.url)) + '" target="_blank" rel="noopener noreferrer">' + esc(it.source) + ' ↗</a></details></article>';}).join('') + '</div><p class="social-note">' + esc(s.note) + '</p></section>';
   }
 
   function listBlock(title, items, open) {
@@ -136,7 +123,7 @@
         return CATEGORY_ORDER.indexOf(x.category) - CATEGORY_ORDER.indexOf(y.category);
       });
       html += '<div class="region-head ' + (region === "Türkiye" ? "tr" : "gl") + '"><h2>' + region +
-        '</h2><span>' + group.length + ' içerik</span></div>' + group.map(articleHTML).join("");
+        '</h2><span>' + group.length + ' içerik</span></div>' + '<div class="article-grid">' + group.map(articleHTML).join("") + '</div>';
     });
     document.getElementById("articles").innerHTML = html || '<p class="empty">Bu filtrede içerik yok.</p>';
   }
@@ -179,17 +166,18 @@
   }
 
   function renderBulletin(b) {
-    state.bulletin = b; state.region = "Tümü"; state.category = null;
+    state.bulletin = b; state.region = "Tümü"; state.category = null; state.query = "";
     document.title = fmtDate(b.date) + " · Media Guide Daily GPT";
     var rv = REVIEW_LABEL[(b.review || {}).status] || REVIEW_LABEL.not_reviewed;
     var highlights = (b.highlights || []).map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("");
     $main.innerHTML =
       '<section class="hero"><div class="hero-copy">' +
         '<div class="eyebrow">Daily Media Intelligence <span class="pill">' + (b.edition === "daily" ? "Günlük bülten" : "Editörün seçkisi") + '</span></div>' +
-        '<h1>Gündemi oku.<br><em>Etkisini gör.</em></h1>' +
-        '<p class="hero-intro">Medya dünyasında ne değişti, neden önemli,<br>bir sonraki adım ne olmalı?</p>' +
+        '<h1>' + esc(b.title) + '</h1>' +
+        '<p class="hero-intro">' + esc(b.summary) + '</p><p class="cutoff">' + esc(b.window) + '</p>' +
         '<div class="hero-meta">' + esc(fmtDate(b.date)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
       '</div></section><section class="briefing-grid" aria-label="Sayı özeti ve maç takvimi"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' + matchesHTML(b) + '</section>' +
+      socialHTML(b) + '<nav class="section-nav" aria-label="Bu sayıda gezin"><a href="#sosyal">Sosyal gündem</a><a href="#matches-title">Maç takvimi</a><a href="#articles">Haberler</a><a href="#radar">Takip listesi</a></nav>' +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
         '<div class="discover-note"><span class="eyebrow">Daha iyi kararlar için</span><p>Haberin ötesinde,<br>medya etkisine bak.</p><a href="#yontem">Yaklaşımımız ↗</a></div></aside>' +
@@ -200,7 +188,7 @@
         listBlock("Eksik ve doğrulanamayan kontroller", b.limitations, false) +
         (b.review && b.review.summary ? listBlock("Denetim notu", [b.review.summary], false) : "") +
         (b.proposal ? '<div class="proposal"><strong>Öneri:</strong> ' + esc(b.proposal) + '</div>' : "") +
-      '</section></section><aside class="radar"><span class="eyebrow">Radarda</span><h2>Sırada ne var?</h2><p class="muted">Kararları değiştirebilecek sinyaller.</p><ol>' +
+      '</section></section><aside class="radar" id="radar"><span class="eyebrow">Radarda</span><h2>Sırada ne var?</h2><p class="muted">Kararları değiştirebilecek sinyaller.</p><ol>' +
         (b.watchlist || []).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') +
       '</ol><div class="share-card"><h3>İyi bilgi paylaştıkça değerli.</h3><p>Bu sayıyı ekibinizle paylaşın. Üyelik gerektirmez.</p><button class="btn" id="shareIssue">Bağlantıyı kopyala ↗</button></div></aside></div>';
     document.getElementById("allIssues").addEventListener("click", function () { document.getElementById("archive").showModal(); });
@@ -230,6 +218,16 @@
     });
   }
 
+  document.addEventListener("error", function(e) {
+    if(e.target.tagName === "IMG" && e.target.closest(".news-visual")) {
+      var figure=e.target.closest(".news-visual");
+      e.target.remove();
+      figure.classList.add("image-unavailable");
+      var note=document.createElement("p");
+      note.textContent="Görsel yüklenemedi. Kaynak bağlantısından açabilirsiniz.";
+      figure.prepend(note);
+    }
+  }, true);
   load();
 })();
 

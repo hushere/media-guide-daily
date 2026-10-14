@@ -1,6 +1,36 @@
 {
   "bulletins": [
     {
+      "date": "2026-10-14",
+      "title": "Spor, raf ve yapay zekâ: markanın yeni temas noktaları",
+      "summary": "S Sport Plus’ın yeni kampanyası, Tadelle’nin pembe ambalajı ve Publicis’in müşteri yaklaşımı. Globalde IKEA, CNN, dikey dizi ve KitKat vakası.",
+      "edition": "selection",
+      "articleCount": 7,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "Rekabet",
+        "Yaratıcı Mecra"
+      ],
+      "review": "not_reviewed"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Yayın dönüşleri, marka yakınlığı ve ortak reklam arası",
+      "summary": "13 Ekim araştırmasının gecikmeli arşiv seçkisi. TV dönüşleri, Sagra ataması, creator modelleri ve Maltesers vakası.",
+      "edition": "selection",
+      "articleCount": 7,
+      "categories": [
+        "Dijital & AI",
+        "Etkinlik",
+        "Rekabet",
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "not_reviewed"
+    },
+    {
       "date": "2026-10-12",
       "title": "Hedef kitle ayrımı, AI satın alma ve mecranın yaratıcı gücü",
       "summary": "İlk bağımsız GPT seçkisi: hafta sonu TV sonuçları, ajans seçimi, commerce ile birleşen içerikler, yaklaşan sinema fırsatı ve Cadbury OOH vakası. 12–18 Ekim maçları ayrı takvim panelinde.",
