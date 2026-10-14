@@ -1,0 +1,544 @@
+{
+  "date": "2026-10-14",
+  "researcher": "ChatGPT",
+  "startedAt": "2026-10-14T11:01:58+03:00",
+  "cutoff": "2026-10-14T19:22:27+03:00",
+  "window": "13 Ekim 2026 19.22–14 Ekim 2026 19.22 TSİ; önceki paket olmadığı için son 24 saat. Arşiv vakası ayrıca etiketli.",
+  "items": [
+    {
+      "id": "guldur-guldur-sezon-saati",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "Güldür Güldür: 17 Ekim 20.00 resmî akışta",
+      "eventDate": "2026-10-17",
+      "facts": [
+        "17 Ekim Cumartesi 20.00, Show TV akışında Güldür Güldür Show için yeni sezon olarak işaretleniyor.",
+        "Devir notunda yeniden doğrulanmamış görünen saat, kanalın haftalık akışında teyit edildi."
+      ],
+      "verification": "official",
+      "verificationNote": "Birincil kaynak okundu; bağımsız etki ölçümü yok.",
+      "sources": [
+        {
+          "name": "Show TV • Yayın akışı",
+          "url": "https://www.showtv.com.tr/yayin-akisi",
+          "published": "14 Ekim 2026 kontrolü; yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "label": "Kanal teyitli",
+      "impactDraft": "Cumartesi eğlence envanteri tekliflerini sezon dönüşüyle eşleştirin.",
+      "counterViewDraft": "Planlanan saat, fiilî yayın veya reklam kuşağı performansı değildir."
+    },
+    {
+      "id": "atv-carsamba-akisi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "ATV: yarışma 20.00, Güneşin Doğduğu Yer 23.40",
+      "eventDate": "2026-10-14",
+      "facts": [
+        "14 Ekim akışında Var Mısın Yok Musun saat 20.00'de yer alıyor.",
+        "Güneşin Doğduğu Yer saat 23.40'ta dördüncü bölüm olarak listeleniyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Birincil kaynak okundu; bağımsız etki ölçümü yok.",
+      "sources": [
+        {
+          "name": "ATV • Yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "14 Ekim 2026 kontrolü; yayın tarihi belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "label": "Kanal teyitli",
+      "counterViewDraft": "Bu kayıt yeni bölümün geceye taşındığını doğrulamaz; yeni/tekrar niteliği kesinleştirilemedi."
+    },
+    {
+      "id": "ikea-ai-marka-tutarliligi",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "market": "Global",
+      "title": "IKEA: yapay zekâ çağında marka tutarlılığı",
+      "eventDate": "Söyleşi tarihi belirtilmiyor; yayın 2026-10-14",
+      "facts": [
+        "IKEA Retail CMO'su Vincenzo Riili, Digiday söyleşisinde yapay zekâyı markayı dağıtmanın aracı olarak tanımlıyor.",
+        "Yerel içerik uyarlamasında hız kazanımını şirketin ilk kullanım aşaması olarak anlatıyor.",
+        "Yaratıcılara özgürlük tanınırken marka amacı ve değerlerinin korunmasını savunuyor."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Tek sektör yayını okundu; bağımsız ikinci teyit yok.",
+      "sources": [
+        {
+          "name": "Digiday • IKEA CMO söyleşisi",
+          "url": "https://digiday.com/marketing/ikeas-cmo-sees-llms-as-the-newest-place-a-brand-has-to-hold-its-line/",
+          "published": "2026-10-14",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ],
+      "impactDraft": "Kreatif ve ürün sayfası brieflerinde tutarlı marka önermesini koruyun.",
+      "counterViewDraft": "Yönetici görüşüdür; bağımsız etkinlik testi veya teknik model değerlendirmesi değildir."
+    },
+    {
+      "id": "netflix-below-turizm",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "market": "ABD / Kanada",
+      "title": "Netflix Below tanıtımı turizm iletişimiyle birleşti",
+      "eventDate": "Dizi başlangıcı 2026-10-08; kampanya başlangıcı belirtilmiyor",
+      "facts": [
+        "Adlatina, Founders'ın Below tanıtımında Newfoundland ve Labrador turizm dilini kullandığını bildiriyor.",
+        "Times Square dijital panosunda Josh Hartnett'ın karakteri yer alıyor.",
+        "Habere göre eyalet, resmî turizm logosunun kullanımını onayladı."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Tek sektör yayını okundu; bağımsız ikinci teyit yok.",
+      "sources": [
+        {
+          "name": "Adlatina • Founders ve Netflix",
+          "url": "https://www.adlatina.com/publicidad/nuevo-founders-y-netflix-invitan-a-besar-un-pez-y-ver-below",
+          "published": "2026-10-14",
+          "country": "Arjantin",
+          "language": "İspanyolca",
+          "type": "trade"
+        }
+      ],
+      "image": {
+        "url": "https://www.adlatina.com/uploads/img/261013020641_FoundersyNetflix.jpg",
+        "credit": "Adlatina / Netflix–Founders",
+        "sourceUrl": "https://www.adlatina.com/publicidad/nuevo-founders-y-netflix-invitan-a-besar-un-pez-y-ver-below",
+        "alt": "Below açık hava kampanyası"
+      },
+      "counterViewDraft": "Uygulama ve izin ayrıntıları tek sektör kaynağına dayanıyor; ölçülmüş sonuç açıklanmıyor."
+    },
+    {
+      "id": "sardis-kisa-liste",
+      "region": "Türkiye",
+      "category": "Etkinlik",
+      "market": "Türkiye",
+      "title": "Sardis kısa listesi açıklandı; tören 5 Kasım'da",
+      "eventDate": "Kısa liste 2026-10-14; tören 2026-11-05",
+      "facts": [
+        "MediaCat, 2026 Sardis Ödülleri kısa listesini yayımladı.",
+        "Ödül töreni 5 Kasım'da Brand Week Istanbul kapsamında Haliç Kongre Merkezi'nde yapılacak."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Tek sektör yayını okundu; bağımsız ikinci teyit yok.",
+      "sources": [
+        {
+          "name": "MediaCat • Sardis kısa listesi",
+          "url": "https://mediacat.com/2026-sardis-odullerinde-kisa-liste-belli-oldu/",
+          "published": "2026-10-14",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "trade"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.mediacat.com/uploads/2026/10/Sardis26-kisa-liste-G-1252x704-haber-gorseli.jpg",
+        "credit": "MediaCat / Sardis",
+        "sourceUrl": "https://mediacat.com/2026-sardis-odullerinde-kisa-liste-belli-oldu/",
+        "alt": "Sardis 2026 kısa liste"
+      },
+      "actionDraft": "Finans kategorisinde vaka keşfi için kısa listeyi inceleyin.",
+      "counterViewDraft": "Kısa liste, ödül sonucu veya bağımsız etkinlik kanıtı değildir."
+    },
+    {
+      "id": "cadbury-caramilk-canli-billboard",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "market": "Birleşik Krallık",
+      "title": "Cadbury Caramilk: billboard üzerindeki gerçek kişiye sor",
+      "eventDate": "26, 28 ve 30 Eylül 2021",
+      "facts": [
+        "Cadbury Caramilk, Birleşik Krallık'ta üç billboard noktasına gerçek Avustralyalı marka hayranlarını yerleştirdi.",
+        "Yoldan geçenler ürün hakkında doğrudan soru sorabildi.",
+        "Instagram soru-cevap uygulaması, fiziksel noktaların dışındaki katılımcılara da açıldı.",
+        "VCCP'nin vaka sayfasına göre medya planlaması ve uygulaması Carat tarafından yapıldı."
+      ],
+      "verification": "official",
+      "verificationNote": "Ajansın kendi vaka sayfası ve fiziksel uygulama görseli açıldı. Kullanılmış vaka listesinde yok. Tartışma sorusu: Hangi çikolata markasının ürün farkı canlı anlatımla daha iyi anlaşılır?",
+      "sources": [
+        {
+          "name": "VCCP • Just Ask An Aussie billboard",
+          "url": "https://www.vccp.com/uk/work/cadbury/cadbury-caramilk-just-ask-an-aussie-billboard",
+          "published": "2021-10-01",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce",
+          "type": "agency"
+        }
+      ],
+      "label": "Arşivden yaratıcı vaka",
+      "image": {
+        "url": "https://www.vccp.com/uk/wp-content/uploads/2021/10/Cadbury-Caramilk-2-1920x720.png",
+        "credit": "VCCP / Cadbury",
+        "sourceUrl": "https://www.vccp.com/uk/work/cadbury/cadbury-caramilk-just-ask-an-aussie-billboard",
+        "alt": "Caramilk canlı billboard uygulaması"
+      },
+      "impactDraft": "OOH yüzeyi, ürün hakkında canlı soru sorulan bir karşılaşma noktasına dönüşüyor.",
+      "actionDraft": "Türkiye uyarlamasında ürün uzmanıyla canlı soru-cevap ve tadımı yoğun yaya noktasında birlikte test edin.",
+      "counterViewDraft": "Personel, güvenlik ve sınırlı lokasyon ölçeği maliyeti artırır; bağımsız satış sonucu açıklanmıyor."
+    }
+  ],
+  "tvTracking": [
+    {
+      "show": "Güldür Güldür Show",
+      "channel": "Show TV",
+      "previous": "17 Ekim dönüşü; saat yeniden teyit edilmemişti.",
+      "current": "17 Ekim 20.00 Yeni Sezon",
+      "status": "Kanal teyitli",
+      "source": "https://www.showtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-14 (sabah oturumu)"
+    },
+    {
+      "show": "Güneşin Doğduğu Yer",
+      "channel": "ATV",
+      "previous": "00.20 teyitsiz; 23.40 muhtemel tekrar.",
+      "current": "14 Ekim 23.40, 4. bölüm; yeni/tekrar niteliği kesinleşmedi.",
+      "status": "Kanal teyitli",
+      "source": "https://www.atv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-14 (sabah oturumu)"
+    }
+  ],
+  "matches": [
+    {
+      "date": "2026-10-15",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Partizan",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî listede 20.00 program başlangıcı; maç önü içerdiği için maç saati kabul edilmedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-16",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Bayern Münih",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî listede 19.15 program başlangıcı; maç önü içerdiği için maç saati kabul edilmedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-16",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Žalgiris Kaunas",
+      "away": "Anadolu Efes",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî yayın listesinde 20.00; organizatör fikstürü açılamadığı için kesin maç saati boş bırakıldı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-15",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Hoffenheim",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/mac_merkezi/canli/27164",
+      "note": "Kulüp maç merkezinde tarih ve TSİ saat teyitli; yayıncı teyit edilmedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-18",
+      "time": "18:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Eczacıbaşı Peron İstanbul",
+      "away": "VakıfBank",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/schedule/",
+      "note": "Resmî organizasyon takvimi; üst düzey karşılaşma. Yayıncı teyit edilmedi.",
+      "tags": []
+    }
+  ],
+  "matchesWindow": "14–18 Ekim 2026 TSİ; geç teslim nedeniyle 15–18 Ekim seçkisi.",
+  "rivalCheck": {
+    "checked": [
+      "ETİ ana sayfası: https://www.etietieti.com",
+      "Sagra ana sayfası ve marka sahipliği: https://www.sagra.com.tr",
+      "Nestlé ana sayfası: https://www.nestle.com.tr",
+      "Mondelez haber dizini: https://www.mondelezinternational.com/news/",
+      "Torku ana sayfası: https://torku.com.tr",
+      "Altınmarka ürün ana sayfası: https://www.altinmarka.com.tr",
+      "Mars haber dizini: https://www.mars.com/news-and-stories",
+      "Kahve Dünyası ana sayfası: https://www.kahvedunyasi.com"
+    ],
+    "notChecked": [
+      "Ferrero, Şölen, FİSKOBİRLİK, DOĞKAR ve LİDER ÇİKOLATA adresleri açılamadı.",
+      "Açılan ana sayfalardan tüm basın ve marka kampanya arşivleri taranamadı.",
+      "MediaCat/Marketing Türkiye marka aramaları kısmi; tüm şirket ve marka evreni tamamlanmadı.",
+      "Ülker rakip sayılmadı; kendi şirket haber taraması tamamlanmadı."
+    ],
+    "finding": "Yeni Türkiye rakip haberi olmadığı sonucu çıkarılamaz; kontrol kısmi."
+  },
+  "social": {
+    "window": "14 Ekim sabah oturumu; Google Trends son 24 saat.",
+    "note": "Arama ilgisidir; izlenme, erişim veya reklam etkisi değildir. Akşam yeniden ölçülmedi.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "tuzlu kahve 7. bölüm",
+        "metric": "Google Trends: 5K+ arama; %700 artış",
+        "whyItMatters": "Dizi içeriğine ilgi için keşif sinyali; izleyici sayısını veya yayın takvimini doğrulamaz.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends Türkiye",
+        "published": "14 Ekim 2026 sabah gözlemi; son 24 saat"
+      }
+    ]
+  },
+  "creativeCase": "cadbury-caramilk-canli-billboard",
+  "accessLog": [
+    {
+      "url": "https://www.atv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.showtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.startv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.trt1.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.tv8.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.birsenaltuntas.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://mediacat.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.marketingturkiye.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.campaigntr.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://trends.google.com/trending?geo=TR",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.tff.org/default.aspx?pageID=198",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.tvf.org.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://sultanlar.volleystation.com/en/schedule/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.ssportplus.com/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://beinsports.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.etietieti.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.sagra.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.nestle.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.mondelezinternational.com/news/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://torku.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.altinmarka.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.mars.com/news-and-stories",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.kahvedunyasi.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10/turkiye/tv",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolum/1",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.vccp.com/uk/work/cadbury/cadbury-caramilk-just-ask-an-aussie-billboard",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://bjk.com.tr/tr/mac_merkezi/canli/27164",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.uefa.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.realmadrid.com/en-US/football/games",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.trabzonspor.org.tr/tr/haberler/kups-maci-hazirliklarimiz-basladi-11-10-2026",
+      "result": "ok",
+      "note": "Sayfa metni açıldı; tam arşiv taraması anlamına gelmez. Kullanılan kanıt ilgili paket alanında belirtilmiştir."
+    },
+    {
+      "url": "https://www.tbf.org.tr",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.trtspor.com.tr",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.ferrero.com/tr/tr/haberler",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.solens.com.tr",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.dogkar.com.tr",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.lidercikolata.com.tr",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://www.fenerbahce.org",
+      "result": "error",
+      "note": "Araç erişim hatası; içerik teyit edilmedi."
+    },
+    {
+      "url": "https://charts.youtube.com",
+      "result": "js_only",
+      "note": "Sayfa açıldı ancak kullanılabilir Türkiye listesi alınamadı."
+    },
+    {
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
+      "result": "js_only",
+      "note": "Sayfa açıldı ancak kullanılabilir Türkiye listesi alınamadı."
+    },
+    {
+      "url": "https://charts.spotify.com",
+      "result": "js_only",
+      "note": "Sayfa açıldı ancak kullanılabilir Türkiye listesi alınamadı."
+    },
+    {
+      "url": "https://www.fiskobirlik.org.tr",
+      "result": "permission_timeout",
+      "note": "Timeout fetching; kalıcı engel olarak yorumlanmadı."
+    }
+  ],
+  "limitations": [
+    "Geç ve kısmi teslim: 08.30 görevin başlatılmasından önce geçmişti; sabah çalışma akşam sürdürüldü.",
+    "Önceki research paketi yok. RESEARCH.md gereği son 24 saat kullanıldı; devir notunun 09.40 kesimiyle örtüşen içerikleri Claude tekrar kontrol etmeli.",
+    "Türkiye/global kapsamı tam değil; Asya ve Orta Doğu güncel taraması tamamlanmadı.",
+    "Yedi kanal akışı açıldı; tüm yapımların bölüm arşivi ve önceki plan karşılaştırması tamamlanmadı. Final iddiaları açık kaldı.",
+    "TBF, TRT Spor, EuroLeague ve Fenerbahçe sitesi açılamadı; UEFA/millî takım ve kulüp fikstürlerinin tam kontrolü tamamlanmadı.",
+    "Maç listesi tam değil. 14 Ekim maçları geç teslim nedeniyle dışarıda; Trabzonspor–KuPS ayrıntıları ve basketbol derbileri tamamlanamadı.",
+    "TFF 8. hafta tablosundaki 19 Ekim Trabzonspor–Beşiktaş dönem dışında bırakıldı.",
+    "YouTube, TikTok ve Spotify Türkiye listeleri alınamadı. Netflix açıldı ancak liste dönemi ayrıntıları doğrulanıp eklenmedi.",
+    "Rakip şirketlerin haber ve kampanya sayfalarının tam taraması tamamlanmadı; rivalCheck eksiklerini izleyin.",
+    "6 haberin 3'üne doğrulanmış konu görseli eklenemedi.",
+    "Yayın saatleri görünmeyen haberlerin 24 saat sınırına dakika düzeyinde uygunluğu teyit edilemedi."
+  ],
+  "researcherNotes": "İlk paket gecikmeli teslimdir; site yayını değildir. Sabah gözlemleri akşam tamamlanan okumalarla birleştirildi. cutoff son web okuma saatidir. 14 Ekim yayımlanmış bülteni körlemesine ezmeyin. Güldür Güldür ve ATV maddeleri eski haberin resmî teyit güncellemesidir. Cadbury 2021 arşiv vakasıdır. S Sport program başlangıçları maç başlangıcı sayılmadı. Sinema çarşamba nedeniyle taranmadı. WORKFLOW eski yazar/denetçi bölümüne karşı RESEARCH.md araştırmacı rolü esas alındı. 15 Ekimden itibaren hafta içi 07.30 başlangıç, 08.30 teslim otomasyonu tanımlandı; eski GPT yayın talimatı kaldırıldı."
+}
