@@ -369,6 +369,16 @@
     }
   }
 
+  /* GoatCounter: sayfa görüntülemesini bülten tarihiyle kaydet */
+  function track(path, title, tries) {
+    tries = tries || 0;
+    if (window.goatcounter && typeof window.goatcounter.count === "function") {
+      try { window.goatcounter.count({ path: path, title: title }); } catch (e) {}
+    } else if (tries < 20) {
+      setTimeout(function () { track(path, title, tries + 1); }, 500);
+    }
+  }
+
   function load() {
     getJSON("bulletins/index.json").then(function (idx) {
       state.index = idx.bulletins || [];
@@ -378,6 +388,7 @@
       return getJSON("bulletins/" + date + ".json").then(function (b) {
         if (b.status !== "published") throw new Error("draft");
         renderBulletin(b);
+        track("/bulten/" + b.date, b.title);
       }).catch(function () {
         $main.innerHTML = '<p class="empty">' + esc(fmtDate(date)) + ' tarihli yayımlanmış bülten bulunamadı. Arşivden başka bir gün seçebilirsiniz.</p>';
       });
