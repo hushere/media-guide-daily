@@ -1,6 +1,6 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 14 Ekim 2026, Claude (bülten 2026-10-14 sonrası)
+Son güncelleme: 14 Ekim 2026, Claude (bülten 2026-10-14 sonrası; 10.30 kaynak erişimi notu eklendi)
 
 ## 1. Pencere
 - Son bülten: 2026-10-14 | Gerçek bilgi kesimi: **14 Ekim 2026 09:40 TSİ** → sonraki pencere buradan başlar.
@@ -59,7 +59,7 @@ Erişilemeyen (o gün deneme, alternatifi kullan):
 - euroleaguebasketball.net, fenerbahce.org (hata) → haberler.com/AA, eurohoops.net/tr
 - boxofficeturkiye.com (zaman aşımı) → paribucineverse.com/gelecek-filmler, sinemalar.com, beyazperde.com
 - top10.netflix.com (zaman aşımı/robots) → yok; limitations'a yaz
-- 14 Ekim: trends.google.com izin zaman aşımı (PROVENANCE_REQUIRED) → social şeridi eklenemedi; kanal resmî siteleri ve birsenaltuntas.com açılmadı; pazarlamasyon.com, dunya.com, iabtr.org izin zaman aşımı. Bash'ten curl ile görsel kontrolü proxy nedeniyle yapılamıyor.
+- 14 Ekim: trends.google.com, kanal resmî siteleri, birsenaltuntas.com, pazarlamasyon.com, dunya.com, iabtr.org → **izin/zaman aşımı (PROVENANCE_REQUIRED), kalıcı engel değil.** 14 Ekim kurulum oturumunda kanal akışlarının hepsi (ATV, NOW, Show, Kanal D, Star, TRT 1, TV8) ve NOW bölüm sayfası açıldı. PROMPT.md 4.1 listesindekileri her gün yeniden dene. Bash'ten curl ile görsel kontrolü proxy nedeniyle yapılamıyor.
 - charts.youtube.com, TikTok Creative Center (JS) → yok
 - Marketing Türkiye RSS (robots) → ana sayfa
 - Datatilsynet orijinal duyuru bulunamadı

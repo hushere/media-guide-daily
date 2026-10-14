@@ -37,6 +37,31 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 - Şirket beyanını bağımsız kanıt gibi aktarma. Açıklanmayan bütçe, satış, reach ve yatırım büyüklüğü için sayı tahmin etme.
 - Kaynak ülkesini, kaynak dilini ve haberin ilgili olduğu pazarı ayrı takip et ve haberde belirt.
 
+### 4.1 Resmî kaynaklar ve teyit disiplini (14 Ekim 2026, kullanıcı onaylı)
+
+GPT karşılaştırmasında görülen açıkları kapatmak için:
+
+**Erişim:** Aşağıdaki resmî adresler her çalışmada doğrudan açılır. 14 Ekim'de bunların açılamaması sitelerin engeli değil, gözetimsiz çalışmadaki izin adımıydı; bu adresler kullanıcı tarafından verildiği için izinli kaynak sayılır.
+- TV yayın akışları: https://www.atv.com.tr/yayin-akisi · https://www.nowtv.com.tr/yayin-akisi · https://www.showtv.com.tr/yayin-akisi · https://www.kanald.com.tr/yayin-akisi · https://www.startv.com.tr/yayin-akisi · https://www.trt1.com.tr/yayin-akisi · https://www.tv8.com.tr/yayin-akisi
+- Dizi bölüm arşivleri: ilgili kanalın program sayfası (örn. https://www.nowtv.com.tr/<Dizi-Adı>/bolumler)
+- TV kulis: https://www.birsenaltuntas.com
+- Spor: https://www.tff.org · https://www.tbf.org.tr · https://www.tvf.org.tr · https://sultanlar.volleystation.com/en/schedule/ · https://www.ssportplus.com · https://beinsports.com.tr · https://www.trtspor.com.tr · kulüp maç merkezleri
+- Dijital gündem: https://trends.google.com/trending?geo=TR
+- Sektör: https://mediacat.com · https://www.marketingturkiye.com.tr · https://www.campaigntr.com
+
+**TV durumu:**
+- "Fiilen yayında" yalnız kanalın resmî bölüm arşivinde veya resmî akışında o tarihli yeni bölüm görüldüyse yazılır. Haber sitesine dayanan bilgi "Haber kaynaklı" olarak etiketlenir ve hangi resmî kaynağın açılamadığı belirtilir.
+
+**Yayıncı ve saat:**
+- Maç yayıncısı yalnız resmî yayıncı, federasyon, organizatör veya kulüp kaynağıyla ya da birbirini kopyalamayan iki bağımsız kaynakla yazılır. Tek ikincil kaynak varsa `broadcaster: null` ve `note` içinde kaynağı belirt.
+- Yayın hakkı sahibi resmî olarak biliniyorsa (örn. EuroLeague için S Sport Plus) maç sayfasında da teyit ara; teyit varsa yaz, yoksa `note` içinde "hak sahibi X, maç bazında teyitsiz" de.
+
+**Rakip izleme (her gün):**
+- Haber araması yeterli değil. İzleme evrenindeki şirketlerin kendi basın/haber sayfalarını ve markalarının kampanya sayfalarını kontrol et; ayrıca MediaCat ve Marketing Türkiye'de marka adlarıyla (Tadelle, Sarelle, Nutella, Milka, Nestlé, Torku, Şölen, ETİ markaları vb.) arama yap. Advertorial/sponsorlu içerikleri etiketle.
+- "Rakip haberi yok" yalnız bu kontrollerden sonra yazılır; hangilerinin yapılamadığı `limitations` içinde belirtilir.
+
+**Yazım:** `body` maddeleri hedef 18 kelime, üst sınır 22 kelime.
+
 ## 5. Zorunlu bölümler ve kontroller
 
 ### 5.1 TV & Entertainment Türkiye
@@ -142,7 +167,7 @@ Her haber şu yapıda olur:
 
 Sitedeki her kart üç hızlı okuma alanıyla gösterilir: **Ne değişti?** (`body` maddeleri), **Neden önemli?** (`impact`), **Ne yapmalı?** (`action`). Bu yüzden:
 - `summary`: tek cümle, en fazla ~25 kelime. Haberi bilmeyen biri için "ne oldu" sorusunu yanıtlar.
-- `body`: 2-5 madde. Her madde tek bir olgu, en fazla ~25 kelime. Paragraf yazma, maddeye birden fazla bilgi sıkıştırma. En önemli olgu ilk maddede. İlk 3 madde kartta görünür, gerisi "Detay" altına iner.
+- `body`: 2-5 madde. Her madde tek bir olgu, hedef 18, en fazla 22 kelime. Paragraf yazma, maddeye birden fazla bilgi sıkıştırma. En önemli olgu ilk maddede. İlk 3 madde kartta görünür, gerisi "Detay" altına iner.
 - Sayı, tarih ve saat varsa maddenin başına yakın yaz; kaynağı belirsizse belirt.
 - TV takvim satırlarını ("Yapım | Kanal | Önceki plan | ...") tek madde yerine anlamlı parçalara böl: ör. "Önceki bilgi: ...", "Güncel durum: ...", "Kaynak: ...".
 - `impact`: 1-2 kısa cümle. `action`: emir kipiyle tek cümle, somut. `counterView`: 1-2 cümle.
@@ -200,7 +225,8 @@ Yayımlamadan önce kontrol et:
 - Türkiye/Global ayrımı ve coğrafi çeşitlilik
 - Veri/yorum ayrımı
 - Her önemli haberde somut planlama etkisi
-- Biçim: `summary` tek cümle, `body` kısa maddeler, `action` tek somut cümle
+- Biçim: `summary` tek cümle, `body` maddeleri en fazla 22 kelime, `action` tek somut cümle
+- Bölüm 4.1: TV durumu resmî kaynakla mı, maç yayıncısı resmî/iki bağımsız kaynakla mı, rakip şirket sayfaları kontrol edildi mi
 - Görseller haberin konusuyla ilgili, kredili ve doğrudan https adresli; `social` öğelerinde metrikler kaynaklı ve uydurma değil
 
 Yapılmamış kontrollerin tamamlandığını iddia etme.
@@ -221,7 +247,7 @@ Yayın, GitHub deposu `hushere/media-guide-daily` üzerinden yapılır. Site: ht
 - **Günlük devir notu:** Her çalışma işe `state/handoff.md` dosyasını okuyarak başlar ve yayından sonra aynı dosyayı günceller (bilgi kesim saati, ertesi güne bırakılan kontroller, TV takip tablosu, bildirilen sinema eşikleri, kullanılmış yaratıcı vakalar, çalışan/erişilemeyen kaynaklar). Son 5 bülten yalnız devir notunda eksik veya şüpheli bilgi varsa açılır.
 - **Alt ajanlar:** Araştırma alt ajanlarında daha hafif model kullanılır (Agent çağrısında `model: "sonnet"`). Bülten yazımı, karar verme ve bölüm 8 kalite kontrolü ana modelde kalır. Alt ajan sayısı şimdilik değişmez.
 - **Üst sınırlar:** Global bölümünde en fazla 5 haber. Sinema erken uyarı (5.4 a) ve salon kampanyası (5.4 b) kontrolü yalnız cuma bülteninde yapılır; diğer günlerde yalnız tesadüfen görülen tarih değişikliği veya büyük kampanya haberi eklenir.
-- **Erişilemeyen kaynak:** Bir kaynak açılmazsa (zaman aşımı, izin isteği, robots, paywall, JS ile yüklenen sayfa) tekrar denenmez; alternatif kaynağa geçilir veya doğrudan `limitations` içine yazılır ve `state/handoff.md` içindeki erişim listesine eklenir. Devir notunda "erişilemiyor" diye işaretli kaynaklar o gün denenmez, alternatifi kullanılır. (Yayın/gönderim hatasındaki tek tekrar kuralı bölüm 9'da ayrıca geçerlidir.)
+- **Erişilemeyen kaynak:** Bir kaynak açılmazsa aynı gün tekrar denenmez; alternatif kaynağa geçilir ve `limitations` içine yazılır. Ancak bölüm 4.1 listesindeki resmî kaynaklar devir notunda "erişilemedi" yazsa bile **her gün yeniden denenir**; bir günlük izin/zaman aşımı hatası kalıcı engel sayılmaz. Devir notunda hata türü ayrı yazılır: "izin/zaman aşımı" (ertesi gün yeniden dene) veya "kalıcı engel: robots, JS, paywall" (alternatif kullan). (Yayın/gönderim hatasındaki tek tekrar kuralı bölüm 9'da ayrıca geçerlidir.)
 
 ### Cuma: Haftanın özeti (13 Ekim 2026, kullanıcı onaylı)
 
