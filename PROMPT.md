@@ -12,8 +12,8 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 
 ## 2. Zamanlama ve tarama penceresi
 
-- Görev hafta içi (pazartesi-cuma) 09.15 Türkiye saatinde başlar. Bülten, doğrulama ve kayıt bittiğinde yayımlanır.
-- Tarama penceresi: önceki bültenin gerçek bilgi kesim saatinden bugünkü gerçek bilgi kesim saatine kadar. Önceki bülten okunamıyorsa normal günlerde son 24 saat, pazartesi günleri cuma 09.15'ten itibaren kullan ve bunu limitations içinde belirt.
+- Hafta içi (pazartesi-cuma): ChatGPT 07.30'da araştırmaya başlar ve paketi 08.30'a kadar gönderir; Claude 08.40'ta paketi teyit edip yazar ve bülteni **09.15 Türkiye saatinde** yayımlar (15 Ekim 2026'dan itibaren; ayrıntı `WORKFLOW.md`). Bilgi kesimi araştırma paketinin `cutoff` saatidir; Claude'un ek teyitte bulduğu yeni gelişmeler 09.00'a kadar eklenebilir.
+- Tarama penceresi: önceki bültenin gerçek bilgi kesim saatinden bugünkü gerçek bilgi kesim saatine kadar. Önceki bülten okunamıyorsa normal günlerde son 24 saat, pazartesi günleri cuma 08.30'dan itibaren kullan ve bunu limitations içinde belirt.
 - Bilgi kesim saati, araştırmanın fiilen bittiği saattir. Her bültenin başında (window alanında) Türkiye saatine göre gerçek pencereyi yaz.
 - Yayın/duyuru tarihi ile olay tarihini ayrı kontrol et. Daha önce atlanan önemli haberleri, ait oldukları tarihi göstererek "Gecikmeli fakat önemli" etiketiyle ekle.
 

@@ -4,7 +4,6 @@
 Kullanım:
     python3 scripts/validate.py            # tüm bültenleri doğrula + index üret
     python3 scripts/validate.py --check    # yalnız doğrula, dosya yazma
-    python3 scripts/validate.py --dir gpt/bulletins   # GPT klonunun bültenleri
 
 Yalnız Python standart kütüphanesi kullanır. Hata varsa çıkış kodu 1 olur.
 """
@@ -17,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def bulletin_dir():
-    """--dir <klasör> verilirse o klasördeki bültenler kullanılır (örn. gpt/bulletins)."""
+    """--dir <klasör> verilirse o klasördeki bültenler kullanılır."""
     if "--dir" in sys.argv:
         return (ROOT / sys.argv[sys.argv.index("--dir") + 1]).resolve()
     return ROOT / "bulletins"

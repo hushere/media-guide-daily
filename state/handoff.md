@@ -78,3 +78,7 @@ Erişilemeyen (o gün deneme, alternatifi kullan):
 - Ülker (kendi şirket): Lovemarks 2026 çikolata kaplamalı gofret birincisi; Godiva 100. yıl sanat koleksiyonu (5 Ekim, Türkiye'de ekimden itibaren).
 - Mars M&M's Minis/Cookie Dough + Marvel paketleri (13 Eylül, bildirilmedi).
 - 13-14 Ekim penceresinde rakiplerden yeni Türkiye haberi yok.
+
+## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- 15 Ekim itibarıyla araştırmayı ChatGPT yapıyor (RESEARCH.md). İlk gün: şema alanlarına ve teyit seviyelerine dikkat; accessLog doldurulsun.
+- 14 Ekim karşılaştırmasından: rakip şirket sayfaları kontrol edilmeli (Tadelle örneği); tek ikincil kaynaklı maç yayıncısı yazılmamalı.

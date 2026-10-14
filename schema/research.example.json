@@ -1,0 +1,98 @@
+{
+  "date": "YYYY-MM-DD",
+  "researcher": "ChatGPT",
+  "startedAt": "YYYY-MM-DDTHH:MM+03:00 (araştırmanın başladığı saat)",
+  "cutoff": "YYYY-MM-DDTHH:MM+03:00 (gerçek bilgi kesimi: araştırmanın bittiği saat)",
+  "window": "Tarama penceresi, Türkiye saatiyle (önceki paketin cutoff'undan bu paketin cutoff'una)",
+  "items": [
+    {
+      "id": "kucuk-harf-tireli-benzersiz-id",
+      "region": "Türkiye | Global",
+      "category": "TV & Entertainment | Dijital & AI | Ölçüm & Araştırma | Ajans & Marka | Rekabet | Spor | Sinema | Yaratıcı Mecra | Etkinlik",
+      "market": "İlgili pazar (örn. Türkiye, ABD, Global)",
+      "title": "Kısa, olguyu söyleyen başlık",
+      "eventDate": "Olayın tarihi (yayın tarihinden ayrı)",
+      "facts": [
+        "Tek olgu, en fazla 22 kelime",
+        "Sayı/tarih varsa maddenin başında; kaynağı belirsizse belirt"
+      ],
+      "verification": "official | two_independent | single_secondary | rumor",
+      "verificationNote": "Hangi kaynaklarla teyit edildi; teyit eksikse ne eksik",
+      "label": "İsteğe bağlı: Kulis | Gecikmeli fakat önemli | Kanal teyitli | Fiilen yayında | Advertorial",
+      "impactDraft": "İsteğe bağlı: planner/buyer açısından neden önemli (taslak; son metni Claude yazar)",
+      "actionDraft": "İsteğe bağlı: ne yapılmalı (taslak)",
+      "counterViewDraft": "İsteğe bağlı: alternatif açıklama, sınır, risk",
+      "image": {
+        "url": "https:// görselin doğrudan adresi",
+        "alt": "Görselde ne var",
+        "credit": "Görsel sahibi / yayıncı",
+        "sourceUrl": "https:// görselin alındığı sayfa"
+      },
+      "sources": [
+        {
+          "name": "Yayın adı • Sayfa başlığı",
+          "url": "https:// doğrudan sayfa",
+          "published": "Yayın tarihi (ve saat varsa)",
+          "country": "Kaynak ülkesi",
+          "language": "Kaynak dili",
+          "type": "official | research | trade | agency | news | social"
+        }
+      ]
+    }
+  ],
+  "tvTracking": [
+    {
+      "show": "Yapım adı",
+      "channel": "Kanal",
+      "previous": "Önceki plan/bilgi",
+      "current": "Doğrulanmış güncel veya gerçekleşen tarih/saat",
+      "status": "Planlanan | Kanal teyitli | Fiilen yayında | Final | Kulis | Haber kaynaklı",
+      "source": "https:// kaynak",
+      "checkedAt": "Kontrol saati"
+    }
+  ],
+  "matches": [
+    {
+      "date": "YYYY-MM-DD",
+      "time": "SS:DD veya teyitsizse null",
+      "sport": "Futbol | Basketbol | Kadın voleybolu",
+      "competition": "Turnuva",
+      "home": "Ev sahibi",
+      "away": "Deplasman",
+      "broadcaster": "Resmî veya iki bağımsız kaynakla teyitliyse yayıncı, değilse null",
+      "source": "https:// resmî kaynak",
+      "note": "Teyit notu / saat çelişkisi",
+      "tags": ["Derbi | Final | Millî maç (isteğe bağlı)"]
+    }
+  ],
+  "matchesWindow": "Maç takviminin kapsadığı aralık",
+  "rivalCheck": {
+    "checked": ["Kontrol edilen şirket/marka ve sayfa: ör. Sagra • sagra.com.tr haberler"],
+    "notChecked": ["Kontrol edilemeyen ve nedeni"],
+    "finding": "Yeni gelişme var mı; varsa ilgili item id'leri"
+  },
+  "social": {
+    "window": "Kontrol saati ve dönemi",
+    "note": "Bu listelerin neyi ölçtüğü, neyi ölçmediği",
+    "items": [
+      {
+        "platform": "Google | YouTube | TikTok | Instagram | X | Netflix | Spotify | diğer",
+        "type": "Arama trendi | Top 10 | Trend | Hashtag | Öne çıkan içerik",
+        "rank": 1,
+        "title": "Konu / içerik",
+        "metric": "Kaynağın verdiği metrik, kaynak adıyla; yoksa alanı ekleme",
+        "whyItMatters": "Planner/buyer için tek cümle",
+        "url": "https:// doğrudan kaynak",
+        "source": "Kaynak adı",
+        "published": "Liste dönemi"
+      }
+    ]
+  },
+  "cinema": "Yalnız cuma: PROMPT.md 5.4 alanları; diğer günler bu alanı ekleme",
+  "creativeCase": "Yaratıcı mecra vakası: bir item olarak items içine yazılır (category: Yaratıcı Mecra); burada yalnız item id'si",
+  "accessLog": [
+    { "url": "https://...", "result": "ok | permission_timeout | blocked_robots | js_only | paywall | error", "note": "" }
+  ],
+  "limitations": ["Yapılamayan kontroller, erişilemeyen kaynaklar, tam olmayan kapsam"],
+  "researcherNotes": "İsteğe bağlı: Claude'a not (çelişkili bilgi, öncelik önerisi)"
+}
