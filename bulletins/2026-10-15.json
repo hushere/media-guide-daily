@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-15",
+  "title": "Halk TV'de kayyum ve yayın kesintisi teslimat kontrolü gerektiriyor, perşembe prime time'da iki Avrupa maçı, Cadbury komşu ilanları kullanıyor",
+  "summary": "Türkiye'de Halk TV'ye kayyum atanması ve yayın kesintisi haber kanalı planlarında teslimat kontrolünü öne çıkarıyor; perşembe akşamı TRT 1 iki Avrupa maçı yayımlıyor. Globalde DoubleVerify kısa video beyan verisi ve WPP'de müşteri yönetimi ataması var. Eksikleri belirtilmiş seçki.",
+  "edition": "selection",
+  "window": "14 Ekim 2026 19:22 – 15 Ekim 2026 07:45 TSİ (araştırma paketinin penceresi). 14 Ekim sayısının bilgi kesimi (09:40) ile 19:22 arasındaki önemli içerikler 'Gecikmeli fakat önemli' etiketiyle eklendi. Claude teyidi 08:41-08:50 TSİ.",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-15T08:50+03:00",
+    "summary": "ChatGPT paketi (6 öğe) doğrulandı. Halk TV yayın kesintisi web aramasıyla ek bağımsız kaynaklarla (Sözcü, Euronews, Medyascope, Karar) teyit edildi; 15 Ekim yayın durumu doğrulanamadı. Ladybird Sports (tek ikincil kaynak, Brezilya) teyit edilemediği ve Türkiye planlaması için düşük önemde olduğu için çıkarıldı. Maç saat/yayıncıları paketteki resmî kaynaklara (TRT 1 akışı, kulüp fikstürleri, S Sport Plus) dayanıyor; Claude bu sayfaları bu oturumda yeniden açamadı (WebFetch izin zaman aşımı), arama sonuçları çelişki göstermedi. DoubleVerify rakamları ve WPP ataması yeniden açılamadı; şirket kaynaklı olarak aktarıldı. Kartlar PROMPT.md biçimine göre yeniden yazıldı."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "halk-tv-kayyum-yayin-kesintisi",
+      "title": "Halk TV'ye kayyum atandı, yayın 14 Ekim'de durduruldu: haber kanalı teslimatlarını kontrol edin",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "14 Ekim 2026, sabah saatleri",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "14 Ekim sabahı Halk TV'nin yönetimine kayyum atandı; birden fazla kaynağa göre kanalın televizyon yayını aynı gün durduruldu.",
+      "body": [
+        "14 Ekim: Halk TV'nin kendi sitesi kayyum heyetinin kanal yönetimini devraldığını bildirdi.",
+        "Sözcü, MediaCat ve AP aynı gün televizyon yayınının durdurulduğunu aktardı; Euronews ve Medyascope kayyum atamasını ayrıca haberleştirdi.",
+        "15 Ekim sabahı itibarıyla yayının sürüp sürmediği ve kuşak akışı resmî kaynakla doğrulanamadı.",
+        "Karar metni ve TMSF açıklaması okunamadı; bu sayıda yalnız medya teslimatı açısından ele alınıyor.",
+        "14 Ekim sayısında yer almadı; olay o sayının bilgi kesiminden önce gerçekleşti."
+      ],
+      "impact": "Haber kanalı planlarında 14 Ekim ve sonrası spotların yayınlanıp yayınlanmadığı belirsiz; teslimat ve marka güvenliği değerlendirmesi gerekiyor.",
+      "action": "Halk TV içeren planlarda kanal ve satış evinden 14-15 Ekim fiilî akışını, gerçekleşen spot listesini ve telafi planını yazılı olarak isteyin.",
+      "counterView": "Yönetim değişikliği tüm reklam kuşaklarının iptal edildiğini veya kesintinin sürdüğünü tek başına göstermez; yayın kısa sürede yeniden başlamış olabilir.",
+      "sources": [
+        {
+          "name": "Halk TV • Kanal binasındaki gelişmeler",
+          "url": "https://halktv.com.tr/turkiye/son-dakika-halk-tvye-dayanismaya-gelenlere-engel-giris-kapisi-kilitlendi-1061587h",
+          "published": "2026-10-14 10:03; güncelleme 10:46",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "MediaCat • Halk TV’ye kayyum atandı",
+          "url": "https://mediacat.com/halk-tvye-kayyum-atandi/",
+          "published": "2026-10-14",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "AP • Turkish authorities raid TV channel",
+          "url": "https://apnews.com/article/turkey-tv-raid-halk-erdogan-press-freedom-59176d1028ef288e959f06e123dd7009",
+          "published": "Sayfa metninde yayın tarihi görünmüyor; 15 Ekim 2026 kontrolü",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Sözcü • Halk TV'ye kayyum atandı: Yayın durduruldu",
+          "url": "https://www.sozcu.com.tr/son-dakika-halk-tv-ye-kayyum-atandi-yayin-durduruldu-p368939",
+          "published": "14 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Euronews Türkçe • Halk TV'ye kayyum atandı",
+          "url": "https://tr.euronews.com/2026/10/14/halk-tvye-kayyum-atandi-11-kisi-gozaltinda-suclamalar-neler",
+          "published": "14 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.mediacat.com/uploads/2026/10/halk-tv-1252x704.jpg",
+        "alt": "Halk TV haberinin kaynak görseli",
+        "credit": "MediaCat",
+        "sourceUrl": "https://mediacat.com/halk-tvye-kayyum-atandi/"
+      }
+    },
+    {
+      "id": "gunesin-dogdugu-yer-15-ekim-prime-time",
+      "title": "Güneşin Doğduğu Yer perşembe 20.00'de: gece kaydı tekrar, prime time slotu değişmedi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "15 Ekim 2026, 20.00 (planlanan yayın)",
+      "label": "Kanal teyitli",
+      "summary": "ATV'nin 15 Ekim akışı Güneşin Doğduğu Yer'in 5. bölümünü 20.00'de gösteriyor; dizinin geceye taşındığı şüphesi doğrulanmadı.",
+      "body": [
+        "Güneşin Doğduğu Yer | ATV | Önceki bilgi: 14 Ekim akışında 23.40 kaydı, devir notunda 00.20 iddiası.",
+        "Güncel durum: 15 Ekim perşembe 20.00'de 5. bölüm resmî akışta (ChatGPT kontrolü, 07.42).",
+        "Resmî bölüm arşivinde ilk üç bölüm 17 Eylül, 24 Eylül ve 1 Ekim perşembe tarihli.",
+        "Aynı akşam Kanal D'de Uzak Şehir 20.00 ve Haysiyet 23.15 'Tekrar' olarak listeleniyor.",
+        "TRT 1 aynı akşam 19.45 KuPS–Trabzonspor ve 22.00 Hoffenheim–Beşiktaş yayımlıyor."
+      ],
+      "impact": "Perşembe prime time'da ATV dizisi ile TRT 1'in iki Avrupa maçı karşı karşıya; Kanal D tekrarla rekabetten kısmen çekiliyor.",
+      "action": "15 Ekim 20.00 ATV rezervasyonlarını 5. bölüm kaydıyla eşleştirin; gece kuşağı spotlarını yeni bölüm değil tekrar olarak fiyatlayın.",
+      "counterView": "Akış yayın niyetini gösterir, gerçekleşmeyi değil; resmî arşivin görünen listesi 3. bölümde kesiliyor ve akış son dakika değişebilir.",
+      "sources": [
+        {
+          "name": "ATV • Yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "15 Ekim 2026 tarihli akış; duyuru saati belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ATV • Güneşin Doğduğu Yer bölümleri",
+          "url": "https://www.atv.com.tr/gunesin-dogdugu-yer/bolumler",
+          "published": "Bölüm tarihleri 17 Eylül–1 Ekim 2026; 15 Ekim kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Kanal D • Perşembe yayın akışı",
+          "url": "https://www.kanald.com.tr/yayin-akisi/persembe",
+          "published": "15 Ekim 2026 tarihli akış; ChatGPT kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://iaatv.tmgrup.com.tr/658cc1/500/268/0/0/500/268?u=https%3A%2F%2Fiatv.tmgrup.com.tr%2F2026%2F09%2F04%2F1788528530883.jpg",
+        "alt": "Güneşin Doğduğu Yer kanal tanıtım görseli",
+        "credit": "ATV",
+        "sourceUrl": "https://www.atv.com.tr/gunesin-dogdugu-yer"
+      }
+    },
+    {
+      "id": "doubleverify-sosyal-kisa-video-raporu-2026",
+      "title": "DoubleVerify: tüketicilerin %38'i kısa video reklamlarının tıklama veya satın almayı tetikleyebileceğini söylüyor",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "market": "Global (LATAM, EMEA kırılımlı)",
+      "eventDate": "14 Ekim 2026 (duyuru; saat belirtilmiyor)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "DoubleVerify'ın 2026 sosyal medya raporu, 22.000 tüketici ve 2.020 pazarlamacı anketine dayanarak kısa video ve insan influencer tercihini öne çıkarıyor.",
+      "body": [
+        "Örneklem: 22.000 tüketici ve 2.020 pazarlamacı; ülke dağılımı ve saha tarihleri erişilen metinde yok.",
+        "Tüketicilerin %38'i kısa video reklamlarının tıklama veya satın almayı teşvik edebileceğini söylüyor.",
+        "Aynı beyan LATAM'da %49, EMEA'da %29; bölgesel fark belirgin.",
+        "Tamamen yapay zekâ influencer kullanan markalara olumsuz tepki beyanı %37, olumlu tepki %29.",
+        "Rakamlar DoubleVerify duyurusundan (ChatGPT okuması); Claude bu sayıda sayfayı yeniden açamadı."
+      ],
+      "impact": "EMEA'daki düşük beyan, kısa video bütçesinin LATAM verisine bakılarak Türkiye'ye taşınmaması gerektiğine işaret ediyor; AI influencer kullanımı itibar riski taşıyor.",
+      "action": "Kısa video ve AI influencer testlerini Türkiye'de artımlı etki ölçümüyle kurun; DoubleVerify'dan varsa Türkiye/EMEA örneklemini isteyin.",
+      "counterView": "Öz beyan, gerçekleşen satın alma veya nedensel etki değildir; araştırma bir doğrulama sağlayıcısının kendi ticari raporu ve metodolojisi açık değil.",
+      "learning": "Artımlı etki (incrementality): reklam görmeyen kontrol grubuyla karşılaştırıldığında yalnız reklamın yarattığı ek sonuçtur; beyan anketleri bunu ölçmez.",
+      "sources": [
+        {
+          "name": "DoubleVerify • 2026 Global Insights Report duyurusu",
+          "url": "https://ir.doubleverify.com/news-events/press-releases/press-releases-details/2026/Global-Study-Social-Is-Reshaping-the-Path-to-Purchase-as-Consumers-Embrace-Short-Form-Video-and-Human-Influencers/default.aspx",
+          "published": "2026-10-14; saat belirtilmiyor",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "DoubleVerify • Scroll, Stop and Shop",
+          "url": "https://doubleverify.com/lp/report/social/verify/2026-dv-global-insights-walled-garden-reports",
+          "published": "Tarihsiz rapor sayfası; 15 Ekim 2026 kontrolü",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "wpp-adam-gerhart-global-chief-client-officer",
+      "title": "WPP, Adam Gerhart'ı grup düzeyinde Global Chief Client Officer yaptı",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "market": "Global",
+      "eventDate": "14 Ekim 2026 (duyuru; saat belirtilmiyor)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "WPP Media'da müşteri yönetimini yürüten Adam Gerhart, WPP grubunun Global Chief Client Officer görevine atandı.",
+      "body": [
+        "Adam Gerhart, WPP Media'daki aynı unvanlı görevinden grup düzeyine geçti.",
+        "Yeni görevinde WPP'nin global müşteri liderleri ağını yönetecek.",
+        "Gerhart daha önce Mindshare'in global CEO'suydu (2020 ataması, Campaign).",
+        "14 Ekim sayısında Publicis'in konkursuz büyük hesap kazanımları işlenmişti; WPP müşteri tarafını güçlendiriyor."
+      ],
+      "impact": "Holding düzeyinde tek müşteri muhatabı, konkursuz yenileme ve entegre hizmet tekliflerinin WPP tarafında da hızlanabileceğine işaret ediyor.",
+      "action": "WPP ajanslarıyla çalışan global hesaplarda müşteri liderliği ve eskalasyon zincirinde değişiklik olup olmadığını ajanstan teyit edin.",
+      "counterView": "Atama duyurusu yerel ekiplerin, ücretlerin veya hizmet performansının değiştiğinin kanıtı değildir; etkisi aylar içinde görülür.",
+      "sources": [
+        {
+          "name": "WPP • Adam Gerhart ataması",
+          "url": "https://www.wpp.com/en/news/wpp-appoints-adam-gerhart-as-global-chief-client-officer",
+          "published": "2026-10-14; saat belirtilmiyor",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Campaign • Mindshare elevates Adam Gerhart to global CEO",
+          "url": "https://campaignlive.com/article/mindshare-elevates-adam-gerhart-global-ceo/1702519",
+          "published": "Aralık 2020",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://res.cloudinary.com/wpp-cloudinary/image/upload/c_auto%2Cw_3840%2Cg_auto/f_auto/q_92/v1/wpp/News/2026/npjsyncl0inmrmh3v68e?_a=BAVMn6DY0",
+        "alt": "Adam Gerhart atamasının WPP kaynak görseli",
+        "credit": "WPP",
+        "sourceUrl": "https://www.wpp.com/en/news/wpp-appoints-adam-gerhart-as-global-chief-client-officer"
+      }
+    },
+    {
+      "id": "cadbury-dairy-milk-more-komsu-ilanlar",
+      "title": "Yaratıcı Mecra Uygulamaları: Cadbury Dairy Milk &More, komşu ilanlardaki insanlar çikolataya bakıyor",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "market": "Birleşik Krallık",
+      "eventDate": "Haziran 2024; arşiv vaka",
+      "label": "OOH • Solid çikolata • Arşiv vaka",
+      "summary": "Cadbury, &More lansmanında yan yana panolardaki bağımsız işletme ilanlarının kişilerini kendi çikolatasına bakar hâle getirdi.",
+      "body": [
+        "Marka/kampanya: Mondelez Cadbury Dairy Milk &More, Birleşik Krallık, 2024; ajans VCCP, medya Publicis Media.",
+        "Mecra fikri: Komşu ilan yüzeyleri fikrin parçası; yandaki ilanlardaki kişiler başlarını Cadbury panosuna çeviriyor.",
+        "Komşu ilanlarda gerçek bağımsız işletmeler yer aldı; VCCP'ye göre bu işletmelere ücretsiz reklam alanı verildi.",
+        "Uygulama: Euston ve Waterloo dahil fiziksel/dijital OOH alanlarında yayımlandı; yalnız CGI sosyal video değil.",
+        "Tartışma sorusu: Yan yana pano kompozisyonu Türkiye'de hangi tablet çikolata lansmanına uyarlanabilir?"
+      ],
+      "impact": "Tek panonun yapamadığını bitişik yüzeyler yapıyor: dikkat yönü fiziksel olarak markaya çevriliyor ve yerel işletme ortaklığı olumlu kazanılmış medya üretiyor.",
+      "action": "Bir sonraki tablet çikolata lansmanında aynı lokasyonda bitişik pano veya istasyon ekranı bloklarını birlikte satın alma fiyatını OOH tedarikçisinden isteyin.",
+      "counterView": "Bitişik yüzeyleri birlikte almak koordinasyon ve maliyet yaratır, ölçeklenmesi zor; bağımsız attention veya satış sonucu açıklanmadı, değerlendirme ajans anlatımına dayanıyor.",
+      "sources": [
+        {
+          "name": "VCCP • Cadbury Dairy Milk &More",
+          "url": "https://www.vccp.com/uk/work/cadbury/cadbury-more",
+          "published": "2024-06-03",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://www.vccp.com/uk/wp-content/uploads/2024/06/2-1920x720.png",
+        "alt": "Cadbury Dairy Milk &More ve ona bakan komşu ilanların açık hava kompozisyonu",
+        "credit": "VCCP / Cadbury",
+        "sourceUrl": "https://www.vccp.com/uk/work/cadbury/cadbury-more"
+      }
+    }
+  ],
+  "highlights": [
+    "Türkiye: Halk TV'ye 14 Ekim'de kayyum atandı ve yayın aynı gün durduruldu; haber kanalı içeren planlarda gerçekleşen spot listesini isteyin.",
+    "TV: Perşembe 20.00'de ATV'de Güneşin Doğduğu Yer 5. bölüm; TRT 1 19.45 KuPS–Trabzonspor ve 22.00 Hoffenheim–Beşiktaş yayımlıyor.",
+    "Global: DoubleVerify'a göre kısa video reklamlarının satın almayı tetikleyebileceğini söyleyenler LATAM'da %49, EMEA'da %29."
+  ],
+  "watchlist": [
+    "Halk TV'nin yayın durumu ve reklam satış/teslimat açıklaması.",
+    "18 Ekim Beşiktaş–Galatasaray erkek basketbol derbisinin yayıncısı (beIN teyidi bekleniyor).",
+    "Netflix Q3 sonuçları (20 Ekim): reklamlı paket verileri.",
+    "Omnicom, Havas, WPP Q3 sonuçları.",
+    "Güldür Güldür Show 17 Ekim cumartesi 20.00 yeni sezon (Show TV akışında teyitli)."
+  ],
+  "limitations": [
+    "Claude teyidi sırasında WebFetch izin istekleri gözetimsiz çalışmada zaman aşımına uğradı (izin/zaman aşımı, kalıcı engel değil); resmî kanal akışları, TRT 1, S Sport Plus ve şirket sayfaları Claude tarafından yeniden açılamadı. Teyit web aramasıyla ve ChatGPT'nin accessLog kayıtlarıyla sınırlı kaldı.",
+    "Tarama kısmi (ChatGPT): TV ve maç takvimleri önceliklendirildi; tüm medya türleri, araştırma yayıncıları ve düzenleyiciler uçtan uca taranmadı.",
+    "TBF, TRT Spor, EuroLeague maç merkezi, Fenerbahçe ve TMSF sayfaları açılamadı.",
+    "Rakip izleme: ETİ (zaman aşımı), Torku, Fiskobirlik, Lider Çikolata ve Ülker sayfaları açılamadı; Doğkar ve Altınkılıçlar şirket-marka sahipliği teyit edilmedi. Yeni rakip gelişmesi bulunmadı, ancak bu tam kapsamlı bir 'rakip haberi yok' teyidi değildir.",
+    "Dijital gündem: yalnız Google Trends Türkiye okunabildi; Netflix, YouTube, TikTok ve Spotify listeleri açılamadı. Tek öğe olduğu için şerit yalnız bu sinyali gösteriyor.",
+    "DoubleVerify raporunun saha tarihleri, ülke dağılımı ve metodolojisi elde edilemedi; DoubleVerify kartında görsel yok.",
+    "ATV Hamal/Cevher/Karakuyu gün ataması ve Bir Hayat Hikâyesi resmî açıklaması kontrolleri kapanmadı."
+  ],
+  "corrections": [
+    "14 Ekim sayısı, maçlar: 15 Ekim 19.45 KuPS–Trabzonspor (Konferans Ligi, TRT 1) ve 18 Ekim 20.30 Beşiktaş–Galatasaray erkek basketbol derbisi listede eksikti; eklendi.",
+    "14 Ekim sayısı, maçlar: Hoffenheim–Beşiktaş yayıncısı TRT 1 olarak (resmî akış) tamamlandı.",
+    "Devir notu: Real Madrid–Barcelona maçı için yazılan 23.00 TSİ saati teyitsizdir; 25 Ekim tarihi Barcelona resmî takviminde."
+  ],
+  "matchesWindow": "15-18 Ekim 2026",
+  "matches": [
+    {
+      "date": "2026-10-15",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "KuPS Kuopio",
+      "away": "Trabzonspor",
+      "broadcaster": "TRT 1",
+      "source": "https://kups.fi/nahdaan-tammelassa-kups-trabzonspor-otteluinfo/",
+      "note": "Ev sahibi kulübün 14 Ekim duyurusu: 15 Ekim 19.45 Finlandiya yerel saati; bu tarihte TSİ ile aynı. TRT 1'in 15 Ekim akışı yayıncıyı teyit ediyor: https://www.trt1.com.tr/yayin-akisi . Önceki pakette eksikti.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-15",
+      "time": "20:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Partizan",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ssrprod.passo.com.tr/tr/etkinlik/fenerbahce-tarfin-partizan-basket-mac-bileti/12898325",
+      "note": "Etkinliğin Passo satış sayfası 15 Ekim 20.45'i gösteriyor. Yayıncı kendi listesinde doğrulandı: https://www.ssportplus.com . Listedeki 20.00 maç önü programıdır; maç saati değildir. Kulüp ana sayfası açılamadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-15",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Hoffenheim",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT 1",
+      "source": "https://bjk.com.tr/tr/mobil/mac_merkezi_liste",
+      "note": "Kulüp fikstüründe 15 Ekim 22.00. TRT 1 resmî akışı yayıncıyı teyit ediyor: https://www.trt1.com.tr/yayin-akisi . Önceki paketin boş yayıncı alanı tamamlandı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Bayern Münih",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/mobil/mac_merkezi_liste",
+      "note": "Kulüp fikstüründe 16 Ekim 20.00. Yayıncı: https://www.ssportplus.com . Yayın listesindeki 19.15 maç önü programıdır; başlama saati olarak kullanılmadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Žalgiris Kaunas",
+      "away": "Anadolu Efes",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.anadoluefessk.org/en",
+      "note": "Anadolu Efes kulüp ana sayfasındaki fikstür 16 Ekim 20.00; S Sport Plus'ın aynı saatli maç kaydıyla uyumlu: https://www.ssportplus.com .",
+      "tags": []
+    },
+    {
+      "date": "2026-10-18",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "Türkiye Sigorta Basketbol Süper Ligi",
+      "home": "Beşiktaş",
+      "away": "Galatasaray MCT Technic",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/mobil/mac_merkezi_liste",
+      "note": "Resmî kulüp fikstüründe 18 Ekim 20.30 erkek basketbol derbisi. Önceki araştırma paketinde eksikti. beIN yayın akışı boş döndü; lig haklarından maç yayıncısı türetilmedi.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "social": {
+    "window": "15 Ekim 2026 sabah kontrolü; Google Trends Türkiye son 24 saat.",
+    "note": "Arama hacmi eşikleri ve artış oranlarıdır; tekil kişi, video izlenmesi, erişim veya reklam etkisi değildir.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Fenerbahçe",
+        "metric": "Google Trends: 1M+ arama; %1.000 artış; aktif trend",
+        "whyItMatters": "Spor çevresindeki içerik ve arama ilgisini izlemek için sinyal; tek başına belirli bir maçın veya reklamın etkisini göstermez.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends Türkiye",
+        "published": "15 Ekim 2026 sabah gözlemi; son 24 saat"
+      }
+    ]
+  }
+}
