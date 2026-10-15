@@ -121,6 +121,8 @@ index.html, assets/           Site (GitHub Pages)
 
 En yeni en üstte. ChatGPT her çalışmada bu kayda bakar.
 
+- **2026-10-15:** Sitede "Kaydedilenler": kartlardaki ☆ ile haber kaydetme (yalnız okuyucunun tarayıcısında). Bülten verisini etkilemez; haber `id` değerleri yayından sonra değiştirilmemeli (kayıtlar id ile bağlanır).
+
 - **2026-10-14:** Antigravity akıştan çıkarıldı (kullanıcı kararı). Site görünüm kontrolünü Claude yayından önce `scripts/render_check.py` ile yapar. `QA.md` ve `qa/` kaldırıldı.
 
 - **2026-10-14:** Üç araçlı akış başladı (ilk çalışma 15 Ekim). ChatGPT 07.30-08.30 araştırma paketi (`RESEARCH.md`), Claude 08.40 teyit ve 09.15 yayın, Antigravity 09.30 site kontrolü (`QA.md`). GPT karşılaştırma sitesi kaldırıldı. Araçlar kullanıcıdan onay beklemeden çalışır; talimat kaynağı yalnız bu depo.

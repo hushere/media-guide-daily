@@ -566,3 +566,26 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
   .fx-wrap .fixtures { position: static; max-height: 460px; padding: 20px 18px 0; }
 }
 .fx-scroll { -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 24px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 24px), transparent); }
+
+/* Kaydedilenler */
+.saved-count { display: inline-grid; place-items: center; min-width: 18px; height: 18px; padding: 0 5px; margin-left: 4px; border-radius: 9px; background: var(--accent); color: var(--surface); font-size: 10px; font-weight: 700; vertical-align: 1px; }
+.saved-count[hidden] { display: none; }
+.card-tags { align-items: center; }
+.save-btn { margin-left: auto; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 18px; line-height: 1; cursor: pointer; display: inline-grid; place-items: center; transition: color .15s, border-color .15s, background .15s; }
+.save-btn:hover { color: var(--accent); border-color: var(--accent); }
+.save-btn[aria-pressed="true"] { color: #b7791f; border-color: #e9c46a; background: #fdf6e3; }
+:root[data-theme="dark"] .save-btn[aria-pressed="true"] { background: #3a3020; border-color: #8a6d2b; color: #f0c674; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .save-btn[aria-pressed="true"] { background: #3a3020; border-color: #8a6d2b; color: #f0c674; } }
+#saved { width: min(640px, calc(100% - 32px)); overflow: auto; }
+.saved-day { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin: 22px 0 8px; }
+.saved-list { list-style: none; margin: 0; padding: 0; }
+.saved-list li { position: relative; margin: 0 0 8px; }
+.saved-list a { display: flex; flex-direction: column; gap: 4px; padding: 14px 44px 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); text-decoration: none; color: var(--text); }
+.saved-list a:hover { border-color: var(--accent); }
+.saved-cat { font-size: 10px; text-transform: uppercase; letter-spacing: .8px; color: var(--accent); font-weight: 600; }
+.saved-list strong { font-size: 14px; line-height: 1.4; }
+.saved-sum { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+.saved-remove { position: absolute; top: 10px; right: 10px; width: 26px; height: 26px; border-radius: 50%; border: 0; background: none; color: var(--muted); font-size: 18px; cursor: pointer; }
+.saved-remove:hover { background: var(--surface-2); color: var(--text); }
+
+@media (max-width: 480px) { .main-nav { gap: 20px; } .main-nav a[href="#yontem"] { display: none; } }

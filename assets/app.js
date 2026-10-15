@@ -74,6 +74,72 @@
     } else { prompt("Linki kopyalayın:", url); }
   });
 
+  /* Kaydedilenler: kullanıcının yıldızladığı haberler (yalnız bu tarayıcıda) */
+  var SAVED_KEY = "mg-saved";
+  function getSaved() { try { return JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"); } catch (e) { return []; } }
+  function setSaved(list) { try { localStorage.setItem(SAVED_KEY, JSON.stringify(list)); } catch (e) { toast("Bu tarayıcıda kayıt yapılamıyor"); } }
+  function isSaved(date, id) { return getSaved().some(function (x) { return x.date === date && x.id === id; }); }
+  function updateSavedCount() {
+    var n = getSaved().length, el = document.getElementById("savedCount");
+    if (!el) return;
+    el.textContent = n; el.hidden = n === 0;
+  }
+  function toggleSave(id) {
+    var b = state.bulletin; if (!b) return;
+    var list = getSaved(), i = list.findIndex(function (x) { return x.date === b.date && x.id === id; });
+    var on;
+    if (i >= 0) { list.splice(i, 1); on = false; }
+    else {
+      var a = b.articles.find(function (x) { return x.id === id; }); if (!a) return;
+      list.unshift({ date: b.date, id: a.id, title: a.title, summary: a.summary, category: a.category, region: a.region, savedAt: new Date().toISOString() });
+      on = true;
+    }
+    setSaved(list); updateSavedCount();
+    var btn = document.querySelector('#' + CSS.escape(id) + ' .save-btn');
+    if (btn) { btn.setAttribute("aria-pressed", on); btn.innerHTML = on ? "★" : "☆"; btn.title = on ? "Kaydedilenlerden çıkar" : "Kaydet"; }
+    toast(on ? "Kaydedildi" : "Kaydedilenlerden çıkarıldı");
+  }
+  function renderSaved() {
+    var list = getSaved(), body = document.getElementById("savedBody");
+    if (!list.length) { body.innerHTML = '<p class="empty">Henüz kaydedilmiş haber yok. Bir haber kartındaki ☆ simgesine dokunarak kaydedebilirsin.</p>'; return; }
+    var byDate = {};
+    list.forEach(function (x) { (byDate[x.date] = byDate[x.date] || []).push(x); });
+    body.innerHTML = Object.keys(byDate).sort().reverse().map(function (d) {
+      return '<h3 class="saved-day">' + esc(fmtDate(d, true)) + '</h3><ul class="saved-list">' + byDate[d].map(function (x) {
+        return '<li><a href="?tarih=' + esc(d) + '#' + esc(x.id) + '" data-date="' + esc(d) + '" data-id="' + esc(x.id) + '">' +
+          '<span class="saved-cat">' + esc(x.region) + ' · ' + esc(x.category) + '</span>' +
+          '<strong>' + esc(x.title) + '</strong><span class="saved-sum">' + esc(x.summary) + '</span></a>' +
+          '<button type="button" class="saved-remove" data-date="' + esc(d) + '" data-id="' + esc(x.id) + '" aria-label="Kaydı kaldır" title="Kaldır">×</button></li>';
+      }).join("") + '</ul>';
+    }).join("");
+  }
+  function openArticle(id) {
+    var el = document.getElementById(id); if (!el) return;
+    var d = el.querySelector("details"); if (d) d.open = true;
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  document.getElementById("savedToggle").addEventListener("click", function () { renderSaved(); document.getElementById("saved").showModal(); });
+  document.getElementById("savedClose").addEventListener("click", function () { document.getElementById("saved").close(); });
+  document.getElementById("savedBody").addEventListener("click", function (e) {
+    var rm = e.target.closest(".saved-remove");
+    if (rm) {
+      setSaved(getSaved().filter(function (x) { return !(x.date === rm.dataset.date && x.id === rm.dataset.id); }));
+      updateSavedCount(); renderSaved();
+      if (state.bulletin && state.bulletin.date === rm.dataset.date) {
+        var b2 = document.querySelector('#' + CSS.escape(rm.dataset.id) + ' .save-btn');
+        if (b2) { b2.setAttribute("aria-pressed", "false"); b2.innerHTML = "☆"; }
+      }
+      return;
+    }
+    var a = e.target.closest("a[data-id]");
+    if (a && state.bulletin && a.dataset.date === state.bulletin.date) {
+      e.preventDefault(); document.getElementById("saved").close();
+      history.replaceState(null, "", "?tarih=" + a.dataset.date + "#" + a.dataset.id);
+      openArticle(a.dataset.id);
+    }
+  });
+  updateSavedCount();
+
   function renderArchive(active) {
     var html = state.index.map(function (b) {
       return '<li><a href="?tarih=' + b.date + '" class="' + (b.date === active ? "active" : "") + '">' +
@@ -180,7 +246,7 @@
     return '<article class="card' + (getRead()[a.id] ? ' is-read' : '') + (i === 0 ? (a.image && a.image.url ? ' featured' : ' lead') : '') + '" id="' + esc(a.id) + '" data-fallback="' + esc(fallbackVisual(a)) + '">' +
       visualHTML(a) +
       '<div class="card-main">' +
-        '<div class="card-tags">' + tags + '</div>' +
+        '<div class="card-tags">' + tags + (function () { var on = isSaved(state.bulletin.date, a.id); return '<button type="button" class="save-btn" data-save="' + esc(a.id) + '" aria-pressed="' + on + '" title="' + (on ? 'Kaydedilenlerden çıkar' : 'Kaydet') + '" aria-label="Haberi kaydet">' + (on ? '★' : '☆') + '</button>'; })() + '</div>' +
         '<h3>' + esc(a.title) + '</h3>' +
         '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + ' · ' + readMinutes(a) + ' dk okuma<span class="read-mark">✓ Okundu</span></div>' +
         '<p class="summary">' + esc(a.summary) + '</p>' +
@@ -362,6 +428,9 @@
     document.getElementById("allIssues").addEventListener("click", function () { document.getElementById("archive").showModal(); });
     document.getElementById("shareIssue").addEventListener("click", function () { document.getElementById("shareBtn").click(); });
     document.getElementById("search").addEventListener("input", function () { state.query = this.value.trim().toLocaleLowerCase("tr"); renderArticles(); });
+    document.getElementById("articles").addEventListener("click", function (e) {
+      var sb = e.target.closest(".save-btn"); if (sb) { e.preventDefault(); toggleSave(sb.dataset.save); }
+    });
     renderFilters(); bindFilters(); renderArticles(); updateProgress(); watchReading();
     if (location.hash) {
       var el = document.getElementById(location.hash.slice(1));
