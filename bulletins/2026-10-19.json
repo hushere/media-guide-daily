@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-19",
+  "title": "Meta'nın AI tarama maddesi, holdinglerde Q3 haftası ve yoğun Avrupa maç haftası",
+  "summary": "Meta'nın 30 Ekim'de yürürlüğe girecek ticari şartları reklamveren sitelerinin AI eğitimi için taranmasına izin veriyor. Publicis medya ağırlıklı %5 büyüme açıkladı, Omnicom 22 Ekim'de. Bu hafta dört Türk kulübünün Avrupa maçı ve pazar gecesi El Clásico var. Bu sayı yedek akışla, sınırlı kaynak erişimiyle hazırlandı.",
+  "edition": "selection",
+  "window": "16 Ekim 2026 07:42 – 19 Ekim 2026 09:00 TSİ (Claude yedek araştırması 08:45-09:05). Önceki sayının bilgi kesimi 07:42 olduğundan boşluk yok.",
+  "status": "published",
+  "source": {
+    "writer": "Claude (yedek)",
+    "note": "ChatGPT araştırma paketi (research/2026-10-19.json) gelmedi."
+  },
+  "articles": [
+    {
+      "id": "meta-ticari-sartlar-ai-tarama",
+      "title": "Meta, 30 Ekim'den itibaren reklamveren sitelerini AI eğitimi için tarama hakkı alıyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "Global (Türkiye'deki Meta reklamverenleri dahil)",
+      "eventDate": "30 Ekim 2026 (şartların yürürlüğü); haber 17 Ekim 2026",
+      "label": "Tek kaynak",
+      "summary": "Meta'nın revize Commercial Terms metni, reklamverenlerin ürün sitelerini otomatik tarayıp içerikle kendi AI modellerini eğitme hakkı tanıyor.",
+      "body": [
+        "30 Ekim 2026: revize Meta Commercial Terms yürürlüğe giriyor; kullanmaya devam etmek kabul sayılıyor.",
+        "Yeni madde: Meta, reklamveren sitelerine otomatik yazılım ve test kimlik bilgileriyle erişip içeriği kopyalayabilir.",
+        "Toplanan içerik Meta'nın AI modellerini eğitmekte kullanılabilir; kısmi opt-out yok, robots.txt'ten söz edilmiyor (ppc.land).",
+        "Meta'nın sorumluluk sınırı: 100 dolar veya önceki 12 ayda ödenen ücretten büyük olanı.",
+        "ppc.land 18 Ekim: maddenin kaldırıldığı iddiasına rağmen 30 Ekim metninde durduğunu yazdı (özet; metin açılmadı)."
+      ],
+      "impact": "Reklamveren site içeriği ve ürün verisi Meta'nın AI araçlarına girdi olabilir; veri, marka güvenliği ve hukuk ekipleri için sözleşme riski doğuyor.",
+      "action": "30 Ekim öncesi hukuk ve veri ekipleriyle Meta ticari şartlarını okuyup marka sitelerindeki erişim ve içerik politikasını gözden geçirin.",
+      "counterView": "Bilgi tek bağımsız yayına dayanıyor ve Claude Meta'nın şart metnini açamadı; Meta maddeyi daraltabilir veya AB'de farklı uygulayabilir.",
+      "sources": [
+        {
+          "name": "ppc.land • Meta grants itself the right to crawl advertisers' websites for AI",
+          "url": "https://ppc.land/meta-grants-itself-the-right-to-crawl-advertisers-websites-for-ai/",
+          "published": "17 Ekim 2026",
+          "country": "Global",
+          "language": "İngilizce"
+        },
+        {
+          "name": "ppc.land • Meta's AI training clause still in Oct 30 terms",
+          "url": "https://ppc.land/metas-ai-training-clause-still-in-oct-30-terms-after-report-of-removal/",
+          "published": "18 Ekim 2026 (yalnız özet görüldü)",
+          "country": "Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/10/meta-commercial-terms-ai-crawl-advertiser-websites-self-signing-fountain-pen.jpg",
+        "alt": "Meta ticari şartlarını temsil eden dolma kalem illüstrasyonu",
+        "credit": "ppc.land",
+        "sourceUrl": "https://ppc.land/meta-grants-itself-the-right-to-crawl-advertisers-websites-for-ai/"
+      }
+    },
+    {
+      "id": "holding-q3-publicis-omnicom",
+      "title": "Holding Q3 haftası: Publicis %5 organik büyüme açıkladı, Omnicom 22 Ekim'de sonuç verecek",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "market": "Global",
+      "eventDate": "Publicis 13 Ekim 2026; Omnicom 22 Ekim 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Publicis Q3'te %5 organik büyüme ve medya ağırlıklı gelir karması açıkladı; Omnicom Q3 sonuçlarını 22 Ekim'de duyuracak.",
+      "body": [
+        "Publicis Q3: organik net gelir büyümesi %5 (Q2: %4,8); şirket beyanı, Adweek aktarımı.",
+        "Gelir karması: medya %62, kreatif %25, teknoloji %13; medya yüksek tek haneli büyüdü.",
+        "Publicis, 2026 yeni iş kazanımlarının (~400 milyon euro) 2027 organik büyümesine %2 ekleyeceğini söylüyor.",
+        "Omnicom Q3 sonuçları 22 Ekim perşembe NYSE kapanışından sonra; konferans çağrısı 16:30 ET (şirket duyurusu, 16 Ekim)."
+      ],
+      "impact": "Holdinglerde büyümenin medya tarafından taşınması, medya hizmeti fiyatlaması ve konkur dinamiklerinde medya ajanslarının pazarlık gücünü artırabilir.",
+      "action": "22 Ekim Omnicom sonuçlarında medya büyümesi, IPG entegrasyonu ve müşteri kayıplarını not edip Türkiye'deki ajans ilişkilerine etkisini izleyin.",
+      "counterView": "Rakamlar şirket beyanıdır; organik büyüme tanımları holdingler arasında farklı ve kur etkisi karşılaştırmayı bozabilir.",
+      "sources": [
+        {
+          "name": "Adweek • Publicis Q3 growth hits 5%",
+          "url": "https://www.adweek.com/agencies/publicis-says-three-horse-holdco-race-is-good-for-business-as-q3-growth-hits-5/",
+          "published": "13 Ekim 2026 (kısmi paywall)",
+          "country": "Global",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Omnicom basın duyurusu (Placera kopyası)",
+          "url": "https://www.placera.se/pressmeddelanden/omnicom-group-omnicom-schedules-third-quarter-2026-earnings-release-and-conference-call-20261016",
+          "published": "16 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "manifest-tralala-youtube-kuresel-4",
+      "title": "manifest'in 'TRALALA'sı YouTube küresel şarkı listesinde 4. sırada; izlenmenin %85'i Türkiye'den",
+      "region": "Türkiye",
+      "category": "Dijital & AI",
+      "market": "Türkiye",
+      "eventDate": "15 Ekim 2026'da biten hafta; haber 18 Ekim 2026",
+      "label": "Tek kaynak",
+      "summary": "Türk kız grubu manifest'in 'TRALALA' şarkısı 27,3 milyon izlenmeyle YouTube küresel Top Songs listesine 4. sıradan girdi.",
+      "body": [
+        "27.318.613 izlenme: 'TRALALA', 15 Ekim'de biten haftada küresel Top Songs 4. sırada (YouTube Charts, ppc.land aktarımı).",
+        "İzlenmenin %85,2'si Türkiye listesinden; diğer 15 ulusal listenin payı %4,2.",
+        "Küresel ilk 100'de Türk sanatçılardan 7 şarkı yer alıyor."
+      ],
+      "impact": "Türkiye'deki yüksek YouTube müzik tüketimi, genç kitleye video ve müzik bağlamlı erişim için ölçekli envanter olduğunu gösteriyor.",
+      "action": "Genç hedefli planlarda YouTube müzik içerik paketlerini ve yükselen yerli sanatçılarla iş birliği fırsatlarını değerlendirin.",
+      "counterView": "Sıralama izlenme sayısıdır; tekil erişim, reklam görünürlüğü veya attention ölçmez ve yoğunluk tek pazara bağlı.",
+      "sources": [
+        {
+          "name": "ppc.land • Turkish girl group manifest debuts at No. 4 on YouTube",
+          "url": "https://ppc.land/turkish-girl-group-manifest-debuts-at-no-4-on-youtube-with-27-3m-views/",
+          "published": "18 Ekim 2026",
+          "country": "Türkiye",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/10/youtube-charts-manifest-tralala-turkiye-85-percent-views-empty-stadium-packed-section.jpg",
+        "alt": "YouTube Charts verisini temsil eden stadyum illüstrasyonu",
+        "credit": "ppc.land",
+        "sourceUrl": "https://ppc.land/turkish-girl-group-manifest-debuts-at-no-4-on-youtube-with-27-3m-views/"
+      }
+    },
+    {
+      "id": "tv-takvim-19-ekim-teyit-durumu",
+      "title": "TV takvimi: Güldür Güldür Show dönüşü ve Sevdam Karadeniz 2. bölüm resmî akışla teyit edilemedi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "17-19 Ekim 2026",
+      "label": "Haber kaynaklı",
+      "summary": "Yedi kanalın resmî akışı bu sabah açılamadı; hafta sonu ve bu akşamki prime time durumları yalnız haber kaynaklarıyla izlenebildi.",
+      "body": [
+        "Güldür Güldür Show (Show TV): 17 Ekim cumartesi 20.00 14. sezon dönüşü duyuruldu; gerçekleştiği resmî kaynakla teyit edilemedi.",
+        "Haber kaynakları: İnternethaber 12 Ekim ve Yeniçağ 15 Ekim aynı tarih-saati veriyor; ilk konuk Mert Fırat.",
+        "Sevdam Karadeniz (NOW): 2. bölümün bu akşam 20.00'de yayımlanması bekleniyor (haber kaynaklı).",
+        "Organize İşler: Karun Hazinesi: Netflix resmî duyurusu 16 Ekim prömiyeri veriyordu; yayına girişi bu oturumda doğrulanmadı.",
+        "Halk TV: 14 Ekim kayyum ve yayın kesintisi sonrası yeniden yayına dair kayıt bulunamadı."
+      ],
+      "impact": "Hafta sonu ve pazartesi prime time kuşaklarında gerçekleşen yayın teyidi olmadan kuşak satın alma ve rakip karşı programlama değerlendirmesi eksik kalıyor.",
+      "action": "Show TV 17 Ekim ve NOW 19 Ekim kuşak rezervasyonlarını kanal teslimat raporlarıyla doğrulayın.",
+      "counterView": "Haber sitelerinin derlediği akışlar kanal duyurularını kopyalar; son dakika değişikliklerini kaçırabilir, bağımsız teyit sayılmaz.",
+      "sources": [
+        {
+          "name": "İnternethaber • Güldür Güldür Show yeni sezon",
+          "url": "https://www.internethaber.com/ekranlarin-sevilen-komedi-programi-geri-donuyor-guldur-guldur-show-yeni-sezon-ne-zaman-basliyor-hangi-gun-foto-galerisi-2463735.htm",
+          "published": "12 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Yeniçağ • Güldür Güldür Show 14. sezona başlıyor",
+          "url": "https://www.yenicaggazetesi.com/guldur-guldur-show-14-sezona-basliyor-1082238h.htm",
+          "published": "15 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "İstiklal • Sevdam Karadeniz 2. bölüm",
+          "url": "https://www.istiklal.com.tr/editorun-sectikleri/sevdam-karadeniz-nerede-cekiliyor-2-bolum-ne-zaman-hangi-gun-1108109h",
+          "published": "Tarihsiz (12 Ekim sonrası)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Netflix • Organize İşler: Karun Hazinesi duyurusu",
+          "url": "https://about.netflix.com/tr/news/money-trap-the-karun-treasure-will-be-on-netflix-on-october-sixteenth",
+          "published": "Tarihsiz",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "barcelona-real-madrid-25-ekim-saat",
+      "title": "El Clásico 25 Ekim pazar 23.00 TSİ'de; GS–FB derbisi 26 Ekim pazartesiye alınmıştı",
+      "region": "Türkiye",
+      "category": "Spor",
+      "market": "Türkiye",
+      "eventDate": "25-26 Ekim 2026",
+      "label": "Haber kaynaklı",
+      "summary": "Barcelona–Real Madrid maçı Avrupa saat değişimi sonrası 25 Ekim 23.00 TSİ'de; aynı hafta sonunun derbisi pazartesi oynanacak.",
+      "body": [
+        "Barcelona–Real Madrid: 25 Ekim 21:00 CET; Avrupa yaz saati bitişiyle 23.00 TSİ (Football España, Sporekranı).",
+        "Yayıncı Sporekranı'na göre S Sport Plus; tek ikincil kaynak, resmî teyit yok.",
+        "Galatasaray–Fenerbahçe: 26 Ekim pazartesi 21.30; TFF, İl Emniyet yazısı gerekçesiyle pazardan aldı (Milli Gazete, Fotomaç)."
+      ],
+      "impact": "Pazar gecesi El Clásico ve pazartesi derbisi arka arkaya iki yüksek ilgi spor gecesi yaratıyor; pazartesi prime time dizileri doğrudan rekabet görecek.",
+      "action": "26 Ekim pazartesi prime time dizi kuşaklarını derbi saatiyle çakışma açısından yeniden değerlendirin.",
+      "counterView": "Saat ve yayıncı resmî fikstürden teyit edilemedi; El Clásico'nun geç saati Türkiye'de canlı izleyiciyi sınırlayabilir.",
+      "sources": [
+        {
+          "name": "Football España • 2026-27 El Clásico date",
+          "url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date",
+          "published": "2 Eylül 2026",
+          "country": "İspanya",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Milli Gazete • GS-FB derbisi 26 Ekim'de",
+          "url": "https://www.milligazete.com.tr/gs-fb-derbisi-26-ekimde-mi-mac-neden-pazar-gunu-oynanmayacak-tff-hangi-gerekceyi-acikladi-derbi-saat-kacta",
+          "published": "4 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Fotomaç • Galatasaray-Fenerbahçe maçı ne zaman",
+          "url": "https://www.fotomac.com.tr/superlig/2026/09/23/galatasaray-fenerbahce-maci-ne-zaman-saat-kacta-hangi-kanalda",
+          "published": "23 Eylül 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    }
+  ],
+  "highlights": [
+    "Meta 30 Ekim şartları: reklamveren siteleri AI eğitimi için taranabilecek, kısmi opt-out yok (tek kaynak).",
+    "Publicis Q3 %5 organik büyüme, gelirin %62'si medya; Omnicom 22 Ekim'de açıklıyor.",
+    "Avrupa haftası: FB–Slavia 20 Ekim, Lille–GS 21 Ekim, Beşiktaş ve Trabzonspor 22 Ekim; El Clásico 25 Ekim 23.00."
+  ],
+  "watchlist": [
+    "20 Ekim Netflix Q3: reklam geliri (yönetim 2026 için ~3 milyar dolar bekliyor) ve reklamlı paket.",
+    "22 Ekim Omnicom Q3; WPP ve Havas tarihleri teyit edilecek.",
+    "30 Ekim Meta ticari şartları: maddenin değişip değişmediği.",
+    "1 Kasım sosyal medya yaş doğrulama yönetmeliği yürürlüğü; platform duyuruları.",
+    "26 Ekim pazartesi GS–FB derbisi yayıncı teyidi."
+  ],
+  "limitations": [
+    "ChatGPT araştırma paketi gelmedi; bülten Claude yedek araştırmasıyla, kısıtlı sürede hazırlandı (edition: selection).",
+    "WebFetch izin istekleri gözetimsiz çalışmada zaman aşımına uğradı (izin/zaman aşımı): 7 kanal akışı, TFF, TVF/VolleyStation, Google Trends, MediaCat, Marketing Türkiye, Campaign Türkiye, Campaign (Havas Q3). TBF, S Sport Plus, beIN, TRT Spor denenemedi.",
+    "TV durumları resmî akışla doğrulanamadı; 'Fiilen yayında' etiketi verilmedi.",
+    "Maç saat ve yayıncıları çoğunlukla TV rehberi (Sporekranı) ve haber sitelerinden; tek kaynaklılarda saat/yayıncı null bırakıldı.",
+    "Rakip marka kontrolü (şirket sayfaları, MediaCat/Marketing Türkiye marka aramaları) yapılamadı; 'rakip haberi yok' denemez.",
+    "Yaratıcı Mecra bölümü: doğrulanabilir güçlü yeni vaka bulunamadı, bölüm eklenmedi.",
+    "Dijital gündem: Google Trends açılamadı; yalnız YouTube Charts verisi (ppc.land aktarımı).",
+    "3 haberde görsel eklenemedi."
+  ],
+  "corrections": [
+    "16 Ekim sayısında 'Barcelona–Real Madrid saat teyitsiz' notu: 25 Ekim 21:00 CET = 23:00 TSİ (iki kaynak)."
+  ],
+  "matchesWindow": "19-25 Ekim 2026",
+  "matches": [
+    {
+      "date": "2026-10-19",
+      "time": "20:00",
+      "sport": "Futbol",
+      "competition": "Süper Lig 8. hafta",
+      "home": "Trabzonspor",
+      "away": "Beşiktaş",
+      "broadcaster": "beIN Sports 1",
+      "source": "https://www.sporekrani.com/home/team/trabzonspor",
+      "note": "Saat ve yayıncı iki rehber sayfası + Milli Gazete; TFF açılamadı. Hak sahibi beIN.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-20",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Fenerbahçe",
+      "away": "Slavia Prag",
+      "broadcaster": null,
+      "source": "https://www.internethaber.com/fenerbahce-slavia-prag-macinda-geri-sayim-hangi-kanalda-canli-yayinlanacak-2464127h.htm",
+      "note": "Hak sahibi TRT (TRT 1 bekleniyor), maç bazında resmî teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-21",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "broadcaster": null,
+      "source": "https://www.milligazete.com.tr/galatasaray-lille-maci-ne-zaman-oynanacak-fransa-deplasmaninin-tarihi-ve-saati",
+      "note": "Hak sahibi TRT (TRT 1 bekleniyor), maç bazında resmî teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": null,
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Hearts",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/trabzonspor",
+      "note": "Sporekranı 19:45 ve TRT 1 yazıyor; tek ikincil kaynak, saat teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Beşiktaş",
+      "away": "Crystal Palace",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/besiktas",
+      "note": "Saat iki kaynakla (Sporekranı, A Spor); hak sahibi TRT, maç bazında teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/besiktas",
+      "note": "Sporekranı 20:30 yazıyor; tek ikincil kaynak. Hak sahibi S Sport Plus, maç bazında teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-23",
+      "time": "21:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Olympiacos",
+      "away": "Fenerbahçe",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/490167/2026/10/23/olympiakos-fenerbahce-tarfin-euroleague-hangi-kanalda",
+      "note": "Saat rehber sayfasında TSİ; hak sahibi S Sport Plus, maç bazında resmî teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-25",
+      "time": null,
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "VakıfBank",
+      "away": "Galatasaray",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/galatasaray",
+      "note": "Sporekranı 14:00, TRT Spor Yıldız yazıyor; tek ikincil kaynak, TVF açılamadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-25",
+      "time": null,
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Fenerbahçe Medicana",
+      "away": "Eczacıbaşı Dynavit",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/fenerbahce",
+      "note": "Sporekranı 19:00, TRT Spor Yıldız yazıyor; tek ikincil kaynak, TVF açılamadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-25",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "LaLiga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "broadcaster": null,
+      "source": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date",
+      "note": "21:00 CET = 23:00 TSİ (iki kaynak). Yayıncı Sporekranı'na göre S Sport Plus, tek kaynak.",
+      "tags": []
+    }
+  ],
+  "social": {
+    "window": "15 Ekim 2026'da biten hafta (YouTube Charts); 19 Ekim sabah kontrolü",
+    "note": "İzlenme sıralamasıdır; tekil erişim veya reklam etkisi ölçümü değildir. Google Trends, Netflix ve TikTok listeleri açılamadı.",
+    "items": [
+      {
+        "platform": "YouTube",
+        "type": "Top 10",
+        "rank": 4,
+        "title": "manifest – TRALALA (küresel Top Songs)",
+        "metric": "YouTube Charts: 27.318.613 haftalık izlenme, %85,2'si Türkiye (ppc.land aktarımı)",
+        "whyItMatters": "Yerli pop içeriğinin genç kitlede ölçekli video tüketimi yarattığını gösteriyor; müzik bağlamlı YouTube envanteri için sinyal.",
+        "url": "https://ppc.land/turkish-girl-group-manifest-debuts-at-no-4-on-youtube-with-27-3m-views/",
+        "source": "YouTube Charts / ppc.land",
+        "published": "15 Ekim 2026'da biten hafta"
+      }
+    ]
+  },
+  "review": {
+    "status": "unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-19T08:58+03:00",
+    "summary": "ChatGPT araştırma paketi gelmediği için bülten Claude tarafından yedek akışla, dört alt ajanla (TV, maç, Türkiye sektör/rakip, global/vaka) hazırlandı. Resmî kaynakların çoğu izin zaman aşımı nedeniyle açılamadı; tek kaynaklı bilgiler etiketlendi, teyitsiz saat/yayıncılar null bırakıldı. Bağımsız denetimden geçmedi."
+  }
+}

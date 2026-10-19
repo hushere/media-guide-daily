@@ -1,6 +1,20 @@
 {
   "bulletins": [
     {
+      "date": "2026-10-19",
+      "title": "Meta'nın AI tarama maddesi, holdinglerde Q3 haftası ve yoğun Avrupa maç haftası",
+      "summary": "Meta'nın 30 Ekim'de yürürlüğe girecek ticari şartları reklamveren sitelerinin AI eğitimi için taranmasına izin veriyor. Publicis medya ağırlıklı %5 büyüme açıkladı, Omnicom 22 Ekim'de. Bu hafta dört Türk kulübünün Avrupa maçı ve pazar gecesi El Clásico var. Bu sayı yedek akışla, sınırlı kaynak erişimiyle hazırlandı.",
+      "edition": "selection",
+      "articleCount": 5,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "Spor",
+        "TV & Entertainment"
+      ],
+      "review": "unreviewed_fallback"
+    },
+    {
       "date": "2026-10-16",
       "title": "Güldür Güldür Show cumartesi dönüyor, YouTube haberde Shorts ayrışması, Cadbury gazete ilanını oyuna çeviriyor",
       "summary": "Türkiye'de Show TV cumartesi prime time'a Güldür Güldür Show'u geri getiriyor, YouTube haber raporu Shorts ile uzun video ayrımını gösteriyor, NESCAFÉ ve Lipton yeni iletişim başlattı. Globalde YouTube Music AI etiketi, Havas Q3 ve EDO spor reklamı verisi var. Eksikleri belirtilmiş seçki.",
