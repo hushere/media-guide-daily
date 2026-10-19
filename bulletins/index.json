@@ -2,17 +2,18 @@
   "bulletins": [
     {
       "date": "2026-10-19",
-      "title": "Meta'nın AI tarama maddesi, holdinglerde Q3 haftası ve yoğun Avrupa maç haftası",
-      "summary": "Meta'nın 30 Ekim'de yürürlüğe girecek ticari şartları reklamveren sitelerinin AI eğitimi için taranmasına izin veriyor. Publicis medya ağırlıklı %5 büyüme açıkladı, Omnicom 22 Ekim'de. Bu hafta dört Türk kulübünün Avrupa maçı ve pazar gecesi El Clásico var. Bu sayı yedek akışla, sınırlı kaynak erişimiyle hazırlandı.",
+      "title": "Retail media'da atıf sorusu, Reklam Kurulu yaptırımları ve iki yeni TV duyurusu",
+      "summary": "Hepsiburada, yapay zekâ destekli Dönüşüm Skoru ile retail media tekliflerini öne çıkardı. Reklam Kurulu 136 dosyada reklam durdurma kararı verdi. Show TV iki yeni dizi duyurdu; yayın tarihleri henüz açıklanmadı.",
       "edition": "selection",
-      "articleCount": 5,
+      "articleCount": 9,
       "categories": [
         "Ajans & Marka",
         "Dijital & AI",
-        "Spor",
-        "TV & Entertainment"
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
       ],
-      "review": "unreviewed_fallback"
+      "review": "approved_with_changes"
     },
     {
       "date": "2026-10-16",

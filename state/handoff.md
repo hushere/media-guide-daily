@@ -1,9 +1,9 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 19 Ekim 2026 09:00, Claude (bülten 2026-10-19 sonrası, yedek akış)
+Son güncelleme: 19 Ekim 2026 09:40, Claude (bülten 2026-10-19 ChatGPT paketinden yeniden yayımlandı)
 
 ## 1. Pencere
-- Son bülten: 2026-10-19 (pazartesi) | **ChatGPT paketi gelmedi**; Claude yedek araştırması, bilgi kesimi **19 Ekim 2026 09:00 TSİ**. Salı penceresi 19 Ekim 09:00'dan başlar.
+- Son bülten: 2026-10-19 (pazartesi) | ChatGPT paketi (research/2026-10-19.json) ile yeniden yayımlandı; bilgi kesimi **19 Ekim 2026 07:40 TSİ**, Claude teyit 09:40. Salı penceresi 19 Ekim 07:40'tan başlar.
 
 ## 1b. Haftanın gelişmeleri (cuma özeti için; cuma sonrası boşalt)
 - 2026-10-19#meta-ticari-sartlar-ai-tarama: Meta 30 Ekim şartları, reklamveren sitelerini AI eğitimi için tarama hakkı.
@@ -34,7 +34,7 @@ Son güncelleme: 19 Ekim 2026 09:00, Claude (bülten 2026-10-19 sonrası, yedek 
 | Güneşin Doğduğu Yer | ATV | Kanal teyitli: perşembe 20.00, 15 Ekim 5. bölüm; gece kaydı tekrar. 00.20 iddiası düşürüldü | ATV akışı + bölüm arşivi, 15 Ekim (ChatGPT) |
 | Altı Üstü İstanbul | ATV | Fiilen yayında; pazartesi 20.00 | Onedio 13 Ekim |
 | Sevdam Karadeniz | NOW | Fiilen yayında (resmî 1. bölüm arşivde); pazartesi 20.00; salı 23.30 gece kaydı | NOW bölüm sayfası + akış, 15 Ekim |
-| Mehmed: Fetihler Sultanı | TRT 1 | Salı 20.00 | Türkiye Gazetesi 13 Ekim |
+| Mehmed: Fetihler Sultanı | TRT 1 | 19 Ekim kontrolünde resmî program sayfasında salı 21.30; 20 Ekim tarihli akış teyidi yok; aynı akşam Fenerbahçe–Slavia 19.45 | TRT 1 program sayfası, 19 Ekim |
 | Haysiyet | Kanal D | Salı 20.00; perşembe 23.15 tekrar | Kanal D akışı 15 Ekim |
 | Uzak Şehir | Kanal D | 15 Ekim perşembe 20.00 "Tekrar" | Kanal D akışı 15 Ekim |
 | Sevdiğim Sensin | Star | 15 Ekim 20.00 yeni bölüm | Star akışı 15 Ekim |
@@ -86,7 +86,8 @@ Son güncelleme: 19 Ekim 2026 09:00, Claude (bülten 2026-10-19 sonrası, yedek 
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
-- **19 Ekim: paket gelmedi.** research/2026-10-19.json yok, 16 Ekim'den beri depoya commit yok. Pazartesi görevi çalışmadı veya yazma izni yok; görev zamanlamasını ve GitHub izninizi kontrol edin. Pazartesi penceresi cuma cutoff'undan başlar.
+- **19 Ekim: paket geldi** (research/2026-10-19.json, 9 öğe, 07:40 cutoff). Şema geçerli, accessLog ve limitations açık. Claude yalnız WebFetch izin zaman aşımı nedeniyle bazı sayfaları açamadı; teyit arama özetleriyle yapıldı. Teşekkürler.
+- **Görsel:** 19 Ekim'de 9 haberin yalnız 3'ünde doğrudan görsel vardı. Gelecekte haber başına görsel ve kredi bilgisi mümkünse ekleyin.
 - 16 Ekim paketi iyi: 11 öğe, şema geçerli, null saat/yayıncılar dürüst bırakılmış, rakip kontrolü ve accessLog açık. Teşekkürler.
 - **Çıkarıldı: reyting maddesi** (14 Ekim TİAK/Show TV). PROMPT.md 5.1 b: reyting takibi kapsam dışı (13 Ekim kullanıcı kararı); reyting araması yapma, pakete alma. Yalnız reyting haberin kendisiyse (ör. düşük reyting nedeniyle final) anılabilir.
 - **Etiket:** Anadolu Efes–Beşiktaş "Derbi" değildir; Derbi etiketi yalnız FB/GS/BJK arası maçlar (ve PROMPT'taki derbi kuralları) için.
