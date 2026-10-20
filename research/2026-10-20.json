@@ -1,0 +1,934 @@
+{
+  "date": "2026-10-20",
+  "researcher": "ChatGPT",
+  "startedAt": "2026-10-20T07:29+03:00",
+  "cutoff": "2026-10-20T07:40:55+03:00",
+  "window": "19 Ekim 2026 07:40:15 TSİ (önceki paket cutoff) – 20 Ekim 2026 07:40:55 TSİ (gerçek bilgi kesimi)",
+  "items": [
+    {
+      "id": "eids-sosyal-ilan-platform-yaptirimlari",
+      "region": "Türkiye",
+      "category": "Dijital & AI",
+      "market": "Türkiye",
+      "title": "Sosyal medya ilanlarında EİDS denetimi: Meta ve TikTok’a yaptırım",
+      "eventDate": "2026-10-19",
+      "facts": [
+        "19 Ekim açıklamasında Ticaret Bakanlığı, Meta Platforms İstanbul’a 20 milyon TL idari para cezası duyurdu.",
+        "TikTok İstanbul’a 4 milyon TL idari para cezası uygulandığı açıklandı.",
+        "70 taşınmaz ve taşıt işletmesine toplam 7 milyon TL ceza uygulandı.",
+        "Sosyal medya ilanlarında EİDS doğrulaması yapılmış ilanın bağlantısının bulunması gerekiyor.",
+        "İlan görseli ve açıklaması, bağlantıdaki ilanla uyumlu olmalı."
+      ],
+      "verification": "official",
+      "verificationNote": "Ticaret Bakanlığı’nın 19 Ekim açıklaması okundu; bunlar kurumun yaptırım bildirimleridir.",
+      "impactDraft": "Taşıt ve emlak sosyal reklamlarında ilan bağlantısı ve kreatif tutarlılığı operasyonel kontrol gerektiriyor.",
+      "actionDraft": "İlgili kampanyalarda EİDS bağlantısı, fiyat ve ilan içeriğini yayına giriş kontrolüne ekleyin.",
+      "counterViewDraft": "Bu yükümlülüğü tüm kategorilerdeki marka reklamlarına genellemeyin; ceza tutarı reklam performansı ölçüsü değildir.",
+      "sources": [
+        {
+          "name": "Ticaret Bakanlığı • Sosyal medya ilan denetimleri",
+          "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-sosyal-medya-platformlarinda-yayimlanan-tasinmaz-ve-tasit-ilanlarina-yonelik-denetimlerini-surduruyor",
+          "published": "2026-10-19",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-20-ekim-yayin-akisi-teyidi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "Mehmed’in 20 Ekim 21.30 yayını resmî akışta teyit edildi",
+      "eventDate": "2026-10-20",
+      "facts": [
+        "20 Ekim TRT 1 akışında Mehmed: Fetihler Sultanı saat 21.30’da listeleniyor.",
+        "Aynı akışta Fenerbahçe–Slavia Praha maçı 19.45’te yer alıyor.",
+        "Dizinin resmî program sayfası da salı 21.30 bilgisini gösteriyor."
+      ],
+      "verification": "official",
+      "verificationNote": "19 Ekim paketindeki program sayfası bilgisi, bugün tarihli kanal akışıyla tamamlandı; yayın henüz gerçekleşmedi.",
+      "label": "Kanal teyitli",
+      "impactDraft": "Canlı futbolun ardından başlayan dizi için spot ve sponsorluk saatleri güncel akışla eşleştirilmeli.",
+      "actionDraft": "20 Ekim rezervasyonlarını 21.30 planına göre kontrol edin; canlı yayın sarkmasını yayıncıdan izleyin.",
+      "counterViewDraft": "Akış, fiilî başlama saati veya kalıcı gün-saat değişikliği kanıtı değildir; reyting ve attention çıkarımı yapılmadı.",
+      "image": {
+        "url": "https://cdn-i.pr.trt.com.tr/trt1/mehmed_fatihler_sultani_1440x1080_4_3-21752350-0-0-1439-1080.png",
+        "alt": "Mehmed: Fetihler Sultanı tanıtım görseli",
+        "credit": "TRT 1",
+        "sourceUrl": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani"
+      },
+      "sources": [
+        {
+          "name": "TRT 1 • 20 Ekim yayın akışı",
+          "url": "https://www.trt1.com.tr/yayin-akisi",
+          "published": "2026-10-20 tarihli akış; yayın zamanı belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        },
+        {
+          "name": "TRT 1 • Mehmed: Fetihler Sultanı",
+          "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+          "published": "Tarihsiz program sayfası; 2026-10-20 erişimi",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "var-misin-20-ekim-sali-akisi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "Var Mısın Yok Musun, 20 Ekim salı akışında 20.00’de",
+      "eventDate": "2026-10-20",
+      "facts": [
+        "20 Ekim ATV yayın akışı, Var Mısın Yok Musun’u saat 20.00’de gösteriyor.",
+        "Program sayfasında 20 Ekim salı tarihli tanıtım bulunuyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Resmî akış ve program sayfası teyitli. Önceki çarşamba bilgisi, bu salı yayınının kalıcı gün değişikliği olduğunu kanıtlamaz.",
+      "label": "Kanal teyitli",
+      "impactDraft": "Yarışma sponsorlukları ve salı prime-time planı güncel yayınla eşleştirilebilir.",
+      "actionDraft": "Salı 20.00 yerleşimlerini teyit edin; çarşamba yayınının iptal edildiği varsayımını kullanmayın.",
+      "counterViewDraft": "Ek yayın veya dönemsel plan mümkündür; henüz gerçekleşmiş yayın olarak sunulamaz.",
+      "image": {
+        "url": "https://iaatv.tmgrup.com.tr/4d292f/500/268/0/0/500/268?u=https%3A%2F%2Fiatv.tmgrup.com.tr%2F2026%2F05%2F26%2F1779803106055.jpg",
+        "alt": "Var Mısın Yok Musun program tanıtımı",
+        "credit": "ATV",
+        "sourceUrl": "https://www.atv.com.tr/var-misin-yok-musun"
+      },
+      "sources": [
+        {
+          "name": "ATV • Yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "2026-10-20 tarihli akış; yayın zamanı belirtilmiyor",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        },
+        {
+          "name": "ATV • Var Mısın Yok Musun",
+          "url": "https://www.atv.com.tr/var-misin-yok-musun",
+          "published": "20 Ekim 2026 tarihli tanıtım; sayfa güncelleme zamanı yok",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "atresmedia-amvia-ooh-ispanya",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "market": "İspanya",
+      "title": "Atresmedia, açık hava işini AMVIA adıyla tanıttı",
+      "eventDate": "2026-10-19",
+      "facts": [
+        "19 Ekim’de Atresmedia, Clear Channel España sonrasındaki açık hava markası AMVIA’yı tanıttı.",
+        "Şirket, 768 belediyede 28.000 reklam yüzeyi bulunduğunu belirtiyor.",
+        "Şirket açıklamasına göre envanterde 2.300 dijital ekran var.",
+        "Dijital yüzeyler, şirketin bildirdiği toplam gelirin yaklaşık yüzde 40’ını oluşturuyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Atresmedia grubunun Antena 3 haberi ve IPMARK sektör haberi okundu; envanter ve gelir oranları şirket beyanı.",
+      "impactDraft": "TV grubunun OOH varlığı, İspanya’da mecra karması ve envanter görüşmeleri için önem taşıyor.",
+      "actionDraft": "TV ve OOH tekliflerinde ayrı fiyatlandırma, erişim tekilleştirme ve ölçüm koşullarını isteyin.",
+      "counterViewDraft": "Ticari özerklik korunuyor; grup sahipliği otomatik paket indirimi veya artımsal erişim kanıtı değildir.",
+      "image": {
+        "url": "https://ipmark.com/wp-content/uploads/Madrid-publicidad-exterior-de-Cupra-con-Amvia-1024x570.jpg",
+        "alt": "Madrid’de AMVIA envanterinde CUPRA açık hava uygulaması",
+        "credit": "IPMARK / AMVIA",
+        "sourceUrl": "https://ipmark.com/atresmedia-sale-calle-amvia-division-publicidad-exterior/"
+      },
+      "sources": [
+        {
+          "name": "Antena 3 • Atresmedia presenta AMVIA",
+          "url": "https://www.antena3.com/noticias/economia/atresmedia-presenta-amvia-nueva-division-publicidad-exterior_202610196ad61382b79b18452fca00c1.html",
+          "published": "2026-10-19 14:56",
+          "country": "İspanya",
+          "language": "İspanyolca",
+          "type": "official"
+        },
+        {
+          "name": "IPMARK • Atresmedia sale a la calle con AMVIA",
+          "url": "https://ipmark.com/atresmedia-sale-calle-amvia-division-publicidad-exterior/",
+          "published": "2026-10-19",
+          "country": "İspanya",
+          "language": "İspanyolca",
+          "type": "trade"
+        }
+      ]
+    },
+    {
+      "id": "precision-insights-retail-media-lansmani",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "Birleşik Arap Emirlikleri / Orta Doğu ve Afrika",
+      "title": "Precision Media, mağaza ve dijital satış ölçümü için Precision Insights’ı tanıttı",
+      "eventDate": "2026-10-19",
+      "facts": [
+        "Entrepreneur Middle East, Precision Insights’ın 19 Ekim’de Dubai’de tanıtıldığını bildirdi.",
+        "Platform, fiziksel ve dijital reklam temaslarını müşteri işlemleriyle ilişkilendirmeyi hedefliyor.",
+        "Etkinlikte görülmüş gösterime dayalı ölçüm ve faturalandırma da tanıtıldı.",
+        "Shoppable Ads, reklamları Carrefour’un çevrimiçi ürün kataloğuna bağlıyor."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Entrepreneur Middle East tam metni okundu. Majid Al Futtaim basın sayfasında aynı duyuru bulunamadı; bağımsız performans teyidi yok.",
+      "impactDraft": "Retail media satın alımında işlem bağlantısı ve görülen gösterim tanımı tekliflerin karşılaştırılmasını etkileyebilir.",
+      "actionDraft": "Satıcıdan eşleştirme oranı, atıf penceresi, görülen gösterim yöntemi ve artımsallık tasarımını isteyin.",
+      "counterViewDraft": "İşlemle eşleşme nedensellik kanıtlamaz; AI ifadesi ve faturalandırma iddiası bağımsız denetim yerine geçmez.",
+      "image": {
+        "url": "https://mena.entrepreneur.com/wp-content/uploads/sites/11/2026/10/LEAD-IMAGE-TEMPLATE_20261019_173140_0000.png?w=1024",
+        "alt": "Retail Media Summit 2026 etkinlik paneli",
+        "credit": "Entrepreneur Middle East",
+        "sourceUrl": "https://mena.entrepreneur.com/business-news/precision-media-by-majid-al-futtaim-launches-ai-powered-platform-at-retail-media-summit"
+      },
+      "sources": [
+        {
+          "name": "Entrepreneur Middle East • Precision Insights lansmanı",
+          "url": "https://mena.entrepreneur.com/business-news/precision-media-by-majid-al-futtaim-launches-ai-powered-platform-at-retail-media-summit",
+          "published": "2026-10-19",
+          "country": "Birleşik Arap Emirlikleri",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ]
+    },
+    {
+      "id": "amplified-kanada-attention-olcum-model-ayrimi",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "market": "Kanada",
+      "title": "Amplified’ın Kanada araştırması: attention sonuçlarında ölçüm ile model ayrımı",
+      "eventDate": "2026-10-19",
+      "facts": [
+        "5.400 reklam izleme gözlemi, sinema, Facebook ve web ortamlarında biyometrik yöntemle ölçüldü.",
+        "Yaklaşık 360.000 ek reklam teması, diğer video ve sosyal ortamlara ilişkin modellemeyle üretildi.",
+        "Sinema için ortalama 17,5 saniye aktif izleme raporlandı.",
+        "Facebook için 3,2 saniye aktif izleme raporlandı.",
+        "Web için 0,3 saniye aktif izleme raporlandı.",
+        "1,52 milyar Kanada dolarlık yıllık verimsizlik tahmini, model çıktısıdır."
+      ],
+      "verification": "official",
+      "verificationNote": "19 Ekim tarihli araştırmacı duyurusu ve rapor giriş sayfası okundu. Download bağlantısı aynı sayfaya döndü; tam rapor indirilemedi.",
+      "impactDraft": "Gösterim maliyetine ek olarak dikkat süresi ve marka tepkisini değerlendirmeye yarayan bir yöntem tartışması sunuyor.",
+      "actionDraft": "Katılımcı sayısı, saha tarihleri ve kreatif karşılaştırılabilirliğini istemeden Türkiye bütçesine katsayı uygulamayın.",
+      "counterViewDraft": "Cineplex Media araştırma ortağıdır. Finansman tutarı açıklanmıyor. 5.400 kişi değildir; STAS anlık marka tercihini ölçer, gerçek satışı değil.",
+      "sources": [
+        {
+          "name": "Amplified • Kanada attention araştırması ve yöntem özeti",
+          "url": "https://www.amplified.co/insight/news-cost-of-dull-canada-cineplex-study",
+          "published": "2026-10-19",
+          "country": "Avustralya",
+          "language": "İngilizce",
+          "type": "research"
+        },
+        {
+          "name": "Amplified • Cost of Dull Canada rapor giriş sayfası",
+          "url": "https://www.amplified.co/resources/cost-of-dull-canada",
+          "published": "Tarihsiz giriş sayfası; 19 Ekim duyurusundan bağlantı",
+          "country": "Avustralya",
+          "language": "İngilizce",
+          "type": "research"
+        }
+      ]
+    },
+    {
+      "id": "netflix-globo-18-yapim-lisans",
+      "region": "Global",
+      "category": "TV & Entertainment",
+      "market": "Brezilya / ABD / Latin Amerika / seçili global haklar",
+      "title": "Netflix ve Globo, 18 yapımlık lisans anlaşması duyurdu",
+      "eventDate": "2026-10-19",
+      "facts": [
+        "18 yapım, Aralık 2026’dan 2027 ortasına kadar Netflix’e eklenecek.",
+        "Paket, 14 film, üç telenovela ve bir diziden oluşuyor.",
+        "Vitória için dünya çapında dağıtım hakkı açıklandı.",
+        "I’m Still Here lisansı yalnız Brezilya’yı kapsıyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Netflix’in 19 Ekim tarihli São Paulo duyurusu; hakların yapım bazında farklılaştığı açıkça belirtiliyor.",
+      "impactDraft": "Brezilya yapımlarının platform dağılımı ve hedef kitle erişimi için izlenebilir bir içerik takvimi oluşturuyor.",
+      "actionDraft": "Türkiye kataloğu ve reklam uygunluğunu yapım bazında ayrıca doğrulayın.",
+      "counterViewDraft": "İçerik lisansı, reklam envanteri açıldığı veya tüm 18 yapımın Türkiye’ye geldiği anlamına gelmez.",
+      "image": {
+        "url": "https://images.ctfassets.net/4cd45et68cgf/5JCxQrRnNqmaNsQiv6LvLx/66a34881a09f1c1d0e7eca8a5d07ba58/netflix-globo-licensing-eng.png?w=2000",
+        "alt": "Netflix ve Globo lisans anlaşmasının yapım kolajı",
+        "credit": "Netflix / Globo",
+        "sourceUrl": "https://about.netflix.com/en/news/18-globo-titles-heading-to-netflix-in-unprecedented-licensing-agreement"
+      },
+      "sources": [
+        {
+          "name": "Netflix • 18 Globo Titles Heading to Netflix",
+          "url": "https://about.netflix.com/en/news/18-globo-titles-heading-to-netflix-in-unprecedented-licensing-agreement",
+          "published": "2026-10-19",
+          "country": "Brezilya",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "cadbury-secret-santa-postal-service-2022",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "market": "Birleşik Krallık",
+      "title": "Cadbury Secret Santa: açık hava yüzeyini çikolata gönderim noktasına çevirmek",
+      "eventDate": "2022-11-14",
+      "facts": [
+        "Cadbury’nin 2022 Secret Santa uygulaması, açık hava üzerindeki QR kodlarla anonim çikolata hediyesi göndermeyi sağladı.",
+        "Kampanya, dijital ve fiziksel afişleri otobüs durakları ve istasyonlar gibi noktalarda kullandı.",
+        "120.000 çikolata dağıtımı planlandı.",
+        "TV, VOD, sinema, radyo, basın ve dijital kanallar uygulamayı destekledi."
+      ],
+      "verification": "official",
+      "verificationNote": "VCCP’nin 14 Kasım 2022 vaka açıklaması. Fiziksel OOH uygulaması; CGI kampanyası değil. Planlanan dağıtım, gerçekleşmiş sonuç olarak sunulmadı.",
+      "label": "Arşiv vakası",
+      "impactDraft": "OOH, mesajın taşıyıcısı olmanın yanında hediye davranışının giriş noktası oluyor; bağlam ile eylemi birleştiriyor.",
+      "actionDraft": "Türkiye’de yetişkinlere yönelik terminal veya ofis çevresi pilotunda QR’dan hediye gönderimini stok ve teslimat kapasitesiyle eşleştirin.",
+      "counterViewDraft": "Teslimat maliyeti, stok ve kişisel veri yönetimi ölçeği sınırlar. Bağımsız satış veya marka etkisi sonucu doğrulanmadı.",
+      "image": {
+        "url": "https://vccp-dev.vccp.com/uk/wp-content/uploads/sites/1/2022/11/2_TV_Flats_CadburySecretSantaPostalService.jpg",
+        "alt": "Cadbury Secret Santa kampanyasının TV uygulaması",
+        "credit": "VCCP / Cadbury",
+        "sourceUrl": "https://vccp-dev.vccp.com/uk/work/cadbury/the-cadbury-secret-santa-postal-service"
+      },
+      "sources": [
+        {
+          "name": "VCCP • The Cadbury Secret Santa Postal Service",
+          "url": "https://vccp-dev.vccp.com/uk/work/cadbury/the-cadbury-secret-santa-postal-service",
+          "published": "2022-11-14",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce",
+          "type": "agency"
+        }
+      ]
+    }
+  ],
+  "tvTracking": [
+    {
+      "show": "Mehmed: Fetihler Sultanı",
+      "channel": "TRT 1",
+      "previous": "19 Ekim paketinde program sayfası: salı 21.30; tarihli akış teyidi eksikti.",
+      "current": "20 Ekim tarihli akışta 21.30; öncesinde 19.45 futbol. Henüz gerçekleşmedi.",
+      "status": "Kanal teyitli",
+      "source": "https://www.trt1.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Var Mısın Yok Musun",
+      "channel": "ATV",
+      "previous": "Handoff kaydında çarşamba 20.00 bilgisi ikincil kaynağa dayanıyordu.",
+      "current": "20 Ekim salı 20.00, resmî akış ve tarihli tanıtımda. Kalıcı gün değişikliği veya çarşamba iptali teyit edilmedi.",
+      "status": "Kanal teyitli",
+      "source": "https://www.atv.com.tr/var-misin-yok-musun",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Sevdam Karadeniz",
+      "channel": "NOW",
+      "previous": "19 Ekim pazartesi 20.00 yeni bölüm planı.",
+      "current": "Resmî 2. bölüm arşivi erişilebilir. Arşivde ilk yayın zaman damgası görünmüyor; 19 Ekim planıyla birlikte değerlendirildi.",
+      "status": "Fiilen yayında",
+      "source": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolum/2",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Güldür Güldür Show",
+      "channel": "Show TV",
+      "previous": "17 Ekim sezon dönüşü fiilî yayın tarihi açık kontroldü.",
+      "current": "24 Ekim cumartesi 20.00 yeni bölüm planı; 19 Ekim akışı tekrar. 448. bölüm sahneleri, 17 Ekim ilk yayın tarihini tek başına doğrulamıyor.",
+      "status": "Kanal teyitli",
+      "source": "https://www.showtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Güneşin Doğduğu Yer",
+      "channel": "ATV",
+      "previous": "15 Ekim 5. bölümün fiilen yayımlanması teyit bekliyordu.",
+      "current": "20 Ekim 23.40 akışında 5. bölüm var; arşivde 8 Ekim 4. bölüm görülüyor. 15 Ekim ilk yayını kanıtlanamadı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.atv.com.tr/gunesin-dogdugu-yer/bolumler",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Altı Üstü İstanbul",
+      "channel": "ATV",
+      "previous": "Pazartesi 20.00 yayını takip ediliyordu.",
+      "current": "Arşivde 12 Ekim 16. bölüm, 19 Ekim 17. bölüm tanıtımı ve 26 Ekim 18. bölüm tanıtımı var. 20 Ekim 14.00 kaydı kalıcı gün değişikliği değildir.",
+      "status": "Kanal teyitli",
+      "source": "https://www.atv.com.tr/alti-ustu-istanbul",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Anne Yarısı",
+      "channel": "NOW",
+      "previous": "Salı prime-time planı.",
+      "current": "20 Ekim salı 20.00 yeni bölüm, resmî haftalık akışta.",
+      "status": "Kanal teyitli",
+      "source": "https://www.nowtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Sevdan",
+      "channel": "Show TV",
+      "previous": "Yeni bölüm ile tekrar ayrımı kontrol edildi.",
+      "current": "20 Ekim 20.00 tekrar; 21 Ekim 20.00 yeni bölüm olarak listeleniyor.",
+      "status": "Kanal teyitli",
+      "source": "https://www.showtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Haysiyet",
+      "channel": "Kanal D",
+      "previous": "Güncel yayın akışı kontrolü.",
+      "current": "20 Ekim 20.00 yeni bölüm planı; henüz fiilî yayın değil.",
+      "status": "Kanal teyitli",
+      "source": "https://www.kanald.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "Tuzlu Kahve",
+      "channel": "Star TV",
+      "previous": "Güncel yayın akışı kontrolü.",
+      "current": "20 Ekim 20.00 yeni bölüm planı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.startv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    },
+    {
+      "show": "MasterChef Türkiye",
+      "channel": "TV8",
+      "previous": "Güncel yayın akışı kontrolü.",
+      "current": "20 Ekim 20.00 yeni bölüm planı; Yemekteyiz aynı gün 16.00’da.",
+      "status": "Kanal teyitli",
+      "source": "https://www.tv8.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-20T07:40:55+03:00"
+    }
+  ],
+  "matches": [
+    {
+      "date": "2026-10-20",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Fenerbahçe",
+      "away": "Slavia Praha",
+      "broadcaster": "TRT 1",
+      "source": "https://www.trt1.com.tr/",
+      "note": "TRT 1 tarih/saat/yayıncı; UEFA Fenerbahçe fikstürü tarih teyidi: https://www.uefa.com/uefachampionsleague/clubs/52692--fenerbahce/matches/ . Avrupa maçı; prime-time öncesi izleyici yoğunlaşması olasılığı, ölçülmüş reach değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-20",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "Basketbol Şampiyonlar Ligi",
+      "home": "Galatasaray",
+      "away": "SIG Strasbourg",
+      "broadcaster": null,
+      "source": "https://www.galatasaray.org/haber/basketbol/erkek-basketbol/sig-strasbourg-maci-biletleri-satista/61146",
+      "note": "16 Ekim tarihli kulüp duyurusu tarih ve saati doğruluyor; yayıncı teyit edilemedi. Avrupa basketbolu kitlesi için sponsorluk bağlamı; erişim tahmini yapılmadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-21",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "broadcaster": "TRT 1",
+      "source": "https://www.trt1.com.tr/",
+      "note": "TRT 1 programı; UEFA kulüp fikstürü tarihi doğruluyor: https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/matches/ . Avrupa maçı, akşam planında rekabet yaratabilir; ölçülmüş etki değil.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Hearts",
+      "broadcaster": "TRT 1",
+      "source": "https://www.trt1.com.tr/",
+      "note": "TRT 1 tarih/saat/yayıncı; UEFA: https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/matches/ . Avrupa gecesinde erken saat envanteri; olası izleyici etkisi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp 20.30 başlama saati; https://www.ssportplus.com/ 19.45 maça doğru programını gösteriyor. 19.45 maç saati değildir. Derbi etiketi uygulanmadı; aynı akşam futbol ile örtüşme olasılığı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Beşiktaş",
+      "away": "Crystal Palace",
+      "broadcaster": "TRT 1",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp tarih/saat ve https://www.trt1.com.tr/ yayıncı teyidi. TRT başlığındaki 'Finali' şablonu final kanıtı değildir. Geç prime-time futbol envanteri; ölçülmüş attention iddiası yok.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-23",
+      "time": "21:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Olympiacos",
+      "away": "Fenerbahçe",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî yayıncı programında tarih ve saat. EuroLeague organizasyon sayfası açılamadı; kulüp fikstürüyle ikinci teyit tamamlanamadı. Cuma prime-time basketbol kitlesi için olası yoğunlaşma.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-25",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "LaLiga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.fcbarcelona.com/en/football/first-team/schedule",
+      "note": "Kulüp 21.00 İspanya yarımada saati; 25 Ekim kış saati nedeniyle TSİ 23.00. https://www.ssportplus.com/ 22.30 maç önü+maç yayını doğrulandı; 22.30 başlama değildir. Uluslararası derbi, geç saat izleyici yoğunlaşması olasılığı.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "matchesWindow": "20 Ekim 2026 00.00 – 25 Ekim 2026 23.59 TSİ",
+  "rivalCheck": {
+    "checked": [
+      "ALTINMARKA • https://www.altinmarka.com.tr/ • ana sayfa + haber araması",
+      "ETİ • https://www.etietieti.com/ • ana sayfa + marka/şirket haber araması",
+      "ÜLKER • https://www.ulker.com.tr/tr/basin-merkezi • kendi şirket tarafı; rakip değil",
+      "NESTLÉ • https://www.nestle.com.tr/medya/basin-bultenleri • basın listesi + haber araması",
+      "FERRERO • https://www.ferrero.com/tr/tr/ • Türkiye sayfası + haber araması",
+      "SAGRA • https://www.sagra.com.tr/haberler.html • haber listesi + haber araması",
+      "MARS • https://www.mars.com/ • global ana sayfa ve Türkiye haber araması",
+      "ŞÖLEN • https://www.solen.com.tr • ana sayfa ve haber araması",
+      "TORKU • https://torku.com.tr/haberler • haber listesi + haber araması"
+    ],
+    "notChecked": [
+      "FİSKOBİRLİK • resmî site Internal Error; resmî sayfa teyidi yapılamadı.",
+      "MONDELEZ • /turkiye/ resmî sayfası Internal Error; haber araması yapıldı, yerel yeni hamle teyit edilemedi.",
+      "DOĞKAR • resmî site Internal Error; marka alt listesi varsayımla genişletilmedi.",
+      "ALTINKILIÇLAR • resmî site Internal Error; marka alt listesi varsayımla genişletilmedi.",
+      "LİDER ÇİKOLATA • resmî site Internal Error; resmî sayfa teyidi yapılamadı."
+    ],
+    "finding": "Yeni pencereye ait Türkiye çikolata kategorisi hamlesi doğrulanmadı; tüm evrende gelişme yok iddiası değildir. MediaCat ve Marketing Türkiye’de şirket/marka aramaları yapıldı. ETİ ataması, Nestlé CEO haberi ve Gofrik kampanyası eski tarihli olduğundan alınmadı. Cadbury vaka maddesi global arşiv örneğidir, yeni Türkiye rakip hamlesi değildir."
+  },
+  "social": {
+    "window": "20 Ekim 2026 kontrolü; Google Trends Türkiye son 24 saat",
+    "note": "Arama hacmi bantlarıdır; video izlenmesi, tekil erişim veya reyting değildir. Sıralama alaka düzeyine göre; rank üretilmedi. Birbiriyle örtüşen sorgular toplanmamalı.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Kızılcık Şerbeti",
+        "metric": "20 bin+ arama; yüzde 400 artış",
+        "whyItMatters": "Diziye yönelik arama ilgisi, içerik bağlamını izlemek için sinyaldir; bölüm izleyicisi olarak kullanılamaz.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends • Trending Now / Türkiye",
+        "published": "2026-10-20 erişimi; son 24 saat"
+      },
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Epic Games",
+        "metric": "5 bin+ arama; yüzde 100 artış",
+        "whyItMatters": "Oyun kategorisinde arama ilgisi sinyali; ilginin nedeni doğrulanmadan kampanya fırsatı sayılmamalı.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends • Trending Now / Türkiye",
+        "published": "2026-10-20 erişimi; son 24 saat"
+      },
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Trabzonspor – Beşiktaş maç kadrosu",
+        "metric": "1 milyon+ arama; yüzde 1.000 artış",
+        "whyItMatters": "Futbol çevresindeki içerik talebini gösterir; markaya aktarılan dikkat veya sponsorluk sonucu ölçmez.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends • Trending Now / Türkiye",
+        "published": "2026-10-20 erişimi; son 24 saat"
+      }
+    ]
+  },
+  "creativeCase": "cadbury-secret-santa-postal-service-2022",
+  "accessLog": [
+    {
+      "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligi-sosyal-medya-platformlarinda-yayimlanan-tasinmaz-ve-tasit-ilanlarina-yonelik-denetimlerini-surduruyor",
+      "result": "ok",
+      "note": "19 Ekim resmî açıklama metni ve tutarlar okundu."
+    },
+    {
+      "url": "https://ticaret.gov.tr/haberler",
+      "result": "ok",
+      "note": "Duyuru listesi tarandı; EİDS açıklamasına geçildi."
+    },
+    {
+      "url": "https://www.trt1.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "20 Ekim akışı; maç ve Mehmed saatleri okundu."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+      "result": "ok",
+      "note": "Salı 21.30 ve bölüm/fragman ayrımı kontrol edildi."
+    },
+    {
+      "url": "https://www.trt1.com.tr/",
+      "result": "ok",
+      "note": "20–22 Ekim futbol yayınlarının tarih, saat ve yayıncı bilgisi okundu."
+    },
+    {
+      "url": "https://www.atv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "20 Ekim akışı; Var Mısın, Güneş ve Altı Üstü İstanbul kayıtları okundu."
+    },
+    {
+      "url": "https://www.atv.com.tr/var-misin-yok-musun",
+      "result": "ok",
+      "note": "Tarihli bölüm ve tanıtımlar okundu."
+    },
+    {
+      "url": "https://www.atv.com.tr/gunesin-dogdugu-yer/bolumler",
+      "result": "ok",
+      "note": "8 Ekim 4. bölüm görüldü; 15 Ekim 5. bölüm ilk yayını teyit edilemedi."
+    },
+    {
+      "url": "https://www.atv.com.tr/alti-ustu-istanbul",
+      "result": "ok",
+      "note": "16. bölüm arşivi ve 17/18. bölüm tanıtımları ayrıldı."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Haftalık akış; 19 ve 20 Ekim kayıtları okundu."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/izle",
+      "result": "ok",
+      "note": "Bölüm bağlantıları görüldü."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolumler",
+      "result": "ok",
+      "note": "Bölüm listesi görüldü."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolum/2",
+      "result": "ok",
+      "note": "2. bölüm arşivi erişildi; ilk yayın zaman damgası görünmüyor."
+    },
+    {
+      "url": "https://www.showtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Yeni bölüm ve tekrar etiketleri okundu."
+    },
+    {
+      "url": "https://www.showtv.com.tr/programlar/tanitim/guldur-guldur/1534",
+      "result": "ok",
+      "note": "448. bölüm sahneleri var; 17 Ekim ilk yayın tarihi açık değil."
+    },
+    {
+      "url": "https://www.showtv.com.tr/programlar/sahne/guldur-guldur-laz-tikci/135463",
+      "result": "ok",
+      "note": "Sahne kaydı; ilk yayın tarihi kanıtı bulunmadı."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Haysiyet ve gündüz/haber kuşağı akışı okundu."
+    },
+    {
+      "url": "https://www.startv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Tuzlu Kahve ve Didem Arslan Yılmaz kuşağı kontrol edildi."
+    },
+    {
+      "url": "https://www.tv8.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "MasterChef ve Yemekteyiz akışı bu çalışmada açıldı."
+    },
+    {
+      "url": "https://halktv.com.tr",
+      "result": "ok",
+      "note": "halkinkanali.com adresine yönlendi; 21 Ekim miting sayfası, yayın/reklam dönüşü teyidi değil."
+    },
+    {
+      "url": "https://www.tff.org/Default.aspx?hafta=9&pageID=198",
+      "result": "ok",
+      "note": "9. haftanın dokuz maçının tamamı okundu; 26 Ekim GS–FB dönem dışında."
+    },
+    {
+      "url": "https://www.tff.org/default.aspx?pageID=1764",
+      "result": "ok",
+      "note": "Millî takım fikstürü; sıradaki maçlar kasımda."
+    },
+    {
+      "url": "https://www.tvf.org.tr",
+      "result": "ok",
+      "note": "tvf.org.tr yönlendirmesi açıldı; kadınlar takvimine geçildi."
+    },
+    {
+      "url": "https://sultanlar.volleystation.com/en/schedule/",
+      "result": "ok",
+      "note": "25 Ekim yedi maçlık tur okundu; kapsamda üç büyükler derbisi/final yok. Rutin maçlar elendi."
+    },
+    {
+      "url": "https://www.ssportplus.com/",
+      "result": "ok",
+      "note": "EuroLeague ve El Clásico yayınları; maç önü başlangıçları maç saatinden ayrıldı."
+    },
+    {
+      "url": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "result": "ok",
+      "note": "22 Ekim 2026 futbol ve basketbol satırları okundu; eski yıllarla karıştırılmadı."
+    },
+    {
+      "url": "https://www.fcbarcelona.com/en/football/first-team/schedule",
+      "result": "ok",
+      "note": "25 Ekim 21.00 İspanya yarımada saati okundu; zoneinfo ile Europe/Madrid → Europe/Istanbul dönüşümü 23.00 doğrulandı."
+    },
+    {
+      "url": "https://www.galatasaray.org/haber/basketbol/erkek-basketbol/sig-strasbourg-maci-biletleri-satista/61146",
+      "result": "ok",
+      "note": "16 Ekim duyurusu, 20 Ekim 20.00 maçını doğruluyor; yayıncı bilgisi yok."
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/matches/",
+      "result": "ok",
+      "note": "21 Ekim Lille deplasmanı tarih teyidi."
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/clubs/52692--fenerbahce/matches/",
+      "result": "ok",
+      "note": "20 Ekim Slavia Praha tarih teyidi."
+    },
+    {
+      "url": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/matches/",
+      "result": "ok",
+      "note": "22 Ekim Hearts tarih teyidi."
+    },
+    {
+      "url": "https://www.antena3.com/noticias/economia/atresmedia-presenta-amvia-nueva-division-publicidad-exterior_202610196ad61382b79b18452fca00c1.html",
+      "result": "ok",
+      "note": "Atresmedia grup yayını; tanıtım ve şirketin envanter beyanları okundu."
+    },
+    {
+      "url": "https://vccp-dev.vccp.com/uk/work/cadbury/the-cadbury-secret-santa-postal-service",
+      "result": "ok",
+      "note": "14 Kasım 2022 ajans vaka sayfası ve görseli okundu; sonuç değil dağıtım hedefi."
+    },
+    {
+      "url": "https://www.circana.com/post/new-study-from-circana-and-best-buy-ads-shows-retail-media-reach-goes-far-beyond-the-click",
+      "result": "ok",
+      "note": "Tarih 7 Ekim; güncel gelişme diye seçilmedi."
+    },
+    {
+      "url": "https://www.havas.com/",
+      "result": "ok",
+      "note": "Yatırımcı bağlantısı bulundu."
+    },
+    {
+      "url": "https://www.havas.com/investor-relations-shareholders/",
+      "result": "ok",
+      "note": "Üçüncü çeyrek açıklamasına erişildi."
+    },
+    {
+      "url": "https://www.havas.com/press_release/havas-reports-solid-net-revenue-growth-of-7-2-in-q3-2026-driven-by-organic-growth-and-contribution-from-acquisitions/",
+      "result": "ok",
+      "note": "14 Ekim açıklaması; 16 Ekim paketinde zaten mevcut, tekrar seçilmedi."
+    },
+    {
+      "url": "https://www.amplified.co/",
+      "result": "ok",
+      "note": "Kanada araştırması bağlantısı bulundu."
+    },
+    {
+      "url": "https://www.amplified.co/insight/news-cost-of-dull-canada-cineplex-study",
+      "result": "ok",
+      "note": "19 Ekim duyurusu, ölçüm/model ve STAS yöntemi okundu."
+    },
+    {
+      "url": "https://www.amplified.co/resources/cost-of-dull-canada",
+      "result": "ok",
+      "note": "Rapor giriş sayfası okundu; Download bağlantısı aynı sayfaya döndü, tam rapor alınamadı. Ana görsel tıklaması Internal Error döndürdü; görsel kullanılmadı."
+    },
+    {
+      "url": "https://about.netflix.com/en/news/18-globo-titles-heading-to-netflix-in-unprecedented-licensing-agreement",
+      "result": "ok",
+      "note": "19 Ekim resmî duyuru ve başlıktaki görsel açıldı; bölgesel haklar ayrıldı."
+    },
+    {
+      "url": "https://www.majidalfuttaim.com/en/media-centre/press-releases",
+      "result": "ok",
+      "note": "Görünen basın listesinde Precision Insights duyurusu yok; haber resmî teyitli sayılmadı."
+    },
+    {
+      "url": "https://trends.google.com/trending?geo=TR",
+      "result": "ok",
+      "note": "Türkiye / son 24 saat, alaka sıralı liste; üç marka/program/spor sorgusu seçildi."
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+      "result": "ok",
+      "note": "URL Türkiye olsa da dönen içerik Global English ve 5–11 Ekim dönemiydi; güncel Türkiye sıralaması kullanılmadı."
+    },
+    {
+      "url": "https://www.etietieti.com/",
+      "result": "ok",
+      "note": "Ana sayfa açıldı; Türkiye’ye özgü yeni çikolata kampanyası doğrulanmadı."
+    },
+    {
+      "url": "https://torku.com.tr/haberler",
+      "result": "ok",
+      "note": "Görünen 9 Ekim kurumsal eğitim haberi yeni pencereye girmiyor."
+    },
+    {
+      "url": "https://www.ulker.com.tr/tr/basin-merkezi",
+      "result": "ok",
+      "note": "Basın merkezi kontrol edildi; Ülker rakip olarak sınıflandırılmadı."
+    },
+    {
+      "url": "https://www.sagra.com.tr/haberler.html",
+      "result": "ok",
+      "note": "Haber listesi okundu; yeni pencereye ait kategori hamlesi doğrulanmadı."
+    },
+    {
+      "url": "https://www.nestle.com.tr/medya/basin-bultenleri",
+      "result": "ok",
+      "note": "Liste okunabilir; görünen son tarih Mayıs 2026, ekim güncelliği sınırlı."
+    },
+    {
+      "url": "https://www.ferrero.com/tr/tr/",
+      "result": "ok",
+      "note": "Türkiye ana sayfası kontrol edildi; yeni kategori kampanyası doğrulanmadı."
+    },
+    {
+      "url": "https://www.solen.com.tr",
+      "result": "ok",
+      "note": "Ana sayfa bu çalışmada açıldı; eski erişim hatası bugüne taşınmadı."
+    },
+    {
+      "url": "https://www.altinmarka.com.tr/",
+      "result": "ok",
+      "note": "Ana sayfa kontrol edildi; güncel tarihli kategori hamlesi doğrulanmadı."
+    },
+    {
+      "url": "https://www.mars.com/",
+      "result": "ok",
+      "note": "Global ana sayfa kontrolü; Türkiye kategori gelişmesi doğrulanmadı."
+    },
+    {
+      "url": "https://www.tbf.org.tr",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.fenerbahce.org/mac-merkezi",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.trtspor.com.tr",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.fiskobirlik.org.tr",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.lidercikolata.com",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.mondelezinternational.com/turkiye/",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.dogkar.com.tr",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.altinkiliclar.com.tr",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://charts.youtube.com/charts/TopVideos/tr/weekly",
+      "result": "error",
+      "note": "Web açma aracı Internal Error döndürdü; içerik okunamadı. İzin zaman aşımı veya kaynakta haber yok sonucu çıkarılmadı."
+    },
+    {
+      "url": "https://www.atresmediapublicidad.com/nosotros/en-los-medios/notasdeprensa/atresmedia-presenta-amvia-su-nueva-division-de-publicidad-exterior-que-conecta-a-las-marcas-con-las-personas-en-la-calle_202610196ad61020b79b18452fc9fdf2.html",
+      "result": "error",
+      "note": "DisabledError; resmî basın sayfası açılamadı. Antena 3 grup haberi alternatif kaynak oldu; oradaki ana görsel tıklaması da hata verdi."
+    },
+    {
+      "url": "https://www.havas.com/press_release/",
+      "result": "error",
+      "note": "404; ana sayfa ve yatırımcı sayfasından gerçek duyuruya ulaşıldı."
+    },
+    {
+      "url": "https://support.google.com/youtube/thread/18138167",
+      "result": "js_only",
+      "note": "Yardım kabuğu döndü; güncel değişiklik metni teyit edilemedi."
+    },
+    {
+      "url": "https://support.google.com/youtube/blog/448540943/try-a-new-conversational-search-experience-with-ask-youtube?hl=en-FO",
+      "result": "js_only",
+      "note": "Yardım kabuğu döndü; yeni masaüstü özelliğin tam metni okunamadı."
+    },
+    {
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
+      "result": "js_only",
+      "note": "Creative Center yönlendirmesi; Türkiye trend listesi gelmedi."
+    },
+    {
+      "url": "https://charts.spotify.com/charts/view/regional-tr-daily/latest",
+      "result": "js_only",
+      "note": "Sayfa kabuğu döndü; Türkiye günlük sıralaması okunamadı."
+    }
+  ],
+  "limitations": [
+    "Kapsam kısmi: TBF ve EuroLeague merkezî fikstürleri açılamadı. Listelenen maçlar kulüp/yayıncı kaynaklarıyla teyit edildi; tüm Avrupa basketbolu takviminin eksiksiz tarandığı iddia edilmiyor.",
+    "Galatasaray–SIG Strasbourg yayıncısı teyit edilemedi; broadcaster null. Olympiacos–Fenerbahçe yalnız resmî yayıncı takvimine dayanıyor.",
+    "Fenerbahçe maç merkezi ve TRT Spor açılamadı. Alternatif TRT 1 ve UEFA kaynakları kullanıldı; bağımsızlık iddiası yok.",
+    "Beş izlenen şirketin resmî sitesi açılamadı. Açılan bazı ana sayfa ve basın listelerinin güncelliği sınırlı; tüm rakip evreninde haber yok sonucu çıkarılamaz.",
+    "YouTube Türkiye listesi açılamadı; TikTok ve Spotify sıralamaları okunamadı. Netflix Türkiye URL’si yanlış bölge/eski dönem döndürdü. Doğrulanmış yüksek izlenmeli video bulunmadı; sosyal bölüm yalnız Google arama sinyallerinden oluşuyor.",
+    "Precision Insights tek ikincil kaynaklıdır; Majid Al Futtaim’in basın listesinde aynı duyuru bulunamadı.",
+    "Amplified’ın tam raporu indirilemedi; duyuruda katılımcı sayısı, saha tarihleri ve finansman tutarı yok. 5.400 reklam gözlemi kişi sayısı değildir.",
+    "Güldür Güldür’ün 17 Ekim sezon dönüşü ve Güneşin Doğduğu Yer’in 15 Ekim 5. bölüm ilk yayını tarihli resmî arşivle tamamlanamadı.",
+    "Sevdam Karadeniz 2. bölüm arşivinde ilk yayın zaman damgası yok. Planlanan akış ile erişilebilir arşiv ayrımı korundu.",
+    "Halk TV’nin yayın ve reklam envanterine dönüşü, Organize İşler Karun Hazinesi’nin fiilî ilk yayını ve Meta ticari koşullarının güncel metni tamamlanmış teyit değildir.",
+    "Radyo, basın, MMM, programmatic, ajans konkur ve etkinlikler için bu pencerede ayrı, güçlü ve doğrulanmış yeni madde seçilemedi; tüm kaynak havuzunun eksiksiz tarandığı iddia edilmiyor.",
+    "İki maddede uygun kaynak görseli eklenmedi: EİDS sayfasında ilgili haber görseli yok; Amplified ana görseli açılamadı. Kullanılan diğer görseller erişilerek incelendi."
+  ],
+  "researcherNotes": "RESEARCH.md güncel görev olarak uygulandı; yalnız araştırma paketi üretildi. Bülten, site, state, PROMPT ve diğer klasörler değiştirilmedi. Reyting araştırılmadı. Salı olduğu için sinema takvimi eklenmedi; Kanada maddesi sinema vizyonu değil ölçüm araştırmasıdır.\n\nÖncelik önerisi: Türkiye’de EİDS yaptırımları; globalde Amplified yöntem ayrımı veya AMVIA. Global sayısı yaratıcı vaka dahil beştir. Items içindeki 8 kayıt, 6 güncel gelişme/takvim teyidi, 1 ek TV teyidi ve 1 arşiv vakasıdır; tümü yeni lansman değildir.\n\n19 ve 16 Ekim research paketleri ile handoff üzerinden tekrar kontrolü yapıldı. Havas üçüncü çeyrek açıklaması 14 Ekim’de yayımlanmış ve 16 Ekim paketinde mevcut; handoff’taki yaklaşan açıklama notunu yeni haber saymayın. Lipton kampanyası da 16 Ekim’de var. 19 Ekim’in Toblerone vakası tekrar kullanılmadı.\n\nMehmed maddesi, 19 Ekim program sayfası bilgisinin tarihli akışla tamamlanmasıdır; sıfırdan yeni saat değişikliği diye yazılmamalı. Var Mısın salı yayını teyitli; kalıcı çarşambadan salıya geçiş teyitli değil. Altı Üstü İstanbul’un gündüz kaydı tekrar olabilir; pazartesi prime-time’dan taşındı diye düzeltme üretmeyin.\n\nCevher’in kanalına ilişkin 19 Ekim paketindeki Show TV düzeltmesini koruyun; eski ATV handoff kaydını geri getirmeyin. Birsen Altuntaş yeni oyuncu haberleri görüldü; doğrulanmış takvim etkisi olmadan kadro haberiyle liste doldurulmadı.\n\nTFF 9. haftanın dokuz karşılaşması okundu. Galatasaray–Fenerbahçe 26 Ekim’de olduğundan 20–25 Ekim penceresinde yok. Sonraki pakette dönem kuralına göre yeniden ele alınmalı. Kadınlar 25 Ekim tam turu tarandı; rutin maçlar elendi. Erkek voleybolu, kadın futbolu/basketbolu ve hentbol dışarıda.\n\nEfes–Beşiktaş’a Derbi etiketi verilmedi. Barcelona–Real Madrid için kulüp 21.00 İspanya yarımada saati, zoneinfo ile TSİ 23.00 doğrulandı. S Sport Plus 22.30 kaydı maç önü yayınıdır; 19 Ekim’de teyitsiz kalan yayıncı bugün resmî programla tamamlandı. TRT’nin Beşiktaş başlığındaki Finali ifadesini turnuva finali saymayın.\n\nPrecision Media iddiaları, görülen gösterim veya satış artışı bağımsız ölçülmüş gibi sunulmamalı. Amplified 360 bin model temasını 5.400 doğrudan ölçümle toplayıp örneklem üretmeyin; STAS gerçek satış değildir.\n\nCadbury Secret Santa 2022, kontrol edilen kullanılmış vaka listesinde ve 16/19 Ekim paketlerinde bulunmadı. 120 bin çikolata gerçekleşmiş dağıtım değil plan. Uyarlama sorusu önerisi: Bu hediye gönderim fikri hangi çikolata alt kategorisinde daha anlamlı olur?\n\nGoogle listesindeki kişisel, siyasi veya hassas konular seçilmedi. Kızılcık Şerbeti sorgusunu kadro haberiyle nedensel bağlamayın; artışın nedeni teyitli değil. Metrikler izlenme/reach olarak etiketlenmemeli.\n\nAccessLog kaynak açma sonuçlarını kaydeder; Internal Error izin zaman aşımı değildir. Tarihsiz dinamik sayfalarda erişim günü yayın tarihi yerine açıkça belirtildi. Finansal/reach tahminleri üretilmedi.\n\nBaşlangıç zamanı dakika hassasiyetindedir; cutoff son kaynak kontrolünün ardından gerçek saatle kaydedildi. TV checkedAt alanları son çapraz kontrol zamanını gösterir. Ücretli ek hizmet kullanılmadı."
+}
