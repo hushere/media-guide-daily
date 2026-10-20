@@ -114,6 +114,7 @@
     }).join("");
   }
   function openArticle(id) {
+    if (window.openMediaStory && window.openMediaStory(id)) return;
     var el = document.getElementById(id); if (!el) return;
     var d = el.querySelector("details"); if (d) d.open = true;
     el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -427,16 +428,13 @@
       '</ol><div class="share-card"><h3>İyi bilgi paylaştıkça değerli.</h3><p>Bu sayıyı ekibinizle paylaşın. Üyelik gerektirmez.</p><button class="btn" id="shareIssue">Bağlantıyı kopyala ↗</button></div></aside></div>';
     document.getElementById("allIssues").addEventListener("click", function () { document.getElementById("archive").showModal(); });
     document.getElementById("shareIssue").addEventListener("click", function () { document.getElementById("shareBtn").click(); });
-    document.getElementById("search").addEventListener("input", function () { state.query = this.value.trim().toLocaleLowerCase("tr"); renderArticles(); });
+    
     document.getElementById("articles").addEventListener("click", function (e) {
       var sb = e.target.closest(".save-btn"); if (sb) { e.preventDefault(); toggleSave(sb.dataset.save); }
     });
-    renderFilters(); bindFilters(); renderArticles(); updateProgress(); watchReading();
+    updateProgress();
     if (window.mountMediaEditorial) window.mountMediaEditorial(b, {render: function(a){return articleHTML(a, 1);}, save: toggleSave, markRead: markRead});
-    if (location.hash) {
-      var el = document.getElementById(location.hash.slice(1));
-      if (el) { var d = el.querySelector("details"); if (d) d.open = true; el.scrollIntoView(); }
-    }
+    if (location.hash) openArticle(decodeURIComponent(location.hash.slice(1)));
   }
 
   /* GoatCounter: sayfa görüntülemesini bülten tarihiyle kaydet */
