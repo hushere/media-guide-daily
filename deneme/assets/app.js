@@ -432,7 +432,7 @@
       var sb = e.target.closest(".save-btn"); if (sb) { e.preventDefault(); toggleSave(sb.dataset.save); }
     });
     renderFilters(); bindFilters(); renderArticles(); updateProgress(); watchReading();
-    if (window.mountMediaEditorial) window.mountMediaEditorial(b);
+    if (window.mountMediaEditorial) window.mountMediaEditorial(b, {render: function(a){return articleHTML(a, 1);}, save: toggleSave, markRead: markRead});
     if (location.hash) {
       var el = document.getElementById(location.hash.slice(1));
       if (el) { var d = el.querySelector("details"); if (d) d.open = true; el.scrollIntoView(); }
