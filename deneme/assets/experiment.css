@@ -12,3 +12,82 @@
 @media(max-width:700px){.layout{padding-inline:18px}.topbar-inner{padding:18px;gap:14px}.brand-text strong{font-size:20px}.trial-bar{padding-inline:18px}.trial-bar b{display:none}.hero-copy{padding:36px 0 28px}.hero h1{font-size:clamp(37px,8.5vw,58px);line-height:1.07;letter-spacing:-.05em}.hero h1 em{text-decoration-thickness:5px;text-underline-offset:5px}.mag-deck{font-size:14px;max-width:32ch}.mag-date{font-size:9px}.cover-grid{gap:14px}.cover-top{padding:14px;font-size:9px}.cover-copy{padding:16px}.cover-copy h3,.story-cover:nth-child(-n+2) h3{font-size:25px}.cover-copy p{font-size:12px}.cover-picture{margin-inline:14px}.gallery-tools{flex-wrap:wrap;gap:8px 16px}.gallery-tools h2{font-size:25px}.gallery-tools p{margin:0}.gallery-topics button{font-size:11px;padding:9px 11px}.reading-layout{display:block;padding-top:24px}.discover{position:static;max-height:none;overflow:visible;margin-bottom:24px}.mini-index{display:none}.reading-tools{gap:12px}.radar{margin-top:36px}.feed-head h2{font-size:30px}.hero-row{padding-top:20px}.mag-finish{margin-top:40px;padding:40px 20px}}
 @media(max-width:480px){.cover-grid{grid-template-columns:minmax(0,1fr)}.cover-copy h3,.story-cover:nth-child(-n+2) h3{font-size:32px}.cover-copy p{font-size:14px}.cover-top{font-size:10px;padding:18px 20px}.cover-copy{padding:20px}.cover-picture{margin-inline:20px;aspect-ratio:1.7}.cover-art{height:130px}.type-cover:nth-child(-n+2) .cover-art{height:150px}.mag-entry{gap:20px;font-size:11px}.gallery-note{line-height:1.6}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.story-cover:hover,.story-cover:hover .cover-picture img,.story-cover:hover .cover-art span{transform:none}}
+
+/* Compact reading scale. Same layout, colors and complete content. */
+.topbar-inner{padding-block:14px}
+.brand-text strong{font-size:20px}
+.hero-copy{padding:28px 0 22px}
+.hero h1{font-size:clamp(34px,4vw,52px);line-height:1.08;margin:14px auto 16px}
+.hero h1 em{text-decoration-thickness:5px;text-underline-offset:5px}
+.mag-deck{font-size:14px}
+.mag-entry{margin-top:16px;gap:22px}
+.story-gallery{margin:4px 0 32px}
+.gallery-tools{padding-top:16px;gap:12px}
+.gallery-tools h2{font-size:23px}
+.gallery-topics{padding:12px 0 16px;gap:6px}
+.gallery-topics button{padding:8px 12px}
+.cover-grid{gap:14px}
+.cover-top{padding:12px 16px}
+.cover-picture{margin:0 16px;height:140px;aspect-ratio:auto}
+.cover-copy{padding:16px}
+.cover-copy h3,.story-cover:nth-child(-n+2) h3{font-size:clamp(21px,1.7vw,25px);line-height:1.2;margin-bottom:12px}
+.cover-copy p{font-size:13px;line-height:1.55;margin-bottom:16px}
+.cover-open{padding-top:10px}
+.cover-open b{font-size:20px}
+.cover-art,.type-cover:nth-child(-n+2) .cover-art{height:96px;margin:0 16px}
+.cover-art span,.type-cover:nth-child(-n+2) .cover-art span{font-size:100px}
+.cover-art i{width:96px;height:96px}
+.image-unavailable .cover-copy{min-height:0}
+.gallery-note{margin-top:12px}
+.hero{padding-bottom:24px}
+.hero-row{gap:24px;padding-top:20px}
+.highlights h2{font-size:24px}
+.highlights li{font-size:15px;line-height:1.6}
+.edition-bar{margin:8px 0 24px}
+.social{padding-top:20px}
+.reading-layout{padding-top:28px;margin-top:28px;gap:26px}
+.feed-head h2{font-size:28px}
+.reading-tools{padding:12px 0;margin:12px 0}
+.card-grid{gap:30px}
+.card-grid .card-main{padding:20px 0}
+.card-grid .card h3{font-size:clamp(22px,1.9vw,28px);line-height:1.25}
+.card .summary,.card .kv,.card .detail{font-size:15px;line-height:1.7}
+.card .summary{margin-bottom:18px}
+.card .kv{margin-top:18px}
+.card .facts li{margin-bottom:7px}
+.card .kv.why,.card .kv.act{padding:14px 16px}
+.card .detail{padding-bottom:18px}
+.card details summary{padding:12px 0}
+.card-visual{max-height:230px;overflow:hidden}
+.card-visual img{max-height:210px;object-fit:cover}
+.region-head{margin-top:24px}
+.mag-finish{padding:32px 20px;margin-top:40px}
+.mag-finish h2{font-size:clamp(30px,3.5vw,44px);margin:14px 0 20px}
+@media(max-width:1150px){
+ .reading-layout{gap:22px}
+ .cover-copy h3,.story-cover:nth-child(-n+2) h3{font-size:23px}
+}
+@media(max-width:700px){
+ .topbar-inner{padding-block:12px}
+ .hero-copy{padding:24px 0 20px}
+ .hero h1{font-size:clamp(32px,6.5vw,42px)}
+ .cover-grid{gap:12px}
+ .cover-top{padding:12px}
+ .cover-picture{margin-inline:12px;height:110px}
+ .cover-copy{padding:14px}
+ .cover-copy h3,.story-cover:nth-child(-n+2) h3{font-size:21px}
+ .cover-art,.type-cover:nth-child(-n+2) .cover-art{height:80px}
+ .cover-art span,.type-cover:nth-child(-n+2) .cover-art span{font-size:84px}
+ .gallery-tools h2{font-size:22px}
+ .feed-head h2{font-size:26px}
+ .card .summary,.card .kv,.card .detail{font-size:16px;line-height:1.65}
+ .mag-finish{padding:28px 18px}
+}
+@media(max-width:480px){
+ .cover-copy h3,.story-cover:nth-child(-n+2) h3{font-size:24px}
+ .cover-copy p{font-size:14px;line-height:1.6}
+ .cover-picture{height:135px}
+ .cover-copy{padding:16px}
+ .cover-top{padding:12px 16px}
+ .cover-art,.type-cover:nth-child(-n+2) .cover-art{height:84px}
+}
