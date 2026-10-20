@@ -1,16 +1,20 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 19 Ekim 2026 09:40, Claude (bülten 2026-10-19 ChatGPT paketinden yeniden yayımlandı)
+Son güncelleme: 20 Ekim 2026 08:55, Claude (bülten 2026-10-20 ChatGPT paketinden yayımlandı)
 
 ## 1. Pencere
-- Son bülten: 2026-10-19 (pazartesi) | ChatGPT paketi (research/2026-10-19.json) ile yeniden yayımlandı; bilgi kesimi **19 Ekim 2026 07:40 TSİ**, Claude teyit 09:40. Salı penceresi 19 Ekim 07:40'tan başlar.
+- Son bülten: 2026-10-20 (salı) | ChatGPT paketi (research/2026-10-20.json); bilgi kesimi **20 Ekim 2026 07:40:55 TSİ**, Claude teyit 08:55. Çarşamba penceresi 20 Ekim 07:40'tan başlar.
 
 ## 1b. Haftanın gelişmeleri (cuma özeti için; cuma sonrası boşalt)
 - 2026-10-19#meta-ticari-sartlar-ai-tarama: Meta 30 Ekim şartları, reklamveren sitelerini AI eğitimi için tarama hakkı.
 - 2026-10-19#holding-q3-publicis-omnicom: Publicis Q3 %5 organik; Omnicom 22 Ekim.
+- 2026-10-20#eids-sosyal-ilan-platform-yaptirimlari: EİDS, Meta 20 mn TL, TikTok 4 mn TL ceza.
+- 2026-10-20#netflix-globo-18-yapim-lisans: Netflix–Globo 18 yapım lisansı.
 
 ## 2. Ertesi güne bırakılan kontroller
 - Reyting takibi kapsam dışı (kullanıcı kararı); reyting araması yapma.
+- 20 Ekim: Mehmed maç sonrası fiilî başlama; Var Mısın salı/çarşamba düzeni; Güldür Güldür 24 Ekim 20.00 yeni bölüm.
+- GS–FB 26 Ekim pzt 21:30: cuma 23 Ekim bülteninin maç dönemine (23 Ekim–1 Kasım) girer.
 - Halk TV: yayın yeniden başladı mı, reklam satış/teslimat açıklaması var mı?
 - 17 Ekim Güldür Güldür Show 14. sezon fiilen yayımlandı mı (Show TV arşivi); 19 Ekim Sevdam Karadeniz 2. bölüm.
 - Netflix Organize İşler: Karun Hazinesi yayına girişi; Lupin 4 (23 Ekim).
@@ -33,13 +37,16 @@ Son güncelleme: 19 Ekim 2026 09:40, Claude (bülten 2026-10-19 ChatGPT paketind
 |---|---|---|---|
 | Güneşin Doğduğu Yer | ATV | Kanal teyitli: perşembe 20.00, 15 Ekim 5. bölüm; gece kaydı tekrar. 00.20 iddiası düşürüldü | ATV akışı + bölüm arşivi, 15 Ekim (ChatGPT) |
 | Altı Üstü İstanbul | ATV | Fiilen yayında; pazartesi 20.00 | Onedio 13 Ekim |
-| Sevdam Karadeniz | NOW | Fiilen yayında (resmî 1. bölüm arşivde); pazartesi 20.00; salı 23.30 gece kaydı | NOW bölüm sayfası + akış, 15 Ekim |
-| Mehmed: Fetihler Sultanı | TRT 1 | 19 Ekim kontrolünde resmî program sayfasında salı 21.30; 20 Ekim tarihli akış teyidi yok; aynı akşam Fenerbahçe–Slavia 19.45 | TRT 1 program sayfası, 19 Ekim |
+| Sevdam Karadeniz | NOW | Fiilen yayında; resmî 2. bölüm arşivde (zaman damgası yok); pazartesi 20.00 | NOW bölüm/2, 20 Ekim |
+| Mehmed: Fetihler Sultanı | TRT 1 | Kanal teyitli: 20 Ekim akışında 21.30, öncesinde 19.45 FB–Slavia | TRT 1 akışı 20 Ekim (ChatGPT) |
+| Var Mısın Yok Musun | ATV | Kanal teyitli: 20 Ekim salı 20.00; çarşamba düzeni teyitsiz | ATV akışı + program sayfası 20 Ekim |
+| Anne Yarısı (NOW), Tuzlu Kahve (Star), Haysiyet (Kanal D), MasterChef (TV8) | | 20 Ekim 20.00 yeni bölüm planı | Akışlar 20 Ekim (ChatGPT) |
+| Sevdan | Show TV | 20 Ekim 20.00 tekrar; 21 Ekim 20.00 yeni bölüm | Show TV akışı 20 Ekim |
 | Haysiyet | Kanal D | Salı 20.00; perşembe 23.15 tekrar | Kanal D akışı 15 Ekim |
 | Uzak Şehir | Kanal D | 15 Ekim perşembe 20.00 "Tekrar" | Kanal D akışı 15 Ekim |
 | Sevdiğim Sensin | Star | 15 Ekim 20.00 yeni bölüm | Star akışı 15 Ekim |
 | MasterChef Türkiye | TV8 | 15 Ekim 20.00 yeni bölüm | TV8 akışı 15 Ekim |
-| Güldür Güldür Show (14. sezon) | Show TV | 17 Ekim 20.00 dönüş; gerçekleşme 19 Ekim'de teyit edilemedi (akış açılmadı) | Show TV akışı 16 Ekim; İnternethaber/Yeniçağ |
+| Güldür Güldür Show (14. sezon) | Show TV | 24 Ekim cmt 20.00 yeni bölüm planı; 17 Ekim dönüşü hâlâ teyitsiz | Show TV akışı 20 Ekim (ChatGPT) |
 | Cuma 20.00 (16 Ekim) | çeşitli | Kızılcık Şerbeti (Show), Beyaz'la Joker (Kanal D), Taşacak Bu Deniz (TRT 1), MasterChef (TV8) yeni bölüm; Star film | Akışlar 16 Ekim (ChatGPT) |
 | Centilmen | NOW | Kulis: çekim ertelendi iddiası, tarih yok; politikam 7 Ekim: Ekim sonu set, yıl sonu yayın | Birsen Altuntaş 16 Ekim |
 | Halk TV | Halk TV | 14 Ekim kayyum, yayın kesintisi; 19 Ekim'de yeniden yayın kaydı bulunamadı | Medyascope 14 Ekim |
@@ -65,9 +72,13 @@ Son güncelleme: 19 Ekim 2026 09:40, Claude (bülten 2026-10-19 ChatGPT paketind
 - KitKat "Have a…" O2 DOOH, BK 2023 (14 Ekim)
 - Cadbury Dairy Milk &More komşu ilanlar, VCCP, BK 2024 (15 Ekim)
 - Cadbury "Undercover Eggs" kesilip katlanan basın ilanları, VCCP, BK 2026 (16 Ekim)
-- Adaylar: Toblerone 3D bilboard. Caramilk önceki araştırmada görülmüş.
+- Toblerone "Gift Outside the Box" (19 Ekim)
+- Cadbury Secret Santa Postal Service, QR'lı OOH, VCCP, BK 2022 (20 Ekim)
+- Adaylar: Caramilk önceki araştırmada görülmüş.
 
 ## 7. Kaynak erişimi
+- 20 Ekim Claude oturumu: WebFetch yine **izin/zaman aşımı (PROVENANCE_REQUIRED)** — TRT 1 akışı denendi, açılmadı; teyit WebSearch başlıklarıyla sınırlı. Kalıcı engel değil; ertesi gün yeniden dene.
+- ChatGPT 20 Ekim: 7 kanal akışı, TFF, TVF/VolleyStation, S Sport Plus, bjk.com.tr, uefa.com kulüp sayfaları, galatasaray.org, fcbarcelona.com, Google Trends, rakip siteler (9) açıldı. Hata (Internal Error): tbf.org.tr, EuroLeague, fenerbahce.org, trtspor, Fiskobirlik, Lider, Mondelez TR, Doğkar, Altınkılıçlar, charts.youtube.com.
 - 19 Ekim Claude oturumu (yedek): WebFetch yine **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı, TFF, TRT 1 akışı, VolleyStation, Google Trends, mediacat, marketingturkiye, campaigntr, campaignlive; fenerbahce.org hata; halktv.com.tr robots (kalıcı). Çalışan: ppc.land, adweek, placera, sporekrani, milligazete, internethaber, football-espana.
 - 16 Ekim Claude oturumu: WebFetch yine **izin/zaman aşımı (PROVENANCE_REQUIRED)** — ssportplus.com, trt1.com.tr akışı, mediacat.com, birsenaltuntas.com açılamadı; WebSearch yalnız başlık döndürdü. Kalıcı engel değil; ertesi gün yeniden dene. Claude'un teyit gücü bu sorun sürdükçe sınırlı.
 - ChatGPT 16 Ekim: 7 kanal akışı, TFF, TVF/VolleyStation, S Sport Plus, bjk.com.tr, uefa.com (kulüp maç sayfaları), Google Trends, MediaCat, Marketing Türkiye açıldı. Hata: EuroLeague/TBF/fenerbahce.org/olympiacos, Netflix/YouTube listeleri, Fiskobirlik, Lider, Mondelez TR, Doğkar, Altınkılıçlar.
@@ -86,6 +97,10 @@ Son güncelleme: 19 Ekim 2026 09:40, Claude (bülten 2026-10-19 ChatGPT paketind
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- **20 Ekim: paket geldi** (8 öğe, 07:40 cutoff), şema geçerli; accessLog, limitations ve researcherNotes çok iyi. Teşekkürler.
+- **Derbi etiketi:** Barcelona–Real Madrid'e yine "Derbi" etiketi verilmişti; Claude kaldırdı. Etiket yalnız FB/GS/BJK arası maçlar için.
+- **Dijital gündem:** Yine 3 Google Trends öğesi; "Epic Games" gibi nedeni bilinmeyen trendler yerine dizi/marka/kampanya trendleri, 3-5 öğe.
+- **Haber çeşitliliği:** Türkiye'de ajans/marka ve sektör (MediaCat, Marketing Türkiye) haberi yoktu; en az bir yerel sektör haberi arayın.
 - **19 Ekim: paket geldi** (research/2026-10-19.json, 9 öğe, 07:40 cutoff). Şema geçerli, accessLog ve limitations açık. Claude yalnız WebFetch izin zaman aşımı nedeniyle bazı sayfaları açamadı; teyit arama özetleriyle yapıldı. Teşekkürler.
 - **Görsel:** 19 Ekim'de 9 haberin yalnız 3'ünde doğrudan görsel vardı. Gelecekte haber başına görsel ve kredi bilgisi mümkünse ekleyin.
 - 16 Ekim paketi iyi: 11 öğe, şema geçerli, null saat/yayıncılar dürüst bırakılmış, rakip kontrolü ve accessLog açık. Teşekkürler.
