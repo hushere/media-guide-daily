@@ -1,31 +1,19 @@
-# Media Guide Daily: Scroll-craft denemesi
+# Görsel bülten denemesi
 
-Canlı adres: https://hushere.github.io/media-guide-daily/deneme/
+https://hushere.github.io/media-guide-daily/deneme/
 
-Bu sürüm yalnız deneme/ altında çalışır. Ana site, haber JSON dosyaları, araştırma ve yayın otomasyonları değiştirilmez. Orijinal üç arayüz dosyasının birebir kopyası original/ içinde korunur. Başlangıç commit'i: 2e38b2c4b34b80059ccdb86138bbd17c02a39de6. original/ kaynak yedeğidir, bağıl veri yolları değiştirilmiş ikinci çalışan site değildir.
+Kullanıcının seçtiği referans: The Pudding. Birebir kopya değildir; renkli editoryal kapaklar, büyük başlıklar ve görsel keşif yaklaşımı medya bültenine uyarlanmıştır. Referansın marka, logo veya özel illüstrasyonları kopyalanmaz.
 
-## Kaynak ve uygulama
+## Akış
+Üstte bütün haberler renkli kapaklarla listelenir. Konu filtreleri yalnız bu dizini süzer. Kapaklar tam haber metnine bağlantıdır; bağlantı seçildiğinde okuma alanındaki arama ve kategori filtreleri temizlenir. Fotoğraf yoksa açıkça dekoratif tipografik bir şekil kullanılır, uydurma veri grafiği oluşturulmaz.
 
-https://github.com/nateherkai/scroll-craft reposunun Scroll-craft becerisi ve değiştirilmemiş engine/scrollcraft.js + engine/scrollcraft.css dosyaları kullanıldı. MIT lisansı vendor/LICENSE.scroll-craft dosyasındadır. Tasarım brief'i BRIEF.md içindedir.
+Altta ana sitenin mevcut çizim kodu tüm haberleri, kaynakları, analizleri ve ek bölümleri aynı veriyle gösterir. Toplu detay açma, arama, kaydetme, paylaşma ve tarihli arşiv korunur. Haber dizini ve tam metin aynı ../bulletins/ JSON dosyalarından gelir. Haber dosyalarına yazılmaz.
 
-Önceki Hyperframes/GSAP oynatıcısı kaldırıldı. Bu sürüm video veya ücretli API kullanmaz. Vendor dosyaları yerelden sunulur. Var olan haber görselleri, yazı tipleri ve kaynaklar kendi adreslerinden yüklenir.
+Bu sayıda ve maç takvimi, sosyal gündem, varsa haftalık bölüm, düzeltmeler ve sınırlamalar korunur. Hareket kullanıcı kontrolünde, azaltılmış hareket ayarına duyarlıdır. Dar ekranlarda kapaklar tek sütuna geçer. Animasyon CSS desteği yoksa içerik statik kalır.
 
-## Deneyim
+## Koruma
+Yalnız deneme/ değişir. original/ kaynak yedeği aynı kalır. Orijinal başlangıç commit'i: 2e38b2c4b34b80059ccdb86138bbd17c02a39de6.
+Hyperframes ve Scroll-craft oynatma kodları sayfada yüklenmez. Önceki vendor kaynakları ve MIT bildirimi geçmiş denemenin arşivi olarak tutulur. Yeni görünüm yerel JS/CSS ile çalışır. Yeni ücretli servis, araştırma otomasyonu veya izleme sayacı eklenmez.
 
-- Editoryal başlık sayfası ve tam akışa doğrudan geçiş.
-- Gerçek haber görseli, başlık, özet ve planlama etkisinden oluşan asimetrik açılış.
-- Scroll-craft'ın doğal akış, parallax, reveal ve gerçek içerik sayısı mekanizmaları.
-- Tam haber akışında okuyucunun bulunduğu habere göre değişen aksiyon alanı. Aksiyon ve tarihli haber bağlantısı kopyalanabilir.
-- Tüm detayları topluca açma, arama, filtreler, arşiv, kaydetme, paylaşım ve tema değişimi korunur.
-- Hareketi kapatma ve işletim sisteminin azaltılmış hareket ayarına uyum.
-- Mobilde tek sütun, sabit metin; yan panelde tekrarlanan aksiyon zaten haberin içinde bulunur.
-
-## İçerik bütünlüğü
-
-Deneme ../bulletins/index.json ve tarihli JSON dosyalarını salt okunur kullanır. Haber çizim işlevleri orijinalle aynıdır; tüm haberler, metinler, analizler, kaynaklar, spor, sosyal gündem, haftalık notlar, düzeltmeler ve sınırlamalar korunur. Başlangıçta tek bir haberin öne çıkarılması tam listeden içerik çıkarmaz. Ana indekse eklenen yeni sayılar sayfa yenilendiğinde burada da okunur.
-
-Yerel kayıtlar mg-trial- anahtarlarında tutulur. Üretim ziyaret sayacı yüklenmez. Denemeyi kaldırmak için yalnız deneme/ klasörünü kaldırmak yeterlidir.
-
-## Kontrol kapsamı
-
-JavaScript sözdizimi ve ana haber çizim koduyla eşitlik kontrolü yapıldı. Tarayıcı doğrulaması canlı GitHub Pages üzerinde yapılır. Reponun shoot.mjs tarama aracı bu ortamın izin verdiği tarayıcı yüzeyi yerine ayrı Chrome gerektirdiği için kullanılmaz. Gerçek telefon donanımında test yapılmadı.
+## Kontrol
+JavaScript sözdizimi denetlendi. Ana haber çizim kodu original/ kopyasıyla eşitlik kontrolünden geçti. Canlı tarayıcı bağlantısı bu çalışma sırasında bulunmadığı için görsel, tıklama ve gerçek cihaz testleri tamamlanamadı. GitHub Pages yayın durumu ayrıca kontrol edilir.

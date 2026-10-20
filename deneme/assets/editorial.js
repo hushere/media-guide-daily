@@ -1,96 +1,57 @@
-(function () {
-  'use strict';
-  function esc(v) { return String(v || '').replace(/[&<>"']/g, function (c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-  function url(v) { try { var u = new URL(v); return u.protocol === 'https:' ? u.href : ''; } catch (_) { return ''; } }
-  window.mountMediaEditorial = function (b) {
-    var root = document.getElementById('main');
-    var host = document.getElementById('articles');
-    var articles = b.articles || [];
-    if (!articles.length) return;
-    var engine = null, disabled = false, pending = false, active = null, allOpen = false;
-    var reduced = matchMedia('(prefers-reduced-motion: reduce)');
-    try { disabled = localStorage.getItem('mg-trial-motion') === 'off'; } catch (_) {}
-    var hero = root.querySelector('.hero-copy');
-    hero.querySelector('h1').innerHTML = 'Medyanın bugününe<br><em>yakından bak.</em>';
-    hero.insertAdjacentHTML('beforeend', '<div class="editorial-entry"><a href="#articles">Tüm haberleri oku <span aria-hidden="true">↗</span></a><span><strong data-sc-count="0 ' + articles.length + '">' + articles.length + '</strong> kaynaklı gelişme</span><button type="button" class="text-btn" id="motionToggle" aria-pressed="false">Hareketi kapat</button></div>');
-    var lead = articles.find(function (a) { return a.image && url(a.image.url); }) || articles[0];
-    var feature = document.createElement('section');
-    feature.className = 'editorial-lead';
-    feature.setAttribute('data-sc-act', 'flow');
-    feature.setAttribute('aria-label', 'Gündeme yakından bakış');
-    var image = lead.image && url(lead.image.url);
-    feature.innerHTML = '<div class="lead-story"><span class="lead-label">' + esc(lead.region) + ' / ' + esc(lead.category) + '</span><h2>' + esc(lead.title) + '</h2><p>' + esc(lead.summary) + '</p><a class="lead-link" href="#' + esc(lead.id) + '">Haberi ve kaynakları oku ↗</a></div>' +
-      '<div class="lead-media">' + (image ? '<figure><div class="lead-photo"><img data-sc-parallax="-0.7" src="' + esc(image) + '" alt="' + esc(lead.image.alt || lead.title) + '"></div><figcaption>' + esc(lead.image.credit || lead.image.source || 'Haberdeki kaynak görseli') + '</figcaption></figure>' : '<div class="lead-letter" aria-hidden="true" data-sc-parallax="-0.5">MG</div>') + '<div class="lead-insight"><span>Planlama açısından</span><p>' + esc(lead.impact) + '</p></div></div><div class="chapter-rule" aria-hidden="true" data-sc-reveal="left" data-sc-reveal-at="0.05 0.35"></div>';
-    hero.after(feature);
-    feature.querySelectorAll('img').forEach(function (img) {
-      img.addEventListener('error', function () { this.closest('figure').hidden = true; feature.classList.add('without-image'); });
-      img.addEventListener('load', function () { if (engine) engine.layout(); });
-    });
-    root.querySelector('.hero-row').setAttribute('data-sc-in', '');
-    var toc = document.createElement('nav');
-    toc.className = 'story-index'; toc.setAttribute('aria-label', 'Haber dizini');
-    toc.innerHTML = '<h3>Bu sayının haberleri</h3>' + articles.map(function (a) { return '<a href="#' + esc(a.id) + '" data-story="' + esc(a.id) + '">' + esc(a.title) + '</a>'; }).join('');
-    root.querySelector('.discover').appendChild(toc);
-    var companion = document.createElement('section');
-    companion.className = 'reading-companion'; companion.setAttribute('aria-label', 'Okuma eşlikçisi');
-    companion.innerHTML = '<span class="companion-label">OKUDUĞUN HABERDEN</span><h2>Planına taşı.</h2><p class="companion-title"></p><div class="companion-action"></div><button class="btn" type="button">Aksiyonu kopyala</button><p class="copy-status" role="status"></p>';
-    root.querySelector('.radar').prepend(companion);
-    var copyStatus = companion.querySelector('.copy-status');
-    companion.querySelector('button').onclick = function () {
-      if (!active) return;
-      var link = new URL(location.href); link.searchParams.set('tarih', b.date); link.hash = active.id;
-      var text = active.title + '\n\n' + active.action + '\n\n' + link.href;
-      if (!navigator.clipboard) { copyStatus.textContent = 'Kopyalama kullanılamıyor. Metni seçerek kopyalayabilirsin.'; return; }
-      navigator.clipboard.writeText(text).then(function () { copyStatus.textContent = 'Aksiyon ve haber bağlantısı kopyalandı.'; }, function () { copyStatus.textContent = 'Kopyalanamadı. Metni seçerek kopyalayabilirsin.'; });
-    };
-    var readingTools = document.createElement('div'); readingTools.className = 'reading-tools';
-    readingTools.innerHTML = '<span>Tam metin, analiz ve kaynaklar</span><button class="btn" type="button" aria-pressed="false">Tüm detayları aç</button>';
-    host.before(readingTools);
-    function applyOpen() { host.querySelectorAll('article details').forEach(function (d) { d.open = allOpen; }); }
-    readingTools.querySelector('button').onclick = function () { allOpen = !allOpen; this.setAttribute('aria-pressed', String(allOpen)); this.textContent = allOpen ? 'Detayları kapat' : 'Tüm detayları aç'; applyOpen(); if (engine) engine.layout(); };
-    function update() {
-      pending = false;
-      var cards = Array.from(host.querySelectorAll('article'));
-      var chosen = cards.find(function (card) { var r = card.getBoundingClientRect(); return r.bottom > 150 && r.top < innerHeight * .6; });
-      if (!chosen) return;
-      var next = articles.find(function (a) { return a.id === chosen.id; });
-      if (!next || next === active) return;
-      active = next;
-      companion.querySelector('.companion-title').textContent = active.title;
-      companion.querySelector('.companion-action').textContent = active.action || 'Bu haber için ayrı bir aksiyon belirtilmemiş.';
-      copyStatus.textContent = '';
-      toc.querySelectorAll('a').forEach(function (a) { if (a.dataset.story === active.id) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current'); });
-    }
-    function queue() { if (!pending) { pending = true; requestAnimationFrame(update); } }
-    addEventListener('scroll', queue, {passive:true});
-    addEventListener('resize', queue, {passive:true});
-    toc.addEventListener('click', function (e) {
-      var link = e.target.closest('a'); if (!link) return;
-      if (!document.getElementById(link.dataset.story)) {
-        var search = document.getElementById('search'); search.value = ''; search.dispatchEvent(new Event('input', {bubbles:true}));
-        var all = root.querySelector('[data-region="Tümü"]'); if (all) all.click();
-        var selected = root.querySelector('[data-cat][aria-pressed="true"]'); if (selected) selected.click();
-      }
-    });
-    new MutationObserver(function () { if (allOpen) applyOpen(); queue(); if (engine) engine.layout(); }).observe(host, {childList:true});
-    host.addEventListener('toggle', function () { if (engine) engine.layout(); }, true);
-    var toggle = document.getElementById('motionToggle');
-    function setMotion() {
-      if (engine) { engine.destroy(); engine = null; }
-      var off = disabled || reduced.matches;
-      root.classList.toggle('motion-off', off);
-      toggle.textContent = off ? 'Hareketi aç' : 'Hareketi kapat';
-      toggle.setAttribute('aria-pressed', String(!off));
-      toggle.disabled = reduced.matches;
-      if (reduced.matches) toggle.textContent = 'Azaltılmış hareket';
-      if (!off && window.ScrollCraft) engine = ScrollCraft.mount(root);
-    }
-    toggle.onclick = function () { disabled = !disabled; try { localStorage.setItem('mg-trial-motion', disabled ? 'off' : 'on'); } catch (_) {} setMotion(); };
-    reduced.addEventListener('change', setMotion);
-    setMotion();
-    active = articles[0];
-    companion.querySelector('.companion-title').textContent = active.title;
-    companion.querySelector('.companion-action').textContent = active.action || '';
-    queue();
-  };
+(function(){
+'use strict';
+function esc(v){return String(v||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function safe(v){try{var u=new URL(v);return u.protocol==='https:'?u.href:''}catch(e){return ''}}
+window.mountMediaEditorial=function(b){
+var main=document.getElementById('main'),host=document.getElementById('articles'),arts=b.articles||[];
+if(!arts.length)return;
+var hero=main.querySelector('.hero-copy');
+hero.innerHTML='<div class="mag-date">'+esc(b.date)+' · Daily Media Intelligence</div><h1>Medya değişiyor.<br><em>Birlikte keşfedelim.</em></h1><p class="mag-deck">Haberler, fikirler ve medya kararlarını değiştiren gelişmeler.</p><div class="mag-entry"><a href="#storyGallery">Gündemi keşfet</a><a href="#articles">Tam bülteni oku ↗</a></div>';
+var gallery=document.createElement('section');gallery.id='storyGallery';gallery.className='story-gallery';
+gallery.setAttribute('aria-label','Görsel haber dizini');
+var cats=Array.from(new Set(arts.map(function(a){return a.category})));
+gallery.innerHTML='<div class="gallery-tools"><h2>Bugün ne var?</h2><button type="button" class="text-btn" id="motionToggle" aria-pressed="true">Hareketi kapat</button><p id="galleryCount" role="status"></p></div><div class="gallery-topics" role="group" aria-label="Kapakları konuya göre süz"><button type="button" data-topic="" aria-pressed="true">Hepsi</button>'+cats.map(function(c){return '<button type="button" data-topic="'+esc(c)+'" aria-pressed="false">'+esc(c)+'</button>'}).join('')+'</div><div class="cover-grid"></div><p class="gallery-note">Bir başlığa dokun, tam haberine geç. Tüm metinler, analizler ve kaynaklar aşağıda.</p>';
+hero.after(gallery);
+var grid=gallery.querySelector('.cover-grid'),topic='';
+function art(a,i){
+ var img=a.image&&safe(a.image.url);
+ var glyph=/TV|Entertainment/.test(a.category)?'◉':/Dijital|AI/.test(a.category)?'✳':/Araştırma|Ölçüm/.test(a.category)?'↗':/Yaratıcı/.test(a.category)?'✦':'◎';
+ return '<a class="story-cover tone-'+(i%6)+(img?' has-photo':' type-cover')+'" href="#'+esc(a.id)+'" data-target="'+esc(a.id)+'"><div class="cover-top"><span>'+esc(a.region)+'</span><span>'+esc(a.category)+'</span></div>'+
+ (img?'<div class="cover-picture"><img src="'+esc(img)+'" alt="" loading="lazy"></div>':'<div class="cover-art" aria-hidden="true"><span>'+glyph+'</span><i></i></div>')+
+ '<div class="cover-copy"><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><span class="cover-open">Haberi keşfet <b aria-hidden="true">↗</b></span></div></a>';
+}
+function render(){var selected=arts.filter(function(a){return !topic||a.category===topic});grid.innerHTML=selected.map(function(a){return art(a,arts.indexOf(a))}).join('');document.getElementById('galleryCount').textContent=selected.length+' / '+arts.length+' haber';grid.querySelectorAll('img').forEach(function(img){img.addEventListener('error',function(){var c=this.closest('.story-cover');this.parentElement.remove();c.classList.remove('has-photo');c.classList.add('type-cover','image-unavailable')})})}
+render();
+gallery.querySelector('.gallery-topics').onclick=function(e){var t=e.target.closest('[data-topic]');if(!t)return;topic=t.dataset.topic;this.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',String(x===t))});render()};
+function revealTarget(id){
+ var s=document.getElementById('search');s.value='';s.dispatchEvent(new Event('input',{bubbles:true}));
+ var all=main.querySelector('[data-region="Tümü"]');if(all)all.click();
+ var cat=main.querySelector('[data-cat][aria-pressed="true"]');if(cat)cat.click();
+ var target=document.getElementById(id);if(target){target.classList.add('just-opened');setTimeout(function(){target.classList.remove('just-opened')},1400)}
+}
+grid.addEventListener('click',function(e){var a=e.target.closest('a[data-target]');if(a)revealTarget(a.dataset.target)});
+var tools=document.createElement('div');tools.className='reading-tools';tools.innerHTML='<span>Derinlemesine oku. Kaynakları kontrol et.</span><button class="btn" type="button" aria-pressed="false">Tüm detayları aç</button><a href="#storyGallery">Kapaklara dön ↑</a>';host.before(tools);
+main.querySelector('.feed-head h2').textContent='Haberin içine gir.';
+var opened=false;
+function expand(){host.querySelectorAll('article details').forEach(function(d){d.open=opened})}
+tools.querySelector('button').onclick=function(){opened=!opened;this.setAttribute('aria-pressed',String(opened));this.textContent=opened?'Detayları kapat':'Tüm detayları aç';expand()};
+var index=document.createElement('nav');index.className='mini-index';index.setAttribute('aria-label','Haber dizini');index.innerHTML='<h3>Bu sayıda</h3>'+arts.map(function(a){return '<a href="#'+esc(a.id)+'" data-target="'+esc(a.id)+'">'+esc(a.title)+'</a>'}).join('');main.querySelector('.discover').appendChild(index);
+index.addEventListener('click',function(e){var a=e.target.closest('[data-target]');if(a)revealTarget(a.dataset.target)});
+var current=null,pending=false;
+function sync(){
+pending=false;
+var card=Array.from(host.querySelectorAll('article')).find(function(c){var r=c.getBoundingClientRect();return r.bottom>100&&r.top<innerHeight*.55});
+if(!card||card.id===current)return;current=card.id;
+index.querySelectorAll('a').forEach(function(a){if(a.dataset.target===current)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})
+}
+function queue(){if(!pending){pending=true;requestAnimationFrame(sync)}}
+addEventListener('scroll',queue,{passive:true});addEventListener('resize',queue,{passive:true});
+new MutationObserver(function(){if(opened)expand();queue()}).observe(host,{childList:true});
+var off=false;try{off=localStorage.getItem('mg-trial-motion')==='off'}catch(e){}
+var mq=matchMedia('(prefers-reduced-motion: reduce)'),toggle=document.getElementById('motionToggle');
+function motion(){var disabled=off||mq.matches;main.classList.toggle('motion-off',disabled);toggle.textContent=mq.matches?'Azaltılmış hareket':disabled?'Hareketi aç':'Hareketi kapat';toggle.disabled=mq.matches;toggle.setAttribute('aria-pressed',String(!disabled))}
+toggle.onclick=function(){off=!off;try{localStorage.setItem('mg-trial-motion',off?'off':'on')}catch(e){}motion()};
+mq.addEventListener('change',motion);motion();queue();
+var finish=document.createElement('div');finish.className='mag-finish';finish.innerHTML='<p>Gündem burada bitmez.</p><h2>Bir sonraki fikre<br>yer aç.</h2><a href="#storyGallery">Bu sayıyı yeniden keşfet ↗</a>';main.appendChild(finish);
+};
 })();
