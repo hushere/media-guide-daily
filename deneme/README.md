@@ -1,26 +1,31 @@
-# Media Guide Daily — bağımsız görünüm denemesi
+# Media Guide Daily: Scroll-craft denemesi
 
-Adres: https://hushere.github.io/media-guide-daily/deneme/
+Canlı adres: https://hushere.github.io/media-guide-daily/deneme/
 
-Bu çalışma yalnız `deneme/` altına dosya ekler. Ana sitenin HTML, CSS, JS, veri dosyaları ve iş akışları değiştirilmez.
+Bu sürüm yalnız deneme/ altında çalışır. Ana site, haber JSON dosyaları, araştırma ve yayın otomasyonları değiştirilmez. Orijinal üç arayüz dosyasının birebir kopyası original/ içinde korunur. Başlangıç commit'i: 2e38b2c4b34b80059ccdb86138bbd17c02a39de6. original/ kaynak yedeğidir, bağıl veri yolları değiştirilmiş ikinci çalışan site değildir.
 
-## Korunan orijinal
+## Kaynak ve uygulama
 
-Başlangıç sürümü: `2e38b2c4b34b80059ccdb86138bbd17c02a39de6`.
-O sürümdeki üç arayüz dosyasının birebir kopyası `original/` içinde tutulur. Bu klasör çalıştırılabilir ikinci site değil, kaynak yedeğidir; veri ve bağıl adresleri değiştirilmemiştir. Ana site kendi adresinde çalışmayı sürdürür.
+https://github.com/nateherkai/scroll-craft reposunun Scroll-craft becerisi ve değiştirilmemiş engine/scrollcraft.js + engine/scrollcraft.css dosyaları kullanıldı. MIT lisansı vendor/LICENSE.scroll-craft dosyasındadır. Tasarım brief'i BRIEF.md içindedir.
 
-## İçerik ve görünüm
+Önceki Hyperframes/GSAP oynatıcısı kaldırıldı. Bu sürüm video veya ücretli API kullanmaz. Vendor dosyaları yerelden sunulur. Var olan haber görselleri, yazı tipleri ve kaynaklar kendi adreslerinden yüklenir.
 
-Deneme, `../bulletins/index.json` ve aynı klasördeki tarihli JSON dosyalarını salt okunur biçimde kullanır. Yeni bülten indeksine eklenen içerik sayfa yenilendiğinde burada da görünür. Ayrı bülten üretmez veya yayımlamaz.
+## Deneyim
 
-Ana sitenin haber çizim işlevleri korunmuştur: tüm haberler, Türkiye/Global grupları, metinler, analizler, kaynaklar, maçlar, sosyal gündem, haftalık alan, izleme listesi, düzeltmeler ve kısıtlar mevcut veriyle gösterilir. İlk üç haber yalnız ek hareketli özet için seçilir; tam akıştan çıkarılmaz. Detaylar tek tek veya topluca açılabilir. Filtre, arama, tarihli arşiv, paylaşım ve kayıt işlevleri korunur.
+- Editoryal başlık sayfası ve tam akışa doğrudan geçiş.
+- Gerçek haber görseli, başlık, özet ve planlama etkisinden oluşan asimetrik açılış.
+- Scroll-craft'ın doğal akış, parallax, reveal ve gerçek içerik sayısı mekanizmaları.
+- Tam haber akışında okuyucunun bulunduğu habere göre değişen aksiyon alanı. Aksiyon ve tarihli haber bağlantısı kopyalanabilir.
+- Tüm detayları topluca açma, arama, filtreler, arşiv, kaydetme, paylaşım ve tema değişimi korunur.
+- Hareketi kapatma ve işletim sisteminin azaltılmış hareket ayarına uyum.
+- Mobilde tek sütun, sabit metin; yan panelde tekrarlanan aksiyon zaten haberin içinde bulunur.
 
-Denemenin kayıt, tema ve okundu bilgileri `mg-trial-` anahtarlarını kullanır. Üretim ziyaret sayacı denemede yüklenmez.
+## İçerik bütünlüğü
 
-## Hareketli özet
+Deneme ../bulletins/index.json ve tarihli JSON dosyalarını salt okunur kullanır. Haber çizim işlevleri orijinalle aynıdır; tüm haberler, metinler, analizler, kaynaklar, spor, sosyal gündem, haftalık notlar, düzeltmeler ve sınırlamalar korunur. Başlangıçta tek bir haberin öne çıkarılması tam listeden içerik çıkarmaz. Ana indekse eklenen yeni sayılar sayfa yenilendiğinde burada da okunur.
 
-Hyperframes Player 0.8.181 ve GSAP 3.12.5, yalnız kullanıcı özeti açınca jsDelivr üzerinden yüklenir. HTML kompozisyonu mevcut haber başlıklarından oluşturulur, başlık başına 20 saniyedir. Ses yoktur; oynatma kullanıcı kontrolündedir, otomatik başlamaz. Harici servis yüklenemezse okuma modu gösterilir. Tam haber akışı bu bağımlılıklardan bağımsızdır. MP4 üretimi, ücretli API ve yeni günlük otomasyon eklenmemiştir.
+Yerel kayıtlar mg-trial- anahtarlarında tutulur. Üretim ziyaret sayacı yüklenmez. Denemeyi kaldırmak için yalnız deneme/ klasörünü kaldırmak yeterlidir.
 
-## Geri alma
+## Kontrol kapsamı
 
-Denemeyi kaldırmak için yalnız `deneme/` klasörünü silmek yeterlidir. Ana siteye geçiş üst şeritteki bağlantıyla yapılır. Deneme kodu ana siteye otomatik taşınmaz.
+JavaScript sözdizimi ve ana haber çizim koduyla eşitlik kontrolü yapıldı. Tarayıcı doğrulaması canlı GitHub Pages üzerinde yapılır. Reponun shoot.mjs tarama aracı bu ortamın izin verdiği tarayıcı yüzeyi yerine ayrı Chrome gerektirdiği için kullanılmaz. Gerçek telefon donanımında test yapılmadı.
