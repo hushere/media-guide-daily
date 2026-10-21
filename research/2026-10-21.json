@@ -1,0 +1,933 @@
+{
+  "date": "2026-10-21",
+  "researcher": "ChatGPT",
+  "startedAt": "2026-10-21T07:30:12+03:00",
+  "cutoff": "2026-10-21T07:41:10+03:00",
+  "window": "20 Ekim 2026 07:40:55 TSİ – 2026-10-21 07:41:10 TSİ; önceki cutoff state/handoff.md üzerinden alındı.",
+  "items": [
+    {
+      "id": "netflix-q3-reklam-beklentisi",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "Global",
+      "title": "Netflix 2026 reklam geliri beklentisini yaklaşık 2,7 milyar dolara indirdi",
+      "eventDate": "2026-10-20",
+      "facts": [
+        "2,7 milyar dolar, Netflix’in güncellenmiş 2026 reklam geliri beklentisi; önceki beklenti yaklaşık 3 milyar dolardı.",
+        "Şirket, revizyonu reklam ürünlerinin geliştirilmesindeki gecikmeyle açıkladı.",
+        "Mercado Libre ve Adform, bölgesel programatik ortaklar arasında açıklandı.",
+        "2027 için 15 yeni ülkede reklamlı paket açılması planlanıyor."
+      ],
+      "verification": "official",
+      "verificationNote": "20 Ekim tarihli hissedar mektubu açıldı; rakam şirketin öngörüsü, gerçekleşmiş yıllık sonuç değil.",
+      "impactDraft": "CTV alımlarında erişilebilir ürün ve ölçüm kabiliyetini pazar bazında değerlendirmek gerekir.",
+      "actionDraft": "Tekliflerde ürünün devreye giriş tarihi, DSP erişimi ve raporlama kapsamını teyit edin.",
+      "counterViewDraft": "Revizyon tek başına reklam talebinde düşüş kanıtı değil. Türkiye açılışı açıklanmış sayılmaz.",
+      "sources": [
+        {
+          "name": "Netflix • Q3 2026 hissedar mektubu",
+          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+          "published": "2026-10-20",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "spotify-gunu-baska-yasa",
+      "region": "Türkiye",
+      "category": "Ajans & Marka",
+      "market": "Türkiye",
+      "title": "Spotify, gündelik anları müzikle dönüştüren üç film hazırladı",
+      "eventDate": "2026-10-20 (haber; kampanya ilk yayın tarihi belirtilmiyor)",
+      "facts": [
+        "3 film, Spotify’ın “Günü başka yaşa” kampanyasını oluşturuyor.",
+        "Muhabbet, kampanyanın yaratıcı ajansı olarak belirtiliyor.",
+        "Yiğit Karagöz yönetmenliğindeki filmlerin prodüksiyonu RIDERS’a ait.",
+        "Filmler, yolculuk ve ev içi gündelik anları tanınmış Türkçe şarkılarla ilişkilendiriyor."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "MediaCat 20 Ekim haberinin tam metni okundu; marka veya ajansın ayrı birincil duyurusu bulunamadı.",
+      "impactDraft": "Yerel müzik bağlamı, kullanım anlarına göre kreatif çeşitlendirme için somut bir örnek.",
+      "actionDraft": "Kampanyanın mecra dağılımı açıklanırsa bağlam ve kreatif eşleşmesini inceleyin.",
+      "counterViewDraft": "Bütçe, medya dağılımı ve performans açıklanmıyor; TV satın alımı veya satış etkisi çıkarılamaz.",
+      "sources": [
+        {
+          "name": "MediaCat • Günü başka yaşa",
+          "url": "https://mediacat.com/gunu-baska-yasa/",
+          "published": "2026-10-20",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "trade"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.mediacat.com/uploads/2026/10/spotify-1-1252x704.jpg",
+        "alt": "Spotify Günü başka yaşa kampanya görseli",
+        "credit": "Spotify / MediaCat",
+        "sourceUrl": "https://mediacat.com/gunu-baska-yasa/"
+      }
+    },
+    {
+      "id": "sevdam-karadeniz-final-kulisi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "Sevdam Karadeniz için dördüncü bölümde final iddiası",
+      "eventDate": "2026-10-20 (iddianın yayımlanması; final tarihi teyitsiz)",
+      "facts": [
+        "4. bölümde final yapılacağı, Birsen Altuntaş tarafından bildirildi.",
+        "NOW’ın resmî sayfasında ikinci bölüm arşivi mevcut.",
+        "Resmî kanal sayfalarında final kararı teyit edilemedi."
+      ],
+      "verification": "rumor",
+      "verificationNote": "Birsen Altuntaş 20 Ekim 12.54 haberi; NOW bölüm ve izleme sayfaları kontrol edildi. Haber kopyaları bağımsız teyit sayılmadı.",
+      "impactDraft": "Pazartesi kuşağı için ileri tarihli entegrasyon ve sponsorluk teslimatlarında belirsizlik yaratabilir.",
+      "actionDraft": "Kanal teyidini ve olası yerine gelecek programı bekleyin.",
+      "counterViewDraft": "İddia kesin final kararı değildir; 2 Kasım gibi takvim çıkarımları doğrulanmış tarih olarak kullanılmamalı.",
+      "sources": [
+        {
+          "name": "Birsen Altuntaş • Sevdam Karadeniz için final kararı",
+          "url": "https://www.birsenaltuntas.com/dizi/sevdam-karadeniz-dizisi-icin-final-karari-alindi/78576/",
+          "published": "2026-10-20 12:54",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "news"
+        },
+        {
+          "name": "NOW • Sevdam Karadeniz bölümleri",
+          "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolumler",
+          "published": "Tarihsiz dinamik arşiv; kontrol 2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "label": "Kulis"
+    },
+    {
+      "id": "var-misin-carsamba-teyidi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "Var Mısın Yok Musun’un çarşamba planı kanal kaynaklarıyla teyit edildi",
+      "eventDate": "2026-10-21 20:00 TSİ (plan)",
+      "facts": [
+        "21 Ekim 20.00, ATV’nin Var Mısın Yok Musun için açıkladığı yayın saati.",
+        "Program sayfasında 21 Ekim çarşamba tanıtımı bulunuyor.",
+        "20 Ekim tanıtımı, gerçekleşmiş bölüm kaydı olarak değerlendirilmedi."
+      ],
+      "verification": "official",
+      "verificationNote": "ATV akışı ve program sayfası; önceki devir notunda çarşamba düzeni teyitsizdi. Bu kontrol yalnız ilgili günü teyit ediyor.",
+      "impactDraft": "Çarşamba prime-time yarışma envanterinin planlanmasına dayanak sağlar.",
+      "actionDraft": "İlgili günün planını kullanın; kalıcı haftalık düzen için sonraki akışları izleyin.",
+      "counterViewDraft": "Tanıtım ve ileri tarihli akış fiilî yayın kanıtı değildir.",
+      "sources": [
+        {
+          "name": "ATV • Yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "2026-10-21 tarihli akış; sayfa dinamik",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        },
+        {
+          "name": "ATV • Var Mısın Yok Musun",
+          "url": "https://www.atv.com.tr/var-misin-yok-musun",
+          "published": "21 ve 20 Ekim 2026 tarihli tanıtımlar; kontrol 2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "label": "Kanal teyitli"
+    },
+    {
+      "id": "karun-hazinesi-netflix-turkiye",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "title": "Karun Hazinesi Netflix Türkiye haftalık dizi listesinde birinci",
+      "eventDate": "2026-10-12/2026-10-18 (liste dönemi)",
+      "facts": [
+        "1. sıra, Netflix Türkiye’nin 12–18 Ekim haftalık dizi listesinde Money Trap: The Karun Treasure’a ait.",
+        "8 bölüm, Netflix’in 2026 tarihli yapım sayfasında listeleniyor.",
+        "Yılmaz Erdoğan, Kıvanç Tatlıtuğ ve Demet Akbağ, resmî sayfada başroller arasında gösteriliyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Türkiye Top 10 listesi ve 2026/8 bölüm bilgili başlık sayfası açıldı; 2019 filmiyle karıştırılmadı. İlk erişim gününü kesinleştirmiyor.",
+      "impactDraft": "Yerel içerik ilgisi için platform içi bir sinyal; izleyici konuşulurluğu takibine aday.",
+      "actionDraft": "Önceki planlanan durumunu erişilebilir içerik olarak güncelleyin; Türkiye izlenme adedi açıklanmış gibi yazmayın.",
+      "counterViewDraft": "Liste sırası tekil erişim, reklam attention veya sosyal paylaşım ölçümü değildir.",
+      "sources": [
+        {
+          "name": "Netflix Tudum • Türkiye Top 10 diziler",
+          "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+          "published": "Liste dönemi 2026-10-12–18; yayın saati belirtilmiyor; kontrol 2026-10-21",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "official"
+        },
+        {
+          "name": "Netflix • Money Trap: The Karun Treasure",
+          "url": "https://www.netflix.com/title/82047949",
+          "published": "2026 yapımı; sayfa yayın günü yok; kontrol 2026-10-21",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ],
+      "image": {
+        "url": "https://occ-0-3012-116.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABS1xypmieL5Wm53VhMg90xtc3hxC8gWO2165UzGABARS61psTykbweStjbDZu3Xw4U3jz98SvIbii97STNCyYl8--LmuQ64Y.png?r=5ff",
+        "alt": "Karun Hazinesi resmî Netflix tanıtım görseli",
+        "credit": "Netflix",
+        "sourceUrl": "https://www.netflix.com/title/82047949"
+      }
+    },
+    {
+      "id": "thetech-2026-takvim",
+      "region": "Türkiye",
+      "category": "Etkinlik",
+      "market": "Türkiye",
+      "title": "THETECH 2026, 1–2 Aralık’ta İstanbul’da düzenlenecek",
+      "eventDate": "2026-12-01/2026-12-02",
+      "facts": [
+        "1–2 Aralık 2026, THETECH’in açıklanan etkinlik tarihleri.",
+        "Wyndham Grand İstanbul Levent, etkinliğin açıklanan mekânı.",
+        "Marketing Türkiye ve Deloitte, etkinliği birlikte düzenliyor.",
+        "6 sahnenin konuları arasında pazarlama analitiği ve e-ticaret bulunuyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Düzenleyici Marketing Türkiye’nin sayfası açıldı. Sayfa yalnız “3 saat önce” gösteriyor; başlıktaki 20 Ekim kesin haber zaman damgası sayılmadı.",
+      "impactDraft": "Ölçüm ve commerce media ekipleri için program takibine alınabilecek yerel etkinlik.",
+      "actionDraft": "Açıklanacak oturumları yöntem, somut vaka ve konuşmacı uzmanlığına göre seçin.",
+      "counterViewDraft": "Organizatörün geçmiş erişim iddiaları bağımsız doğrulanmadı; etkinlik kalitesi veya yatırım getirisi varsayılmadı.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • THETECH 2026 duyurusu",
+          "url": "https://www.marketingturkiye.com.tr/haberler/teknolojiyi-konusma-donemi-bitti-simdi-sira-aksiyonda/",
+          "published": "Kesin yayın tarihi görünmüyor; sayfa “3 saat önce”; kontrol 2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-17.30.04-800x450.jpeg",
+        "alt": "THETECH 2026 etkinlik duyurusu",
+        "credit": "Marketing Türkiye / THETECH",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/teknolojiyi-konusma-donemi-bitti-simdi-sira-aksiyonda/"
+      }
+    },
+    {
+      "id": "iab-cross-channel-karar-rehberi",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "market": "ABD / uluslararası uygulama",
+      "title": "IAB, kanallar arası ölçüm karar rehberini görüşe açtı",
+      "eventDate": "2026-10-20",
+      "facts": [
+        "4 Kasım 2026, IAB’nin yeni ölçüm rehberi için görüş bildirme son tarihi.",
+        "Rehber, MMM, artımsallık testleri ve attribution sonuçlarının karar bağlamında birlikte değerlendirilmesini amaçlıyor.",
+        "Decision Guide, Decision Navigator ve Reference Library, rehberin üç bileşeni."
+      ],
+      "verification": "official",
+      "verificationNote": "IAB’nin tarihli duyurusu tam metin okundu. Rehber bağlantısı araç hatası verdi; ek dosyanın ayrıntıları incelenemedi.",
+      "impactDraft": "Çelişen ölçüm sonuçlarını bütçe kararına bağlamak için bir değerlendirme çerçevesi sunuyor.",
+      "actionDraft": "Önce karar sorusunu tanımlayın; her yöntemin hangi soruya cevap verdiğini eşleştirin.",
+      "counterViewDraft": "Görüşe açık taslak, zorunlu standart veya yöntemlerin eşdeğerliğine ilişkin deneysel kanıt değildir.",
+      "sources": [
+        {
+          "name": "IAB • Cross-Channel Measurement Decisions",
+          "url": "https://www.iab.com/news/iab-releases-cross-channel-measurement-decisions-for-public-comment/",
+          "published": "2026-10-20",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ],
+      "image": {
+        "url": "https://www.iab.com/wp-content/uploads/2026/10/iab-opens-public-comment-on-new-guide-to-inform-cross-channel-measurement-decisions-1364x610.jpg",
+        "alt": "IAB kanallar arası ölçüm rehberi duyurusu",
+        "credit": "IAB",
+        "sourceUrl": "https://www.iab.com/news/iab-releases-cross-channel-measurement-decisions-for-public-comment/"
+      }
+    },
+    {
+      "id": "spar-footprints-retail-media",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "Global; katılacak SPAR ülke organizasyonları",
+      "title": "SPAR ve Footprints AI ortak retail media platformu geliştirecek",
+      "eventDate": "2026-10-20 (duyuru metninin tarihi)",
+      "facts": [
+        "SPAR International ve Footprints AI, bağımsız perakendeciler için medya pazaryeri geliştirme ortaklığını açıkladı.",
+        "Platformun SPAR lisans sahiplerinin kullanımına sunulması planlanıyor.",
+        "Planlama, satın alma, optimizasyon ve ölçümün tek platform üzerinden yapılması hedefleniyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Footprints AI’nin 20 Ekim/Bükreş tarihli duyurusu okundu. Listeleme tarihindeki 19 Ekim farkı nedeniyle metin tarihi esas alındı.",
+      "impactDraft": "Çok pazarlı retail media alımlarında operasyon ve raporlama birleştirme potansiyeli taşıyor.",
+      "actionDraft": "Aktif ülke, mağaza, envanter ve ölçüm kapsamını satış teklifinde ayrı teyit edin.",
+      "counterViewDraft": "Ortaklık açıklaması bütün SPAR mağazalarında canlı envanter kanıtı değildir; satış eşleştirmesi artımsallık kanıtı sayılmaz.",
+      "sources": [
+        {
+          "name": "Footprints AI • SPAR International ortaklığı",
+          "url": "https://www.footprints-ai.com/blog-articles/spar-international-and-footprints-ai-increase-consumer-connections",
+          "published": "2026-10-20 (metin tarihi; listelemede 19 Ekim)",
+          "country": "Romanya",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "kitkat-phone-break-vml",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "market": "Çekya",
+      "title": "KitKat Phone Break: ekran molasını ekran dışı mecrada anlatmak",
+      "eventDate": "2025-04 (arşiv vaka)",
+      "facts": [
+        "2025, VML Czechia’nın KitKat Phone Break kampanyasının yılı.",
+        "Görsellerde gündelik telefon tutma hareketlerinde telefonun yerini KitKat alıyor.",
+        "Kampanya, açık hava ve basın mecralarını kullanıyor.",
+        "Ajans, dijital medya harcaması yapılmadığını belirtiyor."
+      ],
+      "verification": "official",
+      "verificationNote": "VML’nin kendi vaka sayfası ve metro uygulama görseli açıldı; sonuçlar bağımsız denetlenmedi. Handoff’taki kullanılmış vakalarla tekrar yok.",
+      "impactDraft": "Ekrandan uzaklaşma fikrinin durak ve metro gibi bekleme bağlamlarında görünmesi mecra seçimini mesajın parçası yapıyor.",
+      "actionDraft": "Türkiye’de yetişkin yolcu bekleme alanlarında çikolatalı mola bağlamını test edin; kreatif tanınırlık ve hatırlamayı ayrı ölçün.",
+      "counterViewDraft": "Fikir bir görsel kelime oyunu olarak başka mecralarda da çalışabilir. Fiziksel yerleşim tek başına davranış değişimi veya satış kanıtı değildir.",
+      "sources": [
+        {
+          "name": "VML • Phone Break",
+          "url": "https://www.vml.com/work/phone-break",
+          "published": "2025 kampanyası; sayfanın kesin yayın günü belirtilmiyor",
+          "country": "Çekya",
+          "language": "İngilizce",
+          "type": "agency"
+        }
+      ],
+      "image": {
+        "url": "https://res.cloudinary.com/dotcom-prod/images/ar_16%3A9%2Cc_fill%2Cf_auto%2Cg_faces%3Acenter%2Cq_auto%2Cw_1440/v1/wt-cms-assets/2025/04/yrrnawphvxsy93l2uaex/holesovice2.jpg",
+        "alt": "KitKat Phone Break metro yerleşimi",
+        "credit": "VML / KitKat",
+        "sourceUrl": "https://www.vml.com/work/phone-break"
+      }
+    }
+  ],
+  "tvTracking": [
+    {
+      "show": "Var Mısın Yok Musun",
+      "channel": "ATV",
+      "previous": "20 Ekim salı 20.00 kanal teyitli; çarşamba düzeni teyitsiz.",
+      "current": "21 Ekim çarşamba 20.00 akış ve tanıtım teyidi. Arşivde görünen son tarih 14 Ekim; 20 Ekim gerçekleşmesi teyit edilmedi.",
+      "status": "Kanal teyitli",
+      "source": "https://www.atv.com.tr/var-misin-yok-musun",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Mehmed: Fetihler Sultanı",
+      "channel": "TRT 1",
+      "previous": "20 Ekim 21.30 maç sonrası planı.",
+      "current": "Resmî sayfada 88. bölüm ve 89. bölüm fragmanı görüldü. 20 Ekim fiilî başlama saati doğrulanamadı; erteleme sonucu çıkarılmadı.",
+      "status": "Planlanan",
+      "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Sevdam Karadeniz",
+      "channel": "NOW",
+      "previous": "İkinci bölüm resmî arşivde; pazartesi düzeni.",
+      "current": "Dördüncü bölümde final iddiası ayrı Kulis öğesinde. Arşiv erişimi sürüyor; final ve ilk yayın günü teyit edilemedi.",
+      "status": "Kulis",
+      "source": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolumler",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Organize İşler: Karun Hazinesi",
+      "channel": "Netflix",
+      "previous": "16 Ekim için planlanan yayın; gerçekleşmesi açıktı.",
+      "current": "2026 yapımı ve sekiz bölüm resmî başlık sayfasında erişilebilir; Türkiye 12–18 Ekim listesinin birincisi. Kesin ilk yayın saati çıkarılmadı.",
+      "status": "Fiilen yayında",
+      "source": "https://www.netflix.com/title/82047949",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Güldür Güldür Show",
+      "channel": "Show TV",
+      "previous": "24 Ekim 20.00 yeni bölüm; 17 Ekim sezon dönüşü teyitsiz.",
+      "current": "Cumartesi 20.00 planı sürüyor; sayfada 448. bölüm içerikleri ve 449. fragman var. 17 Ekim ilk yayın tarihi kesinleştirilemedi.",
+      "status": "Kanal teyitli",
+      "source": "https://www.showtv.com.tr/programlar/tanitim/guldur-guldur/1534",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Sevdan Bir Ateş",
+      "channel": "Show TV",
+      "previous": "Devir notunda kısaltılmış Sevdan; 21 Ekim yeni bölüm planı.",
+      "current": "Tam ad Sevdan Bir Ateş; 21 Ekim 20.00 yeni bölüm kanal planı. Gerçekleşmiş yayın denmedi.",
+      "status": "Kanal teyitli",
+      "source": "https://www.showtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Yeraltı / gündüz kuşağı",
+      "channel": "NOW",
+      "previous": "Önceki gün Anne Yarısı prime-time planı.",
+      "current": "21 Ekim Yeraltı 20.00 yeni bölüm; En Hamarat Benim 13.30, Kumbara 17.30. Günlük program, kalıcı değişiklik iddiası değil.",
+      "status": "Kanal teyitli",
+      "source": "https://www.nowtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Uzak Şehir / Haysiyet / Gelinim Mutfakta",
+      "channel": "Kanal D",
+      "previous": "Uzak Şehir ve Haysiyet tekrar akışları takip ediliyordu.",
+      "current": "21 Ekim 20.00 Uzak Şehir ve 23.15 Haysiyet tekrar; 13.45 Gelinim Mutfakta yeni bölüm. Sayfadaki genel YAYINDA etiketi fiilî başlangıç kanıtı sayılmadı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.kanald.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "MasterChef Türkiye / Zuhal Topal’la Yemekteyiz",
+      "channel": "TV8",
+      "previous": "MasterChef 20.00 planı.",
+      "current": "21 Ekim MasterChef 20.00, Yemekteyiz 16.00 yeni bölüm; Gel Konuşalım 09.00 canlı planı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.tv8.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Yerli dizi tekrarı / sinema",
+      "channel": "Star TV",
+      "previous": "Önceki gün Tuzlu Kahve yeni bölüm planı.",
+      "current": "21 Ekim 20.00 yerli dizi tekrarı / sinema. Bu kayıt yeni yapım başlangıcı değildir.",
+      "status": "Kanal teyitli",
+      "source": "https://www.startv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Taşacak Bu Deniz",
+      "channel": "TRT 1",
+      "previous": "Cuma yeni bölüm düzeni takip ediliyor.",
+      "current": "21 Ekim 21.55 akış kaydı tekrar olarak işaretli; yeni bölüm/gün değişikliği sayılmadı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.trt1.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    },
+    {
+      "show": "Halk TV",
+      "channel": "Halk TV",
+      "previous": "Yayın kesintisi sonrasında geri dönüş ve reklam teslimatı açık kontrol.",
+      "current": "Site halkinkanali.com adresine yöneldi; yayın dönüşünü ve reklam teslimatını teyit eden açıklama elde edilmedi.",
+      "status": "Haber kaynaklı",
+      "source": "https://halktv.com.tr",
+      "checkedAt": "2026-10-21T07:41:10+03:00"
+    }
+  ],
+  "matches": [
+    {
+      "date": "2026-10-21",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "broadcaster": "TRT 1",
+      "source": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/matches/",
+      "note": "Tarih UEFA; saat ve maç bazında TRT 1 teyidi https://www.trt1.com.tr/ ve 21 Ekim akışı. Kontrol 21 Ekim.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Hearts",
+      "broadcaster": "TRT 1",
+      "source": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/matches/",
+      "note": "Tarih UEFA; saat ve kanal https://www.trt1.com.tr/ maç duyurusu. Önceki teyitsiz saat/yayıncı güncellendi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp takviminde 20.30. https://www.ssportplus.com/ 19.45 Maça Doğru yayınıdır; maç saati değildir. Derbi etiketi uygulanmadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-22",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Beşiktaş",
+      "away": "Crystal Palace",
+      "broadcaster": "TRT 1",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp tarih/saat teyidi; kanal https://www.trt1.com.tr/ . TRT kartındaki “Finali” kelimesi kullanılmadı; kulüp takvimi lig aşaması diyor.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-23",
+      "time": "21:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Olympiacos",
+      "away": "Fenerbahçe",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî yayıncı maç bazında 23 Ekim 21.15 gösteriyor. EuroLeague ve Fenerbahçe maç merkezi açılamadı; ikinci resmî teyit eksik.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-25",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "LaLiga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.fcbarcelona.com/en/football/first-team/schedule",
+      "note": "Kulüp takvimi İspanya yarımadası saati 21.00; Europe/Madrid→Europe/Istanbul dönüşümü 23.00. https://www.ssportplus.com/ 22.30 maç önü yayını; başlama saati değil. Handoff gereği Derbi etiketi yok.",
+      "tags": []
+    }
+  ],
+  "matchesWindow": "21 Ekim 2026 – 25 Ekim 2026 23:59 TSİ",
+  "rivalCheck": {
+    "checked": [
+      "ALTINMARKA • https://www.altinmarka.com.tr/ ana sayfa",
+      "ETİ • https://www.etietieti.com/ ana sayfa",
+      "ÜLKER • https://www.ulker.com.tr/tr/basin-merkezi (kendi şirket; rakip değil)",
+      "NESTLÉ • https://www.nestle.com.tr/medya/basin-bultenleri",
+      "FERRERO • https://www.ferrero.com/tr/tr/ ana sayfa",
+      "SAGRA • https://www.sagra.com.tr/haberler.html",
+      "MARS • https://www.mars.com/ global ana sayfa (Türkiye özel kapsam sınırlı)",
+      "ŞÖLEN • https://www.solen.com.tr ana sayfa",
+      "TORKU • https://torku.com.tr/haberler",
+      "MediaCat ve Marketing Türkiye • Tadelle, Sarelle, Nutella, Milka, Nestlé, ETİ, Şölen, Torku adlarıyla tarihli aramalar; kullanılabilir yeni sonuç elde edilemedi"
+    ],
+    "notChecked": [
+      "FİSKOBİRLİK • resmî site fetch timeout",
+      "MONDELEZ Türkiye • resmî ülke URL’si araçtan erişilemedi",
+      "DOĞKAR • resmî site araçtan erişilemedi",
+      "ALTINKILIÇLAR • resmî site araçtan erişilemedi",
+      "LİDER ÇİKOLATA • resmî site araçtan erişilemedi",
+      "Açılan şirketlerin tüm tüketici markası kampanya alt sayfaları ayrı ayrı taranmadı; global ana sayfa Türkiye basın taraması yerine geçmez."
+    ],
+    "finding": "Açılabilen sayfalarda pencereye ait doğrulanmış yeni Türkiye çikolata kategorisi gelişmesi seçilmedi. Erişim ve alt sayfa kapsamı eksik olduğundan 'rakip haberi yok' sonucu çıkarılmamalı."
+  },
+  "social": {
+    "window": "Netflix: 12–18 Ekim 2026 haftası; kontrol 21 Ekim sabahı.",
+    "note": "Üç içerik aynı resmî Türkiye listesinden. Sıra, platform içi popülerlik göstergesidir; izlenme adedi, benzersiz erişim, sosyal konuşulma veya reklam attention ölçümü değildir. İngilizce kaynak adları korunmuştur.",
+    "items": [
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 1,
+        "title": "Money Trap: The Karun Treasure / Organize İşler: Karun Hazinesi",
+        "metric": "Netflix Türkiye haftalık dizi listesinde 1. sıra",
+        "whyItMatters": "Yerel dizi ilgisi için bağlam sinyali; sponsorlu envanter varlığı çıkarılamaz.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum — Türkiye",
+        "published": "2026-10-12–2026-10-18"
+      },
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 2,
+        "title": "Below: Limited Series",
+        "metric": "Netflix Türkiye haftalık dizi listesinde 2. sıra",
+        "whyItMatters": "Uluslararası içeriklerin Türkiye izleyici gündemindeki yerini takip etmeye yardımcı olur.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum — Türkiye",
+        "published": "2026-10-12–2026-10-18"
+      },
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 3,
+        "title": "East of Eden: Limited Series",
+        "metric": "Netflix Türkiye haftalık dizi listesinde 3. sıra",
+        "whyItMatters": "Dönem dizisi bağlamındaki içerik ilgisini izlemek için aday; demografik profil açıklanmıyor.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum — Türkiye",
+        "published": "2026-10-12–2026-10-18"
+      }
+    ]
+  },
+  "creativeCase": "kitkat-phone-break-vml",
+  "accessLog": [
+    {
+      "url": "https://mediacat.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.marketingturkiye.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.campaigntr.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+      "result": "js_only",
+      "note": "Çeyrek sonuç listesi metinde görünmedi; Q3 PDF ayrıca açıldı."
+    },
+    {
+      "url": "https://www.atv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.showtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.startv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.trt1.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.tv8.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.iab.com/news/iab-releases-cross-channel-measurement-decisions-for-public-comment/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı. Rehberin ek bağlantısı (link 11) Internal Error verdi; hedef URL araç çıktısında çözülmedi."
+    },
+    {
+      "url": "https://www.vml.com/work/phone-break",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.tff.org/Default.aspx?hafta=9&pageID=198",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.tbf.org.tr",
+      "result": "error",
+      "note": "Failed to fetch https://www.tbf.org.tr/: (403) Forbidden"
+    },
+    {
+      "url": "https://www.tvf.org.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://sultanlar.volleystation.com/en/schedule/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.ssportplus.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://beinsports.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.trtspor.com.tr",
+      "result": "error",
+      "note": "Failed to fetch https://www.trtspor.com.tr/: (403) Forbidden"
+    },
+    {
+      "url": "https://www.euroleaguebasketball.net/euroleague/game-center/",
+      "result": "error",
+      "note": "Failed to fetch https://www.euroleaguebasketball.net/euroleague/game-center/: (403) Forbidden"
+    },
+    {
+      "url": "https://www.etietieti.com/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://torku.com.tr/haberler",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.ulker.com.tr/tr/basin-merkezi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.fiskobirlik.org.tr",
+      "result": "error",
+      "note": "Failed to fetch https://www.fiskobirlik.org.tr/: (400) Timeout fetching"
+    },
+    {
+      "url": "https://www.lidercikolata.com",
+      "result": "error",
+      "note": "URL https://www.lidercikolata.com/ is not accessible via this tool."
+    },
+    {
+      "url": "https://www.sagra.com.tr/haberler.html",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.nestle.com.tr/medya/basin-bultenleri",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.ferrero.com/tr/tr/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.mondelezinternational.com/turkiye/",
+      "result": "error",
+      "note": "URL https://www.mondelezinternational.com/turkiye/ is not accessible via this tool."
+    },
+    {
+      "url": "https://www.solen.com.tr",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.altinmarka.com.tr/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.mars.com/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.dogkar.com.tr",
+      "result": "error",
+      "note": "URL https://www.dogkar.com.tr/ is not accessible via this tool."
+    },
+    {
+      "url": "https://www.altinkiliclar.com.tr",
+      "result": "error",
+      "note": "URL https://www.altinkiliclar.com.tr/ is not accessible via this tool."
+    },
+    {
+      "url": "https://trends.google.com/trending?geo=TR",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://charts.youtube.com/charts/TopVideos/tr/weekly",
+      "result": "error",
+      "note": "URL https://charts.youtube.com/charts/TopVideos/tr/weekly is not accessible via this tool."
+    },
+    {
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
+      "result": "js_only",
+      "note": "Liste verisi görünmedi; yalnız menü/giriş veya yasal bağlantılar."
+    },
+    {
+      "url": "https://charts.spotify.com/charts/view/regional-tr-daily/latest",
+      "result": "js_only",
+      "note": "Liste verisi görünmedi; yalnız menü/giriş veya yasal bağlantılar."
+    },
+    {
+      "url": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.fcbarcelona.com/en/football/first-team/schedule",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.trt1.com.tr/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.tff.org/default.aspx?pageID=1764",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.atv.com.tr/var-misin-yok-musun",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.birsenaltuntas.com",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://halktv.com.tr",
+      "result": "ok",
+      "note": "halkinkanali.com adresine yöneldi; güncel duyuru var, TV yayın dönüşü ve reklam teslimatı açıklaması elde edilemedi."
+    },
+    {
+      "url": "https://www.facebook.com/legal/commercial_terms",
+      "result": "error",
+      "note": "Giriş sayfasına yönlendi; şart metni okunamadı."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolumler",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.footprints-ai.com/blog-articles/spar-international-and-footprints-ai-increase-consumer-connections",
+      "result": "ok",
+      "note": "Sayfa metni açıldı. Ana görsel bağlantısı Internal Error verdi; görsel pakete eklenmedi."
+    },
+    {
+      "url": "https://www.birsenaltuntas.com/dizi/sevdam-karadeniz-dizisi-icin-final-karari-alindi/78576/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/matches/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/matches/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.fenerbahce.org/mac-merkezi",
+      "result": "error",
+      "note": "URL https://www.fenerbahce.org/mac-merkezi is not accessible via this tool."
+    },
+    {
+      "url": "https://www.showtv.com.tr/programlar/tanitim/guldur-guldur/1534",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.netflix.com/watch/82047949?src=tudum&trackId=276465340&trkId=276465340",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/image-172.png",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/izle",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.marketingturkiye.com.tr/haberler/teknolojiyi-konusma-donemi-bitti-simdi-sira-aksiyonda/",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-17.30.04-800x450.jpeg",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://occ-0-3012-116.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABS1xypmieL5Wm53VhMg90xtc3hxC8gWO2165UzGABARS61psTykbweStjbDZu3Xw4U3jz98SvIbii97STNCyYl8--LmuQ64Y.png?r=5ff",
+      "result": "ok",
+      "note": "Sayfa metni açıldı."
+    },
+    {
+      "url": "https://www.euroleaguebasketball.net/eurocup/game-center/",
+      "result": "error",
+      "note": "Web aracı (403) Forbidden döndürdü. Tekrar denenmedi."
+    },
+    {
+      "url": "https://www.championsleague.basketball/en/games",
+      "result": "error",
+      "note": "Web aracı (403) Forbidden döndürdü. Tekrar denenmedi."
+    },
+    {
+      "url": "https://cdn.mediacat.com/uploads/2026/10/spotify-1-1252x704.jpg",
+      "result": "ok",
+      "note": "Kaynak sayfasındaki görsel bağlantısı açıldı."
+    },
+    {
+      "url": "https://mediacat.com/gunu-baska-yasa/",
+      "result": "ok",
+      "note": "Kaynak sayfa metni okundu."
+    },
+    {
+      "url": "https://www.netflix.com/title/82047949",
+      "result": "ok",
+      "note": "Netflix Watch bağlantısı bu başlık sayfasına yöneldi; 2026/8 bölüm görüldü."
+    },
+    {
+      "url": "https://www.iab.com/wp-content/uploads/2026/10/iab-opens-public-comment-on-new-guide-to-inform-cross-channel-measurement-decisions-1364x610.jpg",
+      "result": "ok",
+      "note": "Kaynak sayfasındaki görsel bağlantısı açıldı."
+    },
+    {
+      "url": "https://res.cloudinary.com/dotcom-prod/images/ar_16%3A9%2Cc_fill%2Cf_auto%2Cg_faces%3Acenter%2Cq_auto%2Cw_1440/v1/wt-cms-assets/2025/04/yrrnawphvxsy93l2uaex/holesovice2.jpg",
+      "result": "ok",
+      "note": "Kaynak sayfasındaki görsel bağlantısı açıldı."
+    }
+  ],
+  "limitations": [
+    "TBF, EuroLeague, EuroCup, Basketball Champions League, TRT Spor ve Fenerbahçe maç merkezi açılamadı. BSL ve diğer Avrupa basketbol turnuvalarının tam dönem kontrolü tamamlanamadı; maç listesi bu açıdan kısmi.",
+    "Fiskobirlik, Mondelez Türkiye, Doğkar, Altınkılıçlar ve Lider Çikolata kaynaklarına erişilemedi; rakip kontrolünün eksikleri rivalCheck içinde.",
+    "Mehmed’in 20 Ekim fiilî başlangıcı, Var Mısın’ın 20 Ekim gerçekleşmesi ve Güldür Güldür’ün 17 Ekim ilk yayın tarihi resmî arşivden kesinleştirilemedi.",
+    "Sevdam Karadeniz final iddiası resmî teyitsiz. Kullanılacaksa Kulis etiketi korunmalı; kesin final tarihi üretilemez.",
+    "Halk TV yayın dönüşü ve reklam teslimatı teyit edilemedi; Meta Commercial Terms giriş duvarı nedeniyle okunamadı.",
+    "YouTube listesine erişilemedi; TikTok ve Spotify Charts liste verisi vermedi. Instagram/X tam taraması yapılmadı; dijital gündem üç Netflix içeriğiyle sınırlı.",
+    "IAB duyurusu okundu; bağlantılı tam rehber araç hatası nedeniyle okunamadı. SPAR ortaklık duyurusu satıcı beyanı; bağımsız sonuç ölçümü yok.",
+    "THETECH haberinin mutlak yayın tarihi görünmüyor; göreli tarih kesin zaman damgasına çevrilmedi. Netflix ülke listesinin yayın saati de belirtilmiyor.",
+    "Genel kapsamda tüm radyo, basın, ajans konkur ve düzenleme kaynakları tüketilmedi; seçilen gelişmeler tam sektör envanteri değildir."
+  ],
+  "researcherNotes": "Claude’a öncelik: Netflix reklam beklentisi revizyonu ve IAB karar rehberi. Türkiye’de Spotify/Muhabbet yerel sektör maddesi; Var Mısın çarşamba teyidi ve Karun erişilebilirlik/haftalık liste bilgisi yeni güncelleme.\n\n9 öğe (5 Türkiye, 4 Global; yaratıcı vaka dahil), 6 maç, 3 dijital gündem girdisi. Yalnız research/ dosyası teslim ediliyor; bülten veya site yayını yapılmadı.\n\nHandoff bölüm 9 uygulandı: Barcelona–Real Madrid ve Efes–Beşiktaş Derbi etiketli değil. Derbi etiketi yalnız FB/GS/BJK arası kapsam içi eşleşmeler için.\n\nTFF 9. hafta programının dokuz karşılaşması kontrol edildi; 26 Ekim GS–FB 21.30 bu pencerenin dışında. Cuma 23 Ekim paketinde mutlaka yeniden dahil et.\n\nTFF A millî fikstüründe sonraki maçlar Kasım; bu dönem için eklenmedi. TVF/VolleyStation 25 Ekim kadın programı kontrol edildi; üç büyükler arası derbi/final bulunmadı. VakıfBank–GS ve FB–Eczacıbaşı rutin lig karşılaşmaları önem filtresiyle seçilmedi; ölçülmüş reach tahmini yapılmadı.\n\nTRT 1 maç bazında Lille–GS, TS–Hearts ve BJK–Crystal Palace duyurularını gösterdi; önceki teyitsiz yayıncı alanları güncellenebilir. BJK kartındaki 'Finali' şablon ifadesi lig aşaması teyidi karşısında kullanılmadı.\n\n21–22 Ekim Avrupa futbolu ve 22 Ekim basketbolu prime-time izleyici paylaşımını etkileyebilir; bu analitik olasılık, ölçülmüş reklam etkisi değildir. Maç paneline etki paragrafı eklemeyin.\n\nKarun Netflix başlık sayfasında 2026 ve sekiz bölüm var; 2019 filmi değil. Fiilen erişilebilirlik teyit edildi, 16 Ekim ilk yayın günü bu sayfadan ayrıca doğrulanmadı. Social içindeki aynı veriyi ayrı ikinci haber gibi çoğaltmayın.\n\nNOW Sevdam finali söylentisini yayımlanmış bölüm durumundan ayırın. Kopya medya haberleri ikinci bağımsız kaynak sayılmadı. Uzak Şehir/Haysiyet tekrar kayıtlarını ve TRT Taşacak tekrarını yeni bölüm yapmayın.\n\nKitKat Phone Break arşiv vakası; daha önceki KitKat O2 vakasıyla aynı değil. Vaka sayfasındaki saha fotoğrafı OOH uygulamasını gösteriyor; CGI iddiası yapılmadı. Ajans sonuçları bağımsız ölçüm olarak kullanılmadı. Tartışma sorusu önerisi: Bu ekran molası fikri hangi atıştırmalık kategorisine uyarlanabilir?\n\nGörseller kaynak sayfasından alındı, üretim yapılmadı. Netflix Q3 için ilgisiz kurumsal stok görsel kullanılmadı. THETECH geçmiş erişim infografiği yerine etkinliğin ana görseli seçildi.\n\nAccessLog içindeki error kayıtları bu çalışmanın gerçek HTTP/araç hatalarıdır; eski Claude PROVENANCE_REQUIRED izin hatası olarak yeniden etiketlenmedi. Bir toplu web çağrısı 500 verdi; devamında bağımsız okuma çalıştı. Başarısız URL’ler aynı gün döngüyle tekrar denenmedi.\n\nReyting araması yapılmadı. Çarşamba olduğu için cinema alanı eklenmedi. Kaynak günleri ve olay günleri ayrı tutuldu; belirsiz tarih ve eksik teyitler korunmalı."
+}
