@@ -261,10 +261,10 @@
 .tvgrid .tv-table thead th.tv-corner{width:auto}
 
 /* TV takvimi: kompakt satırlar ve yeni renk düzeni (22 Ekim 2026) */
-.tvgrid{--tv-head-a:#27337a;--tv-head-b:#4b3fb8;--tv-head-text:#f4f5ff;--tv-ch-bg:#e9ebfb;--tv-ch-text:#2b3480;--tv-row-light:#fbfbff;--tv-row-deep:#f3f4fc;--tv-rule:#dfe2f2;--tv-today:#fff6df;--tv-today-bar:#f2b33d;--tv-badge-bg:#4b3fb8;--tv-badge-text:#fff}
-:root[data-theme="dark"] .tvgrid{--tv-head-a:#1a2050;--tv-head-b:#2c2f73;--tv-head-text:#e8ebff;--tv-ch-bg:#171c3a;--tv-ch-text:#b9c2ff;--tv-row-light:#10142a;--tv-row-deep:#141935;--tv-rule:#262d56;--tv-today:#1d1d33;--tv-today-bar:#f2b33d;--tv-badge-bg:#9aa7ff;--tv-badge-text:#12163a}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tvgrid{--tv-head-a:#1a2050;--tv-head-b:#2c2f73;--tv-head-text:#e8ebff;--tv-ch-bg:#171c3a;--tv-ch-text:#b9c2ff;--tv-row-light:#10142a;--tv-row-deep:#141935;--tv-rule:#262d56;--tv-today:#1d1d33;--tv-today-bar:#f2b33d;--tv-badge-bg:#9aa7ff;--tv-badge-text:#12163a}}
-.tvgrid .tv-scroll{border-color:var(--tv-rule);box-shadow:0 8px 28px #1a205014}
+.tvgrid{--tv-head-a:#7c2d12;--tv-head-b:#c2410c;--tv-head-text:#fff7f0;--tv-ch-bg:#fdeee4;--tv-ch-text:#8a3412;--tv-row-light:#fffdfb;--tv-row-deep:#fbf3ec;--tv-rule:#f0dfd2;--tv-today:#fff6df;--tv-today-bar:#facc15;--tv-badge-bg:#c2410c;--tv-badge-text:#fff}
+:root[data-theme="dark"] .tvgrid{--tv-head-a:#7a2e12;--tv-head-b:#b8400f;--tv-head-text:#fff1e6;--tv-ch-bg:#2a1710;--tv-ch-text:#ffc9a6;--tv-row-light:#17110e;--tv-row-deep:#1e1612;--tv-rule:#3d2c22;--tv-today:#2a1d12;--tv-today-bar:#fb923c;--tv-badge-bg:#ff9a62;--tv-badge-text:#2a1005}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tvgrid{--tv-head-a:#7a2e12;--tv-head-b:#b8400f;--tv-head-text:#fff1e6;--tv-ch-bg:#2a1710;--tv-ch-text:#ffc9a6;--tv-row-light:#17110e;--tv-row-deep:#1e1612;--tv-rule:#3d2c22;--tv-today:#2a1d12;--tv-today-bar:#fb923c;--tv-badge-bg:#ff9a62;--tv-badge-text:#2a1005}}
+.tvgrid .tv-scroll{border-color:var(--tv-rule);box-shadow:0 8px 28px #7c2d1214}
 .tvgrid .tv-table tbody{grid-auto-rows:auto}
 .tvgrid .tv-table tr{grid-template-columns:84px repeat(7,minmax(0,1fr)) minmax(0,1.55fr)}
 .tvgrid .tv-table thead th{min-height:46px;background:linear-gradient(135deg,var(--tv-head-a),var(--tv-head-b));color:var(--tv-head-text);border-color:#ffffff1f}
