@@ -117,11 +117,13 @@
  .story-dialog-content{padding:16px 18px}
 }
 
-/* Every story lives in an equal square cover; full text stays in the dialog. */
+/* Compact story covers grow with their content; full text stays in the dialog. */
 .cover-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-.cover-grid .story-cover,.cover-grid .story-cover:nth-child(n){grid-column:span 1;aspect-ratio:1;min-height:0}
+.cover-grid .story-cover,.cover-grid .story-cover:nth-child(n){grid-column:span 1;aspect-ratio:auto;min-height:0}
 .cover-grid .cover-top{flex-shrink:0;padding:12px 16px}
-.cover-grid .cover-picture,.cover-grid .cover-art{height:25%;flex-shrink:0;min-height:0}
+.cover-grid .cover-picture,.cover-grid .cover-art{height:84px;flex-shrink:0;min-height:0}
+.cover-grid .cover-art{height:64px}
+.cover-grid .cover-art i{width:64px;height:64px}
 .cover-grid .cover-art span{font-size:72px}
 .cover-grid .cover-copy{min-height:0;padding:14px 16px}
 .cover-grid .cover-copy h3{font-size:clamp(19px,1.65vw,25px);line-height:1.2;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:10px}
