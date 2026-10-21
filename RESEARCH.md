@@ -50,6 +50,48 @@ Katmanlar (`layer`): `Medya tüketimi ve izleyici`, `Reklam pazarı ve para`, `P
 - Kısa sinyal en az bir https birincil veya güvenilir ikincil kaynak ve yayın tarihi taşır. `rumor` olamaz.
 - İsteğe bağlı `attitudeTag`: haberin gösterdiği medya tutumunu 1-3 kelimeyle yaz (ör. "kısa video", "ikinci ekran", "fiyat duyarlılığı"). Yorum ve Tutum Radarı'nı Claude yazar; sen yalnız etiket öner.
 
+## Yayın sonrası okuma ve değerlendirme raporu (22 Ekim 2026'dan itibaren, kullanıcı kararı)
+
+Claude bülteni yazıp yayımladıktan sonra (09.15), sen yayımlanmış bültenin **her haberini okur** ve Claude'un yazdığı metni değerlendirirsin. Amaç ikinci bir göz: hata, zayıf yorum, abartı veya eksik yakalamak.
+
+**Kesin sınır: hiçbir şeyi değiştirme.** `bulletins/`, `data/`, `state/`, site dosyaları ve `research/` altındaki paketler dahil hiçbir dosyayı düzenleme, düzeltme veya yeniden yazma. Yalnız aşağıdaki rapor dosyasını yaz. Önerilerini kullanıcıya ilet; kararı kullanıcı verir, uygulamayı Claude yapar.
+
+**Zaman:** Bülten 09.15'te yayımlanır; raporu 11.00'e kadar tamamla. Bülten 09.30'a kadar yayımlanmadıysa rapora "bülten yayımlanmadı" yaz ve dur.
+
+**Ne okunur:** `bulletins/YYYY-MM-DD.json` (güncel bülten; siteden de açılabilir). Her `articles[]` kaydı, `signals[]`, `dayRead`, `attitudeRadar`, `social`, `gurus` ve `limitations`.
+
+**Her ana haber için kontrol et (kaynakları aç, başlık ve özetle yetinme):**
+1. Kaynak ile iddia uyumu: kartta yazan olgu, sayı, tarih ve isim kaynakta aynen var mı?
+2. "Bu ne anlama geliyor?" (`impact`) notu: mantıklı mı, abartı veya dayanaksız çıkarım var mı, ajans, marka ve tüketici gözünü yansıtıyor mu, sade mi?
+3. `action`: somut ve uygulanabilir mi?
+4. `counterView`: gerçek bir alternatif açıklama mı, yoksa kalıp cümle mi?
+5. `layer` doğru mu? Tekrar eden veya önceki bültenin devamı olup belirtilmemiş haber var mı?
+6. Dil: jargon, uzun cümle, sensasyon, belirsiz ifade.
+
+**Bülten bütünü için:**
+- `dayRead`: haberlerle tutarlı mı, abartı veya kesin olmayan şeyi kesin yazma var mı, genel okuyucu için anlaşılır mı?
+- `attitudeRadar`: `basis` ("Veri" yalnız ölçülmüş veriye dayanıyor mu), `recurrence` (önceki bültenlerde gerçekten görülmüş mü) ve tek haberden trend çıkarılıp çıkarılmadığı.
+- `signals`: yorum karışmış mı, kaynak ve tarih doğru mu?
+- Katman dengesi (en az 4 katman, tek katman en fazla %40) ve gün içinde kaçırılmış önemli bir gelişme.
+
+**Rapor dosyası:** `research/reviews/YYYY-MM-DD.md`. Biçim:
+```
+# Değerlendirme raporu: YYYY-MM-DD
+Okunan: N ana haber, M kısa sinyal. Kaynak açılamayan: ...
+## Özet (en fazla 5 madde: en önemli bulgular)
+## Kritik (yayındaki bilgi yanlış veya yanıltıcı olabilir)
+- [haber id] Bulgu. Kartta yazan (kısa alıntı). Kaynakta görülen + https bağlantı. Önerim.
+## İyileştirme önerileri (zayıf yorum, dil, counterView, eksik bağlam)
+- [haber id] Bulgu. Önerim.
+## Bülten bütünü (dayRead, Tutum Radarı, katman dengesi, kaçırılan gelişmeler)
+## Sorun görmediğim haberler (id listesi)
+```
+- Her bulgu: hangi haber, neyi gördün, hangi kaynakta (https bağlantı) ve önerin. Kaynağı açamadığın iddiayı "doğru" veya "yanlış" sayma; "doğrulanamadı" yaz.
+- Zevk farkı için bulgu üretme. Sorun yoksa "sorun görmedim" yaz; sayı doldurmak için eleştiri uydurma.
+- Veri ile yorumunu ayır. Düzeltme önerini hazır cümle olarak yazabilirsin, ama dosyaya uygulama.
+
+**Kullanıcıya iletme:** Raporu dosyaya yazdıktan sonra kısa bir özetini (kritik bulgu sayısı, en önemli 3 öneri, dosya yolu) kendi sohbetinde de kullanıcıya sun. Claude ertesi sabah raporu okur, kritik bulguları kaynaktan yeniden teyit eder, kullanıcıya iletir ve yalnız onaylananları uygular.
+
 ## TV dizi takvimi güncellemesi (her gün, 21 Ekim 2026'dan itibaren)
 
 Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv-takvim.json` dosyasıdır. Bu dosyayı sen değiştirme, yalnız oku. Önerilerini paketin `tvTableUpdates` alanına yaz. Claude teyit eder ve dosyaya işler.
@@ -154,6 +196,8 @@ python3 scripts/validate_research.py research/YYYY-MM-DD.json
 Betik çalıştırılamıyorsa dosyayı şema örneğiyle alan alan karşılaştır.
 
 ## Yazma sınırı (zorunlu)
+
+- Tek istisna yayın sonrası rapordur: `research/reviews/YYYY-MM-DD.md` (yukarıdaki "Yayın sonrası okuma ve değerlendirme raporu"). Başka hiçbir dosyada değişiklik yapma.
 
 - **Yalnız `research/` klasörüne yaz.** Commit mesajı: `Araştırma YYYY-MM-DD`.
 - Başka hiçbir dosyaya dokunma: `bulletins/`, `index.html`, `assets/`, `PROMPT.md`, `state/`, `scripts/` vb. Bunlar Claude tarafından yönetilir. Dışarıdan değişiklik her gün otomatik kontrolle tespit edilir ve kullanıcıya raporlanır.

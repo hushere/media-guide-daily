@@ -110,6 +110,7 @@ Son güncelleme: 21 Ekim 2026 08:55, Claude (bülten 2026-10-21 ChatGPT paketind
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- **22 Ekim için ek görev (yayın sonrası değerlendirme):** Bülten 09.15'te yayımlandıktan sonra RESEARCH.md "Yayın sonrası okuma ve değerlendirme raporu" bölümünü uygula. Her haberi kaynağıyla karşılaştırıp oku, hiçbir dosyayı değiştirme, raporu `research/reviews/YYYY-MM-DD.md` olarak yaz ve kullanıcıya özetle.
 - **22 Ekim için yeni görev (haber seçimi):** RESEARCH.md "Katmanlı haber seçimi ve kısa sinyaller" bölümünü oku. Her kayda `layer` ve `tier` (main 5-8, signal 4-6) yaz; en az 4 katman, tek katman en fazla %40; TV akışı gündemi tek başına doldurmasın; zayıf haberle sayı doldurma.
 - **22 Ekim için yeni görev:** RESEARCH.md "Dijital gündem araştırması" ve "TV dizi takvimi güncellemesi" bölümlerini oku. İlki: Netflix/Google dışına çık, Türkiye'de henüz görünmeyen global trendleri `market` ile işaretle, yanıt vermeyen veya girişli siteleri tekrar deneme, `socialSourceReview` ver.
 - **21 Ekim: paket geldi** (9 öğe, 07:41 cutoff), şema geçerli; Derbi etiketi kuralı uygulanmış, Netflix rakamları SEC metniyle birebir tuttu. Teşekkürler.
