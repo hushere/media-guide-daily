@@ -11,7 +11,36 @@ var gallery=document.createElement('section');gallery.id='storyGallery';gallery.
 gallery.setAttribute('aria-label','Görsel haber dizini');
 var cats=Array.from(new Set(arts.map(function(a){return a.category})));
 gallery.innerHTML='<div class="gallery-tools"><h2>Bugün ne var?</h2><button type="button" class="text-btn" id="motionToggle" aria-pressed="true">Hareketi kapat</button><p id="galleryCount" role="status"></p></div><div class="gallery-topics" role="group" aria-label="Kapakları konuya göre süz"><button type="button" data-topic="" aria-pressed="true">Hepsi</button>'+cats.map(function(c){return '<button type="button" data-topic="'+esc(c)+'" aria-pressed="false">'+esc(c)+'</button>'}).join('')+'</div><div class="cover-grid"></div><p class="gallery-note">Bir başlığa dokun, tüm metni, analizi ve kaynakları açılan pencerede oku.</p>';
+
 hero.after(gallery);
+var row=main.querySelector('.hero-row'),social=main.querySelector('.social');
+var highlights=row.querySelector('.highlights');if(highlights)highlights.remove();
+row.classList.add('agenda-panels');
+if(social){
+ row.prepend(social);
+ social.classList.add('agenda-panel','digital-panel');
+ var head=social.querySelector('.soc-head'),intro=head.querySelector('div');
+ intro.querySelector('.eyebrow').textContent='Platformlarda öne çıkanlar';
+ intro.querySelector('h2').textContent='Dijital Gündem';
+ var note=head.querySelector('.soc-note');
+ if(note){var disclosure=document.createElement('details');disclosure.className='agenda-note';var summary=document.createElement('summary');summary.textContent='Veri hakkında';disclosure.append(summary,note);social.appendChild(disclosure)}
+ var list=social.querySelector('.soc-list');list.tabIndex=0;list.setAttribute('aria-label','Dijital gündem içerikleri, kaydırılabilir');
+ addPanelToggle(social,head,'Dijital gündemin tamamını göster');
+}
+var fixtures=row.querySelector('.fixtures');
+if(fixtures){
+ fixtures.classList.add('agenda-panel','sports-panel');
+ fixtures.querySelector('.eyebrow').textContent='Haftanın karşılaşmaları';
+ fixtures.querySelector('h2').textContent='Spor Takvimi';
+ addPanelToggle(fixtures,fixtures.querySelector('.fx-head'),'Spor takviminin tamamını göster');
+}
+if(row.children.length===1)row.classList.add('single-panel');
+gallery.before(row);
+function addPanelToggle(panel,head,label){
+ var button=document.createElement('button');button.type='button';button.className='panel-expand';button.textContent='Genişlet ↗';button.setAttribute('aria-label',label);button.setAttribute('aria-expanded','false');head.appendChild(button);
+ button.addEventListener('click',function(){var expanded=panel.classList.toggle('panel-expanded');button.setAttribute('aria-expanded',String(expanded));button.textContent=expanded?'Daralt ↙':'Genişlet ↗';button.setAttribute('aria-label',expanded?'Paneli daralt':label)});
+}
+
 var grid=gallery.querySelector('.cover-grid'),topic='',query='';
 var search=document.getElementById('search');search.classList.add('gallery-search');gallery.querySelector('.gallery-tools').after(search);
 search.addEventListener('input',function(){query=this.value.trim().toLocaleLowerCase('tr');render()});
@@ -71,11 +100,10 @@ function openFromLink(e){
 }
 grid.addEventListener('click',openFromLink);
 
-// The gallery is the only news list. Keep scope, review notes and radar below.
-host.remove();
-main.querySelector('.discover').remove();
-main.querySelector('.feed-head').remove();
-main.querySelector('.reading-layout').classList.add('gallery-only-layout');
+// Keep only archive navigation below the gallery; remove the retired panels.
+var reading=main.querySelector('.reading-layout'),issueNav=reading.querySelector('.issue-nav');
+if(issueNav)reading.before(issueNav);
+reading.remove();
 window.openMediaStory=function(id){return openStory(id,null)};
 var off=false;try{off=localStorage.getItem('mg-motion')==='off'}catch(e){}
 var mq=matchMedia('(prefers-reduced-motion: reduce)'),toggle=document.getElementById('motionToggle');

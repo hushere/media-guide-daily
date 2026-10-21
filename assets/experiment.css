@@ -133,3 +133,50 @@
 @media(max-width:1000px){.cover-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.gallery-only-layout{display:block}.cover-grid .cover-copy h3{font-size:19px}.cover-grid .cover-top{font-size:9px;padding:10px 12px}.cover-grid .cover-copy{padding:12px}}
 @media(max-width:520px){.cover-grid{grid-template-columns:minmax(0,1fr)}.cover-grid .cover-copy h3{font-size:24px}}
+
+/* Daily agenda: compact digital and sports panels above the story gallery. */
+.hero .agenda-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;border:0;padding:0;margin:4px 0 30px;align-items:start}
+.hero .agenda-panels.single-panel{grid-template-columns:minmax(0,1fr)}
+.agenda-panels .agenda-panel{height:430px;min-width:0;display:flex;flex-direction:column;margin:0;padding:0;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden;box-shadow:0 4px 16px #14212408}
+.agenda-panels .social{border-top:4px solid #b7bce4}
+.agenda-panels .fx-wrap{min-height:0;position:static}
+.agenda-panels .fx-wrap .fixtures{position:static;inset:auto;border-top:4px solid #9fd5c6;padding:0;max-height:none}
+.agenda-panels .soc-head,.agenda-panels .fx-head{position:relative;display:block;flex:none;padding:18px 112px 16px 20px;margin:0;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.agenda-panels .eyebrow{font-size:10px;letter-spacing:.08em;color:var(--muted)}
+.agenda-panels .soc-head h2,.agenda-panels .fx-head h2{font-family:'Source Serif 4',Georgia,serif;font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:6px 0 8px}
+.agenda-panels .soc-head p,.agenda-panels .fx-head p{font-size:11px;line-height:1.5;margin:0;color:var(--muted)}
+.panel-expand{position:absolute;right:16px;top:20px;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--text);font:inherit;font-size:11px;min-height:36px;padding:8px 12px;cursor:pointer;transition:background .18s,border-color .18s}
+.panel-expand:hover{border-color:var(--accent);background:var(--accent-soft)}
+.agenda-panels .soc-list{display:flex;flex-direction:column;flex:1;min-height:0;gap:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scroll-snap-type:none;margin:0;padding:0 18px;scrollbar-width:thin}
+.agenda-panels .soc-card{flex:none;display:flex;gap:6px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;padding:14px 2px;transition:background .18s}
+.agenda-panels .soc-card:last-child{border-bottom:0}
+.agenda-panels .soc-card:hover{background:var(--surface-2)}
+.agenda-panels .soc-card h3{font-size:14px;line-height:1.4;text-wrap:pretty}
+.agenda-panels .soc-rank{color:var(--text);font-size:14px}
+.agenda-panels .soc-card p{font-size:12px;line-height:1.5}
+.agenda-panels .soc-metric{font-size:11px}
+.agenda-panels .soc-src{font-size:11px;line-height:1.5;margin-top:2px}
+.agenda-panels .agenda-note{flex:none;max-height:150px;overflow:auto;padding:10px 20px;border-top:1px solid var(--line);background:var(--surface-2);font-size:11px;line-height:1.6;color:var(--muted)}
+.agenda-note summary{cursor:pointer}
+.agenda-note .soc-note{max-width:none;text-align:left;margin:8px 0 0}
+.agenda-panels .fx-scroll{padding:0 18px;margin:0;mask-image:none;-webkit-mask-image:none;scrollbar-width:thin}
+.agenda-panels .fx-day{font-size:11px;margin-top:14px}
+.agenda-panels .fx-row{padding:12px 0}
+.agenda-panels .fx-teams{font-size:13px;line-height:1.5}
+.agenda-panels .fx-time{font-size:13px;font-variant-numeric:tabular-nums}
+.agenda-panels .fx-meta{font-size:11px;line-height:1.55;overflow-wrap:anywhere}
+.agenda-panels .fx-foot{font-size:10px;line-height:1.6}
+.agenda-panels .agenda-panel.panel-expanded{height:auto;max-height:none}
+.agenda-panels .panel-expanded .soc-list,.agenda-panels .panel-expanded .fx-scroll{flex:none;max-height:none;overflow:visible}
+.agenda-panels .panel-expanded .agenda-note{max-height:none}
+@media(max-width:860px){
+ .hero .agenda-panels{grid-template-columns:minmax(0,1fr);gap:16px}
+ .agenda-panels .agenda-panel{height:390px}
+}
+@media(max-width:480px){
+ .agenda-panels .soc-head,.agenda-panels .fx-head{padding:16px 98px 14px 16px}
+ .agenda-panels .soc-head h2,.agenda-panels .fx-head h2{font-size:23px}
+ .panel-expand{right:12px;top:18px;padding:7px 10px}
+ .agenda-panels .soc-list,.agenda-panels .fx-scroll{padding-inline:14px}
+}
+@media(prefers-reduced-motion:reduce){.panel-expand,.agenda-panels .soc-card{transition:none}}
