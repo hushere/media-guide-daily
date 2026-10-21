@@ -21,6 +21,8 @@ TV_CHANNELS = {"ATV", "KANAL D", "STAR TV", "SHOW TV", "NOW", "TRT 1", "TV8"}
 TV_DAYS = {"Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"}
 TV_STATUS = {"yayinda", "kanal-teyitli", "planlanan", "belirsiz"}
 SOCIAL_MARKETS = {"Türkiye", "Global, Türkiye'de henüz yok", "Global, Türkiye'de de görünür"}
+GURU_PEOPLE = {'Karen Nelson-Field', 'Steven Bellman', 'Byron Sharp', 'Virginia Beal', 'Erica Riebe'}
+GURU_EVIDENCE = {'Çalışma kâğıdı', 'Konuşma veya podcast', 'Yazı veya görüş', 'Hakemli makale', 'Kitap', 'Kurum raporu'}
 SOURCE_RESULTS = {"ok", "login_required", "paywall", "no_response", "poor_scope"}
 
 
@@ -136,6 +138,34 @@ def check(path: Path):
             errs.append(f"{tag}: result {sorted(SOURCE_RESULTS)} olmalı")
         if r.get("action") not in ("keep", "remove", "add"):
             errs.append(f"{tag}: action keep/remove/add olmalı")
+    g = d.get("gurus")
+    if isinstance(g, dict):
+        gitems = g.get("items") or []
+        if len(gitems) > 3:
+            errs.append("gurus.items en fazla 3 öğe olmalı")
+        for i, it in enumerate(gitems):
+            tag = f"gurus.items[{i}] ({it.get('person')})"
+            for k in ("person", "title", "evidence", "summary", "whyItMatters", "counterView", "url", "source", "published"):
+                if not s(it.get(k)):
+                    errs.append(f"{tag}: {k} eksik")
+            if s(it.get("url")) and not it["url"].startswith("https://"):
+                errs.append(f"{tag}: url https:// olmalı")
+            if it.get("person") not in GURU_PEOPLE:
+                warns.append(f"{tag}: kişi listede yok")
+            if it.get("evidence") not in GURU_EVIDENCE:
+                errs.append(f"{tag}: evidence {sorted(GURU_EVIDENCE)} olmalı")
+            if len(str(it.get("summary", "")).split()) > 30:
+                warns.append(f"{tag}: summary 30 kelimeyi aşıyor")
+    if "guruCheck" not in d:
+        warns.append("guruCheck yok: her isim için kontrol sonucunu yaz")
+    else:
+        done = {c.get("person") for c in d.get("guruCheck") or []}
+        miss = sorted(GURU_PEOPLE - done)
+        if miss:
+            warns.append(f"guruCheck eksik isimler: {', '.join(miss)}")
+        for i, c in enumerate(d.get("guruCheck") or []):
+            if c.get("result") not in ("new", "none", "unreachable"):
+                errs.append(f"guruCheck[{i}]: result new/none/unreachable olmalı")
     if not d.get("accessLog"):
         warns.append("accessLog boş: hangi resmî kaynakların açıldığı bilinmiyor")
     return errs, warns

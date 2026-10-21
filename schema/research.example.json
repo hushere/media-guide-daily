@@ -137,5 +137,32 @@
       "action": "keep | remove | add",
       "note": "Kısa gerekçe"
     }
+  ],
+  "gurus": {
+    "window": "Kontrol dönemi",
+    "note": "Kaynak türü ve sınırlar",
+    "items": [
+      {
+        "person": "Byron Sharp | Steven Bellman | Virginia Beal | Erica Riebe | Karen Nelson-Field",
+        "title": "Özgün başlık",
+        "evidence": "Hakemli makale | Çalışma kâğıdı | Kurum raporu | Kitap | Konuşma veya podcast | Yazı veya görüş",
+        "summary": "Tek cümle, kendi sözlerinle",
+        "whyItMatters": "Planlama etkisi, tek cümle",
+        "counterView": "Sınır: örneklem, ülke, yöntem, finansör, ticari bağ",
+        "url": "https:// birincil kaynak",
+        "source": "Dergi veya kurum adı",
+        "published": "Yayın tarihi"
+      }
+    ]
+  },
+  "guruCheck": [
+    {
+      "person": "Byron Sharp",
+      "result": "new | none | unreachable",
+      "checked": [
+        "https://..."
+      ],
+      "note": "Kısa not"
+    }
   ]
 }

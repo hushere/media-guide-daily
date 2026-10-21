@@ -110,6 +110,21 @@ def validate(path: Path, data: dict) -> list:
                 if it.get("market") is not None and it["market"] not in ("Türkiye", "Global, Türkiye'de henüz yok", "Global, Türkiye'de de görünür"):
                     errs.append(f"{tag}: market geçersiz")
 
+    gu = data.get("gurus")
+    if gu is not None:
+        if not isinstance(gu, dict) or not isinstance(gu.get("items"), list) or not gu["items"]:
+            errs.append("gurus {window, note, items[]} biçiminde ve boş olmayan olmalı")
+        else:
+            if len(gu["items"]) > 3:
+                errs.append("gurus.items en fazla 3 öğe olmalı")
+            for i, it in enumerate(gu["items"]):
+                tag = f"gurus.items[{i}]"
+                for k in ("person", "title", "evidence", "url", "source", "published"):
+                    if not nonempty_str(it.get(k)):
+                        errs.append(f"{tag}: {k} eksik")
+                if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
+                    errs.append(f"{tag}: url https:// ile başlamalı")
+
     wk = data.get("weekly")
     if wk is not None:
         if not isinstance(wk, dict) or not isinstance(wk.get("items"), list) or not wk["items"]:

@@ -153,6 +153,13 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 - Bir platforma erişilemezse o platformu listeleme ve `limitations` içinde belirt. Erişilebilir hiçbir kaynak yoksa `social` alanını ekleme.
 - Önemli bir sosyal gelişme ayrıca haber değerindeyse (ör. platform kuralı değişikliği, büyük bir marka krizi) `Dijital & AI` kategorisinde normal haber kartı da yazılabilir.
 
+### 5.7 Media Guru'larından Notlar (22 Ekim 2026, kullanıcı kararı)
+
+- Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe ve Karen Nelson-Field'in yeni çalışmaları her gün kontrol edilir; önemli gelişme varsa bültenin `gurus` alanına yazılır. Sitede Dijital Gündem ve Spor Takvimi panellerinin yanında ayrı bir panel olarak görünür.
+- **Araştırmayı yalnız ChatGPT yapar** (`RESEARCH.md` "Media Guru'larından Notlar"). Claude bu bölüm için araştırma yapmaz, yeniden teyit etmez, yedek akışta da yapmaz. Paket gelmezse veya `gurus` yoksa alan eklenmez; `limitations` içine yalnız paket gelmediyse "guru notları araştırılmadı" yazılır.
+- Claude yalnız biçim ve güvenlik kontrolü yapar: https birincil kaynak, yayın tarihi, en fazla 3 öğe, `evidence` etiketi, uzun alıntı veya kopya metin olmaması. Veri, kaynak yorumu ve çıkarım ayrı kalmalı; çalışmanın finansörü ve ticari bağı `counterView` içinde belirtilmeli.
+- Önemli yayın yoksa panel çıkmaz. Dolgu not yazılmaz.
+
 ## 6. Haber yapısı ve editoryal standart
 
 Her haber şu yapıda olur:
@@ -194,7 +201,7 @@ Kurallar:
 Uygun olduğunda şu bölümleri kullan; anlamlı doğrulanmış içerik yoksa kısa bir durum satırı ver veya bölümü ekleme, dolgu haber üretme:
 
 1. Başlık (günün gündemine göre), özet, tarama penceresi, sürüm (tam/seçki)
-2. Dijital gündem şeridi (`social`, bölüm 5.6)
+2. Dijital gündem şeridi (`social`, bölüm 5.6) ve Media Guru'larından Notlar paneli (`gurus`, bölüm 5.7)
 3. Türkiye: TV & Entertainment, Rakip Marka Gelişmeleri, Ajans & Marka, diğer yerel gelişmeler
 3. Global
 4. Research & Reports

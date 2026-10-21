@@ -100,6 +100,30 @@ Bu liste başlangıçtır. Benzer, daha iyi veya günlük trend veren başka kay
 - Her pakette `socialSourceReview` listesi ver. Her kaynak için sonuç (`ok`, `login_required`, `paywall`, `no_response`, `poor_scope`) ve öneri (`keep`, `remove`, `add`) yaz. `remove` önerdiğin kaynağı sabah Claude bu listeden çıkarır. Sen listeyi kendin değiştirme, yalnız `research/` klasörüne yazabilirsin. Kaynağı çıkarmadan önce de aynı gün o kaynağı kullanma.
 - Aynı kaynak üç ardışık gün `remove` önerilirse Claude'dan beklemeden o kaynağı atla.
 
+## Media Guru'larından Notlar (yalnız ChatGPT, 22 Ekim 2026 kullanıcı kararı)
+
+Her gün şu araştırmacıların yeni çalışmalarını kontrol et: **Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe, Karen Nelson-Field**. Önemli bir gelişme varsa paketin `gurus` alanına yaz. Sitede Dijital Gündem ve Spor Takvimi panellerinin yanında "Media Guru'larından Notlar" paneli olarak görünür. Bu işi yalnız sen yaparsın. Claude araştırmaz ve içeriği yeniden teyit etmez, yalnız biçim kontrolü yapar. Paket gelmezse panel çıkmaz.
+
+**Nereye bak**
+- Kurum ve yazar sayfaları: Ehrenberg-Bass Institute (marketingscience.info ve üniversite sayfaları), Amplified Intelligence (Karen Nelson-Field), yazarların kendi sayfaları. Kurum bağlarını güncel kaynakla teyit et.
+- Akademik kayıtlar: Google Scholar, ResearchGate, SSRN ve dergi sayfaları (Journal of Advertising Research, Journal of Marketing, International Journal of Research in Marketing, Journal of Marketing Research vb.).
+- Konuşma ve podcast kayıtları, kitap duyuruları. Sosyal medya gönderileri yalnız ilk sinyaldir; birincil kaynağı aç.
+- Önce son önceki çalıştırmanın `cutoff` saatinden sonrasına bak. Yeni bir şey yoksa `gurus` alanını koyma.
+
+**Neyi önemli say**
+- Yeni hakemli makale veya çalışma kâğıdı, yeni kurum raporu, kitap veya veri seti.
+- Mevcut bir bulguyu değiştiren, genişleten veya çürüten sonuç.
+- Medya planlama kararını (reach, frekans, attention, kanal karması, marka büyümesi, ölçüm) ilgilendiren konuşma veya açıklama.
+- Sayma: eski çalışmanın yeniden paylaşımı, etkinlik veya eğitim duyurusu, yeni bilgi içermeyen görüş yazısı. Aynı çalışmayı tekrar etme (önceki bültenlerin `gurus` alanına bak).
+
+**Kurallar**
+- En fazla 3 öğe. Her öğe: `person`, `title` (özgün başlık), `evidence` (Hakemli makale, Çalışma kâğıdı, Kurum raporu, Kitap, Konuşma veya podcast, Yazı veya görüş), `summary` (tek cümle, en fazla ~25 kelime, kendi sözlerinle), `whyItMatters` (planlama etkisi, tek cümle), `counterView` (sınır), `url` (birincil kaynak, https), `source`, `published`.
+- Birincil kaynağı aç (dergi, kurum veya yazarın sayfası). Haber özetiyle yetinme. Tam metin kapalıysa yalnız özetten (abstract) söylenebileni yaz ve belirt.
+- `counterView` içinde örneklem, ülke, yöntem (deney mi gözlem mi, korelasyon mu nedensellik mi), çalışmanın finansörü ve yazarın ticari bağı gibi sınırları yaz. Bulgunun hangi pazar verisine dayandığını belirt; Türkiye'ye aktarılabilirliği tahmin etme.
+- Kısa alıntı yalnız tırnak içinde ve 15 kelimeyi geçmeden. Metni kopyalama, kendi sözlerinle özetle.
+- Her pakette `guruCheck` ver: her isim için `result` (`new`, `none`, `unreachable`), baktığın adresler ve kısa not.
+- Erişim kuralları dijital gündemle aynı: giriş yapma, ödeme duvarını aşma, yanıt vermeyen sayfayı aynı gün tekrar deneme.
+
 ## Çıktı
 
 - Dosya: `research/YYYY-MM-DD.json`

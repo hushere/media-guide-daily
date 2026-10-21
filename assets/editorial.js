@@ -34,7 +34,10 @@ if(fixtures){
  fixtures.querySelector('h2').textContent='Spor Takvimi';
  addPanelToggle(fixtures,fixtures.querySelector('.fx-head'),'Spor takviminin tamamını göster');
 }
+var gurus=row.querySelector('.gurus');
+if(gurus){gurus.classList.add('agenda-panel','guru-panel');addPanelToggle(gurus,gurus.querySelector('.gur-head'),'Media Guru notlarının tamamını göster')}
 if(row.children.length===1)row.classList.add('single-panel');
+if(row.children.length===3)row.classList.add('triple-panel');
 gallery.before(row);
 function addPanelToggle(panel,head,label){
  var button=document.createElement('button');button.type='button';button.className='panel-expand';button.textContent='Genişlet ↗';button.setAttribute('aria-label',label);button.setAttribute('aria-expanded','false');head.appendChild(button);

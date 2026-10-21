@@ -401,6 +401,27 @@
   }
 
 
+
+  /* Media Guru'larından Notlar (22 Ekim 2026): yalnız ChatGPT paketinden gelir; önemli yayın yoksa panel çıkmaz */
+  function gurusHTML(b) {
+    var g = b.gurus;
+    if (!g || !g.items || !g.items.length) return "";
+    var cards = g.items.map(function (it) {
+      var link = /^https:\/\//.test(it.url || "") ? '<a href="' + esc(safeUrl(it.url)) + '" target="_blank" rel="noopener">' + esc(it.title) + ' ↗</a>' : esc(it.title);
+      return '<li class="gur-card"><div class="gur-top"><span class="gur-person">' + esc(it.person) + '</span>' +
+        (it.evidence ? '<span class="gur-ev">' + esc(it.evidence) + '</span>' : '') + '</div>' +
+        '<h3>' + link + '</h3>' +
+        (it.summary ? '<p>' + esc(it.summary) + '</p>' : '') +
+        (it.whyItMatters ? '<p class="gur-why"><strong>Planlamaya etkisi:</strong> ' + esc(it.whyItMatters) + '</p>' : '') +
+        (it.counterView ? '<p class="gur-cv"><strong>Sınır:</strong> ' + esc(it.counterView) + '</p>' : '') +
+        '<span class="gur-src">' + esc(it.source) + (it.published ? ' · ' + esc(it.published) : '') + '</span></li>';
+    }).join("");
+    return '<aside class="gurus" aria-labelledby="gurTitle"><div class="gur-head"><span class="eyebrow">Araştırmacılardan</span>' +
+      '<h2 id="gurTitle">Media Guru\'larından Notlar</h2>' + (g.window ? '<p>' + esc(g.window) + '</p>' : '') + '</div>' +
+      '<ul class="gur-list" tabindex="0" aria-label="Araştırmacı notları, kaydırılabilir">' + cards + '</ul>' +
+      (g.note ? '<details class="agenda-note"><summary>Veri hakkında</summary><p class="soc-note">' + esc(g.note) + '</p></details>' : '') + '</aside>';
+  }
+
   /* TV dizi takvimi (21 Ekim 2026): data/tv-takvim.json; yalnız en güncel sayıda gösterilir */
   var TV_DAYS = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"];
   var TV_STATUS = { "yayinda": "Yayında", "kanal-teyitli": "Kanal teyitli", "planlanan": "Planlanan", "belirsiz": "Belirsiz" };
@@ -462,7 +483,7 @@
         '<h1>Gündemi oku. <em>Etkisini gör.</em></h1>' +
         '<div class="hero-meta">' + esc(fmtDate(b.date, true)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
       '</div><div class="hero-row"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' +
-      fixtures + '</div></section>' + tvHTML(b) +
+      fixtures + gurusHTML(b) + '</div></section>' + tvHTML(b) +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       weeklyHTML(b) + socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +

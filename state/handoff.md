@@ -14,6 +14,7 @@ Son güncelleme: 21 Ekim 2026 08:55, Claude (bülten 2026-10-21 ChatGPT paketind
 - 2026-10-21#iab-cross-channel-karar-rehberi: IAB ölçüm karar rehberi, görüş son tarihi 4 Kasım.
 
 ## 2. Ertesi güne bırakılan kontroller
+- **Media Guru'larından Notlar (22 Ekim kararı):** Yalnız ChatGPT araştırır (Sharp, Bellman, Beal, Riebe, Nelson-Field; RESEARCH.md). `gurus` ve `guruCheck` gelirse biçim kontrolü yap ve yayımla, kendin araştırma yapma. Önemli yayın yoksa panel çıkmaz.
 - **Dijital gündem (21 Ekim kararı):** Araştırma yalnız ChatGPT'de (`RESEARCH.md`). Claude araştırmaz, paket yoksa yedekte de araştırmaz. 22 Ekim paketinden itibaren `social.items[].market` ve `socialSourceReview` zorunlu/beklenen. `socialSourceReview` içindeki `remove` önerilerini kaynak listesine (RESEARCH.md) işle.
 - **TV dizi takvimi tablosu (yeni, 21 Ekim):** data/tv-takvim.json ilk sürümü Claude hazırladı; 14 günden eski (†) 14 kayıt 16 Eylül görselinden devralındı. ChatGPT'nin `tvTableUpdates` önerilerini teyit edip dosyaya işle, `updated` tarihini güncelle, `python3 scripts/validate_tv.py` çalıştır. Çirkin, A.B.İ., Aşk ve Taht final yaptığı için tablodan çıkarıldı.
 - 21 Ekim: Sevdam Karadeniz 4. bölüm final kulisi (Birsen Altuntaş 20 Ekim) için NOW teyidi; 26 Ekim pzt 3. bölüm yayını.

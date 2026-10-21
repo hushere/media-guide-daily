@@ -141,10 +141,10 @@
 .agenda-panels .social{border-top:4px solid #b7bce4}
 .agenda-panels .fx-wrap{min-height:0;position:static}
 .agenda-panels .fx-wrap .fixtures{position:static;inset:auto;border-top:4px solid #9fd5c6;padding:0;max-height:none}
-.agenda-panels .soc-head,.agenda-panels .fx-head{position:relative;display:block;flex:none;padding:18px 112px 16px 20px;margin:0;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.agenda-panels .soc-head,.agenda-panels .fx-head,.agenda-panels .gur-head{position:relative;display:block;flex:none;padding:18px 112px 16px 20px;margin:0;border-bottom:1px solid var(--line);background:var(--surface-2)}
 .agenda-panels .eyebrow{font-size:10px;letter-spacing:.08em;color:var(--muted)}
-.agenda-panels .soc-head h2,.agenda-panels .fx-head h2{font-family:'Source Serif 4',Georgia,serif;font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:6px 0 8px}
-.agenda-panels .soc-head p,.agenda-panels .fx-head p{font-size:11px;line-height:1.5;margin:0;color:var(--muted)}
+.agenda-panels .soc-head h2,.agenda-panels .fx-head h2,.agenda-panels .gur-head h2{font-family:'Source Serif 4',Georgia,serif;font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:6px 0 8px}
+.agenda-panels .soc-head p,.agenda-panels .fx-head p,.agenda-panels .gur-head p{font-size:11px;line-height:1.5;margin:0;color:var(--muted)}
 .panel-expand{position:absolute;right:16px;top:20px;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--text);font:inherit;font-size:11px;min-height:36px;padding:8px 12px;cursor:pointer;transition:background .18s,border-color .18s}
 .panel-expand:hover{border-color:var(--accent);background:var(--accent-soft)}
 .agenda-panels .soc-list{display:flex;flex-direction:column;flex:1;min-height:0;gap:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;scroll-snap-type:none;margin:0;padding:0 18px;scrollbar-width:thin}
@@ -180,3 +180,21 @@
  .agenda-panels .soc-list,.agenda-panels .fx-scroll{padding-inline:14px}
 }
 @media(prefers-reduced-motion:reduce){.panel-expand,.agenda-panels .soc-card{transition:none}}
+
+/* Media Guru'larından Notlar paneli (22 Ekim 2026) */
+.agenda-panels .gurus{border-top:4px solid #e9c46a}
+.agenda-panels .gur-head{padding-right:112px}
+.agenda-panels .gur-list{list-style:none;display:flex;flex-direction:column;flex:1;min-height:0;margin:0;padding:0 18px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.agenda-panels .gur-card{flex:none;display:flex;flex-direction:column;gap:6px;padding:14px 2px;border-bottom:1px solid var(--line)}
+.agenda-panels .gur-card:last-child{border-bottom:0}
+.gur-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.gur-person{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.gur-ev{font-size:10px;font-weight:600;padding:1px 7px;border-radius:3px;background:var(--surface-2);color:var(--muted)}
+.gur-card h3{font-size:14px;line-height:1.4;margin:0;text-wrap:pretty}
+.gur-card h3 a{color:inherit;text-decoration:none}.gur-card h3 a:hover{color:var(--accent);text-decoration:underline}
+.gur-card p{font-size:12px;line-height:1.55;margin:0;color:var(--muted)}
+.gur-card p strong{color:var(--text)}
+.gur-src{font-size:11px;color:var(--muted)}
+.agenda-panels .panel-expanded .gur-list{flex:none;max-height:none;overflow:visible}
+@media(min-width:1240px){.hero .agenda-panels.triple-panel{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(min-width:861px) and (max-width:1239px){.hero .agenda-panels.triple-panel .guru-panel{grid-column:1/-1;height:auto;max-height:460px}}
