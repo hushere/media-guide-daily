@@ -257,3 +257,5 @@
 .tvgrid .tv-dot{width:8px;height:8px;margin-top:5px}
 .tvgrid .tv-legend .tv-dot{margin-top:0}
 @media(max-width:600px){.tvgrid .tv-head h2{font-size:23px}}
+
+.tvgrid .tv-table thead th.tv-corner{width:auto}
