@@ -20,6 +20,8 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TV_CHANNELS = {"ATV", "KANAL D", "STAR TV", "SHOW TV", "NOW", "TRT 1", "TV8"}
 TV_DAYS = {"Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"}
 TV_STATUS = {"yayinda", "kanal-teyitli", "planlanan", "belirsiz"}
+SOCIAL_MARKETS = {"Türkiye", "Global, Türkiye'de henüz yok", "Global, Türkiye'de de görünür"}
+SOURCE_RESULTS = {"ok", "login_required", "paywall", "no_response", "poor_scope"}
 
 
 def s(v):
@@ -102,6 +104,38 @@ def check(path: Path):
             errs.append(f"{tag}: source https:// olmalı")
     if "tvTableUpdates" not in d:
         warns.append("tvTableUpdates yok: TV takvimi kontrol edildiyse boş liste yaz")
+    soc = d.get("social")
+    if isinstance(soc, dict):
+        sitems = soc.get("items") or []
+        if len(sitems) > 8:
+            errs.append("social.items en fazla 8 öğe olmalı")
+        srcs_count = {}
+        for i, it in enumerate(sitems):
+            tag = f"social.items[{i}] ({it.get('title')})"
+            for k in ("platform", "title", "url", "source", "published"):
+                if not s(it.get(k)):
+                    errs.append(f"{tag}: {k} eksik")
+            if s(it.get("url")) and not it["url"].startswith("https://"):
+                errs.append(f"{tag}: url https:// olmalı")
+            if it.get("market") not in SOCIAL_MARKETS:
+                # market zorunluluğu 22 Ekim 2026 paketinden itibaren geçerli
+                (errs if d.get("date", "") >= "2026-10-22" else warns).append(f"{tag}: market {sorted(SOCIAL_MARKETS)} olmalı")
+            srcs_count[it.get("source")] = srcs_count.get(it.get("source"), 0) + 1
+        for name, n in srcs_count.items():
+            if n > 3:
+                warns.append(f"social: '{name}' kaynağından {n} öğe var (en fazla 3)")
+        if sitems and len(srcs_count) < 3:
+            warns.append("social: 3'ten az farklı kaynak; çeşitliliği artır")
+    if "socialSourceReview" not in d:
+        warns.append("socialSourceReview yok: dijital gündem kaynaklarının sonucunu ve önerisini yaz")
+    for i, r in enumerate(d.get("socialSourceReview") or []):
+        tag = f"socialSourceReview[{i}] ({r.get('url')})"
+        if not str(r.get("url", "")).startswith("https://"):
+            errs.append(f"{tag}: url https:// olmalı")
+        if r.get("result") not in SOURCE_RESULTS:
+            errs.append(f"{tag}: result {sorted(SOURCE_RESULTS)} olmalı")
+        if r.get("action") not in ("keep", "remove", "add"):
+            errs.append(f"{tag}: action keep/remove/add olmalı")
     if not d.get("accessLog"):
         warns.append("accessLog boş: hangi resmî kaynakların açıldığı bilinmiyor")
     return errs, warns

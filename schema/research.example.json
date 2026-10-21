@@ -82,7 +82,7 @@
     "note": "Bu listelerin neyi ölçtüğü, neyi ölçmediği",
     "items": [
       {
-        "platform": "Google | YouTube | TikTok | Instagram | X | Netflix | Spotify | diğer",
+        "platform": "Google | YouTube | TikTok | Instagram | X | Netflix | Spotify | DataReportal | Think with Google | diğer (kaynak adı)",
         "type": "Arama trendi | Top 10 | Trend | Hashtag | Öne çıkan içerik",
         "rank": 1,
         "title": "Konu / içerik",
@@ -90,7 +90,8 @@
         "whyItMatters": "Planner/buyer için tek cümle",
         "url": "https:// doğrudan kaynak",
         "source": "Kaynak adı",
-        "published": "Liste dönemi"
+        "published": "Liste dönemi",
+        "market": "Türkiye | Global, Türkiye'de henüz yok | Global, Türkiye'de de görünür"
       }
     ]
   },
@@ -127,6 +128,14 @@
       "title": "Sevdam Karadeniz",
       "note": "Final yayınlandı",
       "checked": "2026-11-10"
+    }
+  ],
+  "socialSourceReview": [
+    {
+      "url": "https://datareportal.com/digital-in-turkey",
+      "result": "ok | login_required | paywall | no_response | poor_scope",
+      "action": "keep | remove | add",
+      "note": "Kısa gerekçe"
     }
   ]
 }

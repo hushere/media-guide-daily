@@ -275,6 +275,7 @@
         '<div class="soc-top"><span class="soc-plat ' + cls + '">' + esc(it.platform) + '</span>' +
           (it.type ? '<span class="soc-type">' + esc(it.type) + '</span>' : '') +
           (it.rank ? '<span class="soc-rank">#' + esc(it.rank) + '</span>' : '') + '</div>' +
+        (it.market ? '<div class="soc-mkt' + (/henüz yok/.test(it.market) ? ' new' : '') + '">' + esc(it.market) + '</div>' : '') +
         '<h3>' + esc(it.title) + '</h3>' +
         (it.metric ? '<div class="soc-metric">' + esc(it.metric) + '</div>' : '') +
         (it.whyItMatters ? '<p>' + esc(it.whyItMatters) + '</p>' : '') +

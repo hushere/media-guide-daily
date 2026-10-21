@@ -97,6 +97,7 @@
         "type": "Top 10 | Trend | Hashtag | Arama trendi | Viral içerik",
         "rank": 1,
         "title": "İçerik / konu adı",
+        "market": "Türkiye | Global, Türkiye'de henüz yok | Global, Türkiye'de de görünür",
         "metric": "Kaynağın verdiği metrik, kaynak adıyla (yoksa alanı ekleme)",
         "whyItMatters": "Planner/buyer için tek cümle",
         "url": "https:// doğrudan kaynak",

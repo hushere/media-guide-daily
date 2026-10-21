@@ -107,6 +107,8 @@ def validate(path: Path, data: dict) -> list:
                         errs.append(f"{tag}: {k} eksik")
                 if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
                     errs.append(f"{tag}: url https:// ile başlamalı")
+                if it.get("market") is not None and it["market"] not in ("Türkiye", "Global, Türkiye'de henüz yok", "Global, Türkiye'de de görünür"):
+                    errs.append(f"{tag}: market geçersiz")
 
     wk = data.get("weekly")
     if wk is not None:

@@ -63,6 +63,43 @@ Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv
 - Dizi yayına başlayınca `tag` alanını boş bırakarak `update` öner (Yeni Dizi notu kalkar), `status` değerini `yayinda` yap.
 - Tarih ve saati tahminle doldurma. Teyitsiz bilgiyi `belirsiz` bırak.
 
+## Dijital gündem araştırması (yalnız ChatGPT, 21 Ekim 2026 kullanıcı kararı)
+
+Bu bölümün araştırmasını yalnız sen yaparsın. Claude bu konuda araştırma yapmaz, paket gelmezse yedek akışta da yapmaz; o gün sitede dijital gündem şeridi çıkmaz. Sonuçlar paketin `social` alanına yazılır (biçim: `schema/research.example.json`).
+
+**Amaç.** Tek bir platforma (yalnız Google veya yalnız Netflix) bağlı kalma. Dijitalde en çok konuşulanları ve medya planlama açısından anlamlı olanları farklı kaynaklardan süz. Bir ayrım yap:
+- `market: "Türkiye"`: Türkiye'de görünen gündem.
+- `market: "Global, Türkiye'de henüz yok"`: Global trend olmuş ama Türkiye'de henüz görünmeyen konu, format veya platform davranışı. Bu öğeler özellikle değerlidir.
+- `market: "Global, Türkiye'de de görünür"`: İki pazarda da izlenen konu.
+
+**Süzme kuralları**
+- En fazla 8 öğe. Tek kaynaktan veya platformdan en fazla 3 öğe. Mümkünse en az 3 farklı kaynak.
+- Medya planlamayı etkileyen konuları seç: platform ve format değişiklikleri, izleyici davranışı, arama ve ilgi trendleri, markaların içerik biçimleri, yeni reklam alanları. Siyasi, kişisel veya hassas gündemleri ve özel kişileri alma.
+- Rapor ve yıllık veri kaynakları (DataReportal, Think with Google, Pew vb.) sık güncellenmez. Yeni yayımlanmış veya güncellenmiş bir çalışma yoksa o kaynaktan öğe ekleme. Aynı raporu tekrar etme (önceki bültenlerin `social` alanına bak).
+- `metric` yalnız kaynağın verdiği sayıdır. Kaynak adını yaz. Sayıyı sen hesaplama, tahmin etme. Veriyi yorumdan ayır.
+- `note` alanına listenin neyi ölçtüğünü ve neyi ölçmediğini yaz.
+
+**Başlangıç kaynak listesi (kullanıcının verdiği, 21 Ekim 2026)**
+- https://www.thinkwithgoogle.com/intl/tr-tr/ (Google, Türkiye içgörüleri)
+- https://trends.google.com/trends/ (arama trendleri; Türkiye ve global karşılaştırması)
+- https://datareportal.com/digital-in-turkey (Türkiye dijital kullanım verisi)
+- https://www.searchenginejournal.com/ (arama ve dijital pazarlama haberleri)
+- https://www.pewresearch.org/ (araştırma; ABD ağırlıklı, ilgisini kontrol et)
+- https://www.warc.com/ (kampanya ve etkililik; çoğu içerik üyelik gerektirir)
+- https://app.globalwebindex.com/ (GWI; giriş gerektirir)
+- https://www.statista.com/ (veri; çoğu içerik ücretli)
+- https://www.semrush.com/ (arama ve trafik verisi; çoğu araç girişli)
+- https://www.similarweb.com/ (site trafiği; çoğu veri girişli)
+- https://www.trendhunter.com/trends/tagwalk (moda ağırlıklı; yalnız marka, ürün veya ambalaj ilgisi varsa)
+
+Bu liste başlangıçtır. Benzer, daha iyi veya günlük trend veren başka kaynaklar bulursan öner (örnekler, doğrulanmadı: Pinterest Trends, Exploding Topics, Know Your Meme, Reddit gündemi).
+
+**Erişim ve enerji kuralları**
+- Yalnız herkese açık sayfaları aç. Giriş yapma, üyelik veya ödeme duvarını aşma, CAPTCHA geçme.
+- Bir site yanıt vermiyorsa, giriş istiyorsa, ücretliyse veya kapsamı bu işe uygun değilse aynı gün tekrar deneme, zaman harcama. `accessLog` ve `socialSourceReview` içine yaz ve devam et.
+- Her pakette `socialSourceReview` listesi ver. Her kaynak için sonuç (`ok`, `login_required`, `paywall`, `no_response`, `poor_scope`) ve öneri (`keep`, `remove`, `add`) yaz. `remove` önerdiğin kaynağı sabah Claude bu listeden çıkarır. Sen listeyi kendin değiştirme, yalnız `research/` klasörüne yazabilirsin. Kaynağı çıkarmadan önce de aynı gün o kaynağı kullanma.
+- Aynı kaynak üç ardışık gün `remove` önerilirse Claude'dan beklemeden o kaynağı atla.
+
 ## Çıktı
 
 - Dosya: `research/YYYY-MM-DD.json`

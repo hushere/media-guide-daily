@@ -632,3 +632,6 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
 .tv-foot { font-size: 11.5px; color: var(--muted); margin: 10px 0 0; }
 @media (max-width: 860px) { .tv-head { align-items: flex-start; } .tv-table { min-width: 960px; } }
 @media (max-width: 600px) { .tv-table tbody th, .tv-table thead th.tv-corner { width: 64px; font-size: 11px; padding: 8px 4px; } .tv-table { min-width: 900px; } }
+
+.soc-mkt { font-size: 10.5px; font-weight: 600; letter-spacing: .3px; color: var(--muted); }
+.soc-mkt.new { color: var(--surface); background: var(--gl); display: inline-block; align-self: flex-start; padding: 1px 7px; border-radius: 3px; }
