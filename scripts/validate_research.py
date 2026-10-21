@@ -23,6 +23,7 @@ TV_STATUS = {"yayinda", "kanal-teyitli", "planlanan", "belirsiz"}
 SOCIAL_MARKETS = {"Türkiye", "Global, Türkiye'de henüz yok", "Global, Türkiye'de de görünür"}
 GURU_PEOPLE = {'Karen Nelson-Field', 'Steven Bellman', 'Byron Sharp', 'Virginia Beal', 'Erica Riebe'}
 GURU_EVIDENCE = {'Çalışma kâğıdı', 'Konuşma veya podcast', 'Yazı veya görüş', 'Hakemli makale', 'Kitap', 'Kurum raporu'}
+LAYERS = {"Medya tüketimi ve izleyici", "Reklam pazarı ve para", "Platform ve ürün", "Marka ve kampanya", "Tüketici ve ekonomi", "Düzenleme ve sektör"}
 SOURCE_RESULTS = {"ok", "login_required", "paywall", "no_response", "poor_scope"}
 
 
@@ -77,8 +78,31 @@ def check(path: Path):
                 for k in ("name", "published"):
                     if not s(src.get(k)):
                         errs.append(f"{tag} sources[{j}]: {k} eksik")
+        gate = d.get("date", "") >= "2026-10-22"  # katman/tier zorunluluğu 22 Ekim 2026'dan itibaren
+        if it.get("layer") not in LAYERS:
+            (errs if gate else warns).append(f"{tag}: layer {sorted(LAYERS)} olmalı")
+        if it.get("tier") not in ("main", "signal"):
+            (errs if gate else warns).append(f"{tag}: tier main/signal olmalı")
+        if it.get("tier") == "signal" and it.get("verification") == "rumor":
+            errs.append(f"{tag}: kısa sinyal söylenti olamaz")
         if it.get("verification") == "single_secondary" and it.get("category") == "Spor":
             warns.append(f"{tag}: spor bilgisi tek ikincil kaynaklı")
+    layered = [it for it in items if it.get("layer") in LAYERS]
+    if layered:
+        counts = {}
+        for it in layered:
+            counts[it["layer"]] = counts.get(it["layer"], 0) + 1
+        if len(counts) < 4:
+            warns.append(f"katman çeşitliliği: yalnız {len(counts)} katman var (hedef en az 4); boş katmanları limitations içinde belirt")
+        top = max(counts.values())
+        if top / len(layered) > 0.4 and len(layered) >= 5:
+            warns.append(f"bir katman toplamın %{round(100 * top / len(layered))}'ini oluşturuyor (hedef en fazla %40)")
+        mains = sum(1 for it in layered if it.get("tier") == "main")
+        sigs = sum(1 for it in layered if it.get("tier") == "signal")
+        if mains and not 5 <= mains <= 8:
+            warns.append(f"ana haber sayısı {mains} (hedef 5-8)")
+        if sigs and not 4 <= sigs <= 6:
+            warns.append(f"kısa sinyal sayısı {sigs} (hedef 4-6)")
     for i, m in enumerate(d.get("matches") or []):
         for k in ("date", "sport", "competition", "home", "away", "source"):
             if not s(m.get(k)):

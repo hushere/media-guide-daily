@@ -237,6 +237,7 @@
     var regionCls = a.region === "Türkiye" ? "tr" : "gl";
     var tags = '<span class="pill ' + regionCls + '">' + esc(a.region) + '</span>' +
       '<span class="pill accent">' + esc(a.category) + '</span>' +
+      (a.layer ? '<span class="pill layer">' + esc(a.layer) + '</span>' : "") +
       (a.label ? '<span class="pill warn">' + esc(a.label) + '</span>' : "");
     var body = a.body || [];
     var preview = body.slice(0, 3), rest = body.slice(3);
@@ -252,7 +253,7 @@
         '<div class="when">' + esc(a.market) + ' · ' + esc(a.eventDate) + ' · ' + readMinutes(a) + ' dk okuma<span class="read-mark">✓ Okundu</span></div>' +
         '<p class="summary">' + esc(a.summary) + '</p>' +
         '<div class="kv"><h4>Ne değişti?</h4>' + bullets(preview, "facts") + '</div>' +
-        '<div class="kv why"><h4>Neden önemli?</h4><p>' + esc(a.impact) + '</p></div>' +
+        '<div class="kv why"><h4>Bu ne anlama geliyor?</h4><p>' + esc(a.impact) + '</p></div>' +
         '<div class="kv act"><h4>Ne yapmalı?</h4><p>' + esc(a.action) + '</p></div>' +
       '</div>' +
       '<details><summary>Detay ve kaynaklar · ' + (a.sources || []).length + ' kaynak <span aria-hidden="true">↗</span></summary><div class="detail">' +
@@ -262,6 +263,30 @@
         '<div class="block"><h4>Kaynaklar</h4><ul class="sources">' + sources + '</ul></div>' +
       '</div></details>' +
     '</article>';
+  }
+
+  /* Günün okuması, Tutum Radarı ve Kısa sinyaller (22 Ekim 2026'dan itibaren) */
+  function dayBriefHTML(b) {
+    var ar = b.attitudeRadar;
+    if (!b.dayRead && !(ar && ar.items && ar.items.length)) return "";
+    var read = b.dayRead ? '<article class="day-read"><span class="eyebrow">Günün okuması</span><p>' + esc(b.dayRead) + '</p></article>' : "";
+    var radar = "";
+    if (ar && ar.items && ar.items.length) {
+      radar = '<aside class="attitude"><span class="eyebrow">Tutum Radarı</span><h2>Medya tutumunda bugün</h2><ul class="att-list">' +
+        ar.items.map(function (it) {
+          var cls = it.basis === "Veri" ? "att-basis veri" : "att-basis";
+          return '<li><div class="att-meta"><span class="att-tag">' + esc(it.tag) + '</span><span class="' + cls + '">' + esc(it.basis) + '</span><span class="att-rec">' + esc(it.recurrence) + '</span></div><p>' + esc(it.text) + '</p></li>';
+        }).join("") + '</ul>' + (ar.note ? '<p class="att-note">' + esc(ar.note) + '</p>' : "") + '</aside>';
+    }
+    return '<section class="day-brief' + (read && radar ? "" : " single") + '" aria-label="Günün okuması ve Tutum Radarı">' + read + radar + '</section>';
+  }
+  function signalsHTML(b) {
+    var sg = b.signals;
+    if (!sg || !sg.length) return "";
+    return '<section class="signals" id="kisaSinyaller" aria-label="Kısa sinyaller"><div class="sig-head"><span class="eyebrow">Hızlı bakış</span><h2>Kısa sinyaller</h2><p>Tek satırlık, kaynaklı gelişmeler. Yorum içermez.</p></div><ul class="sig-list">' +
+      sg.map(function (x) {
+        return '<li><div class="sig-tags"><span class="pill ' + (x.region === "Türkiye" ? "tr" : "gl") + '">' + esc(x.region) + '</span><span class="pill layer">' + esc(x.layer) + '</span></div><p>' + esc(x.text) + '</p><a href="' + esc(safeUrl(x.url)) + '" target="_blank" rel="noopener">' + esc(x.source) + ' · ' + esc(x.published) + ' ↗</a></li>';
+      }).join("") + '</ul></section>';
   }
 
   /* Dijital gündem: sosyal medyada konuşulanlar ve en çok izlenenler */
@@ -482,8 +507,8 @@
         '<div class="eyebrow">Daily Media Intelligence <span class="pill">' + (b.edition === "daily" ? "Günlük bülten" : "Editörün seçkisi") + '</span></div>' +
         '<h1>Gündemi oku. <em>Etkisini gör.</em></h1>' +
         '<div class="hero-meta">' + esc(fmtDate(b.date, true)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
-      '</div><div class="hero-row"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' +
-      fixtures + gurusHTML(b) + '</div></section>' + tvHTML(b) +
+      '</div>' + dayBriefHTML(b) + '<div class="hero-row"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' +
+      fixtures + gurusHTML(b) + '</div></section>' + signalsHTML(b) + tvHTML(b) +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       weeklyHTML(b) + socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +

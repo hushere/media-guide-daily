@@ -126,6 +126,7 @@ index.html, assets/           Site (GitHub Pages)
 
 En yeni en üstte. ChatGPT her çalışmada bu kayda bakar.
 
+- **2026-10-21:** Katmanlı haber seçimi (6 katman), iki kademe (Ana haberler + Kısa sinyaller), "Günün okuması" ve her gün "Tutum Radarı" eklendi (22 Ekim bülteninden itibaren). ChatGPT araştırma paketinde her kayda `layer` ve `tier` yazar (`RESEARCH.md`). Claude `dayRead`, `attitudeRadar` ve `signals` alanlarını yazar (`PROMPT.md` 5.8). "Neden önemli?" etiketi "Bu ne anlama geliyor?" oldu; okuma notu ajans, marka ve tüketici gözüyle yazılır.
 - **2026-10-21:** Hiçbir şirket "kendi şirket / bizim taraf / rakip değil" diye etiketlenmez. Paketlerde ve bültenlerde tüm şirketler aynı tarafsız dille yazılır; `rivalCheck` satırlarına bu tür not eklenmez.
 - **2026-10-21:** "Media Guru'larından Notlar" paneli eklendi (Dijital Gündem ve Spor Takvimi yanında). ChatGPT her gün Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe ve Karen Nelson-Field'in yeni çalışmalarını kontrol eder; önemli olan en fazla 3 öğeyi paketin `gurus` alanına, kontrol sonucunu `guruCheck` alanına yazar (`RESEARCH.md`). Önemli yayın yoksa alan koyulmaz. Claude araştırmaz ve yeniden teyit etmez.
 

@@ -160,20 +160,46 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 - Claude yalnız biçim ve güvenlik kontrolü yapar: https birincil kaynak, yayın tarihi, en fazla 3 öğe, `evidence` etiketi, uzun alıntı veya kopya metin olmaması. Veri, kaynak yorumu ve çıkarım ayrı kalmalı; çalışmanın finansörü ve ticari bağı `counterView` içinde belirtilmeli.
 - Önemli yayın yoksa panel çıkmaz. Dolgu not yazılmaz.
 
+### 5.8 Katmanlı haber seçimi, kısa sinyaller, günün okuması ve Tutum Radarı (21 Ekim 2026, kullanıcı kararı; 22 Ekim bülteninden itibaren)
+
+**Amaç:** Haber seçimi, o gün hangi kaynağın ne yayımladığına değil, aşağıdaki 6 katmana göre yapılır. Bülten yalnız haber listesi değil, medya tutumlarını okuyabilen bir ürün olur.
+
+**Katmanlar (`layer` alanı):**
+1. `Medya tüketimi ve izleyici`: izleme, dinleme, okuma ve kullanım verileri (Netflix Top 10, YouTube, DataReportal, GWI, TÜİK, BTK, Reuters Digital News Report, Google Trends).
+2. `Reklam pazarı ve para`: reklam yatırımı, platform gelirleri, fiyat ve enflasyon etkisi.
+3. `Platform ve ürün`: Meta, TikTok, Google, Netflix, Spotify, Amazon Prime ve benzerlerinin Türkiye'yi etkileyen değişiklikleri.
+4. `Marka ve kampanya`: kampanyalar, yaratıcı mecra vakaları, rakip marka hareketleri, ajans-marka haberleri.
+5. `Tüketici ve ekonomi`: tüketici güveni, perakende, e-ticaret, harcama davranışı, ekonomi bağlamı.
+6. `Düzenleme ve sektör`: RTÜK, Reklam Kurulu, Ticaret Bakanlığı, KVKK, dijital vergi, ajans hareketleri, etkinlikler.
+
+**Çeşitlilik kuralları:** Gün içinde mümkünse en az 4 katmandan içerik olsun. Tek katman toplamın en fazla %40'ı olsun. Bir katmanda doğrulanmış içerik yoksa boş bırak; sayıyı doldurmak için zayıf haber ekleme. Toplam sayı sabit değildir (genelde 8-14); içeriğe göre değişir. TV yayın akışı haberleri tek başına gündemi doldurmasın, `Medya tüketimi ve izleyici` ve `Marka ve kampanya` katmanlarına sayılır.
+
+**İki kademe:**
+- **Ana haberler (`tier: "main"`, 5-8 adet):** Tam kart. `articles` alanına yazılır, her birinde `layer` zorunludur.
+- **Kısa sinyaller (`tier: "signal"`, 4-6 adet):** Tek satırlık gelişme, kaynak ve tarih. Bülten `signals` alanına yazılır. Daha hafif teyit: https birincil veya güvenilir ikincil kaynak, yayın tarihi, söylenti olmaz. Kısa sinyal olgudur, yorum içermez.
+
+**Okuma notu ("Bu ne anlama geliyor?", `impact` alanı):** Planlama ile sınırlı değildir. Ortak stratejist gibi üç gözle, sade ve jargonsuz yaz: ajans gözü (planlama, satın alma, ölçüm), marka ve pazarlama gözü (talep, konumlandırma, fiyat, dağıtım), tüketici gözü (izleyici davranışında ne değişiyor). 2-3 cümle; genel okuyucu da anlamalı. Veri ile çıkarımı ayır ("Veri böyle, bizim okumamız şu").
+
+**Günün okuması (`dayRead`, zorunlu):** Bültenin tepesinde 4-5 cümlelik, madde işaretsiz, akıcı ve profesyonel insan diliyle yazılmış özet. Günün medya tutumu hikâyesini anlatır, haber başlıklarını art arda saymaz. Jargon yok; sensasyon yok; kesin olmayan şeyi kesin yazma.
+
+**Tutum Radarı (`attitudeRadar`, her gün, 2-4 öğe):** Günün haberlerinden okunan medya tutumu sinyalleri. Her öğe: `tag` (kısa etiket: ör. kısa video, ikinci ekran, platform güveni, fiyat duyarlılığı), `text` (en fazla 35 kelime, ne görüyoruz), `basis` (`Veri` yalnız sayısal veya ölçülmüş kaynağa dayanıyorsa; tek haber veya kulis ise `İşaret`), `recurrence` (`Yeni`, `Tekrar ediyor` önceki bültenlerde aynı etiket görüldüyse, `Tek günlük olabilir`), isteğe bağlı `refs` (ilgili haber `id`leri). Claude yazar; yazmadan önce son 5 bültenin `attitudeRadar` etiketlerine bakar. Tek haberden trend çıkarma: tek kaynaklı sinyal `İşaret` olarak etiketlenir ve kanıt gibi sunulmaz. Korelasyonu nedensellik gibi yazma.
+
+**Araştırma tarafı:** Katmanlı araştırma, `layer`, `tier` ve isteğe bağlı `attitudeTag` alanları `RESEARCH.md` içinde ChatGPT'ye verilmiştir. Katman kaynak listeleri ChatGPT araştırmasında önerilir, `state/handoff.md` bölüm 9'da güncellenir.
+
 ## 6. Haber yapısı ve editoryal standart
 
 Her haber şu yapıda olur:
 1. Başlık
 2. Veri/gelişme: Ne değişti?
 3. Kaynak, yayın tarihi ve olay tarihi
-4. Planner/buyer açısından anlamı: bütçe, reach, frequency, attention, effectiveness, measurement, targeting, brand building, performance, pricing, inventory, platform stratejisi veya izleyici davranışıyla ilişkisi
-5. Takip/aksiyon: Planner/buyer neyi takip etmeli veya değiştirmeli?
+4. Ne anlama geliyor (ajans, marka/pazarlama ve tüketici gözüyle; bölüm 5.8): bütçe, reach, frequency, attention, effectiveness, measurement, targeting, brand building, performance, pricing, inventory, platform stratejisi veya izleyici davranışıyla ilişkisi
+5. Takip/aksiyon: Ekip (ajans ve marka tarafı) neyi takip etmeli veya değiştirmeli?
 6. Counter-View: gerçek bir alternatif açıklama, metodolojik sınır veya risk (özellikle hype yaratan gelişmelerde)
 7. Gerekirse öğrenme notu (yeni kavramlar için)
 
 ### Okunabilirlik ve yazım biçimi (13 Ekim 2026 güncellemesi)
 
-Sitedeki her kart üç hızlı okuma alanıyla gösterilir: **Ne değişti?** (`body` maddeleri), **Neden önemli?** (`impact`), **Ne yapmalı?** (`action`). Bu yüzden:
+Sitedeki her kart üç hızlı okuma alanıyla gösterilir: **Ne değişti?** (`body` maddeleri), **Bu ne anlama geliyor?** (`impact`), **Ne yapmalı?** (`action`). Bu yüzden:
 - `summary`: tek cümle, en fazla ~25 kelime. Haberi bilmeyen biri için "ne oldu" sorusunu yanıtlar.
 - `body`: 2-5 madde. Her madde tek bir olgu, hedef 18, en fazla 22 kelime. Paragraf yazma, maddeye birden fazla bilgi sıkıştırma. En önemli olgu ilk maddede. İlk 3 madde kartta görünür, gerisi "Detay" altına iner.
 - Sayı, tarih ve saat varsa maddenin başına yakın yaz; kaynağı belirsizse belirt.
@@ -201,6 +227,7 @@ Kurallar:
 Uygun olduğunda şu bölümleri kullan; anlamlı doğrulanmış içerik yoksa kısa bir durum satırı ver veya bölümü ekleme, dolgu haber üretme:
 
 1. Başlık (günün gündemine göre), özet, tarama penceresi, sürüm (tam/seçki)
+1b. Günün okuması (`dayRead`) ve Tutum Radarı (`attitudeRadar`)
 2. Dijital gündem şeridi (`social`, bölüm 5.6) ve Media Guru'larından Notlar paneli (`gurus`, bölüm 5.7)
 3. Türkiye: TV & Entertainment, Rakip Marka Gelişmeleri, Ajans & Marka, diğer yerel gelişmeler
 3. Global
@@ -214,11 +241,11 @@ Uygun olduğunda şu bölümleri kullan; anlamlı doğrulanmış içerik yoksa k
 11. Kapanış: günün en önemli gelişmesi, detaylı okumaya değer içerik, Watchlist, önemli eksik/doğrulanamayan bilgiler (limitations), düzeltmeler (corrections)
 12. "Öneri:" satırı: yalnız medya düşüncesini gerçekten geliştirecek, mevcut akışta olmayan ve kalıcı bölüme dönüşmeye değer somut bir fikir varsa, tek cümle. Anlamlı öneri yoksa bu satırı ekleme. Öneriyi görev veya bülten yapısına kendiliğinden ekleme; kullanıcı açıkça onaylarsa eklenir.
 
-Her haber için kategori yalnız şu değerlerden biri olur: TV & Entertainment, Dijital & AI, Ölçüm & Araştırma, Ajans & Marka, Rekabet, Spor, Sinema, Yaratıcı Mecra, Etkinlik. Bölge: Türkiye veya Global. Her kaynakta doğrudan HTTPS URL, yayın tarihi, ülke ve dil ver.
+Her ana haberde (22 Ekim'den itibaren) `layer` yalnız bölüm 5.8'deki 6 değerden biri olur. Her haber için kategori yalnız şu değerlerden biri olur: TV & Entertainment, Dijital & AI, Ölçüm & Araştırma, Ajans & Marka, Rekabet, Spor, Sinema, Yaratıcı Mecra, Etkinlik. Bölge: Türkiye veya Global. Her kaynakta doğrudan HTTPS URL, yayın tarihi, ülke ve dil ver.
 
 Sürüm: tam günlük kapsam araştırıldıysa `edition: "daily"`; gerçekten kısmi taramaysa `edition: "selection"` ve eksikleri `limitations` içinde açıkça yaz.
 
-JSON alan eşleşmesi: öne çıkanlar `highlights`, Watchlist `watchlist`, eksikler `limitations`, düzeltmeler `corrections`, "Öneri:" satırı `proposal` (anlamlı öneri yoksa alanı hiç ekleme), etiketler (Kulis, Gecikmeli fakat önemli, Kanal teyitli vb.) `label`, öğrenme notu `learning`.
+JSON alan eşleşmesi: günün okuması `dayRead`, Tutum Radarı `attitudeRadar` {note, items[{tag,text,basis,recurrence,refs}]}, kısa sinyaller `signals` [{layer,region,text,source,url,published}], ana haberde `layer`; öne çıkanlar `highlights`, Watchlist `watchlist`, eksikler `limitations`, düzeltmeler `corrections`, "Öneri:" satırı `proposal` (anlamlı öneri yoksa alanı hiç ekleme), etiketler (Kulis, Gecikmeli fakat önemli, Kanal teyitli vb.) `label`, öğrenme notu `learning`.
 
 ## 8. Yayın öncesi kalite kontrolü
 
@@ -232,7 +259,8 @@ Yayımlamadan önce kontrol et:
 - Önceki TV takvimi ile gerçekleşen yayınların karşılaştırılması
 - Türkiye/Global ayrımı ve coğrafi çeşitlilik
 - Veri/yorum ayrımı
-- Her önemli haberde somut planlama etkisi
+- Her ana haberde somut etki (ajans, marka ve tüketici gözü), jargonsuz
+- 22 Ekim'den itibaren: her ana haberde `layer`; en az 4 katman, tek katman en fazla %40; `signals` 4-6 adet; `dayRead` ve `attitudeRadar` var; Tutum Radarı'nda `basis` ve `recurrence` dürüst
 - Biçim: `summary` tek cümle, `body` maddeleri en fazla 22 kelime, `action` tek somut cümle
 - Bölüm 4.1: TV durumu resmî kaynakla mı, maç yayıncısı resmî/iki bağımsız kaynakla mı, rakip şirket sayfaları kontrol edildi mi
 - Görseller haberin konusuyla ilgili, kredili ve doğrudan https adresli; `social` öğelerinde metrikler kaynaklı ve uydurma değil

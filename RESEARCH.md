@@ -37,6 +37,19 @@ Başlamadan önce `state/handoff.md` dosyasını oku: pencere başlangıcı, TV 
 - TV'de "Fiilen yayında" yalnız resmî akış veya bölüm arşiviyle.
 - Sayı, tarih ve saatleri tahminle doldurma. Doğrulanamayanı `limitations` içine yaz.
 
+## Katmanlı haber seçimi ve kısa sinyaller (22 Ekim 2026'dan itibaren, kullanıcı kararı)
+
+Haberleri "o gün kim ne yayımladı"ya göre değil, 6 katmana göre ara ve seç. Tam kurallar `PROMPT.md` 5.8'de.
+
+Katmanlar (`layer`): `Medya tüketimi ve izleyici`, `Reklam pazarı ve para`, `Platform ve ürün`, `Marka ve kampanya`, `Tüketici ve ekonomi`, `Düzenleme ve sektör`.
+
+- Her `items[]` kaydına `layer` ve `tier` ekle. `tier: "main"` (ana haber, 5-8 adet, tam `facts`) veya `tier: "signal"` (kısa sinyal, 4-6 adet, tek `facts` maddesi yeter).
+- Gün içinde mümkünse en az 4 katmandan içerik getir; tek katman toplamın en fazla %40'ı olsun. TV yayın akışı haberleri tek başına gündemi doldurmasın. Bir katmanda doğrulanmış içerik yoksa boş bırak ve `limitations` içine "X katmanında yeni içerik bulunamadı" yaz; dolgu haber ekleme.
+- Toplam sayı sabit değil: genelde 8-14. Zayıf haberle sayı doldurma.
+- Katman başına önerilen kaynaklar: tüketim için Netflix Tudum, YouTube, DataReportal, GWI, TÜİK, BTK, Reuters Digital News Report, Google Trends; reklam pazarı için Reklamcılar Derneği, IAB Türkiye, şirket çeyrek sonuçları; düzenleme için RTÜK, Reklam Kurulu, Ticaret Bakanlığı, Resmî Gazete; tüketici için TÜİK, TCMB tüketici güven endeksi, e-ticaret ve perakende dernekleri. Erişemediğin kaynağı `accessLog` ve `limitations` içine yaz.
+- Kısa sinyal en az bir https birincil veya güvenilir ikincil kaynak ve yayın tarihi taşır. `rumor` olamaz.
+- İsteğe bağlı `attitudeTag`: haberin gösterdiği medya tutumunu 1-3 kelimeyle yaz (ör. "kısa video", "ikinci ekran", "fiyat duyarlılığı"). Yorum ve Tutum Radarı'nı Claude yazar; sen yalnız etiket öner.
+
 ## TV dizi takvimi güncellemesi (her gün, 21 Ekim 2026'dan itibaren)
 
 Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv-takvim.json` dosyasıdır. Bu dosyayı sen değiştirme, yalnız oku. Önerilerini paketin `tvTableUpdates` alanına yaz. Claude teyit eder ve dosyaya işler.
@@ -129,6 +142,7 @@ Her gün şu araştırmacıların yeni çalışmalarını kontrol et: **Byron Sh
 - Dosya: `research/YYYY-MM-DD.json`
 - Biçim: `schema/research.example.json`. Alan adlarını değiştirme.
 - `facts`: her madde tek olgu, en fazla 22 kelime. Paragraf yazma.
+- `layer` ve `tier` (22 Ekim'den itibaren zorunlu): yukarıdaki "Katmanlı haber seçimi" bölümü.
 - `impactDraft`, `actionDraft`, `counterViewDraft` isteğe bağlıdır; yazarsan kısa tut. Son metni Claude yazar.
 - `accessLog`: açmayı denediğin her resmî kaynak ve sonucu. Bu kayıt, Claude'un hangi bilgiyi yeniden teyit edeceğini belirler.
 - Görsel: haberin kaynak sayfasındaki ana görselin doğrudan https adresi, kredisi ve kaynak sayfası. Görsel üretme.

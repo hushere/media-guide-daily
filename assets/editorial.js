@@ -39,6 +39,7 @@ if(gurus){gurus.classList.add('agenda-panel','guru-panel');addPanelToggle(gurus,
 if(row.children.length===1)row.classList.add('single-panel');
 if(row.children.length===3)row.classList.add('triple-panel');
 gallery.before(row);
+var brief=main.querySelector('.day-brief');if(brief)row.before(brief);
 function addPanelToggle(panel,head,label){
  var button=document.createElement('button');button.type='button';button.className='panel-expand';button.textContent='Genişlet ↗';button.setAttribute('aria-label',label);button.setAttribute('aria-expanded','false');head.appendChild(button);
  button.addEventListener('click',function(){var expanded=panel.classList.toggle('panel-expanded');button.setAttribute('aria-expanded',String(expanded));button.textContent=expanded?'Daralt ↙':'Genişlet ↗';button.setAttribute('aria-label',expanded?'Paneli daralt':label)});

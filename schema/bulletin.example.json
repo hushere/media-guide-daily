@@ -22,6 +22,7 @@
       "title": "Altı Üstü İstanbul: 12 Ekim dönüşü ATV akışında teyitli",
       "region": "Türkiye",
       "category": "TV & Entertainment",
+      "layer": "Altı katmandan biri",
       "market": "Türkiye",
       "eventDate": "12 Ekim 2026, 20.00 (planlanan yayın)",
       "label": "Kanal teyitli",
@@ -135,5 +136,30 @@
     "open": [
       "Hafta içinde açılan ve hâlâ sonuçlanmamış konu"
     ]
-  }
+  },
+  "dayRead": "4-5 cümlelik, akıcı, jargonsuz günün okuması (22 Ekim'den itibaren zorunlu).",
+  "attitudeRadar": {
+    "note": "İsteğe bağlı kısa not: sinyallerin neyi ölçtüğü/ölçmediği.",
+    "items": [
+      {
+        "tag": "kısa etiket",
+        "text": "En fazla 35 kelime: ne görüyoruz.",
+        "basis": "Veri | İşaret",
+        "recurrence": "Yeni | Tekrar ediyor | Tek günlük olabilir",
+        "refs": [
+          "ilgili-haber-id"
+        ]
+      }
+    ]
+  },
+  "signals": [
+    {
+      "layer": "Altı katmandan biri",
+      "region": "Türkiye | Global",
+      "text": "Tek satırlık olgu, en fazla 30 kelime.",
+      "source": "Kaynak adı",
+      "url": "https://...",
+      "published": "2026-10-22"
+    }
+  ]
 }

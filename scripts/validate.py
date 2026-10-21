@@ -25,6 +25,7 @@ CATEGORIES = {
     "TV & Entertainment", "Dijital & AI", "Ölçüm & Araştırma", "Ajans & Marka",
     "Rekabet", "Spor", "Sinema", "Yaratıcı Mecra", "Etkinlik",
 }
+LAYERS = {"Medya tüketimi ve izleyici", "Reklam pazarı ve para", "Platform ve ürün", "Marka ve kampanya", "Tüketici ve ekonomi", "Düzenleme ve sektör"}
 REGIONS = {"Türkiye", "Global"}
 EDITIONS = {"daily", "selection"}
 STATUSES = {"draft", "published"}
@@ -125,6 +126,65 @@ def validate(path: Path, data: dict) -> list:
                 if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
                     errs.append(f"{tag}: url https:// ile başlamalı")
 
+    gate = str(data.get("date", "")) >= "2026-10-22"  # katman, günün okuması, tutum radarı: 22 Ekim 2026'dan itibaren zorunlu
+    if gate:
+        if not nonempty_str(data.get("dayRead")):
+            errs.append("dayRead (Günün okuması) zorunlu")
+        elif len(data["dayRead"].split()) > 110:
+            errs.append("dayRead en fazla ~110 kelime olmalı (4-5 cümle)")
+    elif data.get("dayRead") is not None and not nonempty_str(data.get("dayRead")):
+        errs.append("dayRead boş olamaz")
+    ar = data.get("attitudeRadar")
+    if gate and ar is None:
+        errs.append("attitudeRadar (Tutum Radarı) zorunlu")
+    if ar is not None:
+        if not isinstance(ar, dict) or not isinstance(ar.get("items"), list) or not ar["items"]:
+            errs.append("attitudeRadar {note, items[]} biçiminde ve boş olmayan olmalı")
+        else:
+            if not 2 <= len(ar["items"]) <= 4:
+                errs.append("attitudeRadar.items 2-4 öğe olmalı")
+            for i, it in enumerate(ar["items"]):
+                tag = f"attitudeRadar.items[{i}]"
+                for k in ("tag", "text"):
+                    if not nonempty_str(it.get(k)):
+                        errs.append(f"{tag}: {k} eksik")
+                if len(str(it.get("text", "")).split()) > 35:
+                    errs.append(f"{tag}: text 35 kelimeyi aşıyor")
+                if it.get("basis") not in ("Veri", "İşaret"):
+                    errs.append(f"{tag}: basis 'Veri' veya 'İşaret' olmalı")
+                if it.get("recurrence") not in ("Yeni", "Tekrar ediyor", "Tek günlük olabilir"):
+                    errs.append(f"{tag}: recurrence 'Yeni', 'Tekrar ediyor' veya 'Tek günlük olabilir' olmalı")
+                if "refs" in it and (not isinstance(it["refs"], list) or not all(nonempty_str(x) for x in it["refs"])):
+                    errs.append(f"{tag}: refs metin listesi olmalı")
+    sg = data.get("signals")
+    if gate and sg is None:
+        errs.append("signals (Kısa sinyaller) zorunlu")
+    if sg is not None:
+        if not isinstance(sg, list):
+            errs.append("signals liste olmalı")
+        else:
+            if len(sg) > 6:
+                errs.append("signals en fazla 6 öğe olmalı")
+            if gate and len(sg) < 4:
+                print(f"UYARI {path.name}: signals {len(sg)} öğe (hedef 4-6); eksiği limitations içinde belirt")
+            for i, it in enumerate(sg):
+                tag = f"signals[{i}]"
+                for k in ("layer", "region", "text", "source", "url", "published"):
+                    if not nonempty_str(it.get(k)):
+                        errs.append(f"{tag}: {k} eksik")
+                if it.get("layer") not in LAYERS:
+                    errs.append(f"{tag}: layer geçersiz")
+                if it.get("region") not in REGIONS:
+                    errs.append(f"{tag}: region 'Türkiye' veya 'Global' olmalı")
+                if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
+                    errs.append(f"{tag}: url https:// ile başlamalı")
+                if len(str(it.get("text", "")).split()) > 30:
+                    errs.append(f"{tag}: text 30 kelimeyi aşıyor")
+    if gate:
+        layers_seen = {a.get("layer") for a in data["articles"] if isinstance(a, dict)} | {x.get("layer") for x in (sg or []) if isinstance(x, dict)}
+        if len(layers_seen & LAYERS) < 4:
+            print(f"UYARI {path.name}: yalnız {len(layers_seen & LAYERS)} katman var (hedef en az 4); limitations içinde açıkla")
+
     wk = data.get("weekly")
     if wk is not None:
         if not isinstance(wk, dict) or not isinstance(wk.get("items"), list) or not wk["items"]:
@@ -157,6 +217,8 @@ def validate(path: Path, data: dict) -> list:
             errs.append(f"{tag}: id yalnız küçük harf, rakam ve tire içermeli")
         if a["category"] not in CATEGORIES:
             errs.append(f"{tag}: geçersiz category: {a['category']}")
+        if gate and a.get("layer") not in LAYERS:
+            errs.append(f"{tag}: layer şunlardan biri olmalı: {sorted(LAYERS)}")
         if a["region"] not in REGIONS:
             errs.append(f"{tag}: region 'Türkiye' veya 'Global' olmalı")
         for k in ("title", "summary", "impact", "action", "counterView", "market", "eventDate"):
