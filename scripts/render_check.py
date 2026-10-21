@@ -68,6 +68,15 @@ def main():
                 page.goto(f"http://127.0.0.1:{port}/?tarih={date}")
                 page.wait_for_timeout(2500)
                 cards = page.locator("#articles article.card").count()
+                if cards == 0:
+                    # 20 Ekim 2026 tasarımı: haberler kare kapak galerisinde (.story-cover) gösterilir
+                    cards = page.locator(".story-cover").count()
+                    if cards:
+                        page.locator(".story-cover").first.click()
+                        page.wait_for_timeout(500)
+                        if not page.locator(".story-dialog-content").inner_text().strip():
+                            problems.append(f"{name}: haber penceresi boş açılıyor")
+                        page.keyboard.press("Escape")
                 over = page.evaluate("document.documentElement.scrollWidth") - width
                 if errors:
                     problems.append(f"{name}: JavaScript hatası: {errors[0][:160]}")

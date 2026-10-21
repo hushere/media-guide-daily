@@ -1,0 +1,483 @@
+{
+  "date": "2026-10-21",
+  "title": "Netflix reklam beklentisini 2,7 milyar dolara indirdi; bu akşam TRT 1'de Lille–Galatasaray",
+  "summary": "Netflix 2026 reklam geliri beklentisini 3 milyar dolardan 2,7 milyar dolara çekti ve reklamlı paketi 2027'de 15 yeni ülkeye açacağını açıkladı. Bu akşam TRT 1'de 19.45'te Lille–Galatasaray, ATV'de 20.00'de Var Mısın Yok Musun var; Sevdam Karadeniz için erken final kulisi dolaşıyor. IAB'nin ölçüm rehberi görüşe açıldı.",
+  "edition": "selection",
+  "window": "20 Ekim 2026 07:40 – 21 Ekim 2026 07:41 TSİ (ChatGPT paketi); Claude teyit ve yazım 21 Ekim 2026 08:55 TSİ",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-21T08:55+03:00",
+    "summary": "ChatGPT paketi şema açısından geçerli. Claude'un doğrudan sayfa açma aracı resmî akışlarda yine izin zaman aşımına uğradı (TRT 1 akışı); Netflix rakamları SEC'deki 8-K hissedar mektubundan bağımsız olarak teyit edildi (2,7 milyar dolar, ~3 milyar önceki, 15 ülke, Mart 2027 ilk dalga) ve kartta Mart 2027 bilgisi eklendi. Sevdam Karadeniz final iddiası ve Spotify kampanyası aramada ikinci kaynakla teyit edilemedi; sırasıyla 'Kulis' ve 'Tek kaynak' etiketiyle tutuldu. Maç saat/yayıncıları paketteki resmî kaynaklara (TRT 1, UEFA, kulüpler, S Sport Plus) dayanıyor; Claude arama sonuçlarıyla bağımsız teyit bulamadı, olduğu gibi aktarıldı. Var Mısın kartı akşam akışı (yeni bölüm/tekrar ayrımı) ile genişletildi. İçerik çıkarılmadı."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım",
+    "note": "research/2026-10-21.json (ChatGPT, 07:30 başladı, 07:41 cutoff) doğrulanarak yayımlandı."
+  },
+  "articles": [
+    {
+      "id": "netflix-q3-reklam-beklentisi",
+      "title": "Netflix 2026 reklam geliri beklentisini 3 milyar dolardan 2,7 milyar dolara indirdi",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "Global",
+      "eventDate": "20 Ekim 2026 (Q3 hissedar mektubu)",
+      "label": "Resmî açıklama",
+      "summary": "Netflix, Q3 hissedar mektubunda 2026 reklam geliri beklentisini yaklaşık 3 milyar dolardan yaklaşık 2,7 milyar dolara düşürdü.",
+      "body": [
+        "Yeni 2026 beklentisi yaklaşık 2,7 milyar dolar; önceki beklenti yaklaşık 3 milyar dolardı.",
+        "Gerekçe: bazı reklam ürünü kabiliyetlerinin beklenenden yavaş devreye girmesi (şirket beyanı).",
+        "Programatik ortaklar: Latin Amerika'da Mercado Libre, EMEA'da Adform.",
+        "Reklamlı paket 2027'de 15 yeni ülkeye açılacak; ilk dalga Mart 2027.",
+        "Mektup Türkiye'yi açılış ülkeleri arasında saymıyor."
+      ],
+      "impact": "CTV'de büyüme hikâyesi sürüyor ama ürün takvimi gecikebiliyor; ölçüm ve hedefleme vaatlerini teklif anında doğrulamak gerekiyor.",
+      "action": "Netflix tekliflerinde ürünün devreye giriş tarihini, DSP erişimini ve raporlama kapsamını yazılı olarak teyit edin.",
+      "counterView": "Revizyon reklam talebinde düşüş kanıtı değil, ürün takvimine bağlanıyor. Rakam şirket öngörüsüdür, gerçekleşmiş sonuç değildir.",
+      "sources": [
+        {
+          "name": "Netflix • Q3 2026 hissedar mektubu",
+          "url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+          "published": "2026-10-20",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "SEC • Netflix 8-K, Q3 2026 hissedar mektubu (Ek 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065280/000106528026000290/ex991_q326.htm",
+          "published": "2026-10-20",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "var-misin-carsamba-teyidi",
+      "title": "Bu akşam: TRT 1'de Lille–Galatasaray, ATV'de Var Mısın Yok Musun",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "21 Ekim 2026, 19.45 ve 20.00 (plan)",
+      "label": "Kanal teyitli",
+      "summary": "ATV, Var Mısın Yok Musun'u 21 Ekim çarşamba 20.00'de akışa aldı; TRT 1'de 19.45'te Lille–Galatasaray var.",
+      "body": [
+        "Önceki bilgi: Var Mısın'ın çarşamba düzeni teyitsizdi (20 Ekim devir notu).",
+        "Güncel durum: ATV akışı ve program sayfası 21 Ekim 20.00 yayınını gösteriyor.",
+        "20 Ekim salı yayınının gerçekleştiği resmî arşivde görülmedi; son arşiv kaydı 14 Ekim.",
+        "Aynı saatte yeni bölüm planı: Sevdan Bir Ateş (Show), Yeraltı (NOW), MasterChef (TV8).",
+        "Uzak Şehir (Kanal D) ve Star TV 20.00 kuşağı tekrar/sinema; TRT 1 21.55 Taşacak Bu Deniz tekrar."
+      ],
+      "impact": "Şampiyonlar Ligi maçı 19.45-21.45 arasında prime time izleyicisini bölebilir; tekrar kuşakları rakip kanallarda daha zayıf ortam sunar.",
+      "action": "Bu akşamki spotlarda maç ve yeni bölüm kuşaklarını ayırın; tekrar kuşağına giden yerleşimleri yeniden değerlendirin.",
+      "counterView": "Akış ve tanıtım yayın niyetini gösterir; yayının gerçekleştiğini veya izleyici performansını kanıtlamaz.",
+      "sources": [
+        {
+          "name": "ATV • Yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "2026-10-21 tarihli akış; sayfa dinamik",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ATV • Var Mısın Yok Musun",
+          "url": "https://www.atv.com.tr/var-misin-yok-musun",
+          "published": "21 ve 20 Ekim 2026 tarihli tanıtımlar; kontrol 2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "TRT 1 • Yayın akışı (ChatGPT kontrolü)",
+          "url": "https://www.trt1.com.tr/yayin-akisi",
+          "published": "21 Ekim 2026 akışı; kontrol 21 Ekim",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Show TV • Yayın akışı",
+          "url": "https://www.showtv.com.tr/yayin-akisi",
+          "published": "21 Ekim 2026 akışı; kontrol 21 Ekim",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "sevdam-karadeniz-final-kulisi",
+      "title": "Kulis: Sevdam Karadeniz için 4. bölümde final iddiası",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "20 Ekim 2026 (iddianın yayımlanması); final tarihi teyitsiz",
+      "label": "Kulis",
+      "summary": "Birsen Altuntaş, NOW'ın yeni dizisi Sevdam Karadeniz'in 4. bölümde final yapacağını yazdı; kanal kararı resmî kaynakta görünmüyor.",
+      "body": [
+        "İddia: Dizi 4. bölümde final yapacak (Birsen Altuntaş, 20 Ekim 12.54).",
+        "Resmî durum: NOW bölüm arşivinde 2. bölüm mevcut; final duyurusu yok.",
+        "Kopya haberler bağımsız teyit sayılmadı; Claude'un aramasında da resmî teyit çıkmadı.",
+        "Dizi pazartesi 20.00 kuşağında yayınlanıyor."
+      ],
+      "impact": "Erken final, pazartesi 20.00 NOW kuşağında Kasım başından itibaren program değişikliği anlamına gelir.",
+      "action": "Sevdam Karadeniz'e bağlı pazartesi alımlarını 4. bölüm sonrası için esnek tutun ve NOW'dan yerine gelecek yapımı sorun.",
+      "counterView": "Kulis bilgisi geri dönebilir; kanal dizi saatini veya gününü değiştirip yayına devam edebilir.",
+      "sources": [
+        {
+          "name": "Birsen Altuntaş • Sevdam Karadeniz için final kararı",
+          "url": "https://www.birsenaltuntas.com/dizi/sevdam-karadeniz-dizisi-icin-final-karari-alindi/78576/",
+          "published": "2026-10-20 12:54",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "NOW • Sevdam Karadeniz bölümleri",
+          "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolumler",
+          "published": "Tarihsiz dinamik arşiv; kontrol 2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "karun-hazinesi-netflix-turkiye",
+      "title": "Organize İşler: Karun Hazinesi, Netflix Türkiye haftalık dizi listesinde birinci",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "market": "Türkiye",
+      "eventDate": "12-18 Ekim 2026 (liste dönemi)",
+      "label": "Platform verisi",
+      "summary": "Yılmaz Erdoğan'ın 8 bölümlük dizisi Organize İşler: Karun Hazinesi, Netflix Türkiye'nin 12-18 Ekim dizi listesinde ilk sırada.",
+      "body": [
+        "1. sıra: Netflix Türkiye haftalık dizi listesi, 12-18 Ekim.",
+        "Netflix başlık sayfası 2026 yapımı ve 8 bölüm gösteriyor; 2019 filmiyle karıştırılmamalı.",
+        "Başrollerde Yılmaz Erdoğan, Kıvanç Tatlıtuğ ve Demet Akbağ.",
+        "Planlanan 16 Ekim çıkışı listeyle uyumlu; kesin ilk yayın saati sayfada yok."
+      ],
+      "impact": "Yerli yapım, ilk haftasında platformun en çok izlenen dizisi oldu; yerli içerik çevresindeki dijital konuşma ve sosyal içerik fırsatlarını artırabilir.",
+      "action": "Dizi çevresindeki sosyal konuşmayı ve olası marka iş birliklerini bu hafta izleyin.",
+      "counterView": "Sıra platform içi popülerlik göstergesidir; izlenme adedi, erişim veya reklam görünürlüğü değildir.",
+      "sources": [
+        {
+          "name": "Netflix Tudum • Türkiye Top 10 diziler",
+          "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+          "published": "Liste dönemi 2026-10-12–18; yayın saati belirtilmiyor; kontrol 2026-10-21",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Netflix • Money Trap: The Karun Treasure",
+          "url": "https://www.netflix.com/title/82047949",
+          "published": "2026 yapımı; sayfa yayın günü yok; kontrol 2026-10-21",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://occ-0-3012-116.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABS1xypmieL5Wm53VhMg90xtc3hxC8gWO2165UzGABARS61psTykbweStjbDZu3Xw4U3jz98SvIbii97STNCyYl8--LmuQ64Y.png?r=5ff",
+        "alt": "Karun Hazinesi resmî Netflix tanıtım görseli",
+        "credit": "Netflix",
+        "sourceUrl": "https://www.netflix.com/title/82047949"
+      }
+    },
+    {
+      "id": "spotify-gunu-baska-yasa",
+      "title": "Spotify'dan \"Günü başka yaşa\": gündelik anlara üç film",
+      "region": "Türkiye",
+      "category": "Ajans & Marka",
+      "market": "Türkiye",
+      "eventDate": "20 Ekim 2026 (haber); kampanyanın ilk yayın tarihi belirtilmiyor",
+      "label": "Tek kaynak",
+      "summary": "Spotify, Muhabbet ajansıyla gündelik anları tanınmış Türkçe şarkılarla eşleştiren üç filmlik \"Günü başka yaşa\" kampanyasını hazırladı.",
+      "body": [
+        "Kampanya 3 filmden oluşuyor; yaratıcı ajans Muhabbet (MediaCat, 20 Ekim).",
+        "Yönetmen Yiğit Karagöz; prodüksiyon RIDERS.",
+        "Filmler yolculuk ve ev içi anları Türkçe şarkılarla ilişkilendiriyor.",
+        "Marka veya ajansın ayrı birincil duyurusu bulunamadı."
+      ],
+      "impact": "Yayın platformları kullanım anlarını öne çıkararak günlük alışkanlık iletişimine yöneliyor; ses ve müzik bağlamı marka iletişiminde rekabet alanı.",
+      "action": "Kampanyanın mecra dağılımını (TV, dijital video, OOH) MediaCat ve Spotify kanallarından takip edin.",
+      "counterView": "Tek sektör kaynağına dayanıyor; mecra planı, bütçe ve yayın tarihi açıklanmadı.",
+      "sources": [
+        {
+          "name": "MediaCat • Günü başka yaşa",
+          "url": "https://mediacat.com/gunu-baska-yasa/",
+          "published": "2026-10-20",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.mediacat.com/uploads/2026/10/spotify-1-1252x704.jpg",
+        "alt": "Spotify Günü başka yaşa kampanya görseli",
+        "credit": "Spotify / MediaCat",
+        "sourceUrl": "https://mediacat.com/gunu-baska-yasa/"
+      }
+    },
+    {
+      "id": "thetech-2026-takvim",
+      "title": "THETECH 2026, 1-2 Aralık'ta İstanbul'da",
+      "region": "Türkiye",
+      "category": "Etkinlik",
+      "market": "Türkiye",
+      "eventDate": "1-2 Aralık 2026 (etkinlik)",
+      "label": "Düzenleyici duyurusu",
+      "summary": "Marketing Türkiye ve Deloitte, THETECH 2026'yı 1-2 Aralık'ta Wyndham Grand İstanbul Levent'te düzenleyecek.",
+      "body": [
+        "Tarih: 1-2 Aralık 2026; mekân Wyndham Grand İstanbul Levent.",
+        "Düzenleyenler Marketing Türkiye ve Deloitte.",
+        "6 sahnede pazarlama analitiği ve e-ticaret gibi konular işlenecek.",
+        "Haberin kesin yayın tarihi sayfada görünmüyor (\"3 saat önce\")."
+      ],
+      "impact": "Pazarlama teknolojisi ve analitik gündemi için yılın son büyük yerel buluşmalarından biri.",
+      "action": "Ölçüm ve e-ticaret oturumlarını ekip takvimine ekleyin.",
+      "counterView": "Etkinlik içeriği ve konuşmacılar henüz netleşmemiş olabilir; değer program açıklanınca değerlendirilmeli.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • THETECH 2026 duyurusu",
+          "url": "https://www.marketingturkiye.com.tr/haberler/teknolojiyi-konusma-donemi-bitti-simdi-sira-aksiyonda/",
+          "published": "Kesin yayın tarihi görünmüyor; sayfa “3 saat önce”; kontrol 2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-19-at-17.30.04-800x450.jpeg",
+        "alt": "THETECH 2026 etkinlik duyurusu",
+        "credit": "Marketing Türkiye / THETECH",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/teknolojiyi-konusma-donemi-bitti-simdi-sira-aksiyonda/"
+      }
+    },
+    {
+      "id": "iab-cross-channel-karar-rehberi",
+      "title": "IAB, kanallar arası ölçüm karar rehberini görüşe açtı",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "market": "ABD / Global",
+      "eventDate": "20 Ekim 2026",
+      "label": "Resmî açıklama",
+      "summary": "IAB, MMM, artımsallık testleri ve attribution sonuçlarını birlikte yorumlamaya yönelik rehberi 4 Kasım'a kadar kamu görüşüne açtı.",
+      "body": [
+        "Görüş bildirme son tarihi 4 Kasım 2026.",
+        "Amaç: MMM, artımsallık ve attribution sonuçlarını karar bağlamında birlikte değerlendirmek.",
+        "Üç bileşen: Decision Guide, Decision Navigator, Reference Library.",
+        "Rehberin tam metni araştırmada açılamadı; ayrıntılar incelenmedi."
+      ],
+      "impact": "Ölçüm yöntemleri arasındaki çelişkili sonuçları yönetmek için sektör standardı oluşma ihtimali var.",
+      "action": "Kendi MMM ve attribution raporlarınızda hangi kararın hangi yönteme dayandığını şimdiden belgeleyin.",
+      "counterView": "Rehber taslak ve ABD odaklı; bağlayıcı standart değil, Türkiye'de uygulanması zaman alabilir.",
+      "sources": [
+        {
+          "name": "IAB • Cross-Channel Measurement Decisions",
+          "url": "https://www.iab.com/news/iab-releases-cross-channel-measurement-decisions-for-public-comment/",
+          "published": "2026-10-20",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://www.iab.com/wp-content/uploads/2026/10/iab-opens-public-comment-on-new-guide-to-inform-cross-channel-measurement-decisions-1364x610.jpg",
+        "alt": "IAB kanallar arası ölçüm rehberi duyurusu",
+        "credit": "IAB",
+        "sourceUrl": "https://www.iab.com/news/iab-releases-cross-channel-measurement-decisions-for-public-comment/"
+      }
+    },
+    {
+      "id": "spar-footprints-retail-media",
+      "title": "SPAR ve Footprints AI, bağımsız perakendeciler için retail media platformu geliştirecek",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "market": "Avrupa / Global",
+      "eventDate": "20 Ekim 2026 (duyuru metni)",
+      "label": "Şirket beyanı",
+      "summary": "SPAR International ve Footprints AI, SPAR lisans sahiplerinin kullanacağı ortak bir retail media pazaryeri geliştirmek için ortaklık açıkladı.",
+      "body": [
+        "Ortaklık, bağımsız perakendeciler için medya pazaryeri geliştirmeyi hedefliyor.",
+        "Platformun SPAR lisans sahiplerine sunulması planlanıyor.",
+        "Planlama, satın alma, optimizasyon ve ölçüm tek platformda toplanacak.",
+        "Duyuru Bükreş tarihli; liste sayfası 19 Ekim gösteriyor."
+      ],
+      "impact": "Retail media büyük zincirlerden lisanslı/bağımsız perakende ağlarına yayılıyor; FMCG markaları için yeni envanter ve ölçüm kaynağı.",
+      "action": "Retail media planlarında ağların ölçüm yöntemini ve mağaza içi veriyle eşleşme kapsamını sorgulayın.",
+      "counterView": "Satıcı beyanı; ülke kapsamı, takvim ve bağımsız sonuç ölçümü açıklanmadı.",
+      "sources": [
+        {
+          "name": "Footprints AI • SPAR International ortaklığı",
+          "url": "https://www.footprints-ai.com/blog-articles/spar-international-and-footprints-ai-increase-consumer-connections",
+          "published": "2026-10-20 (metin tarihi; listelemede 19 Ekim)",
+          "country": "Romanya",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "kitkat-phone-break-vml",
+      "title": "Yaratıcı mecra: KitKat \"Phone Break\" ekran molasını ekran dışı mecrada anlattı",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "market": "Çekya",
+      "eventDate": "2025 (arşiv vaka)",
+      "label": "Arşiv vakası",
+      "summary": "VML Czechia, KitKat için telefon tutma hareketlerinde telefonun yerine KitKat koyan açık hava ve basın kampanyası yaptı.",
+      "body": [
+        "Marka KitKat (Nestlé), ajans VML Czechia, Çekya, 2025.",
+        "Fikir: Gündelik telefon tutma pozlarında telefonun yerini KitKat alıyor.",
+        "Mecra: açık hava (metro) ve basın; ajans dijital medya harcaması yapılmadığını belirtiyor.",
+        "Neden çalıştı: \"mola\" mesajı ekranın dışında, telefona bakılan anlarda karşılaşılıyor.",
+        "Uyarlama: Metro ve durak alanlarında atıştırmalık için \"ekransız mola\" kreatifi."
+      ],
+      "impact": "Mecra seçimi mesajın kendisi: dijital molayı anlatan marka dijitale para harcamıyor; bu tutarlılık fikri güçlendiriyor.",
+      "action": "Metro ve bekleme alanlarında, telefon kullanım anına denk gelen bir mola mesajını brif olarak değerlendirin.",
+      "counterView": "Sonuçlar ajans beyanı, bağımsız doğrulanmadı; fikir görselde güçlü ama mecradan bağımsız kalma riski taşıyor. Tartışma: Bu ekran molası fikri hangi atıştırmalık kategorisine uyarlanabilir?",
+      "sources": [
+        {
+          "name": "VML • Phone Break",
+          "url": "https://www.vml.com/work/phone-break",
+          "published": "2025 kampanyası; sayfanın kesin yayın günü belirtilmiyor",
+          "country": "Çekya",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://res.cloudinary.com/dotcom-prod/images/ar_16%3A9%2Cc_fill%2Cf_auto%2Cg_faces%3Acenter%2Cq_auto%2Cw_1440/v1/wt-cms-assets/2025/04/yrrnawphvxsy93l2uaex/holesovice2.jpg",
+        "alt": "KitKat Phone Break metro yerleşimi",
+        "credit": "VML / KitKat",
+        "sourceUrl": "https://www.vml.com/work/phone-break"
+      }
+    }
+  ],
+  "highlights": [
+    "Netflix 2026 reklam beklentisi ~2,7 milyar dolar (önceki ~3 milyar); reklamlı paket 2027'de 15 yeni ülkede.",
+    "Bu akşam TRT 1 19.45 Lille–Galatasaray; 20.00'de ATV Var Mısın, Show TV Sevdan Bir Ateş yeni bölüm.",
+    "IAB kanallar arası ölçüm rehberi 4 Kasım'a kadar görüşe açık."
+  ],
+  "watchlist": [
+    "Sevdam Karadeniz (NOW): 4. bölüm final iddiası için kanal açıklaması.",
+    "Mehmed (TRT 1): 20 Ekim maç sonrası fiilî başlama saati hâlâ teyitsiz.",
+    "Güldür Güldür Show (Show TV): 24 Ekim cumartesi 20.00 yeni bölüm; 17 Ekim dönüşü teyitsiz.",
+    "Galatasaray–Fenerbahçe 26 Ekim pazartesi 21.30: cuma bülteninin maç dönemine girecek.",
+    "Omnicom Q3 sonuçları (22 Ekim) ve Halk TV yayın/reklam teslimatı durumu."
+  ],
+  "limitations": [
+    "TBF, EuroLeague, EuroCup, Basketball Champions League, TRT Spor ve Fenerbahçe maç merkezi açılamadı. BSL ve diğer Avrupa basketbol turnuvalarının tam dönem kontrolü tamamlanamadı; maç listesi bu açıdan kısmi.",
+    "Fiskobirlik, Mondelez Türkiye, Doğkar, Altınkılıçlar ve Lider Çikolata kaynaklarına erişilemedi; rakip kontrolünün eksikleri rivalCheck içinde.",
+    "Mehmed’in 20 Ekim fiilî başlangıcı, Var Mısın’ın 20 Ekim gerçekleşmesi ve Güldür Güldür’ün 17 Ekim ilk yayın tarihi resmî arşivden kesinleştirilemedi.",
+    "Sevdam Karadeniz final iddiası resmî teyitsiz. Kullanılacaksa Kulis etiketi korunmalı; kesin final tarihi üretilemez.",
+    "Halk TV yayın dönüşü ve reklam teslimatı teyit edilemedi; Meta Commercial Terms giriş duvarı nedeniyle okunamadı.",
+    "YouTube listesine erişilemedi; TikTok ve Spotify Charts liste verisi vermedi. Instagram/X tam taraması yapılmadı; dijital gündem üç Netflix içeriğiyle sınırlı.",
+    "IAB duyurusu okundu; bağlantılı tam rehber araç hatası nedeniyle okunamadı. SPAR ortaklık duyurusu satıcı beyanı; bağımsız sonuç ölçümü yok.",
+    "THETECH haberinin mutlak yayın tarihi görünmüyor; göreli tarih kesin zaman damgasına çevrilmedi. Netflix ülke listesinin yayın saati de belirtilmiyor.",
+    "Genel kapsamda tüm radyo, basın, ajans konkur ve düzenleme kaynakları tüketilmedi; seçilen gelişmeler tam sektör envanteri değildir.",
+    "Claude'un WebFetch aracı resmî akış sayfalarında izin zaman aşımına uğradı; TV ve maç bilgileri ChatGPT'nin resmî kaynak kontrollerine dayanıyor.",
+    "4 haberde (Netflix, Var Mısın, Sevdam Karadeniz, SPAR) doğrudan görsel eklenemedi; site kategori görselini kullanır."
+  ],
+  "corrections": [
+    "20 Ekim sayısında TS–Hearts saati ve TRT yayıncı ataması teyitsizdi; TRT 1 maç duyurusuyla 22 Ekim 19.45, TRT 1 olarak tamamlandı (ChatGPT kontrolü)."
+  ],
+  "matchesWindow": "21-25 Ekim 2026",
+  "matches": [
+    {
+      "date": "2026-10-21",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "broadcaster": "TRT 1",
+      "source": "https://www.uefa.com/uefachampionsleague/clubs/50067--galatasaray/matches/",
+      "note": "Tarih UEFA; saat ve maç bazında TRT 1 teyidi https://www.trt1.com.tr/ ve 21 Ekim akışı. Kontrol 21 Ekim."
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Hearts",
+      "broadcaster": "TRT 1",
+      "source": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/matches/",
+      "note": "Tarih UEFA; saat ve kanal https://www.trt1.com.tr/ maç duyurusu. Önceki teyitsiz saat/yayıncı güncellendi."
+    },
+    {
+      "date": "2026-10-22",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp takviminde 20.30. https://www.ssportplus.com/ 19.45 Maça Doğru yayınıdır; maç saati değildir. Derbi etiketi uygulanmadı."
+    },
+    {
+      "date": "2026-10-22",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Beşiktaş",
+      "away": "Crystal Palace",
+      "broadcaster": "TRT 1",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp tarih/saat teyidi; kanal https://www.trt1.com.tr/ . TRT kartındaki “Finali” kelimesi kullanılmadı; kulüp takvimi lig aşaması diyor."
+    },
+    {
+      "date": "2026-10-23",
+      "time": "21:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Olympiacos",
+      "away": "Fenerbahçe",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî yayıncı maç bazında 23 Ekim 21.15 gösteriyor. EuroLeague ve Fenerbahçe maç merkezi açılamadı; ikinci resmî teyit eksik."
+    },
+    {
+      "date": "2026-10-25",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "LaLiga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.fcbarcelona.com/en/football/first-team/schedule",
+      "note": "Kulüp takvimi İspanya yarımadası saati 21.00; Europe/Madrid→Europe/Istanbul dönüşümü 23.00. https://www.ssportplus.com/ 22.30 maç önü yayını; başlama saati değil. Handoff gereği Derbi etiketi yok."
+    }
+  ],
+  "social": {
+    "window": "Netflix: 12–18 Ekim 2026 haftası; kontrol 21 Ekim sabahı.",
+    "note": "Üç içerik aynı resmî Türkiye listesinden. Sıra, platform içi popülerlik göstergesidir; izlenme adedi, benzersiz erişim, sosyal konuşulma veya reklam attention ölçümü değildir. İngilizce kaynak adları korunmuştur.",
+    "items": [
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 1,
+        "title": "Money Trap: The Karun Treasure / Organize İşler: Karun Hazinesi",
+        "metric": "Netflix Türkiye haftalık dizi listesinde 1. sıra",
+        "whyItMatters": "Yerel dizi ilgisi için bağlam sinyali; sponsorlu envanter varlığı çıkarılamaz.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum — Türkiye",
+        "published": "2026-10-12–2026-10-18"
+      },
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 2,
+        "title": "Below: Limited Series",
+        "metric": "Netflix Türkiye haftalık dizi listesinde 2. sıra",
+        "whyItMatters": "Uluslararası içeriklerin Türkiye izleyici gündemindeki yerini takip etmeye yardımcı olur.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum — Türkiye",
+        "published": "2026-10-12–2026-10-18"
+      },
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 3,
+        "title": "East of Eden: Limited Series",
+        "metric": "Netflix Türkiye haftalık dizi listesinde 3. sıra",
+        "whyItMatters": "Dönem dizisi bağlamındaki içerik ilgisini izlemek için aday; demografik profil açıklanmıyor.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum — Türkiye",
+        "published": "2026-10-12–2026-10-18"
+      }
+    ]
+  }
+}
