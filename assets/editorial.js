@@ -6,7 +6,7 @@ window.mountMediaEditorial=function(b, reader){
 var main=document.getElementById('main'),host=document.getElementById('articles'),arts=b.articles||[];
 if(!arts.length)return;
 var hero=main.querySelector('.hero-copy');
-hero.innerHTML='<div class="mag-date">'+esc(b.date)+' · Daily Media Intelligence</div><h1>Medya değişiyor.<br><em>Birlikte keşfedelim.</em></h1><p class="mag-deck">Haberler, fikirler ve medya kararlarını değiştiren gelişmeler.</p><div class="mag-entry"><a href="#storyGallery">Gündemi keşfet</a>'+(main.querySelector('#tvTakvim')?'<a href="#tvTakvim">2026 TV Dizi Takvimi ↗</a>':'')+'</div>';
+hero.innerHTML='<div class="mag-date">'+esc(b.date)+'</div><h1>Medya değişiyor.<br><em>Birlikte keşfedelim.</em></h1><p class="mag-deck">Haberler, fikirler ve medya kararlarını değiştiren gelişmeler.</p><div class="mag-entry"><a href="#storyGallery">Gündemi keşfet</a>'+(main.querySelector('#tvTakvim')?'<a href="#tvTakvim">2026 TV Dizi Takvimi ↗</a>':'')+'</div>';
 var gallery=document.createElement('section');gallery.id='storyGallery';gallery.className='story-gallery';
 gallery.setAttribute('aria-label','Görsel haber dizini');
 var cats=Array.from(new Set(arts.map(function(a){return a.category})));
