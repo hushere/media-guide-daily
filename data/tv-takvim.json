@@ -1,0 +1,375 @@
+{
+ "title": "2026 TV Dizi Takvimi",
+ "updated": "2026-10-21",
+ "note": "İlk sürüm Claude tarafından 21 Ekim 2026'da hazırlandı. 14 günden eski kayıtlar (†) 16 Eylül görselinden devralındı ve yeniden teyit bekliyor.",
+ "channels": [
+  "ATV",
+  "KANAL D",
+  "STAR TV",
+  "SHOW TV",
+  "NOW",
+  "TRT 1",
+  "TV8"
+ ],
+ "entries": [
+  {
+   "channel": "ATV",
+   "day": "Pazartesi",
+   "title": "Altı Üstü İstanbul",
+   "status": "yayinda",
+   "time": "20.00",
+   "note": "Son tanıtım: 17. bölüm (19 Ekim)",
+   "checked": "2026-10-20",
+   "source": "https://www.atv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "ATV",
+   "day": "Salı",
+   "title": "Var Mısın Yok Musun",
+   "status": "kanal-teyitli",
+   "time": "20.00",
+   "note": "20 Ekim akışında da yer alıyor; haftalık gün düzeni teyit bekliyor",
+   "checked": "2026-10-21",
+   "source": "https://www.atv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "ATV",
+   "day": "Çarşamba",
+   "title": "Var Mısın Yok Musun",
+   "status": "kanal-teyitli",
+   "time": "20.00",
+   "note": "21 Ekim akış ve tanıtım teyitli",
+   "checked": "2026-10-21",
+   "source": "https://www.atv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "ATV",
+   "day": "Perşembe",
+   "title": "Güneşin Doğduğu Yer",
+   "status": "yayinda",
+   "time": "20.00",
+   "note": "Arşivde son tam bölüm: 8 Ekim (4. bölüm)",
+   "checked": "2026-10-20",
+   "source": "https://www.atv.com.tr/gunesin-dogdugu-yer/bolumler"
+  },
+  {
+   "channel": "ATV",
+   "day": "Cumartesi",
+   "title": "Mercan Köşk",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "ATV",
+   "day": "Günü belirsiz",
+   "title": "Hamal",
+   "status": "belirsiz",
+   "note": "Gün ve tarih belirsiz",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "ATV",
+   "day": "Günü belirsiz",
+   "title": "Bir Hayat Hikâyesi",
+   "status": "belirsiz",
+   "note": "Kulis: ATV iddiası, önce Star",
+   "tag": "yeni",
+   "checked": "2026-10-11"
+  },
+  {
+   "channel": "KANAL D",
+   "day": "Pazartesi",
+   "title": "Uzak Şehir",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-19",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "KANAL D",
+   "day": "Salı",
+   "title": "Haysiyet",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-20",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "KANAL D",
+   "day": "Cuma",
+   "title": "Beyaz'la Joker",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-16",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "KANAL D",
+   "day": "Cumartesi",
+   "title": "Güller ve Günahlar",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "KANAL D",
+   "day": "Pazar",
+   "title": "Daha 17",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "KANAL D",
+   "day": "Günü belirsiz",
+   "title": "Arka Sokaklar",
+   "status": "kanal-teyitli",
+   "note": "Yeni sezon tarihi açıklanmadı",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "STAR TV",
+   "day": "Salı",
+   "title": "Tuzlu Kahve",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-20",
+   "source": "https://www.startv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "STAR TV",
+   "day": "Perşembe",
+   "title": "Sevdiğim Sensin",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-15",
+   "source": "https://www.startv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "STAR TV",
+   "day": "Günü belirsiz",
+   "title": "Başkalarının Hayatı",
+   "status": "kanal-teyitli",
+   "note": "Basın: Eylül, gün belirsiz",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "SHOW TV",
+   "day": "Çarşamba",
+   "title": "Sevdan Bir Ateş",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-21",
+   "source": "https://www.showtv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "SHOW TV",
+   "day": "Perşembe",
+   "title": "Muhtemel Aşk",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "SHOW TV",
+   "day": "Cuma",
+   "title": "Kızılcık Şerbeti",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-16",
+   "source": "https://www.showtv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "SHOW TV",
+   "day": "Cumartesi",
+   "title": "Güldür Güldür Show",
+   "status": "kanal-teyitli",
+   "time": "20.00",
+   "note": "Yeni bölüm planı: 24 Ekim. 17 Ekim dönüşü teyitsiz",
+   "checked": "2026-10-21",
+   "source": "https://www.showtv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "SHOW TV",
+   "day": "Günü belirsiz",
+   "title": "Cevher",
+   "status": "kanal-teyitli",
+   "tag": "yeni",
+   "checked": "2026-10-15",
+   "source": "https://www.showtv.com.tr/dizi/haber/3920017-show-tv-den-cevher-geliyor"
+  },
+  {
+   "channel": "SHOW TV",
+   "day": "Günü belirsiz",
+   "title": "Menekşe",
+   "status": "kanal-teyitli",
+   "note": "Günlük dizi",
+   "tag": "yeni",
+   "checked": "2026-10-16",
+   "source": "https://www.showtv.com.tr/dizi/haber/3920189-show-tv-ekranlarinda-yeni-bir-gunluk-dizi-basliyor-menekse"
+  },
+  {
+   "channel": "NOW",
+   "day": "Pazartesi",
+   "title": "Sevdam Karadeniz",
+   "status": "yayinda",
+   "time": "20.00",
+   "note": "Kulis: 4. bölümde final iddiası, resmî teyit yok",
+   "checked": "2026-10-21",
+   "source": "https://www.nowtv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "NOW",
+   "day": "Salı",
+   "title": "Anne Yarısı",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-20",
+   "source": "https://www.nowtv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "NOW",
+   "day": "Çarşamba",
+   "title": "Yeraltı",
+   "status": "kanal-teyitli",
+   "time": "20.00",
+   "note": "21 Ekim yeni bölüm",
+   "checked": "2026-10-21",
+   "source": "https://www.nowtv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "NOW",
+   "day": "Perşembe",
+   "title": "Halef: Köklerin Çağrısı",
+   "status": "kanal-teyitli",
+   "note": "Yeni sezon: 24 Eylül",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "NOW",
+   "day": "Günü belirsiz",
+   "title": "Ömür Usta",
+   "status": "kanal-teyitli",
+   "note": "Basın: Eylül",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "NOW",
+   "day": "Günü belirsiz",
+   "title": "Centilmen",
+   "status": "belirsiz",
+   "note": "Kulis: çekim ertelendi iddiası, tarih yok",
+   "tag": "yeni",
+   "checked": "2026-10-16"
+  },
+  {
+   "channel": "TRT 1",
+   "day": "Pazartesi",
+   "title": "Evlilik Güzeldir",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-19",
+   "source": "https://www.trt1.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TRT 1",
+   "day": "Salı",
+   "title": "Mehmed: Fetihler Sultanı",
+   "status": "yayinda",
+   "time": "21.30",
+   "note": "Önceki saat 20.00. 20 Ekim akışında 21.30, öncesinde 19.45 maç",
+   "checked": "2026-10-20",
+   "source": "https://www.trt1.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TRT 1",
+   "day": "Cuma",
+   "title": "Taşacak Bu Deniz",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-16",
+   "source": "https://www.trt1.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TRT 1",
+   "day": "Cumartesi",
+   "title": "Gönül Dağı",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "TRT 1",
+   "day": "Pazar",
+   "title": "Teşkilat",
+   "status": "belirsiz",
+   "time": "20.00",
+   "note": "Plan: 20 Eylül. Güncel durum teyit bekliyor",
+   "checked": "2026-09-16"
+  },
+  {
+   "channel": "TV8",
+   "day": "Pazartesi",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TV8",
+   "day": "Salı",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-20",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TV8",
+   "day": "Çarşamba",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-21",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TV8",
+   "day": "Perşembe",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-15",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TV8",
+   "day": "Cuma",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-10-16",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TV8",
+   "day": "Cumartesi",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "TV8",
+   "day": "Pazar",
+   "title": "MasterChef Türkiye",
+   "status": "yayinda",
+   "time": "20.00",
+   "checked": "2026-09-16",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
+  }
+ ]
+}

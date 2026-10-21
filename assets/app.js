@@ -399,6 +399,57 @@
       '<p class="fx-foot">Tarih, saat ve yayıncı resmî kaynaklardan alınır; teyit edilemeyenler işaretlidir.</p></div></aside></div>';
   }
 
+
+  /* TV dizi takvimi (21 Ekim 2026): data/tv-takvim.json; yalnız en güncel sayıda gösterilir */
+  var TV_DAYS = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"];
+  var TV_STATUS = { "yayinda": "Yayında", "kanal-teyitli": "Kanal teyitli", "planlanan": "Planlanan", "belirsiz": "Belirsiz" };
+  function dayGap(a, b) { return Math.round((Date.parse(b) - Date.parse(a)) / 864e5); }
+  function fmtShort(iso) { var p = iso.split("-").map(Number); return p[2] + " " + MONTHS[p[1] - 1]; }
+  function tvItemHTML(e, b, upd) {
+    var stale = e.checked && upd && dayGap(e.checked, upd) > 14;
+    var title = e.source && /^https:\/\//.test(e.source)
+      ? '<a href="' + esc(safeUrl(e.source)) + '" target="_blank" rel="noopener">' + esc(e.title) + '</a>' : esc(e.title);
+    var badge = "";
+    if (e.tag === "final") {
+      badge = '<span class="tv-badge final">Dizi Finali</span> <span class="tv-when">' + (e.final ? "Veda: " + esc(fmtShort(e.final)) : "Tarih açıklanmadı") + '</span>';
+    } else if (e.tag === "yeni" && !(e.start && e.start <= b.date)) {
+      badge = '<span class="tv-badge new">Yeni Dizi</span> <span class="tv-when">' + (e.start ? "Başlangıç: " + esc(fmtShort(e.start)) : "Başlangıç tarihi açıklanmadı") + '</span>';
+    }
+    return '<div class="tv-item st-' + esc(e.status) + '" title="' + esc(TV_STATUS[e.status] || "") + (e.checked ? " · son teyit " + esc(fmtShort(e.checked)) : "") + '">' +
+      '<span class="tv-dot" aria-hidden="true"></span><div><strong>' + title + (stale ? ' <sup class="tv-stale" title="Son teyit 14 günden eski">†</sup>' : "") + '</strong>' +
+      (e.time ? '<small class="tv-time">' + esc(e.time) + '</small>' : "") +
+      (e.note ? '<small>' + esc(e.note) + '</small>' : "") +
+      (badge ? '<small class="tv-tags">' + badge + '</small>' : "") + '</div></div>' +
+      '<span class="sr-only"> Durum: ' + esc(TV_STATUS[e.status] || "") + '.</span>';
+  }
+  function tvHTML(b) {
+    var tv = state.tv;
+    if (!tv || !tv.entries || !tv.entries.length) return "";
+    if (state.index[0] && state.index[0].date !== b.date) return "";
+    var d = b.date.split("-").map(Number);
+    var today = DAYS[new Date(Date.UTC(d[0], d[1] - 1, d[2])).getUTCDay()];
+    var entries = tv.entries.filter(function (e) { return !(e.tag === "final" && e.final && e.final < b.date); });
+    var anyStale = entries.some(function (e) { return e.checked && tv.updated && dayGap(e.checked, tv.updated) > 14; });
+    var head = '<tr><th scope="col" class="tv-corner"><span class="sr-only">Kanal</span></th>' + TV_DAYS.map(function (day) {
+      return '<th scope="col"' + (day === today ? ' class="tv-today" aria-current="date"' : "") + '>' + esc(day === "Günü belirsiz" ? "Günü belirsiz" : day) + '</th>';
+    }).join("") + '</tr>';
+    var rows = (tv.channels || []).map(function (ch) {
+      var cells = TV_DAYS.map(function (day) {
+        var items = entries.filter(function (e) { return e.channel === ch && e.day === day; }).map(function (e) { return tvItemHTML(e, b, tv.updated); }).join("");
+        return '<td' + (day === today ? ' class="tv-today"' : "") + '>' + items + '</td>';
+      }).join("");
+      return '<tr><th scope="row">' + esc(ch) + '</th>' + cells + '</tr>';
+    }).join("");
+    var legend = ["kanal-teyitli", "planlanan", "yayinda", "belirsiz"].map(function (k) {
+      return '<li class="st-' + k + '"><span class="tv-dot" aria-hidden="true"></span>' + TV_STATUS[k] + '</li>';
+    }).join("");
+    return '<section class="tvgrid" aria-labelledby="tvTitle"><div class="tv-head"><div><span class="eyebrow">TV takvimi</span>' +
+      '<h2 id="tvTitle">' + esc(tv.title || "TV Dizi Takvimi") + '</h2><p>' + esc(fmtDate(tv.updated)) + ' itibarıyla · Kanal yayın akışlarına göre</p></div>' +
+      '<ul class="tv-legend" aria-label="Durum renkleri">' + legend + '</ul></div>' +
+      '<div class="tv-scroll" tabindex="0" role="region" aria-label="Haftalık dizi takvimi, yatay kaydırılabilir"><table class="tv-table"><thead>' + head + '</thead><tbody>' + rows + '</tbody></table></div>' +
+      '<p class="tv-foot">' + (anyStale ? '† Son teyidi 14 günden eski kayıt; yeniden kontrol bekliyor. ' : '') + 'Saatler Türkiye saatidir. Kaynak ve son teyit tarihi için öğenin üzerine gelin.</p></section>';
+  }
+
   function renderBulletin(b) {
     state.bulletin = b; state.region = "Tümü"; state.category = null;
     document.title = fmtDate(b.date) + " · Media Guide Daily";
@@ -411,7 +462,7 @@
         '<h1>Gündemi oku. <em>Etkisini gör.</em></h1>' +
         '<div class="hero-meta">' + esc(fmtDate(b.date, true)) + ' <span>·</span> ' + b.articles.length + ' gelişme</div>' +
       '</div><div class="hero-row"><aside class="highlights"><h2>Bu sayıda</h2><ol>' + highlights + '</ol><p>Kaynaklı bilgi. Net planlama etkisi. <span aria-hidden="true">↗</span></p></aside>' +
-      fixtures + '</div></section>' +
+      fixtures + '</div></section>' + tvHTML(b) +
       '<div class="edition-bar"><span>■ &nbsp; Editörün seçkisi <span class="edition-date">' + esc(fmtDate(b.date)) + '</span></span><button class="text-btn" id="allIssues">Tüm sayılar &nbsp; →</button></div>' +
       weeklyHTML(b) + socialHTML(b) +
       '<div class="reading-layout"><aside class="discover"><h2>Keşfet</h2><div id="filters"></div>' +
@@ -453,7 +504,8 @@
       var date = currentDate() || (state.index[0] && state.index[0].date);
       renderArchive(date);
       if (!date) { $main.innerHTML = '<p class="empty">Henüz yayımlanmış bülten yok.</p>'; return; }
-      return getJSON("bulletins/" + date + ".json").then(function (b) {
+      return Promise.all([getJSON("bulletins/" + date + ".json"), getJSON("data/tv-takvim.json").catch(function () { return null; })]).then(function (res) {
+        var b = res[0]; state.tv = res[1];
         if (b.status !== "published") throw new Error("draft");
         renderBulletin(b);
         track("/bulten/" + b.date, b.title);

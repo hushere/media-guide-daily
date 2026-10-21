@@ -37,6 +37,32 @@ Başlamadan önce `state/handoff.md` dosyasını oku: pencere başlangıcı, TV 
 - TV'de "Fiilen yayında" yalnız resmî akış veya bölüm arşiviyle.
 - Sayı, tarih ve saatleri tahminle doldurma. Doğrulanamayanı `limitations` içine yaz.
 
+## TV dizi takvimi güncellemesi (her gün, 21 Ekim 2026'dan itibaren)
+
+Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv-takvim.json` dosyasıdır. Bu dosyayı sen değiştirme, yalnız oku. Önerilerini paketin `tvTableUpdates` alanına yaz. Claude teyit eder ve dosyaya işler.
+
+**Her sabah yapılacaklar**
+1. `data/tv-takvim.json` içindeki kayıtları oku. Önce `checked` tarihi 14 günden eski olan (sitede † işaretli) kayıtları resmî yayın akışı ve program sayfasıyla yeniden kontrol et.
+2. Yeni dizi, final, gün veya saat değişikliği, kanal değişikliği varsa `tvTableUpdates` içine yaz. Değişiklik yoksa alanı boş liste bırak ve `researcherNotes` içinde "tablo kontrol edildi, değişiklik yok" de.
+3. Her öneride `checked` (kontrol ettiğin tarih) ve mümkünse `source` (resmî kaynak, https) ver.
+
+**Kayıt biçimi** (`schema/research.example.json` içinde örnek var)
+- `action`: `add`, `update` veya `remove`. `update` ve `remove` için `channel`, `day`, `title` kaydı bulmaya yeter.
+- `channel`: ATV, KANAL D, STAR TV, SHOW TV, NOW, TRT 1, TV8. `day`: Pazartesi ... Pazar veya `Günü belirsiz`.
+- `status`: `yayinda` (resmî akışta veya arşivde yeni bölüm görüldü), `kanal-teyitli` (kanal açıkladı, henüz yayında değil veya bölüm teyidi yok), `planlanan`, `belirsiz`. Haber sitesi veya kulis bilgisini `belirsiz` yap ve `note` içine "Kulis" yaz.
+- `time`: `20.00` biçimi. Saat teyitsizse alanı koyma.
+- `note`: tek kısa not (en fazla ~12 kelime).
+
+**Veda eden diziler**
+- Final tarihi resmî olarak açıklanmışsa kaydın `tag` alanı `final`, `final` alanı `YYYY-MM-DD` olur. Sitede "Dizi Finali" ve veda tarihi görünür. Kulis bilgisini final olarak yazma; `note` içinde Kulis de.
+- Final yayını geçtikten sonra kaydı `remove` ile kaldırmayı öner.
+
+**Yeni gelen diziler**
+- Günü belli ise kayıt o günün sütununa gider. `tag: "yeni"` ve başlangıç tarihi biliniyorsa `start: "YYYY-MM-DD"` yaz. Sitede "Yeni Dizi" ve başlangıç tarihi görünür.
+- Günü belirsiz ise `day: "Günü belirsiz"`, `tag: "yeni"` ile ilgili kanalın satırına konur.
+- Dizi yayına başlayınca `tag` alanını boş bırakarak `update` öner (Yeni Dizi notu kalkar), `status` değerini `yayinda` yap.
+- Tarih ve saati tahminle doldurma. Teyitsiz bilgiyi `belirsiz` bırak.
+
 ## Çıktı
 
 - Dosya: `research/YYYY-MM-DD.json`

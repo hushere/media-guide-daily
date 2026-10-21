@@ -62,13 +62,19 @@
       "broadcaster": "Resmî veya iki bağımsız kaynakla teyitliyse yayıncı, değilse null",
       "source": "https:// resmî kaynak",
       "note": "Teyit notu / saat çelişkisi",
-      "tags": ["Derbi | Final | Millî maç (isteğe bağlı)"]
+      "tags": [
+        "Derbi | Final | Millî maç (isteğe bağlı)"
+      ]
     }
   ],
   "matchesWindow": "Maç takviminin kapsadığı aralık",
   "rivalCheck": {
-    "checked": ["Kontrol edilen şirket/marka ve sayfa: ör. Sagra • sagra.com.tr haberler"],
-    "notChecked": ["Kontrol edilemeyen ve nedeni"],
+    "checked": [
+      "Kontrol edilen şirket/marka ve sayfa: ör. Sagra • sagra.com.tr haberler"
+    ],
+    "notChecked": [
+      "Kontrol edilemeyen ve nedeni"
+    ],
     "finding": "Yeni gelişme var mı; varsa ilgili item id'leri"
   },
   "social": {
@@ -91,8 +97,36 @@
   "cinema": "Yalnız cuma: PROMPT.md 5.4 alanları; diğer günler bu alanı ekleme",
   "creativeCase": "Yaratıcı mecra vakası: bir item olarak items içine yazılır (category: Yaratıcı Mecra); burada yalnız item id'si",
   "accessLog": [
-    { "url": "https://...", "result": "ok | permission_timeout | blocked_robots | js_only | paywall | error", "note": "" }
+    {
+      "url": "https://...",
+      "result": "ok | permission_timeout | blocked_robots | js_only | paywall | error",
+      "note": ""
+    }
   ],
-  "limitations": ["Yapılamayan kontroller, erişilemeyen kaynaklar, tam olmayan kapsam"],
-  "researcherNotes": "İsteğe bağlı: Claude'a not (çelişkili bilgi, öncelik önerisi)"
+  "limitations": [
+    "Yapılamayan kontroller, erişilemeyen kaynaklar, tam olmayan kapsam"
+  ],
+  "researcherNotes": "İsteğe bağlı: Claude'a not (çelişkili bilgi, öncelik önerisi)",
+  "tvTableUpdates": [
+    {
+      "action": "update",
+      "channel": "SHOW TV",
+      "day": "Günü belirsiz",
+      "title": "Cevher",
+      "status": "kanal-teyitli",
+      "tag": "yeni",
+      "start": "2026-11-04",
+      "note": "Resmî duyuru: çok yakında",
+      "checked": "2026-10-22",
+      "source": "https://www.showtv.com.tr/yayin-akisi"
+    },
+    {
+      "action": "remove",
+      "channel": "NOW",
+      "day": "Pazartesi",
+      "title": "Sevdam Karadeniz",
+      "note": "Final yayınlandı",
+      "checked": "2026-11-10"
+    }
+  ]
 }

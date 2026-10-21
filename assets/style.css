@@ -589,3 +589,46 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
 .saved-remove:hover { background: var(--surface-2); color: var(--text); }
 
 @media (max-width: 480px) { .main-nav { gap: 20px; } .main-nav a[href="#yontem"] { display: none; } }
+
+/* TV dizi takvimi (21 Ekim 2026) */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.tvgrid { margin: 8px 0 36px; --tv-blue: #2563b0; --tv-yellow: #d99a0b; --tv-green: #1f9d5a; --tv-gray: #9a9fa6; }
+.tv-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 14px; flex-wrap: wrap; }
+.tv-head h2 { font-size: 21px; letter-spacing: -.5px; margin: 8px 0 4px; }
+.tv-head p { font-size: 12px; color: var(--muted); margin: 0; }
+.tv-legend { list-style: none; margin: 0; padding: 0; display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px; font-weight: 600; }
+.tv-legend li { display: inline-flex; align-items: center; gap: 6px; }
+.tv-dot { flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--tv-gray); margin-top: 4px; }
+.tv-legend .tv-dot { margin-top: 0; }
+.st-kanal-teyitli .tv-dot { background: var(--tv-blue); }
+.st-planlanan .tv-dot { background: var(--tv-yellow); }
+.st-yayinda .tv-dot { background: var(--tv-green); }
+.st-belirsiz .tv-dot { background: var(--tv-gray); }
+.tv-scroll { position: relative; overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); scrollbar-width: thin; }
+.tv-scroll:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tv-table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1040px; table-layout: fixed; font-size: 13px; }
+.tv-table th, .tv-table td { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 10px 10px; vertical-align: top; text-align: left; }
+.tv-table thead th { background: var(--accent); color: var(--surface); font-size: 12px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase; text-align: center; border-color: rgba(255, 255, 255, .15); }
+.tv-table thead th.tv-corner { width: 92px; }
+.tv-table tbody th { position: sticky; left: 0; z-index: 1; width: 92px; background: var(--accent); color: var(--surface); font-size: 12.5px; font-weight: 700; text-align: center; vertical-align: middle; }
+.tv-table thead th.tv-corner { position: sticky; left: 0; z-index: 2; }
+.tv-table tr:last-child th, .tv-table tr:last-child td { border-bottom: 0; }
+.tv-table th:last-child, .tv-table td:last-child { border-right: 0; }
+.tv-table td.tv-today { background: var(--accent-soft); }
+.tv-table thead th.tv-today { box-shadow: inset 0 -3px 0 #e9c46a; }
+.tv-item { display: flex; gap: 8px; align-items: flex-start; }
+.tv-item + .tv-item { margin-top: 10px; }
+.tv-item strong { display: block; font-size: 13px; line-height: 1.3; }
+.tv-item a { color: inherit; text-decoration: none; }
+.tv-item a:hover { color: var(--accent); text-decoration: underline; }
+.tv-item small { display: block; font-size: 11.5px; line-height: 1.4; color: var(--muted); margin-top: 2px; }
+.tv-item small.tv-time { font-weight: 600; }
+.tv-stale { color: var(--warn); font-weight: 700; cursor: help; }
+.tv-badge { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .3px; padding: 1px 6px; border-radius: 3px; text-transform: uppercase; }
+.tv-badge.new { background: var(--accent); color: var(--surface); }
+.tv-badge.final { background: var(--tr); color: var(--surface); }
+.tv-tags .tv-badge { display: table; margin-bottom: 2px; }
+.tv-when { display: block; font-size: 11.5px; color: var(--text); font-weight: 600; }
+.tv-foot { font-size: 11.5px; color: var(--muted); margin: 10px 0 0; }
+@media (max-width: 860px) { .tv-head { align-items: flex-start; } .tv-table { min-width: 960px; } }
+@media (max-width: 600px) { .tv-table tbody th, .tv-table thead th.tv-corner { width: 64px; font-size: 11px; padding: 8px 4px; } .tv-table { min-width: 900px; } .tv-foot::after { content: " Tabloyu yatay kaydırarak tüm günleri görün."; } }

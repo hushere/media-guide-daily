@@ -17,6 +17,9 @@ CATEGORIES = {
 }
 VERIFICATION = {"official", "two_independent", "single_secondary", "rumor"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+TV_CHANNELS = {"ATV", "KANAL D", "STAR TV", "SHOW TV", "NOW", "TRT 1", "TV8"}
+TV_DAYS = {"Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"}
+TV_STATUS = {"yayinda", "kanal-teyitli", "planlanan", "belirsiz"}
 
 
 def s(v):
@@ -76,6 +79,29 @@ def check(path: Path):
         for k in ("date", "sport", "competition", "home", "away", "source"):
             if not s(m.get(k)):
                 errs.append(f"matches[{i}]: {k} eksik")
+    for i, u in enumerate(d.get("tvTableUpdates") or []):
+        tag = f"tvTableUpdates[{i}] ({u.get('channel')} / {u.get('day')} / {u.get('title')})"
+        if u.get("action") not in ("add", "update", "remove"):
+            errs.append(f"{tag}: action add/update/remove olmalı")
+        if u.get("channel") not in TV_CHANNELS:
+            errs.append(f"{tag}: kanal geçersiz")
+        if u.get("day") not in TV_DAYS:
+            errs.append(f"{tag}: gün geçersiz")
+        if not s(u.get("title")):
+            errs.append(f"{tag}: title eksik")
+        if u.get("action") != "remove" and u.get("status") not in TV_STATUS:
+            errs.append(f"{tag}: status {sorted(TV_STATUS)} olmalı")
+        if u.get("tag") not in (None, "", "yeni", "final"):
+            errs.append(f"{tag}: tag yeni/final olmalı")
+        for k in ("start", "final", "checked"):
+            if k in u and not DATE_RE.match(str(u[k])):
+                errs.append(f"{tag}: {k} YYYY-MM-DD olmalı")
+        if not u.get("checked"):
+            errs.append(f"{tag}: checked eksik")
+        if u.get("source") and not str(u["source"]).startswith("https://"):
+            errs.append(f"{tag}: source https:// olmalı")
+    if "tvTableUpdates" not in d:
+        warns.append("tvTableUpdates yok: TV takvimi kontrol edildiyse boş liste yaz")
     if not d.get("accessLog"):
         warns.append("accessLog boş: hangi resmî kaynakların açıldığı bilinmiyor")
     return errs, warns
