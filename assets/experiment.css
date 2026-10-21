@@ -259,3 +259,30 @@
 @media(max-width:600px){.tvgrid .tv-head h2{font-size:23px}}
 
 .tvgrid .tv-table thead th.tv-corner{width:auto}
+
+/* TV takvimi: kompakt satırlar ve yeni renk düzeni (22 Ekim 2026) */
+.tvgrid{--tv-head-a:#27337a;--tv-head-b:#4b3fb8;--tv-head-text:#f4f5ff;--tv-ch-bg:#e9ebfb;--tv-ch-text:#2b3480;--tv-row-light:#fbfbff;--tv-row-deep:#f3f4fc;--tv-rule:#dfe2f2;--tv-today:#fff6df;--tv-today-bar:#f2b33d;--tv-badge-bg:#4b3fb8;--tv-badge-text:#fff}
+:root[data-theme="dark"] .tvgrid{--tv-head-a:#1a2050;--tv-head-b:#2c2f73;--tv-head-text:#e8ebff;--tv-ch-bg:#171c3a;--tv-ch-text:#b9c2ff;--tv-row-light:#10142a;--tv-row-deep:#141935;--tv-rule:#262d56;--tv-today:#1d1d33;--tv-today-bar:#f2b33d;--tv-badge-bg:#9aa7ff;--tv-badge-text:#12163a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tvgrid{--tv-head-a:#1a2050;--tv-head-b:#2c2f73;--tv-head-text:#e8ebff;--tv-ch-bg:#171c3a;--tv-ch-text:#b9c2ff;--tv-row-light:#10142a;--tv-row-deep:#141935;--tv-rule:#262d56;--tv-today:#1d1d33;--tv-today-bar:#f2b33d;--tv-badge-bg:#9aa7ff;--tv-badge-text:#12163a}}
+.tvgrid .tv-scroll{border-color:var(--tv-rule);box-shadow:0 8px 28px #1a205014}
+.tvgrid .tv-table tbody{grid-auto-rows:auto}
+.tvgrid .tv-table tr{grid-template-columns:84px repeat(7,minmax(0,1fr)) minmax(0,1.55fr)}
+.tvgrid .tv-table thead th{min-height:46px;background:linear-gradient(135deg,var(--tv-head-a),var(--tv-head-b));color:var(--tv-head-text);border-color:#ffffff1f}
+.tvgrid .tv-table thead th.tv-today{box-shadow:inset 0 -3px 0 var(--tv-today-bar)}
+.tvgrid .tv-table tbody tr{min-height:0}
+.tvgrid .tv-table th,.tvgrid .tv-table td{border-color:var(--tv-rule)}
+.tvgrid .tv-table td{padding:10px 10px;display:flex;flex-direction:column;justify-content:center}
+.tvgrid .tv-table tbody td.tv-today{background:color-mix(in srgb,var(--tv-row) 92%,var(--tv-today-bar) 8%)}
+.tvgrid .tv-table tbody th{background:var(--tv-ch-bg);color:var(--tv-ch-text);padding:10px 6px;font-size:12px;letter-spacing:.04em}
+.tvgrid .tv-table thead th.tv-corner{background:linear-gradient(135deg,var(--tv-head-a),var(--tv-head-b))}
+.tvgrid .tv-item+.tv-item{margin-top:8px;padding-top:8px}
+.tvgrid .tv-badge.new{background:var(--tv-badge-bg);color:var(--tv-badge-text)}
+.tvgrid .tv-table td:last-child{align-items:stretch;padding:8px 10px}
+.tvgrid .tv-table td:last-child .tv-item{justify-content:flex-start;text-align:left}
+.tvgrid .tv-table td:last-child .tv-item+.tv-item{margin-top:6px;padding-top:6px}
+.tvgrid .tv-table td:last-child .tv-item strong{line-height:1.3}
+.tvgrid .tv-table td:last-child .tv-item small{margin-top:1px;line-height:1.35}
+.tvgrid .tv-table td:last-child .tv-tags{display:flex;flex-wrap:wrap;align-items:center;gap:4px;margin-top:3px}
+.tvgrid .tv-table td:last-child .tv-tags .tv-badge{margin:0}
+.tvgrid .tv-table td:last-child .tv-when{display:inline;font-size:10px;font-weight:500;color:var(--muted)}
+@media(max-width:600px){.tvgrid .tv-table tr{grid-template-columns:64px repeat(7,minmax(0,1fr)) minmax(0,1.55fr)}}
