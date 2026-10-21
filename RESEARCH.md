@@ -16,7 +16,7 @@ Bu dosya ChatGPT'nin günlük araştırma görevini tanımlar. ChatGPT bülteni 
 
 1. **Türkiye ve Global** medya, reklam, pazarlama gelişmeleri (Global en fazla 5).
 2. **TV & Entertainment Türkiye:** yayın takvimi değişiklikleri, başlangıç/final/erteleme; resmî kanal akışı veya bölüm arşiviyle teyit. Reyting takibi kapsam dışı.
-3. **Rakip marka gelişmeleri:** PROMPT.md 5.2 şirket evreni. Haber araması + şirketlerin kendi sayfaları + MediaCat/Marketing Türkiye'de marka adıyla arama. Ülker rakip değildir.
+3. **Rakip marka gelişmeleri:** PROMPT.md 5.2 şirket evreni. Haber araması + şirketlerin kendi sayfaları + MediaCat/Marketing Türkiye'de marka adıyla arama. Şirketlerden hiçbirini "kendi şirket" ya da "bizim taraf" diye etiketleme; hepsini aynı tarafsız dille yaz.
 4. **Yaklaşan önemli maçlar:** PROMPT.md 5.3 kapsamı ve dönemi; resmî fikstür kaynakları.
 5. **Dijital gündem:** PROMPT.md 5.6.
 6. **Sinema:** yalnız cuma (PROMPT.md 5.4).

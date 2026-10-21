@@ -87,7 +87,7 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 ### 5.2 Türkiye Rakip Marka Gelişmeleri
 
 - Kayıtlı şirket izleme evreni: ALTINMARKA, ETİ, FİSKOBİRLİK, ÜLKER, MONDELEZ, NESTLÉ, DOĞKAR, FERRERO, SAGRA, MARS, ŞÖLEN, TORKU, ALTINKILIÇLAR, LİDER ÇİKOLATA.
-- ÜLKER kendi şirket tarafıdır; rakip olarak etiketleme.
+- İzleme evrenindeki şirketlerden biri kullanıcının kendi tarafıdır; paketlerde ve bültenlerde hangisi olduğu belirtilmez, hiçbir şirket "bizim taraf" diye etiketlenmez. Tüm şirketler eşit, tarafsız izlenir.
 - Diğer şirketlerin Türkiye'deki tablet/solid çikolata, krem çikolata, çikolata kaplı ürün ve atıştırmalık çikolata markalarında kampanya, lansman, ürün yeniliği, mecra kullanımı, sponsorluk, branded content, promosyon, ambalaj, reklam yüzü, fiyat, dağıtım ve önemli kurumsal gelişmeleri önceliklendir.
 - Haberde şirketi ve tüketici markasını ayrı yaz. Marka alt listesini varsayımla genişletme; şirket-marka sahipliğini güncel birincil veya güvenilir kaynakla doğrula.
 - Anlamlı yeni gelişme yoksa bölüm ekleme; kontrol tam yapılamadıysa limitations içinde belirt.
@@ -228,7 +228,7 @@ Yayımlamadan önce kontrol et:
 - Kaynak içeriği ile iddia uyumu
 - Sayılar ve araştırma yöntemi
 - Spor: tarih, saat, yayıncı, dönem ve dışlanan branşlar
-- Şirket/marka ayrımı, Ülker'in rakip olarak etiketlenmemesi
+- Şirket/marka ayrımı; hiçbir şirketin "kendi şirket / bizim taraf / rakip değil" diye etiketlenmemesi
 - Önceki TV takvimi ile gerçekleşen yayınların karşılaştırılması
 - Türkiye/Global ayrımı ve coğrafi çeşitlilik
 - Veri/yorum ayrımı

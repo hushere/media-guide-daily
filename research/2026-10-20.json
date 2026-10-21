@@ -515,7 +515,7 @@
     "checked": [
       "ALTINMARKA • https://www.altinmarka.com.tr/ • ana sayfa + haber araması",
       "ETİ • https://www.etietieti.com/ • ana sayfa + marka/şirket haber araması",
-      "ÜLKER • https://www.ulker.com.tr/tr/basin-merkezi • kendi şirket tarafı; rakip değil",
+      "ÜLKER • https://www.ulker.com.tr/tr/basin-merkezi",
       "NESTLÉ • https://www.nestle.com.tr/medya/basin-bultenleri • basın listesi + haber araması",
       "FERRERO • https://www.ferrero.com/tr/tr/ • Türkiye sayfası + haber araması",
       "SAGRA • https://www.sagra.com.tr/haberler.html • haber listesi + haber araması",
@@ -803,7 +803,7 @@
     {
       "url": "https://www.ulker.com.tr/tr/basin-merkezi",
       "result": "ok",
-      "note": "Basın merkezi kontrol edildi; Ülker rakip olarak sınıflandırılmadı."
+      "note": "Basın merkezi kontrol edildi"
     },
     {
       "url": "https://www.sagra.com.tr/haberler.html",

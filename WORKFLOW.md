@@ -126,6 +126,7 @@ index.html, assets/           Site (GitHub Pages)
 
 En yeni en üstte. ChatGPT her çalışmada bu kayda bakar.
 
+- **2026-10-21:** Hiçbir şirket "kendi şirket / bizim taraf / rakip değil" diye etiketlenmez. Paketlerde ve bültenlerde tüm şirketler aynı tarafsız dille yazılır; `rivalCheck` satırlarına bu tür not eklenmez.
 - **2026-10-21:** "Media Guru'larından Notlar" paneli eklendi (Dijital Gündem ve Spor Takvimi yanında). ChatGPT her gün Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe ve Karen Nelson-Field'in yeni çalışmalarını kontrol eder; önemli olan en fazla 3 öğeyi paketin `gurus` alanına, kontrol sonucunu `guruCheck` alanına yazar (`RESEARCH.md`). Önemli yayın yoksa alan koyulmaz. Claude araştırmaz ve yeniden teyit etmez.
 
 - **2026-10-21:** Dijital gündem kapsamı genişledi: yalnız ChatGPT araştırır. Tek platforma (Google, Netflix) bağlı kalma; Türkiye gündemi ile Türkiye'de henüz görünmeyen global trendler birlikte, `market` alanıyla. Kullanıcının verdiği başlangıç kaynak listesi `RESEARCH.md` "Dijital gündem araştırması" bölümündedir. Yanıt vermeyen, girişli, ücretli veya uygunsuz kaynak aynı gün tekrar denenmez; paketteki `socialSourceReview` ile `remove` önerilir, Claude listeden çıkarır. Claude bu araştırmayı yapmaz, paket yoksa yedekte de yapmaz.

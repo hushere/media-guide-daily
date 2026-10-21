@@ -104,7 +104,7 @@ Son güncelleme: 21 Ekim 2026 08:55, Claude (bülten 2026-10-21 ChatGPT paketind
 - Tamek Sagra Grup (Tadelle, Sarelle): yeni genel koordinatör, 12 Ekim.
 - Ferrero/Nutella "Bu Hikâyede Ekmek Var" turu (1 Ekim'den beri; 5 şehir).
 - ETİ Benim'O: Alisa Sezen Sever'li film, 25 Eylül (bildirilmedi).
-- Ülker (kendi şirket): Lovemarks 2026; Godiva 100. yıl sanat koleksiyonu.
+- Ülker: Lovemarks 2026; Godiva 100. yıl sanat koleksiyonu.
 - Mars M&M's Minis/Cookie Dough + Marvel paketleri (13 Eylül, bildirilmedi).
 - 14-15 Ekim: Sagra, Nestlé, Ferrero, Mondelez, Şölen, Altınmarka, Mars sayfaları kontrol edildi (ChatGPT); yeni Türkiye gelişmesi yok. ETİ, Torku, Fiskobirlik, Lider açılamadı.
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
