@@ -6,11 +6,11 @@ window.mountMediaEditorial=function(b, reader){
 var main=document.getElementById('main'),host=document.getElementById('articles'),arts=b.articles||[];
 if(!arts.length)return;
 var hero=main.querySelector('.hero-copy');
-hero.innerHTML='<div class="mag-date">'+esc(b.date)+' · Daily Media Intelligence</div><h1>Medya değişiyor.<br><em>Birlikte keşfedelim.</em></h1><p class="mag-deck">Haberler, fikirler ve medya kararlarını değiştiren gelişmeler.</p><div class="mag-entry"><a href="#storyGallery">Gündemi keşfet</a><a href="#storyGallery">Tüm haberleri gör ↗</a></div>';
+hero.innerHTML='<div class="mag-date">'+esc(b.date)+' · Daily Media Intelligence</div><h1>Medya değişiyor.<br><em>Birlikte keşfedelim.</em></h1><p class="mag-deck">Haberler, fikirler ve medya kararlarını değiştiren gelişmeler.</p><div class="mag-entry"><a href="#storyGallery">Gündemi keşfet</a>'+(main.querySelector('#tvTakvim')?'<a href="#tvTakvim">2026 TV Dizi Takvimi ↗</a>':'')+'</div>';
 var gallery=document.createElement('section');gallery.id='storyGallery';gallery.className='story-gallery';
 gallery.setAttribute('aria-label','Görsel haber dizini');
 var cats=Array.from(new Set(arts.map(function(a){return a.category})));
-gallery.innerHTML='<div class="gallery-tools"><h2>Bugün ne var?</h2><button type="button" class="text-btn" id="motionToggle" aria-pressed="true">Hareketi kapat</button><p id="galleryCount" role="status"></p></div><div class="gallery-topics" role="group" aria-label="Kapakları konuya göre süz"><button type="button" data-topic="" aria-pressed="true">Hepsi</button>'+cats.map(function(c){return '<button type="button" data-topic="'+esc(c)+'" aria-pressed="false">'+esc(c)+'</button>'}).join('')+'</div><div class="cover-grid"></div><p class="gallery-note">Bir başlığa dokun, tüm metni, analizi ve kaynakları açılan pencerede oku.</p>';
+gallery.innerHTML='<div class="gallery-tools"><h2>Bugün ne var?</h2><p id="galleryCount" role="status"></p></div><div class="gallery-topics" role="group" aria-label="Kapakları konuya göre süz"><button type="button" data-topic="" aria-pressed="true">Hepsi</button>'+cats.map(function(c){return '<button type="button" data-topic="'+esc(c)+'" aria-pressed="false">'+esc(c)+'</button>'}).join('')+'</div><div class="cover-grid"></div><p class="gallery-note">Bir başlığa dokun, tüm metni, analizi ve kaynakları açılan pencerede oku.</p>';
 
 hero.after(gallery);
 var row=main.querySelector('.hero-row'),social=main.querySelector('.social');
@@ -105,11 +105,9 @@ var reading=main.querySelector('.reading-layout'),issueNav=reading.querySelector
 if(issueNav)reading.before(issueNav);
 reading.remove();
 window.openMediaStory=function(id){return openStory(id,null)};
-var off=false;try{off=localStorage.getItem('mg-motion')==='off'}catch(e){}
-var mq=matchMedia('(prefers-reduced-motion: reduce)'),toggle=document.getElementById('motionToggle');
-function motion(){var disabled=off||mq.matches;main.classList.toggle('motion-off',disabled);toggle.textContent=mq.matches?'Azaltılmış hareket':disabled?'Hareketi aç':'Hareketi kapat';toggle.disabled=mq.matches;toggle.setAttribute('aria-pressed',String(!disabled))}
-toggle.onclick=function(){off=!off;try{localStorage.setItem('mg-motion',off?'off':'on')}catch(e){}motion()};
+var mq=matchMedia('(prefers-reduced-motion: reduce)');
+function motion(){main.classList.toggle('motion-off',mq.matches)}
 mq.addEventListener('change',motion);motion();
-var finish=document.createElement('div');finish.className='mag-finish';finish.innerHTML='<p>Gündem burada bitmez.</p><h2>Bir sonraki fikre<br>yer aç.</h2><a href="#storyGallery">Bu sayıyı yeniden keşfet ↗</a>';main.appendChild(finish);
+
 };
 })();

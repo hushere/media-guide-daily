@@ -592,7 +592,7 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
 
 /* TV dizi takvimi (21 Ekim 2026) */
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.tvgrid { margin: 8px 0 36px; --tv-blue: #2563b0; --tv-yellow: #d99a0b; --tv-green: #1f9d5a; --tv-gray: #9a9fa6; }
+.tvgrid { scroll-margin-top: 84px; margin: 8px 0 36px; --tv-blue: #2563b0; --tv-yellow: #d99a0b; --tv-green: #1f9d5a; --tv-gray: #9a9fa6; }
 .tv-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 14px; flex-wrap: wrap; }
 .tv-head h2 { font-size: 21px; letter-spacing: -.5px; margin: 8px 0 4px; }
 .tv-head p { font-size: 12px; color: var(--muted); margin: 0; }
@@ -631,4 +631,4 @@ dialog::backdrop { background: rgba(10,15,23,.6); backdrop-filter: blur(4px); }
 .tv-when { display: block; font-size: 11.5px; color: var(--text); font-weight: 600; }
 .tv-foot { font-size: 11.5px; color: var(--muted); margin: 10px 0 0; }
 @media (max-width: 860px) { .tv-head { align-items: flex-start; } .tv-table { min-width: 960px; } }
-@media (max-width: 600px) { .tv-table tbody th, .tv-table thead th.tv-corner { width: 64px; font-size: 11px; padding: 8px 4px; } .tv-table { min-width: 900px; } .tv-foot::after { content: " Tabloyu yatay kaydırarak tüm günleri görün."; } }
+@media (max-width: 600px) { .tv-table tbody th, .tv-table thead th.tv-corner { width: 64px; font-size: 11px; padding: 8px 4px; } .tv-table { min-width: 900px; } }

@@ -429,7 +429,6 @@
     var d = b.date.split("-").map(Number);
     var today = DAYS[new Date(Date.UTC(d[0], d[1] - 1, d[2])).getUTCDay()];
     var entries = tv.entries.filter(function (e) { return !(e.tag === "final" && e.final && e.final < b.date); });
-    var anyStale = entries.some(function (e) { return e.checked && tv.updated && dayGap(e.checked, tv.updated) > 14; });
     var head = '<tr><th scope="col" class="tv-corner"><span class="sr-only">Kanal</span></th>' + TV_DAYS.map(function (day) {
       return '<th scope="col"' + (day === today ? ' class="tv-today" aria-current="date"' : "") + '>' + esc(day === "Günü belirsiz" ? "Günü belirsiz" : day) + '</th>';
     }).join("") + '</tr>';
@@ -443,11 +442,11 @@
     var legend = ["kanal-teyitli", "planlanan", "yayinda", "belirsiz"].map(function (k) {
       return '<li class="st-' + k + '"><span class="tv-dot" aria-hidden="true"></span>' + TV_STATUS[k] + '</li>';
     }).join("");
-    return '<section class="tvgrid" aria-labelledby="tvTitle"><div class="tv-head"><div><span class="eyebrow">TV takvimi</span>' +
+    return '<section class="tvgrid" id="tvTakvim" aria-labelledby="tvTitle"><div class="tv-head"><div><span class="eyebrow">TV takvimi</span>' +
       '<h2 id="tvTitle">' + esc(tv.title || "TV Dizi Takvimi") + '</h2><p>' + esc(fmtDate(tv.updated)) + ' itibarıyla · Kanal yayın akışlarına göre</p></div>' +
       '<ul class="tv-legend" aria-label="Durum renkleri">' + legend + '</ul></div>' +
       '<div class="tv-scroll" tabindex="0" role="region" aria-label="Haftalık dizi takvimi, yatay kaydırılabilir"><table class="tv-table"><thead>' + head + '</thead><tbody>' + rows + '</tbody></table></div>' +
-      '<p class="tv-foot">' + (anyStale ? '† Son teyidi 14 günden eski kayıt; yeniden kontrol bekliyor. ' : '') + 'Saatler Türkiye saatidir. Kaynak ve son teyit tarihi için öğenin üzerine gelin.</p></section>';
+      '</section>';
   }
 
   function renderBulletin(b) {
