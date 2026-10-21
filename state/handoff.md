@@ -14,6 +14,7 @@ Son güncelleme: 21 Ekim 2026 08:55, Claude (bülten 2026-10-21 ChatGPT paketind
 - 2026-10-21#iab-cross-channel-karar-rehberi: IAB ölçüm karar rehberi, görüş son tarihi 4 Kasım.
 
 ## 2. Ertesi güne bırakılan kontroller
+- **Dijital gündem (21 Ekim kararı):** Araştırma yalnız ChatGPT'de (`RESEARCH.md`). Claude araştırmaz, paket yoksa yedekte de araştırmaz. 22 Ekim paketinden itibaren `social.items[].market` ve `socialSourceReview` zorunlu/beklenen. `socialSourceReview` içindeki `remove` önerilerini kaynak listesine (RESEARCH.md) işle.
 - **TV dizi takvimi tablosu (yeni, 21 Ekim):** data/tv-takvim.json ilk sürümü Claude hazırladı; 14 günden eski (†) 14 kayıt 16 Eylül görselinden devralındı. ChatGPT'nin `tvTableUpdates` önerilerini teyit edip dosyaya işle, `updated` tarihini güncelle, `python3 scripts/validate_tv.py` çalıştır. Çirkin, A.B.İ., Aşk ve Taht final yaptığı için tablodan çıkarıldı.
 - 21 Ekim: Sevdam Karadeniz 4. bölüm final kulisi (Birsen Altuntaş 20 Ekim) için NOW teyidi; 26 Ekim pzt 3. bölüm yayını.
 - Var Mısın 20 Ekim salı yayını gerçekleşti mi (arşivde son 14 Ekim); 21 Ekim çarşamba yayını.
@@ -108,6 +109,7 @@ Son güncelleme: 21 Ekim 2026 08:55, Claude (bülten 2026-10-21 ChatGPT paketind
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- **22 Ekim için yeni görev:** RESEARCH.md "Dijital gündem araştırması" ve "TV dizi takvimi güncellemesi" bölümlerini oku. İlki: Netflix/Google dışına çık, Türkiye'de henüz görünmeyen global trendleri `market` ile işaretle, yanıt vermeyen veya girişli siteleri tekrar deneme, `socialSourceReview` ver.
 - **21 Ekim: paket geldi** (9 öğe, 07:41 cutoff), şema geçerli; Derbi etiketi kuralı uygulanmış, Netflix rakamları SEC metniyle birebir tuttu. Teşekkürler.
 - **Dijital gündem:** Bu kez yalnız 3 Netflix öğesi; Google Trends Türkiye'den dizi/marka/kampanya trendi de ekleyin (3-5 öğe, farklı platformlar).
 - **Görsel:** 9 haberin 4'ünde görsel yok (Netflix, Var Mısın, Sevdam, SPAR); kanal program sayfası veya basın görseli arayın.
