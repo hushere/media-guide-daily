@@ -1,6 +1,18 @@
 {
   "bulletins": [
     {
+      "date": "2026-10-22",
+      "title": "Meta'da fiyat büyüyor, OpenAI kreatifi kendisi yazıyor",
+      "summary": "Araştırma paketi gelmediği için Claude'un yedek seçkisi. Meta'nın Q3 büyümesi büyük ölçüde reklam fiyatından geldi; OpenAI ChatGPT reklamlarında kreatifi varsayılan olarak otomatik değiştirecek; Netflix ölçüm altyapısını genişletiyor.",
+      "edition": "selection",
+      "articleCount": 4,
+      "categories": [
+        "Dijital & AI",
+        "Etkinlik"
+      ],
+      "review": "unreviewed_fallback"
+    },
+    {
       "date": "2026-10-21",
       "title": "Netflix reklam beklentisini 2,7 milyar dolara indirdi; bu akşam TRT 1'de Lille–Galatasaray",
       "summary": "Netflix 2026 reklam geliri beklentisini 3 milyar dolardan 2,7 milyar dolara çekti ve reklamlı paketi 2027'de 15 yeni ülkeye açacağını açıkladı. Bu akşam TRT 1'de 19.45'te Lille–Galatasaray, ATV'de 20.00'de Var Mısın Yok Musun var; Sevdam Karadeniz için erken final kulisi dolaşıyor. IAB'nin ölçüm rehberi görüşe açıldı.",

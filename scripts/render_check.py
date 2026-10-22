@@ -88,8 +88,7 @@ def main():
                     problems.append(f"{name}: maç paneli görünmüyor")
                 if (data.get("social") or {}).get("items") and page.locator(".social").count() == 0:
                     problems.append(f"{name}: dijital gündem şeridi görünmüyor")
-                if page.locator(".highlights li").count() == 0:
-                    problems.append(f"{name}: 'Bu sayıda' boş")
+                # 'Bu sayıda' kutusu 21 Ekim 2026'da kullanıcı kararıyla kaldırıldı (8cae976, editorial.js); kontrol edilmez.
                 page.close()
             browser.close()
     finally:

@@ -1,0 +1,339 @@
+{
+  "date": "2026-10-22",
+  "title": "Meta'da fiyat büyüyor, OpenAI kreatifi kendisi yazıyor",
+  "summary": "Araştırma paketi gelmediği için Claude'un yedek seçkisi. Meta'nın Q3 büyümesi büyük ölçüde reklam fiyatından geldi; OpenAI ChatGPT reklamlarında kreatifi varsayılan olarak otomatik değiştirecek; Netflix ölçüm altyapısını genişletiyor.",
+  "edition": "selection",
+  "window": "21 Ekim 2026 07:41 – 22 Ekim 2026 09:00 TSİ (Claude yedek araştırması; bilgi kesimi 22 Ekim 09:00)",
+  "status": "published",
+  "review": {
+    "status": "unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-22T09:05+03:00",
+    "summary": "ChatGPT araştırma paketi (research/2026-10-22.json) 08.52 itibarıyla depoya gelmedi; bülten Claude'un yedek araştırmasıyla hazırlandı. Meta rakamları SEC 8-K basın bülteninden doğrudan teyit edildi. OpenAI ve Netflix haberleri ikincil kaynaklıdır ve etiketlidir. Resmî TV akışları, TFF ve yayıncı siteleri izin zaman aşımı nedeniyle açılamadı; TV kartı yazılmadı, maç yayıncıları 21 Ekim kontrolünden taşındı."
+  },
+  "source": {
+    "writer": "Claude (yedek)",
+    "note": "ChatGPT paketi gelmedi; dijital gündem ve guru notları yalnız ChatGPT tarafından araştırıldığı için bu sayıda yok."
+  },
+  "dayRead": "Bugünün ana hikâyesi dijital reklamda kontrolün kimde olduğu. Meta'nın büyümesi kullanıcı artışından çok fiyattan geliyor; yani reklamveren aynı erişim için daha fazla ödüyor. OpenAI ise ChatGPT reklamlarında kreatifi varsayılan olarak kendisi değiştirmeye hazırlanıyor, bu da markanın mesaj üzerindeki son sözünü zayıflatabilir. Netflix tarafında dünkü gelir revizyonunun ardından ölçüm ve programatik erişim vurgusu öne çıkıyor. Türkiye tarafında bugün doğrulanmış TV ve rakip gelişmesi bulunamadı; bu bir sessizlik değil, kontrol edilemeyen kaynaklar nedeniyle eksik bir resim.",
+  "attitudeRadar": {
+    "note": "Sinyaller günün haberlerinden okunur; ölçülmüş tüketici tutumu değildir.",
+    "items": [
+      {
+        "tag": "reklam fiyatı",
+        "text": "Meta'da reklam başına fiyat %14, gösterim %10 arttı; büyüme hacimden çok fiyattan geliyor.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "meta-q3-reklam-fiyati-yuzde-14"
+        ]
+      },
+      {
+        "tag": "otomatik kreatif",
+        "text": "Platformlar kreatifi reklamverenin tek tek onayı olmadan değiştirmeye yöneliyor; OpenAI bunu varsayılan yapıyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "openai-chatgpt-reklam-otomatik-kreatif"
+        ]
+      },
+      {
+        "tag": "CTV ölçüm",
+        "text": "Netflix erişim yanında dönüşüm ölçümü ve programatik kitle vaadine yükleniyor; tek kaynaklı bilgi.",
+        "basis": "İşaret",
+        "recurrence": "Tek günlük olabilir",
+        "refs": [
+          "netflix-pixel-conversion-api-ttd"
+        ]
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "meta-q3-reklam-fiyati-yuzde-14",
+      "title": "Meta Q3: reklam geliri %26 arttı, büyümenin ana kaynağı %14'lük fiyat artışı",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global",
+      "eventDate": "21 Ekim 2026 (Q3 2026 sonuç açıklaması)",
+      "label": "Resmî açıklama",
+      "summary": "Meta'nın Q3 2026 reklam geliri 63,1 milyar dolarla %26 büyüdü; reklam başına ortalama fiyat %14, gösterim %10 arttı.",
+      "body": [
+        "Toplam gelir 64,6 milyar dolar (+%26); reklam geliri 63,06 milyar dolar (+%26).",
+        "Reklam başına ortalama fiyat yıllık %14, reklam gösterimi %10 arttı.",
+        "Faaliyet kârı %37 düşüşle 12,99 milyar dolar; marj %40'tan %20'ye indi.",
+        "Düşüşte gençlerin ruh sağlığı davasındaki 52 eyalet uzlaşması için ayrılan 9,89 milyar dolar gider etkili.",
+        "Q4 gelir öngörüsü 73-76 milyar dolar; günlük aktif kişi (DAP) Eylül'de 3,64 milyar (+%3)."
+      ],
+      "impact": "Veri böyle: Meta'da büyüme daha çok fiyat artışından geliyor, kullanıcı tabanı yalnız %3 büyüyor. Bizim okumamız: ajans tarafında CPM baskısı sürebilir; marka tarafında aynı bütçe daha az gösterim alabilir.",
+      "action": "Meta kampanyalarında Q4 için CPM varsayımlarını geçen yılın değil son çeyreğin fiyat seviyesine göre güncelleyin.",
+      "counterView": "Fiyat artışı daha iyi dönüşüm ve reklam kalitesinden de gelebilir; küresel ortalama Türkiye fiyatlarını doğrudan göstermez, ABD/Kanada fiyat artışı %23 ile ortalamayı yukarı çekiyor.",
+      "sources": [
+        {
+          "name": "SEC • Meta 8-K, Q3 2026 basın bülteni (Ek 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066700/meta-09302026xexhibit991.htm",
+          "published": "2026-10-21",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Meta takes $9.89bn teen settlement charge as ad revenue gains 26%",
+          "url": "https://ppc.land/meta-takes-9-89bn-teen-settlement-charge-as-ad-revenue-gains-26/",
+          "published": "2026-10-21",
+          "country": "İspanya/Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/10/meta-q3-2026-earnings-ad-price-rise-teen-settlement-citrus-press-squeeze.jpg",
+        "alt": "Meta Q3 2026 sonuçlarını anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/meta-takes-9-89bn-teen-settlement-charge-as-ad-revenue-gains-26/"
+      }
+    },
+    {
+      "id": "openai-chatgpt-reklam-otomatik-kreatif",
+      "title": "OpenAI, ChatGPT reklamlarında kreatifleri varsayılan olarak otomatik değiştirecek",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global",
+      "eventDate": "29/30 Ekim 2026 (başlangıç; kaynaklar farklı)",
+      "label": "İkincil kaynak",
+      "summary": "OpenAI, self-serve ChatGPT reklamlarında başlık, metin, görsel ve hedef URL'yi otomatik değiştiren \"creative enhancements\" özelliğini varsayılan olarak açıyor.",
+      "body": [
+        "OpenAI 20 Ekim'de reklamverenlere e-posta gönderdi; özellik yeni ve mevcut self-serve kampanyalarda varsayılan açık.",
+        "Başlık ve açıklama yeniden yazılabilir, görsel boyutlanır, metin çevrilir, hedef URL sitenin başka sayfasına değişebilir.",
+        "E-postaya göre bu sürümler tek tek onay olmadan yayına girebilir.",
+        "Başlangıç: e-postada 30 Ekim, yardım sayfasında 29 Ekim yazıyor.",
+        "Ads Manager ayarlarından hesap veya kampanya düzeyinde kapatılabiliyor."
+      ],
+      "impact": "Ajans gözüyle: platform kreatifi reklamverenin onayı olmadan değiştirebiliyor, bu da onay süreçlerini ve marka tonu kontrolünü zorlar. Marka gözüyle: düzenlemeye tabi kategorilerde (gıda, sağlık iddiası) uyum riski doğar.",
+      "action": "ChatGPT reklamı deneyen hesaplarda 29 Ekim'den önce \"Creative enhancement\" ayarını kontrol edin ve onay politikasını yazılı belirleyin.",
+      "counterView": "Otomatik varyasyon performansı artırabilir ve Meta/Google'da benzer araçlar zaten yaygın; bilgi OpenAI'ın kendi sayfasından değil, e-postayı yayımlayan ikincil kaynaklardan geliyor.",
+      "sources": [
+        {
+          "name": "PPC Land • OpenAI to rewrite ChatGPT ads by default",
+          "url": "https://ppc.land/openai-to-rewrite-chatgpt-ads-by-default-as-advertisers-get-days-to-opt-out/",
+          "published": "2026-10-21",
+          "country": "İspanya/Global",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Search Engine Roundtable • OpenAI ChatGPT ads enabling creative enhancements",
+          "url": "https://www.seroundtable.com/openai-chatgpt-ads-enabling-creative-enhancements-42344.html",
+          "published": "2026-10-21",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/10/openai-chatgpt-ads-creative-enhancements-default-kaleidoscope-ad-cards.jpg",
+        "alt": "ChatGPT reklam kartlarını anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/openai-to-rewrite-chatgpt-ads-by-default-as-advertisers-get-days-to-opt-out/"
+      }
+    },
+    {
+      "id": "netflix-pixel-conversion-api-ttd",
+      "title": "Netflix reklam altyapısı: Pixel, Conversion API ve The Trade Desk kitleleri",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global",
+      "eventDate": "21 Ekim 2026 (duyuru); TTD entegrasyonu Kasım 2026",
+      "label": "Tek kaynak",
+      "summary": "MediaCat'e göre Netflix, Pixel ve geliştirilmiş Conversion API ile reklamverenlerin 20'den fazla alt huni dönüşüm olayını izlemesini sağlayacak.",
+      "body": [
+        "Netflix Pixel ve Conversion API ile 20'den fazla alt huni dönüşüm olayı izlenebilecek.",
+        "The Trade Desk kitleleri gelecek ay programatik alıma eklenecek; Yahoo DSP ve Amazon DSP daha önce eklenmişti.",
+        "Netflix reklamlı pakette reklam gelirini üst üste ikinci yıl ikiye katlamayı hedefliyor.",
+        "21 Ekim bülteniyle bağlantılı: 2026 reklam beklentisi 2,7 milyar dolara indirilmişti."
+      ],
+      "impact": "CTV yalnız erişim mecrası olmaktan çıkıp dönüşüm ölçen bir mecraya dönüşmeye çalışıyor. Bizim okumamız: Netflix dün açıklanan gecikmeyi ölçüm ve programatik erişimle kapatmak istiyor.",
+      "action": "Netflix ile konuşan ekipler Pixel ve Conversion API'nin hangi pazarlarda açık olduğunu ve Türkiye takvimini sorsun.",
+      "counterView": "Bilgi tek ikincil kaynağa dayanıyor; Netflix'in kendi duyurusu açılamadı. Türkiye'de reklamlı paket yok, bu nedenle etki şimdilik global planlarla sınırlı.",
+      "sources": [
+        {
+          "name": "MediaCat • Netflix kendi reklam altyapısını güçlendiriyor",
+          "url": "https://mediacat.com/netflix-kendi-reklam-altyapisini-guclendiriyor/",
+          "published": "2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "brand-week-istanbul-2026-turbulans",
+      "title": "Brand Week Istanbul 4-6 Kasım'da \"Türbülans\" temasıyla Haliç'te",
+      "region": "Türkiye",
+      "category": "Etkinlik",
+      "layer": "Düzenleme ve sektör",
+      "market": "Türkiye",
+      "eventDate": "4-6 Kasım 2026",
+      "label": "Organizatör yayını",
+      "summary": "Brand Week Istanbul 2026, 4-6 Kasım'da Haliç Kongre Merkezi'nde \"Türbülans\" temasıyla yapılacak.",
+      "body": [
+        "Tarih: 4, 5 ve 6 Kasım 2026; yer: Haliç Kongre Merkezi, İstanbul.",
+        "Konuşmacılar arasında Hiroshi Ishiguro, Asghar Farhadi, Frank Cooper III ve Acun Ilıcalı var.",
+        "Programda Satış Akademisi ve Future Film Academy bölümleri yer alıyor.",
+        "Etkinlik 2013'ten beri düzenleniyor."
+      ],
+      "impact": "Sektörün yılsonu planlama dönemine denk gelen en büyük buluşmalardan biri. Ajans ve marka ekipleri için 2027 bakışını ve rakiplerin konuşma başlıklarını görme fırsatı.",
+      "action": "Katılım planını ve takip edilecek oturumları bu hafta belirleyin.",
+      "counterView": "Haber organizatör MediaCat'in kendi yayınıdır; içerik tanıtım niteliğindedir ve oturumların medya planlamaya katkısı önceden bilinemez.",
+      "sources": [
+        {
+          "name": "MediaCat • Brand Week Istanbul'a 15 gün kaldı",
+          "url": "https://mediacat.com/brand-week-istanbula-15-gun-kaldi/",
+          "published": "2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.mediacat.com/uploads/2026/10/BWI26-SON15-gun_1252x704.jpg",
+        "alt": "Brand Week Istanbul 2026 duyuru görseli",
+        "credit": "MediaCat",
+        "sourceUrl": "https://mediacat.com/brand-week-istanbula-15-gun-kaldi/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Global",
+      "text": "Meta uygulamalarının günlük aktif kişi sayısı Eylül 2026'da ortalama 3,64 milyar oldu; yıllık artış %3.",
+      "source": "SEC • Meta 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066700/meta-09302026xexhibit991.htm",
+      "published": "2026-10-21"
+    },
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Global",
+      "text": "Meta CFO'su, içerik üreticili ortaklık reklamlarının yıllık %97 büyüyüp 15 milyar dolar gelir hızına ulaştığını söyledi (şirket beyanı, çağrı transkripti).",
+      "source": "PPC Land",
+      "url": "https://ppc.land/metas-ads-with-creators-gain-97-to-a-15bn-annual-run-rate/",
+      "published": "2026-10-21"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "YouTube, sertifikalı çevrimiçi şans oyunu reklamlarına 21 Ekim'den itibaren Masthead alanında izin veriyor; duyuruda ülke kapsamı belirtilmiyor.",
+      "source": "PPC Land (Google duyurusu)",
+      "url": "https://ppc.land/youtube-to-allow-certified-online-gambling-ads-on-masthead-from-october-21/",
+      "published": "2026-10-08"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Felis Ödülleri 2026'da Brand Experience ve Entertainment kısa listeleri açıklandı; Data & AI listesi bir gün önce yayımlanmıştı.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/felis-odulleri-2026-brand-experience-felis-kisa-listesi/",
+      "published": "2026-10-21"
+    }
+  ],
+  "highlights": [
+    "Meta Q3: reklam geliri +%26; reklam başına fiyat +%14, gösterim +%10 (SEC).",
+    "OpenAI ChatGPT reklamlarında kreatif iyileştirmeleri 29/30 Ekim'den itibaren varsayılan açık.",
+    "Brand Week Istanbul 4-6 Kasım, Haliç Kongre Merkezi."
+  ],
+  "watchlist": [
+    "Omnicom Q3 2026 sonuçları: 22 Ekim akşamı (NYSE kapanış sonrası).",
+    "OpenAI yardım sayfasında başlangıç tarihi (29 mu 30 Ekim mi) ve kapsamın self-serve ile sınırlı olup olmadığı.",
+    "Galatasaray–Fenerbahçe 26 Ekim pazartesi 21.30: cuma bülteninin maç dönemine girer; yayıncı resmî teyit bekliyor.",
+    "Meta Commercial Terms 30 Ekim yürürlüğü (19 Ekim bülteni)."
+  ],
+  "limitations": [
+    "ChatGPT araştırma paketi gelmedi; bülten Claude'un yedek araştırmasıdır ve kısmi seçkidir.",
+    "Yedi kanalın resmî yayın akışı, birsenaltuntas.com, TFF, TRT 1, beIN ve MediaCat/Marketing Türkiye/Campaign TR ana sayfaları izin zaman aşımı nedeniyle açılamadı; TV takvim karşılaştırması yapılamadı, TV kartı yazılmadı. Bu 'TV gelişmesi yok' anlamına gelmez.",
+    "Rakip izleme yapılamadı: 14 şirketin basın sayfaları açılmadı; MediaCat çikolata aramasında pencere içi sonuç görülmedi. 'Rakip haberi yok' sonucu çıkarılamaz.",
+    "Maç saat ve yayıncıları 21 Ekim'de ChatGPT'nin yaptığı resmî kaynak kontrolünden taşındı; 22 Ekim'de resmî sayfalar yeniden açılamadı. Voleybol saatleri lig sitesinden, yayıncı teyitsiz.",
+    "Dijital gündem ve Media Guru'larından Notlar araştırılmadı (yalnız ChatGPT yapar; paket gelmedi).",
+    "Yaratıcı mecra vakası: tekrar etmeyen, doğrulanabilir güçlü vaka bulunamadı; bu sayıda bölüm yok.",
+    "Ana haber sayısı 4 (hedef 5-8); zayıf haberle doldurulmadı. Avrupa/LatAm/Asya'dan bağımsız haber bulunamadı.",
+    "Netflix kartında görsel eklenemedi."
+  ],
+  "corrections": [],
+  "matchesWindow": "22-25 Ekim 2026",
+  "matches": [
+    {
+      "date": "2026-10-22",
+      "time": "19:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Hearts",
+      "broadcaster": "TRT 1",
+      "source": "https://www.uefa.com/uefaconferenceleague/clubs/52731--trabzonspor/matches/",
+      "note": "Saat ve kanal 21 Ekim ChatGPT kontrolünde TRT 1 maç duyurusundan; 22 Ekim'de Claude resmî sayfaları yeniden açamadı."
+    },
+    {
+      "date": "2026-10-22",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp takvimi 20.30 (21 Ekim kontrolü); 22 Ekim'de iki haber kaynağı da 20.30 diyor."
+    },
+    {
+      "date": "2026-10-22",
+      "time": "22:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Beşiktaş",
+      "away": "Crystal Palace",
+      "broadcaster": "TRT 1",
+      "source": "https://www.bjk.com.tr/tr/mac_merkezi",
+      "note": "Tarih/saat kulüp takvimi; kanal 21 Ekim TRT 1 kontrolü. 22 Ekim'de resmî akış yeniden açılamadı."
+    },
+    {
+      "date": "2026-10-23",
+      "time": "21:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Olympiacos",
+      "away": "Fenerbahçe",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com/",
+      "note": "Resmî yayıncı 21 Ekim kontrolünde 21.15 gösteriyordu; iki haber kaynağı da 21.15."
+    },
+    {
+      "date": "2026-10-25",
+      "time": "14:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "VakıfBank",
+      "away": "Galatasaray Daikin",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/tr/schedule/",
+      "note": "Lig sitesi 14.00; sayfa gün/saat değişebilir uyarısı veriyor. Yayıncı teyitsiz."
+    },
+    {
+      "date": "2026-10-25",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Fenerbahçe Medicana",
+      "away": "Eczacıbaşı",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/tr/schedule/",
+      "note": "Lig sitesi 19.00. Yayıncı teyitsiz."
+    },
+    {
+      "date": "2026-10-25",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "LaLiga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.fcbarcelona.com/en/football/first-team/news/4570226/date-and-kick-off-time-of-laliga-clasico-at-the-spotify-camp-nou-confirmed",
+      "note": "Kulüp: 21.00 İspanya saati (25 Ekim'de kış saatine geçiş) = 23.00 TSİ. Yayıncı 21 Ekim S Sport Plus kontrolü."
+    }
+  ]
+}
