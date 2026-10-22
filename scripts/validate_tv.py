@@ -16,7 +16,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CHANNELS = ["ATV", "KANAL D", "STAR TV", "SHOW TV", "NOW", "TRT 1", "TV8"]
 DAYS = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"]
 STATUS = {"yayinda", "kanal-teyitli", "planlanan", "belirsiz"}
-TAGS = {"yeni", "final"}
+TAGS = {"yeni", "sezon", "final"}
+AIR = {"tkr"}  # bu hafta yeni bölüm yok: tekrar (TKR) gösterilir
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
@@ -41,12 +42,20 @@ def check(d, today=None):
         if e.get("status") not in STATUS:
             errs.append(f"{tag}: status {sorted(STATUS)} olmalı")
         if e.get("tag") is not None and e.get("tag") not in TAGS:
-            errs.append(f"{tag}: tag yeni/final olmalı")
+            errs.append(f"{tag}: tag yeni/sezon/final olmalı")
         if e.get("tag") == "final" and not e.get("final"):
             warns.append(f"{tag}: Dizi Finali için veda tarihi (final) yok")
         for k in ("start", "final", "checked"):
             if k in e and not ISO.match(str(e[k])):
                 errs.append(f"{tag}: {k} YYYY-MM-DD olmalı")
+        if e.get("air") is not None and e.get("air") not in AIR:
+            errs.append(f"{tag}: air {sorted(AIR)} olmalı")
+        if e.get("status") == "yayinda" and not e.get("time"):
+            warns.append(f"{tag}: Yayında kaydında saat yok (sitede yalnız saat görünür)")
+        if e.get("status") == "yayinda" and e.get("note"):
+            warns.append(f"{tag}: Yayında kaydında not görünmez; notu kaldır")
+        if e.get("tag") in ("yeni", "sezon") and e.get("note"):
+            warns.append(f"{tag}: Yeni Dizi/Yeni Sezon kaydında not görünmez; yalnız tarih veya 'Başlangıç tarihi açıklanmadı' yazılır")
         if not e.get("checked"):
             errs.append(f"{tag}: checked (son teyit tarihi) eksik")
         if e.get("source") and not str(e["source"]).startswith("https://"):
@@ -57,8 +66,8 @@ def check(d, today=None):
         if key in seen:
             errs.append(f"{tag}: aynı kanal, gün ve başlık tekrar ediyor")
         seen.add(key)
-        if e.get("tag") == "yeni" and e.get("start") and ISO.match(e["start"]) and ISO.match(str(d.get("updated", ""))) and e["start"] <= d["updated"]:
-            warns.append(f"{tag}: başlangıç tarihi geçti; 'yeni' etiketi kaldırılmalı")
+        if e.get("tag") in ("yeni", "sezon") and e.get("start") and ISO.match(e["start"]) and ISO.match(str(d.get("updated", ""))) and e["start"] <= d["updated"]:
+            warns.append(f"{tag}: başlangıç tarihi geçti; 'yeni'/'sezon' etiketi kaldırılmalı")
         if e.get("tag") == "final" and e.get("final") and ISO.match(e["final"]) and ISO.match(str(d.get("updated", ""))) and e["final"] < d["updated"]:
             warns.append(f"{tag}: veda tarihi geçti; kayıt tablodan kaldırılmalı")
         if e.get("checked") and ISO.match(e["checked"]) and ISO.match(str(d.get("updated", ""))):

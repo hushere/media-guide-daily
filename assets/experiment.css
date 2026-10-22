@@ -272,6 +272,7 @@
 .tvgrid .tv-table thead th.tv-corner{background:linear-gradient(135deg,var(--tv-head-a),var(--tv-head-b))}
 .tvgrid .tv-item+.tv-item{margin-top:8px;padding-top:8px}
 .tvgrid .tv-badge.new{background:var(--tv-badge-bg);color:var(--tv-badge-text)}
+.tvgrid .tv-badge.tkr{background:transparent;color:var(--tv-ch-text);border:1px solid var(--tv-ch-text);padding:0 5px}
 .tvgrid .tv-table td:last-child{align-items:stretch;padding:8px 10px}
 .tvgrid .tv-table td:last-child .tv-item{justify-content:flex-start;text-align:left}
 .tvgrid .tv-table td:last-child .tv-item+.tv-item{margin-top:6px;padding-top:6px}

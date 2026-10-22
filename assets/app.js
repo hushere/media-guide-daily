@@ -458,13 +458,18 @@
     var badge = "";
     if (e.tag === "final") {
       badge = '<span class="tv-badge final">Dizi Finali</span> <span class="tv-when">' + (e.final ? "Veda: " + esc(fmtShort(e.final)) : "Tarih açıklanmadı") + '</span>';
-    } else if (e.tag === "yeni" && !(e.start && e.start <= b.date)) {
-      badge = '<span class="tv-badge new">Yeni Dizi</span> <span class="tv-when">' + (e.start ? "Başlangıç: " + esc(fmtShort(e.start)) : "Başlangıç tarihi açıklanmadı") + '</span>';
+    } else if ((e.tag === "yeni" || e.tag === "sezon") && !(e.start && e.start <= b.date)) {
+      badge = '<span class="tv-badge new">' + (e.tag === "sezon" ? "Yeni Sezon" : "Yeni Dizi") + '</span> <span class="tv-when">' + (e.start ? "Başlangıç: " + esc(fmtShort(e.start)) : "Başlangıç tarihi açıklanmadı") + '</span>';
+    } else if (e.air === "tkr") {
+      /* Bu hafta yeni bölüm yok: tekrar yayınlanıyor (22 Ekim 2026, kullanıcı kararı) */
+      badge = '<span class="tv-badge tkr" title="Tekrar">TKR</span>';
     }
+    /* Not yalnız sade kayıtta görünür: yayındaki dizide yalnız saat, yeni dizide yalnız tarih veya "açıklanmadı" (22 Ekim 2026, kullanıcı kararı) */
+    var showNote = e.note && !e.air && !e.tag && e.status !== "yayinda";
     return '<div class="tv-item st-' + esc(e.status) + '" title="' + esc(TV_STATUS[e.status] || "") + (e.checked ? " · son teyit " + esc(fmtShort(e.checked)) : "") + '">' +
       '<span class="tv-dot" aria-hidden="true"></span><div><strong>' + title + (stale ? ' <sup class="tv-stale" title="Son teyit 14 günden eski">†</sup>' : "") + '</strong>' +
       (e.time ? '<small class="tv-time">' + esc(e.time) + '</small>' : "") +
-      (e.note ? '<small>' + esc(e.note) + '</small>' : "") +
+      (showNote ? '<small>' + esc(e.note) + '</small>' : "") +
       (badge ? '<small class="tv-tags">' + badge + '</small>' : "") + '</div></div>' +
       '<span class="sr-only"> Durum: ' + esc(TV_STATUS[e.status] || "") + '.</span>';
   }

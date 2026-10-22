@@ -91,21 +91,30 @@ Okunan: N ana haber, M kısa sinyal. Kaynak açılamayan: ...
 
 **Kullanıcıya iletme:** Raporu dosyaya yazdıktan sonra kısa bir özetini (kritik bulgu sayısı, en önemli 3 öneri, dosya yolu) kendi sohbetinde de kullanıcıya sun. Claude ertesi sabah raporu okur, kritik bulguları kaynaktan yeniden teyit eder, kullanıcıya iletir ve yalnız onaylananları uygular.
 
-## TV dizi takvimi güncellemesi (her gün, 21 Ekim 2026'dan itibaren)
+## TV dizi takvimi güncellemesi (her hafta Pazartesi, 22 Ekim 2026 kullanıcı kararı)
 
 Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv-takvim.json` dosyasıdır. Bu dosyayı sen değiştirme, yalnız oku. Önerilerini paketin `tvTableUpdates` alanına yaz. Claude teyit eder ve dosyaya işler.
 
-**Her sabah yapılacaklar**
-1. `data/tv-takvim.json` içindeki kayıtları oku. Önce `checked` tarihi 14 günden eski olan (sitede † işaretli) kayıtları resmî yayın akışı ve program sayfasıyla yeniden kontrol et.
-2. Yeni dizi, final, gün veya saat değişikliği, kanal değişikliği varsa `tvTableUpdates` içine yaz. Değişiklik yoksa alanı boş liste bırak ve `researcherNotes` içinde "tablo kontrol edildi, değişiklik yok" de.
+**Her Pazartesi yapılacaklar (görev ChatGPT'dedir)**
+1. Pazartesi günkü araştırmada `data/tv-takvim.json` dosyasını oku ve tüm tabloyu 7 kanalın resmî yayın akışı sayfalarıyla gün gün karşılaştır (o haftanın Pazartesi-Pazar akışı). Diğer günlerde tablo için ayrı iş yoktur; yalnız o gün gelen yeni dizi, final veya yayın değişikliği haberini `tvTableUpdates` içine yazabilirsin.
+2. Yeni dizi, yeni sezon, final, gün veya saat değişikliği, kanal değişikliği, tekrar (TKR) veya yerine konan program varsa `tvTableUpdates` içine yaz. Değişiklik yoksa alanı boş liste bırak ve `researcherNotes` içinde "tablo kontrol edildi, değişiklik yok" de.
 3. Her öneride `checked` (kontrol ettiğin tarih) ve mümkünse `source` (resmî kaynak, https) ver.
+4. `checked` tarihi 14 günden eski kayıtlar sitede † ile görünür. Bu kayıtta dizi hakkında hiçbir bilgi bulamazsan `remove` öner. Bilgi varsa kayıt kalır ve `checked` güncellenir.
+5. Dosyayı sen değiştirmezsin. Claude önerileri kanal sayfasından teyit edip işler.
+
+**Görünüm kuralları (22 Ekim 2026, kullanıcı kararı)**
+- Bu hafta yeni bölümle yayınlanan dizide yalnız saat görünür. Not yazma.
+- Yeni dizi: doğrulanmış başlangıç tarihi varsa tarih görünür, yoksa "Başlangıç tarihi açıklanmadı". Var olan dizi yeniden yayına başlayacaksa yeni sezondur: `tag: "sezon"` ("Yeni Sezon") kullan (kullanıcı onayı, 22 Ekim).
+- "Günü belirsiz" sütunundaki dizinin başlayıp başlamadığını kontrol et. Başladıysa gerçek gününe ve saatine taşı (`update`, `day` değişir, `tag` boşalır). Başlamadıysa Yeni Dizi etiketiyle kalır.
+- Haftalık dizinin yeni bölümü gelmediyse (maç, özel yayın vb.) tekrar ise `air: "tkr"` (sitede TKR), yerine başka program konduysa `note` içine onun adını yaz.
 
 **Kayıt biçimi** (`schema/research.example.json` içinde örnek var)
 - `action`: `add`, `update` veya `remove`. `update` ve `remove` için `channel`, `day`, `title` kaydı bulmaya yeter.
 - `channel`: ATV, KANAL D, STAR TV, SHOW TV, NOW, TRT 1, TV8. `day`: Pazartesi ... Pazar veya `Günü belirsiz`.
 - `status`: `yayinda` (resmî akışta veya arşivde yeni bölüm görüldü), `kanal-teyitli` (kanal açıkladı, henüz yayında değil veya bölüm teyidi yok), `planlanan`, `belirsiz`. Haber sitesi veya kulis bilgisini `belirsiz` yap ve `note` içine "Kulis" yaz.
 - `time`: `20.00` biçimi. Saat teyitsizse alanı koyma.
-- `note`: tek kısa not (en fazla ~12 kelime).
+- `note`: tek kısa not (en fazla ~12 kelime). Yeni bölümle yayındaki dizide not yazılmaz.
+- `tag`: `yeni`, `sezon` veya `final`. `air`: `tkr` (bu hafta tekrar).
 
 **Veda eden diziler**
 - Final tarihi resmî olarak açıklanmışsa kaydın `tag` alanı `final`, `final` alanı `YYYY-MM-DD` olur. Sitede "Dizi Finali" ve veda tarihi görünür. Kulis bilgisini final olarak yazma; `note` içinde Kulis de.
