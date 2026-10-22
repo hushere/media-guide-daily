@@ -126,17 +126,11 @@ def validate(path: Path, data: dict) -> list:
                 if nonempty_str(it.get("url")) and not it["url"].startswith("https://"):
                     errs.append(f"{tag}: url https:// ile başlamalı")
 
-    gate = str(data.get("date", "")) >= "2026-10-22"  # katman, günün okuması, tutum radarı: 22 Ekim 2026'dan itibaren zorunlu
-    if gate:
-        if not nonempty_str(data.get("dayRead")):
-            errs.append("dayRead (Günün okuması) zorunlu")
-        elif len(data["dayRead"].split()) > 110:
-            errs.append("dayRead en fazla ~110 kelime olmalı (4-5 cümle)")
-    elif data.get("dayRead") is not None and not nonempty_str(data.get("dayRead")):
-        errs.append("dayRead boş olamaz")
+    gate = str(data.get("date", "")) >= "2026-10-22"  # katman ve Radar: 22 Ekim 2026'dan itibaren zorunlu
+    # dayRead (Günün okuması) 22 Ekim 2026'da kaldırıldı: istenmez, çizilmez. Eski bültenlerdeki alan arşiv verisi olarak kalır.
     ar = data.get("attitudeRadar")
     if gate and ar is None:
-        errs.append("attitudeRadar (Tutum Radarı) zorunlu")
+        errs.append("attitudeRadar (Radar) zorunlu")
     if ar is not None:
         if not isinstance(ar, dict) or not isinstance(ar.get("items"), list) or not ar["items"]:
             errs.append("attitudeRadar {note, items[]} biçiminde ve boş olmayan olmalı")

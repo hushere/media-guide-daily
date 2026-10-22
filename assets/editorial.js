@@ -27,19 +27,25 @@ if(social){
  var list=social.querySelector('.soc-list');list.tabIndex=0;list.setAttribute('aria-label','Dijital gündem içerikleri, kaydırılabilir');
  addPanelToggle(social,head,'Dijital gündemin tamamını göster');
 }
+var brief=main.querySelector('.day-brief');
 var fixtures=row.querySelector('.fixtures');
 if(fixtures){
  fixtures.classList.add('agenda-panel','sports-panel');
  fixtures.querySelector('.eyebrow').textContent='Haftanın karşılaşmaları';
  fixtures.querySelector('h2').textContent='Spor Takvimi';
  addPanelToggle(fixtures,fixtures.querySelector('.fx-head'),'Spor takviminin tamamını göster');
+ /* Spor Takvimi, Radar'ın yanına gelir (22 Ekim 2026, kullanıcı kararı). Radar yoksa eski yerinde kalır. */
+ if(brief)brief.appendChild(fixtures.closest('.fx-wrap')||fixtures);
 }
+var radar=brief&&brief.querySelector('.attitude');
+if(radar)addPanelToggle(radar,radar.querySelector('.att-head'),'Radar notlarının tamamını göster');
+if(brief&&brief.children.length===1)brief.classList.add('single-panel');
 var gurus=row.querySelector('.gurus');
 if(gurus){gurus.classList.add('agenda-panel','guru-panel');addPanelToggle(gurus,gurus.querySelector('.gur-head'),'Media Guru notlarının tamamını göster')}
 if(row.children.length===1)row.classList.add('single-panel');
 if(row.children.length===3)row.classList.add('triple-panel');
-gallery.before(row);
-var brief=main.querySelector('.day-brief');if(brief)row.before(brief);
+/* Satırda panel kalmadıysa (ör. Dijital Gündem ve Guru yok) boş bırakma */
+if(row.children.length){gallery.before(row);if(brief)row.before(brief)}else{row.remove();if(brief)gallery.before(brief)}
 function addPanelToggle(panel,head,label){
  var button=document.createElement('button');button.type='button';button.className='panel-expand';button.textContent='Genişlet ↗';button.setAttribute('aria-label',label);button.setAttribute('aria-expanded','false');head.appendChild(button);
  button.addEventListener('click',function(){var expanded=panel.classList.toggle('panel-expanded');button.setAttribute('aria-expanded',String(expanded));button.textContent=expanded?'Daralt ↙':'Genişlet ↗';button.setAttribute('aria-label',expanded?'Paneli daralt':label)});

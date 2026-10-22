@@ -265,20 +265,19 @@
     '</article>';
   }
 
-  /* Günün okuması, Tutum Radarı ve Kısa sinyaller (22 Ekim 2026'dan itibaren) */
+  /* Radar (eski adı Tutum Radarı) ve Kısa sinyaller (22 Ekim 2026'dan itibaren).
+     Günün okuması 22 Ekim'de kaldırıldı; eski bültenlerdeki dayRead alanı çizilmez.
+     editorial.js Spor Takvimi panelini bu bandın içine, Radar'ın yanına taşır. */
   function dayBriefHTML(b) {
     var ar = b.attitudeRadar;
-    if (!b.dayRead && !(ar && ar.items && ar.items.length)) return "";
-    var read = b.dayRead ? '<article class="day-read"><span class="eyebrow">Günün okuması</span><p>' + esc(b.dayRead) + '</p></article>' : "";
-    var radar = "";
-    if (ar && ar.items && ar.items.length) {
-      radar = '<aside class="attitude"><span class="eyebrow">Tutum Radarı</span><h2>Medya tutumunda bugün</h2><ul class="att-list">' +
-        ar.items.map(function (it) {
-          var cls = it.basis === "Veri" ? "att-basis veri" : "att-basis";
-          return '<li><div class="att-meta"><span class="att-tag">' + esc(it.tag) + '</span><span class="' + cls + '">' + esc(it.basis) + '</span><span class="att-rec">' + esc(it.recurrence) + '</span></div><p>' + esc(it.text) + '</p></li>';
-        }).join("") + '</ul>' + (ar.note ? '<p class="att-note">' + esc(ar.note) + '</p>' : "") + '</aside>';
-    }
-    return '<section class="day-brief' + (read && radar ? "" : " single") + '" aria-label="Günün okuması ve Tutum Radarı">' + read + radar + '</section>';
+    if (!(ar && ar.items && ar.items.length)) return "";
+    var items = ar.items.map(function (it) {
+      var cls = it.basis === "Veri" ? "att-basis veri" : "att-basis";
+      return '<li><div class="att-meta"><span class="att-tag">' + esc(it.tag) + '</span><span class="' + cls + '">' + esc(it.basis) + '</span><span class="att-rec">' + esc(it.recurrence) + '</span></div><p>' + esc(it.text) + '</p></li>';
+    }).join("");
+    return '<section class="day-brief agenda-panels" aria-label="Radar ve Spor Takvimi">' +
+      '<aside class="attitude agenda-panel" aria-labelledby="radarTitle"><div class="att-head"><span class="eyebrow">Medya tutumunda bugün</span><h2 id="radarTitle">Radar</h2></div>' +
+      '<div class="att-body"><ul class="att-list">' + items + '</ul>' + (ar.note ? '<p class="att-note">' + esc(ar.note) + '</p>' : "") + '</div></aside></section>';
   }
   function signalsHTML(b) {
     var sg = b.signals;

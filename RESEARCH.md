@@ -48,7 +48,7 @@ Katmanlar (`layer`): `Medya tüketimi ve izleyici`, `Reklam pazarı ve para`, `P
 - Toplam sayı sabit değil: genelde 8-14. Zayıf haberle sayı doldurma.
 - Katman başına önerilen kaynaklar: tüketim için Netflix Tudum, YouTube, DataReportal, GWI, TÜİK, BTK, Reuters Digital News Report, Google Trends; reklam pazarı için Reklamcılar Derneği, IAB Türkiye, şirket çeyrek sonuçları; düzenleme için RTÜK, Reklam Kurulu, Ticaret Bakanlığı, Resmî Gazete; tüketici için TÜİK, TCMB tüketici güven endeksi, e-ticaret ve perakende dernekleri. Erişemediğin kaynağı `accessLog` ve `limitations` içine yaz.
 - Kısa sinyal en az bir https birincil veya güvenilir ikincil kaynak ve yayın tarihi taşır. `rumor` olamaz.
-- İsteğe bağlı `attitudeTag`: haberin gösterdiği medya tutumunu 1-3 kelimeyle yaz (ör. "kısa video", "ikinci ekran", "fiyat duyarlılığı"). Yorum ve Tutum Radarı'nı Claude yazar; sen yalnız etiket öner.
+- İsteğe bağlı `attitudeTag`: haberin gösterdiği medya tutumunu 1-3 kelimeyle yaz (ör. "kısa video", "ikinci ekran", "fiyat duyarlılığı"). Yorum ve Radar'ı Claude yazar; sen yalnız etiket öner.
 
 ## Yayın sonrası okuma ve değerlendirme raporu (22 Ekim 2026'dan itibaren, kullanıcı kararı)
 
@@ -58,7 +58,7 @@ Claude bülteni yazıp yayımladıktan sonra (09.15), sen yayımlanmış bülten
 
 **Zaman:** Bülten 09.15'te yayımlanır; raporu 11.00'e kadar tamamla. Bülten 09.30'a kadar yayımlanmadıysa rapora "bülten yayımlanmadı" yaz ve dur.
 
-**Ne okunur:** `bulletins/YYYY-MM-DD.json` (güncel bülten; siteden de açılabilir). Her `articles[]` kaydı, `signals[]`, `dayRead`, `attitudeRadar`, `social`, `gurus` ve `limitations`.
+**Ne okunur:** `bulletins/YYYY-MM-DD.json` (güncel bülten; siteden de açılabilir). Her `articles[]` kaydı, `signals[]`, `attitudeRadar`, `social`, `gurus` ve `limitations`.
 
 **Her ana haber için kontrol et (kaynakları aç, başlık ve özetle yetinme):**
 1. Kaynak ile iddia uyumu: kartta yazan olgu, sayı, tarih ve isim kaynakta aynen var mı?
@@ -69,7 +69,6 @@ Claude bülteni yazıp yayımladıktan sonra (09.15), sen yayımlanmış bülten
 6. Dil: jargon, uzun cümle, sensasyon, belirsiz ifade.
 
 **Bülten bütünü için:**
-- `dayRead`: haberlerle tutarlı mı, abartı veya kesin olmayan şeyi kesin yazma var mı, genel okuyucu için anlaşılır mı?
 - `attitudeRadar`: `basis` ("Veri" yalnız ölçülmüş veriye dayanıyor mu), `recurrence` (önceki bültenlerde gerçekten görülmüş mü) ve tek haberden trend çıkarılıp çıkarılmadığı.
 - `signals`: yorum karışmış mı, kaynak ve tarih doğru mu?
 - Katman dengesi (en az 4 katman, tek katman en fazla %40) ve gün içinde kaçırılmış önemli bir gelişme.
@@ -83,7 +82,7 @@ Okunan: N ana haber, M kısa sinyal. Kaynak açılamayan: ...
 - [haber id] Bulgu. Kartta yazan (kısa alıntı). Kaynakta görülen + https bağlantı. Önerim.
 ## İyileştirme önerileri (zayıf yorum, dil, counterView, eksik bağlam)
 - [haber id] Bulgu. Önerim.
-## Bülten bütünü (dayRead, Tutum Radarı, katman dengesi, kaçırılan gelişmeler)
+## Bülten bütünü (Radar, katman dengesi, kaçırılan gelişmeler)
 ## Sorun görmediğim haberler (id listesi)
 ```
 - Her bulgu: hangi haber, neyi gördün, hangi kaynakta (https bağlantı) ve önerin. Kaynağı açamadığın iddiayı "doğru" veya "yanlış" sayma; "doğrulanamadı" yaz.

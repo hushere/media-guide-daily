@@ -128,6 +128,7 @@ index.html, assets/           Site (GitHub Pages)
 
 En yeni en üstte. ChatGPT her çalışmada bu kayda bakar.
 
+- **2026-10-22:** "Günün okuması" kaldırıldı (kullanıcı kararı). `dayRead` artık yazılmaz, doğrulayıcı istemez, site çizmez; eski bültenlerdeki alan arşivde kalır. ChatGPT incelemelerinde `dayRead` kontrolü yapılmaz. "Tutum Radarı" adı **Radar** oldu (JSON alanı `attitudeRadar` aynı) ve sitede Spor Takvimi ile yan yana gösterilir; Dijital Gündem ve Media Guru paneli altta kalır.
 - **2026-10-21:** Yeni ChatGPT görevi: yayın sonrası okuma ve değerlendirme raporu (22 Ekim'den itibaren). Her haberi okur, değişiklik yapmaz, önerilerini `research/reviews/YYYY-MM-DD.md` dosyasına yazar ve kullanıcıya özetler. Ayrıntı `RESEARCH.md`.
 - **2026-10-21:** Katmanlı haber seçimi (6 katman), iki kademe (Ana haberler + Kısa sinyaller), "Günün okuması" ve her gün "Tutum Radarı" eklendi (22 Ekim bülteninden itibaren). ChatGPT araştırma paketinde her kayda `layer` ve `tier` yazar (`RESEARCH.md`). Claude `dayRead`, `attitudeRadar` ve `signals` alanlarını yazar (`PROMPT.md` 5.8). "Neden önemli?" etiketi "Bu ne anlama geliyor?" oldu; okuma notu ajans, marka ve tüketici gözüyle yazılır.
 - **2026-10-21:** Hiçbir şirket "kendi şirket / bizim taraf / rakip değil" diye etiketlenmez. Paketlerde ve bültenlerde tüm şirketler aynı tarafsız dille yazılır; `rivalCheck` satırlarına bu tür not eklenmez.

@@ -6,7 +6,7 @@ Yeni bir sohbette site tasarımına devam edecekseniz önce bu dosyayı, sonra `
 | Dosya | Ne yönetir |
 |---|---|
 | `index.html` | Sayfa iskeleti, CSS/JS çağrıları ve önbellek sürümü (bkz. bölüm 3) |
-| `assets/app.js` | Bülten, kart, TV tablosu, dijital gündem, spor takvimi, Media Guru, Günün okuması, Tutum Radarı ve Kısa sinyaller render mantığı |
+| `assets/app.js` | Bülten, kart, TV tablosu, dijital gündem, spor takvimi, Media Guru, Radar ve Kısa sinyaller render mantığı |
 | `assets/editorial.js` | Dergi düzeni: üst başlık, "Bugün ne var?" galerisi, panel yerleşimi, haber penceresi (dialog) |
 | `assets/style.css` | Temel stiller ve açık/koyu tema değişkenleri |
 | `assets/experiment.css` | Editoryal düzen ve sonradan eklenen stiller. Stil çakışmasında bu dosya kazanır (en son yüklenir) |
@@ -16,7 +16,8 @@ Yeni bir sohbette site tasarımına devam edecekseniz önce bu dosyayı, sonra `
 
 ## 2. Bugünkü tasarım kararları (neden ile)
 - **TV Dizi Takvimi:** Satırlar içeriğe göre yükselir (eskiden hepsi en uzun satıra eşitleniyordu, 200 px). "Günü belirsiz" sütunu biraz geniş (1.55 birim) ve etiket ile not yan yana. Renk: kiremit. Açık modda koyu kiremitten turuncuya başlık, krem kanal sütunu, sarı "bugün" vurgusu. Koyu modda "Koru kiremit": canlı kiremit başlık, sıcak koyu kahve satırlar. Kullanıcı seçti (C açık, C1 koyu). Değişkenler `experiment.css` sonundaki `.tvgrid` bloğunda.
-- **Sıralı yeni bölümler (22 Ekim'den itibaren):** Günün okuması ve Tutum Radarı başlığın hemen altında, Kısa sinyaller galeri altında. Alanlar `PROMPT.md` 5.8'de.
+- **Üst bant: Radar + Spor Takvimi (22 Ekim, kullanıcı kararı):** Radar (eski Tutum Radarı) ve Spor Takvimi başlığın altında yan yana, aynı yükseklikte (masaüstü 430 px, mobil 390 px, mobilde alt alta) ve aynı başlık düzeninde (küçük üst etiket, serif başlık, Genişlet düğmesi). Neden: ikisi de kısa ve günlük bakılan paneller; eşit boyut okunurluğu ve hizayı korur. `editorial.js` Spor Takvimi'ni `.day-brief` içine taşır; Radar yoksa Spor Takvimi eski yerinde (Dijital Gündem satırında) kalır. Satırda panel kalmazsa boş satır kaldırılır. Kısa sinyaller galeri altında. Alanlar `PROMPT.md` 5.8'de.
+- **Günün okuması kaldırıldı (22 Ekim, kullanıcı kararı):** Kart, stiller, doğrulayıcı zorunluluğu, `PROMPT.md` ve şema örneği temizlendi. Neden: kural dosyalarında kalırsa ChatGPT ve Claude yazmaya devam eder, emek boşa gider. Eski bültenlerdeki `dayRead` alanı arşiv verisi olarak kaldı, çizilmez. JSON alan adı `attitudeRadar` değişmedi (arşiv uyumu).
 - **"Bu ne anlama geliyor?":** Eski "Neden önemli?" etiketi. Ajans, marka ve tüketici gözüyle yazılır.
 - **Başlık:** "Daily Media Intelligence" metni başlıktan kaldırıldı. Depo adı değişmedi (kullanıcı kararı).
 - **Hareket kontrolü ve bitiş bloğu** kaldırıldı (kullanıcı kararı).
@@ -35,4 +36,4 @@ Yeni bir sohbette site tasarımına devam edecekseniz önce bu dosyayı, sonra `
 - TV tablosu şu an hero altında; "Bugün ne var?" başlığının altına taşınması teklif edildi, karar bekliyor.
 - `render_check.py` içindeki "'Bu sayıda' boş" kontrolü güncellenebilir.
 - "hyperframes" sunum formatı tanımlanmadı; kullanıcıdan örnek bekleniyor.
-- İlk Tutum Radarı, katman ve kısa sinyal içeren gerçek paket bekleniyor (ChatGPT paketi 22 Ekim'de gelmedi, bülten yedek akışla çıktı).
+- İlk Radar, katman ve kısa sinyal içeren gerçek paket bekleniyor (ChatGPT paketi 22 Ekim'de gelmedi, bülten yedek akışla çıktı).

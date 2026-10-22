@@ -160,7 +160,7 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 - Claude yalnız biçim ve güvenlik kontrolü yapar: https birincil kaynak, yayın tarihi, en fazla 3 öğe, `evidence` etiketi, uzun alıntı veya kopya metin olmaması. Veri, kaynak yorumu ve çıkarım ayrı kalmalı; çalışmanın finansörü ve ticari bağı `counterView` içinde belirtilmeli.
 - Önemli yayın yoksa panel çıkmaz. Dolgu not yazılmaz.
 
-### 5.8 Katmanlı haber seçimi, kısa sinyaller, günün okuması ve Tutum Radarı (21 Ekim 2026, kullanıcı kararı; 22 Ekim bülteninden itibaren)
+### 5.8 Katmanlı haber seçimi, kısa sinyaller ve Radar (21 Ekim 2026, kullanıcı kararı; 22 Ekim bülteninden itibaren)
 
 **Amaç:** Haber seçimi, o gün hangi kaynağın ne yayımladığına değil, aşağıdaki 6 katmana göre yapılır. Bülten yalnız haber listesi değil, medya tutumlarını okuyabilen bir ürün olur.
 
@@ -180,9 +180,9 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 
 **Okuma notu ("Bu ne anlama geliyor?", `impact` alanı):** Planlama ile sınırlı değildir. Ortak stratejist gibi üç gözle, sade ve jargonsuz yaz: ajans gözü (planlama, satın alma, ölçüm), marka ve pazarlama gözü (talep, konumlandırma, fiyat, dağıtım), tüketici gözü (izleyici davranışında ne değişiyor). 2-3 cümle; genel okuyucu da anlamalı. Veri ile çıkarımı ayır ("Veri böyle, bizim okumamız şu").
 
-**Günün okuması (`dayRead`, zorunlu):** Bültenin tepesinde 4-5 cümlelik, madde işaretsiz, akıcı ve profesyonel insan diliyle yazılmış özet. Günün medya tutumu hikâyesini anlatır, haber başlıklarını art arda saymaz. Jargon yok; sensasyon yok; kesin olmayan şeyi kesin yazma.
+**Günün okuması (kaldırıldı, 22 Ekim 2026, kullanıcı kararı):** `dayRead` alanı artık yazılmaz, istenmez ve sitede çizilmez. Eski bültenlerdeki alan arşiv verisi olarak kalır, silinmez.
 
-**Tutum Radarı (`attitudeRadar`, her gün, 2-4 öğe):** Günün haberlerinden okunan medya tutumu sinyalleri. Her öğe: `tag` (kısa etiket: ör. kısa video, ikinci ekran, platform güveni, fiyat duyarlılığı), `text` (en fazla 35 kelime, ne görüyoruz), `basis` (`Veri` yalnız sayısal veya ölçülmüş kaynağa dayanıyorsa; tek haber veya kulis ise `İşaret`), `recurrence` (`Yeni`, `Tekrar ediyor` önceki bültenlerde aynı etiket görüldüyse, `Tek günlük olabilir`), isteğe bağlı `refs` (ilgili haber `id`leri). Claude yazar; yazmadan önce son 5 bültenin `attitudeRadar` etiketlerine bakar. Tek haberden trend çıkarma: tek kaynaklı sinyal `İşaret` olarak etiketlenir ve kanıt gibi sunulmaz. Korelasyonu nedensellik gibi yazma.
+**Radar (eski adı Tutum Radarı; `attitudeRadar`, her gün, 2-4 öğe):** Sitede Spor Takvimi ile yan yana gösterilir. JSON alan adı değişmedi. Günün haberlerinden okunan medya tutumu sinyalleri. Her öğe: `tag` (kısa etiket: ör. kısa video, ikinci ekran, platform güveni, fiyat duyarlılığı), `text` (en fazla 35 kelime, ne görüyoruz), `basis` (`Veri` yalnız sayısal veya ölçülmüş kaynağa dayanıyorsa; tek haber veya kulis ise `İşaret`), `recurrence` (`Yeni`, `Tekrar ediyor` önceki bültenlerde aynı etiket görüldüyse, `Tek günlük olabilir`), isteğe bağlı `refs` (ilgili haber `id`leri). Claude yazar; yazmadan önce son 5 bültenin `attitudeRadar` etiketlerine bakar. Tek haberden trend çıkarma: tek kaynaklı sinyal `İşaret` olarak etiketlenir ve kanıt gibi sunulmaz. Korelasyonu nedensellik gibi yazma.
 
 **Araştırma tarafı:** Katmanlı araştırma, `layer`, `tier` ve isteğe bağlı `attitudeTag` alanları `RESEARCH.md` içinde ChatGPT'ye verilmiştir. Katman kaynak listeleri ChatGPT araştırmasında önerilir, `state/handoff.md` bölüm 9'da güncellenir.
 
@@ -227,7 +227,7 @@ Kurallar:
 Uygun olduğunda şu bölümleri kullan; anlamlı doğrulanmış içerik yoksa kısa bir durum satırı ver veya bölümü ekleme, dolgu haber üretme:
 
 1. Başlık (günün gündemine göre), özet, tarama penceresi, sürüm (tam/seçki)
-1b. Günün okuması (`dayRead`) ve Tutum Radarı (`attitudeRadar`)
+1b. Radar (`attitudeRadar`)
 2. Dijital gündem şeridi (`social`, bölüm 5.6) ve Media Guru'larından Notlar paneli (`gurus`, bölüm 5.7)
 3. Türkiye: TV & Entertainment, Rakip Marka Gelişmeleri, Ajans & Marka, diğer yerel gelişmeler
 3. Global
@@ -245,7 +245,7 @@ Her ana haberde (22 Ekim'den itibaren) `layer` yalnız bölüm 5.8'deki 6 değer
 
 Sürüm: tam günlük kapsam araştırıldıysa `edition: "daily"`; gerçekten kısmi taramaysa `edition: "selection"` ve eksikleri `limitations` içinde açıkça yaz.
 
-JSON alan eşleşmesi: günün okuması `dayRead`, Tutum Radarı `attitudeRadar` {note, items[{tag,text,basis,recurrence,refs}]}, kısa sinyaller `signals` [{layer,region,text,source,url,published}], ana haberde `layer`; öne çıkanlar `highlights`, Watchlist `watchlist`, eksikler `limitations`, düzeltmeler `corrections`, "Öneri:" satırı `proposal` (anlamlı öneri yoksa alanı hiç ekleme), etiketler (Kulis, Gecikmeli fakat önemli, Kanal teyitli vb.) `label`, öğrenme notu `learning`.
+JSON alan eşleşmesi: Radar `attitudeRadar` {note, items[{tag,text,basis,recurrence,refs}]}, kısa sinyaller `signals` [{layer,region,text,source,url,published}], ana haberde `layer`; öne çıkanlar `highlights`, Watchlist `watchlist`, eksikler `limitations`, düzeltmeler `corrections`, "Öneri:" satırı `proposal` (anlamlı öneri yoksa alanı hiç ekleme), etiketler (Kulis, Gecikmeli fakat önemli, Kanal teyitli vb.) `label`, öğrenme notu `learning`.
 
 ## 8. Yayın öncesi kalite kontrolü
 
@@ -260,7 +260,7 @@ Yayımlamadan önce kontrol et:
 - Türkiye/Global ayrımı ve coğrafi çeşitlilik
 - Veri/yorum ayrımı
 - Her ana haberde somut etki (ajans, marka ve tüketici gözü), jargonsuz
-- 22 Ekim'den itibaren: her ana haberde `layer`; en az 4 katman, tek katman en fazla %40; `signals` 4-6 adet; `dayRead` ve `attitudeRadar` var; Tutum Radarı'nda `basis` ve `recurrence` dürüst
+- 22 Ekim'den itibaren: her ana haberde `layer`; en az 4 katman, tek katman en fazla %40; `signals` 4-6 adet; `attitudeRadar` var (`dayRead` yazılmaz); Radar'da `basis` ve `recurrence` dürüst
 - Biçim: `summary` tek cümle, `body` maddeleri en fazla 22 kelime, `action` tek somut cümle
 - Bölüm 4.1: TV durumu resmî kaynakla mı, maç yayıncısı resmî/iki bağımsız kaynakla mı, rakip şirket sayfaları kontrol edildi mi
 - Görseller haberin konusuyla ilgili, kredili ve doğrudan https adresli; `social` öğelerinde metrikler kaynaklı ve uydurma değil

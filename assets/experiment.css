@@ -143,9 +143,9 @@
 .agenda-panels .social{border-top:4px solid #b7bce4}
 .agenda-panels .fx-wrap{min-height:0;position:static}
 .agenda-panels .fx-wrap .fixtures{position:static;inset:auto;border-top:4px solid #9fd5c6;padding:0;max-height:none}
-.agenda-panels .soc-head,.agenda-panels .fx-head,.agenda-panels .gur-head{position:relative;display:block;flex:none;padding:18px 112px 16px 20px;margin:0;border-bottom:1px solid var(--line);background:var(--surface-2)}
+.agenda-panels .soc-head,.agenda-panels .fx-head,.agenda-panels .gur-head,.agenda-panels .att-head{position:relative;display:block;flex:none;padding:18px 112px 16px 20px;margin:0;border-bottom:1px solid var(--line);background:var(--surface-2)}
 .agenda-panels .eyebrow{font-size:10px;letter-spacing:.08em;color:var(--muted)}
-.agenda-panels .soc-head h2,.agenda-panels .fx-head h2,.agenda-panels .gur-head h2{font-family:'Source Serif 4',Georgia,serif;font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:6px 0 8px}
+.agenda-panels .soc-head h2,.agenda-panels .fx-head h2,.agenda-panels .gur-head h2,.agenda-panels .att-head h2{font-family:'Source Serif 4',Georgia,serif;font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:6px 0 8px}
 .agenda-panels .soc-head p,.agenda-panels .fx-head p,.agenda-panels .gur-head p{font-size:11px;line-height:1.5;margin:0;color:var(--muted)}
 .panel-expand{position:absolute;right:16px;top:20px;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--text);font:inherit;font-size:11px;min-height:36px;padding:8px 12px;cursor:pointer;transition:background .18s,border-color .18s}
 .panel-expand:hover{border-color:var(--accent);background:var(--accent-soft)}
@@ -169,17 +169,17 @@
 .agenda-panels .fx-meta{font-size:11px;line-height:1.55;overflow-wrap:anywhere}
 .agenda-panels .fx-foot{font-size:10px;line-height:1.6}
 .agenda-panels .agenda-panel.panel-expanded{height:auto;max-height:none}
-.agenda-panels .panel-expanded .soc-list,.agenda-panels .panel-expanded .fx-scroll{flex:none;max-height:none;overflow:visible}
+.agenda-panels .panel-expanded .soc-list,.agenda-panels .panel-expanded .fx-scroll,.agenda-panels .panel-expanded .att-body{flex:none;max-height:none;overflow:visible}
 .agenda-panels .panel-expanded .agenda-note{max-height:none}
 @media(max-width:860px){
  .hero .agenda-panels{grid-template-columns:minmax(0,1fr);gap:16px}
  .agenda-panels .agenda-panel{height:390px}
 }
 @media(max-width:480px){
- .agenda-panels .soc-head,.agenda-panels .fx-head{padding:16px 98px 14px 16px}
- .agenda-panels .soc-head h2,.agenda-panels .fx-head h2{font-size:23px}
+ .agenda-panels .soc-head,.agenda-panels .fx-head,.agenda-panels .att-head{padding:16px 98px 14px 16px}
+ .agenda-panels .soc-head h2,.agenda-panels .fx-head h2,.agenda-panels .att-head h2{font-size:23px}
  .panel-expand{right:12px;top:18px;padding:7px 10px}
- .agenda-panels .soc-list,.agenda-panels .fx-scroll{padding-inline:14px}
+ .agenda-panels .soc-list,.agenda-panels .fx-scroll,.agenda-panels .att-body{padding-inline:14px}
 }
 @media(prefers-reduced-motion:reduce){.panel-expand,.agenda-panels .soc-card{transition:none}}
 
@@ -201,16 +201,11 @@
 @media(min-width:1240px){.hero .agenda-panels.triple-panel{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:861px) and (max-width:1239px){.hero .agenda-panels.triple-panel .guru-panel{grid-column:1/-1;height:auto;max-height:460px}}
 
-/* Günün okuması, Tutum Radarı, Kısa sinyaller */
+/* Radar (eski adı Tutum Radarı), Spor Takvimi ile yan yana; Kısa sinyaller. Günün okuması kaldırıldı (22 Ekim 2026). */
 .pill.layer{background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
-.day-brief{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px;margin:6px 0 26px;align-items:stretch}
-.day-brief.single{grid-template-columns:minmax(0,1fr)}
-.day-read,.attitude{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:22px 24px;box-shadow:0 4px 16px #14212408;min-width:0}
-.day-read{border-top:4px solid var(--accent)}
-.attitude{border-top:4px solid #e0b36a}
-.day-read .eyebrow,.attitude .eyebrow,.signals .eyebrow{font-size:10px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
-.day-read p{font-family:'Source Serif 4',Georgia,serif;font-size:19px;line-height:1.6;margin:10px 0 0;letter-spacing:-.01em;text-wrap:pretty}
-.attitude h2{font-family:'Source Serif 4',Georgia,serif;font-size:22px;line-height:1.2;letter-spacing:-.03em;margin:6px 0 12px}
+.agenda-panels .attitude{border-top:4px solid #e0b36a}
+.signals .eyebrow{font-size:10px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.agenda-panels .att-body{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:14px 20px 16px;scrollbar-width:thin}
 .att-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
 .att-list li{padding:11px 0;border-top:1px solid var(--line)}
 .att-list li:first-child{border-top:0;padding-top:0}
@@ -229,7 +224,7 @@
 .sig-list p{margin:0 0 5px;font-size:14px;line-height:1.5}
 .sig-list a{font-size:12px;color:var(--accent);text-decoration:none;overflow-wrap:anywhere}
 .sig-list a:hover{text-decoration:underline}
-@media (max-width:860px){.day-brief{grid-template-columns:minmax(0,1fr)}.sig-list{grid-template-columns:minmax(0,1fr)}.day-read p{font-size:17px}.day-read,.attitude,.signals{padding:18px}}
+@media (max-width:860px){.sig-list{grid-template-columns:minmax(0,1fr)}.signals{padding:18px}}
 
 /* User-approved TV calendar layout: equal tracks, alternating mint rows. */
 .tvgrid{--tv-row-light:color-mix(in srgb,var(--surface) 65%,var(--gl-soft));--tv-row-deep:color-mix(in srgb,var(--surface) 20%,var(--gl-soft));--tv-rule:color-mix(in srgb,var(--gl) 18%,var(--line))}
