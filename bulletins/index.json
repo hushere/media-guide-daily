@@ -1,6 +1,22 @@
 {
   "bulletins": [
     {
+      "date": "2026-10-23",
+      "title": "Omnicom'da organik büyüme %7,2, Google'da otomatik video, tüketici güveninde sert düşüş",
+      "summary": "Omnicom ana faaliyetlerinde %7,2 organik büyüme açıkladı; Google Performance Max onaylı kaynaklardan videoları otomatik ekliyor. Türkiye'de tüketici güveni 84,8'e indi, Ülker Go Ahead protein barlarını duyurdu.",
+      "edition": "daily",
+      "articleCount": 6,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "Rekabet",
+        "Sinema",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved_with_changes"
+    },
+    {
       "date": "2026-10-22",
       "title": "Meta'da fiyat büyüyor, OpenAI kreatifi kendisi yazıyor",
       "summary": "Araştırma paketi gelmediği için Claude'un yedek seçkisi. Meta'nın Q3 büyümesi büyük ölçüde reklam fiyatından geldi; OpenAI ChatGPT reklamlarında kreatifi varsayılan olarak otomatik değiştirecek; Netflix ölçüm altyapısını genişletiyor.",

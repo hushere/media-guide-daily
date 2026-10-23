@@ -1,22 +1,19 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 22 Ekim 2026 09:05, Claude (bülten 2026-10-22 YEDEK: ChatGPT paketi gelmedi)
+Son güncelleme: 23 Ekim 2026 09:02, Claude (bülten 2026-10-23, ChatGPT paketiyle)
 
 ## 1. Pencere
+- Son bülten: 2026-10-23 (cuma) | ChatGPT paketi (research/2026-10-23.json, 11 öğe); bilgi kesimi **23 Ekim 2026 07:44:57 TSİ**, Claude teyit 08:40-09:00. **Pazartesi 26 Ekim penceresi 23 Ekim 07:44'ten başlar.**
 - Son bülten: 2026-10-22 (perşembe) | **Claude yedek** (paket 08.52'ye kadar gelmedi); bilgi kesimi **22 Ekim 2026 09:00 TSİ**. Cuma penceresi 22 Ekim 09:00'dan başlar.
 - Önceki: 2026-10-21 (çarşamba) | ChatGPT paketi (research/2026-10-21.json); bilgi kesimi **21 Ekim 2026 07:41:10 TSİ**, Claude teyit 08:55. Perşembe penceresi 21 Ekim 07:41'den başlar.
 
 ## 1b. Haftanın gelişmeleri (cuma özeti için; cuma sonrası boşalt)
-- 2026-10-19#meta-ticari-sartlar-ai-tarama: Meta 30 Ekim şartları, reklamveren sitelerini AI eğitimi için tarama hakkı.
-- 2026-10-19#holding-q3-publicis-omnicom: Publicis Q3 %5 organik; Omnicom 22 Ekim.
-- 2026-10-20#eids-sosyal-ilan-platform-yaptirimlari: EİDS, Meta 20 mn TL, TikTok 4 mn TL ceza.
-- 2026-10-20#netflix-globo-18-yapim-lisans: Netflix–Globo 18 yapım lisansı.
-- 2026-10-21#netflix-q3-reklam-beklentisi: Netflix 2026 reklam beklentisi ~3 → ~2,7 milyar $; 2027'de 15 yeni ülke (Mart 2027 ilk dalga).
-- 2026-10-21#iab-cross-channel-karar-rehberi: IAB ölçüm karar rehberi, görüş son tarihi 4 Kasım.
-- 2026-10-22#meta-q3-reklam-fiyati-yuzde-14: Meta Q3 reklam +%26; fiyat +%14, gösterim +%10 (SEC).
-- 2026-10-22#openai-chatgpt-reklam-otomatik-kreatif: ChatGPT reklamlarında otomatik kreatif varsayılan açık (29/30 Ekim).
+- (23 Ekim cuma özetinden sonra boşaltıldı; 26 Ekim'den itibaren yeni hafta)
 
 ## 2. Ertesi güne bırakılan kontroller
+- **26 Ekim pzt:** RESEARCH.md gereği tam TV tablosu denetimi (ChatGPT). GS–FB 26 Ekim 21:30 beIN SPORTS 1 (TFF + beIN maç listesi, ChatGPT okuması). 25 Ekim kış saati: Avrupa maç TSİ saatleri.
+- 23 Ekim'de açık: Go Ahead protein bar reklam/raf görünürlüğü; PMax kaynak video Türkiye yayılımı; tüketici güveni TÜİK bülteni (yöntem); Little Caesars yeni mağaza/ajans açıklaması; OpenProposal nihai sürüm.
+- 22 Ekim yedekte yapılamayanların çoğu 23 Ekim paketinde kapandı (TV akışı, rakip, dijital, guru, vaka, Omnicom). OpenAI yardım sayfası tarihi hâlâ açık.
 - **22 Ekim yedek bülteninde yapılamayanlar (cuma paketi tamamlasın):** TV akış karşılaştırması (22 Ekim perşembe 20.00 kuşağı, Güneşin Doğduğu Yer, Var Mısın 21 Ekim), rakip izleme, dijital gündem, guru notları, yaratıcı mecra vakası, Omnicom Q3 (22 Ekim akşamı), OpenAI yardım sayfası tarihi (29/30 Ekim).
 - TV takvimi (data/tv-takvim.json) 22 Ekim'de güncellenmedi (`tvTableUpdates` gelmedi).
 - **Media Guru'larından Notlar (22 Ekim kararı):** Yalnız ChatGPT araştırır (Sharp, Bellman, Beal, Riebe, Nelson-Field; RESEARCH.md). `gurus` ve `guruCheck` gelirse biçim kontrolü yap ve yayımla, kendin araştırma yapma. Önemli yayın yoksa panel çıkmaz.
@@ -48,7 +45,9 @@ Son güncelleme: 22 Ekim 2026 09:05, Claude (bülten 2026-10-22 YEDEK: ChatGPT p
 ## 3. TV takip tablosu
 | Yapım | Kanal | Son durum | Kaynak/tarih |
 |---|---|---|---|
-| Güneşin Doğduğu Yer | ATV | Kanal teyitli: perşembe 20.00, 15 Ekim 5. bölüm; gece kaydı tekrar. 00.20 iddiası düşürüldü | ATV akışı + bölüm arşivi, 15 Ekim (ChatGPT) |
+| Güneşin Doğduğu Yer | ATV | Fiilen yayında: perşembe 20.00, 22 Ekim 6. bölüm sayfası; cuma 22.40 kaydı | ATV bölüm sayfası, 23 Ekim (ChatGPT) |
+| Küçük Deniz Kızı (film) | ATV | 23 Ekim cuma 20.00 'TV'de ilk' (dizi değil) | ATV akışı 23 Ekim (ChatGPT) |
+| Tuzlu Kahve (Star) / Taşacak Bu Deniz (TRT 1) | | 23 Ekim cuma 20.00: Tuzlu Kahve tekrar; Taşacak Bu Deniz akışta | Akışlar 23 Ekim (ChatGPT) |
 | Altı Üstü İstanbul | ATV | Fiilen yayında; pazartesi 20.00 | Onedio 13 Ekim |
 | Sevdam Karadeniz | NOW | Fiilen yayında; 2. bölüm arşivde; pazartesi 20.00. **Kulis: 4. bölümde final** (resmî teyitsiz) | NOW bölüm arşivi + Birsen Altuntaş 20 Ekim |
 | Mehmed: Fetihler Sultanı | TRT 1 | Kanal teyitli: 20 Ekim akışında 21.30, öncesinde 19.45 FB–Slavia | TRT 1 akışı 20 Ekim (ChatGPT) |
@@ -78,9 +77,12 @@ Son güncelleme: 22 Ekim 2026 09:05, Claude (bülten 2026-10-22 YEDEK: ChatGPT p
 ## 5. Sinema (yalnız cuma kontrol edilir)
 - Bildirilen: 6 Kasım → Godzilla Minus Zero, Cinlerin Düğünü (tarih belirsiz) [4 hafta, 13 Ekim]. 9 Ekim sayısında (arşivde yok): Clayface, Çatlı 2, Şapkalı Kedi, Çakallarla Dans 8.
 - 16 Ekim: 4 hafta → 13 Kasım Ebenezer (UIP), Av. Mahsun Karaca, Bir Banka Nasıl Soyulur. 3 hafta → Godzilla Minus Zero (Başka Sinema), Şapkalı Kedi (6 Kasım). 2 hafta → Çatlı 2 (30 Ekim).
-- Sıradaki (23 Ekim cuma): 20 Kasım → Hunger Games: Sunrise on the Reaping, Aşk Tesadüfleri Sever 3 (4 hafta); 13 Kasım filmleri 3 hafta; 6 Kasım filmleri 2 hafta. Cinlerin Düğünü tarihi teyit.
+- **23 Ekim bildirildi:** 4 hafta → Açlık Oyunları: Hasatta Gündoğumu (20 Kasım, Global Pictures); 3 hafta → Ebenezer (13 Kasım, UIP teyitli); 2 hafta → Şapkalı Kedi, Godzilla Minus Zero (6 Kasım). Bilet kampanyası yok.
+- Sıradaki (30 Ekim cuma): 27 Kasım filmleri 4 hafta; 20 Kasım 3 hafta; 13 Kasım 2 hafta. Aşk Tesadüfleri Sever 3, Mahsun Karaca, Bir Banka Nasıl Soyulur, Cinlerin Düğünü tarih teyidi.
+- (eski not) 23 Ekim için plan: 20 Kasım → Hunger Games: Sunrise on the Reaping, Aşk Tesadüfleri Sever 3 (4 hafta); 13 Kasım filmleri 3 hafta; 6 Kasım filmleri 2 hafta. Cinlerin Düğünü tarihi teyit.
 
 ## 6. Kullanılmış yaratıcı vakalar (tekrar etme)
+- Cadbury Caramilk 'Just Ask An Aussie' canlı OOH panosu, VCCP, BK 2021 (23 Ekim)
 - 22 Ekim: vaka yok (yedek; doğrulanmış güçlü vaka bulunamadı). Elenen adaylar: Galaxy yenilebilir billboard 2018 (ajans/sonuç teyitsiz), Reese's "Don't Eat Lava", Milka "Last Square".
 - Maltesers / Channel 4 "Together Against Hate" (12 Ekim)
 - Snickers "Hungerithm", Avustralya 2016 (13 Ekim)
@@ -90,9 +92,10 @@ Son güncelleme: 22 Ekim 2026 09:05, Claude (bülten 2026-10-22 YEDEK: ChatGPT p
 - Toblerone "Gift Outside the Box" (19 Ekim)
 - Cadbury Secret Santa Postal Service, QR'lı OOH, VCCP, BK 2022 (20 Ekim)
 - KitKat "Phone Break", VML Czechia, OOH+basın, Çekya 2025 (21 Ekim)
-- Adaylar: Caramilk önceki araştırmada görülmüş.
 
 ## 7. Kaynak erişimi
+- 23 Ekim Claude oturumu: WebFetch yine **izin/zaman aşımı (PROVENANCE_REQUIRED)** — omc.com haber odası, beinsports maç listesi, atv.com.tr akışı; ertesi gün yeniden dene. Açılan: sec.gov (Omnicom 8-K), yenicaggazetesi.com, capital.com.tr. WebSearch başlık döndürdü.
+- ChatGPT 23 Ekim: 7 kanal akışı, birsenaltuntas, TFF, TVF, VolleyStation, S Sport Plus, beIN, Box Office Türkiye, UIP, EuroLeague PDF, bjk.com.tr, Google Trends, Netflix Tudum açıldı. 403: tbf.org.tr, trtspor. Erişilemedi: ETİ, Ferrero TR, Şölen, Doğkar, Altınkılıçlar, Lider; zaman aşımı: Fiskobirlik; throttle: YouTube charts; JS: TikTok CC, Spotify, TÜİK veri portalı, realmadrid.com.
 - 22 Ekim Claude oturumu (yedek): WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı, birsenaltuntas, TFF, TRT 1, beIN, mediacat.com ana sayfa, marketingturkiye, campaigntr; ertesi gün yeniden dene. Açılan: sec.gov (Meta 8-K), ppc.land, mediacat alt sayfaları, sultanlar.volleystation.com/tr/schedule, fcbarcelona.com, politikam, karar, sporx.
 - render_check.py: 'Bu sayıda' kontrolü kaldırıldı (kutu 21 Ekim kullanıcı commit'i 8cae976 ile editorial.js'de bilinçli siliniyor; kontrol yanlış SORUN veriyordu).
 - 21 Ekim Claude oturumu: WebFetch TRT 1 akışında yine **izin/zaman aşımı (PROVENANCE_REQUIRED)**; ertesi gün yeniden dene. sec.gov (Netflix 8-K) açıldı. WebSearch maç/TV teyidinde yalnız başlık döndürdü.
@@ -118,6 +121,14 @@ Son güncelleme: 22 Ekim 2026 09:05, Claude (bülten 2026-10-22 YEDEK: ChatGPT p
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- **23 Ekim: paket geldi** (11 öğe, 07:44 cutoff), şema geçerli; accessLog, researcherNotes ve maç saat çelişki notları çok iyi. Teşekkürler.
+- **Pencere:** 22 Ekim yedek bülteni main'de var (bulletins/2026-10-22.json, cutoff 22 Ekim 09:00). Bir sonraki pencere her zaman son *bültenin* cutoff'undan başlar; paket yoksa bülten dosyasına bakın.
+- **Little Caesars:** '2029'da 1.000 mağaza' hedefi yalnız Marketing Türkiye'de; ikinci kaynak (Yeniçağ) yok. Hedef çıkarıldı. Tek kaynaklı sayısal hedefleri olgu maddesine koymayın.
+- **Katman dengesi:** 7 ana haberin 3'ü 'Marka ve kampanya' idi (%43); Claude Little Caesars'ı kısa sinyale aldı. Ana haberlerde tek katman ≤%40.
+- **Tüketici güveni:** TÜİK bülten sayfasının (data.tuik.gov.tr Bulten) doğrudan URL'sini veya AA/İHA gibi ikinci ajansı ekleyin; tek DHA kaynağı 'Tek kaynak' etiketiyle yayımlandı.
+- **Gecikmeli haber:** Ülker Go Ahead 21 Ekim tarihliydi; pencere başı öncesi haberlere `label: "Gecikmeli fakat önemli"` yazın.
+- **Dijital gündem:** Yalnız 2 Google Trends öğesi (validate uyarısı: <3 kaynak). RESEARCH.md listesindeki erişilebilir alternatif kaynakları (sektör trend raporları, platform blogları) deneyin.
+- **Görsel:** 7 ana öğenin yalnız 1'inde görsel; SEC/Google/Ülker sayfalarının og:image'ını arayın.
 - **22 Ekim: paket GELMEDİ.** 07.00-08.52 arasında depoya hiç commit yok (research/2026-10-22.json yok, başka adla/klasörde dosya yok). Görevin çalıştığını ve GitHub yazma izninin geçerli olduğunu kontrol edin. Bülten Claude yedeğiyle yayımlandı (dijital gündem, guru, TV tablosu yok).
 - **Cuma 23 Ekim paketinde:** 22 Ekim'de yapılamayan TV akış karşılaştırması, rakip kontrolü ve `tvTableUpdates` dahil tam kontrol; GS–FB 26 Ekim yayıncısını resmî kaynakla teyit edin.
 - **22 Ekim için ek görev (yayın sonrası değerlendirme):** Bülten 09.15'te yayımlandıktan sonra RESEARCH.md "Yayın sonrası okuma ve değerlendirme raporu" bölümünü uygula. Her haberi kaynağıyla karşılaştırıp oku, hiçbir dosyayı değiştirme, raporu `research/reviews/YYYY-MM-DD.md` olarak yaz ve kullanıcıya özetle.

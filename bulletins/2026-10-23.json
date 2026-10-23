@@ -1,0 +1,511 @@
+{
+  "date": "2026-10-23",
+  "title": "Omnicom'da organik büyüme %7,2, Google'da otomatik video, tüketici güveninde sert düşüş",
+  "summary": "Omnicom ana faaliyetlerinde %7,2 organik büyüme açıkladı; Google Performance Max onaylı kaynaklardan videoları otomatik ekliyor. Türkiye'de tüketici güveni 84,8'e indi, Ülker Go Ahead protein barlarını duyurdu.",
+  "edition": "daily",
+  "window": "21 Ekim 2026 07:41 – 23 Ekim 2026 07:44 TSİ (ChatGPT araştırma paketi; 22 Ekim 09:00 öncesi gelişmeler 22 Ekim yedek bülteniyle tekrar kontrolünden geçirildi). Claude teyidi 23 Ekim 08:40-09:00.",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-23T09:00+03:00",
+    "summary": "Omnicom rakamları SEC 8-K metninden yeniden teyit edildi (ana faaliyet 6,01 milyar $, organik %7,2, toplam 6,42 milyar $, 900 milyon $ sinerji) ve SEC kaynağı eklendi. Little Caesars devri Yeniçağ ile ikinci kaynaktan teyit edildi (Rekabet Kurumu onayı, ~170 şube); 1.000 mağaza hedefi yalnız Marketing Türkiye'de olduğu için çıkarıldı ve haber kısa sinyale alındı (Marka ve kampanya katmanı %40 sınırı). Tüketici güveni için ikinci bağımsız kaynak bulunamadı; 'Tek kaynak' etiketiyle yayımlandı. Ülker duyurusu 21 Ekim tarihli olduğundan 'Gecikmeli fakat önemli' etiketi verildi. WebFetch izin zaman aşımı nedeniyle ATV akışı ve beIN maç listesi Claude tarafından açılamadı; maç yayıncıları ve TV kayıtları ChatGPT'nin resmî kaynak okumasına dayanıyor. Guru panelinde önemli yeni yayın yok; dijital gündem yalnız iki Google Trends öğesi."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "attitudeRadar": {
+    "note": "Sinyaller günün haberlerinden okunur; ölçülmüş tüketici tutumu değildir.",
+    "items": [
+      {
+        "tag": "otomatik kreatif",
+        "text": "Google da OpenAI'dan sonra reklam kreatifini varsayılan olarak otomatik dolduruyor; kreatif kontrolü kampanya ayarına kayıyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "pmax-kaynak-videolar"
+        ]
+      },
+      {
+        "tag": "fiyat duyarlılığı",
+        "text": "Tüketici güveni bir ayda 91,9'dan 84,8'e düştü; değer ve promosyon mesajına talep artabilir, harcama verisiyle teyit gerekir.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "tuketici-guveni-ekim"
+        ]
+      },
+      {
+        "tag": "ajans konsolidasyonu",
+        "text": "Omnicom 900 milyon dolarlık maliyet sinerjisi hedefliyor; büyük ağlarda birleşme ve ekip değişimi gündemde kalıyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "omnicom-q3-ana-faaliyet-buyumesi"
+        ]
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "omnicom-q3-ana-faaliyet-buyumesi",
+      "title": "Omnicom Q3: ana faaliyetlerde organik büyüme %7,2, toplam gelir IPG ile 6,4 milyar dolar",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global",
+      "eventDate": "22 Ekim 2026 (Q3 2026 sonuç açıklaması)",
+      "label": "Resmî açıklama",
+      "summary": "Omnicom'un IPG birleşmesi sonrası ilk tam çeyreklerinden birinde ana faaliyet geliri 6 milyar dolar oldu ve organik olarak %7,2 büyüdü.",
+      "body": [
+        "Ana faaliyet (Core Operations) geliri 6,01 milyar dolar; organik büyüme %7,2 (SEC 8-K).",
+        "Toplam raporlanan gelir 6,42 milyar dolar; artışın ana nedeni şirkete göre IPG satın alması.",
+        "Ana faaliyetler, elden çıkarılan veya satışa ayrılan işleri kapsamıyor; iki rakam karıştırılmamalı.",
+        "CEO John Wren: 2026 için 900 milyon dolarlık maliyet sinerjisi hedefinde yoldayız (şirket beyanı)."
+      ],
+      "impact": "Veri böyle: büyüme satın almayla şişen toplam gelirden değil, organik rakamdan okunmalı ve %7,2 güçlü bir oran. Bizim okumamız: 900 milyon dolarlık maliyet hedefi ajans tarafında ekip ve ofis birleşmeleri anlamına gelebilir; marka tarafında hizmet sürekliliği soru işareti olur.",
+      "action": "Omnicom/IPG ağı ajanslarıyla çalışan markalarda ekip devamlılığını, veri araçlarını ve ücret kapsamını yazılı olarak teyit edin.",
+      "counterView": "Grup finansalları Türkiye reklam yatırımını veya müşteriye sağlanan verimliliği göstermez; sinerji hedefi yönetim beyanıdır, gerçekleşmesi ayrıca izlenmeli.",
+      "sources": [
+        {
+          "name": "SEC • Omnicom 8-K, Q3 2026 sonuç açıklaması",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000029989/000002998926000024/a2026q3earningsrelease.htm",
+          "published": "2026-10-22",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Omnicom • Q3 2026 sonuç PDF'si",
+          "url": "https://www.omc.com/wp-content/uploads/2026/10/Omnicom-2026-Q3-Earnings-Release_00.pdf",
+          "published": "2026-10-22",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "pmax-kaynak-videolar",
+      "title": "Google Performance Max, onaylı kaynaklardan videoları reklamlara otomatik ekleyebiliyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global; Türkiye hesaplarında kullanılabilirlik teyitsiz",
+      "eventDate": "22 Ekim 2026 (sektör haberi); yardım sayfası tarihsiz",
+      "label": "Resmî doküman",
+      "summary": "Google Ads, Performance Max kampanyalarında reklamverenin onayladığı kaynaklardan videoları öğe gruplarına otomatik ekleyen bir ayar sunuyor.",
+      "body": [
+        "Bir öğe grubuna en fazla 10 kaynak video otomatik eklenebiliyor (Google Ads yardım sayfası).",
+        "Yardım sayfasına göre yeni kampanyalarda varsayılan açık; bazı mevcut kampanyalarda otomatik etkinleşebilir.",
+        "Video kaynaklarının reklamveren tarafından onaylanması gerekiyor; dağıtım kademeli.",
+        "Search Engine Land 22 Ekim'de görsel ve video kaynak seçeneklerini haberleştirdi."
+      ],
+      "impact": "Ajans gözüyle: sosyal ve site videoları, ayrı kreatif onayı olmadan ücretli reklama girebilir. Marka gözüyle: kullanım hakları ve marka uygunluğu kontrolü kampanya ayarına bağlanıyor. 22 Ekim'deki OpenAI otomatik kreatif haberinin devamı niteliğinde bir eğilim.",
+      "action": "PMax kampanyalarında 'Sourced videos' ayarını, onaylı URL listesini ve otomatik eklenen videoları bu hafta kontrol edin.",
+      "counterView": "Kademeli dağıtım nedeniyle tüm Türkiye hesaplarında açık olduğu söylenemez; verimlilik iddiası Google beyanıdır, bağımsız test sonucu değil.",
+      "sources": [
+        {
+          "name": "Google Ads Help • About sourced videos",
+          "url": "https://support.google.com/google-ads/answer/17016118?hl=en",
+          "published": "Tarihsiz doküman; 23 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Search Engine Land • New image and video sourcing options in Performance Max",
+          "url": "https://searchengineland.com/google-ads-adds-new-image-and-video-sourcing-options-to-performance-max-498204",
+          "published": "2026-10-22",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "tuketici-guveni-ekim",
+      "title": "Tüketici güven endeksi ekimde 84,8'e geriledi",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "market": "Türkiye",
+      "eventDate": "22 Ekim 2026 (TÜİK açıklaması)",
+      "label": "Tek kaynak (haber ajansı)",
+      "summary": "TÜİK'in ekim tüketici güven endeksi, DHA'nın aktardığına göre eylüldeki 91,9'dan 84,8'e indi.",
+      "body": [
+        "Ekim endeksi 84,8; aylık düşüş %7,7 (DHA, TÜİK verisini aktararak).",
+        "Eylül endeksi 91,9 idi.",
+        "100'ün altı, tüketicilerin genel görünümü karamsar değerlendirdiğini gösteren eşik.",
+        "TÜİK bülten metni ve yöntem ayrıntısı doğrudan okunamadı; rakamlar haber ajansı aktarımıdır."
+      ],
+      "impact": "Veri böyle: bir ayda yaklaşık 7 puanlık düşüş belirgin. Bizim okumamız: marka tarafında fiyat ve değer mesajı öne çıkabilir; tüketici gözüyle sepet küçültme ve promosyon arayışı artabilir. Tek ay trend değildir.",
+      "action": "Q4 planlarında promosyon ve marka mesajı dengesini kategori satış verisiyle birlikte izleyin; tek endekse dayanarak bütçe kesmeyin.",
+      "counterView": "Güven anketi gerçekleşmiş harcamayı ölçmez; tek aylık sert düşüş dönemsel oynaklık da olabilir ve örneklem/saha ayrıntısı doğrulanmadı.",
+      "sources": [
+        {
+          "name": "DHA • Tüketici güven endeksi 84,8 oldu",
+          "url": "https://www.dha.com.tr/gundem/tuketici-guven-endeksi-84-8-oldu-2967443",
+          "published": "2026-10-22",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "ulker-go-ahead-protein-bar",
+      "title": "Ülker, Go Ahead markasıyla sütlü çikolata kaplı yüksek protein barları duyurdu",
+      "region": "Türkiye",
+      "category": "Rekabet",
+      "layer": "Marka ve kampanya",
+      "market": "Türkiye",
+      "eventDate": "21 Ekim 2026 (şirket duyurusu)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Ülker, Go Ahead markası altında 20 gram proteinli, sütlü çikolata kaplı yeni bar serisini duyurdu.",
+      "body": [
+        "Şirket: Ülker; tüketici markası: Go Ahead. Duyuru 21 Ekim tarihli.",
+        "Her barda 20 gram protein olduğu şirket tarafından açıklandı.",
+        "Seri sütlü çikolata kaplı; yer fıstığı, fındık ve hindistan cevizi seçenekleri var.",
+        "Duyuruda Go Ahead marka yüzü Eda Erdem'in açıklamasına yer verildi.",
+        "22 Ekim yedek bülteninde rakip kontrolü yapılamadığı için bu sayıda yer alıyor."
+      ],
+      "impact": "Marka gözüyle: çikolata kaplı ürünler 'aktif yaşam ve ara öğün' anına taşınıyor. Ajans gözüyle: spor ve sporcu yüzü kullanımı, spor içerikleri ve dijital video envanterinde kategori rekabetini artırabilir.",
+      "action": "Go Ahead protein barlarının raf fiyatını, bulunurluğunu ve reklam kreatifinin hangi tüketim anına yöneldiğini önümüzdeki iki hafta izleyin.",
+      "counterView": "İçerik ve beslenme iddiaları şirket beyanı; satış, dağıtım ve medya bütçesi açıklanmadı, lansman iletişiminin ölçeği henüz görünmüyor.",
+      "sources": [
+        {
+          "name": "Ülker • Go Ahead proteinli ürün portföyünü güçlendiriyor",
+          "url": "https://www.ulker.com.tr/tr/haberler/ulker-go-ahead-proteinli-urun-portfoyunu-guclendiriyor",
+          "published": "2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "sinema-kasim-esikler-23-ekim",
+      "title": "Vizyona 4/3/2 hafta: Açlık Oyunları yeni filmi 20 Kasım'da, Ebenezer 13 Kasım'da, Şapkalı Kedi ve Godzilla 6 Kasım'da",
+      "region": "Türkiye",
+      "category": "Sinema",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "6, 13 ve 20 Kasım 2026 (planlanan vizyon)",
+      "label": "Vizyona 4/3/2 hafta",
+      "summary": "Kasım sinema takviminde Açlık Oyunları: Hasatta Gündoğumu dört hafta eşiğine girdi; önceki sayılarda bildirilen üç film tarihlerini koruyor.",
+      "body": [
+        "4 hafta (yeni): Açlık Oyunları: Hasatta Gündoğumu | 20 Kasım | Global Pictures | Francis Lawrence; Elle Fanning, Mckenna Grace.",
+        "3 hafta: Ebenezer: Bir Noel Şarkısı | 13 Kasım | UIP | Ti West; Johnny Depp, Ian McKellen. Tarih UIP'te teyitli.",
+        "2 hafta: Şapkalı Kedi | 6 Kasım | TME Films | animasyon; Türkçe seslendirmede Murat Cemcir.",
+        "2 hafta: Godzilla Minus Zero | 6 Kasım | Başka Sinema | Takashi Yamazaki.",
+        "Ebenezer dışındaki tarihler Box Office Türkiye kaydı; dağıtımcı teyidi ve resmî fragman doğrulanamadı."
+      ],
+      "impact": "Kasım boyunca aile animasyonu, yıldız kadrolu dönem filmi ve genç yetişkin serisi art arda geliyor. Ajans gözüyle sinema envanteri haftalara göre farklı kitlelere satılabilir (tahmin; gişe ölçümü değil).",
+      "action": "20 Kasım haftası için dağıtımcıdan salon kapsamı ve ön satış takvimini isteyip genç hedefli sinema reklam paketlerini şimdiden rezerve edin.",
+      "counterView": "Seri ve oyuncu bilinirliği gişe garantisi değil; tarihler çoğunlukla tek kaynaktan ve değişebilir, Ebenezer'in yaş uygunluğu aile planına uymayabilir.",
+      "sources": [
+        {
+          "name": "Box Office Türkiye • Kasım 2026 takvimi",
+          "url": "https://boxofficeturkiye.com/takvim/2026/kasim",
+          "published": "Canlı takvim; 23 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Box Office Türkiye • Açlık Oyunları: Hasatta Gündoğumu",
+          "url": "https://boxofficeturkiye.com/film/aclik-oyunlari-hasatta-gundogumu--2018047",
+          "published": "Canlı kart; 23 Ekim 2026'da kontrol edildi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "UIP Türkiye • Ebenezer",
+          "url": "https://www.uip.com.tr/movies/EBENEZER/",
+          "published": "Tarihsiz; 23 Ekim 2026'da kontrol edildi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "cadbury-caramilk-canli-pano",
+      "title": "Yaratıcı Mecra Uygulamaları: Cadbury Caramilk, açık hava panosunu soru sorulabilen bir 'Avustralyalı'ya çevirdi",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Birleşik Krallık",
+      "eventDate": "Eylül 2021; arşiv vaka",
+      "label": "OOH • Çikolata • Arşiv vaka",
+      "summary": "Cadbury ve VCCP, Caramilk'in BK lansmanında üç şehirdeki panolara gerçek Avustralyalı marka hayranlarını yerleştirip yoldan geçenlerin sorularını yanıtlattı.",
+      "body": [
+        "Marka/kampanya: Cadbury Caramilk 'Just Ask An Aussie', Birleşik Krallık, Eylül 2021; ajans VCCP.",
+        "Mecra fikri: panoda duran gerçek Avustralyalı hayranlar, Avustralya'da sevilen ürünü merak edenlere bizzat anlattı.",
+        "Fiziksel OOH uygulaması; CGI değil. Instagram soru-cevap ve medya ortaklıkları sahayı tamamladı.",
+        "Neden çalıştı (yorum): tavsiye, panoyla konuşulabilen bir karşılaşmaya dönüştü; yeni ürüne güven yüz yüze kuruldu.",
+        "Açıklanmış satış veya erişim sonucu yok; kaynak ajans vaka sayfası."
+      ],
+      "impact": "Açık hava tek yönlü bir yüzey olmaktan çıkıp ürün tavsiyesi veren bir buluşma noktası oldu; mecra fikrin ayrılmaz parçası. Yeni lezzet lansmanlarında 'denemiş biri' güveni yaratabiliyor.",
+      "action": "Yeni bir çikolata lezzeti lansmanında tadım noktası ile birleşen, ürün hayranlarının soruları yanıtladığı izinli canlı pano uygulamasını maliyetiyle birlikte değerlendirin.",
+      "counterView": "Personel, güvenlik, belediye izni ve saha maliyeti ölçeği sınırlar; etki büyük ölçüde sosyal paylaşımla yayılmış olabilir ve bağımsız sonuç verisi yok.",
+      "learning": "Tartışma sorusu: Bu 'panodaki gerçek hayran' fikri Türkiye'de hangi yeni çikolata lezzeti veya ithal ürün lansmanına uyar?",
+      "sources": [
+        {
+          "name": "VCCP • Cadbury Caramilk Just Ask An Aussie",
+          "url": "https://www.vccp.com/uk/work/cadbury/cadbury-caramilk-just-ask-an-aussie-billboard",
+          "published": "2021-10-01",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://www.vccp.com/uk/wp-content/uploads/2021/10/Cadbury-Caramilk-2-1920x720.png",
+        "alt": "Caramilk Just Ask An Aussie açık hava uygulaması",
+        "credit": "Cadbury / VCCP",
+        "sourceUrl": "https://www.vccp.com/uk/work/cadbury/cadbury-caramilk-just-ask-an-aussie-billboard"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "text": "Dinçerler Group, Little Caesars'ın Türkiye operasyonunu devraldı; Rekabet Kurumu onayı haberleştirildi, yaklaşık 170 şube.",
+      "source": "Marketing Türkiye; Yeniçağ",
+      "url": "https://www.marketingturkiye.com.tr/haberler/dincerler-group-little-caesarsin-turkiye-operasyonunu-devraldi/",
+      "published": "2026-10-22"
+    },
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "text": "Doğanay, İlker Ayrık'lı yeni reklam filminde şalgamı farklı yemek sofralarıyla ilişkilendiriyor (Advertorial).",
+      "source": "Marketing Türkiye",
+      "url": "https://www.marketingturkiye.com.tr/kampanyalar/doganayin-ilker-ayrik-ile-yeni-reklam-filmi-yayinda/",
+      "published": "2026-10-22"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Salt İletişim Grup, Atakule'ye stratejik iletişim danışmanlığı vereceğini duyurdu; medya satın alma kapsamı belirtilmedi.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/salt-iletisim-grupa-yeni-musteri-26/",
+      "published": "2026-10-22"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "IAB Tech Lab'in AAMP 3.0 / OpenProposal taslağı için ilan ettiği görüş süresi 22 Ekim'de doldu; nihai sürüm doğrulanmadı.",
+      "source": "IAB Tech Lab",
+      "url": "https://iabtechlab.com/press-releases/iab-tech-lab-introduces-aamp-3-0-with-openproposal/",
+      "published": "2026-09-22"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "ATV, 23 Ekim cuma 20.00'de 'TV'de ilk' ibaresiyle Küçük Deniz Kızı filmini akışa koydu; Güneşin Doğduğu Yer 22.40'ta.",
+      "source": "ATV yayın akışı",
+      "url": "https://www.atv.com.tr/yayin-akisi",
+      "published": "2026-10-23"
+    }
+  ],
+  "highlights": [
+    "Omnicom Q3: ana faaliyet geliri 6 milyar $, organik büyüme %7,2; 2026 için 900 milyon $ sinerji hedefi.",
+    "Google PMax onaylı kaynaklardan en fazla 10 videoyu otomatik ekliyor; yeni kampanyalarda varsayılan açık.",
+    "Tüketici güven endeksi ekimde 91,9'dan 84,8'e geriledi (DHA)."
+  ],
+  "watchlist": [
+    "26 Ekim pzt 21:30 Galatasaray–Fenerbahçe derbisi (beIN SPORTS 1); derbi haftası spor envanteri ve sponsorluk görünürlüğü.",
+    "25 Ekim'de kış saatine geçiş: Avrupa maç saatleri TSİ'de değişiyor (Barcelona–Real Madrid 23:00).",
+    "Go Ahead protein barlarının reklam ve raf görünürlüğü.",
+    "Google PMax kaynak video ayarının Türkiye hesaplarına yayılması.",
+    "Meta Commercial Terms 30 Ekim yürürlüğü."
+  ],
+  "limitations": [
+    "Claude oturumunda WebFetch izin istekleri yine zaman aşımına uğradı (izin/zaman aşımı, kalıcı engel değil): ATV akışı, Omnicom haber odası, beIN maç listesi açılamadı. TV ve maç bilgileri ChatGPT'nin 07.35-07.45 resmî kaynak okumasına dayanıyor; Omnicom SEC metninden teyit edildi.",
+    "Tüketici güveni rakamları tek haber ajansı kaynağına (DHA) dayanıyor; TÜİK bülteni ve yöntem metni okunamadı.",
+    "Rakip kontrolü: ETİ, Fiskobirlik, Doğkar, Ferrero, Şölen, Altınkılıçlar ve Lider Çikolata sayfaları açılamadı; tüm izleme evreninde gelişme yok sonucu çıkarılamaz.",
+    "Dijital gündem yalnız Google Trends'ten iki öğe; YouTube, TikTok, Spotify erişilemedi, platform çeşitliliği hedefi karşılanmadı.",
+    "Media Guru'larından Notlar: beş kişi için pencere içinde önemli yeni yayın bulunmadı; panel yok.",
+    "Maç listesi: TBF ve TRT Spor 403; BSL derbileri (30 Ekim–1 Kasım) ve EuroLeague maç bazlı yayıncıları teyitsiz.",
+    "Sinema: üç filmin dağıtımcı tarih teyidi ve resmî fragman bağlantısı eksik; ülke çapında yeni bilet kampanyası bulunamadı.",
+    "Görsel: 6 ana haberin yalnız 1'inde doğrudan görsel var; diğerleri kategori görseliyle gösteriliyor.",
+    "Global bölümünde 3 haber; Avrupa dışı bölgelerden doğrulanmış güçlü haber bulunamadı."
+  ],
+  "corrections": [],
+  "matchesWindow": "23 Ekim 2026 00:00 – 1 Kasım 2026 23:59 TSİ; cuma kapsamı",
+  "matches": [
+    {
+      "date": "2026-10-23",
+      "time": "21:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Olympiacos",
+      "away": "Fenerbahçe",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "Organizasyon GMT 18:15 +3; yayıncı günlük akışı da 21:15. Türk takımının Avrupa maçı; canlı izleyici yoğunluğu olasılığı ölçülmedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-25",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "LaLiga",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.fcbarcelona.com/en/football/first-team/schedule",
+      "note": "İspanya yarımada saati 21:00; 25 Ekim kış saatine geçişi nedeniyle TSİ 23:00. Yayıncının 22:30 kaydı maç önü başlangıcı. Küresel ilgi Türkiye'de canlı rekabeti artırabilir; ölçülmüş erişim değil.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-26",
+      "time": "21:30",
+      "sport": "Futbol",
+      "competition": "Trendyol Süper Lig",
+      "home": "Galatasaray",
+      "away": "Fenerbahçe",
+      "broadcaster": "beIN SPORTS 1 / 4K",
+      "source": "https://www.tff.org/default.aspx?pageID=198",
+      "note": "TFF tarih/saat ile beIN'in maç bazlı yayın listesi uyuşuyor: 26 Ekim 21:30. Yayıncı kaynağı: https://beinsports.com.tr/haber/bu-hafta-hangi-mac-hangi-kanalda-23 (güncelleme 22 Ekim; başlıktaki yayın tarihi alanı tutarsız). Zorunlu derbi; prime-time ve sponsorluk yoğunluğu etkisi analitik beklenti.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Valencia",
+      "away": "Fenerbahçe",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 19:30 +3. Yayıncı maç bazında teyit edilmedi; Avrupa deplasmanı gece kuşağı rekabeti yaratabilir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Hapoel Tel Aviv",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 18:00 +3. Maç bazında yayıncı teyidi yok; canlı spor envanteri takibi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Olympiacos",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/haber/95378/olympiacos-piraeus-mac-biletleri-satista.html",
+      "note": "Kulübün bilet duyurusu ve maç merkezi TSİ 20:30: https://www.bjk.com.tr/tr/mobil/mac_merkezi_canli/25808 . EuroLeague PDF yerel saati de 20:30, GMT sütunu tutarsız; kulübün açık TSİ duyurusu esas alındı. Yayıncı teyitsiz; maç öncesi yeniden kontrol önerilir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 19:45 +3. Resmî tatil akşamında Avrupa basketbolu; erişim etkisi yalnız olasılık. Yayıncı teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 17:30 +3, yerel 20:30 ile uyumlu. Cuma prime-time ile çakışıyor; yayıncı teyitsiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 19:30 +3. Yayıncı teyitsiz; geç kuşak Avrupa basketbolu.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/schedule/",
+      "note": "TVF bağlantılı resmî organizasyon fikstürü; yayıncı doğrulanamadı. Üç büyükler derbisi zorunlu kapsam; sponsorluk ilgisi potansiyeli ölçülmedi.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "social": {
+    "window": "23 Ekim 2026 yaklaşık 07:39 TSİ kontrolü; Google Trends son 24 saat",
+    "note": "Google arama eğilimi, sosyal video izlenmesi veya reklam erişimi değildir. Kaynaklar farklı dönemler ölçtüğü için birleştirilmiş sıralama üretilmedi. Netflix aynı 12–18 Ekim listesi olduğundan tekrar edilmedi.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Beşiktaş – Crystal Palace puan durumları",
+        "metric": "Google Trends: 500K+ arama, son 24 saat görünümü",
+        "whyItMatters": "Avrupa futboluna bağlı ilginin ertesi güne taşındığını gösteren arama sinyali; reklam attention ölçümü değil.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "2026-10-23 kontrolü; son 24 saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Recep İvedik 8",
+        "metric": "Google Trends: 20K+ arama; ilişkili sorgularda fragman",
+        "whyItMatters": "Sinema içerik ilgisi için izleme sinyali; fragman izlenmesi ve vizyon tarihi bu veriden türetilemez.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "2026-10-23 kontrolü; son 24 saat",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "weekly": {
+    "window": "19-23 Ekim 2026",
+    "items": [
+      {
+        "title": "Meta Q3: reklam büyümesi fiyattan geliyor",
+        "text": "Reklam geliri %26 arttı; reklam başına fiyat %14, gösterim %10 yükseldi. Q4 Meta planlarında CPM varsayımları son çeyrek seviyesine göre güncellenmeli.",
+        "ref": "2026-10-22#meta-q3-reklam-fiyati-yuzde-14"
+      },
+      {
+        "title": "Netflix reklam beklentisini düşürdü, 2027'de 15 yeni ülke",
+        "text": "2026 reklam geliri beklentisi yaklaşık 2,7 milyar dolara indi; reklamlı paket 2027'de yeni pazarlara açılıyor. CTV planlarında Netflix envanteri için takvim izlenmeli.",
+        "ref": "2026-10-21#netflix-q3-reklam-beklentisi"
+      },
+      {
+        "title": "Otomatik kreatif varsayılan oluyor",
+        "text": "OpenAI ChatGPT reklamlarında, Google Performance Max'te kreatif otomasyonu varsayılan açık geliyor. Kreatif onayı ve kullanım hakları kampanya ayarlarında denetlenmeli.",
+        "ref": "2026-10-23#pmax-kaynak-videolar"
+      }
+    ],
+    "open": [
+      "Meta Commercial Terms (30 Ekim) metni birincil kaynaktan okunmadı.",
+      "IAB ölçüm karar rehberine görüş son tarihi 4 Kasım.",
+      "Sosyal medyada yaş doğrulama 1 Kasım'da yürürlüğe giriyor; platform duyuruları bekleniyor.",
+      "Sevdam Karadeniz final kulisi (NOW) resmî teyit bekliyor.",
+      "Halk TV yayınının yeniden başlayıp başlamadığı teyitsiz."
+    ]
+  }
+}
