@@ -1,0 +1,1341 @@
+{
+  "date": "2026-10-26",
+  "researcher": "ChatGPT",
+  "startedAt": "2026-10-26T07:32:09+03:00",
+  "cutoff": "2026-10-26T09:58:00+03:00",
+  "window": "23 Ekim 2026 07.44.57–26 Ekim 2026 09.58 TSİ; önceki araştırma paketinin cutoff saatinden gerçek bilgi kesimine.",
+  "items": [
+    {
+      "id": "hopi-ads-coklu-kanal",
+      "title": "Hopi Ads, alışveriş verisiyle çoklu kanal yönetimini birleştiriyor",
+      "region": "Türkiye",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "tier": "main",
+      "market": "Türkiye",
+      "eventDate": "2026-10-22",
+      "facts": [
+        "Hopi Ads, uygulama içi, partner, programatik ve sosyal reklamları tek panelden yönetmeyi sunuyor.",
+        "Meta ve TikTok aktivasyonu, resmî ürün sayfasında desteklenen kanallar arasında.",
+        "21 milyon kullanıcı, Hopi’nin açıkladığı ekosistem büyüklüğü; kampanya erişimi değil."
+      ],
+      "verification": "official",
+      "verificationNote": "Ürün özellikleri açık resmî landing sayfasında; duyurunun tarihi Ekonomim'de 22 Ekim. Panelde oturum açılmadı, performans testi yapılmadı.",
+      "sources": [
+        {
+          "name": "Hopi Ads • Ürün sayfası",
+          "url": "https://ads.hopi.com.tr/",
+          "published": "Tarih belirtilmiyor; 26 Ekim 2026 erişimi",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        },
+        {
+          "name": "Ekonomim • Hopi Ads tanıtımı",
+          "url": "https://www.ekonomim.com/sirketler/hopi-turkiyenin-ilk-uctan-uca-self-servis-reklam-platformu-hopi-adsi-tanitti-haberi-926337",
+          "published": "2026-10-22 08:00",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "news"
+        }
+      ],
+      "label": "Gecikmeli fakat önemli",
+      "attitudeTag": "alışveriş verisi",
+      "impactDraft": "Perakende verisiyle sosyal ve programatik satın almayı aynı operasyonda değerlendirme seçeneği doğuyor.",
+      "actionDraft": "Pilot öncesi aktif ve eşleşebilir kitleyi, veri izinlerini, platform ücretini ve satış atıf penceresini isteyin.",
+      "counterViewDraft": "Kullanıcı havuzu tekil erişim garantisi değildir; panel ROAS'ı ek satışın nedensel kanıtı sayılmaz. 'Türkiye'nin ilki' bağımsız doğrulanmadı.",
+      "image": {
+        "url": "https://ads.hopi.com.tr/landing/img/laptop-ekran-1.png",
+        "alt": "Hopi Ads reklam yönetimi paneli",
+        "credit": "Hopi Ads",
+        "sourceUrl": "https://ads.hopi.com.tr/"
+      }
+    },
+    {
+      "id": "pwc-efsane-cuma-2026",
+      "title": "PwC: kasım alışverişi öncesinde erken planlama ve fiyat kontrolü öne çıkıyor",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "tier": "main",
+      "market": "Türkiye",
+      "eventDate": "2026-10-21; saha: 29 Eylül–9 Ekim 2026",
+      "facts": [
+        "%94, kasım indirimlerinde en az bir ürün satın almayı olası görüyor.",
+        "%61, alışveriş planlamasına Efsane Cuma haftasından önce başlıyor.",
+        "%54, indirim öncesinde ürünün fiyat geçmişini kontrol ettiğini belirtiyor.",
+        "2.000 Türkiye katılımcısı, 18–65 yaş; çevrimiçi saha 29 Eylül–9 Ekim 2026."
+      ],
+      "verification": "official",
+      "verificationNote": "PwC Türkiye sayfası ve orijinal PDF'nin yöntem ve sonuç bölümleri açıldı. Araştırma sahibi PwC; ayrı finansör açıklaması görülmedi.",
+      "sources": [
+        {
+          "name": "PwC Türkiye • Efsane Cuma Dosyası 2026",
+          "url": "https://www.pwc.com.tr/tr/sektorler/perakende-tuketici-urunleri/yayinlar/efsane-cuma-dosyasi-2026.html",
+          "published": "2026-10-21",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "research"
+        },
+        {
+          "name": "PwC • Orijinal rapor ve yöntem",
+          "url": "https://www.pwc.com.tr/tr/sektorler/perakende-tuketici-urunleri/asset/efsane-cuma-dosyasi/efsane-cuma-dosyasi-2026.pdf",
+          "published": "Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "research"
+        }
+      ],
+      "label": "Gecikmeli fakat önemli",
+      "attitudeTag": "fiyat doğrulama",
+      "impactDraft": "Kampanya haftasından önceki ürün araştırması ve fiyat karşılaştırması planlamada ayrı değerlendirilmelidir.",
+      "actionDraft": "Kasım iletişim takvimini fiyat geçmişi, ürün bilgisi ve stok doğruluğuyla birlikte gözden geçirin.",
+      "counterViewDraft": "Beyan edilen niyet gerçekleşmiş alışveriş veya reklam etkisi değildir. Online örneklemin ağırlıklandırması ve yanıt oranı doğrulanamadı.",
+      "image": {
+        "url": "https://www.pwc.com.tr/tr/sektorler/perakende-tuketici-urunleri/asset/efsane-cuma-dosyasi/efsane-cuma-hero_1600x900.jpg",
+        "alt": "PwC Efsane Cuma Dosyası 2026 kapak görseli",
+        "credit": "PwC Türkiye",
+        "sourceUrl": "https://www.pwc.com.tr/tr/sektorler/perakende-tuketici-urunleri/yayinlar/efsane-cuma-dosyasi-2026.html"
+      }
+    },
+    {
+      "id": "mindstation-market-sadakati",
+      "title": "MindStation: market ve marka tercihinde fiyat esnekliği",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "tier": "main",
+      "market": "Türkiye",
+      "eventDate": "Saha: 21 Ağustos–8 Eylül 2026; haber: 26 Ekim 2026",
+      "facts": [
+        "%19, son bir yılda en sık alışveriş yaptığı marketi değiştirdiğini söylüyor.",
+        "%61, rakip markanın büyük indirimi karşısında onu denemeye açık olduğunu belirtiyor.",
+        "%26, sosyal medyada gördüğü ürün veya trendi markette aradığını söylüyor.",
+        "1.000 kişi, 29 il, 18–60 yaş; bilgisayar destekli web anketi uygulandı."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Marketing Türkiye'nin yöntemli aktarımı okundu; MindStation sitesi zaman aşımına uğradı. Orijinal veri seti ve soru formu görülemedi.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • Zincir market alışkanlıkları",
+          "url": "https://www.marketingturkiye.com.tr/haberler/market-alisverisinde-sadakat-fiyat-etiketinde-yeniden-sekilleniyor/",
+          "published": "2026-10-26; sayfada göreli zaman",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "trade"
+        }
+      ],
+      "attitudeTag": "raf ve keşif",
+      "impactDraft": "Sosyal ürün keşfini mağaza bulunurluğu ve açık fiyat teklifiyle eşleştirmek daha anlamlı olabilir.",
+      "actionDraft": "Kampanyalı SKU dağıtımını ve mağaza arama trafiğini sosyal içerik takvimiyle birlikte kontrol edin.",
+      "counterViewDraft": "Beyanlar satış kaydı değildir. Örneklem düzenli zincir market alışverişçileriyle sınırlı; finansör belirtilmiyor.",
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/2-819x1024.png",
+        "alt": "MindStation araştırmasından grafik",
+        "credit": "MindStation / Marketing Türkiye",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/market-alisverisinde-sadakat-fiyat-etiketinde-yeniden-sekilleniyor/"
+      }
+    },
+    {
+      "id": "meta-ticari-kosullar-erteleme",
+      "title": "Reuters: Meta ticari koşul değişikliğini 20 Kasım’a erteliyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Düzenleme ve sektör",
+      "tier": "main",
+      "market": "Global / Avrupa yayıncı ve reklamverenleri",
+      "eventDate": "2026-10-23",
+      "facts": [
+        "20 Kasım, Reuters'ın Meta sözcüsünden aktardığı yeni yürürlük tarihi.",
+        "30 Ekim için planlanan ticari ve self servis reklam koşulu değişiklikleri erteleniyor."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Reuters, Meta sözcüsünün yazılı açıklamasını aktarıyor. Resmî sözleşme bağlantıları giriş/geçici engel ekranı verdi.",
+      "sources": [
+        {
+          "name": "Reuters • Meta to delay new commercial terms",
+          "url": "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/",
+          "published": "2026-10-23",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce",
+          "type": "news"
+        }
+      ],
+      "attitudeTag": "platform koşulları",
+      "impactDraft": "Önceki 30 Ekim takip tarihi güncellenecek; erteleme itirazların çözüldüğünü göstermiyor.",
+      "actionDraft": "20 Kasım öncesi tarihli resmî metni ve müşteri hesaplarına gelen bildirimleri yeniden kontrol edin.",
+      "counterViewDraft": "Teyit tek haber kaynağıyla sınırlı; nihai sözleşme kapsamı doğrudan karşılaştırılamadı."
+    },
+    {
+      "id": "coca-cola-medya-ajanslari",
+      "title": "Coca-Cola, Kuzey Amerika medyası için Omnicom’u seçti",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "tier": "main",
+      "market": "Kuzey Amerika; diğer pazarlar",
+      "eventDate": "2026-10-22; geçiş başlangıcı 2026-12-01",
+      "facts": [
+        "Omnicom, Coca-Cola'nın Kuzey Amerika medya işini üstlenecek.",
+        "WPP Open X, Kuzey Amerika, Japonya ve Güney Kore dışındaki global medya görevini koruyor.",
+        "Dentsu, Japonya ve Güney Kore'deki medya işini sürdürüyor.",
+        "1 Aralık'ta yeni yapıya kademeli geçiş başlayacak."
+      ],
+      "verification": "official",
+      "verificationNote": "Coca-Cola yatırımcı ilişkileri açıklaması tarih ve kapsam için esas alındı. Tahmini bütçe alınmadı.",
+      "sources": [
+        {
+          "name": "Coca-Cola • Agency partners",
+          "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1175/the-coca-cola-company-selects-agency-partners-to-accelerate-the-future-of-marketing",
+          "published": "2026-10-22",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ],
+      "label": "Gecikmeli fakat önemli",
+      "attitudeTag": "ajans konsolidasyonu",
+      "impactDraft": "Bölgesel medya, CRM ve creator görevlerinin aynı ajans ekosisteminde birleşmesi veri sahipliği sınırlarını önemli kılıyor.",
+      "actionDraft": "Konkur karşılaştırmalarında medya hacmi kadar veri taşınabilirliği ve ajanslar arasındaki sorumlulukları inceleyin.",
+      "counterViewDraft": "Bu atama küresel işin tümünün el değiştirdiği anlamına gelmiyor; tasarruf veya etkinlik artışı ölçülmüş değil."
+    },
+    {
+      "id": "kitkat-break-billboards-prag",
+      "title": "KitKat Break Billboards: boş panonun deseni kampanyaya dönüştü",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "tier": "main",
+      "market": "Çekya / Prag",
+      "eventDate": "2026; vaka yayını 2026-03-17",
+      "facts": [
+        "Nestlé markası KitKat ve VML Prague, boş pano dolgu desenini taranabilir ödül girişine dönüştürdü.",
+        "100'den fazla gerçek pano kampanyanın bağlamını oluşturdu; uygulama yalnız CGI içerik değildi.",
+        "Tarama sonrası verilen kod, yakındaki satış noktasında KitKat Break Pack için kullanılabiliyordu.",
+        "İki haftalık ödül stoğunun iki günde tükendiği, VML'nin kendi vaka beyanı."
+      ],
+      "verification": "official",
+      "verificationNote": "VML vaka sayfası ve 17 Mart 2026 tarihli BestAds kaydı okundu. Sonuçlar bağımsız doğrulanmadı.",
+      "sources": [
+        {
+          "name": "VML Prague • KitKat Break Billboards",
+          "url": "https://www.vml.com/work/break-billboards",
+          "published": "Tarih belirtilmiyor; 2026 vaka kaydı",
+          "country": "Çekya",
+          "language": "İngilizce",
+          "type": "agency"
+        },
+        {
+          "name": "BestAds • Kit Kat: Break Billboards",
+          "url": "https://www.bestadsontv.com/news/blog.php?id=65269",
+          "published": "2026-03-17 12:26",
+          "country": "Avustralya",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ],
+      "attitudeTag": "mecra bağlamı",
+      "impactDraft": "Mola fikri, panonun reklamlar arasındaki boşluk durumuyla örtüşüyor; ödül perakende ziyaretine bağlanıyor.",
+      "actionDraft": "Türkiye'de izinli boş pano alanları ve yakındaki satış noktalarını birleştiren mola uygulaması değerlendirilebilir.",
+      "counterViewDraft": "OOH satın alma bedelinin sıfır olması kampanyanın ücretsiz olduğu anlamına gelmez; ödül, sosyal medya ve operasyon maliyetleri var.",
+      "image": {
+        "url": "https://res.cloudinary.com/dotcom-prod/videos/ar_16%3A9%2Cb_black%2Cc_pad%2Cf_auto%2Cq_auto%2Cso_10%2Cw_1440/v1/wt-cms-assets/2026/05/bhuqhvbsazfaz7wz86jk/kitkatbreakbillboardscannescasestudyv21bfullversion1.jpg",
+        "alt": "KitKat Break Billboards vaka filminden fiziksel uygulama",
+        "credit": "VML Prague / Nestlé KitKat",
+        "sourceUrl": "https://www.vml.com/work/break-billboards"
+      }
+    },
+    {
+      "id": "karakuyu-ilk-tanitim",
+      "title": "Karakuyu’nun ilk tanıtımı yayımlandı; başlangıç tarihi açıklanmadı",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "tier": "signal",
+      "market": "Türkiye",
+      "eventDate": "2026-10-25",
+      "facts": [
+        "Kanal D, Karakuyu'nun ilk fragmanını yayımladı; resmî sayfada yayın bilgisi hâlâ 'Yakında'."
+      ],
+      "verification": "official",
+      "verificationNote": "Fragman ve kanal sayfası teyitli; 25 Ekim tarihi sektör haberinde. Fragman yayın başlangıcı sayılmadı.",
+      "sources": [
+        {
+          "name": "Kanal D • Karakuyu ilk fragman",
+          "url": "https://www.kanald.com.tr/karakuyu/fragmanlar/karakuyu-ilk-fragman",
+          "published": "Tarih görünmüyor; 26 Ekim erişimi",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        },
+        {
+          "name": "Birsen Altuntaş • Karakuyu'nun ilk tanıtımı",
+          "url": "https://www.birsenaltuntas.com/dizi/karakuyunun-ilk-tanitimi-yayinlandi/78747/",
+          "published": "2026-10-25 20:54",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "news"
+        }
+      ],
+      "label": "Kanal teyitli",
+      "actionDraft": "Başlangıç tarihi ve gün açıklanmadan yeni bölüm envanteri kesinleştirilmemeli."
+    },
+    {
+      "id": "media-felis-kisa-liste",
+      "title": "Media Felis 2026 kısa listesi açıklandı",
+      "region": "Türkiye",
+      "category": "Etkinlik",
+      "layer": "Düzenleme ve sektör",
+      "tier": "signal",
+      "market": "Türkiye",
+      "eventDate": "2026-10-23",
+      "facts": [
+        "Media Felis 2026 finalistleri açıklandı; liste kazananları değil, kısa listeye kalan işleri gösteriyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Organizatörün MediaCat duyurusu okundu.",
+      "sources": [
+        {
+          "name": "MediaCat • Media Felis kısa listesi",
+          "url": "https://mediacat.com/felis-odulleri-2026-media-felis-kisa-listesi/",
+          "published": "2026-10-23",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "actionDraft": "İlgili mecra kategorilerindeki vaka dosyalarını inceleme listesine alın; finalistliği etkinlik kanıtı saymayın."
+    },
+    {
+      "id": "forum-admin-araclari",
+      "title": "Meta, ABD’deki Forum uygulamasına yönetici araçları ekliyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "tier": "signal",
+      "market": "ABD; Türkiye yayılımı açıklanmıyor",
+      "eventDate": "2026-10-23",
+      "facts": [
+        "Forum'a AI destekli gönderi kontrolü, ortak içerik takvimi ve yorum sabitleme araçları ekleniyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Meta duyurusu açıldı; uygulamanın ABD'de iOS ve Android erişimi açıkça belirtiliyor.",
+      "sources": [
+        {
+          "name": "Meta • New Tools for Forum Admins",
+          "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/",
+          "published": "2026-10-23; ayrıca 22 Ekim güncelleme etiketi",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "official"
+        }
+      ],
+      "counterViewDraft": "Duyuru topluluk yönetimi aracıyla ilgili; yeni reklam envanteri veya ölçülmüş erişim artışı değil.",
+      "image": {
+        "url": "https://about.fb.com/wp-content/uploads/2026/10/New-Tools-for-the-Admins-Who-Build-Communities-on-Forum-_Header.jpg",
+        "alt": "Forum yönetici araçlarını anlatan Meta görseli",
+        "credit": "Meta",
+        "sourceUrl": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/"
+      }
+    },
+    {
+      "id": "canva-craft-gorsel-model",
+      "title": "Canva Craft, tasarım planlamasını görsel üretiminden ayırıyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "tier": "signal",
+      "market": "Global",
+      "eventDate": "2026-10-22",
+      "facts": [
+        "Canva, kompozisyonu önce planlayıp sonra görseli üreten ilk kendi görsel modelini Canva ve API üzerinden sundu."
+      ],
+      "verification": "official",
+      "verificationNote": "Canva duyurusu okundu; 22 Ekim tarihi TechCrunch kaydıyla eşleştirildi. Sıralama üstünlüğü iddiası alınmadı.",
+      "sources": [
+        {
+          "name": "Canva • Introducing Canva Craft",
+          "url": "https://www.canva.com/newsroom/news/canva-craft/",
+          "published": "2026-10-22",
+          "country": "Avustralya",
+          "language": "İngilizce",
+          "type": "official"
+        },
+        {
+          "name": "TechCrunch • Canva Craft duyuru tarihi",
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+          "published": "2026-10-22 12:00 PDT",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "news"
+        }
+      ],
+      "label": "Gecikmeli fakat önemli",
+      "counterViewDraft": "Ürün duyurusu marka tutarlılığı veya reklam etkinliği testi değil; Türkçe metin ve ürün doğruluğu ayrıca kontrol edilmeli.",
+      "image": {
+        "url": "https://content-management-files.canva.com/5767095e-aa07-4377-8c4e-cf9be31f5d66/11.png",
+        "alt": "Canva Craft modelinin resmî tanıtım görseli",
+        "credit": "Canva",
+        "sourceUrl": "https://www.canva.com/newsroom/news/canva-craft/"
+      }
+    },
+    {
+      "id": "mehmed-saat-kaydi-kontrolu",
+      "title": "Mehmed için kayıtlı saat ile kanal sayfası uyuşmuyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "tier": "signal",
+      "market": "Türkiye",
+      "eventDate": "2026-10-26 kontrolü; değişikliğin gerçekleştiği tarih bilinmiyor",
+      "facts": [
+        "TRT 1'in Mehmed sayfası salı 20.00 gösteriyor; takip tablosundaki 21.30 kaydı yeniden teyit gerektiriyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Resmî program sayfası ve 89. bölüm arşivi okundu. Bu, 26 Ekim'de açıklanmış yeni saat değişikliği değildir.",
+      "sources": [
+        {
+          "name": "TRT 1 • Mehmed: Fetihler Sultanı",
+          "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+          "published": "Tarih belirtilmiyor; 26 Ekim 2026 kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ],
+      "actionDraft": "Tabloyu 20.00 yönünde güncellemeden önce tarihli salı akışını kontrol edin."
+    }
+  ],
+  "tvTracking": [
+    {
+      "show": "Kanal D haftalık akışı",
+      "channel": "Kanal D",
+      "previous": "Takip tablosunda pazartesi, salı, cuma, cumartesi ve pazar yapımları",
+      "current": "26 Ekim–1 Kasım akışı gün gün okundu; Uzak Şehir, Haysiyet, Beyaz'la Joker, Güller ve Günahlar ve Daha 17 saatleri 20.00.",
+      "status": "Kanal teyitli",
+      "source": "https://www.kanald.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Karakuyu",
+      "channel": "Kanal D",
+      "previous": "Takip tablosunda yok",
+      "current": "İlk fragman yayımlandı; resmî sayfada Yakında, başlangıç ve gün açıklanmadı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.kanald.com.tr/karakuyu/fragmanlar/karakuyu-ilk-fragman",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Arka Sokaklar",
+      "channel": "Kanal D",
+      "previous": "Günü belirsiz; yeni sezon",
+      "current": "Resmî sayfa 20. sezon 751. bölüm sezon finalini gösteriyor; yeni sezon tarihi doğrulanmadı.",
+      "status": "Planlanan",
+      "source": "https://www.kanald.com.tr/arka-sokaklar",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "ATV haftalık akışı",
+      "channel": "ATV",
+      "previous": "Takip tablosundaki haftalık yapımlar",
+      "current": "26 Ekim Altı Üstü İstanbul 20.00 teyitli; diğer günlerin tarihli bütün akışı okunamadı. Fragman gerçekleşmiş yayın sayılmadı.",
+      "status": "Planlanan",
+      "source": "https://www.atv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Star TV haftalık akışı",
+      "channel": "Star TV",
+      "previous": "Tuzlu Kahve, Sevdiğim Sensin, Başkalarının Hayatı",
+      "current": "Ana sayfadaki düzenli gün/saat görüldü; 27 Ekim–1 Kasım tarihli akış gün gün doğrulanamadı.",
+      "status": "Planlanan",
+      "source": "https://www.startv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Show TV haftalık akışı",
+      "channel": "Show TV",
+      "previous": "Sevdan Bir Ateş, Muhtemel Aşk, Kızılcık Şerbeti, Güldür Güldür Show",
+      "current": "Akış gövdesi 19–25 Ekim'de kaldı; 26 Ekim–1 Kasım yeni hafta teyidi tamamlanamadı.",
+      "status": "Planlanan",
+      "source": "https://www.showtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Cevher ve Menekşe",
+      "channel": "Show TV",
+      "previous": "Günü belirsiz; yeni",
+      "current": "15–16 Ekim tarihli resmî duyurular 'yakında' diyor; başlangıç tarihi açıklanmıyor.",
+      "status": "Kanal teyitli",
+      "source": "https://www.showtv.com.tr/dizi/haber/3920017-show-tv-den-cevher-geliyor",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "NOW haftalık akışı",
+      "channel": "NOW",
+      "previous": "Pazartesi–pazar takip kayıtları",
+      "current": "26 Ekim–31 Ekim bloklarında Sevdam Karadeniz, Anne Yarısı, Yeraltı ve Halef yeni bölüm; pazar tarihli blok okunamadı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.nowtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Centilmen",
+      "channel": "NOW",
+      "previous": "Günü belirsiz; yeni",
+      "current": "Program adresine erişilemedi; başlangıç ve gün teyidi yok.",
+      "status": "Planlanan",
+      "source": "https://www.nowtv.com.tr/Centilmen",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "Mehmed: Fetihler Sultanı",
+      "channel": "TRT 1",
+      "previous": "Salı 21.30",
+      "current": "Resmî dizi sayfasında salı 20.00; 89. bölüm arşivi var. 27 Ekim tarihli akış ayrıca doğrulanamadı.",
+      "status": "Kanal teyitli",
+      "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "TRT 1 haftalık akışı",
+      "channel": "TRT 1",
+      "previous": "Evlilik Güzeldir, Taşacak Bu Deniz, Gönül Dağı, Teşkilat",
+      "current": "26 Ekim Evlilik Güzeldir 20.00 teyitli; diğer günlerin tarihli tam akışı okunamadı. Fragman yeni bölüm kabul edilmedi.",
+      "status": "Planlanan",
+      "source": "https://www.trt1.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    },
+    {
+      "show": "MasterChef Türkiye",
+      "channel": "TV8",
+      "previous": "Her gün 20.00",
+      "current": "26 ve 27 Ekim gün seçimi göründü; program metni alınamadı. Yeni bölüm ve saat yeniden teyit edilemedi.",
+      "status": "Planlanan",
+      "source": "https://www.tv8.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-26 09.58 TSİ"
+    }
+  ],
+  "matches": [
+    {
+      "date": "2026-10-26",
+      "time": "21:30",
+      "sport": "Futbol",
+      "competition": "Trendyol Süper Lig",
+      "home": "Galatasaray",
+      "away": "Fenerbahçe",
+      "broadcaster": "beIN SPORTS 1 / beIN SPORTS 4K",
+      "source": "https://www.tff.org/default.aspx?pageID=198",
+      "note": "TFF 9. hafta programı ve yayıncı programıyla teyitli. Derbi prime time izleyici yoğunluğu ve sponsor görünürlüğü açısından yüksek önem taşır; erişim tahmini değildir.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Valencia Basket",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Önemli Avrupa maçı; tahmini medya etkisi ölçülmüş sonuç değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Olympiacos Piraeus",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/haber/95378/olympiacos-piraeus-mac-biletleri-satista.html",
+      "note": "SAAT ÇELİŞKİSİ: Kulüp 20.30 diyor; EuroLeague PDF yerel 20.30, GMT 18.30 ve sütunlar uyumsuz. S Sport Plus 19.45 yayın başlangıcı maç saati sayılmadı. Yeniden teyit gerekir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Hapoel IBI Tel Aviv",
+      "away": "Anadolu Efes",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Tahmini ilgi ölçülmüş reach değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Tahmini ilgi ölçülmüş reach değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos AKTOR",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; S Sport Plus ön program saati maç saati sayılmadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/matches/2591729/",
+      "note": "Resmî organizasyon kaydıyla gün/saat teyitli. Yayıncı doğrulanamadı; TRT Spor sitesi erişim hatası verdi. Derbi ilgisi olasıdır; ölçülmüş reach iddiası yok.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "matchesWindow": "26 Ekim Pazartesi–1 Kasım 2026 Pazar sonu; saatler TSİ.",
+  "rivalCheck": {
+    "checked": [
+      "ALTINMARKA • resmî site ve blog",
+      "ETİ • resmî site ve MediaCat marka etiketi",
+      "ÜLKER • resmî haberler",
+      "MONDELEZ • Türkiye kurumsal sayfası",
+      "NESTLÉ • medya ve basın bültenleri",
+      "FERRERO • Türkiye kurumsal sayfası",
+      "SAGRA • resmî site ve haberler",
+      "MARS • global haberler",
+      "ŞÖLEN • resmî site ve Ozmo Cool duyurusu",
+      "TORKU • haberler"
+    ],
+    "notChecked": [
+      "FİSKOBİRLİK • resmî site zaman aşımı",
+      "DOĞKAR • resmî site erişilemedi",
+      "ALTINKILIÇLAR • resmî site erişilemedi",
+      "LİDER ÇİKOLATA • resmî site erişilemedi"
+    ],
+    "finding": "Pencere içinde Türkiye çikolata kapsamına giren tarihli, yeni ve teyitli gelişme seçilemedi. Ülker Go Ahead 21 Ekim haberi önceki pakette olduğu için tekrarlanmadı. Şölen Ozmo Cool sayfası tarihsizdi. Tüm şirketler tarafsız değerlendirildi."
+  },
+  "social": {
+    "window": "26 Ekim 2026 sabah kontrolü; Google Trends son 24 saat, diğerleri tarihli ürün duyuruları",
+    "note": "Arama ilgisi ile ürün duyuruları ortak popülerlik sıralaması değildir. Arama sayısı video izlenmesi, tekil erişim veya attention ölçümü değildir. Doğrulanmış yüksek izlenmeli video bulunamadı.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "El Clásico çevresinde Türkiye arama ilgisi",
+        "metric": "Google Trends: 'real madrid' 200K+; ilişkili sorgular toplanmadı.",
+        "whyItMatters": "Maç sonrası arama ve ikinci ekran içeriğine ilgi sinyali; bugünün yaklaşan maçı gibi sunulmamalı.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "26 Ekim 2026 sabahı, son 24 saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Meta / Forum",
+        "type": "Öne çıkan içerik",
+        "title": "Forum topluluk yöneticilerine yeni araçlar",
+        "whyItMatters": "ABD'de topluluk operasyonunun otomasyonunu izlemek için ürün sinyali; Türkiye reklam envanteri duyurusu değil.",
+        "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/",
+        "source": "Meta",
+        "published": "2026-10-23",
+        "market": "Global, Türkiye'de henüz yok"
+      },
+      {
+        "platform": "Hopi Ads",
+        "type": "Öne çıkan içerik",
+        "title": "Alışveriş verisinin sosyal reklam aktivasyonuna bağlanması",
+        "whyItMatters": "Meta ve TikTok aktivasyonunun perakende verisiyle sunulması kanal planı ve veri izinleri için incelenmeli.",
+        "url": "https://ads.hopi.com.tr/",
+        "source": "Hopi Ads",
+        "published": "Duyuru 22 Ekim 2026; gecikmeli fakat önemli",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "creativeCase": "kitkat-break-billboards-prag",
+  "accessLog": [
+    {
+      "url": "https://ads.hopi.com.tr/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.ekonomim.com/sirketler/hopi-turkiyenin-ilk-uctan-uca-self-servis-reklam-platformu-hopi-adsi-tanitti-haberi-926337",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.pwc.com.tr/tr/sektorler/perakende-tuketici-urunleri/yayinlar/efsane-cuma-dosyasi-2026.html",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.pwc.com.tr/tr/sektorler/perakende-tuketici-urunleri/asset/efsane-cuma-dosyasi/efsane-cuma-dosyasi-2026.pdf",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.marketingturkiye.com.tr/haberler/market-alisverisinde-sadakat-fiyat-etiketinde-yeniden-sekilleniyor/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.reuters.com/business/media-telecom/meta-delay-new-commercial-terms-criticised-by-publishers-advertisers-2026-10-23/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1175/the-coca-cola-company-selects-agency-partners-to-accelerate-the-future-of-marketing",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.vml.com/work/break-billboards",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.bestadsontv.com/news/blog.php?id=65269",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/karakuyu/fragmanlar/karakuyu-ilk-fragman",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.birsenaltuntas.com/dizi/karakuyunun-ilk-tanitimi-yayinlandi/78747/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://mediacat.com/felis-odulleri-2026-media-felis-kisa-listesi/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.canva.com/newsroom/news/canva-craft/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+      "result": "ok",
+      "note": "Doğrudan içerik okundu; teyit sınırı verificationNote alanında."
+    },
+    {
+      "url": "https://www.tff.org/default.aspx?pageID=198",
+      "result": "ok",
+      "note": "Resmî fikstür veya kulüp kaynağı okundu."
+    },
+    {
+      "url": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "result": "ok",
+      "note": "Resmî fikstür veya kulüp kaynağı okundu."
+    },
+    {
+      "url": "https://bjk.com.tr/tr/haber/95378/olympiacos-piraeus-mac-biletleri-satista.html",
+      "result": "ok",
+      "note": "Resmî fikstür veya kulüp kaynağı okundu."
+    },
+    {
+      "url": "https://sultanlar.volleystation.com/en/matches/2591729/",
+      "result": "ok",
+      "note": "Resmî fikstür veya kulüp kaynağı okundu."
+    },
+    {
+      "url": "https://www.tff.org/Default.aspx?hafta=10&pageID=198",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://beinsports.com.tr/haber/bu-hafta-hangi-mac-hangi-kanalda-23",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www.ssportplus.com/",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://sultanlar.volleystation.com/en/schedule/",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www.tff.org/default.aspx?pageID=1764",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www.fcbarcelona.com/en/futbol/primer-equip/calendario",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://tvf.org.tr/",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://championsleague.cev.eu/en/women/",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www-old.cev.eu/Competition-Area/CompetitionView.aspx?ID=1948",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://bjk.com.tr/tr/fikstur/2/10/709/673/5142",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results/",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/",
+      "result": "ok",
+      "note": "Sayfa açıldı; kapsam ilgili kayıtta."
+    },
+    {
+      "url": "https://www.altinmarka.com.tr/",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.altinmarka.com.tr/blog",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.etietieti.com/",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.ulker.com.tr/tr/haberler",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.mondelezinternational.com/turkey/",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.nestle.com.tr/medya",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.nestle.com.tr/medya/basin-bultenleri",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.ferrero.com/tr/tr/",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.sagra.com.tr/",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.sagra.com.tr/haberler.html",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.mars.com/news-and-stories",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.solen.com.tr/",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.solen.com.tr/basin-bultenleri/cocuklarin-yeni-favorisi-sutlu-balli-ozmo-cool",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://torku.com.tr/haberler",
+      "result": "ok",
+      "note": "Resmî şirket sayfası açıldı; yeni ve tarihli Türkiye kategori haberi seçilemedi."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi/sali",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi/carsamba",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi/persembe",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi/cuma",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi/cumartesi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/yayin-akisi/pazar",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.atv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.startv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.showtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/yayin-akisi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.kanald.com.tr/arka-sokaklar",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.atv.com.tr/var-misin-yok-musun",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.atv.com.tr/gunesin-dogdugu-yer",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.startv.com.tr/dizi/baskalarinin-hayati",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.showtv.com.tr/dizi/haber/3920189-show-tv-ekranlarinda-yeni-bir-gunluk-dizi-basliyor-menekse",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/bolumler",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/tasacak-bu-deniz/bolum/35-bolum",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani/bolum/89-bolum",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani/fragman/90-bolum-fragmani",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/gonul-dagi",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.trt1.com.tr/diziler/teskilat",
+      "result": "ok",
+      "note": "Resmî akış, program veya bölüm arşivi açıldı; haftalık sınırlar tvTracking alanında."
+    },
+    {
+      "url": "https://www.tbf.org.tr/",
+      "result": "error",
+      "note": "403; federasyon içeriği alınamadı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.euroleaguebasketball.net/eurocup/game-center/",
+      "result": "error",
+      "note": "403; EuroCup kapsamı tam doğrulanamadı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.championsleague.basketball/en/games",
+      "result": "error",
+      "note": "403; Basketbol Şampiyonlar Ligi kapsamı tamamlanamadı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.trtspor.com.tr/",
+      "result": "error",
+      "note": "403; kadın voleybolu yayıncısı teyit edilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.fiskobirlik.org.tr/",
+      "result": "error",
+      "note": "Zaman aşımı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.dogkar.com.tr/",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.altinkiliclar.com.tr/",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.lidercikolata.com.tr/",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.iab.org.tr/",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.rtuk.gov.tr/",
+      "result": "error",
+      "note": "Zaman aşımı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.ticaret.gov.tr/haberler",
+      "result": "error",
+      "note": "Zaman aşımı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://mind-station.com/",
+      "result": "error",
+      "note": "Zaman aşımı; raporun aslı okunamadı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://goldendrum.com/showcase/0507009GD26-kitkat-break-billboards",
+      "result": "error",
+      "note": "Zaman aşımı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.startv.com.tr/diziler",
+      "result": "error",
+      "note": "404. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.nowtv.com.tr/Centilmen",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.amplified.co/blog",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.amplifiedintelligence.com.au/resources/",
+      "result": "error",
+      "note": "Erişilemedi. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.ehrenberg-bass.org/",
+      "result": "error",
+      "note": "Erişilemedi; marketingscience.info kullanıldı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://charts.youtube.com/charts/TopVideos/tr",
+      "result": "error",
+      "note": "Fetch throttled; video sayıları alınamadı. Aynı başarısız adres tekrar denenmedi."
+    },
+    {
+      "url": "https://www.tv8.com.tr/yayin-akisi",
+      "result": "js_only",
+      "note": "Program metni alınamadı."
+    },
+    {
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
+      "result": "js_only",
+      "note": "Giriş istedi; giriş yapılmadı."
+    },
+    {
+      "url": "https://charts.spotify.com/charts/view/regional-tr-daily/latest",
+      "result": "js_only",
+      "note": "Yalnız altbilgi döndü."
+    },
+    {
+      "url": "https://trends.pinterest.com/",
+      "result": "js_only",
+      "note": "Okunabilir trend içeriği dönmedi."
+    },
+    {
+      "url": "https://www.facebook.com/legal/commercial_terms",
+      "result": "error",
+      "note": "Giriş/geçici engel sayfası; metin okunamadı."
+    },
+    {
+      "url": "https://www.facebook.com/legal/self_service_ads_terms",
+      "result": "error",
+      "note": "Giriş/geçici engel sayfası; metin okunamadı."
+    },
+    {
+      "url": "https://marketingscience.info/who-we-are/our-team/professor-byron-sharp",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://marketingscience.info/open-access-knowledge/open-access-reports",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://marketingscience.info/who-we-are/our-team/professor-steven-bellman",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://marketingscience.info/who-we-are/our-team/dr-virginia-beal",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://researchers.adelaide.edu.au/profile/erica.riebe",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://www.amplifiedintelligence.com.au/",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://www.amplified.co/",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    },
+    {
+      "url": "https://www.amplified.co/services/research",
+      "result": "ok",
+      "note": "Guru kontrolü; açık sayfada yeni çalışma bulunmadı veya erişim sınırı notta."
+    }
+  ],
+  "limitations": [
+    "Teslim 08.30 TSİ sınırını aştı. Araştırma 07.32'de başladı; araç ve bağlam kesintisi nedeniyle paket 09.58 bilgi kesimiyle tamamlandı.",
+    "22 Ekim araştırma paketi main dalında bulunamadı. Pencere başlangıcı, erişilebilen son paket olan 23 Ekim'in cutoff saatidir.",
+    "Kanal D'nin yedi günlük akışı okundu. Diğer altı kanalın 26 Ekim–1 Kasım bütün günleri eksiksiz doğrulanamadı; ayrıntılar tvTracking alanında.",
+    "TRT 1 Mehmed sayfasındaki salı 20.00 ile takip tablosundaki 21.30 uyuşuyor değil; 27 Ekim tarihli akışla yeniden teyit edilmelidir.",
+    "Beşiktaş–Olympiacos için resmî kaynak saatleri çelişiyor; kulüp 20.30 geçici esas alındı ve yeniden teyit gerekir.",
+    "TBF, EuroCup, Basketbol Şampiyonlar Ligi ve TRT Spor erişim hatası verdi; Avrupa basketbol kapsamı ile kadın voleybolu yayıncısı tam doğrulanamadı.",
+    "CEV kadınlar Şampiyonlar Ligi kontrol edildi; CEV Cup ve Challenge Cup bağlantıları eski sezonlara yöneldi.",
+    "Rakip evreninde dört şirketin resmî sitesi açılamadı; açılan şirket sayfaları tarihli basın arşivi bakımından eşit derinlikte değildi.",
+    "MindStation asıl raporu açılamadı. Meta ticari koşulları doğrudan okunamadı.",
+    "Doğrulanabilir güncel yüksek izlenmeli sosyal video bulunamadı; YouTube yanıt vermedi ve TikTok giriş istedi.",
+    "Guru kontrolü açık profil ve kurum sayfalarıyla sınırlıdır. Yeni bulgu bulunmadığı için gurus alanı oluşturulmadı.",
+    "Sinema pazartesi kapsam dışıydı. Reyting görev gereği araştırılmadı."
+  ],
+  "researcherNotes": "Claude için öncelik: Hopi Ads ve Meta ticari koşul ertelemesi. PwC sonuçlarını niyet beyanı olarak yaz; gerçekleşmiş satış sayma. MindStation tek ikincil kaynaklıdır. KitKat sonuçları VML beyanıdır. Uyarlama sorusu: 'Bu mekanik Türkiye'de hangi çikolata veya atıştırmalık markasının mola anına daha doğal oturur?' Karakuyu için yalnız Yakında teyidi var. Mehmed 20.00 önerisini tarihli akışla yeniden teyit et. Beşiktaş–Olympiacos saat çelişkisini görünür tut. Google Trends ilişkili sorguları birleştirildi, sayılar toplanmadı. Pencere RESEARCH.md uyarınca önceki araştırma paketi cutoff'undan başlatıldı. Haftalık TV denetiminin eksikleri nedeniyle 'değişiklik yok' denmemeli.",
+  "tvTableUpdates": [
+    {
+      "action": "add",
+      "channel": "KANAL D",
+      "day": "Günü belirsiz",
+      "title": "Karakuyu",
+      "status": "kanal-teyitli",
+      "tag": "yeni",
+      "checked": "2026-10-26",
+      "source": "https://www.kanald.com.tr/karakuyu/fragmanlar/karakuyu-ilk-fragman"
+    },
+    {
+      "action": "update",
+      "channel": "TRT 1",
+      "day": "Salı",
+      "title": "Mehmed: Fetihler Sultanı",
+      "status": "yayinda",
+      "time": "20.00",
+      "checked": "2026-10-26",
+      "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani"
+    }
+  ],
+  "socialSourceReview": [
+    {
+      "url": "https://trends.google.com/trending?geo=TR",
+      "result": "ok",
+      "action": "keep",
+      "note": "Türkiye arama ilgisi okunabildi; video izlenmesi değildir."
+    },
+    {
+      "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+      "result": "ok",
+      "action": "keep",
+      "note": "12–18 Ekim listesi; yeni dönem yok, tekrar öğe üretilmedi."
+    },
+    {
+      "url": "https://www.searchenginejournal.com/",
+      "result": "ok",
+      "action": "keep",
+      "note": "Açık sektör kaynağı; seçilen gün için yeni öğe yok."
+    },
+    {
+      "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/",
+      "result": "ok",
+      "action": "add",
+      "note": "Resmî ürün duyurusu; ABD kapsamı açık."
+    },
+    {
+      "url": "https://ads.hopi.com.tr/",
+      "result": "ok",
+      "action": "add",
+      "note": "Türkiye reklam formatı kaynağı; popülerlik metriği sunmuyor."
+    },
+    {
+      "url": "https://charts.youtube.com/charts/TopVideos/tr",
+      "result": "no_response",
+      "action": "remove",
+      "note": "Fetch throttled; aynı gün yeniden denenmedi."
+    },
+    {
+      "url": "https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en",
+      "result": "login_required",
+      "action": "remove",
+      "note": "Giriş yapılmadı; Türkiye trend verisi alınamadı."
+    },
+    {
+      "url": "https://charts.spotify.com/charts/view/regional-tr-daily/latest",
+      "result": "no_response",
+      "action": "remove",
+      "note": "Liste içeriği yok."
+    },
+    {
+      "url": "https://trends.pinterest.com/",
+      "result": "no_response",
+      "action": "remove",
+      "note": "Okunabilir trend içeriği alınamadı."
+    }
+  ],
+  "guruCheck": [
+    {
+      "person": "Byron Sharp",
+      "result": "none",
+      "checked": [
+        "https://marketingscience.info/who-we-are/our-team/professor-byron-sharp",
+        "https://marketingscience.info/open-access-knowledge/open-access-reports"
+      ],
+      "note": "Açık kurum profili ve rapor listesinde pencereye giren yeni çalışma doğrulanamadı."
+    },
+    {
+      "person": "Steven Bellman",
+      "result": "none",
+      "checked": [
+        "https://marketingscience.info/who-we-are/our-team/professor-steven-bellman",
+        "https://marketingscience.info/open-access-knowledge/open-access-reports"
+      ],
+      "note": "Açık kurum profili ve rapor listesinde pencereye giren yeni çalışma doğrulanamadı."
+    },
+    {
+      "person": "Virginia Beal",
+      "result": "none",
+      "checked": [
+        "https://marketingscience.info/who-we-are/our-team/dr-virginia-beal",
+        "https://marketingscience.info/open-access-knowledge/open-access-reports"
+      ],
+      "note": "Açık kurum profili ve rapor listesinde pencereye giren yeni çalışma doğrulanamadı."
+    },
+    {
+      "person": "Erica Riebe",
+      "result": "none",
+      "checked": [
+        "https://researchers.adelaide.edu.au/profile/erica.riebe"
+      ],
+      "note": "Üniversite profili okundu; güncel danışmanlık kayıtları yeni araştırma yayını sayılmadı."
+    },
+    {
+      "person": "Karen Nelson-Field",
+      "result": "none",
+      "checked": [
+        "https://www.amplifiedintelligence.com.au/",
+        "https://www.amplified.co/",
+        "https://www.amplified.co/services/research",
+        "https://www.amplified.co/blog",
+        "https://www.amplifiedintelligence.com.au/resources/"
+      ],
+      "note": "Resmî alan adı yönlendi; hizmet sayfası yeni çalışma değildir. Blog/kaynak sayfaları erişilemedi."
+    }
+  ]
+}
+
