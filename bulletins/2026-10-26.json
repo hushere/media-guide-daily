@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-26",
+  "title": "Meta şartlarını erteledi, Coca-Cola Kuzey Amerika'da Omnicom'a geçti; Türkiye'de fiyat duyarlılığı derinleşiyor",
+  "summary": "Meta tartışmalı reklam şartlarını 20 Kasım'a erteledi, Coca-Cola ABD-Kanada medyasını Omnicom'a verdi. Türkiye'de Hopi self-servis retail media'ya girdi; iki araştırma Kasım öncesi temkinli ve fiyat odaklı tüketiciyi gösteriyor. Bu akşam derbi var.",
+  "edition": "selection",
+  "window": "23 Ekim 2026 07:44 – 26 Ekim 2026 08:55 TSİ (Claude yedek; ChatGPT araştırma paketi gelmedi)",
+  "status": "published",
+  "review": {
+    "status": "unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-26T08:56+03:00",
+    "summary": "ChatGPT araştırma paketi (research/2026-10-26.json) 08.53'e kadar depoya gelmedi; bülten Claude yedeğiyle hazırlandı. Haberler Marketing Türkiye, Digiday ve Reuters sayfaları açılarak teyit edildi; resmî TV/spor sayfaları WebFetch izin zaman aşımı nedeniyle açılamadı. Dijital gündem, guru notları ve TV tablosu güncellemesi kurala göre yapılmadı; yaratıcı mecra vakası eklenmedi."
+  },
+  "source": {
+    "writer": "Claude (yedek)"
+  },
+  "articles": [
+    {
+      "id": "meta-ticari-sartlar-20-kasim",
+      "title": "Meta, eleştirilen yeni reklam ve ticari şartlarını 30 Ekim'den 20 Kasım'a erteledi",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global (AB ve BK tartışması; Türkiye reklamverenlerini de kapsayan self-servis şartlar)",
+      "eventDate": "23 Ekim 2026 (Meta açıklaması); yeni yürürlük 20 Kasım 2026",
+      "summary": "Meta, yayıncı ve reklamverenlerin itiraz ettiği güncel Ticari Şartlar ile Self-Servis Reklam Şartları'nın yürürlüğünü üç hafta erteledi.",
+      "body": [
+        "Yürürlük tarihi 30 Ekim'den 20 Kasım 2026'ya kaydırıldı; Meta sözcüsü Reuters'a e-postayla açıkladı.",
+        "Eleştirenler: yayıncılar ve dijital reklamverenler; AB ve BK rekabet otoritelerine şikâyette bulundular.",
+        "İtiraz: yeni şartların Meta'ya içerikleri yapay zekâ hizmetlerinde sınırsız kullanma hakkı verdiği iddiası; Meta bunu reddediyor.",
+        "Meta gerekçesi: ortaklara neyin değişip neyin değişmediğini anlatmak için daha fazla zaman."
+      ],
+      "impact": "Veri böyle: içerik değişmedi, yalnız takvim uzadı. Bizim okumamız: reklamverenin yüklediği kreatif ve verinin yapay zekâda nasıl kullanılabileceği artık bir sözleşme konusu; ajans ve marka hukuk ekipleri için kontrol listesi maddesi.",
+      "action": "Meta hesaplarında kabul edilecek yeni şartları 20 Kasım'dan önce marka hukuk ekibiyle gözden geçirin.",
+      "counterView": "Erteleme bir geri adım değil, iletişim süresi olabilir; şartlar büyük ölçüde aynı kalırsa reklamverenlerin pratik seçeneği yine sınırlı.",
+      "sources": [
+        {
+          "name": "Reuters (Investing.com) • Meta to delay new commercial terms",
+          "url": "https://investing.com/news/stock-market-news/meta-to-delay-new-commercial-terms-criticised-by-publishers-advertisers-4969745",
+          "published": "23 Ekim 2026 09:37",
+          "country": "BK/ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "coca-cola-kuzey-amerika-omnicom",
+      "title": "Coca-Cola Kuzey Amerika medyasını Omnicom'a verdi, globalde WPP devam ediyor",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "ABD ve Kanada; global yetki (Japonya ve Güney Kore hariç) WPP",
+      "eventDate": "22 Ekim 2026 (haber); iş 1 Aralık 2026'da başlıyor",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Coca-Cola'nın ABD ve Kanada medya hesabını Omnicom kazandı; WPP global medya, veri ve teknoloji yetkisini korudu.",
+      "body": [
+        "Digiday'e göre ABD-Kanada hesabının tahmini büyüklüğü 700-800 milyon dolar; COMvergence tahmini yıllık ~785 milyon dolar.",
+        "WPP global yetkiyi korudu; Japonya ve Güney Kore Dentsu'da kalıyor.",
+        "Kuzey Amerika incelemesinde Omnicom'un tek ciddi rakibi Dentsu olarak aktarıldı.",
+        "Omnicom çalışmaya 1 Aralık'ta başlıyor ve özel bir Coca-Cola ekibi kuracağını söyledi.",
+        "İnceleme, Publicis'in PepsiCo hesabını kazanmasının ardından açılmıştı (Eylül)."
+      ],
+      "impact": "Büyük reklamverenler globali tek holdinge verip kilit pazarı ayrı değerlendirebiliyor. Bu, IPG birleşmesi sonrası Omnicom'un ölçek iddiasının ilk büyük sınavı; ajans gözüyle bölgesel kırılımın da pazarlık aracı olduğu görülüyor.",
+      "action": "Global-yerel ajans ayrımı olan müşterilerde Türkiye'nin global anlaşmadaki yerini ve inceleme takvimini not edin.",
+      "counterView": "Bütçe rakamları kaynak tahminidir, şirket açıklaması değildir; holding düzeyindeki kazanımlar yerel pazarlarda hizmet kalitesini otomatik değiştirmez.",
+      "sources": [
+        {
+          "name": "Digiday • Omnicom lands Coca-Cola's North American media business",
+          "url": "https://digiday.com/media-buying/omnicom-lands-coca-colas-north-american-media-business/",
+          "published": "22 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Campaign • Omnicom wins Coca-Cola's North American media business, WPP retains globally",
+          "url": "https://www.campaignlive.com/article/omnicom-wins-coca-colas-north-american-media-business-wpp-retains-globally/1973301",
+          "published": "Ekim 2026 (sayfa Claude tarafından açılmadı; arama sonucu)",
+          "country": "BK",
+          "language": "İngilizce"
+        },
+        {
+          "name": "MediaCat • Coca-Cola Kuzey Amerika'da Omnicom dönemi başlıyor",
+          "url": "https://mediacat.com/coca-cola-kuzey-amerikada-omnicom-donemi-basliyor/",
+          "published": "23 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://digiday.com/wp-content/uploads/sites/3/2026/10/coca-cola-digiday.jpg",
+        "alt": "Coca-Cola temalı Digiday haber görseli",
+        "credit": "Digiday",
+        "sourceUrl": "https://digiday.com/media-buying/omnicom-lands-coca-colas-north-american-media-business/"
+      }
+    },
+    {
+      "id": "hopi-ads-self-servis",
+      "title": "Hopi, alışveriş verisine dayalı self-servis reklam platformu Hopi Ads'i tanıttı",
+      "region": "Türkiye",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Türkiye",
+      "eventDate": "23 Ekim 2026 (duyuru haberi; platformun başlangıç tarihi belirtilmedi)",
+      "summary": "Hopi, gerçek alışveriş verisiyle hedefleme yapan, sosyal, programatik ve fiziksel envanteri tek panelden yöneten self-servis reklam platformunu duyurdu.",
+      "body": [
+        "Şirket beyanı: 21 milyon kullanıcı, 30 sektörde 300+ marka, 3.500+ mikro segment, 500+ programatik yayıncı.",
+        "Kanallar: sosyal medya, programatik ağlar, Hopi uygulaması ve iş ortaklarının fiziksel/dijital alanları tek kampanyada.",
+        "Yapay zekâ asistanı kitle, kanal karması ve bütçe dağılımı öneriyor; kreatif stüdyo kanal uyumlu görsel hazırlıyor.",
+        "Haberdeki pazar verisi: retail media dijital reklamın Türkiye'de %2,3'ü, Avrupa'da %10'u.",
+        "Ölçüm: gerçek zamanlı performans takibi; satış etkisi ölçüm yöntemi haberde açıklanmadı."
+      ],
+      "impact": "Türkiye'de retail media Avrupa'nın gerisinde ve yeni oyuncular self-servis modelle küçük bütçeleri de çekmeye çalışıyor. Marka gözüyle alışveriş verisiyle hedefleme cazip; ajans gözüyle asıl soru ölçümün bağımsızlığı ve verinin artırımlı satışı gösterip göstermediği.",
+      "action": "Hopi Ads'ten satış artışı (incrementality) ölçüm yöntemi ve kontrol grubu tasarımını yazılı olarak isteyin.",
+      "counterView": "Tüm rakamlar şirket beyanıdır; 21 milyon kayıtlı kullanıcı aktif erişim anlamına gelmez ve kapalı devre ölçüm kendi envanterini lehine gösterebilir.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • Hopi, yeni self servis reklam platformu Hopi Ads'i tanıttı",
+          "url": "https://www.marketingturkiye.com.tr/haberler/hopi-yeni-self-servis-reklam-platformu-hopi-adsi-tanitti/",
+          "published": "23 Ekim 2026 11:50",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/hopi.png",
+        "alt": "Hopi Ads tanıtım görseli",
+        "credit": "Marketing Türkiye / Hopi",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/hopi-yeni-self-servis-reklam-platformu-hopi-adsi-tanitti/"
+      }
+    },
+    {
+      "id": "pwc-efsane-cuma-2026",
+      "title": "PwC Efsane Cuma 2026: alışveriş niyeti %94'e çıktı, reel harcama planı geriledi",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "market": "Türkiye ve Avrupa",
+      "eventDate": "24 Ekim 2026 (haber); Efsane Cuma dönemi Kasım 2026",
+      "label": "Tek kaynak",
+      "summary": "PwC Türkiye araştırmasına göre Efsane Cuma'da alışveriş niyeti arttı, ancak tüketiciler daha az harcamayı planlıyor ve indirimleri daha çok doğruluyor.",
+      "body": [
+        "Türkiye'de alışveriş planlayanlar %87'den %94'e çıktı; Avrupa'da %83'ten %89'a.",
+        "Reel olarak daha fazla harcayacağını söyleyenler %47'den %39'a düştü; daha az harcayacaklar %13'ten %20'ye çıktı.",
+        "Tüketicilerin %54'ü geçmiş fiyatları kontrol ediyor; indirimi hiç doğrulamayanlar yalnız %3.",
+        "Yapay zekâ asistanı kullananlar bir yılda %13'ten %20'ye yükseldi.",
+        "Harcamaların %69'unun online kanaldan yapılması bekleniyor; araştırma Türkiye ve Avrupa'da 10.000 tüketiciyle yapıldı."
+      ],
+      "impact": "Veri böyle: niyet yüksek, cüzdan temkinli, indirim iddiası sorgulanıyor. Bizim okumamız: Kasım'da yalnız 'indirim' mesajı zayıf kalabilir; fiyat şeffaflığı ve karşılaştırma sitelerinde görünürlük medya planının parçası olmalı.",
+      "action": "Kasım planlarında karşılaştırma ve fırsat sitelerini, ürün yorumlarını ve erken (Efsane Cuma öncesi) iletişimi ayrı kalem olarak değerlendirin.",
+      "counterView": "Beyana dayalı niyet anketidir, gerçek harcama değildir; Türkiye örneklem büyüklüğü ve saha dönemi haberde verilmedi.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • Efsane Cuma'da tüketici indirime kanmıyor, fiyatın peşine düşüyor (PwC Türkiye, Efsane Cuma Dosyası 2026)",
+          "url": "https://www.marketingturkiye.com.tr/haberler/efsane-cumada-tuketici-indirime-kanmiyor-fiyatin-pesine-dusuyor/",
+          "published": "24 Ekim 2026 17:00",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/Yeni-Proje-2026-10-23T122630.699.jpg",
+        "alt": "Efsane Cuma araştırması haber görseli",
+        "credit": "Marketing Türkiye",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/efsane-cumada-tuketici-indirime-kanmiyor-fiyatin-pesine-dusuyor/"
+      }
+    },
+    {
+      "id": "mindstation-zincir-market-2026",
+      "title": "Zincir market araştırması: %61 büyük indirimde rakip markayı denerim diyor",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "market": "Türkiye",
+      "eventDate": "25 Ekim 2026 (haber); saha 21 Ağustos-8 Eylül 2026",
+      "label": "Tek kaynak",
+      "summary": "MindStation'ın 1.000 kişilik araştırmasına göre market alışverişinde marka sadakati fiyata karşı zayıf, mağaza markası tercihi çok yüksek.",
+      "body": [
+        "Yöntem: 29 ilde 18-60 yaş 1.000 kişi, çevrimiçi anket (CAWI), saha 21 Ağustos-8 Eylül 2026.",
+        "%61 büyük indirimde rakip markayı denerim; %54 favori ürün %25 zamlanırsa daha ucuz bilinen markaya geçerim diyor.",
+        "%93 mağaza markası tercih ediyor; bunların %68'i asıl üreticiyi kontrol ediyor.",
+        "%26 sosyal medyada gördüğü ürünü aramak için markete gitmiş; %51 indirimleri marketin sosyal hesaplarında görmüş.",
+        "Mağaza seçiminde ilk iki neden: yakınlık (%60) ve düşük fiyat (%55)."
+      ],
+      "impact": "Paketli gıda ve çikolata gibi kategorilerde fiyat farkı açıldığında sadakat hızla el değiştirebilir. Marka gözüyle zihinsel erişilebilirlik ve raf/promosyon görünürlüğü birlikte çalışmalı; medya tek başına fiyat farkını kapatamaz.",
+      "action": "Kategori fiyat endeksi ile marka iletişim baskısını aynı tabloda izleyip indirim dönemlerinde rakip promosyonlarını haftalık takip edin.",
+      "counterView": "Beyana dayalı çevrimiçi örneklem gerçek raf davranışını abartabilir; '%93 mağaza markası tercih ediyor' ifadesi kategori ve sıklık ayrımı olmadan yanıltıcı olabilir.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • Market alışverişinde sadakat, fiyat etiketinde yeniden şekilleniyor (MindStation)",
+          "url": "https://www.marketingturkiye.com.tr/haberler/market-alisverisinde-sadakat-fiyat-etiketinde-yeniden-sekilleniyor/",
+          "published": "25 Ekim 2026 17:00",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/market-1.png",
+        "alt": "Market alışverişi araştırması haber görseli",
+        "credit": "Marketing Türkiye",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/market-alisverisinde-sadakat-fiyat-etiketinde-yeniden-sekilleniyor/"
+      }
+    },
+    {
+      "id": "bu-aksam-gs-fb-sevdam-karadeniz",
+      "title": "Bu akşam: 21.30'da Galatasaray–Fenerbahçe derbisi; NOW'da Sevdam Karadeniz 3. bölüm",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "26 Ekim 2026 pazartesi, 20.00 ve 21.30",
+      "label": "Haber kaynaklı",
+      "summary": "Pazartesi prime-time'da derbi beIN SPORTS 1'de 21.30'da; aynı akşam NOW'da final kulisi süren Sevdam Karadeniz'in 3. bölümü bekleniyor.",
+      "body": [
+        "Galatasaray–Fenerbahçe: 26 Ekim 21.30, RAMS Park, beIN SPORTS 1 (23 Ekim TFF ve beIN okuması; Politikam ile uyumlu).",
+        "Sevdam Karadeniz: Haber Gazetesi'ne göre NOW resmî akışında 26 Ekim 20.00'de 3. bölüm görünüyor.",
+        "Kulis: Birsen Altuntaş 20 Ekim'de 4. bölümde final kararı yazdı; 2 Kasım finali resmî değil.",
+        "Yapımcı Banu Akdeniz 23 Ekim'de 'Perde kapanmadı' paylaşımı yaptı; NOW'dan resmî açıklama yok.",
+        "Claude bugün NOW ve beIN sayfalarını açamadı (izin/zaman aşımı); bilgi ikincil kaynaklara dayanıyor."
+      ],
+      "impact": "Derbi pazartesi 21.30'da şifreli kanalda; açık kanallarda dizi kuşağıyla izleyici paylaşımı etkilenebilir. Final kulisi doğrulanırsa NOW'un pazartesi kuşağında yeni yapım ihtiyacı doğar.",
+      "action": "Bu akşam açık kanal spotlarının 21.30 sonrası performansını derbi etkisiyle ayrı not edin ve NOW pazartesi kuşağı için 2 Kasım akışını izleyin.",
+      "counterView": "Derbinin açık kanal izlenmesine etkisi ölçülmedi, analitik beklentidir; yapımcı paylaşımı finalin iptal edildiği anlamına gelmeyebilir.",
+      "sources": [
+        {
+          "name": "TFF • Süper Lig maç programı",
+          "url": "https://www.tff.org/default.aspx?pageID=198",
+          "published": "23 Ekim 2026'da ChatGPT tarafından kontrol edildi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Politikam • Galatasaray–Fenerbahçe derbisi ne zaman",
+          "url": "https://www.politikam.com/galatasaray-fenerbahce-derbisi-ne-zaman-saat-kacta-dev-macin-tarihi-neden-degisti-pazartesi-mi-oynanacak",
+          "published": "16 Eylül 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Haber Gazetesi • Sevdam Karadeniz final mi yapıyor? Yapımcıdan yeni açıklama",
+          "url": "https://www.habergazetesi.com.tr/sevdam-karadeniz-final-mi-yapiyor-4-bolum-karari-sonrasi-yapimcidan-yeni-aciklama",
+          "published": "24 Ekim 2026 16:39",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Birsen Altuntaş • Sevdam Karadeniz dizisi için final kararı alındı",
+          "url": "https://www.birsenaltuntas.com/dizi/sevdam-karadeniz-dizisi-icin-final-karari-alindi/78576/",
+          "published": "20 Ekim 2026 12:54",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Substack'in podcast reklamcılığına girdiği MediaCat'te haber oldu; ayrıntılar Claude tarafından açılamadı.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/substack-podcast-reklamciligina-giriyor/",
+      "published": "2026-10-23"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Felis Ödülleri 2026'da Media, Integrated, Film ve Digital & Mobile kısa listeleri açıklandı.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/felis-odulleri-2026-media-felis-kisa-listesi/",
+      "published": "2026-10-23"
+    },
+    {
+      "layer": "Tüketici ve ekonomi",
+      "region": "Türkiye",
+      "text": "TÜİK verisine göre 10+ çalışanlı işletmelerde yapay zekâ kullanımı 2024'te %4,4'ten 2026'da %14'e çıktı; yayıncılık ve içerikte oran %57,1.",
+      "source": "Marketing Türkiye (TÜİK, Research İstanbul analizi)",
+      "url": "https://www.marketingturkiye.com.tr/haberler/isletmelerde-yapay-zeka-kullanimi-iki-yilda-uc-katina-cikti/",
+      "published": "2026-10-24"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Canva, kendi görsel üretim modeli Canva Craft'ı tanıttı.",
+      "source": "Marketing Türkiye",
+      "url": "https://www.marketingturkiye.com.tr/haberler/canva-kendi-gorsel-uretim-modeli-canva-crafti-tanitti/",
+      "published": "2026-10-23"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "WPP üçüncü çeyrek işlem güncellemesini 29 Ekim'de açıklayacak.",
+      "source": "WPP (Investegate RNS)",
+      "url": "https://www.investegate.co.uk/announcement/rns/wpp--wpp/notification-of-q3-2026-trading-update/9802296",
+      "published": "2026-10-01"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "fiyat duyarlılığı",
+        "text": "Efsane Cuma ve zincir market araştırmaları aynı yönde: niyet yüksek ama harcama temkinli, indirim doğrulanıyor, fiyat farkında marka değiştirme eğilimi yüksek.",
+        "basis": "Veri",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "pwc-efsane-cuma-2026",
+          "mindstation-zincir-market-2026"
+        ]
+      },
+      {
+        "tag": "platform güveni",
+        "text": "Meta şartlarına itiraz, reklamveren içeriğinin yapay zekâda kullanımını pazarlık konusu yaptı; erteleme tartışmanın sürdüğünü gösteriyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "meta-ticari-sartlar-20-kasim"
+        ]
+      },
+      {
+        "tag": "ajans konsolidasyonu",
+        "text": "Coca-Cola kararı, büyük hesapların global-bölgesel ayrımla holdingler arasında bölünebildiğini gösteriyor; Omnicom'un IPG sonrası ölçek iddiası test ediliyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "coca-cola-kuzey-amerika-omnicom"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "26 Ekim 2026 00:00 – 1 Kasım 2026 23:59 TSİ",
+  "matches": [
+    {
+      "date": "2026-10-26",
+      "time": "21:30",
+      "sport": "Futbol",
+      "competition": "Trendyol Süper Lig",
+      "home": "Galatasaray",
+      "away": "Fenerbahçe",
+      "broadcaster": "beIN SPORTS 1 / 4K",
+      "source": "https://www.tff.org/default.aspx?pageID=198",
+      "note": "TFF tarih/saat ile beIN'in maç bazlı yayın listesi uyuşuyor: 26 Ekim 21:30. Yayıncı kaynağı: https://beinsports.com.tr/haber/bu-hafta-hangi-mac-hangi-kanalda-23 (güncelleme 22 Ekim; başlıktaki yayın tarihi alanı tutarsız). Zorunlu derbi; prime-time ve sponsorluk yoğunluğu etkisi analitik beklenti. 26 Ekim: Claude resmî sayfaları açamadı; tarih/saat/yayıncı Politikam (16 Eylül) haberiyle de uyumlu.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Valencia",
+      "away": "Fenerbahçe",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 19:30 +3. Yayıncı maç bazında teyit edilmedi; Avrupa deplasmanı gece kuşağı rekabeti yaratabilir. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Hapoel Tel Aviv",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 18:00 +3. Maç bazında yayıncı teyidi yok; canlı spor envanteri takibi. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Olympiacos",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/haber/95378/olympiacos-piraeus-mac-biletleri-satista.html",
+      "note": "Kulübün bilet duyurusu ve maç merkezi TSİ 20:30: https://www.bjk.com.tr/tr/mobil/mac_merkezi_canli/25808 . EuroLeague PDF yerel saati de 20:30, GMT sütunu tutarsız; kulübün açık TSİ duyurusu esas alındı. Yayıncı teyitsiz; maç öncesi yeniden kontrol önerilir. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 19:45 +3. Resmî tatil akşamında Avrupa basketbolu; erişim etkisi yalnız olasılık. Yayıncı teyitsiz. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 17:30 +3, yerel 20:30 ile uyumlu. Cuma prime-time ile çakışıyor; yayıncı teyitsiz. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "GMT 19:30 +3. Yayıncı teyitsiz; geç kuşak Avrupa basketbolu. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/schedule/",
+      "note": "TVF bağlantılı resmî organizasyon fikstürü; yayıncı doğrulanamadı. Üç büyükler derbisi zorunlu kapsam; sponsorluk ilgisi potansiyeli ölçülmedi. 23 Ekim paketinden aktarıldı; 26 Ekim'de yeniden teyit edilemedi.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "highlights": [
+    "Meta yeni Ticari ve Self-Servis Reklam Şartları'nı 30 Ekim'den 20 Kasım'a erteledi.",
+    "Coca-Cola ABD-Kanada medyası Omnicom'a geçti (1 Aralık); global yetki WPP'de.",
+    "PwC: Efsane Cuma'da alışveriş niyeti %94, daha fazla harcama planlayanlar %39'a düştü."
+  ],
+  "watchlist": [
+    "WPP Q3 işlem güncellemesi 29 Ekim.",
+    "Meta şartları 20 Kasım yürürlüğü; AB/BK rekabet otoritelerinin tepkisi.",
+    "Sevdam Karadeniz: 2 Kasım final kulisine NOW resmî teyidi.",
+    "Kasım indirim dönemi: rakip çikolata markalarının promosyon ve iletişim yoğunluğu."
+  ],
+  "limitations": [
+    "ChatGPT araştırma paketi gelmedi; bülten Claude yedeğiyle hazırlandı (seçki).",
+    "Dijital gündem araştırması yapılmadı (yalnız ChatGPT yapar).",
+    "Guru notları araştırılmadı (paket gelmedi).",
+    "TV dizi takvimi tablosu güncellenmedi; pazartesi tam tablo denetimi (ChatGPT) yapılmadı. 7 kanal resmî akışı Claude tarafından açılamadı (izin/zaman aşımı); TV bilgisi ikincil kaynaklı.",
+    "Maç listesi 23 Ekim paketinden aktarıldı; yalnız GS–FB ikinci kaynakla kontrol edildi, diğer saat/yayıncılar bugün yeniden teyit edilemedi.",
+    "Rakip izleme kısmi: yalnız Nestlé Türkiye basın bültenleri sayfası ve marka adlı arama; pencere içinde yeni çikolata gelişmesi bulunmadı. Diğer şirket sayfaları kontrol edilemedi.",
+    "Yaratıcı mecra vakası eklenmedi: kısa sürede doğrulanabilir, daha önce kullanılmamış güçlü vaka bulunamadı.",
+    "MediaCat ve Campaign alt sayfaları açılamadı; Substack sinyali yalnız başlık düzeyinde.",
+    "Ana haberlerden birinde (TV/derbi kartı) ve Meta kartında görsel eklenemedi."
+  ],
+  "corrections": []
+}
