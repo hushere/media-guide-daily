@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-27",
+  "researcher": "ChatGPT",
+  "startedAt": "2026-10-27T07:34:40+03:00",
+  "cutoff": "2026-10-27T07:35:43+03:00",
+  "window": "26 Ekim 09.58–27 Ekim 07.35.43 TSİ",
+  "items": [
+    {
+      "id": "ortak-dooh-saglik-kampanyasi",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Marka ve kampanya",
+      "tier": "signal",
+      "market": "ABD",
+      "title": "Clear Channel Outdoor ve Outfront ortak DOOH kampanyasında",
+      "eventDate": "Ekim 2026; haber 26 Ekim",
+      "facts": [
+        "Clear Channel Outdoor ve Outfront, Million Mammograms Challenge için dijital açık hava ağlarını kullanıyor."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "invidis makalesi açıldı; şirket açıklamaları ayrıca doğrulanamadı.",
+      "sources": [
+        {
+          "name": "invidis",
+          "url": "https://invidis.com/news/2026/10/dooh-campaigns-channel-outdoor-and-outfront-join-breast-cancer-awareness-campaign/",
+          "published": "2026-10-26",
+          "country": "Almanya",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ],
+      "impactDraft": "Birden fazla mecra sahibinin ortak kampanya teslimi, ağlar arası planlama için örnek oluşturuyor.",
+      "counterViewDraft": "Kampanya hedefi gerçekleşmiş tarama veya erişim sonucu değildir."
+    }
+  ],
+  "tvTracking": [],
+  "matches": [],
+  "matchesWindow": "27 Ekim–1 Kasım 2026; bu çalışmada doğrulanamadı.",
+  "tvTableUpdates": [],
+  "socialSourceReview": [],
+  "accessLog": [],
+  "limitations": [
+    "Bu paket çok sınırlı bir kısmi teslimdir; tam günlük araştırma tamamlanmadı.",
+    "Türkiye, spor, TV takvimi, rakip marka, sosyal gündem, beş araştırmacı ve özgün yaratıcı vaka kontrolleri yapılmadı; önceki günün verileri güncel teyit gibi taşınmadı.",
+    "Katman çeşitliliği, ana haber ve kısa sinyal sayısı hedefleri karşılanmadı.",
+    "Resmî web kaynaklarına erişim denemesi yapılmadığından accessLog boş; erişim engeli olduğu iddia edilmiyor.",
+    "Haber görseli doğrulanamadı."
+  ],
+  "researcherNotes": "Önceki paketin cutoff'u main üzerinden okundu: 26 Ekim 09.58. Handoff 08.55 bülten cutoff'u yerine açık araştırma kuralı uygulandı. Çalışma kapasitesi sınırı nedeniyle yalnız doğrulanmış tek sinyal teslim ediliyor; bu dosyayı tam araştırma olarak kullanmayın. Campaign Middle East PLANIT yazısı da açıldı ancak 26 Ekim 07.55 yayın saati pencere öncesinde olabileceği için alınmadı."
+}
