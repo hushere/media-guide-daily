@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-27",
+  "title": "Q4'te para ölçülebilir kanallara kayıyor, ABD seçimi CPM'leri şişiriyor; Kanal D'de Karakuyu fragmanı",
+  "summary": "Digiday: Q4 bütçeleri sosyal, retail media ve performans kanallarına akıyor, WARC 2026'yı 1,34 trilyon dolar öngörüyor; ABD ara seçimi CPM'leri yükseltiyor. Türkiye'de Karakuyu fragmanı ve kozmetik denetimi; yaratıcı mecrada KitKat boş pano vakası. Kısıtlı seçki.",
+  "edition": "selection",
+  "window": "26 Ekim 2026 08:55 – 27 Ekim 2026 09:05 TSİ (ChatGPT 27 Ekim paketi kısmi; Claude yedek araştırması ve ChatGPT'nin 26 Ekim 10.00'da gelen paketi)",
+  "status": "published",
+  "review": {
+    "status": "unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-27T09:08+03:00",
+    "summary": "ChatGPT'nin 27 Ekim paketi şema olarak geçerli ama kendi notuyla 'tam araştırma olarak kullanmayın' denilen tek öğelik kısmi teslimdi; bülten Claude yedeğiyle hazırlandı. 26 Ekim'de yayından sonra (10.00) gelen ChatGPT paketinden yayımlanmamış öğeler (Karakuyu, KitKat Break Billboards, Meta Forum) ve 27 Ekim-1 Kasım maç satırları alındı. Digiday ve Marketing Türkiye sayfaları açılarak teyit edildi; TFF, TRT 1, kanal akışları, invidis, campaigntr WebFetch izin zaman aşımı nedeniyle açılamadı, bu yüzden maç ve TV bilgileri yeniden teyit edilemedi. Mehmed saat önerisi ve TV tablosu güncellemesi teyitsiz kaldığı için uygulanmadı; dijital gündem (26 Ekim öğeleri bayat ve zayıf) eklenmedi."
+  },
+  "source": {
+    "writer": "Claude (yedek)"
+  },
+  "articles": [
+    {
+      "id": "q4-butceler-perakende-sosyal",
+      "title": "Q4'te bütçeler ölçülebilir kanallara kayıyor: WARC 2026 global reklam yatırımını 1,34 trilyon dolar öngörüyor",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global; ajans görüşleri ağırlıkla ABD",
+      "eventDate": "26 Ekim 2026 (Digiday Media Buying Briefing)",
+      "summary": "Holding Q3 sonuçları ve ABD'li medya alıcıları, dördüncü çeyrekte paranın sosyal, retail media ve performans kanallarına aktığını, lineer TV'nin pay kaybettiğini gösteriyor.",
+      "body": [
+        "WARC: Q4 ile 2026 global reklam yatırımı 1,34 trilyon dolar, 2025'e göre %11,9 artış; sosyal Q3'te %21,3 büyüdü.",
+        "Q3 organik büyüme: Omnicom %7,3, Publicis %5, Havas %2,4; WPP ve Dentsu henüz açıklamadı.",
+        "Mile Marker CEO'su: müşteriler Q4'te retail media harcamasını %20-30 artırdı, kaynak lineer TV ve kısmen arama.",
+        "January Digital: 'Ölçülemiyorsa plana girmiyor'; para Meta, TikTok ve Amazon'a akıyor.",
+        "Karşı veri: GoFish Digital, Amazon harcamasında beklenen %30 yerine yaklaşık %7 artış görüyor."
+      ],
+      "impact": "Veri böyle: büyüme rakamları güçlü, ama ajans yorumları tek tek alıcıların beyanı. Bizim okumamız: 'ölçülebilirlik' bütçe kriterine dönüşüyor; TV'nin kendi katkısını ölçümle kanıtlamadığı yerde pay kaybı hızlanabilir. Türkiye'de de Kasım indirim döneminde aynı baskı beklenebilir.",
+      "action": "Kasım planlarında TV ve retail media için aynı ölçüm çerçevesini (incrementality veya marka etkisi) baştan tanımlayın.",
+      "counterView": "Madison & Wall analizine göre Omnicom büyümesinin önemli kısmı maliyet kesintisinden geliyor; ABD ara seçim ve tüketici güveni bu tabloyu Türkiye'ye taşınamaz kılabilir.",
+      "sources": [
+        {
+          "name": "Digiday • Media Buying Briefing (Sam Bradley)",
+          "url": "https://digiday.com/media-buying/media-buying-briefing-brands-push-toward-retail-and-social-while-buyers-ponder-storm-clouds/",
+          "published": "26 Ekim 2026",
+          "country": "ABD/BK",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "abd-ara-secim-cpm-artisi",
+      "title": "ABD ara seçim reklamları CPM'leri yükseltti; YouTube ve CTV fiyatları da etkileniyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "ABD",
+      "eventDate": "26 Ekim 2026 (Digiday); ara seçim 3 Kasım 2026",
+      "summary": "Ara seçim öncesi siyasi reklam harcaması ABD'de lineer TV, CTV ve YouTube fiyatlarını artırarak bölgesel reklamverenlerin yılbaşı planlarını sıkıştırıyor.",
+      "body": [
+        "AdImpact: ara seçim döneminde beklenen 12 milyar dolarlık harcamanın 8,2 milyarı TV veya CTV'ye gidecek.",
+        "Teksas'ta lineer CPM'ler genelde %10-15, bazı programlarda %30-50 arttı (Electric Symphony Media).",
+        "Premium CTV/streaming ortalama CPM 34-35 dolardan 43 dolara çıktı (Collective Measures).",
+        "Bir ajans yöneticisi: ortalama YouTube CPM son haftalarda %20 yükseldi."
+      ],
+      "impact": "Veri böyle: talep şoku fiyatı doğrudan yükseltiyor; YouTube gibi açık artırmalı envanter de etkileniyor. Bizim okumamız: Türkiye'de büyük spor ve seçim dönemlerinde benzer fiyat sıçramaları için erken rezervasyon ve esnek bütçe payı mantığı aynı.",
+      "action": "Yüksek talep dönemleri için (derbi haftaları, Kasım indirimleri) CPM eşiği ve alternatif envanter listesini önceden belirleyin.",
+      "counterView": "Rakamlar farklı ajans ve şirketlerin kendi gözlemleri; ABD'ye özgü siyasi reklam pazarı Türkiye fiyatlarına doğrudan yansımaz.",
+      "sources": [
+        {
+          "name": "Digiday • Midterm political spending (Sam Bradley)",
+          "url": "https://digiday.com/media-buying/midterm-political-spending-throws-spanner-into-regional-advertiser-holiday-plans/",
+          "published": "26 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "karakuyu-ilk-fragman-kanal-d",
+      "title": "Kanal D'nin yeni dizisi Karakuyu'nun ilk fragmanı yayımlandı; başlangıç tarihi ve günü açıklanmadı",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "label": "Kanal teyitli",
+      "eventDate": "25 Ekim 2026 (fragman haberi)",
+      "summary": "Kanal D, yeni dizisi Karakuyu'nun ilk fragmanını yayımladı; resmî sayfada yayın bilgisi hâlâ 'Yakında'.",
+      "body": [
+        "Önceki bilgi: Karakuyu takip tablosunda yoktu; ATV'ye dair gün ataması notu vardı, kanal teyitsizdi.",
+        "Güncel durum: Kanal D sitesinde ilk fragman var; yayın günü ve tarihi 'Yakında'.",
+        "Kaynak: Kanal D dizi sayfası (26 Ekim, ChatGPT okuması) ve Birsen Altuntaş, 25 Ekim 20.54.",
+        "Fragman yayın başlangıcı sayılmadı; Claude bugün kanal sayfasını yeniden açamadı."
+      ],
+      "impact": "Kanal D'nin akşam kuşağına yeni bir yapım ekleneceği netleşti, ama hangi günün değişeceği belli değil. Gün açıklanınca o akşamın rekabet tablosu ve dizi sponsorluk envanteri değişir.",
+      "action": "Kanal D satış ekibinden Karakuyu'nun gün ve başlangıç tarihini ile ön satış koşullarını isteyin.",
+      "counterView": "Fragman yayını çoğu zaman haftalar önce yapılır; başlangıç tarihi gecikebilir veya gün değişebilir.",
+      "sources": [
+        {
+          "name": "Kanal D • Karakuyu ilk fragman",
+          "url": "https://www.kanald.com.tr/karakuyu/fragmanlar/karakuyu-ilk-fragman",
+          "published": "Tarih görünmüyor; 26 Ekim erişimi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Birsen Altuntaş • Karakuyu'nun ilk tanıtımı",
+          "url": "https://www.birsenaltuntas.com/dizi/karakuyunun-ilk-tanitimi-yayinlandi/78747/",
+          "published": "2026-10-25 20:54",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "kozmetik-denetimi-yuzde-60",
+      "title": "Sağlık Bakanlığı denetimi: incelenen 95 kozmetik ürünün 57'si mevzuata aykırı çıktı",
+      "region": "Türkiye",
+      "category": "Ajans & Marka",
+      "layer": "Düzenleme ve sektör",
+      "market": "Türkiye",
+      "label": "Gecikmeli fakat önemli",
+      "eventDate": "Temmuz-eylül 2026 denetimi; haber 25 Ekim 2026 15.00",
+      "summary": "Temmuz-eylül denetiminde 95 kozmetik ürünün 57'si uygunsuz bulundu, 11,26 milyon TL idari para cezası kesildi.",
+      "body": [
+        "95 üründen 57'si aykırı: 7'si sağlık riski taşıyor, 50'si teknik düzenlemeye uymuyor.",
+        "Toplam idari para cezası 11.256.681 TL; şampuan, saç kremi, saç boyası, kolonya gibi ürünler.",
+        "Marka, ürün ve ihlal edilen madde adı haberde verilmiyor.",
+        "KÜAD temsilcisi tüketicilere etiket bilgilerini kontrol etmeyi önerdi."
+      ],
+      "impact": "Haber reklam iddiası değil, ürün ve etiket uygunluğu üzerine. Yine de kategori güvenini etkiler: etiket ve iddia uyumu, marka iletişiminde güven mesajının zemini.",
+      "action": "FMCG müşterilerinde ambalaj ve reklam iddialarının mevzuat kontrolünü kampanya öncesi kontrol listesine ekleyin.",
+      "counterView": "Örneklem 95 ürünle sınırlı ve riskli ürünlere yönelik hedefli olabilir; oran tüm pazarı temsil etmez.",
+      "sources": [
+        {
+          "name": "Marketing Türkiye • Denetlenen kozmetik ürünlerin yüzde 60'ı mevzuata aykırı",
+          "url": "https://www.marketingturkiye.com.tr/haberler/denetlenen-kozmetik-urunlerin-yuzde-60i-mevzuata-aykiri-cikti/",
+          "published": "25 Ekim 2026 15:00",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "kitkat-break-billboards",
+      "title": "Yaratıcı mecra: KitKat 'Break Billboards', boş panonun dolgu desenini ödüllü mola anına çevirdi",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Çekya / Prag",
+      "eventDate": "2026 (BestAds kaydı 17 Mart 2026)",
+      "summary": "Nestlé KitKat ve VML Prague, kiralanmamış panolardaki standart dolgu desenini taranabilir bir ödül girişine dönüştürdü.",
+      "body": [
+        "Fikir: reklamlar arasındaki 'boş' pano, KitKat'in mola mesajının kendisi oldu.",
+        "100'den fazla gerçek pano kampanyanın zemini; uygulama CGI değil, sahada.",
+        "Taranan pano bir kod veriyor; kod yakındaki satış noktasında KitKat Break Pack için kullanılıyor.",
+        "VML beyanı: iki haftalık ödül stoğu iki günde tükendi; bağımsız doğrulama yok.",
+        "Bağlantı: 21 Ekim'de aynı ajansın 'Phone Break' vakası yer aldı; bu ayrı bir uygulama."
+      ],
+      "impact": "Mecra fikrin parçası: boş pano 'ara' durumunu temsil ediyor, mesaj ayrıca anlatılmıyor. Ödülün satış noktasına bağlanması OOH'yi satın alma davranışına yaklaştırıyor.",
+      "action": "Türkiye'de açık hava şirketleriyle boş envanter dolgu alanlarının marka kullanımına açılma koşullarını sorun.",
+      "counterView": "Ödül, operasyon ve sosyal medya maliyetleri var; sonuç ajans beyanı. Fikir boş envanter varlığına bağlı, ölçeklenmesi sınırlı. Tartışma sorusu: Bu mekanik Türkiye'de hangi çikolata veya atıştırmalık markasının mola anına doğal oturur?",
+      "sources": [
+        {
+          "name": "VML Prague • KitKat Break Billboards",
+          "url": "https://www.vml.com/work/break-billboards",
+          "published": "Tarih belirtilmiyor; 2026 vaka kaydı",
+          "country": "Çekya",
+          "language": "İngilizce"
+        },
+        {
+          "name": "BestAds • Kit Kat: Break Billboards",
+          "url": "https://www.bestadsontv.com/news/blog.php?id=65269",
+          "published": "2026-03-17 12:26",
+          "country": "Avustralya",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://res.cloudinary.com/dotcom-prod/videos/ar_16%3A9%2Cb_black%2Cc_pad%2Cf_auto%2Cq_auto%2Cso_10%2Cw_1440/v1/wt-cms-assets/2026/05/bhuqhvbsazfaz7wz86jk/kitkatbreakbillboardscannescasestudyv21bfullversion1.jpg",
+        "alt": "KitKat Break Billboards vaka filminden fiziksel uygulama",
+        "credit": "VML Prague / Nestlé KitKat",
+        "sourceUrl": "https://www.vml.com/work/break-billboards"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Global",
+      "text": "Clear Channel Outdoor ve Outfront, ABD'de Million Mammograms Challenge için dijital açık hava ağlarını birlikte kullanıyor (tek kaynak).",
+      "source": "invidis",
+      "url": "https://invidis.com/news/2026/10/dooh-campaigns-channel-outdoor-and-outfront-join-breast-cancer-awareness-campaign/",
+      "published": "2026-10-26"
+    },
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Global",
+      "text": "McDonald's BK, Leo UK ile altı sostan esinlenen 'Spooky Sauces' Cadılar Bayramı makyaj setini TikTok, Instagram ve içerik üreticileriyle tanıttı.",
+      "source": "Marketing Türkiye",
+      "url": "https://www.marketingturkiye.com.tr/haberler/mcdonalds-soslarini-cadilar-bayrami-makyajina-donusturdu/",
+      "published": "2026-10-26"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Meta, ABD'deki Forum uygulamasına yapay zekâ destekli gönderi kontrolü, ortak içerik takvimi ve yorum sabitleme araçları ekliyor (Gecikmeli, 23 Ekim).",
+      "source": "Meta",
+      "url": "https://about.fb.com/news/2026/10/new-tools-for-the-admins-who-build-communities-on-forum/",
+      "published": "2026-10-23"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "WPP üçüncü çeyrek işlem güncellemesini 29 Ekim'de açıklayacak; Dentsu da henüz Q3 sonucunu duyurmadı.",
+      "source": "Digiday",
+      "url": "https://digiday.com/media-buying/media-buying-briefing-brands-push-toward-retail-and-social-while-buyers-ponder-storm-clouds/",
+      "published": "2026-10-26"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "ölçülebilirlik baskısı",
+        "text": "Q4'te bütçe kararlarında 'ölçülemiyorsa plana girmez' yaklaşımı öne çıkıyor; retail media ve sosyal pay alırken lineer TV kaynak oluyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "q4-butceler-perakende-sosyal"
+        ]
+      },
+      {
+        "tag": "talep kaynaklı fiyat",
+        "text": "ABD'de siyasi talep CTV ve YouTube CPM'lerini yükseltiyor; açık artırmalı envanter de yoğun dönemlerde pahalanıyor.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "abd-ara-secim-cpm-artisi"
+        ]
+      },
+      {
+        "tag": "ajans konsolidasyonu",
+        "text": "Holding Q3 sonuçlarında Omnicom öne çıkıyor, ancak büyümenin bir kısmının maliyet kesintisinden geldiği tartışılıyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "q4-butceler-perakende-sosyal"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "27 Ekim – 1 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-10-27",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Valencia Basket",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Önemli Avrupa maçı; tahmini medya etkisi ölçülmüş sonuç değildir. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Olympiacos Piraeus",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/haber/95378/olympiacos-piraeus-mac-biletleri-satista.html",
+      "note": "SAAT ÇELİŞKİSİ: Kulüp 20.30 diyor; EuroLeague PDF yerel 20.30, GMT 18.30 ve sütunlar uyumsuz. S Sport Plus 19.45 yayın başlangıcı maç saati sayılmadı. Yeniden teyit gerekir. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Hapoel IBI Tel Aviv",
+      "away": "Anadolu Efes",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Tahmini ilgi ölçülmüş reach değildir. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Tahmini ilgi ölçülmüş reach değildir. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos AKTOR",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; S Sport Plus ön program saati maç saati sayılmadı. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/matches/2591729/",
+      "note": "Resmî organizasyon kaydıyla gün/saat teyitli. Yayıncı doğrulanamadı; TRT Spor sitesi erişim hatası verdi. Derbi ilgisi olasıdır; ölçülmüş reach iddiası yok. Claude bugün resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "highlights": [
+    "WARC: 2026 global reklam yatırımı 1,34 trilyon dolar (+%11,9); Q4'te para sosyal ve retail media'ya akıyor.",
+    "ABD ara seçimi premium CTV CPM'ini 34-35 dolardan 43 dolara çıkardı.",
+    "Kanal D, Karakuyu'nun ilk fragmanını yayımladı; başlangıç tarihi açıklanmadı."
+  ],
+  "watchlist": [
+    "WPP Q3 işlem güncellemesi 29 Ekim.",
+    "Karakuyu yayın günü ve tarihi (Kanal D).",
+    "Mehmed: Fetihler Sultanı salı saati (20.00 mı 21.30 mu) TRT 1 tarihli akışla.",
+    "Sevdam Karadeniz: 2 Kasım final kulisine NOW resmî teyidi.",
+    "Meta şartları 20 Kasım yürürlüğü."
+  ],
+  "limitations": [
+    "ChatGPT 27 Ekim paketi tek öğelik kısmi teslimdi; bülten Claude yedek araştırmasıyla hazırlanan kısıtlı seçkidir.",
+    "WebFetch izin zaman aşımı: TFF, TRT 1 akışı, kanal akışları, mediacat.com, campaigntr.com, invidis açılamadı; TV akış karşılaştırması bugün yapılamadı.",
+    "Maç satırları ChatGPT'nin 26 Ekim okumasına dayanıyor; Claude yeniden teyit edemedi. Beşiktaş–Olympiacos saatinde kaynak çelişkisi sürüyor. 31 Ekim-1 Kasım Süper Lig haftası kontrol edilemedi.",
+    "Rakip izleme bugün yapılamadı (26 Ekim paketinde ChatGPT 10 şirketi kontrol etmiş, yeni gelişme yok; Fiskobirlik, Doğkar, Altınkılıçlar, Lider açılamamış).",
+    "Dijital gündem eklenmedi (26 Ekim paketindeki öğeler bir gün eski ve zayıf). Guru notları: ChatGPT 26 Ekim kontrolünde beş isim için yeni yayın bulmadı.",
+    "Clear Channel/Outfront sinyali tek ikincil kaynaklı; 5 ana haberin 4'ünde görsel yok."
+  ],
+  "corrections": [
+    "26 Ekim Meta kartı: 'içerik değişmedi' ifadesi kaynakla desteklenmiyordu; Reuters yalnız yürürlüğün ertelendiğini doğruluyor, metin farkları ayrıca kontrol edilmeli (ChatGPT değerlendirmesi).",
+    "26 Ekim PwC kartı: kaynak toplam harcamanın düştüğünü değil, daha fazla harcamayı planlayanların payının %47'den %39'a düştüğünü gösteriyor; başlıktaki 'reel harcama planı geriledi' ifadesi bu şekilde okunmalı."
+  ]
+}
