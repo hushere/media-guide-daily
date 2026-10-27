@@ -2,49 +2,606 @@
   "date": "2026-10-27",
   "researcher": "ChatGPT",
   "startedAt": "2026-10-27T07:34:40+03:00",
-  "cutoff": "2026-10-27T07:35:43+03:00",
-  "window": "26 Ekim 09.58–27 Ekim 07.35.43 TSİ",
+  "cutoff": "2026-10-27T10:09:18+03:00",
+  "window": "26 Ekim 2026 08.55–27 Ekim 2026 10.09 TSİ; son yayımlanmış bültenin bilgi kesiminden gerçek araştırma kesimine.",
   "items": [
     {
-      "id": "ortak-dooh-saglik-kampanyasi",
+      "id": "stagwell-freestar-satin-alma",
       "region": "Global",
       "category": "Ajans & Marka",
-      "layer": "Marka ve kampanya",
-      "tier": "signal",
-      "market": "ABD",
-      "title": "Clear Channel Outdoor ve Outfront ortak DOOH kampanyasında",
-      "eventDate": "Ekim 2026; haber 26 Ekim",
+      "layer": "Düzenleme ve sektör",
+      "tier": "main",
+      "attitudeTag": "tedarik yakınlaşması",
+      "market": "ABD, global programatik",
+      "title": "Stagwell, yayıncı gelir teknolojisi Freestar’ı satın aldı",
+      "eventDate": "2026-10-26",
       "facts": [
-        "Clear Channel Outdoor ve Outfront, Million Mammograms Challenge için dijital açık hava ağlarını kullanıyor."
+        "Stagwell, 1.000’den fazla yayıncıya hizmet veren Freestar’ı satın aldı; bedel açıklanmadı.",
+        "Freestar, Stagwell Owned Media içine alınacak; yayıncı müşterileri ve yönetimi korunacak."
       ],
-      "verification": "single_secondary",
-      "verificationNote": "invidis makalesi açıldı; şirket açıklamaları ayrıca doğrulanamadı.",
+      "verification": "two_independent",
+      "verificationNote": "Digiday ve AdExchanger işlemi ayrı haberlerle doğruladı; bedelin açıklanmadığı iki kaynakta da belirtiliyor.",
+      "impactDraft": "Ajans grubunun arz tarafına yaklaşması tedarik yolu, veri erişimi ve programatik marj şeffaflığını planlama gündemine taşır.",
+      "actionDraft": "Stagwell üzerinden alımlarda envanter sahipliği, ücret zinciri ve çıkar çatışması açıklamalarını talep edin.",
+      "counterViewDraft": "Kısa tedarik yolu daha düşük maliyeti garanti etmez; ajansın alıcı ve satıcı rolleri yeni yönetişim ihtiyacı yaratır.",
       "sources": [
         {
-          "name": "invidis",
-          "url": "https://invidis.com/news/2026/10/dooh-campaigns-channel-outdoor-and-outfront-join-breast-cancer-awareness-campaign/",
+          "name": "Digiday • Stagwell buys Freestar",
+          "url": "https://digiday.com/media-buying/stagwell-buys-freestar-putting-publisher-ad-sales-inside-a-holdco/",
           "published": "2026-10-26",
-          "country": "Almanya",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "trade"
+        },
+        {
+          "name": "AdExchanger • Stagwell Acquires Freestar",
+          "url": "https://www.adexchanger.com/agencies/stagwell-acquires-publisher-monetization-network-freestar/",
+          "published": "2026-10-26 10:30",
+          "country": "ABD",
           "language": "İngilizce",
           "type": "trade"
         }
+      ]
+    },
+    {
+      "id": "daily-mail-geo-marka-urunu",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "tier": "main",
+      "attitudeTag": "AI görünürlüğü",
+      "market": "ABD, Birleşik Krallık, Avustralya",
+      "title": "Daily Mail, markalar için GEO ürününü 12–15 testle hazırlıyor",
+      "eventDate": "2026-10-26",
+      "facts": [
+        "Daily Mail, markaların AI yanıtlarındaki görünürlüğünü ölçmek için üç pazarda 12–15 test yürütüyor.",
+        "Yayıncı, ürünü 2027 başında ticarileştirmeyi; görünürlük ve atıfları zaman içinde izlemeyi planlıyor."
       ],
-      "impactDraft": "Birden fazla mecra sahibinin ortak kampanya teslimi, ağlar arası planlama için örnek oluşturuyor.",
-      "counterViewDraft": "Kampanya hedefi gerçekleşmiş tarama veya erişim sonucu değildir."
+      "verification": "single_secondary",
+      "verificationNote": "Digiday etkinlikteki yönetici açıklamasını aktarıyor; ürün henüz resmî olarak satışa çıkmadı.",
+      "impactDraft": "Yayıncı branded content’i AI yanıt görünürlüğüyle paketlerken erişim ve dönüşüm ölçümüne yeni bir ara metrik ekliyor.",
+      "actionDraft": "GEO testlerinde sabit prompt seti, tekrar sayısı, kaynak atfı ve satış etkisi ölçümünü önceden tanımlayın.",
+      "counterViewDraft": "AI yanıtları olasılıksal; görünürlük artışı nedensel satış etkisi veya kalıcı sıralama anlamına gelmez.",
+      "sources": [
+        {
+          "name": "Digiday • The Daily Mail tests GEO with brands",
+          "url": "https://digiday.com/media/the-daily-mail-tests-geo-with-brands-ahead-of-ai-visibility-product/",
+          "published": "2026-10-26",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ]
+    },
+    {
+      "id": "oyun-ici-reklam-anlati-uyumu",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Medya tüketimi ve izleyici",
+      "tier": "main",
+      "attitudeTag": "oyun içi uyum",
+      "market": "Global oyuncu toplulukları",
+      "title": "Oyun içi reklamda anlatı uyumu ve etkileşim birlikte çalışıyor",
+      "eventDate": "2026-10-26",
+      "facts": [
+        "Journal of Advertising çalışması, reklam uyumunu anlatı inandırıcılığı ve oyuncu etkileşimi olarak iki mekanizmaya ayırıyor.",
+        "Araştırma, netnografi ve derinlemesine görüşmelere dayanıyor; deneysel etki veya satış artışı ölçmüyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Hakemli makalenin yayıncı sayfasındaki tam metin ve WARC’ın 26 Ekim özeti okundu.",
+      "impactDraft": "Oyun içi yerleşimlerde görünürlük kadar markanın oyun dünyasına işlevsel ve estetik uyumu briefin parçası olmalı.",
+      "actionDraft": "Yerleşimleri içerik, format, sıklık ve oyuncuya sunduğu işlev üzerinden ön teste alın.",
+      "counterViewDraft": "Nitel yöntem mekanizma öneriyor; farklı oyun türlerinde attention, satış ve davranış etkisi ayrıca deneysel doğrulama gerektiriyor.",
+      "sources": [
+        {
+          "name": "Journal of Advertising • Game On or Game Over?",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00913367.2026.2712518",
+          "published": "2026",
+          "country": "Global",
+          "language": "İngilizce",
+          "type": "research"
+        },
+        {
+          "name": "WARC • How to design better in-game advertising",
+          "url": "https://www.warc.com/feed/how-to-design-better-in-game-advertising-according-to-experts-0fb497d4ffc74461b0a3c1bcfa0cf7ae",
+          "published": "2026-10-26",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ]
+    },
+    {
+      "id": "trt-mehmed-saat-duzeltmesi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "tier": "main",
+      "attitudeTag": "prime time",
+      "market": "Türkiye",
+      "title": "TRT 1 akışı Mehmed’i salı 20.00’ye taşıyor",
+      "eventDate": "2026-10-27",
+      "facts": [
+        "TRT 1’in 27 Ekim akışında Mehmed: Fetihler Sultanı 20.00’de; takip tablosunda 21.30 yazıyordu.",
+        "Aynı akışta 19.55’te İddiaların Aksine programı bulunuyor; maç kaynaklı gecikme görünmüyor."
+      ],
+      "verification": "official",
+      "verificationNote": "TRT 1’in tarihli günlük yayın akışı doğrudan okundu.",
+      "label": "Fiilen yayında",
+      "impactDraft": "Bir buçuk saatlik değişim prime-time spot yerleşimi, rakip dizi çakışması ve teslimat tahminini doğrudan etkiler.",
+      "actionDraft": "27 Ekim TRT 1 spot listesi ve kampanya rezervasyonlarında 20.00 başlangıcını esas alın.",
+      "counterViewDraft": "Akış sayfası yayın öncesinde değişebilir; gerçekleşen bölüm arşivi ertesi gün ayrıca kontrol edilmeli.",
+      "sources": [
+        {
+          "name": "TRT 1 • Yayın Akışı",
+          "url": "https://www.trt1.com.tr/yayin-akisi",
+          "published": "2026-10-27",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "ba-magic-of-flying-ooh",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "tier": "main",
+      "attitudeTag": "bağlamsal DOOH",
+      "market": "Birleşik Krallık",
+      "title": "British Airways, gerçek uçuşu billboard mesajına dönüştürdü",
+      "eventDate": "2013",
+      "facts": [
+        "Magic of Flying, geçen British Airways uçağını algılayıp uçuş numarası ve kalkış noktasını ekranda gösterdi.",
+        "DOOH uygulaması Chiswick ve Piccadilly’de çalıştı; rotaya göre dinamik satış mesajı eşleştirildi."
+      ],
+      "verification": "two_independent",
+      "verificationNote": "The One Show vaka kaydı ile Ogilvy portföy açıklaması uygulamanın fiziksel olarak gerçekleştiğini doğruluyor.",
+      "impactDraft": "Mecra, gökyüzündeki gerçek olayı anlık kanıta çevirerek bağlam, dikkat ve ürün bilgisini tek temasta birleştirdi.",
+      "actionDraft": "Türkiye’de canlı veriyle havaalanı, maç, hava durumu veya mağaza yakınlığını tetikleyen DOOH senaryoları test edilebilir.",
+      "counterViewDraft": "Uçuş verisi, özel ekran konumu ve entegrasyon maliyeti ölçeklenebilirliği sınırlar; satış katkısı vaka kaynaklarında açıklanmıyor.",
+      "sources": [
+        {
+          "name": "The One Club • Magic of Flying",
+          "url": "https://www.oneclub.org/awards/theoneshow/-award/20528/magic-of-flying/",
+          "published": "2014",
+          "country": "ABD",
+          "language": "İngilizce",
+          "type": "agency"
+        },
+        {
+          "name": "Ogilvy • Magic of Flying",
+          "url": "https://creativepool.com/ogilvy/projects/british-airways-magic-of-flying-for-british-airways",
+          "published": "2013",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce",
+          "type": "agency"
+        }
+      ]
+    },
+    {
+      "id": "youtube-shopping-mena",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "tier": "signal",
+      "attitudeTag": "creator commerce",
+      "market": "BAE, Suudi Arabistan, Mısır",
+      "title": "YouTube Shopping affiliate programı üç MENA pazarına açıldı",
+      "eventDate": "2026-10-26",
+      "facts": [
+        "Program, uygun üreticilerin video, Shorts ve canlı yayınlarda Amazon ürünlerini etiketleyip komisyon kazanmasını sağlıyor."
+      ],
+      "verification": "single_secondary",
+      "verificationNote": "Campaign Middle East, YouTube MENA yöneticisi ve Amazon bölge yöneticisinin açıklamalarını aktarıyor.",
+      "impactDraft": "Creator içerikleri, CTV’de QR kod dahil olmak üzere ürün keşfi ve satış ortaklığını aynı yolculukta birleştiriyor.",
+      "counterViewDraft": "Türkiye kapsamda değil; bölgesel performans ve ilave perakendeci ortaklıkları henüz açıklanmadı.",
+      "sources": [
+        {
+          "name": "Campaign Middle East • YouTube Shopping launches",
+          "url": "https://campaignme.com/youtube-shopping-affiliate-uae-saudi-arabia-egypt/",
+          "published": "2026-10-26 13:23",
+          "country": "BAE",
+          "language": "İngilizce",
+          "type": "trade"
+        }
+      ]
+    },
+    {
+      "id": "atv-vari-misin-sali",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "tier": "signal",
+      "market": "Türkiye",
+      "title": "ATV salı prime-time’da Var Mısın Yok Musun’u sürdürüyor",
+      "eventDate": "2026-10-27",
+      "facts": [
+        "ATV’nin 27 Ekim akışında Var Mısın Yok Musun 20.00’de; Altı Üstü İstanbul 23.40’ta görünüyor."
+      ],
+      "verification": "official",
+      "verificationNote": "ATV günlük yayın akışı doğrudan okundu.",
+      "sources": [
+        {
+          "name": "ATV • Yayın Akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "2026-10-27",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "star-tuzlu-kahve-sali",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Reklam pazarı ve para",
+      "tier": "signal",
+      "market": "Türkiye",
+      "title": "Star TV salı 20.00’de Tuzlu Kahve yeni bölüm yayınlıyor",
+      "eventDate": "2026-10-27",
+      "facts": [
+        "Star TV’nin haftalık akışı Tuzlu Kahve’yi 27 Ekim Salı 20.00’de yeni bölüm olarak gösteriyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Star TV tarihli haftalık yayın akışı doğrudan okundu.",
+      "sources": [
+        {
+          "name": "Star TV • Yayın Akışı",
+          "url": "https://www.startv.com.tr/yayin-akisi",
+          "published": "2026-10-27",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "show-sali-tekrar-kusagi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Reklam pazarı ve para",
+      "tier": "signal",
+      "market": "Türkiye",
+      "title": "Show TV salı prime-time’ı Güldür Güldür tekrarıyla dolduruyor",
+      "eventDate": "2026-10-27",
+      "facts": [
+        "Show TV’nin 27 Ekim akışında Güldür Güldür Show 20.00’de tekrar; yeni dizi bölümü bulunmuyor."
+      ],
+      "verification": "official",
+      "verificationNote": "Show TV tarihli haftalık yayın akışı doğrudan okundu.",
+      "sources": [
+        {
+          "name": "Show TV • Yayın Akışı",
+          "url": "https://www.showtv.com.tr/yayin-akisi",
+          "published": "2026-10-27",
+          "country": "Türkiye",
+          "language": "Türkçe",
+          "type": "official"
+        }
+      ]
     }
   ],
-  "tvTracking": [],
-  "matches": [],
-  "matchesWindow": "27 Ekim–1 Kasım 2026; bu çalışmada doğrulanamadı.",
-  "tvTableUpdates": [],
-  "socialSourceReview": [],
-  "accessLog": [],
-  "limitations": [
-    "Bu paket çok sınırlı bir kısmi teslimdir; tam günlük araştırma tamamlanmadı.",
-    "Türkiye, spor, TV takvimi, rakip marka, sosyal gündem, beş araştırmacı ve özgün yaratıcı vaka kontrolleri yapılmadı; önceki günün verileri güncel teyit gibi taşınmadı.",
-    "Katman çeşitliliği, ana haber ve kısa sinyal sayısı hedefleri karşılanmadı.",
-    "Resmî web kaynaklarına erişim denemesi yapılmadığından accessLog boş; erişim engeli olduğu iddia edilmiyor.",
-    "Haber görseli doğrulanamadı."
+  "tvTracking": [
+    {
+      "show": "Mehmed: Fetihler Sultanı",
+      "channel": "TRT 1",
+      "previous": "Takip tablosunda Salı 21.30",
+      "current": "27 Ekim Salı 20.00",
+      "status": "Kanal teyitli",
+      "source": "https://www.trt1.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-27T09:55:00+03:00"
+    },
+    {
+      "show": "Var Mısın Yok Musun",
+      "channel": "ATV",
+      "previous": "Salı 20.00",
+      "current": "27 Ekim Salı 20.00",
+      "status": "Kanal teyitli",
+      "source": "https://www.atv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-27T09:54:00+03:00"
+    },
+    {
+      "show": "Haysiyet",
+      "channel": "Kanal D",
+      "previous": "Salı 20.00",
+      "current": "27 Ekim Salı 20.00",
+      "status": "Kanal teyitli",
+      "source": "https://www.kanald.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-27T09:56:00+03:00"
+    },
+    {
+      "show": "Tuzlu Kahve",
+      "channel": "Star TV",
+      "previous": "Salı 20.00",
+      "current": "27 Ekim Salı 20.00 yeni bölüm",
+      "status": "Kanal teyitli",
+      "source": "https://www.startv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-27T09:56:00+03:00"
+    },
+    {
+      "show": "Anne Yarısı",
+      "channel": "NOW",
+      "previous": "Salı 20.00",
+      "current": "27 Ekim Salı 20.00 yeni bölüm",
+      "status": "Kanal teyitli",
+      "source": "https://www.nowtv.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-27T09:55:00+03:00"
+    },
+    {
+      "show": "MasterChef Türkiye",
+      "channel": "TV8",
+      "previous": "Salı 20.00",
+      "current": "27 Ekim Salı 20.00 yeni bölüm",
+      "status": "Kanal teyitli",
+      "source": "https://www.tv8.com.tr/yayin-akisi",
+      "checkedAt": "2026-10-27T09:57:00+03:00"
+    }
   ],
-  "researcherNotes": "Önceki paketin cutoff'u main üzerinden okundu: 26 Ekim 09.58. Handoff 08.55 bülten cutoff'u yerine açık araştırma kuralı uygulandı. Çalışma kapasitesi sınırı nedeniyle yalnız doğrulanmış tek sinyal teslim ediliyor; bu dosyayı tam araştırma olarak kullanmayın. Campaign Middle East PLANIT yazısı da açıldı ancak 26 Ekim 07.55 yayın saati pencere öncesinde olabileceği için alınmadı."
+  "matches": [
+    {
+      "date": "2026-10-27",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Valencia Basket",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague resmî takvimindeki GMT sütunu TSİ’ye çevrildi; S Sport Plus EuroLeague hak sahibi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Hapoel IBI Tel Aviv",
+      "away": "Anadolu Efes",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague resmî takvimindeki GMT sütunu TSİ’ye çevrildi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Olympiacos",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF’si GMT dönüşümüyle 21.30 gösteriyor; kulüp bilet duyurusunda 20.30 bulunduğu için saat teyitsiz bırakıldı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague resmî takvimindeki GMT sütunu TSİ’ye çevrildi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague resmî takvimindeki GMT sütunu TSİ’ye çevrildi.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague resmî takvimindeki GMT sütunu TSİ’ye çevrildi.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/matches/2591729/",
+      "note": "Resmî maç sayfası tarih ve saati doğruluyor; yayıncı doğrulanamadı.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "matchesWindow": "27 Ekim–1 Kasım 2026; salıdan aynı haftanın pazar sonuna kadar.",
+  "rivalCheck": {
+    "checked": [
+      "ALTINMARKA • resmî site ve haber bağlantıları",
+      "ETİ • resmî ürün ve kurumsal site",
+      "ÜLKER • resmî haberler",
+      "MONDELEZ • Türkiye kurumsal sayfası",
+      "NESTLÉ • Türkiye basın bültenleri",
+      "FERRERO • Türkiye kurumsal sayfası",
+      "SAGRA • resmî haberler",
+      "MARS • global haberler",
+      "ŞÖLEN • resmî site ve basın alanı",
+      "TORKU • resmî haberler"
+    ],
+    "notChecked": [
+      "FİSKOBİRLİK • resmî site zaman aşımı",
+      "DOĞKAR • resmî site araçla erişilemedi",
+      "ALTINKILIÇLAR • resmî site araçla erişilemedi",
+      "LİDER ÇİKOLATA • resmî site araçla erişilemedi"
+    ],
+    "finding": "26 Ekim 08.55 sonrası Türkiye çikolata kapsamına giren tarihli ve doğrulanmış yeni kampanya, ürün veya dağıtım gelişmesi bulunmadı."
+  },
+  "social": {
+    "window": "26 Ekim 08.55–27 Ekim 10.09 TSİ",
+    "note": "Seçim, platform ve sektör kaynaklarında görülen yeni ürün ve davranış sinyalleridir; toplam sosyal konuşulma veya temsilî nüfus ölçümü değildir.",
+    "items": [
+      {
+        "platform": "YouTube",
+        "type": "Platform ürünü",
+        "title": "Shopping affiliate programı MENA’da üç pazara açıldı",
+        "whyItMatters": "Shorts, video, canlı yayın ve CTV QR akışı creator commerce envanterini satış ortaklığıyla birleştiriyor.",
+        "url": "https://campaignme.com/youtube-shopping-affiliate-uae-saudi-arabia-egypt/",
+        "source": "Campaign Middle East",
+        "published": "2026-10-26",
+        "market": "Global, Türkiye'de henüz yok"
+      },
+      {
+        "platform": "Daily Mail / AI arama",
+        "type": "Yeni reklam ürünü testi",
+        "title": "Yayıncı markalar için GEO görünürlük ürünü hazırlıyor",
+        "whyItMatters": "Branded content bütçelerine AI yanıtlarındaki görünürlük ve kaynak atfı gibi yeni ara KPI’lar eklenebilir.",
+        "url": "https://digiday.com/media/the-daily-mail-tests-geo-with-brands-ahead-of-ai-visibility-product/",
+        "source": "Digiday",
+        "published": "2026-10-26",
+        "market": "Global, Türkiye'de henüz yok"
+      },
+      {
+        "platform": "AI Search",
+        "type": "Öne çıkan sektör içeriği",
+        "title": "AI aramasında tıklama dışı ölçüm ve atıf sorunu öne çıkıyor",
+        "whyItMatters": "Marka görünürlüğü testlerinde prompt payı, kaynak atfı ve sonradan arama davranışı birlikte değerlendirilmelidir.",
+        "url": "https://www.searchenginejournal.com/",
+        "source": "Search Engine Journal",
+        "published": "2026-10-26–27",
+        "market": "Global, Türkiye'de de görünür"
+      }
+    ]
+  },
+  "creativeCase": "ba-magic-of-flying-ooh",
+  "accessLog": [
+    {"url": "https://www.atv.com.tr/yayin-akisi", "result": "ok", "note": "27 Ekim akışı okundu."},
+    {"url": "https://www.nowtv.com.tr/yayin-akisi", "result": "ok", "note": "27 Ekim ve haftalık akış okundu."},
+    {"url": "https://www.showtv.com.tr/yayin-akisi", "result": "ok", "note": "27 Ekim tarihli akış okundu."},
+    {"url": "https://www.kanald.com.tr/yayin-akisi", "result": "ok", "note": "27 Ekim akışı ve dizi günleri okundu."},
+    {"url": "https://www.startv.com.tr/yayin-akisi", "result": "ok", "note": "26 Ekim–1 Kasım haftalık akışı okundu."},
+    {"url": "https://www.trt1.com.tr/yayin-akisi", "result": "ok", "note": "27 Ekim akışı; Mehmed 20.00 doğrulandı."},
+    {"url": "https://www.tv8.com.tr/yayin-akisi", "result": "ok", "note": "27 Ekim akışı okundu."},
+    {"url": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf", "result": "ok", "note": "27–30 Ekim maç tarihleri ve GMT saatleri okundu."},
+    {"url": "https://www.ssportplus.com/", "result": "ok", "note": "EuroLeague yayın hakkı ve yayın akışı bağlantısı görüldü; maç bazında liste sınırlı."},
+    {"url": "https://sultanlar.volleystation.com/en/matches/2591729/", "result": "ok", "note": "GS–FB 1 Kasım 19.00 doğrulandı; yayıncı yok."},
+    {"url": "https://www.altinmarka.com/", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.etietieti.com/", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.fiskobirlik.org.tr/", "result": "error", "note": "Zaman aşımı; aynı gün tekrar denenmedi."},
+    {"url": "https://www.ulker.com.tr/tr/haberler", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.mondelezinternational.com/turkey/", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.nestle.com.tr/medya/basin-bultenleri", "result": "js_only", "note": "Liste okundu; en yeni görünen kayıt Mayıs 2026."},
+    {"url": "https://www.dogkar.com.tr/", "result": "error", "note": "Araçla erişilemedi; aynı gün tekrar denenmedi."},
+    {"url": "https://www.ferrero.com/tr/tr/", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.sagra.com.tr/haberler.html", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.mars.com/news-and-stories", "result": "ok", "note": "Türkiye kategori kapsamına giren yeni gelişme seçilemedi."},
+    {"url": "https://www.solen.com.tr/", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://torku.com.tr/haberler", "result": "ok", "note": "Yeni tarihli Türkiye kategori haberi seçilemedi."},
+    {"url": "https://www.altinkiliclar.com.tr/", "result": "error", "note": "Araçla erişilemedi; aynı gün tekrar denenmedi."},
+    {"url": "https://www.lidercikolata.com.tr/", "result": "error", "note": "Araçla erişilemedi; aynı gün tekrar denenmedi."},
+    {"url": "https://trends.google.com/trending?geo=TR", "result": "ok", "note": "Sayfa açıldı; satır bazında güvenilir trend içeriği alınamadı."},
+    {"url": "https://www.netflix.com/tudum/top10/turkey/tv", "result": "ok", "note": "Sayfa açıldı; güncel sıra verisi metne çıkarılamadı."},
+    {"url": "https://www.searchenginejournal.com/", "result": "ok", "note": "26–27 Ekim AI arama ve platform içerikleri okundu."},
+    {"url": "https://campaignme.com/youtube-shopping-affiliate-uae-saudi-arabia-egypt/", "result": "ok", "note": "YouTube Shopping bölgesel lansman ayrıntıları okundu."},
+    {"url": "https://digiday.com/media/the-daily-mail-tests-geo-with-brands-ahead-of-ai-visibility-product/", "result": "ok", "note": "GEO test ayrıntıları okundu."},
+    {"url": "https://digiday.com/media-buying/stagwell-buys-freestar-putting-publisher-ad-sales-inside-a-holdco/", "result": "ok", "note": "Satın alma haberi okundu."},
+    {"url": "https://www.adexchanger.com/agencies/stagwell-acquires-publisher-monetization-network-freestar/", "result": "ok", "note": "Satın alma ikinci kaynaktan doğrulandı."},
+    {"url": "https://www.tandfonline.com/doi/full/10.1080/00913367.2026.2712518", "result": "ok", "note": "Hakemli makalenin yöntem ve bulguları okundu."},
+    {"url": "https://www.warc.com/feed/how-to-design-better-in-game-advertising-according-to-experts-0fb497d4ffc74461b0a3c1bcfa0cf7ae", "result": "ok", "note": "26 Ekim özeti okundu."},
+    {"url": "https://www.oneclub.org/awards/theoneshow/-award/20528/magic-of-flying/", "result": "ok", "note": "Gerçekleşen DOOH vaka ayrıntıları okundu."},
+    {"url": "https://creativepool.com/ogilvy/projects/british-airways-magic-of-flying-for-british-airways", "result": "ok", "note": "Ogilvy vaka açıklamasıyla çapraz kontrol edildi."},
+    {"url": "https://marketingscience.info/who-we-are/our-team/professor-byron-sharp", "result": "ok", "note": "Pencereye giren yeni çalışma bulunmadı."},
+    {"url": "https://marketingscience.info/who-we-are/our-team/professor-steven-bellman", "result": "ok", "note": "Pencereye giren yeni çalışma bulunmadı."},
+    {"url": "https://marketingscience.info/who-we-are/our-team/dr-virginia-beal", "result": "ok", "note": "Pencereye giren yeni çalışma bulunmadı."},
+    {"url": "https://researchers.adelaide.edu.au/profile/erica.riebe", "result": "ok", "note": "Üniversite profili okundu; yeni yayın bulunmadı."},
+    {"url": "https://marketingscience.info/open-access-knowledge/open-access-reports", "result": "ok", "note": "Pencereye giren ilgili yeni rapor bulunmadı."},
+    {"url": "https://www.amplified.co/", "result": "ok", "note": "Ana sayfa ve makale listesi okundu; en yeni kayıt 19 Ekim."},
+    {"url": "https://www.amplified.co/blog", "result": "error", "note": "Blog yolu erişilemedi; ana sayfadaki makale listesi kullanıldı."}
+  ],
+  "limitations": [
+    "Bu dosya 07.35’te gönderilen tek sinyalli paketin aynı gün yapılan onarımıdır; 09.15 bülteninden sonra tamamlanmıştır.",
+    "Pencere başlangıcı, RESEARCH.md ve handoff geri bildirimi uyarınca 26 Ekim 08.55 bülten cutoff’u olarak düzeltildi.",
+    "Beşiktaş–Olympiacos saatinde EuroLeague PDF’si ile kulüp bilet duyurusu çeliştiğinden saat null bırakıldı.",
+    "S Sport Plus ana sayfası EuroLeague hakkını doğruluyor; maç bazında yayın akışı metni tam çıkarılamadı.",
+    "FİSKOBİRLİK zaman aşımına uğradı; DOĞKAR, ALTINKILIÇLAR ve LİDER ÇİKOLATA resmî siteleri araçla açılamadı.",
+    "Google Trends satırları ve Netflix Türkiye güncel sıralaması metne güvenilir biçimde çıkarılamadığı için sosyal öğe üretilmedi.",
+    "Yaratıcı vaka tarihsel ve öğretici bir örnektir; açıklanmış satış veya bağımsız attention sonucu bulunmuyor.",
+    "Sinema salı günü kapsam dışı olduğu için araştırılmadı; reyting araması yapılmadı."
+  ],
+  "researcherNotes": "27 Ekim ilk paketinin 1 dakikada kapanması zorunlu kontrolleri atladı. Bu onarımda beş ana haber, dört sinyal, yedi kapsam içi maç, altı TV kaydı, 14 şirketlik tarafsız kontrol, üç kaynaklı dijital gündem ve beş araştırmacı kontrolü tamamlandı. Claude’un 09.05 cutoff’lu yedek bülteni zaten yayımlandığından bu paket geriye dönük denetim ve ertesi gün tekrar yönetimi için kullanılmalı. Mehmed saat değişikliği tvTableUpdates içinde önerildi; data dosyasına dokunulmadı.",
+  "tvTableUpdates": [
+    {
+      "action": "update",
+      "channel": "TRT 1",
+      "day": "Salı",
+      "title": "Mehmed: Fetihler Sultanı",
+      "status": "kanal-teyitli",
+      "time": "20.00",
+      "checked": "2026-10-27",
+      "source": "https://www.trt1.com.tr/yayin-akisi"
+    },
+    {
+      "action": "add",
+      "channel": "KANAL D",
+      "day": "Günü belirsiz",
+      "title": "Karakuyu",
+      "status": "kanal-teyitli",
+      "tag": "yeni",
+      "note": "Başlangıç tarihi açıklanmadı",
+      "checked": "2026-10-27",
+      "source": "https://www.kanald.com.tr/yayin-akisi"
+    }
+  ],
+  "socialSourceReview": [
+    {"url": "https://trends.google.com/trending?geo=TR", "result": "poor_scope", "action": "keep", "note": "Sayfa açık; satır verisi araca çıkarılamadı."},
+    {"url": "https://www.netflix.com/tudum/top10/turkey/tv", "result": "poor_scope", "action": "keep", "note": "Sayfa açık; güncel sıra verisi çıkarılamadı."},
+    {"url": "https://www.searchenginejournal.com/", "result": "ok", "action": "keep", "note": "Güncel AI arama ve platform haberleri erişilebilir."},
+    {"url": "https://campaignme.com/youtube-shopping-affiliate-uae-saudi-arabia-egypt/", "result": "ok", "action": "add", "note": "MENA platform ve commerce gelişmeleri için erişilebilir kaynak."},
+    {"url": "https://digiday.com/media/the-daily-mail-tests-geo-with-brands-ahead-of-ai-visibility-product/", "result": "ok", "action": "add", "note": "Yayıncı ürün ve AI görünürlüğü gelişmesi erişilebilir."}
+  ],
+  "guruCheck": [
+    {
+      "person": "Byron Sharp",
+      "result": "none",
+      "checked": ["https://marketingscience.info/who-we-are/our-team/professor-byron-sharp", "https://marketingscience.info/open-access-knowledge/open-access-reports"],
+      "note": "Pencereye giren yeni hakemli çalışma, rapor veya konuşma bulunmadı."
+    },
+    {
+      "person": "Steven Bellman",
+      "result": "none",
+      "checked": ["https://marketingscience.info/who-we-are/our-team/professor-steven-bellman", "https://marketingscience.info/open-access-knowledge/open-access-reports"],
+      "note": "Pencereye giren yeni hakemli çalışma, rapor veya konuşma bulunmadı."
+    },
+    {
+      "person": "Virginia Beal",
+      "result": "none",
+      "checked": ["https://marketingscience.info/who-we-are/our-team/dr-virginia-beal", "https://marketingscience.info/open-access-knowledge/open-access-reports"],
+      "note": "Pencereye giren yeni hakemli çalışma, rapor veya konuşma bulunmadı."
+    },
+    {
+      "person": "Erica Riebe",
+      "result": "none",
+      "checked": ["https://researchers.adelaide.edu.au/profile/erica.riebe"],
+      "note": "Üniversite profilinde pencereye giren yeni yayın bulunmadı."
+    },
+    {
+      "person": "Karen Nelson-Field",
+      "result": "none",
+      "checked": ["https://www.amplified.co/", "https://www.amplified.co/blog"],
+      "note": "Ana sayfadaki en yeni makale 19 Ekim; blog yolu erişilemedi."
+    }
+  ]
 }
