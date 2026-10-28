@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-28",
+  "title": "Stagwell satış tarafına geçti, iSpot'tan streaming lehine dönüşüm verisi, Instagram 90 dakikalık videoyu deniyor",
+  "summary": "Stagwell publisher ağı Freestar'ı aldı; iSpot çalışmasında streaming TV dönüşümü lineerin beş katı; Instagram uzun yatay video test ediyor. Türkiye kaynakları açılamadı: çok kısıtlı seçki.",
+  "edition": "selection",
+  "window": "27 Ekim 2026 09:05 – 28 Ekim 2026 09:10 TSİ (ChatGPT paketi gelmedi; Claude yedek araştırması)",
+  "status": "published",
+  "review": {
+    "status": "unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-28T09:12+03:00",
+    "summary": "ChatGPT'nin 28 Ekim araştırma paketi 09.00'a kadar depoya gelmedi (07.00'den sonra hiç commit yok); bülten Claude yedeğiyle hazırlandı. WebFetch izin zaman aşımı nedeniyle 7 kanal akışı, TFF, beIN, EuroLeague, VolleyStation, Marketing Türkiye, MediaCat, campaigntr ve Digiday açılamadı. Açılabilen AdExchanger, The Myers Report, Sportando ve Dijital Ajanslar sayfalarıyla 4 global haber ve 4 kısa sinyal yazıldı; Myers özetine dayanan rakamlar kartlarda belirtildi. Beşiktaş–Olympiacos saat çelişkisi Sportando ile 20.30 TSİ olarak çözüldü."
+  },
+  "source": {
+    "writer": "Claude (yedek)"
+  },
+  "articles": [
+    {
+      "id": "stagwell-freestar-satin-alma",
+      "title": "Stagwell, publisher reklam gelir ağı Freestar'ı satın aldı: alım ve satım aynı holdingde",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Düzenleme ve sektör",
+      "market": "Global; ağırlıkla ABD yayıncıları",
+      "eventDate": "26 Ekim 2026 (duyuru; işlem tamamlandı)",
+      "summary": "Ajans holdingi Stagwell, 1.000'den fazla yayıncının reklam envanterini satan Freestar'ı satın aldı; bedel açıklanmadı.",
+      "body": [
+        "Freestar ağı 1.000'den fazla yayıncıdan oluşuyor ve günde 'yaklaşık bir milyar' reklam isteği sunuyor (AdExchanger).",
+        "Müşteriler arasında Associated Press, Reuters, Fortune ve The Boston Globe sayılıyor.",
+        "Bedel ve gelir açıklanmadı; Stagwell tüm çalışanları ve üst yönetimi koruyacak.",
+        "Stagwell yayıncıları değil, Freestar'ın ürün, hizmet ve müşteri ilişkilerini satın aldı.",
+        "Digiday, ticari teşvik, envanter seçimi ve yayıncı verisinin kontrolü konusunda soru işaretleri aktarıyor (Myers Report özeti)."
+      ],
+      "impact": "Veri böyle: alıcı tarafında çalışan bir ajans holdingi artık satıcı tarafında da envanter yönetiyor. Bizim okumamız: ajansın kendi grubundaki envantere bütçe yönlendirme riski şeffaflık sorusunu öne çıkarır; markalar için 'kimin envanterini kim satın alıyor' sorusu sözleşme konusu olur.",
+      "action": "Ajans sözleşmelerinde grup içi envanter ve satış tarafı şirketlerine yapılan harcamanın ayrıca raporlanmasını isteyin.",
+      "counterView": "Stagwell için asıl hedef ölçek ve yayıncı ilişkileri olabilir; Türkiye'de benzer bir yapı yok ve etkisi kısa vadede dolaylı kalır.",
+      "image": {
+        "url": "https://www.adexchanger.com/wp-content/uploads/2024/09/inthepublisherskitchen-thumbn-ail.jpg",
+        "alt": "AdExchanger yayıncı bölümü kapak görseli",
+        "credit": "AdExchanger",
+        "sourceUrl": "https://www.adexchanger.com/agencies/stagwell-acquires-publisher-monetization-network-freestar/"
+      },
+      "sources": [
+        {
+          "name": "AdExchanger • Stagwell Acquires Publisher Monetization Network Freestar",
+          "url": "https://www.adexchanger.com/agencies/stagwell-acquires-publisher-monetization-network-freestar/",
+          "published": "26 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "The Myers Report • TMR Daily Briefing",
+          "url": "https://themyersreport.substack.com/p/tmr-daily-briefing-nbcuniversal-keeps",
+          "published": "27 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "ispot-streaming-lineer-donusum",
+      "title": "iSpot: ABD'de 30 markada streaming TV reklamı, lineer TV'ye göre beş kat daha yüksek dönüşüm gösterdi",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "ABD",
+      "label": "Tek kaynak",
+      "eventDate": "Q3 2026 verisi; haber 26-27 Ekim 2026",
+      "summary": "iSpot'un Q3 çalışmasında streaming TV reklamları 14 günlük pencerede %3,49, lineer TV %0,69 dönüşüm oranı gösterdi.",
+      "body": [
+        "30 marka, Q3 2026, 14 günlük dönüşüm penceresi: streaming %3,49, lineer TV %0,69.",
+        "Kapsam: 187 ulusal lineer kanal ve 50 büyük streaming uygulaması.",
+        "Ölçülen gösterimlerin yaklaşık %78'i lineer, %22'si streaming; tahmini harcama kabaca eşit bölünmüş.",
+        "Sonuçlar seçilmiş bir örneklemden geliyor; streaming'in her durumda daha etkili olduğunu göstermiyor.",
+        "Claude birincil MediaPost/iSpot metnini açamadı; veriler Myers Report özetinden."
+      ],
+      "impact": "Veri böyle: aynı bütçe payıyla streaming daha az gösterimde daha çok dönüşüm getirmiş. Bizim okumamız: TV planlarında lineer reach'in yanında CTV'nin dönüşüm rolü daha sık sorulacak; ama dönüşüm, marka etkisinin tamamı değil.",
+      "action": "TV planı değerlendirmelerinde lineer ve CTV'yi aynı dönüşüm penceresi ve aynı hedef kitleyle karşılaştıran bir test kurgulayın.",
+      "counterView": "Streaming izleyicisi daha genç, daha dijital ve zaten dönüşüme yatkın olabilir; seçim etkisi kontrol edilmeden nedensellik kurulamaz. Ölçüm sağlayıcının ticari çıkarı da var.",
+      "sources": [
+        {
+          "name": "The Myers Report • TMR Daily Briefing",
+          "url": "https://themyersreport.substack.com/p/tmr-daily-briefing-nbcuniversal-keeps",
+          "published": "27 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "instagram-features-90-dakika",
+      "title": "Instagram, 90 dakikaya kadar yatay video formatı 'Features'ı ABD'de test ediyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "ABD testi; Türkiye'de henüz yok",
+      "eventDate": "27 Ekim 2026",
+      "summary": "Instagram, podcast ve komedi gibi uzun içerikler için 90 dakikaya kadar yatay videoları destekleyen 'Features' formatını test ediyor.",
+      "body": [
+        "Format adı 'Features'; yatay videolar 90 dakikaya kadar uzayabiliyor.",
+        "ABD testine on binlerce içerik üreticisi dahil (MediaPost, Myers Report özeti).",
+        "Hollywood Reporter, TechRepublic ve Mediaweek başlıkları da 90 dakikalık yatay video testini aktarıyor; Claude bu sayfaları açamadı.",
+        "Reklam ve gelir paylaşımı ayrıntısı Claude'un açabildiği kaynakta yok."
+      ],
+      "impact": "Veri böyle: Instagram kısa dikey videodan uzun yatay içeriğe, yani YouTube'un alanına giriyor. Bizim okumamız: podcast ve uzun video sponsorluğunda yeni bir envanter doğabilir; tüketici tarafında Instagram'da 'izleme süresi' artarsa video reklam fiyatlaması da değişir.",
+      "action": "Podcast ve uzun video sponsorluk planlarında Instagram Features'ın Türkiye'ye gelişini ve reklam modelini izleme listesine alın.",
+      "counterView": "Test aşamasında; Meta'nın uzun video denemeleri (IGTV) daha önce kalıcı olmadı. Kullanıcıların Instagram'da uzun izleme alışkanlığı kanıtlanmış değil.",
+      "sources": [
+        {
+          "name": "The Myers Report • TMR Daily Briefing",
+          "url": "https://themyersreport.substack.com/p/tmr-daily-briefing-nbcuniversal-keeps",
+          "published": "27 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Mediaweek (AU) • Instagram tests 90-minute horizontal videos for podcasters",
+          "url": "https://www.mediaweek.com.au/instagram-tests-90-minute-horizontal-videos-podcasters",
+          "published": "Ekim 2026 (açılamadı)",
+          "country": "Avustralya",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "meta-hisse-ihraci-yatirim",
+      "title": "Meta, yapay zekâ yatırımı için büyük hisse ihracına gitti; 2026 yatırım harcaması 135-145 milyar dolar",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global",
+      "eventDate": "26 Ekim 2026 (Meta yatırımcı duyurusu)",
+      "summary": "Meta, reklam geliri güçlü büyürken yapay zekâ altyapısını finanse etmek için hisse ve dönüştürülebilir imtiyazlı hisse ihracı başlattı.",
+      "body": [
+        "İlk plan: yaklaşık 35 milyar dolar garantili ihraç ve sonrasında 60 milyar dolara kadar hisse satışı.",
+        "Reuters'a göre toplam 97,5 milyar dolara kadar genişletildi.",
+        "Meta 2026 yatırım harcamasını 135-145 milyar dolar bekliyor.",
+        "Q3 serbest nakit akışı eksi 2,12 milyar dolar; reklam geliri büyümesi güçlü.",
+        "Rakamlar Myers Report özetinden; Claude Meta yatırımcı sayfasını açamadı."
+      ],
+      "impact": "Veri böyle: Meta reklamdan gelen nakdi aşan bir yapay zekâ yatırımına giriyor. Bizim okumamız: platformun reklam ürünlerini daha fazla otomasyona (Advantage+, yapay zekâ ajanları) bağlaması hızlanabilir; reklamveren için kontrol ve şeffaflık pazarlığı önem kazanır.",
+      "action": "Meta planlarında otomatik kampanya türlerine geçişte hangi hedefleme ve raporlama kontrolünü kaybettiğinizi bir kontrol listesiyle belgeleyin.",
+      "counterView": "Finansman haberi kısa vadede reklam fiyatını veya Türkiye'deki ürünleri doğrudan değiştirmez; etkisi yatırımcı tarafında kalabilir.",
+      "sources": [
+        {
+          "name": "The Myers Report • TMR Daily Briefing",
+          "url": "https://themyersreport.substack.com/p/tmr-daily-briefing-nbcuniversal-keeps",
+          "published": "27 Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "FreeWheel ve Universal Ads, Comcast'in planlanan ayrışması tamamlandığında NBCUniversal'a bağlanacak; FreeWheel rakip yayıncılara hizmetin süreceğini açıkladı.",
+      "source": "The Myers Report (FreeWheel blogu)",
+      "url": "https://themyersreport.substack.com/p/tmr-daily-briefing-nbcuniversal-keeps",
+      "published": "2026-10-27"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Pinterest, Programmatic Deals kapsamını genişletti; seçili video ve display envanteri ek SSP/DSP'lerle alınabilecek, Magnite tercihli tedarik ortağı.",
+      "source": "The Myers Report (MediaPost)",
+      "url": "https://themyersreport.substack.com/p/tmr-daily-briefing-nbcuniversal-keeps",
+      "published": "2026-10-27"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "WPP Q3 2026 işlem güncellemesini 29 Ekim perşembe açıklayacak; analist toplantısı 09.00 BST (aracı kurum ön değerlendirmesi).",
+      "source": "Admiral Markets",
+      "url": "https://admiralmarkets.com/education/articles/shares/wpp-share-price-q3-2026-trading-update",
+      "published": "2026-10-15"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Brand Week Istanbul'a 23 Ekim itibarıyla 15 gün kaldığı duyuruldu (yalnız başlık görüldü).",
+      "source": "Dijital Ajanslar",
+      "url": "https://www.dijitalajanslar.com/haberler/",
+      "published": "2026-10-23"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "ölçülebilirlik baskısı",
+        "text": "Streaming'in dönüşüm verisiyle öne çıkarılması, bütçe kararlarında ölçülebilir sonucun belirleyici olduğu dünkü tabloyla uyumlu.",
+        "basis": "Veri",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "ispot-streaming-lineer-donusum"
+        ]
+      },
+      {
+        "tag": "ajans konsolidasyonu",
+        "text": "Ajans holdingleri satış tarafı teknolojisine ve envantere giriyor; alım-satım çıkar çatışması sorusu büyüyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "stagwell-freestar-satin-alma"
+        ]
+      },
+      {
+        "tag": "uzun video",
+        "text": "Kısa dikey videonun lideri Instagram uzun yatay içeriği deniyor; platformlar izleme süresi için YouTube'un alanına giriyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "instagram-features-90-dakika"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "28 Ekim – 1 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-10-28",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Olympiacos Piraeus",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/haber/95378/olympiacos-piraeus-mac-biletleri-satista.html",
+      "note": "Saat iki bağımsız kaynakla teyitli: kulüp 20.30, Sportando 18.30 CET (=20.30 TSİ). Yayıncı hak sahibi S Sport Plus; maç bazında Claude bugün yeniden açamadı (ChatGPT 26 Ekim okuması).",
+      "tags": []
+    },
+    {
+      "date": "2026-10-28",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Hapoel IBI Tel Aviv",
+      "away": "Anadolu Efes",
+      "broadcaster": "S Sport Plus",
+      "source": "https://sportando.basketball/en/euroleague-new-round-tips-off-tomorrow-panathinaikos-milano-and-valencia-fenerbahce-among-the-highlights/",
+      "note": "Saat Sportando 19.00 CET (=21.00 TSİ) ile EuroLeague PDF okumasıyla uyumlu. Yayıncı S Sport Plus: ChatGPT 26 Ekim okuması, bugün yeniden açılamadı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe Beko",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Tahmini ilgi ölçülmüş reach değildir. Claude 27-28 Ekim'de resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos AKTOR",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; S Sport Plus ön program saati maç saati sayılmadı. Claude 27-28 Ekim'de resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf",
+      "note": "EuroLeague PDF GMT saati UTC+3'e çevrildi; yayıncı programı ayrıca kontrol edildi. Claude 27-28 Ekim'de resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://sultanlar.volleystation.com/en/matches/2591729/",
+      "note": "Resmî organizasyon kaydıyla gün/saat teyitli. Yayıncı doğrulanamadı; TRT Spor sitesi erişim hatası verdi. Derbi ilgisi olasıdır; ölçülmüş reach iddiası yok. Claude 27-28 Ekim'de resmî kaynağı yeniden açamadı; değer ChatGPT 26 Ekim okumasıdır.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "highlights": [
+    "Stagwell, 1.000'den fazla yayıncılı Freestar'ı satın aldı; bedel açıklanmadı.",
+    "iSpot Q3: streaming TV dönüşümü %3,49, lineer %0,69 (30 marka, ABD).",
+    "Instagram 90 dakikalık yatay video formatı 'Features'ı ABD'de test ediyor."
+  ],
+  "watchlist": [
+    "WPP Q3 işlem güncellemesi 29 Ekim.",
+    "Instagram Features: reklam modeli ve Türkiye takvimi.",
+    "Karakuyu yayın günü ve tarihi (Kanal D).",
+    "Sevdam Karadeniz: 2 Kasım final kulisine NOW resmî teyidi.",
+    "31 Ekim-1 Kasım Süper Lig haftası saat ve yayıncıları (TFF)."
+  ],
+  "limitations": [
+    "ChatGPT 28 Ekim araştırma paketi gelmedi; bülten Claude yedek araştırmasıyla hazırlanan çok kısıtlı bir seçkidir.",
+    "WebFetch izin zaman aşımı: 7 kanal yayın akışı, birsenaltuntas, TFF, beIN, EuroLeague, VolleyStation, Marketing Türkiye, MediaCat, campaigntr, Digiday ve MediaPost açılamadı. TV akış karşılaştırması ve TV tablosu kontrolü yapılamadı.",
+    "Türkiye'den doğrulanmış sektör haberi ve rakip marka gelişmesi bulunamadı; rakip izleme yapılamadı, 'gelişme yok' anlamına gelmez.",
+    "iSpot, Meta ve Pinterest rakamları The Myers Report özetinden; birincil sayfalar açılamadı.",
+    "Maç satırlarında Beşiktaş–Olympiacos ve Hapoel–Efes saatleri yeniden teyit edildi; diğerleri ChatGPT 26 Ekim okumasıdır. 31 Ekim-1 Kasım Süper Lig haftası kontrol edilemedi.",
+    "Dijital gündem araştırılmadı; guru notları araştırılmadı (paket gelmedi). Yaratıcı mecra vakası: doğrulanmış güçlü vaka bulunamadı.",
+    "4 haberin 3'ünde görsel eklenemedi."
+  ],
+  "corrections": [
+    "27 Ekim maç paneli: Beşiktaş–Olympiacos saat çelişkisi giderildi; kulüp ve Sportando 20.30 TSİ'de birleşiyor."
+  ]
+}
