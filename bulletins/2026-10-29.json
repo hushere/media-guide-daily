@@ -1,0 +1,437 @@
+{
+  "date": "2026-10-29",
+  "title": "Google AI Mode reklamları 10 yeni pazarda, bayram akşamı TV'de film kuşağı, MEDYA101'den 21.500 ekran hedefi",
+  "summary": "Google AI Mode reklamlarını genişletti, Türkiye yok; 29 Ekim akşamı Show TV ve NOW dizi yerine film yayınlıyor; MEDYA101 mağaza ekranlarını büyütüyor.",
+  "edition": "daily",
+  "window": "28 Ekim 2026 09:10 – 29 Ekim 2026 07:40 TSİ (ChatGPT araştırma kesimi; Claude teyit 08:45-09:05)",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-29T09:05+03:00",
+    "summary": "ChatGPT paketi (6 ana, 4 sinyal, 07:40 cutoff) şema geçerli geldi. Claude'un yeniden teyit denemeleri (Google blogu, Digiday iki makale, Show TV ve NOW akışları, TV+ maç künyesi, Galatasaray duyurusu) WebFetch izin zaman aşımı nedeniyle açılamadı; WebSearch bu haberleri teyit eden güncel sonuç döndürmedi. Bu nedenle tek kaynaklı haberler 'Tek kaynak' etiketiyle yayımlandı, TV durumları ChatGPT'nin resmî akış okumasına dayanıyor. Değişiklikler: pencere son bültenin kesiminden (28 Ekim 09:10) başlatıldı; Google haberinde ABD'nin mevcut pazar olduğu netleştirildi; Show TV kartı NOW, TRT 1, ATV, Star, TV8 ve Kanal D akış satırlarıyla genişletildi; MEDYA101 'Gecikmeli fakat önemli' ve advertorial notuyla; Real Madrid–Fenerbahçe yayıncısı TV+ künyesine dayanarak S Sport yazıldı; tvTableUpdates önerileri teyit edilemediği için TV tablosuna işlenmedi."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "google-ai-mode-yeni-pazarlar",
+      "title": "Google, AI Mode'daki reklamları ABD dışında 10 pazara açıyor; Türkiye listede yok",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Kanada, Avustralya, Hindistan, Kenya, Malezya, Yeni Zelanda, Nijerya, Pakistan, Filipinler, Singapur; ABD",
+      "eventDate": "28 Ekim 2026 (duyuru)",
+      "summary": "Google, yapay zekâ destekli arama modu AI Mode'daki reklamları ABD dışında on yeni pazara genişlettiğini duyurdu; Türkiye bu listede yok.",
+      "body": [
+        "28 Ekim: Google Ads & Commerce blogu, AI Mode reklamlarının on yeni ülkede ölçeklendiğini açıkladı.",
+        "Yeni pazarlar: Kanada, Avustralya, Hindistan, Kenya, Malezya, Yeni Zelanda, Nijerya, Pakistan, Filipinler, Singapur.",
+        "ABD'de reklamlar artık kullanıcının takip sorularında da gösterilmeye başlıyor.",
+        "Türkiye açıklanan genişleme listesinde yer almıyor; takvim verilmedi."
+      ],
+      "impact": "Veri böyle: konuşmalı aramada reklam alanı pazar pazar açılıyor. Bizim okumamız: çok pazarlı markalar için arama planı ülkeye göre ayrışıyor; Türkiye'de aynı envanter varsayılamaz, ama gelecekte arama bütçesinin bir kısmı bu yüzeye kayabilir.",
+      "action": "Listedeki pazarlarda yürüyen kampanyalarda AI Mode uygunluğunu ve raporlamasını ülke bazında kontrol edin; Türkiye planına bu envanteri katmayın.",
+      "counterView": "Google'ın performans beyanları kendi iç verisine dayanıyor ve örneklem açıklanmıyor; satış etkisi veya Türkiye'de performans kanıtı değil.",
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ai_mode_global_ads_hero.width-1200.format-webp.webp",
+        "alt": "Küre ve ürün kartlarıyla AI Mode reklam genişlemesi illüstrasyonu",
+        "credit": "Google",
+        "sourceUrl": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/"
+      },
+      "sources": [
+        {
+          "name": "Google Ads & Commerce • Shashi Thakur",
+          "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+          "published": "2026-10-28",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "cumhuriyet-bayrami-tv-akisi",
+      "title": "29 Ekim akşamı: Show TV ve NOW dizi yerine Cumhuriyet filmleri yayınlıyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "label": "Kanal teyitli",
+      "eventDate": "29 Ekim 2026, 20.00 (planlanan yayın)",
+      "summary": "Cumhuriyet Bayramı akşamı Show TV ve NOW perşembe dizileri yerine film yayınlıyor; ATV, Star ve TV8 olağan perşembe yayınını sürdürüyor.",
+      "body": [
+        "Show TV 20.00: Muhtemel Aşk yerine 'Bir Cumhuriyet Şarkısı'; dizinin yeni bölümü 5 Kasım 20.00 olarak duyuruluyor.",
+        "NOW 20.00: Halef: Köklerin Çağrısı yerine 'Atatürk 2' yayınlanıyor.",
+        "TRT 1: 13.45 bayram özel programı; 20.00'de Evlilik Güzeldir tekrar bölümü.",
+        "ATV 20.00 Güneşin Doğduğu Yer 7. bölüm; Star Sevdiğim Sensin ve TV8 MasterChef yeni bölüm akışta.",
+        "Show TV: Güldür Güldür Show'un yeni bölümü 7 Kasım 20.00 duyuruluyor; 31 Ekim için yeni bölüm varsayılmamalı.",
+        "Kanal D: 20.00 kuşağında ana akış ile üst panel çelişiyor (Uzak Şehir tekrar / Daha 17); çözülmedi."
+      ],
+      "impact": "Veri böyle: bayram akşamı iki kanal dizi yerine film koyuyor. Bizim okumamız: dizi bazlı rezervasyonlar bu akşam farklı içerikte yayınlanabilir; izleyici rekabeti ATV, Star ve TV8'in yeni bölümleri lehine değişebilir.",
+      "action": "29 Ekim dizi bazlı rezervasyonların film kuşağına aktarılıp aktarılmadığını ve teslim koşullarını kanal satış ekipleriyle kontrol edin.",
+      "counterView": "Tek günlük bayram düzenlemesidir; kalıcı gün değişikliği veya final anlamına gelmez. Gerçekleşen yayın henüz yok, akışlar son anda değişebilir.",
+      "sources": [
+        {
+          "name": "Show TV • yayın akışı",
+          "url": "https://www.showtv.com.tr/yayin-akisi",
+          "published": "29 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "NOW • yayın akışı",
+          "url": "https://www.nowtv.com.tr/yayin-akisi",
+          "published": "29 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "TRT 1 • yayın akışı",
+          "url": "https://www.trt1.com.tr/yayin-akisi",
+          "published": "29 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ATV • yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "29 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Kanal D • perşembe yayın akışı",
+          "url": "https://www.kanald.com.tr/yayin-akisi/persembe",
+          "published": "29 Ekim 2026'da kontrol edildi (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "medya101-ekran",
+      "title": "MEDYA101, mağaza içi ekran ağını yıl sonuna kadar 21.500 ekrana çıkarmayı hedefliyor",
+      "region": "Türkiye",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Türkiye",
+      "label": "Gecikmeli fakat önemli",
+      "eventDate": "Şirket paylaşımı yaklaşık 24 Ekim 2026; hedef 2026 yıl sonu",
+      "summary": "A101'in perakende medya birimi MEDYA101, 18.000 kasa ekranlık ağını yıl sonunda 21.500 ekrana çıkarmayı hedeflediğini açıkladı.",
+      "body": [
+        "Şirket beyanı: mevcut ağ 18.000 kasa ekranı; yıl sonu hedefi 21.500 ekran.",
+        "Şirket günlük 5,5 milyon mağaza ziyareti bildiriyor; bu bağımsız tekil erişim ölçümü değil.",
+        "Marketing Türkiye'deki içerik advertorial (sponsorlu) olarak işaretli.",
+        "İlk şirket paylaşımı pencere başından önce; kesin tarih görünmüyor."
+      ],
+      "impact": "Veri böyle: Türkiye'de perakende içi video envanteri büyüyor. Bizim okumamız: atıştırmalık gibi raf kararı mağazada verilen kategorilerde satış noktası temasının fiyatı ve ölçümü pazarlık konusu olacak; tüketici için kasa kuyruğu reklam alanına dönüşüyor.",
+      "action": "Teklifte çalışan ekran sayısını, mağaza listesini, gösterim sıklığını ve tekil erişim yöntemini ayrı isteyin; hedef kapasiteyi mevcut envanter saymayın.",
+      "counterView": "Advertorial ve şirket beyanı; ziyaret sayısı ekran izlenmesi değildir ve hedef envanter henüz yok.",
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/a101-1.png",
+        "alt": "MEDYA101 ekran ağı haberinin kaynak görseli",
+        "credit": "Marketing Türkiye / MEDYA101",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/turkiyenin-en-buyuk-dijital-ekran-agi-medya101-21-bin-500-ekrana-ulasiyor/"
+      },
+      "sources": [
+        {
+          "name": "Marketing Türkiye • Advertorial",
+          "url": "https://www.marketingturkiye.com.tr/haberler/turkiyenin-en-buyuk-dijital-ekran-agi-medya101-21-bin-500-ekrana-ulasiyor/",
+          "published": "Göreli tarih: 1 gün önce; 29 Ekim kontrol",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "MEDYA101 açıklamasını paylaşan Yeliz Yahşi Bilgiç",
+          "url": "https://tr.linkedin.com/posts/yeliz-yah%C5%9Fi-bilgi%C3%A7-63759118_bir-s%C3%BCredir-%C3%BCzerinde-%C3%A7ok-%C3%A7al%C4%B1%C5%9Ft%C4%B1%C4%9F%C4%B1m%C4%B1z-%C3%B6nemli-activity-7519358497868640256-YVlV",
+          "published": "29 Ekim kontrolünde 5g; kesin zaman görünmüyor",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "safari-sunucu-kimlik",
+      "title": "Safari kısıtları kimlik sağlayıcılarını sunucu tarafı çözümlere itiyor; şüpheler sürüyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global; Safari kullanan pazarlar",
+      "label": "Tek kaynak",
+      "eventDate": "28 Ekim 2026 (yayın)",
+      "summary": "Apple Safari'nin izleme kısıtları, ID5 gibi kimlik sağlayıcılarını yayıncılarla sunucu tarafı testlere yöneltiyor; Digiday sektördeki şüpheleri aktarıyor.",
+      "body": [
+        "Digiday, ID5'in seçili yayıncılarla sunucu tarafı kimlik çözümlerini test ettiğini aktarıyor.",
+        "Yönelim, Safari'deki ölçüm ve hedefleme kaybını telafi etme çabası.",
+        "Haber, bu çözümlerin tarayıcı gizlilik kısıtlarını kalıcı biçimde aşabileceğine dair şüpheleri de içeriyor."
+      ],
+      "impact": "Veri böyle: Safari tarafında tanımlayıcı kaybı sürüyor ve sektör geçici çözümler deniyor. Bizim okumamız: iOS ağırlıklı genç ve üst gelir kitlesinde hedefleme ve frekans kontrolü zayıf kalabilir; ölçüm iddialarını tarayıcı bazında sorgulamak gerekir.",
+      "action": "Safari test sonuçlarını diğer tarayıcılardan ayrı raporlatın; eşleşme oranı ve izinli ölçüm kapsamını sağlayıcıdan belgeyle isteyin.",
+      "counterView": "Erken testler; bağımsız performans kanıtı yok ve Apple'ın sonraki güncellemeleri bu çözümleri de kapatabilir.",
+      "sources": [
+        {
+          "name": "Digiday",
+          "url": "https://digiday.com/media-buying/apples-safari-crackdown-pushes-ad-tech-toward-server-side-solutions-but-doubts-remain/",
+          "published": "2026-10-28",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "dmg-sosyal-gelir",
+      "title": "DMG Media'da yalnız sosyal medya briefleri New Media gelirinin %30'una ulaştı",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "Birleşik Krallık",
+      "label": "Tek kaynak",
+      "eventDate": "28 Ekim 2026 (yayın)",
+      "summary": "Daily Mail'in sahibi DMG Media'nın New Media biriminde, yalnız sosyal platformlarda yürüyen marka briefleri birim gelirinin %30'unu oluşturuyor.",
+      "body": [
+        "%30 pay, DMG New Media yöneticisi Nathan Aspell'in birim geliri için verdiği beyan.",
+        "Oran DMG'nin toplam gelirini veya pazar payını ifade etmiyor; tutar açıklanmadı.",
+        "Yayıncı, markalara kendi sitesi yerine sosyal kanallarda içerik üretimi ve dağıtımı satıyor."
+      ],
+      "impact": "Veri böyle: büyük bir yayıncı sosyal içerik üretimini ayrı gelir kalemine dönüştürmüş. Bizim okumamız: yayıncı teklifleri giderek site envanteri yerine içerik + sosyal dağıtım paketi olarak gelecek; maliyet kalemleri karışabilir.",
+      "action": "Yayıncı tekliflerinde sosyal içerik üretimi, organik dağıtım ve ücretli amplifikasyon bedellerini ayrı kalemler olarak isteyin.",
+      "counterView": "Denetlenmiş segment hesabı değil; şirket yöneticisinin beyanı ve kampanya etkinliği açıklanmıyor.",
+      "sources": [
+        {
+          "name": "Digiday • Nathan Aspell açıklaması",
+          "url": "https://digiday.com/media/one-year-in-dmg-medias-social-only-briefs-account-for-30-of-new-media-revenue/",
+          "published": "2026-10-28",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "kitkat-have-a-seat",
+      "title": "KitKat 'Have a Seat': reklam panosunu oturulabilir bir mola yerine dönüştürmek",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Hollanda",
+      "label": "Arşiv vaka",
+      "eventDate": "Eylül 2013 (Amsterdam ve Utrecht)",
+      "summary": "KitKat, 2013'te Hollanda'da reklam panolarına oturulabilir banklar ekleyerek 'mola ver' vaadini fiziksel bir dinlenme noktasına çevirdi.",
+      "body": [
+        "2013: JWT Amsterdam, Amsterdam ve Utrecht'teki reklam panolarına oturulabilir banklar ekledi.",
+        "14 Eylül'de belirlenen anda bankta oturan katılımcılar Nexus 7 tablet kazandı.",
+        "Uygulama sahada gerçekleşti; CGI veya yalnız sosyal medya içeriği değil.",
+        "Sonuç verisi açıklanmadı; kaynaklar ajansın vaka anlatımını aktarıyor."
+      ],
+      "impact": "Mecra fikrin kendisi: 'mola' sloganı okunacak bir metin değil, panonun sunduğu fiziksel davranış oluyor. Geçiş noktasının seçimi bağlamı kuruyor; tüketici markayı kullanarak deneyimliyor.",
+      "action": "Çikolata kaplı atıştırmalık için AVM dinlenme noktalarını izinli, süreli bir marka molası ve tadım alanıyla birleştirmeyi değerlendirin.",
+      "counterView": "Ödül beklentisi marka tercihine eşit değil; ölçek, alan izni ve işletme maliyeti sınırlayıcı, bağımsız satış veya reach etkisi yok.",
+      "learning": "Tartışma sorusu: Bu 'fiziksel mola' fikri hangi marka veya kategoriye, hangi Türkiye mekânında uyarlanabilir?",
+      "sources": [
+        {
+          "name": "Ads of the World • Have a seat",
+          "url": "https://www.adsoftheworld.com/campaigns/have-a-seat",
+          "published": "Eylül 2013 kampanya kaydı",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Directory • Have a seat",
+          "url": "https://www.directnewideas.com/magazine/jwt_amsterdam_have_a_seat/?id=1378",
+          "published": "Arşiv; kesin yayın tarihi belirtilmiyor",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/bcm-ajansa-yeni-musteri/",
+      "published": "2026-10-28",
+      "text": "Binboğa, etkinlik organizasyonu ve PR çalışmaları için BCM Ajans ile anlaştı; medya satın alma devri açıklanmadı."
+    },
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/cumhuriyet-her-kapiyi-caldi/",
+      "published": "2026-10-28",
+      "text": "Hepsiburada, Cumhuriyet'in 103. yılı için kuşaklara sunduğu fırsatları işleyen bir marka filmi yayımladı."
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "source": "Kanal D • Susuz Yaz",
+      "url": "https://www.kanald.com.tr/susuz-yaz",
+      "published": "2026-10-29 (kontrol)",
+      "text": "Kanal D resmî dizi listesinde Susuz Yaz ve Karakuyu 'Yakında' olarak görünüyor; başlangıç tarihi ve gün verilmedi."
+    },
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "source": "Zorlu PSM • Real Madrid–Fenerbahçe",
+      "url": "https://www.zorlupsm.com/etkinlikler/euroleague-real-madrid-fenerbahce",
+      "published": "2026-10-29 / 2026-10-30 (etkinlik)",
+      "text": "Zorlu PSM Vestel Amfi, 29 Ekim Real Madrid–Fenerbahçe ve 30 Ekim Efes–Panathinaikos maçları için ücretsiz toplu gösterim düzenliyor."
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "AI arama reklamı",
+        "text": "Konuşmalı aramada reklam alanı pazar pazar açılıyor; arama bütçesinin bir kısmının yeni yüzeye kayması ülkeye göre farklı hızda olacak.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "google-ai-mode-yeni-pazarlar"
+        ]
+      },
+      {
+        "tag": "ölçülebilirlik baskısı",
+        "text": "Perakende ekran ağı beyanları ve Safari'de kimlik kaybı aynı soruyu doğuruyor: beyan edilen erişim bağımsız ölçümle doğrulanabiliyor mu?",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "medya101-ekran",
+          "safari-sunucu-kimlik"
+        ]
+      },
+      {
+        "tag": "perakende medya",
+        "text": "Satış noktası ekranları Türkiye'de ölçek büyütüyor; mağaza içi temas medya planlarında ayrı bir kalem olmaya aday.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "medya101-ekran"
+        ]
+      },
+      {
+        "tag": "özel gün akışı",
+        "text": "Bayram akşamı kanalların dizi yerine film koyması, dizi bazlı rezervasyonun tek günlük teslim riskini gösteriyor.",
+        "basis": "İşaret",
+        "recurrence": "Tek günlük olabilir",
+        "refs": [
+          "cumhuriyet-bayrami-tv-akisi"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "29 Ekim – 1 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-10-29",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Real Madrid",
+      "away": "Fenerbahçe Tarfin",
+      "broadcaster": "S Sport",
+      "source": "https://tvplus.com.tr/spor/real-madrid-fenerbahce-canli-izle",
+      "note": "TV+ maç künyesi (S Sport); EuroLeague hakkı S Sport Plus. Claude yeniden açamadı."
+    },
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos AKTOR",
+      "broadcaster": null,
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp tarih/saat teyitli; yayıncı resmî kaynakla kesinleşmedi (hak sahibi S Sport Plus, maç bazında teyitsiz)."
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/fikstur/2/10/641/670/5083",
+      "note": "Kulüp tarih/saat teyitli; ikincil kaynaklar S Sport/S Sport 2 çelişkili (hak sahibi S Sport Plus, maç bazında teyitsiz)."
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": null,
+      "source": "https://www.galatasaray.org/haber/voleybol/kadin-voleybol/fenerbahce-medicana-macinin-biletleri-satisa-cikti/61247",
+      "tags": [
+        "Derbi"
+      ],
+      "note": "Kulüp duyurusu (28 Ekim) tarih/saat teyitli; TVF ve TRT Spor açılamadı, yayıncı belirsiz."
+    }
+  ],
+  "social": {
+    "window": "29 Ekim2026 kontrol; Google son24saat, Netflix19–25Ekim",
+    "note": "Arama trendi ve platform içi sıralama; tekil erişim, Türkiye geneli reyting veya reklam attention ölçümü değildir.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "2026 Cumhuriyet Bayramı",
+        "metric": "Google Trends:50K+ arama, %1000 artış; son24saat görünümü",
+        "whyItMatters": "Bayram arama bağlamı ve marka iletişim yoğunluğu için sinyal.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "29 Ekim2026 kontrol / son24saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 1,
+        "title": "Money Trap: The Karun Treasure",
+        "whyItMatters": "Türkiye Netflix listesinin lideri; kültürel içerik ilgisini izlemek için platform içi sinyal.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum",
+        "published": "19–25Ekim2026",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Google",
+        "type": "Platform değişikliği",
+        "title": "AI Mode reklamlarında uluslararası genişleme",
+        "whyItMatters": "Türkiye listede yok; çok pazarlı reklam planlarında erişim ülke bazında ayrılmalı.",
+        "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+        "source": "Google Ads & Commerce",
+        "published": "2026-10-28",
+        "market": "Global, Türkiye'de henüz yok"
+      }
+    ]
+  },
+  "highlights": [
+    "Google, AI Mode reklamlarını ABD dışında 10 pazara açtı; Türkiye listede yok.",
+    "29 Ekim 20.00: Show TV ve NOW dizi yerine Cumhuriyet filmleri; Muhtemel Aşk 5 Kasım'da dönüyor.",
+    "MEDYA101: 18.000 kasa ekranı, yıl sonu hedefi 21.500 (şirket beyanı, advertorial)."
+  ],
+  "watchlist": [
+    "Kanal D: Susuz Yaz ve Karakuyu başlangıç tarihi ve günü.",
+    "GS–FB kadın voleybolu 1 Kasım 19.00 yayıncısı (TVF/TRT Spor).",
+    "Efes–Panathinaikos ve Virtus–Beşiktaş maç bazında yayıncı teyidi.",
+    "AI Mode reklamlarının Türkiye takvimi.",
+    "WPP Q3 işlem güncellemesi (29 Ekim).",
+    "Sevdam Karadeniz: 2 Kasım final kulisine NOW resmî teyidi."
+  ],
+  "limitations": [
+    "Claude tarafında WebFetch izin zaman aşımı: Google blogu, Digiday, Show TV ve NOW akışları, TV+ ve Galatasaray sayfaları yeniden açılamadı; tek kaynaklı haberler ve TV durumları ChatGPT'nin okumasına dayanıyor.",
+    "EuroLeague ve TBF 403, TVF erişim hatası; dört maçın tarih/saati kulüp ve organizatör sayfalarıyla teyitli, üç maçın yayıncısı kesinleşmedi.",
+    "UEFA fikstürleri satır döndürmedi; TFF haftalık programında kapsama giren futbol derbisi bulunmadı, Avrupa fikstürlerinin eksiksiz doğrulandığı iddia edilmiyor.",
+    "Rakip izleme: FİSKOBİRLİK, NESTLÉ, DOĞKAR, FERRERO, ALTINKILIÇLAR ve LİDER ÇİKOLATA resmî sayfaları açılamadı; pencere içinde doğrulanmış yeni çikolata gelişmesi bulunmadı, bu şirketlerde gelişme olmadığı sonucu çıkarılmamalı.",
+    "RTÜK ve Ticaret Bakanlığı zaman aşımı, IAB Türkiye erişim hatası; Tüketici ve ekonomi katmanında doğrulanmış içerik yok.",
+    "Kanal D 29 Ekim akışında 20.00 yapımı çelişkili; Var Mısın Yok Musun 28 Ekim yayını doğrulanamadı.",
+    "Dijital gündem yalnız Google ve Netflix kaynaklı (TikTok giriş ekranı, YouTube Charts açılmadı); sıralamalar erişim veya attention ölçümü değildir.",
+    "Guru kontrolü yapıldı (ChatGPT); pencere içinde yeni çalışma yok, panel çıkmadı.",
+    "Ana haberlerin 2'sinde görsel var; diğerlerinde doğrudan görsel doğrulanamadı.",
+    "Perşembe olduğu için sinema eşikleri kontrol edilmedi; reyting kapsam dışı."
+  ],
+  "corrections": []
+}
