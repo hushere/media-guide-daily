@@ -1,0 +1,559 @@
+{
+  "date": "2026-10-30",
+  "title": "WPP Media toparlanıyor, retail media konsolide oluyor; Godzilla 13 Kasım'a kaydı",
+  "summary": "WPP'de medya birimi büyümeye dönerken grup küçülüyor; Teads ve NIQ-Google duyuruları ölçüm ile satın almayı AI etrafında topluyor. Türkiye'de Sagra 1936 mağazaları kargo noktası oldu; cuma sinema eşikleri ve haftanın özeti bu sayıda.",
+  "edition": "daily",
+  "window": "29 Ekim 2026 07:40 – 30 Ekim 2026 07:52 TSİ (ChatGPT araştırma kesimi); Claude teyidi 08:40-09:05",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-10-30T09:05+03:00",
+    "summary": "Yeniden teyit: WPP Q3 rakamları (Campaign başlığı ile %2,1 grup düşüşü uyumlu; WPP sayfası açılamadı), Galatasaray–Stuttgart (3 Kasım 20:45, RAMS Park, İstiklal) ve Fenerbahçe–Liverpool (4 Kasım 20:45, Kadıköy, Yeni Asır) ev sahibi ve saatleri. Değişiklik: UEFA maçlarına TRT hak sahipliği notu eklendi, yayıncı tek ikincil kaynak olduğundan null bırakıldı; Godzilla tarih değişikliği düzeltme olarak işlendi; Zor Baba 4 tarih çelişkisi nedeniyle sinyal yapılmadı, watchlist'e alındı; Sagra, ING, Snickers ve sinema tarihleri tek kaynak olarak etiketlendi, ek teyit yapılamadı (WebFetch izin/zaman aşımı)."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "wpp-q3-2026",
+      "title": "WPP Media büyümeye döndü, grup geliri ise %2,1 geriledi",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global; WPP grubu",
+      "eventDate": "29 Ekim 2026 (Q3 açıklaması)",
+      "summary": "WPP'nin üçüncü çeyrek açıklamasına göre medya birimi WPP Media yeniden büyümeye geçti, grup geneli ise küçülmeyi sürdürdü.",
+      "body": [
+        "WPP Media: Q3 karşılaştırılabilir net gelir (aktarılan maliyetler hariç) %0,3 arttı.",
+        "Grup geneli: aynı ölçüyle gelir %2,1 azaldı.",
+        "WPP 2026 tam yıl beklentisini değiştirmedi.",
+        "Önceki çeyreklerde WPP Media küçülüyordu; Q1'de %8,5 düşüş önceki yıl müşteri kayıplarına bağlanmıştı."
+      ],
+      "impact": "Veri böyle: WPP içinde medya işi toparlanırken kreatif ve diğer birimler küçülüyor. Bizim okumamız: holding toplamı ile medya ajansının durumu ayrı okunmalı; müşteri kazanım/kaybı ekip ve teslim kapasitesine yansıyabilir.",
+      "action": "WPP Media ile çalışan markalarda Q4-Q1 ekip yapısı ve hizmet seviyesi değişikliklerini ajanstan yazılı isteyin.",
+      "counterView": "%0,3 büyüme zayıf bir karşılaştırma bazından geliyor; sektörün veya Türkiye pazarının büyüdüğünü göstermez, şirket beyanıdır.",
+      "image": {
+        "url": "https://res.cloudinary.com/wpp-cloudinary/image/upload/c_auto%2Cw_3840%2Cg_auto/f_auto/q_92/v1/wpp/News/2026/qsq7y5zl04p2hgrfbmol?_a=BAVMn6DY0",
+        "alt": "WPP üçüncü çeyrek sonuç görseli",
+        "credit": "WPP",
+        "sourceUrl": "https://www.wpp.com/en/news/third-quarter-trading-update-2026"
+      },
+      "sources": [
+        {
+          "name": "WPP",
+          "url": "https://www.wpp.com/en/news/third-quarter-trading-update-2026",
+          "published": "2026-10-29",
+          "country": "Birleşik Krallık",
+          "language": "en"
+        },
+        {
+          "name": "Campaign • WPP Media returns to growth in Q3",
+          "url": "https://www.campaignlive.com/article/wpp-media-returns-growth-q3-holdco-records-21-revenue-drop/1973797",
+          "published": "2026-10-29",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "teads-tam-ai-mcp",
+      "title": "Teads, CTV ve dijital satın almayı tek panelde AI araçlarıyla birleştiriyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global",
+      "eventDate": "29 Ekim 2026 (duyuru)",
+      "summary": "Teads, Ad Manager platformunda CTV ve dijital kampanyaları ortak satın alma ve ölçüm akışında topladığını, AI yardımcıları eklediğini duyurdu.",
+      "body": [
+        "Teads Ad Manager CTV ve dijital kampanyalar için ortak satın alma ve ölçüm akışını genişletiyor.",
+        "Planlama, kurulum, yönetim ve raporlama için görev odaklı AI yardımcıları ekleniyor.",
+        "Tam huni ölçüm, Strategy Builder, Control Hub ve MCP araçları kapalı betada.",
+        "Geniş erişim yıl sonu için planlanıyor; Türkiye takvimi belirtilmedi."
+      ],
+      "impact": "Veri böyle: platformlar CTV ile açık web videoyu tek satın alma ekranında birleştiriyor. Bizim okumamız: operasyon yükü azalabilir, ama ortak panel tekilleştirilmiş erişim veya satış etkisi ölçümü anlamına gelmez.",
+      "action": "Teads kullanan planlarda CTV ve dijital erişimin tekilleştirilip raporlanıp raporlanmadığını beta kapsamı öncesinde sorun.",
+      "counterView": "Verimlilik iddiası şirketin kendi testine dayanıyor; örneklem ve bağımsız doğrulama açıklanmadı.",
+      "sources": [
+        {
+          "name": "Teads",
+          "url": "https://investors.teads.com/news-releases/news-release-details/teads-unveils-next-evolution-teads-ad-manager-connecting-cross",
+          "published": "2026-10-29",
+          "country": "ABD",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "niq-google-meridian",
+      "title": "NIQ, Google'ın açık kaynak MMM aracı Meridian'ı kendi ölçüm platformuna ekliyor",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Platform ve ürün",
+      "market": "Global",
+      "eventDate": "29 Ekim 2026 (duyuru)",
+      "summary": "NIQ ile Google, perakende ürün verisini Google'ın Meridian pazarlama karması modeliyle birleştiren bir iş birliği açıkladı.",
+      "body": [
+        "NIQ, Google Meridian çerçevesini Cadence ölçüm platformuna entegre ettiğini açıkladı.",
+        "İş birliği ürün keşfi, yerel bulunabilirlik ve pazarlama yatırımı ölçümünü kapsıyor.",
+        "Türkiye veri kapsamı ve kullanım koşulları açıklamada yer almıyor."
+      ],
+      "impact": "Veri böyle: satış paneli sağlayıcısı ile platformun MMM aracı yakınlaşıyor. Bizim okumamız: FMCG markaları için satış verisine dayalı MMM erişilebilir hâle gelebilir; ama modelin Google kanallarını nasıl ele aldığı ayrıca denetlenmeli.",
+      "action": "MMM projelerinde Meridian kullanılacaksa model girdilerini ve platform tarafsızlığını bağımsız bir ekiple denetletin.",
+      "counterView": "Ortaklık duyurusu gerçekleşmiş müşteri sonucu değildir; platform sahibinin ölçüm aracına katılımı çıkar çatışması sorusu doğurur.",
+      "sources": [
+        {
+          "name": "NIQ",
+          "url": "https://investors.nielseniq.com/news/news-details/2026/NIQ-and-Google-Partner-to-Advance-Agentic-Commerce/default.aspx",
+          "published": "2026-10-29",
+          "country": "ABD",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "vusion-instore-tamamlandi",
+      "title": "Vusion, mağaza içi medya ağı In-Store Media'yı satın almayı tamamladı",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Düzenleme ve sektör",
+      "market": "Fransa, İspanya; Avrupa, Latin Amerika ve Asya",
+      "eventDate": "29 Ekim 2026 (açıklama gövdesi; sayfa üst tarihi 20 Ekim)",
+      "summary": "Elektronik raf etiketi şirketi Vusion, mağaza içi reklam ağları işleten In-Store Media'nın satın alımını onayların ardından tamamladı.",
+      "body": [
+        "Açıklamaya göre satın alma gerekli onayların ardından tamamlandı.",
+        "In-Store Media, Avrupa, Latin Amerika ve Asya'da mağaza içi reklam ağları işletiyor.",
+        "Satın alma bedeli açıklamada yer almıyor."
+      ],
+      "impact": "Veri böyle: raf teknolojisi ile mağaza içi medya satışı aynı çatıda birleşiyor. Bizim okumamız: retail media teklifleri raf ekranı ve satış verisini paket olarak sunmaya yöneliyor; Türkiye'deki MEDYA101 gibi ağlar için de emsal.",
+      "action": "Retail media tekliflerinde ekran envanteri, satış verisi erişimi ve bağımsız ölçüm koşullarını ayrı kalemler olarak isteyin.",
+      "counterView": "Şirket beyanıdır; birleşmenin reklamveren için ölçüm veya fiyat avantajı henüz gösterilmedi.",
+      "sources": [
+        {
+          "name": "Vusion",
+          "url": "https://www.vusion.com/newsroom/vusion-completes-acquisition-of-in-store-media-opening-a-new-chapter-for-digital-retail",
+          "published": "Gövde 29 Ekim 2026; üst tarih 20 Ekim",
+          "country": "Fransa",
+          "language": "en"
+        }
+      ]
+    },
+    {
+      "id": "sagra-pudo",
+      "title": "Sagra 1936 mağazaları kargo teslim noktasına dönüşüyor",
+      "region": "Türkiye",
+      "category": "Rekabet",
+      "layer": "Marka ve kampanya",
+      "market": "Türkiye; Ordu ve İstanbul Maltepe",
+      "eventDate": "28 Ekim 2026 (ilk duyuru)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Sagra şirketinin Sagra 1936 mağazalarında PUDO kargo teslim ve iade noktaları açıldı; kullanıcılara alışveriş indirimi bildiriliyor.",
+      "body": [
+        "Şirket: Sagra (Tamek Sagra Grup); mağaza markası: Sagra 1936.",
+        "Ordu ve İstanbul Maltepe mağazalarında PUDO kargo teslim ve iade noktaları açıldı.",
+        "Haberlere göre PUDO kullanıcılarına %15 alışveriş indirimi uygulanıyor.",
+        "İndirim süresi ve koşulları birincil kaynaktan teyit edilemedi."
+      ],
+      "impact": "Veri böyle: kargo teslimi mağazaya düzenli yaya trafiği taşıyor. Bizim okumamız: marka mağazaları medya dışı bir temas noktası olarak örnekleme ve ek satış fırsatı yaratabilir; ölçeği şimdilik iki nokta.",
+      "action": "Benzer mağaza ortaklıklarında yeni ziyaretçi, indirim kullanımı ve ek sepeti ayrı ölçecek bir izleme kurgulayın.",
+      "counterView": "İki noktalı uygulamanın satış etkisi açıklanmadı; haberler tek kaynaklı yerel aktarımlar.",
+      "image": {
+        "url": "https://images.ordugazete.com/media/2026/10/orduda-sagra-1936-magazalarinda-pudo-donemi-basladi_6ae2e6db07d3a.jpg",
+        "alt": "Sagra 1936 PUDO hizmeti",
+        "credit": "Ordu Gazete / Sagra",
+        "sourceUrl": "https://www.ordugazete.com/orduda-sagra-1936-magazalarinda-pudo-donemi-basladi/51470"
+      },
+      "sources": [
+        {
+          "name": "Ordu Gazete",
+          "url": "https://www.ordugazete.com/orduda-sagra-1936-magazalarinda-pudo-donemi-basladi/51470",
+          "published": "2026-10-29",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Ordu Yorum (AA aktarımı)",
+          "url": "https://www.orduyorum.com/sagra-1936-magazalarinda-pudo-hizmeti-basladi",
+          "published": "2026-10-28",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "snickers-live-2017",
+      "title": "Snickers LIVE: canlı yayın riskini reklamın kendisine dönüştürmek",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "ABD",
+      "eventDate": "5 Şubat 2017 (Super Bowl)",
+      "label": "Arşiv vaka",
+      "summary": "Snickers, 2017 Super Bowl'da Adam Driver'lı reklamını canlı yayın olarak kurgulayıp TV'nin canlılık beklentisini fikrin parçası yaptı.",
+      "body": [
+        "Marka: Snickers (Mars); ajans: BBDO New York; ABD, 2017.",
+        "Reklam, Super Bowl yayınında canlı olarak kurgulandı; sahnedeki aksilikler 'açken sen sen değilsin' fikrine bağlandı.",
+        "Mecra dönüşümü: TV'nin eşzamanlı izlenmesi ve canlı yayında hata beklentisi reklamın ana gerilimi oldu.",
+        "Bağımsız satış veya attention sonucu kaynakta yer almıyor."
+      ],
+      "impact": "Neden çalıştı: fikir yalnız canlı TV'de anlamlıydı; izleyicinin 'şu an olan' bir şeye dikkat etme eğilimi reklam kuşağına taşındı. Türkiye uyarlaması: canlı eğlence veya maç yayınında kontrollü bir 'açlık molası' ve ona bağlanan reklam arası.",
+      "action": "Canlı uygulama düşünülürse yayıncıyla prova, gecikme tamponu ve yedek bant planlayın. Tartışma sorusu: bu canlı mola fikri hangi çikolata markasına veya kategorisine uyarlanabilir?",
+      "counterView": "Yüksek prodüksiyon ve kuşak maliyeti ölçeği sınırlar; canlılık tek başına satış veya attention artışını kanıtlamaz.",
+      "image": {
+        "url": "https://d2z00kf51ll94q.cloudfront.net/archive/2017/large/OS_FI17141M_12.jpg",
+        "alt": "Snickers LIVE 2017 case görseli",
+        "credit": "The One Club / BBDO / Mars",
+        "sourceUrl": "https://www.oneclub.org/awards/theoneshow/-award/26166/snickers-live-super-bowl-ad/"
+      },
+      "sources": [
+        {
+          "name": "The One Club • Snickers Live Super Bowl Ad",
+          "url": "https://www.oneclub.org/awards/theoneshow/-award/26166/snickers-live-super-bowl-ad/",
+          "published": "2017 ödül arşivi",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "godzilla-tarih-duzeltme",
+      "title": "Godzilla Minus Zero'nun Türkiye vizyonu 13 Kasım'a kaydı",
+      "region": "Türkiye",
+      "category": "Sinema",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "23 Ekim 2026 (tarih değişikliği)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Box Office Türkiye'ye göre Godzilla Minus Zero'nun Türkiye vizyonu 6 Kasım'dan 13 Kasım'a ertelendi; 23 Ekim sayısındaki tarih düzeltildi.",
+      "body": [
+        "13 Kasım 2026: Box Office Türkiye'deki güncel vizyon tarihi; dağıtımcı Başka Sinema.",
+        "Değişiklik 23 Ekim tarihli; 23 Ekim sayımızda 6 Kasım yazılmıştı.",
+        "Japonya 3 Kasım, ABD 6 Kasım tarihleri Türkiye tarihi değildir.",
+        "Dağıtımcı sitesinde film bazlı tarih bulunamadı; tek kaynak."
+      ],
+      "impact": "Veri böyle: vizyon bir hafta kaydı. Bizim okumamız: 6 Kasım haftasına bağlanan film önü rezervasyonları yanlış filmle eşleşebilir; aynı hafta Ebenezer de vizyonda.",
+      "action": "6 Kasım film önü rezervasyonlarını dağıtımcı ve salon zinciriyle yeniden teyit edin.",
+      "counterView": "Tarih tek kaynaktan geliyor ve yeniden değişebilir; vizyon tarihi salon sayısı veya gişe garantisi değildir.",
+      "sources": [
+        {
+          "name": "Box Office Türkiye • Godzilla Minus Zero",
+          "url": "https://boxofficeturkiye.com/film/godzilla-minus-zero--2018542",
+          "published": "Tarih değişikliği 2026-10-23; kontrol 2026-10-30",
+          "country": "Türkiye",
+          "language": "tr"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "text": "ING Türkiye, banka masraflarını işleyen üç yeni film yayımladı; yaratıcı ajans Liberté İstanbul, medya ajansı Universal McCann.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/masraflar-sizi-yiyip-bitirmesin/",
+      "published": "2026-10-29"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 4 hafta: Disney animasyonu Hexe: Sihir Krallığı 27 Kasım'da vizyonda (UIP Türkiye).",
+      "source": "UIP Türkiye",
+      "url": "https://www.uip.com.tr/movies/Disneys-Hexed/",
+      "published": "2026-10-30"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 3 hafta: Açlık Oyunları: Hasatta Gündoğumu 20 Kasım'da vizyonda; dağıtım Global Pictures (Box Office Türkiye).",
+      "source": "Box Office Türkiye",
+      "url": "https://boxofficeturkiye.com/film/aclik-oyunlari-hasatta-gundogumu--2018047",
+      "published": "2026-10-30"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 3 hafta: Ömer Faruk Sorak'ın Aşk Tesadüfleri Sever 3 filmi 20 Kasım'da vizyonda; dağıtımcı teyitsiz.",
+      "source": "Mars Media",
+      "url": "https://www.marsmedia.com.tr/filmler/ask-tesadufleri-sever-3",
+      "published": "2026-10-30"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 2 hafta: Ti West'in Ebenezer: Bir Noel Şarkısı filmi 13 Kasım'da vizyonda (UIP Türkiye).",
+      "source": "UIP Türkiye",
+      "url": "https://www.uip.com.tr/movies/EBENEZER/",
+      "published": "2026-10-30"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "perakende medya",
+        "text": "Vusion-ISM birleşmesi ve Sagra 1936'nın kargo noktaları, mağazanın hem medya ekranı hem trafik kaynağı olarak yeniden tanımlandığını gösteriyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "vusion-instore-tamamlandi",
+          "sagra-pudo"
+        ]
+      },
+      {
+        "tag": "ölçülebilirlik baskısı",
+        "text": "NIQ-Google ve Teads duyuruları ölçümü satın alma ekranına taşıyor; bağımsız doğrulama sorusu platform sahipli araçlarda daha da önemli hâle geliyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "niq-google-meridian",
+          "teads-tam-ai-mcp"
+        ]
+      },
+      {
+        "tag": "ajans konsolidasyonu",
+        "text": "WPP'de medya birimi toparlanırken grup küçülüyor; holdingler medya işini ayrı büyüme motoru olarak öne çıkarıyor.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "wpp-q3-2026"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "30 Ekim–8 Kasım 2026, TSİ",
+  "matches": [
+    {
+      "date": "2026-10-30",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Panathinaikos",
+      "broadcaster": "S Sport / S Sport Plus",
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp saati ve resmî yayıncı akışı karşılaştırıldı.",
+      "tags": []
+    },
+    {
+      "date": "2026-10-30",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Virtus Bologna",
+      "away": "Beşiktaş",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/fikstur/2/10/641/670/5083",
+      "note": "Kulüp fikstürü; yayıncı akışı karşılaştırıldı.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-01",
+      "time": "19:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Fenerbahçe Medicana",
+      "broadcaster": "TRT Spor Yıldız",
+      "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+      "note": "TVF programında saat ve yayıncı mevcut; derbi.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Galatasaray",
+      "away": "Stuttgart",
+      "broadcaster": null,
+      "source": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/sampiyonlar-ligi-fiksturumuz-belli-oldu/60836",
+      "note": "Kulüp fikstürü; maç bazında resmî yayıncı teyidi sağlanamadı. Hak sahibi TRT (2026-27 UEFA kulüp maçları); maç bazında resmî yayıncı teyidi yok. İstiklal maç rehberi TRT 1 yazıyor (tek ikincil kaynak).",
+      "tags": []
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Fenerbahçe",
+      "away": "Liverpool",
+      "broadcaster": null,
+      "source": "https://www.liverpoolfc.com/tickets/match/liverpool-champions-league-fenerbahce-202627",
+      "note": "Liverpool 17.45 Birleşik Krallık saati = 20.45 TSİ; maç bazında resmî yayıncı teyidi eksik. Hak sahibi TRT (2026-27 UEFA kulüp maçları); maç bazında resmî yayıncı teyidi yok. Saha: Kadıköy (Yeni Asır). Yeni Asır TRT 1 yazıyor (tek ikincil kaynak).",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Paris Basketball",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp başlama saati esas alındı; yayıncının 19.30 program başlangıcı maç saati değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Fenerbahçe",
+      "away": "Baskonia",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com",
+      "note": "5 Kasım eşleşmesi yayıncı akışında mevcut. 20.15 yayın başlangıcı; ikincil kaynaklardaki 21.00 maç saati birincil kaynaktan teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Freiburg",
+      "broadcaster": null,
+      "source": "https://www.uefa.com/uefaconferenceleague/news/02aa-21f10eaba7bb-44b3e170c431-1000--conference-league-matchday-3-briefing-trabzonspor-monaco-p/",
+      "note": "UEFA 18.45 CET = 20.45 TSİ; kulüp programıyla uyumlu. Yayıncı teyitsiz. Hak sahibi TRT (2026-27 UEFA kulüp maçları); maç bazında resmî yayıncı teyidi yok.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Celtic",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/mobil/mac_merkezi_liste?id=1",
+      "note": "Kulüp maç merkezi; resmî maç bazlı yayıncı teyidi eksik. Hak sahibi TRT (2026-27 UEFA kulüp maçları); maç bazında resmî yayıncı teyidi yok.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-06",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Zalgiris",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/fikstur/2/10/641/670/5084",
+      "note": "Kulüp saati esas alındı; yayıncı 19.15 program başlangıcı maç saati değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-08",
+      "time": "14:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT Spor Yıldız",
+      "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+      "note": "TVF programında saat ve yayıncı mevcut; derbi.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "social": {
+    "window": "30 Ekim 2026 kontrolü; kaynakların veri tarihleri öğe bazında belirtilmiştir.",
+    "note": "Arama hacmi, dinleme ve sıralama farklı ölçülerdir; tekil erişim veya reklam attention ölçümü değildir. Netflix 19–25 Ekim listesi önceki paketteki dönemle aynı olduğundan tekrarlanmadı.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "KPSS önlisans sonuçlarının açıklanma zamanı",
+        "metric": "Google Trends: son 24 saatte 100 bin+ arama, artış %1.000.",
+        "whyItMatters": "Sınav ve kariyer içeriklerinde bağlamsal ilgi sinyali; kitlenin yaşını veya satın alma niyetini tek başına belirlemez.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "30 Ekim 2026 erişimi; kayan son 24 saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Spotify",
+        "type": "Trend",
+        "rank": 7,
+        "title": "CRUSH! günlük listede 31 basamak yükseldi",
+        "metric": "Kworb'un Spotify aktarımı: 28 Ekim 2026, 447.551 dinleme; günlük artış 267.939.",
+        "whyItMatters": "Müzik ve yaratıcı iş birlikleri için keşif sinyali; artışın organik nedenini veya tekil dinleyiciyi kanıtlamaz.",
+        "url": "https://kworb.net/spotify/country/tr_daily.html",
+        "source": "Kworb / Spotify aktarımı",
+        "published": "2026-10-28 veri günü; 2026-10-30 kontrolü",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Apple Podcasts",
+        "type": "Top 10",
+        "rank": 1,
+        "title": "Meksika Açmazı: erişilebilen Türkiye podcast listesinde ilk sırada",
+        "whyItMatters": "Komedi podcast sponsorlukları için keşif adayı; güncel dinleyici ve reklam teslim verisi ayrıca istenmeli.",
+        "url": "https://podcasts.apple.com/tr/charts",
+        "source": "Apple Podcasts",
+        "published": "Sayfada liste tarihi yok; erişilen indeks 27 Ekim, kontrol 30 Ekim 2026",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "weekly": {
+    "window": "26-30 Ekim 2026",
+    "items": [
+      {
+        "title": "Google AI Mode reklamları 10 yeni pazarda, Türkiye yok",
+        "text": "Konuşmalı aramada reklam envanteri ülke ülke açılıyor. Türkiye planlarında bu envanter henüz varsayılmamalı, takvim izlenmeli.",
+        "ref": "2026-10-29#google-ai-mode-yeni-pazarlar"
+      },
+      {
+        "title": "Q4 bütçeleri sosyal ve retail media'ya kayıyor",
+        "text": "WARC 2026 küresel reklam yatırımını 1,34 trilyon dolar öngörüyor; bu hafta Vusion-ISM ve MEDYA101 haberleri retail media ölçeğini destekledi.",
+        "ref": "2026-10-27#q4-butceler-perakende-sosyal"
+      },
+      {
+        "title": "Meta ticari reklam şartları 20 Kasım'a ertelendi",
+        "text": "Yeni şartların yürürlük tarihi kaydı; sözleşme ve hesap yapılarının bu tarihe kadar gözden geçirilmesi gerekiyor.",
+        "ref": "2026-10-26#meta-ticari-sartlar-20-kasim"
+      }
+    ],
+    "open": [
+      "Meta Ticari Reklam Şartları metni birincil kaynaktan okunmadı (20 Kasım).",
+      "Karakuyu ve Susuz Yaz (Kanal D) yayın günü açıklanmadı.",
+      "Sevdam Karadeniz final kulisi (2 Kasım) resmî teyit bekliyor.",
+      "UEFA maçlarında maç bazlı TRT kanal teyidi bekleniyor.",
+      "Zor Baba 4 Türkiye vizyon tarihi (25/27 Kasım) çelişkili."
+    ]
+  },
+  "highlights": [
+    "WPP Media Q3'te %0,3 büyüdü, grup geliri %2,1 düştü; tam yıl beklentisi korundu.",
+    "Vusion In-Store Media'yı aldı; NIQ ile Google Meridian MMM'i birleştiriyor.",
+    "Godzilla Minus Zero Türkiye vizyonu 13 Kasım'a kaydı (23 Ekim sayısı düzeltildi)."
+  ],
+  "watchlist": [
+    "Zor Baba 4: UIP 25 Kasım, Box Office Türkiye 27 Kasım; dağıtımcıdan yazılı teyit bekleniyor.",
+    "Galatasaray–Stuttgart (3 Kasım) ve Fenerbahçe–Liverpool (4 Kasım): TRT kanal ataması.",
+    "Fenerbahçe–Baskonia (5 Kasım) maç saati.",
+    "Güldür Güldür Show 7 Kasım, Muhtemel Aşk 5 Kasım yeni bölüm dönüşleri.",
+    "Teads yeni araçlarının yıl sonu geniş erişimi ve Türkiye kapsamı."
+  ],
+  "limitations": [
+    "Altı şirketin resmî sitesi açılamadı: FİSKOBİRLİK, NESTLÉ, DOĞKAR, FERRERO, ALTINKILIÇLAR, LİDER ÇİKOLATA. Şirket bazlı haber aramaları yapıldı; resmî duyuru yokluğu iddia edilmedi.",
+    "TBF, EuroLeague game center ve TRT Spor erişimi başarısız; kulüp ve yayıncı kaynakları kullanıldı. Basketball Champions League ve CEV sayfaları açılamadı; TVF millî takımlar XLSX dosyası okunamadı. Bu alanlarda bütün önemli uluslararası maçların dışlanmadığına dair kesin tamlık güvencesi verilemiyor. Türk Telekom EuroCup sayfası yalnız eski sonuçlar verdi.",
+    "Dört Avrupa futbol maçının maç bazlı resmî yayıncısı ve Fenerbahçe–Baskonia başlama saati teyit edilemedi; ilgili alanlar null bırakıldı. S Sport Plus program başlangıcı ile maç saati ayrıldı; TV+ kanal adı yapılmadı.",
+    "Yedi TV kanalının akışı kontrol edildi; tüm yapımların bölüm arşivleriyle eksiksiz karşılaştırma yapılamadı. NOW haftalık akışında gün/bölüm mutabakatı kısmi. ATV 7. bölüm sayfası yayın kanıtı, video oynatılarak izlenmedi. Reyting araştırılmadı.",
+    "Dijital gündemde YouTube/Spotify tabloları okunamadı, TikTok giriş istedi. Kworb verisi 28 Ekim, Apple liste zamanı belirsiz; bunlar güncel viral büyüme kanıtı olarak kullanılmamalı. Netflix dönemi önceki paketle aynı olduğu için tekrarlanmadı.",
+    "Sinema: Zor Baba 4 için 25/27 Kasım tarih çelişkisi var. Yerel dağıtımcı ikinci teyidi bazı filmlerde eksik; üç YouTube fragmanı oynatılamadı, iki filmde doğrudan resmî fragman bağlantısı doğrulanamadı. Aşk Tesadüfleri Sever 3 dağıtımcısı teyitsiz.",
+    "Vusion sayfasının üst tarihi ve açıklama gövdesi uyuşmuyor; 29 Ekim olay tarihi gövdeden alındı. Şirket performans/ürün iddiaları bağımsız sonuç kanıtı değildir.",
+    "Tüketici ve ekonomi katmanında pencere içinde uygun, doğrulanmış yeni gelişme seçilmedi. Beş katman yeterli içerik sağladı; kota için zayıf haber eklenmedi.",
+    "Claude tarafında WebFetch WPP, MediaCat, Galatasaray, Liverpool ve S Sport Plus sayfalarında izin/zaman aşımı verdi; tek kaynaklı haberler yeniden teyit edilemedi, etiketlendi.",
+    "TV akışlarında takip tablosunu değiştiren yeni gelişme yok (Güneşin Doğduğu Yer 29 Ekim 7. bölüm; Show TV dönüş tarihleri korunuyor); bu nedenle TV kartı yazılmadı.",
+    "Media Guru'larından Notlar: beş kişi kontrol edildi, yeni çalışma doğrulanmadı; panel çıkmadı.",
+    "Teads, NIQ, Vusion ve Godzilla haberlerinde görsel eklenemedi (4/7)."
+  ],
+  "corrections": [
+    "23 Ekim sayısı: Godzilla Minus Zero Türkiye vizyonu 6 Kasım yazılmıştı; Box Office Türkiye'ye göre güncel tarih 13 Kasım (23 Ekim değişikliği)."
+  ]
+}

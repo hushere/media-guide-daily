@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-10-23",
+ "updated": "2026-10-30",
  "note": "Kayıtlar 22 Ekim 2026'da kanalların resmî yayın akışı sayfalarından gün gün yeniden kontrol edildi. Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -45,8 +45,8 @@
    "title": "Güneşin Doğduğu Yer",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-10-23",
-   "source": "https://www.atv.com.tr/gunesin-dogdugu-yer/6-bolum/izle"
+   "checked": "2026-10-30",
+   "source": "https://www.atv.com.tr/gunesin-dogdugu-yer/7-bolum/izle"
   },
   {
    "channel": "ATV",

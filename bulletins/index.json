@@ -1,6 +1,22 @@
 {
   "bulletins": [
     {
+      "date": "2026-10-30",
+      "title": "WPP Media toparlanıyor, retail media konsolide oluyor; Godzilla 13 Kasım'a kaydı",
+      "summary": "WPP'de medya birimi büyümeye dönerken grup küçülüyor; Teads ve NIQ-Google duyuruları ölçüm ile satın almayı AI etrafında topluyor. Türkiye'de Sagra 1936 mağazaları kargo noktası oldu; cuma sinema eşikleri ve haftanın özeti bu sayıda.",
+      "edition": "daily",
+      "articleCount": 7,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "Rekabet",
+        "Sinema",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved_with_changes"
+    },
+    {
       "date": "2026-10-29",
       "title": "Google AI Mode reklamları 10 yeni pazarda, bayram akşamı TV'de film kuşağı, MEDYA101'den 21.500 ekran hedefi",
       "summary": "Google AI Mode reklamlarını genişletti, Türkiye yok; 29 Ekim akşamı Show TV ve NOW dizi yerine film yayınlıyor; MEDYA101 mağaza ekranlarını büyütüyor.",
