@@ -1,0 +1,612 @@
+{
+  "date": "2026-11-02",
+  "title": "15 yaş sınırı yürürlükte; Sevdam Karadeniz final yapıyor, Mehmed maç gecesi 23.00’e kaydı",
+  "summary": "Sosyal medyada yaş doğrulama 1 Kasım’da başladı. Sevdam Karadeniz bu akşam final yapıyor, Kızılcık Şerbeti 6 Kasım’a ertelendi, Mehmed 3 Kasım’da 23.00’te. Globalde Affle–Perion anlaşması öne çıkıyor.",
+  "edition": "daily",
+  "window": "30 Ekim 2026 07:52 – 2 Kasım 2026 07:48 TSİ (ChatGPT araştırma kesimi); Claude teyidi 08:41-09:05",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-02T09:05+03:00",
+    "summary": "Yeniden teyit: Sevdam Karadeniz finali (Onedio, Milli Gazete), Kızılcık Şerbeti ertelemesi (Sözcü, Milli Gazete), dört UEFA maçının tarih/saat/TRT 1 yayını (Sabah), Mehmed 3 Kasım 23.00 (televizyon.com.tr), Affle–Perion ve Amazon rakamları (PPC Land), Cumulus (The Desk), KitKat vakası (Adweek, Campaign), 11. haftada derbi olmadığı (Evrensel). Değişiklik: pakette eksik olan 1 Kasım yaş doğrulama yürürlüğü ana kart olarak eklendi; Kızılcık kartına paketin atladığı Gold Film resmî gerekçesi (bayram haftası) eklendi; Mehmed’de “21.30’dan 90 dakika geç” anlatımı düzeltildi. Resmî kanal, TRT, TFF ve S Sport sayfaları Claude oturumunda açılamadı (izin/zaman aşımı); bu bilgilerde ChatGPT kontrolü ve bağımsız ikincil kaynak kullanıldı. MTM rakamları, X ve Havas kayıtları ile GS–Beşiktaş voleybol ve EuroLeague saatleri yeniden teyit edilemedi."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "yas-dogrulama-1-kasim-yururluk",
+      "title": "Sosyal medyada 15 yaş sınırı 1 Kasım’da yürürlüğe girdi; çocuk hesaplarına kişiselleştirilmiş reklam yok",
+      "region": "Türkiye",
+      "category": "Dijital & AI",
+      "layer": "Düzenleme ve sektör",
+      "market": "Türkiye",
+      "eventDate": "1 Kasım 2026 (yürürlük); 31 Mart 2027 (mevcut hesaplar)",
+      "label": "Önceki gelişmenin devamı",
+      "summary": "10 Ekim’de yayımlanan yaş doğrulama yönetmeliği 1 Kasım’da yürürlüğe girdi; yeni hesaplar e-Devlet belirteciyle doğrulanacak.",
+      "body": [
+        "1 Kasım: 15 yaşını doldurmamış kişilere sosyal ağ hizmeti sunulamıyor; yeni hesaplarda yaş doğrulaması zorunlu.",
+        "31 Mart 2027: Mevcut hesaplar için geçiş süresinin son günü; 15 yaş altı hesaplar kapatılacak.",
+        "Çocuk hesaplarının kişisel verisi profilleme ve kişiselleştirilmiş reklam için kullanılamıyor.",
+        "Doğrulama e-Devlet belirteciyle yapılıyor; platform yalnız yaş eşiği sonucunu görüyor.",
+        "Kişiselleştirilmiş reklam yasağının yaş bandı metinde açık değil; hukuk bürosu yorumu pratikte 15-18 yaşı işaret ediyor."
+      ],
+      "impact": "Veri böyle: doğrulanan genç hesaplar kişiselleştirilmiş reklam dışında kalıyor. Bizim okumamız: 13-17 hedefli platform planları daralabilir; genç erişimde bağlamsal yerleşim, video ve TV’nin rolü yeniden tartılmalı. Marka tarafında genç kitle için kişiselleştirme varsayımı gözden geçirilmeli.",
+      "action": "Platform temsilcilerinden 13-17 ve 15-18 yaş hedefleme seçeneklerinin Türkiye’deki yeni durumunu yazılı isteyin.",
+      "counterView": "Geçiş süresi 31 Mart 2027’ye kadar sürdüğü için etki kademeli olabilir; yaş beyanına dayalı mevcut kitle verisi zaten sınırlıydı. Platformların Türkiye uygulaması bu kontrolde görülmedi.",
+      "sources": [
+        {
+          "name": "Haber Kıbrıs • 15 yaş sınırı uygulaması başladı",
+          "url": "https://haberkibris.com/turkiyede-sosyal-medyada-15-yas-siniri-uygulamasi-bugun-basladi-hangi-kisitlamalar-getirilecek-0939-2026-11-01.html",
+          "published": "2026-11-01",
+          "country": "KKTC",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Erdem & Erdem • Yönetmelik değerlendirmesi",
+          "url": "https://www.erdem-erdem.av.tr/sosyal-ag-saglayici-tarafindan-cocuklara-ozgu-ayristirilmis-hizmet-sunulmasina-ve-yas-dogrulamaya-iliskin-yonetmelik-yayimlandi",
+          "published": "Tarih sayfada görülmedi; 2 Kasım 2026 kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • e-Devlet yaş doğrulama",
+          "url": "https://www.milligazete.com.tr/e-devlet-sosyal-medya-yas-dogrulama-nasil-yapilir-nereden-giris-yapilacak-kimler-dogrulayacak-son-tarih-ne-zaman",
+          "published": "2026-11-01",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "sevdam-karadeniz-final",
+      "title": "Sevdam Karadeniz bu akşam 4. bölümle final yapıyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "2 Kasım 2026, 20.00 (planlanan final)",
+      "label": "Kanal teyitli",
+      "summary": "NOW’un pazartesi dizisi Sevdam Karadeniz bu akşam 20.00’de final yapıyor; önceki bültenlerdeki kulis bilgisi kanal akışına geçti.",
+      "body": [
+        "Önceki bilgi: 2 Kasım finali Birsen Altuntaş kulisiydi; yapımcı 23 Ekim’de “Perde kapanmadı” demişti.",
+        "Güncel durum: NOW akışı ve program sayfası bugünkü bölümü final olarak gösteriyor (ChatGPT kontrolü).",
+        "Claude teyidi: Onedio 2 Kasım listesi ve Milli Gazete 1 Kasım haberi de finali yazıyor; final henüz yayımlanmadı.",
+        "Kanalın açıkladığı gerekçe yok; düşük reyting gerekçesi kulis kaynaklı.",
+        "NOW’un 9 Kasım pazartesi 20.00 yerine koyacağı yapım bu kontrolde görülmedi."
+      ],
+      "impact": "Veri böyle: pazartesi 20.00’de NOW kuşağı boşalıyor. Bizim okumamız: dört bölümlük ömür, yeni dizilerde sponsorluk ve uzun dönem satın almanın ilk haftalarda yeniden değerlendirilmesi gerektiğini gösteriyor. İzleyici tarafında kitle diğer pazartesi dizilerine dağılabilir.",
+      "action": "9 Kasım pazartesi NOW rezervasyonlarını ve varsa sponsorluk teslimlerini kanalla bugün netleştirin.",
+      "counterView": "Final ilanı planı gösterir; yayın henüz gerçekleşmedi. Kısa ömür tek dizinin sonucu olabilir, kategori genellemesi kanıt gerektirir.",
+      "sources": [
+        {
+          "name": "NOW yayın akışı",
+          "url": "https://www.nowtv.com.tr/yayin-akisi",
+          "published": "2 Kasım 2026 kontrolü (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "NOW • Sevdam Karadeniz",
+          "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/izle",
+          "published": "2 Kasım 2026 kontrolü (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Onedio • 2 Kasım Pazartesi dizileri",
+          "url": "https://onedio.com/haber/bugun-hangi-diziler-var-2-kasim-pazartesi-hangi-diziler-var-1392841",
+          "published": "2026-11-02",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • Sevdam Karadeniz",
+          "url": "https://www.milligazete.com.tr/sevdam-karadeniz-bitti-mi-4-bolum-final-mi-2-kasimda-yayinlanacak-mi",
+          "published": "2026-11-01",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "mehmed-23-00-avrupa-maclari",
+      "title": "Mehmed 3 Kasım’da Galatasaray maçından sonra 23.00’te; TRT 1 bu hafta dört Avrupa maçı yayımlıyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "3-5 Kasım 2026",
+      "label": "Kanal teyitli",
+      "summary": "TRT 1, salı akşamı Mehmed: Fetihler Sultanı’nı 20.45’teki Galatasaray–Stuttgart maçının ardından 23.00’e aldı.",
+      "body": [
+        "3 Kasım: TRT 1 dizi sayfası Mehmed için 23.00 gösteriyor (ChatGPT); televizyon.com.tr de aynı saati veriyor.",
+        "Saat maç haftasına göre oynuyor: 13 Ekim 20.00, FB maçının olduğu 20 Ekim 21.30 planlanmıştı.",
+        "TRT 1 maçları: GS–Stuttgart 3 Kasım, FB–Liverpool 4 Kasım, Trabzonspor–Freiburg ve Celtic–Beşiktaş 5 Kasım.",
+        "Paketteki “kalıcı 21.30’dan 90 dakika geç” anlatımı düzeltildi; 23.00 bu haftaya ait plan."
+      ],
+      "impact": "Veri böyle: TRT 1’in bu haftaki prime time’ı dizi yerine maçlarla doluyor. Bizim okumamız: dizi kitlesiyle maç kitlesi aynı değil; 23.00’e alınan bölüm farklı bir izleyici profili verir. Rakip kanalların 3-5 Kasım dizileri de maç rekabetiyle karşılaşır.",
+      "action": "3 Kasım TRT 1 rezervasyon saatini güncelleyin; 3-5 Kasım rakip kanal planlarında maç çakışmasını ayrıca kontrol edin.",
+      "counterView": "Saat değişikliği maça bağlı görünüyor ama kanal gerekçe açıklamadı. Maçın izleyicisi diziye otomatik taşınmaz; gerçekleşen akış değişebilir.",
+      "image": {
+        "url": "https://cdn-i.pr.trt.com.tr/trt1/webp/w1380/h460/q75/mehmed_fatihler_sultani_1440x1080_4_3-21752350-0-0-1439-1080.png",
+        "alt": "Mehmed: Fetihler Sultanı tanıtım görseli",
+        "credit": "TRT 1",
+        "sourceUrl": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani"
+      },
+      "sources": [
+        {
+          "name": "TRT 1 • Mehmed",
+          "url": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+          "published": "2 Kasım 2026 kontrolü (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "TRT 1 • bu haftanın programı",
+          "url": "https://www.trt1.com.tr/",
+          "published": "2 Kasım 2026 kontrolü (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "televizyon.com.tr • Mehmed yayın bilgisi",
+          "url": "https://televizyon.com.tr/dizi/mehmed-fetihler-sultani",
+          "published": "2 Kasım 2026 kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Yerköy Gazetesi • 13 Ekim yayın saati",
+          "url": "https://www.yerkoygazetesi.com.tr/mehmed-fetihler-sultani-bu-aksam-var-mi-yeni-bolum-saat-20-00de-trt-1de-150717.html",
+          "published": "2026-10-13",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "kizilcik-yeni-bolum-6-kasim",
+      "title": "Kızılcık Şerbeti: 145. bölüm 6 Kasım’a ertelendi; yapım gerekçe olarak bayram haftasını gösterdi",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "30 Ekim 2026 (erteleme); 6 Kasım 2026, 20.00 (plan)",
+      "label": "Takvim düzeltmesi",
+      "summary": "Show TV’de 30 Ekim için beklenen 145. bölüm yayımlanmadı; yapım şirketi Gold Film yeni tarihi 6 Kasım olarak açıkladı.",
+      "body": [
+        "Önceki bilgi: 30 Ekim 20.00’de 145. bölüm bekleniyordu; yerine tekrar bölüm konuldu.",
+        "Güncel plan: Show TV akışında 6 Kasım 20.00 yeni bölüm görünüyor (ChatGPT kontrolü).",
+        "Resmî gerekçe: Gold Film, X hesabından 29 Ekim Cumhuriyet Bayramı haftası nedeniyle ara verildiğini açıkladı.",
+        "Reklam gelirine bağlanan gerekçe Birsen Altuntaş’ın iddiası; yapım açıklamasında yok, teyit edilmedi."
+      ],
+      "impact": "Veri böyle: cuma 20.00’de bir hafta yeni bölüm çıkmadı. Bizim okumamız: tatil haftalarında yeni bölüm varsayımı riskli; telafi ve teslim hesabı akışa göre kontrol edilmeli.",
+      "action": "30 Ekim Show TV teslimlerini tekrar yayına göre kontrol edin; 6 Kasım kuşağını yeni bölüm planıyla eşleştirin.",
+      "counterView": "Yapım gerekçesi de reklam iddiası da bağımsız kanıtla doğrulanmadı. 6 Kasım planı değişebilir; fragman yayını kanıtlamaz.",
+      "sources": [
+        {
+          "name": "Show TV • haftalık yayın akışı",
+          "url": "https://www.showtv.com.tr/yayin-akisi",
+          "published": "2 Kasım 2026 kontrolü (ChatGPT)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Sözcü • Kızılcık Şerbeti bu akşam yok",
+          "url": "https://www.sozcu.com.tr/kizilcik-serbeti-bu-aksam-yok-nedeni-belli-oldu-p374368",
+          "published": "2026-10-30",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • 30 Ekim neden yok",
+          "url": "https://www.milligazete.com.tr/kizilcik-serbeti-30-ekim-cuma-var-mi-yok-mu-neden-yok-bu-aksam-yeni-bolum-var-mi-final-mi-yapti-145-bolum-ne-zaman",
+          "published": "2026-10-30",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Birsen Altuntaş • Kızılcık Şerbeti",
+          "url": "https://www.birsenaltuntas.com/dizi/kizilcik-serbeti-dizisine-reklam-soku-nursemanin-donusu-bir-hafta-sonraya-kaldi/78870/",
+          "published": "2026-10-30",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "perion-affle-anlasma",
+      "title": "Affle, Perion’u yaklaşık 420 milyon dolara satın almak için anlaştı",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Düzenleme ve sektör",
+      "market": "Hindistan, İsrail ve global reklam teknolojisi",
+      "eventDate": "1 Kasım 2026 (duyuru); kapanış 2027 başı bekleniyor",
+      "summary": "Hindistan merkezli Affle, reklam teknolojisi şirketi Perion için hisse başına 11,70 dolar nakit ödeyecek; anlaşma henüz tamamlanmadı.",
+      "body": [
+        "Teklif: hisse başına 11,70 dolar nakit, yaklaşık 420 milyon dolar özsermaye değeri, 30 Ekim kapanışına %34,5 prim.",
+        "40 günlük alternatif teklif arama süresi 11 Aralık’ta bitiyor.",
+        "Kapanış 2027 başında bekleniyor; hissedar onayı ve ABD rekabet süreci koşulları var.",
+        "Perion markası korunacak; Nasdaq ve Tel Aviv kotları kapanışta sona erecek."
+      ],
+      "impact": "Veri böyle: dönüşüm başına ödeme modelli Affle, Perion’un çok kanallı reklam işlerini alıyor. Bizim okumamız: tedarikçi seçenekleri ve ürün yol haritaları değişebilir; Türkiye’de doğrudan etki açıklanmış değil.",
+      "action": "Perion ürünü kullanan kampanyalarda sözleşme süresini ve kapanış sonrası destek taahhütlerini kontrol edin.",
+      "counterView": "Sinerji beklentisi şirket beyanı. Perion’un nakdi özsermaye değerinin yaklaşık %54’ü; rakam işin değerini olduğundan büyük gösterebilir.",
+      "sources": [
+        {
+          "name": "Perion / Business Wire",
+          "url": "https://www.businesswire.com/news/home/20261101603052/en/Perion-Enters-into-Definitive-Merger-Agreement-with-Affle",
+          "published": "2026-11-01",
+          "country": "ABD / İsrail",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Affle–Perion",
+          "url": "https://ppc.land/affle-agrees-to-buy-perion-for-420-million-at-a-34-5-premium/",
+          "published": "2026-11-01",
+          "country": "Portekiz",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "cumulus-bolgesel-fm",
+      "title": "Cumulus, Boston’da aynı FM frekansında bölgeye göre farklı reklam planlıyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "ABD, Boston",
+      "eventDate": "30 Ekim 2026 (duyuru); 2027 ilk çeyrek (plan)",
+      "summary": "Cumulus, Boston’daki WXLO’da ZoneCasting ile aynı frekansta bölgeye özel reklam yayımlamayı 2027 ilk çeyreğinde başlatmayı planlıyor.",
+      "body": [
+        "2027 ilk çeyrek: WXLO 104.5 FM için ZoneCasting kurulumu planlanıyor.",
+        "İlk bölge Route 128’in doğusu; diğer dinleyiciler ana yayını duymaya devam edecek.",
+        "Sistem GeoBroadcast Solutions teknolojisine dayanıyor; FCC istasyon başına 25 güçlendirici sınırı koymuş.",
+        "Maliyet ve bölgesel reklam fiyatı açıklanmadı."
+      ],
+      "impact": "Veri böyle: geniş erişimli FM içinde semt düzeyi reklam mümkün hâle geliyor. Bizim okumamız: perakende ve yerel mağaza mesajı için radyoya dijital benzeri bir coğrafi hedefleme katmanı ekleniyor.",
+      "action": "Türkiye radyo görüşmelerinde bölgesel kopya imkânını, izin durumunu ve ölçüm yöntemini sorun.",
+      "counterView": "Uygulama henüz başlamadı. Fiyat, teslim kalitesi ve satış etkisi bilinmiyor; ABD mevzuatı Türkiye’ye taşınamaz.",
+      "sources": [
+        {
+          "name": "Cumulus Media",
+          "url": "https://www.cumulusmedia.com/2026/10/30/cumulus-media-to-bring-innovative-zonecasting-technology-to-bostons-104-5-xlo/",
+          "published": "2026-10-30",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "The Desk • Cumulus ZoneCasting",
+          "url": "https://thedesk.net/2026/10/cumulus-boston-targeted-ads-zonecasting/",
+          "published": "Ekim 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "mtm-kahve-gorunurluk",
+      "title": "MTM araştırması kahve tüketimini değil medya görünürlüğünü karşılaştırıyor",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "27 Ekim 2026 (rapor); 1 Kasım 2026 (sektör aktarımı)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "MTM’nin 2006 ve 2026 karşılaştırması, medyada espresso bazlı kahvelerin payının arttığını, geleneksel kahvelerin payının düştüğünü gösteriyor.",
+      "body": [
+        "Kapsam: 2006 ve 2026’nın Ocak-Eylül dönemi medya içerikleri.",
+        "Espresso bazlı kahvelerin haber payı %40’tan %44’e çıktı (MTM).",
+        "Geleneksel kahvelerin haber payı %48’den %39’a indi (MTM).",
+        "Bunlar haber görünürlüğü payıdır; tüketim veya pazar payı değildir. Sabit panel ve tekilleştirme ayrıntısı açıklanmadı."
+      ],
+      "impact": "Veri böyle: medya dilinde kahve anlatısı espressoya kayıyor. Bizim okumamız: kahve yanı tüketilen çikolata ve atıştırmalıklar için içerik bağlamı sinyali; satış verisi olarak okunmamalı.",
+      "action": "Kahve eşlikçisi iletişimde bağlam seçimini inceleyin; bu veriden tüketim veya pazar payı çıkarımı yapmayın.",
+      "counterView": "Yirmi yılda internet kaynaklarının büyümesi karşılaştırmayı etkileyebilir; değişim medya evreninden kaynaklanıyor olabilir.",
+      "image": {
+        "url": "https://www.marketingturkiye.com.tr/wp-content/uploads/2026/10/Kahve-Raporu-tablo-819x1024.png",
+        "alt": "MTM kahve medya yansımaları tablosu",
+        "credit": "MTM / Marketing Türkiye",
+        "sourceUrl": "https://www.marketingturkiye.com.tr/haberler/kahve-kulturu-donustu-espresso-bazli-kahveler-gelenekselleri-solladi/"
+      },
+      "sources": [
+        {
+          "name": "MTM • Kahve Kültürü Değişim Raporu",
+          "url": "https://medyatakip.com.tr/nd/kahve-kulturu-degisim-raporu-2006-2026-354.html",
+          "published": "2026-10-27",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Marketing Türkiye / MTM aktarımı",
+          "url": "https://www.marketingturkiye.com.tr/haberler/kahve-kulturu-donustu-espresso-bazli-kahveler-gelenekselleri-solladi/",
+          "published": "2026-11-01",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "kitkat-masaj-duragi-2015",
+      "title": "KitKat: otobüs durağındaki pano, mola veren masaj yüzeyine dönüştü",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Kolombiya",
+      "eventDate": "Ekim 2015; arşiv vaka",
+      "label": "Arşiv vaka",
+      "summary": "KitKat, Bogota’da otobüs durağı panolarına küçük motorlar yerleştirerek yaslanan yolculara kısa sırt masajı verdi.",
+      "body": [
+        "Marka: KitKat (Nestlé); ajans: JWT Colombia, Mindshare; Bogota, Kolombiya, 2015.",
+        "Adweek 20, Campaign 20’den fazla motorlu pano yazıyor.",
+        "Panoya yaslanan kişi sırtına iletilen titreşimle kısa masaj aldı; “mola ver” vaadi bedensel deneyime dönüştü.",
+        "Campaign’e göre “yorgun” içerikli tweetlere en yakın panonun konumu yanıtlandı.",
+        "Erişim, satış veya attention sonucu kaynaklarda yer almıyor."
+      ],
+      "impact": "Neden çalıştı: fikir ancak durakta, bekleme anında ve fiziksel temasla anlam kazanıyordu; mecra mesajın kendisi oldu. Türkiye uyarlaması: yoğun aktarma duraklarında kısa dinlenme yüzeyi ve yakındaki satış noktasına yönlendirme.",
+      "action": "Pilot düşünülürse belediye izni, bakım ve hijyen planını baştan çıkarın. Tartışma sorusu: bu mola fikri hangi çikolata kaplı ürüne uyarlanabilir?",
+      "counterView": "Yaklaşık 20 nokta ölçeği sınırlar; bakım ve izin maliyeti vardır. Etkileşim süresi satış artışının kanıtı değildir; sonuç verisi bağımsız değildir.",
+      "image": {
+        "url": "https://assets.directnewideas.com/10485h.jpg",
+        "alt": "KitKat masaj panosu vaka görseli",
+        "credit": "JWT Colombia / Directory",
+        "sourceUrl": "https://www.directnewideas.com/magazine/jwt_colombia_kit_kat_massage_billboard/?id=1925"
+      },
+      "sources": [
+        {
+          "name": "Adweek • KitKat billboards",
+          "url": "https://www.adweek.com/adfreak/kitkats-new-billboards-are-truly-touching-they-give-you-free-massage-167822",
+          "published": "2015-10-29",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Campaign • Kit Kat billboards",
+          "url": "https://campaignlive.com/article/kit-kat-billboards-give-bogotas-stressed-out-commuters-back-massages/1370673",
+          "published": "2015",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Directory • Kit Kat Massage Billboard",
+          "url": "https://www.directnewideas.com/magazine/jwt_colombia_kit_kat_massage_billboard/?id=1925",
+          "published": "Aralık 2015, sayı 37",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "Amazon reklam geliri üçüncü çeyrekte 19,637 milyar dolar; yıllık artış %10,9, sabit kurla %12. Prime Day’in ikinci çeyreğe kayması karşılaştırmayı etkiledi.",
+      "source": "PPC Land / Amazon",
+      "url": "https://ppc.land/amazon-ad-revenue-growth-drops-to-11-after-prime-day-moves-to-june/",
+      "published": "2026-10-29"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "X, Lead Gen reklamlarının KOBİ ve self-servis reklamverenler dahil global erişime açıldığını bildirdi.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/x-opens-lead-gen-ads-to-all-advertisers-9-years-after-twitter-dropped-them/",
+      "published": "2026-10-31"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Türkiye",
+      "text": "Havas CX Istanbul, Spectra ile yapay zekâ yanıtlarında marka görünürlüğü ölçümü ve optimizasyonu sunduğunu duyurdu (İşbirliği içeriği).",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/musteriniz-sitenize-hic-ugramadan-kararini-verdi-kisa-listede-yoksaniz-yoksunuz/",
+      "published": "2026-10-30"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "THETECH’in MAC sahnesi 1-2 Aralık’ta Wyndham Grand İstanbul Levent’te medya planlama ve ajantik AI uygulamalarını ele alacak.",
+      "source": "Marketing Türkiye",
+      "url": "https://www.marketingturkiye.com.tr/haberler/thetech-2026-teknolojiyi-etki-yaratmak-icin-kullanmak/",
+      "published": "2026-11-01"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "genç kitleye erişim",
+        "text": "Yaş doğrulamasıyla çocuk hesaplarında kişiselleştirilmiş reklam kalkıyor; genç erişimin platform hedeflemesinden bağlama kayma ihtimali var, etkisi henüz ölçülmedi.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "yas-dogrulama-1-kasim-yururluk"
+        ]
+      },
+      {
+        "tag": "özel gün akışı",
+        "text": "Bayram haftasında Kızılcık’ın ertelenmesi ve maç gecesi Mehmed’in 23.00’e kayması, dizi takvimini sabit varsaymamayı gerektiriyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "kizilcik-yeni-bolum-6-kasim",
+          "mehmed-23-00-avrupa-maclari"
+        ]
+      },
+      {
+        "tag": "yerel hedefleme",
+        "text": "Cumulus’un planı, geniş erişimli radyoda bölgesel reklam fikrini yeniden gündeme getiriyor; tek şirket planı, trend kanıtı değil.",
+        "basis": "İşaret",
+        "recurrence": "Tek günlük olabilir",
+        "refs": [
+          "cumulus-bolgesel-fm"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "2-8 Kasım 2026, TSİ",
+  "matches": [
+    {
+      "date": "2026-11-03",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Galatasaray",
+      "away": "Stuttgart",
+      "broadcaster": "TRT 1",
+      "source": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/sampiyonlar-ligi-fiksturumuz-belli-oldu/60836",
+      "note": "Hak sahibi TRT. TRT 1 maç sayfası (ChatGPT) ve Sabah 31 Ekim ile teyitli; canlı ve şifresiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Fenerbahçe",
+      "away": "Liverpool",
+      "broadcaster": "TRT 1",
+      "source": "https://www.liverpoolfc.com/tickets/match/liverpool-champions-league-fenerbahce-202627",
+      "note": "TRT 1 maç sayfası (ChatGPT) ve Sabah 1 Kasım ile teyitli; Chobani Stadyumu, şifresiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Paris Basketball",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp başlama saati esas alındı; yayıncının 19.30 program başlangıcı maç saati değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Fenerbahçe",
+      "away": "Baskonia",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.ssportplus.com",
+      "note": "S Sport Plus 20.15 program başlangıcı veriyor; maç saati resmî kaynaktan teyit edilemedi.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Freiburg",
+      "broadcaster": "TRT 1",
+      "source": "https://www.trt1.com.tr/tv/haber-spor/trabzonspor-freiburg-or-uefa-konferans-ligi-grup-maclari",
+      "note": "Lig aşaması 3. hafta. TRT 1 maç sayfası (ChatGPT) ve Sabah ile teyitli; Papara Park, şifresiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-05",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Celtic",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT 1",
+      "source": "https://www.trt1.com.tr/tv/haber-spor/celtic-besiktas-or-uefa-avrupa-ligi-grup-maclari",
+      "note": "Lig aşaması 4. hafta. TRT 1 maç sayfası (ChatGPT) ve Sabah ile teyitli; Celtic Park, şifresiz.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-06",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Zalgiris",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/fikstur/2/10/641/670/5084",
+      "note": "Kulüp saati esas alındı; yayıncı 19.15 program başlangıcı maç saati değildir.",
+      "tags": []
+    },
+    {
+      "date": "2026-11-08",
+      "time": "14:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT Spor Yıldız",
+      "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+      "note": "TVF programında saat ve yayıncı mevcut; derbi.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "social": {
+    "window": "2 Kasım sabah kontrolü; her kaynağın liste dönemi ayrıca yazıldı.",
+    "note": "Arama, stream ve podcast sıralamaları farklı ölçülerdir; izlenme, tekil erişim veya reklam attention ölçümü değildir.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Kasımpaşa–Beşiktaş",
+        "metric": "Google Trends: son 24 saatte 500 bin+ arama, %1000+ artış",
+        "whyItMatters": "Maç sonrası arama talebi kısa ömürlü bağlamsal içerik fırsatı; reklam erişimi değildir.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "2 Kasım kontrolü, son 24 saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Spotify",
+        "type": "Top 10 dışı liste sinyali",
+        "rank": 20,
+        "title": "Wegh • ALO",
+        "metric": "Kworb/Spotify Türkiye 31 Ekim: 257.356 stream; önceki gün 8. sıradan 20. sıraya.",
+        "whyItMatters": "Yeni şarkının ikinci gün gerilemesi, tek günlük çıkışı kalıcı popülerlik olarak yorumlamamayı gerektiriyor.",
+        "url": "https://kworb.net/spotify/country/tr_daily.html",
+        "source": "Kworb / Spotify",
+        "published": "2026-10-31",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Apple Podcasts",
+        "type": "Öne çıkan içerik",
+        "rank": 1,
+        "title": "Ortamlarda Satılacak Bilgi Podcast • BPT",
+        "whyItMatters": "Podcast bağlamı ve içerik ortaklığı için keşif sinyali; dinleyici sayısı ve reklam teslim kapasitesi ayrıca istenmeli.",
+        "url": "https://podcasts.apple.com/tr/charts",
+        "source": "Apple Podcasts",
+        "published": "2 Kasım kontrol anı; liste güncelleme saati açıklanmıyor",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "highlights": [
+    "Yaş doğrulama 1 Kasım’da yürürlüğe girdi; çocuk hesaplarında kişiselleştirilmiş reklam yok.",
+    "Sevdam Karadeniz bu akşam final yapıyor; Kızılcık Şerbeti 145. bölüm 6 Kasım’a ertelendi.",
+    "TRT 1 bu hafta dört Avrupa maçı yayımlıyor; Mehmed 3 Kasım’da 23.00’te."
+  ],
+  "watchlist": [
+    "NOW’un 9 Kasım pazartesi 20.00 yerine koyacağı yapım.",
+    "Platformların Türkiye’de 15-18 yaş reklam hedefleme uygulaması.",
+    "Fenerbahçe–Baskonia (5 Kasım) maç saati.",
+    "Mehmed’in 10 Kasım haftası salı saati.",
+    "Affle–Perion alternatif teklif süresi (11 Aralık).",
+    "Susuz Yaz ve Karakuyu başlangıç tarihleri (Kanal D)."
+  ],
+  "limitations": [
+    "Resmî kanal akışları, TRT 1, S Sport Plus, Business Wire, Amazon yatırımcı sayfası ve Cumulus sayfası Claude oturumunda açılamadı (izin/zaman aşımı). Bu bilgiler ChatGPT’nin kontrolü ile bağımsız ikincil kaynaklardan karşılaştırıldı.",
+    "Altı şirketin resmî sayfası okunamadı: FİSKOBİRLİK, NESTLÉ Türkiye, DOĞKAR, FERRERO Türkiye, ALTINKILIÇLAR, LİDER ÇİKOLATA. Şirket bazlı sektör araması yapıldı; yeni haber yokluğu kesinleştirilemez.",
+    "EuroLeague, TBF, BCL, CEV ve TRT Spor sayfaları açılamadı; EuroLeague saatleri kulüp kaynağından alındı. GS–Beşiktaş voleybol ve EuroLeague saatleri Claude tarafından yeniden teyit edilemedi. Millî ve uluslararası voleybol takviminde eksiksizlik iddiası yok.",
+    "MTM rakamları yalnız ChatGPT’nin MTM kontrolüne dayanıyor; Claude yeniden açamadı. Rapor sabit panel ve tekilleştirme ayrıntılarını açıklamıyor.",
+    "YouTube, Spotify doğrudan listeleri ve TikTok Creative Center okunamadı; dijital gündem arama, müzik ve podcast sinyalleriyle sınırlı. Kaynak görsel 8 ana haberin 3’ünde var.",
+    "Tüketici ve ekonomi katmanında doğrulanmış güçlü içerik seçilmedi. Guru kontrolünde yeni çalışma doğrulanmadı; Ehrenberg-Bass haber listesi JS nedeniyle okunamadı."
+  ],
+  "corrections": []
+}
