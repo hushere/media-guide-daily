@@ -1,0 +1,593 @@
+{
+  "date": "2026-11-03",
+  "title": "Reklam doluluğu iddiası ve maç gecesi dizi arası; Sevdam Karadeniz bitti, Gassal finali 19 Kasım’da",
+  "summary": "Kanalların düşük reklam nedeniyle maç gecelerinde yeni bölüm vermediği iddia ediliyor; resmî teyit yok. Sevdam Karadeniz dört bölümde kapandı, tabii yeni sezonunu açıkladı. Globalde perakende medya ve T-Mobile’ın ajans yapısı öne çıkıyor.",
+  "edition": "daily",
+  "window": "2 Kasım 2026 07:48 – 3 Kasım 2026 07:35 TSİ (ChatGPT araştırma kesimi); Claude teyidi 08:41-09:05",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-03T09:05+03:00",
+    "summary": "Yeniden teyit: Sevdam Karadeniz 21.45 ve 20.00 filmi (GZT, BirGün; NOW kanal sayfası Claude oturumunda açılamadı), Mehmed tekrarı ve Haysiyet/Anne Yarısı durumu (GZT), Twitch (Streamer Guide ile ikinci kaynak), Perion (SEC 6-K), ShopX rakamları (basın metni aktarımı), T-Mobile (Investing), tabii ve Gassal tarihi (Akşam, Onedio), Free No WiFi Zone (Ads of the World, Pop-Up City), FB–Liverpool 20.45 TRT 1 (Yeni Asır), Celtic–Beşiktaş 23.00 (Milli Gazete), GS–Stuttgart 20.45 (İlkses). Değişiklik: pakette eksik olan reklam geliri ve maç gecesi yeni bölüm kulisi Kulis etiketiyle ana kart olarak eklendi; TikTok Search Ads sinyali eklendi; Twitch ikinci kaynakla güçlendirildi; Mehmed TEKRAR etiketi TRT’nin maça da aynı etiketi vermesi nedeniyle bağımsız kaynakla doğrulandı; Anne Yarısı tabloda TKR yapıldı; T-Mobile duyuru tarihi 1-2 Kasım olarak yazıldı; 2 Kasım bülteni için iki düzeltme verildi. Kanal akışları, TRT, Kevel, Marketing Türkiye, MediaCat ve S Sport sayfaları Claude oturumunda açılamadı (izin/zaman aşımı); bu bilgilerde ChatGPT kontrolü ve ikincil kaynak kullanıldı. EuroLeague saatleri, Sultanlar Ligi derbisi ve Vend duyurusu yeniden teyit edilemedi."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "reklam-dolulugu-dizi-arasi-kulis",
+      "title": "Kulis: Ekim’de reklam geliri 30 yılın dibinde iddiası; maç gecesi dizilerde yeni bölüm arası",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Reklam pazarı ve para",
+      "market": "Türkiye",
+      "eventDate": "2 Kasım 2026, 22.45 (iddia); 3 Kasım 2026 akşamı (yayın etkisi)",
+      "label": "Kulis",
+      "summary": "Birsen Altuntaş, kanalların reklam artmadıkça maç ve özel günlerde yeni bölüm vermeme kararı aldığını yazdı; veri ve karar için resmî teyit yok.",
+      "body": [
+        "İddia: Ekim, son 30 yılın en düşük reklam gelirinin toplandığı ay; Altuntaş kaynak veya ölçüm göstermiyor.",
+        "İddia: Saat başı 12 dakikalık reklam kuşaklarının yalnız %60’ı doluyor; bağımsız veri bulunamadı.",
+        "3 Kasım akışı: Haysiyet 20.00 tekrar; Mehmed 23.00 tekrar; Anne Yarısı’nda yeni bölüm etiketi yok.",
+        "Tuzlu Kahve çelişkili: Star akışı Yeni Bölüm diyor (ChatGPT kontrolü); Altuntaş ve Onedio bu hafta yok diyor.",
+        "Kanalların bu karar veya gerekçe için resmî açıklaması görülmedi (GZT, Medya Tilkisi)."
+      ],
+      "impact": "Veri böyle: bu akşam en az üç dizi yeni bölümsüz, geçen hafta da benzer aralar vardı; reklam gerekçesi kulis. Bizim okumamız: doğruysa maç ve özel gün akşamlarında prime time değeri düşer, tekrar bölüme kayan spot ve fiyat pazarlığı gündeme gelir. Marka için takvim riski artar; izleyici maç akşamı alternatif içeriği azalmış bulur.",
+      "action": "Maç ve özel gün akşamı rezervasyonlarında yeni bölüm garantisi, tekrar bölüm fiyatı ve telafi koşullarını kanallardan yazılı isteyin.",
+      "counterView": "Aynı akşam şifresiz Şampiyonlar Ligi maçı var; kanallar pahalı bölümü rekabetten korumuş olabilir, neden reklam krizi olmayabilir. “30 yılın en düşüğü” ölçülmüş bir pazar verisi olarak görülmedi.",
+      "sources": [
+        {
+          "name": "Birsen Altuntaş • Galatasaray–Stuttgart nedeniyle dizi arası",
+          "url": "https://www.birsenaltuntas.com/dizi/yarin-galatasaray-stuttgart-maci-nedeniyle-dizi-yayinlarina-ara-verilecek/78959/",
+          "published": "2026-11-02 22:45",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "GZT • Dizilerin yeni bölümleri neden yok",
+          "url": "https://www.gzt.com/gundem/dizilerin-yeni-bolumleri-neden-yok-bu-hafta-yayinlanmayacak-mi-var-misin-yok-musun-masterchef-ve-dizilerin-yeni-bolumleri-bugun-var-mi-yok-mu-4275017",
+          "published": "2026-11-03",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Onedio • Salı akşamı dizi değişikliği",
+          "url": "https://onedio.com/haber/galatasaray-maci-sali-aksamini-degistirdi-mehmed-haysiyet-anne-yarisi-ve-tuzlu-kahve-yayinlanmayacak-1393058",
+          "published": "2026-11-02 23:28",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Gazete Kritik • Reklam krizi ve ertelemeler",
+          "url": "https://www.gazetekritik.com/medya/baskalarinin-hayati-dizisine-reklam-krizi-engeli-yeni-bolum-yayinlanmayacak/416357",
+          "published": "2026-10-31",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Kanal D yayın akışı",
+          "url": "https://www.kanald.com.tr/yayin-akisi",
+          "published": "3 Kasım 2026 ChatGPT kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "sevdam-final-gerceklesti",
+      "title": "Sevdam Karadeniz dört bölümde bitti; final 20.00 yerine 21.45’e alınmıştı",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "2 Kasım 2026, 21.45 (akış saati)",
+      "label": "Final",
+      "summary": "NOW arşivi Sevdam Karadeniz’in 4. bölümünü final olarak gösteriyor; 2 Kasım akışında 20.00’de film, 21.45’te dizi vardı.",
+      "body": [
+        "NOW arşivi 4. bölümü Final işaretiyle gösteriyor (ChatGPT kontrolü, 3 Kasım).",
+        "Düzeltme: Dünkü bülten 20.00 yazmıştı; akışta 20.00’de Dokunmayın Şabanıma filmi, 21.45’te dizi vardı (GZT, BirGün).",
+        "21.45 akış saatidir; fiilî başlangıç saati kayıtla ölçülmedi.",
+        "Kanalın final gerekçesi yok; düşük reyting gerekçesi kulis kaynaklı.",
+        "NOW’un 9 Kasım pazartesi 20.00 yerine koyacağı yapım bu kontrolde görülmedi."
+      ],
+      "impact": "Veri böyle: final gecesi dizi prime time başından çıkarılıp 21.45’e alındı. Bizim okumamız: 20.00 için satın alınan spotların kuşağı kaymış olabilir; pazartesi NOW kuşağı için plan belirsiz. Yeni başlayan dizide erken final riski planlamada ayrı düşünülmeli.",
+      "action": "2 Kasım NOW spotlarını yayın kaydıyla kontrol edin; 9 Kasım pazartesi kuşağını kanaldan teyit edin.",
+      "counterView": "Akış sonradan güncellenmiş olabilir; fiilî yayın ve spot teslimi ayrıca kayıtla görülmeli. Tek bir erken final, genel bir “yeni dizi riski” artışı kanıtı değildir.",
+      "sources": [
+        {
+          "name": "NOW • Sevdam Karadeniz bölüm arşivi",
+          "url": "https://www.nowtv.com.tr/Sevdam-Karadeniz/izle",
+          "published": "3 Kasım 2026 ChatGPT kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "NOW yayın akışı",
+          "url": "https://www.nowtv.com.tr/yayin-akisi",
+          "published": "3 Kasım 2026 ChatGPT kontrolü",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "GZT • 2 Kasım NOW akışı ve Sevdam Karadeniz",
+          "url": "https://www.gzt.com/gundem/sevdam-karadeniz-neden-yok-yeni-bolum-ne-zaman-saat-kacta-2-kasim-now-tv-yayin-akisi-sevdam-karadeniz-final-mi-yapiyor-neden-final-yapti-4274940",
+          "published": "2026-11-02 21:25",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "BirGün • 2 Kasım TV akışı",
+          "url": "https://birgun.net/haber/bu-aksam-tvde-ne-var-2-kasim-2026-pazartesi-gunun-dizi-ve-programlari-744101",
+          "published": "2026-11-02",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "tabii-dort-dortluk-sezon",
+      "title": "tabii yeni sezon kataloğunu açıkladı; Gassal’ın final sezonu 19 Kasım’da",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Platform ve ürün",
+      "market": "Türkiye",
+      "eventDate": "2 Kasım 2026 (duyuru); 19 Kasım 2026 (Gassal)",
+      "label": "Şirket duyurusu",
+      "summary": "TRT, tabii’nin “4 Dörtlük Sezon” dönemini duyurdu; Gassal 19 Kasım’da dördüncü ve son sezonuyla başlıyor.",
+      "body": [
+        "19 Kasım: Gassal dördüncü ve final sezonuyla tabii’de başlıyor (TRT Haber, Akşam, Onedio).",
+        "Yeni dönem yapımları: Binbir Gece Masalları, Espiyonaj, Ejderhan, Eve Dönemezsin, Operasyon Alesta, Çırak 2. sezon.",
+        "TRT beyanı: 15 milyonu aşkın kullanıcı; ücretli aktif abone veya izleyici verisi değil.",
+        "Gassal dışındaki yapımların tarihleri bu kontrolde teyit edilmedi."
+      ],
+      "impact": "Veri böyle: kamu yayıncısı yerli dizilerin bir bölümünü platformda büyütüyor. Bizim okumamız: yıl sonu dizi konuşmasının bir kısmı TV dışına kayabilir; marka için içerik ortaklığı takvimi Gassal çevresinde şekillenebilir. Gassal izleyicisi finali TV’de değil platformda izleyecek.",
+      "action": "19 Kasım çevresindeki içerik ve sponsorluk olanaklarını format, hak ve ölçüm koşullarıyla tabii’den isteyin.",
+      "counterView": "Kullanıcı toplamı reklam erişimi veya yeni yapımların izleyici garantisi değildir; platformdaki reklam envanteri bu duyuruda açıklanmıyor.",
+      "sources": [
+        {
+          "name": "TRT Haber • tabii 4 Dörtlük Sezon",
+          "url": "https://www.trthaber.com/trtden-haberler/tabii-4-dortluk-sezon-ile-yeni-doneme-basliyor-1419.html",
+          "published": "2026-11-02",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Akşam • Tabii’nin yeni sezon dizileri",
+          "url": "https://www.aksam.com.tr/televizyon/gassal-yeni-bolumleriyle-donuyor-iste-tabiinin-yeni-sezon-dizileri/haber-1711135",
+          "published": "2026-11-02",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Onedio • Gassal final sezonu",
+          "url": "https://onedio.com/haber/gassal-icin-final-zamani-tabii-nin-fenomen-dizisi-icin-final-karari-belli-oldu-1392963",
+          "published": "Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2040000/tabii-dijital-platform-2041029.jpg",
+        "alt": "tabii logosu",
+        "credit": "TRT Haber",
+        "sourceUrl": "https://www.trthaber.com/trtden-haberler/tabii-4-dortluk-sezon-ile-yeni-doneme-basliyor-1419.html"
+      }
+    },
+    {
+      "id": "vend-kevel-medya",
+      "title": "Vend, pazaryeri reklam altyapısı için Kevel’i seçti",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "İskandinav ülkeleri",
+      "eventDate": "2 Kasım 2026 (duyuru)",
+      "label": "Şirket duyurusu",
+      "summary": "Vend Advertising, Nordik pazaryerlerindeki reklam ürünlerini tek platformda yönetmek için Kevel ile teknoloji ortaklığı duyurdu.",
+      "body": [
+        "2 Kasım: Vend Advertising, Nordik pazaryerlerinin medya altyapısı için Kevel ortaklığını duyurdu.",
+        "Altyapı, site içi ve site dışı reklam ürünlerini tek platformda yönetmeyi amaçlıyor.",
+        "Duyuru şirket beyanıdır; kampanya performansı veya satış artışı verisi içermiyor."
+      ],
+      "impact": "Veri böyle: pazaryerleri reklam teknolojisini dış ortakla kuruyor. Bizim okumamız: birinci taraf alışveriş verisiyle reklam satışı yayılıyor; alıcı için soru erişimden çok ek satışı ölçmek. Tüketici tarafında satın alma niyeti yüksek ortamlarda reklam yoğunluğu artabilir.",
+      "action": "Pazaryeri tekliflerinde veri kapsamını, satış artışı ölçümünü ve site dışı teslimi ayrı ayrı isteyin.",
+      "counterView": "Duyuru teknoloji ortaklığıdır; bağımsız satış artışı sonucu yok. Tek bir bölgesel anlaşma Türkiye pazarına doğrudan aktarılamaz.",
+      "sources": [
+        {
+          "name": "Kevel • Vend Advertising duyurusu",
+          "url": "https://www.kevel.com/blog/vend-advertising-enters-a-new-chapter-choosing-kevel-as-media-network-technology-partner",
+          "published": "2026-11-02",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "shopx-magaza-medya",
+      "title": "ShopX: Flipp, Shopfully ve MEDIA Central ortak grup altında toplandı",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Düzenleme ve sektör",
+      "market": "Global; Avrupa, Kuzey Amerika ve Avustralya",
+      "eventDate": "29 Ekim 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Flipp, Shopfully ve MEDIA Central kendi markalarını koruyarak, fiziksel mağaza alışverişini ölçülebilir medya kanalına çevirmeyi hedefleyen ShopX grubunda birleşti.",
+      "body": [
+        "29 Ekim: Üç şirket markalarını ve müşteri ilişkilerini koruyarak ShopX grubu altında toplandı.",
+        "Şirket beyanı: 27 pazar, 400 milyondan fazla alışverişçi; bağımsız tekil erişim ölçümü değil.",
+        "Hedef, mağazaya giden alışveriş yolculuğunu ölçülebilir medya kanalına çevirmek.",
+        "Türkiye kapsamı bu kontrolde görülmedi."
+      ],
+      "impact": "Veri böyle: drive-to-store oyuncuları tek çatı altında ölçek arıyor. Bizim okumamız: çok perakendecili mağaza trafiği teklifleri büyüyebilir; ajans için kritik soru ziyaret ölçümünün yöntemi. Çikolata gibi rafta karar verilen kategorilerde katalog ve mağaza öncesi temas önem kazanabilir.",
+      "action": "Türkiye kapsamını ve ziyaret/satış ölçüm yöntemini teklif bazında teyit edin.",
+      "counterView": "Grup ölçeği kampanya erişimine eşit değildir; tekilleştirme ve artımlılık kanıtı açıklanmıyor. Basın metni kopyaları bağımsız teyit sayılmadı.",
+      "sources": [
+        {
+          "name": "Shopfully • Introducing ShopX",
+          "url": "https://shopfully.com/newsroom/introducing-shopx/",
+          "published": "2026-10-29",
+          "country": "İtalya",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Revista Biz • ShopX",
+          "url": "https://www.revistabiz.ro/se-lanseaza-shopx-un-grup-global-care-aduce-puterea-digitalului-in-retailul-fizic/",
+          "published": "Kasım 2026 (basın metni aktarımı)",
+          "country": "Romanya",
+          "language": "Rumence"
+        }
+      ],
+      "image": {
+        "url": "https://shopfully.com/wp-content/uploads/2026/10/ShopX-Brands-3-1024x576.png",
+        "alt": "ShopX, Flipp, Shopfully ve MEDIA Central logoları",
+        "credit": "Shopfully",
+        "sourceUrl": "https://shopfully.com/newsroom/introducing-shopx/"
+      }
+    },
+    {
+      "id": "tmobile-ajans-yapisi",
+      "title": "T-Mobile strateji, reklam ve AI üretimini üç ayrı sorumluluğa böldü",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Marka ve kampanya",
+      "market": "ABD",
+      "eventDate": "1-2 Kasım 2026 (duyuru)",
+      "label": "Şirket duyurusu",
+      "summary": "T-Mobile, Anomaly’yi marka dönüşümü ortağı, Highdive’ı ana kreatif ajans yaptı; şirket içi T-Studios yapay zekâ araçlarıyla üretecek.",
+      "body": [
+        "Anomaly stratejik marka dönüşümü ortağı oldu; Highdive ana kreatif reklam ajansı olarak atandı.",
+        "T-Studios şirket içi üretiminde yapay zekâ araçları kullanılacak.",
+        "Açıklama medya satın alma ajansı değişikliği veya sözleşme bütçesi bildirmiyor."
+      ],
+      "impact": "Veri böyle: büyük bir reklamveren strateji, kampanya ve üretimi ayırdı. Bizim okumamız: üretim şirket içine kayarken medya planında versiyon teslimi ve test sorumluluğu netleşmek zorunda. Marka tarafında hız kazanımı, tutarlılık riskiyle birlikte gelir.",
+      "action": "Ajans ve şirket içi stüdyo arasında üretim takvimi, format, onay ve sonuç ölçümü sahipliğini yazılı belirleyin.",
+      "counterView": "AI ile hız ve ölçek şirketin hedefidir; gerçekleşmiş maliyet tasarrufu veya reklam etkisi açıklanmadı. ABD’deki tek telekom kararı Türkiye için trend kanıtı değildir.",
+      "sources": [
+        {
+          "name": "T-Mobile • Next-Generation Creative Ecosystem",
+          "url": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-doubles-down-power-brand-unveiling-next-generation",
+          "published": "1-2 Kasım 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Investing.com • T-Mobile names Anomaly and Highdive",
+          "url": "https://www.investing.com/news/company-news/tmobile-names-anomaly-and-highdive-as-creative-partners-93CH-4992834",
+          "published": "2026-11-02",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://mms.businesswire.com/media/20261101797522/en/2955372/4/T-Mobile_adv_logo_Nov_2026_v2.jpg",
+        "alt": "T-Mobile, Anomaly, Highdive ve T-Studios logoları",
+        "credit": "T-Mobile / Business Wire",
+        "sourceUrl": "https://investor.t-mobile.com/news-releases/news-release-details/t-mobile-doubles-down-power-brand-unveiling-next-generation"
+      }
+    },
+    {
+      "id": "kitkat-free-no-wifi-2012",
+      "title": "KitKat: mola fikrini Wi-Fi’siz bir kamusal alana çevirmek",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Hollanda",
+      "eventDate": "Aralık 2012; arşiv vaka",
+      "label": "Arşiv vaka",
+      "summary": "KitKat ve JWT Amsterdam, şehir merkezinde ücretsiz Wi-Fi yerine Wi-Fi’siz bölge kurarak mola fikrini mekâna dönüştürdü.",
+      "body": [
+        "Aralık 2012, Amsterdam: KitKat ve JWT Amsterdam “Free No Wi-Fi Zone” uygulamasını kurdu (Ads of the World, Pop-Up City).",
+        "Fikir: Ücretsiz internet vaadini tersine çevirip kısa molayı yaşanan bir alana dönüştürmek.",
+        "Vaka anlatımı yaklaşık 5 metre yarıçapta sinyal engellendiğini söylüyor; bağımsız teknik doğrulama yok.",
+        "Marka sonucu veya fiziksel erişim sayısı bulunamadı."
+      ],
+      "impact": "Neden çalıştı: “mola ver” mesajı afişte kalmadı, mekânın kendisi oldu; bağlantıdan yorulan şehirli izleyiciye fikir yaşatıldı. Türkiye uyarlaması: sinyal engellemeden, gönüllü telefonsuz oturma ve ürün deneme alanı. Etki yorumu bağlama dayanır; ölçülmüş sonuç yok.",
+      "action": "Pilot düşünülürse telefonları kapalı tutma mekaniğini gönüllü kurun ve mekân iznini baştan alın. Tartışma sorusu: bu fikir hangi atıştırmalık kategorisine uyarlanabilir?",
+      "counterView": "Sinyal kesme örnek alınmamalı; izin ve teknik uygunluk gerekir. Yerel temas sayısı sınırlıdır; vakanın çevrimiçi görülmesi fiziksel erişim değildir.",
+      "sources": [
+        {
+          "name": "Ads of the World • Free No WiFi Zone",
+          "url": "https://www.adsoftheworld.com/campaigns/free-no-wifi-zone",
+          "published": "2012-12 (uygulama)",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Pop-Up City • Kit Kat No Wi-Fi Zones",
+          "url": "https://popupcity.net/observations/kit-kat-introduces-no-wi-fi-zones",
+          "published": "Tarih belirtilmiyor (görsel 2013/01)",
+          "country": "Hollanda",
+          "language": "İngilizce"
+        },
+        {
+          "name": "refreshh • KitKat Free No WiFi Zone",
+          "url": "https://vimeo.com/102189583",
+          "published": "Yükleme tarihi doğrulanamadı; üretim 2012/2013",
+          "country": "Hollanda",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://image.adsoftheworld.com/uec9plxzynj63cxnzvcixzlraaix",
+        "alt": "KitKat Free No WiFi Zone kampanyasının kırmızı oturma alanı",
+        "credit": "JWT Amsterdam / Ads of the World",
+        "sourceUrl": "https://www.adsoftheworld.com/campaigns/free-no-wifi-zone"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "TikTok, Search Ads için gösterim payı metriklerini öne çıkardı, günlük yenilenen marka ve kategori Keyword Packs ekledi; pazar listesi verilmedi.",
+      "source": "Search Engine Journal",
+      "url": "https://searchenginejournal.com/tiktok-search-ads-brand-category-keyword-packs/595682",
+      "published": "2026-11-02"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "Perion, Affle anlaşması sonrası 2026 görünümünü ve 2028 hedeflerini geri çekti; 16 Kasım çeyrek sonuçları için telekonferans yapılmayacak.",
+      "source": "Perion / SEC 6-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001338940/000117891326004966/exhibit_99-1.htm",
+      "published": "2026-11-02"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Türkiye",
+      "text": "Twitch 29 Ekim’de Türkiye’de 15 yaş altına yeni hesap açmayı kapattı; mevcut hesap geçişi Şubat 2027 (ikincil kaynak; Twitch yardım sayfası okunamadı).",
+      "source": "Streamer Guide, Oyun Günlüğü",
+      "url": "https://streamer.guide/blog/twitch-age-verification-turkey-under-15",
+      "published": "2026-10-29"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Yemeksepeti’nde Kamer Buğu Öktem 1 Kasım’da pazarlama direktörü oldu; görev alanı kullanıcı kazanımı, bağlılık ve büyüme.",
+      "source": "Yemeksepeti, MediaCat",
+      "url": "https://kurumsal.yemeksepeti.com/newsroom/yemeksepeti-pazarlama-direktorlugu-gorevine-kamer-bugu-oktem-atandi/",
+      "published": "2026-11-02"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Marketing Türkiye, B2B Excellence Awards finalistlerini açıkladı; kazananlar 2 Aralık’ta Wyndham Grand İstanbul Levent’te duyurulacak.",
+      "source": "Marketing Türkiye",
+      "url": "https://www.marketingturkiye.com.tr/haberler/b2b-excellence-awards-finalistleri-belli-oldu/",
+      "published": "2026-11-02"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "özel gün akışı",
+        "text": "Bayram haftasının ardından bu kez maç gecesi dizilerde tekrar görülüyor; prime time takvimi özel akşamlarda sabit varsayılamıyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "reklam-dolulugu-dizi-arasi-kulis",
+          "sevdam-final-gerceklesti"
+        ]
+      },
+      {
+        "tag": "TV reklam talebi",
+        "text": "Kuşakların yalnız %60 dolduğu iddiası doğrulanmış pazar verisi değil; yine de kanal takvimini reklam talebinin belirlediği bir kulis olarak izlenmeli.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "reklam-dolulugu-dizi-arasi-kulis"
+        ]
+      },
+      {
+        "tag": "perakende medya",
+        "text": "Vend ve ShopX duyuruları, pazaryeri ve mağaza öncesi reklamda altyapı ve ölçek arayışını sürdürüyor; iki şirket duyurusu, etkinlik kanıtı değil.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "vend-kevel-medya",
+          "shopx-magaza-medya"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "3-8 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-03",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Galatasaray",
+      "away": "Stuttgart",
+      "broadcaster": "TRT 1",
+      "source": "https://www.galatasaray.org/haber/futbol/sampiyonlar-ligi/sampiyonlar-ligi-fiksturumuz-belli-oldu/60836",
+      "note": "Hak sahibi TRT; TRT 1 akış kaydı (ChatGPT) ve İlkses akışı 20.45; şifresiz."
+    },
+    {
+      "date": "2026-11-04",
+      "time": "19:30",
+      "sport": "Basketbol",
+      "competition": "EuroCup",
+      "home": "Türk Telekom",
+      "away": "Skyliners Frankfurt",
+      "broadcaster": null,
+      "source": "https://mobilet.com/tr/event/turk-telekom-skyliners-frankfurt-56854/",
+      "note": "Bilet sayfası saat ve tarihi veriyor; yayıncı birincil kaynakla teyitsiz."
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "Basketbol Şampiyonlar Ligi",
+      "home": "Legia Varşova",
+      "away": "Galatasaray MCT Technic",
+      "broadcaster": null,
+      "source": "https://www.galatasaray.org/haber/basketbol/erkek-basketbol/yukatel-denizli-basket-74-87-galatasaray-mct-technic/61278",
+      "note": "Kulüp haberi tarih ve TSİ veriyor; yayıncı birincil kaynakla teyitsiz."
+    },
+    {
+      "date": "2026-11-04",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Şampiyonlar Ligi",
+      "home": "Fenerbahçe",
+      "away": "Liverpool",
+      "broadcaster": "TRT 1",
+      "source": "https://www.liverpoolfc.com/tickets/match/liverpool-champions-league-fenerbahce-202627",
+      "note": "Yeni Asır: Chobani Stadyumu, 20.45, TRT 1 şifresiz; TRT 1 duyurusu ChatGPT kontrolü."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Paris Basketball",
+      "broadcaster": "S Sport Plus",
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp başlama saati esas alındı; yayıncının 19.30 program başlangıcı maç saati değildir."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Freiburg",
+      "broadcaster": "TRT 1",
+      "source": "https://www.uefa.com/uefaconferenceleague/news/02aa-21f10eaba7bb-44b3e170c431-1000--conference-league-matchday-3-briefing-trabzonspor-monaco-p/",
+      "note": "Hak sahibi TRT; TRT 1 duyurusu ChatGPT kontrolü, önceki gün Sabah ile teyitli."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Fenerbahçe",
+      "away": "Baskonia",
+      "broadcaster": "S Sport Plus",
+      "source": "https://ssrprod.passo.com.tr/en/event/fenerbahce-tarfin-kosner-baskonia-basket-mac-bileti/13612319",
+      "note": "Passo bilet sayfası 21.00; S Sport Plus 20.15 program başlangıcıdır. Claude yeniden teyit edemedi."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Celtic",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT 1",
+      "source": "https://bjk.com.tr/en/mac_merkezi/1",
+      "note": "Milli Gazete 23.00 TSİ; hak sahibi TRT, TRT 1 kaydı ChatGPT kontrolü ve Sabah."
+    },
+    {
+      "date": "2026-11-06",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Zalgiris",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/fikstur/2/10/641/670/5084",
+      "note": "Kulüp saati esas alındı; yayıncı 19.15 program başlangıcı maç saati değildir."
+    },
+    {
+      "date": "2026-11-08",
+      "time": "14:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT Spor Yıldız",
+      "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+      "note": "TVF programında saat ve yayıncı mevcut; derbi.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "social": {
+    "window": "3 Kasım sabah kontrolü; her kaynağın liste dönemi ayrıca yazıldı.",
+    "note": "Arama, platform sıralaması ve yayıncı açıklaması farklı sinyallerdir. Hiçbiri reklam erişimi/attention veya tekil izleyici değildir. YouTube güncel izlenme verisi okunamadı.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Kasım ara tatili takvimi",
+        "metric": "Google Trends: son 24 saatte 50 bin+ arama, %1000 artış",
+        "whyItMatters": "Aile odaklı içerik ve perakende kampanyalarında tatil planlama bağlamı; arama sayısı satın alma talebi değildir.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "3 Kasım kontrolü, son 24 saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Netflix",
+        "type": "Top 10",
+        "rank": 1,
+        "title": "Organize İşler: Karun Hazinesi (Money Trap)",
+        "whyItMatters": "Yerel içerik ilgisi için keşif sinyali; listede izleyici sayısı verilmediği için erişim hesabına çevrilmemeli.",
+        "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+        "source": "Netflix Tudum",
+        "published": "3 Kasım erişimi; liste dönemi metinde görünmüyor",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Apple Podcasts",
+        "type": "Öne çıkan içerik",
+        "title": "Ortamlarda Satılacak Bilgi: bölüm açıklamasında Cambly Black Friday entegrasyonu",
+        "whyItMatters": "Podcast açıklamasına yerleştirilen indirim kodlu entegrasyon bir format örneği; satış sonucu değil.",
+        "url": "https://podcasts.apple.com/tr/charts",
+        "source": "Apple Podcasts",
+        "published": "3 Kasım erişimi; bölüm kartı 6 gün önce",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "highlights": [
+    "Kulis: Ekim’de reklam geliri 30 yılın en düşüğü, kuşaklar %60 dolu iddiası; resmî teyit yok.",
+    "Maç gecesi Haysiyet ve Mehmed tekrarla çıkıyor; Tuzlu Kahve bilgisi çelişkili.",
+    "Sevdam Karadeniz dört bölümde bitti; Gassal’ın final sezonu 19 Kasım’da başlıyor."
+  ],
+  "watchlist": [
+    "Reklam geliri iddiası için TV reklam pazarından ölçülmüş veri veya kanal açıklaması.",
+    "4-5 Kasım TRT 1 maç gecelerinde diğer kanalların yeni bölüm kararı (Halef, Yeraltı ve Güneşin Doğduğu Yer dahil).",
+    "Tuzlu Kahve’nin bu akşam fiilen yeni bölümle çıkıp çıkmadığı.",
+    "NOW’un 9 Kasım pazartesi 20.00 yerine koyacağı yapım.",
+    "Mehmed’in 10 Kasım’da 20.00’de yeni bölümle dönüşü (GZT beklentisi; fragman yok).",
+    "Platformların Türkiye’de 15-18 yaş reklam hedefleme uygulaması.",
+    "Meta Commercial Terms: 20 Kasım ertelemesi ikincil kaynaklı; resmî metin girişe kapalı."
+  ],
+  "limitations": [
+    "Yedi kanalın resmî akışı, TRT 1, S Sport Plus, TFF, Kevel, MediaCat ve Marketing Türkiye Claude oturumunda açılamadı (izin/zaman aşımı). Bu bilgiler ChatGPT’nin kontrolü ile ikincil kaynaklardan karşılaştırıldı.",
+    "Reklam geliri ve %60 doluluk iddiası tek kaynaktan yayılıyor (Birsen Altuntaş); kaynak veya ölçüm göstermiyor, diğer haberler onu aktarıyor.",
+    "Altı şirketin resmî sayfası okunamadı: FİSKOBİRLİK, NESTLÉ Türkiye, DOĞKAR, FERRERO Türkiye, ALTINKILIÇLAR, LİDER ÇİKOLATA. Yeni çikolata gelişmesi teyit edilmedi; yokluk kesinleştirilemez. Şölen Luppo Sufle sayfası tarihsiz olduğu için yazılmadı.",
+    "EuroLeague, TBF, BCL, CEV, FIBA ve TRT Spor sayfaları açılamadı; maç saatleri kulüp ve bilet kaynaklarından alındı. Türk Telekom–Frankfurt ve Legia–Galatasaray yayıncıları teyitsiz. Voleybolda eksiksizlik iddiası yok.",
+    "YouTube, Spotify doğrudan listeleri ve TikTok Creative Center okunamadı; Netflix liste dönemi görünmüyor. Kaynak görsel 7 ana haberin 4’ünde var.",
+    "Tüketici ve ekonomi katmanında doğrulanmış içerik seçilmedi. Guru kontrolünde yeni çalışma doğrulanmadı; Ehrenberg-Bass haber listesi zaman aşımı verdi. Sinema salı günü kapsam dışı."
+  ],
+  "corrections": [
+    "2 Kasım bülteni: Sevdam Karadeniz finali “20.00” yazılmıştı; NOW akışında 20.00’de film, final 21.45’teydi.",
+    "2 Kasım bülteni: Mehmed’in 3 Kasım 23.00 kaydı yeni bölüm gibi okunmamalı; bu yayın tekrar, yeni bölüm yok (GZT, TRT 1 akışı)."
+  ]
+}

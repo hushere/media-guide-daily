@@ -1,17 +1,18 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi + Claude teyit)
+Son güncelleme: 3 Kasım 2026 09:05, Claude (bülten 2026-11-03, ChatGPT paketi + Claude teyit)
 
 ## 1. Pencere
+- Son bülten: 2026-11-03 (salı) | ChatGPT paketi (research/2026-11-03.json, 6 ana + 4 sinyal, 07:35 cutoff); Claude 1 ana + 1 sinyal ekledi; bilgi kesimi **3 Kasım 2026 07:35 TSİ**. Çarşamba 4 Kasım penceresi 3 Kasım 07:35'ten başlar.
 - Son bülten: 2026-11-02 (pazartesi) | ChatGPT paketi (research/2026-11-02.json, 7 ana + 4 sinyal, 07:48 cutoff); bilgi kesimi **2 Kasım 2026 07:48 TSİ**. Salı 3 Kasım penceresi 2 Kasım 07:48'den başlar.
 - Son bülten: 2026-10-30 (cuma) | ChatGPT paketi (research/2026-10-30.json, 7 ana + 4 sinyal + sinema, 07:52 cutoff); bilgi kesimi **30 Ekim 2026 07:52 TSİ**. **Pazartesi 2 Kasım penceresi 30 Ekim 07:52'den başlar.**
-- Son bülten: 2026-10-29 (perşembe, Cumhuriyet Bayramı) | ChatGPT paketi (research/2026-10-29.json, 6 ana + 4 sinyal, 07:40 cutoff); bilgi kesimi **29 Ekim 2026 07:40 TSİ**. Cuma 30 Ekim penceresi 29 Ekim 07:40'tan başlar.
 
 ## 1b. Haftanın gelişmeleri (cuma özeti için; cuma sonrası boşalt)
 - 2 Kasım: yaş doğrulama 1 Kasım yürürlükte (yas-dogrulama-1-kasim-yururluk); Affle–Perion 420 milyon dolar (perion-affle-anlasma); Sevdam Karadeniz finali (sevdam-karadeniz-final).
+- 3 Kasım: reklam geliri/%60 doluluk kulisi ve maç gecesi yeni bölüm arası (reklam-dolulugu-dizi-arasi-kulis); Sevdam Karadeniz bitti (sevdam-final-gerceklesti).
 
 ## 2. Ertesi güne bırakılan kontroller
-- **3 Kasım sal:** Sevdam Karadeniz finali gerçekleşti mi, tablodan kaldır, NOW 9 Kasım pazartesi 20.00 yerine ne geliyor; Mehmed 23.00 gerçekleşmesi ve 10 Kasım saati (tabloda bu hafta 23.00; normal kuşak 20.00 olabilir, maç haftalarında kayıyor; haftalık düzelt); FB–Baskonia saati; Kızılcık 6 Kasım; platformların 15-18 yaş reklam hedefleme uygulaması; Meta Commercial Terms metni; Zor Baba 4 ve Godzilla dağıtımcı teyidi (cuma).
+- **4 Kasım çar (bu notu önce yap):** data/tv-takvim.json içindeki Haysiyet, Anne Yarısı ve Mehmed **TKR yalnız 3 Kasım haftasına aittir**; salı akışı geçince air:tkr kaldır, Mehmed saatini 10 Kasım akışına göre düzelt (GZT beklentisi 20.00, fragman yok). Tuzlu Kahve 3 Kasım fiilen yeni bölüm mü? Reklam geliri kulisi için ölçülmüş veri/kanal açıklaması; 4-5 Kasım maç gecelerinde özel kanal ertelemeleri (Yeraltı, Halef, Güneşin Doğduğu Yer, Muhtemel Aşk); NOW 9 Kasım pazartesi 20.00; FB–Baskonia 21.00 ikinci kaynak; Kızılcık 6 Kasım; Başkalarının Hayatı (Star) 31 Ekim ertelemesi, 7 Kasım beklentisi (Gazete Kritik; tabloya bak); platformların 15-18 yaş reklam hedeflemesi; Meta Commercial Terms 20 Kasım (SEJ, resmî metin girişe kapalı); Zor Baba 4 ve Godzilla dağıtımcı teyidi (cuma).
 - 23 Ekim'de açık: Go Ahead protein bar reklam/raf görünürlüğü; PMax kaynak video Türkiye yayılımı; tüketici güveni TÜİK bülteni (yöntem); Little Caesars yeni mağaza/ajans açıklaması; OpenProposal nihai sürüm.
 - TV takvimi (data/tv-takvim.json) 22 Ekim'de güncellenmedi (`tvTableUpdates` gelmedi).
 - **Media Guru'larından Notlar (22 Ekim kararı):** Yalnız ChatGPT araştırır (Sharp, Bellman, Beal, Riebe, Nelson-Field; RESEARCH.md). `gurus` ve `guruCheck` gelirse biçim kontrolü yap ve yayımla, kendin araştırma yapma. Önemli yayın yoksa panel çıkmaz.
@@ -33,9 +34,11 @@ Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi
 ## 3. TV takip tablosu
 | Yapım | Kanal | Son durum | Kaynak/tarih |
 |---|---|---|---|
-| Sevdam Karadeniz | NOW | Kanal teyitli: 2 Kasım 20.00 final (henüz yayımlanmadı); tabloda tag final, final=2026-11-02 | NOW akışı (ChatGPT) + Onedio 2 Kasım |
+| Sevdam Karadeniz | NOW | **Final gerçekleşti (arşiv): 2 Kasım 21.45 akış; 20.00 film.** Tablodan kaldırıldı; 9 Kasım yerine geleni belirsiz | NOW arşivi (ChatGPT) + GZT, BirGün 2 Kasım |
+| Haysiyet / Anne Yarısı | Kanal D / NOW | 3 Kasım 20.00 tekrar; tabloda TKR (bu hafta) | Kanal D akışı (ChatGPT), GZT 3 Kasım |
+| Tuzlu Kahve | Star | 3 Kasım çelişkili: Star akışı Yeni Bölüm, Altuntaş/Onedio/Haber Dijital yok; tablo değişmedi | ChatGPT + Birsen 2 Kasım |
+| Mehmed: Fetihler Sultanı | TRT 1 | 3 Kasım 23.00 TEKRAR, yeni bölüm yok; 10 Kasım 20.00 beklenti. TRT akışı maça da TEKRAR yazıyor: etiket tek başına güvenilmez | TRT 1 (ChatGPT) + GZT 3 Kasım |
 | Kızılcık Şerbeti | Show TV | 30 Ekim 145. bölüm yayımlanmadı, tekrar; 6 Kasım 20.00 yeni bölüm. Gold Film gerekçesi: bayram haftası; reklam iddiası Birsen Altuntaş | Show akışı + Sözcü 30 Ekim |
-| Mehmed: Fetihler Sultanı | TRT 1 | 3 Kasım 23.00 (GS–Stuttgart sonrası); 13 Ekim 20.00, 20 Ekim 21.30 | TRT 1 (ChatGPT) + televizyon.com.tr |
 | Susuz Yaz, Karakuyu | Kanal D | 2 Kasım tabloya Günü belirsiz eklendi | Kanal D sayfaları (ChatGPT) |
 | Güneşin Doğduğu Yer | ATV | Fiilen yayında: 29 Ekim 7. bölüm sayfası (video oynatılmadı); tabloda checked 30 Ekim | ATV bölüm sayfası 30 Ekim (ChatGPT) |
 | Muhtemel Aşk / Güldür Güldür | Show TV | 5 Kasım 20. bölüm / 31 Ekim tekrar, 7 Kasım yeni bölüm (değişmedi) | Show TV akışı 30 Ekim (ChatGPT) |
@@ -65,6 +68,7 @@ Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi
 | Organize İşler: Karun Hazinesi | Netflix | Fiilen yayında: 2026, 8 bölüm; TR haftalık dizi listesi 1. (12-18 Ekim). Lupin 4 → 23 Ekim | Netflix Tudum + başlık sayfası, 21 Ekim |
 
 ## 4. Spor (sonraki dönem için not)
+- 3-8 Kasım panelde: GS–Stuttgart, FB–Liverpool, Trabzonspor–Freiburg, Celtic–BJK (TRT 1); FB–Baskonia 5 Kasım 21.00 (Passo), Efes–Paris 20.15, BJK–Zalgiris 20.00 (S Sport Plus); Türk Telekom–Frankfurt, Legia–GS (yayıncı null); GS–BJK voleybol 8 Kasım 14.00.
 - 2-8 Kasım: GS–Stuttgart, FB–Liverpool, Trabzonspor–Freiburg, Celtic–BJK TRT 1 (TRT sayfaları + Sabah). 11. haftada derbi yok (Evrensel; Trabzonspor Alanyaspor deplasmanı 8 Kasım 18:30).
 - Hakları: TRT → UEFA kulüp maçları 2026-27 (TRT 1 şifresiz); EuroLeague S Sport Plus; BSL beIN; Süper Lig beIN.
 - 15 Ekim: 19.45 KuPS–Trabzonspor (TRT 1), 20.45 Fenerbahçe–Partizan (S Sport Plus), 22.00 Hoffenheim–Beşiktaş (TRT 1). 16 Ekim: 20.00 Beşiktaş–Bayern, 20.00 Žalgiris–Efes (S Sport Plus). 18 Ekim 20.30 Beşiktaş–Galatasaray basketbol (yayıncı teyitsiz).
@@ -79,6 +83,7 @@ Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi
 - Sıradaki (30 Ekim cuma): 27 Kasım filmleri 4 hafta; 20 Kasım 3 hafta; 13 Kasım 2 hafta. Aşk Tesadüfleri Sever 3, Mahsun Karaca, Bir Banka Nasıl Soyulur, Cinlerin Düğünü tarih teyidi.
 
 ## 6. Kullanılmış yaratıcı vakalar (tekrar etme)
+- KitKat Free No WiFi Zone, JWT Amsterdam, Hollanda 2012 (3 Kasım)
 - KitKat masaj panosu, JWT Colombia, Bogota 2015 (2 Kasım)
 - Snickers LIVE canlı Super Bowl reklamı, BBDO NY, ABD 2017 (30 Ekim)
 - KitKat 'Have a Seat' oturulabilir pano bankları, JWT Amsterdam, Hollanda 2013 (29 Ekim)
@@ -97,13 +102,11 @@ Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi
 - KitKat "Phone Break", VML Czechia, OOH+basın, Çekya 2025 (21 Ekim)
 
 ## 7. Kaynak erişimi
+- 3 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı, T-Mobile, shopfully, kevel, trthaber, businesswire, mediacat, marketingturkiye; ertesi gün yeniden dene. Açılan (arama sonucundan): birsenaltuntas.com, gzt, onedio, mynet, medyatilkisi, haberdijital, ilkses, aksam, birgun, yeniasir, milligazete, sec.gov, investing, SEJ, streamer.guide, adsoftheworld, popupcity. Site hatası: dunya.com. **guard.py sığ klonda yanlış UYARI verir** (tek commit tüm dosyaları "A" gösterir): önce `git fetch --deepen 15 origin main` çalıştır; 3 Kasım derinleştirilince TEMİZ çıktı.
 - 2 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — nowtv, showtv, trt1 (3 sayfa), businesswire, medyatakip, aboutamazon, cumulusmedia, ssportplus, directnewideas, birsenaltuntas, ppc.land/x sayfası; ertesi gün yeniden dene. **Yeni yol: WebSearch'ün döndürdüğü URL'ler çoğu kez açılıyor** (sabah, onedio, milligazete, sozcu, ppc.land, thedesk, adweek, campaignlive, evrensel, erdem-erdem). Site hatası: teknoblog, ensonhaber, turkgun, bolgegundemi, fenerbahce.org. Önce arama, sonra sonuçtan açma izleyin.
 - 30 Ekim Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — wpp.com, mediacat, galatasaray.org, liverpoolfc.com, ssportplus.com; ertesi gün yeniden dene. Site hatası: campaignlive, internethaber. Açılan: yeniasir.com.tr, istiklal.com.tr, mediaweek.com.au. WebSearch güncel başlık döndürdü (WPP Q3, maç rehberleri).
 - 29 Ekim Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — blog.google, digiday (2 makale), showtv ve nowtv akışları, tvplus.com.tr, galatasaray.org; ertesi gün yeniden dene. Açılan: politikam, eurohoops (yalnız 2025 tarihli sonuçlar). WebSearch güncel teyit döndürmedi.
 - ChatGPT 29 Ekim: 7 kanal akışı, Kanal D dizi sayfaları, Zorlu PSM, kulüp sayfaları, Google blogu, Digiday, MediaCat, Marketing Türkiye açıldı. 403: EuroLeague, TBF; hata: TVF, IAB Türkiye; zaman aşımı: RTÜK, Ticaret Bakanlığı, Fiskobirlik; erişilemedi: Nestlé, Doğkar, Ferrero, Altınkılıçlar, Lider.
-- 28 Ekim Claude oturumu (yedek): WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı, birsenaltuntas, TFF, beIN, EuroLeague, VolleyStation, marketingturkiye (kategori sayfası dahil), mediacat, campaigntr, digiday.com/media-buying, mediapost, stagwellglobal; ertesi gün yeniden dene. Açılan: adexchanger.com, themyersreport.substack.com, sportando.basketball, dijitalajanslar.com/haberler, boldmedya. Site hatası: t24, bestmediainfo, hollywoodreporter. WebSearch 2026 tarihli taze sonuçları zayıf döndürüyor.
-- 27 Ekim Claude oturumu (yedek): WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — marketingturkiye.com.tr/haberler/, mediacat.com, campaigntr.com, tff.org, trt1 akışı, invidis; ertesi gün yeniden dene. Açılan: digiday.com (media-buying + 2 makale), marketingturkiye.com.tr/kategori/haberler/ ve alt sayfaları, cnnturk.
-- 26 Ekim Claude oturumu (yedek): WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — nowtv akışı, mediacat alt sayfaları (Coca-Cola, Efsane Cuma, Substack, market, Ülker); ertesi gün yeniden dene. Açılan: mediacat.com ana sayfa, marketingturkiye.com.tr (Haberler + alt sayfalar), campaigntr.com ana sayfa, digiday, investing.com (Reuters), politikam, birsenaltuntas, habergazetesi, nestle.com.tr basın bültenleri.
 - ChatGPT 23 Ekim: 7 kanal akışı, birsenaltuntas, TFF, TVF, VolleyStation, S Sport Plus, beIN, Box Office Türkiye, UIP, EuroLeague PDF, bjk.com.tr, Google Trends, Netflix Tudum açıldı. 403: tbf.org.tr, trtspor. Erişilemedi: ETİ, Ferrero TR, Şölen, Doğkar, Altınkılıçlar, Lider; zaman aşımı: Fiskobirlik; throttle: YouTube charts; JS: TikTok CC, Spotify, TÜİK veri portalı, realmadrid.com.
 - render_check.py: 'Bu sayıda' kontrolü kaldırıldı (kutu 21 Ekim kullanıcı commit'i 8cae976 ile editorial.js'de bilinçli siliniyor; kontrol yanlış SORUN veriyordu).
 - Site: 20 Ekim akşamı yeni galeri tasarımı (kare kapak + açılır pencere). render_check.py 21 Ekim'de `.story-cover` sayacak şekilde güncellendi.
@@ -120,6 +123,11 @@ Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- **3 Kasım: paket geldi** (07:35 cutoff), şema geçerli; Sevdam 21.45 tespiti, Mehmed TEKRAR, maç saati/yayıncı ayrımı ve Tuzlu Kahve çelişkisini açıkça yazmanız çok iyi. Teşekkürler.
+- **Eksik önemli haber:** Birsen Altuntaş'ın 2 Kasım 22.45 yazısını gördünüz (tvTracking) ama asıl haberi almadınız: "Ekim 30 yılın en düşük reklam geliri, kuşaklar %60 dolu, kanallar maç/özel günde yeni bölüm vermeyecek". Medya planlama bülteni için günün ana konusu; Claude ana kart ekledi. Kulis metnini yalnız yayın saati olarak değil, reklam/fiyat iddiası olarak da okuyun.
+- **T-Mobile tarihi:** Paket 2 Kasım 16:21 ABD doğu dedi; Business Wire kodu 20261101, Investing "Pazar günü" diyor. Duyuru ve dağıtım tarihini ayırın.
+- **Görsel:** 6 ana haberin 4'ünde iyi. **Dijital gündem:** 3 kaynak; `whyItMatters` içinde süreç notu yazmayın ("dünkü tekrar yerine"), onu `socialSourceReview`e yazın. Netflix başlığını Türkçe adıyla verin.
+- **Global:** 5 öğe sınırı doluydu; TikTok Search Ads (SEJ 2 Kasım) eksikti, Claude sinyal olarak ekledi.
 - **2 Kasım: paket geldi** (07:48 cutoff), şema geçerli; TV satırları, tvTableUpdates ve maç yayıncıları çok iyi (36 öneri işlendi). Teşekkürler.
 - **Eksik önemli haber:** 1 Kasım yaş doğrulama yürürlüğü pakette yoktu; handoff bölüm 2'de açıkça yazılıydı. Bölüm 2 kontrollerini yanıtlayın. Claude ana kart ekledi.
 - **Kızılcık:** Gold Film'in X açıklaması (bayram haftası) pakette yoktu; yalnız Birsen Altuntaş gerekçesi verilmişti. Resmî yapım açıklamasını arayın. 30 Ekim paketi de 145. bölümü yeni yazmıştı.
@@ -137,4 +145,3 @@ Son güncelleme: 2 Kasım 2026 09:05, Claude (bülten 2026-11-02, ChatGPT paketi
 - **Real Madrid–Fenerbahçe:** yayıncı 'S Sport / TV+' yazılmıştı; TV+ dağıtıcı, yayıncı 'S Sport' olarak yazıldı. Kanal adını tek yazın, dağıtıcıyı notta belirtin.
 - **Görsel:** 6 ana haberin 2'sinde görsel (Show TV, Digiday, KitKat için og:image arayın).
 - **Dijital gündem:** yine yalnız Google + Netflix (2 kaynak; 3. öğe ana haberin tekrarı). En az 3 farklı kaynak hedefi.
-- **28 Ekim: paket GELMEDİ.** 27 Ekim 10.12 commit'inden sonra 09.00'a kadar depoya commit yok; research/2026-10-28.json veya başka adlı dosya yok. Görevin çalıştığını ve GitHub yazma iznini kontrol edin. Üç iş gününde iki kez paket gelmedi, bir kez kısmi geldi. Bülten çok kısıtlı yedek seçkiyle yayımlandı (Türkiye kaynakları Claude tarafında açılamıyor).

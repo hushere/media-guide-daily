@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "note": "Kayıtlar 22 Ekim 2026'da kanalların resmî yayın akışı sayfalarından gün gün yeniden kontrol edildi. Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -87,10 +87,11 @@
    "channel": "KANAL D",
    "day": "Salı",
    "title": "Haysiyet",
-   "status": "yayinda",
+   "status": "kanal-teyitli",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.kanald.com.tr/yayin-akisi/sali"
+   "checked": "2026-11-03",
+   "source": "https://www.kanald.com.tr/yayin-akisi",
+   "air": "tkr"
   },
   {
    "channel": "KANAL D",
@@ -228,23 +229,13 @@
   },
   {
    "channel": "NOW",
-   "day": "Pazartesi",
-   "title": "Sevdam Karadeniz",
-   "status": "yayinda",
-   "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.nowtv.com.tr/yayin-akisi",
-   "tag": "final",
-   "final": "2026-11-02"
-  },
-  {
-   "channel": "NOW",
    "day": "Salı",
    "title": "Anne Yarısı",
-   "status": "yayinda",
+   "status": "kanal-teyitli",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.nowtv.com.tr/yayin-akisi"
+   "checked": "2026-11-03",
+   "source": "https://www.nowtv.com.tr/yayin-akisi",
+   "air": "tkr"
   },
   {
    "channel": "NOW",
@@ -294,10 +285,11 @@
    "channel": "TRT 1",
    "day": "Salı",
    "title": "Mehmed: Fetihler Sultanı",
-   "status": "yayinda",
+   "status": "kanal-teyitli",
    "time": "23.00",
-   "checked": "2026-11-02",
-   "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani"
+   "checked": "2026-11-03",
+   "source": "https://www.trt1.com.tr/yayin-akisi",
+   "air": "tkr"
   },
   {
    "channel": "TRT 1",
