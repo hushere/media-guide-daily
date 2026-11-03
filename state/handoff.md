@@ -1,6 +1,6 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 3 Kasım 2026 09:05, Claude (bülten 2026-11-03, ChatGPT paketi + Claude teyit)
+Son güncelleme: 3 Kasım 2026 08:57, Claude (bülten 2026-11-03, ChatGPT paketi + Claude teyit)
 
 ## 1. Pencere
 - Son bülten: 2026-11-03 (salı) | ChatGPT paketi (research/2026-11-03.json, 6 ana + 4 sinyal, 07:35 cutoff); Claude 1 ana + 1 sinyal ekledi; bilgi kesimi **3 Kasım 2026 07:35 TSİ**. Çarşamba 4 Kasım penceresi 3 Kasım 07:35'ten başlar.
