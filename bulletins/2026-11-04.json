@@ -1,0 +1,615 @@
+{
+ "date": "2026-11-04",
+ "title": "Maç gecesi kuralı genel değil: Show TV ve NOW yeni bölümde; Publicis LiveRamp'i aldı, Roku'da fiyat düştü",
+ "summary": "Fenerbahçe–Liverpool akşamında kanallar yeni bölümü korudu; salıdaki toplu ara bugünkü akışlarda yok. Ekim TÜFE beklentiyi aştı, gıda öne çıktı. Globalde Publicis LiveRamp'i kapattı, Roku'da gösterim arttı, fiyat düştü.",
+ "edition": "daily",
+ "window": "3 Kasım 2026 07:35 – 4 Kasım 2026 07:40 TSİ (ChatGPT araştırma kesimi); Claude teyidi 08:40-09:05",
+ "status": "published",
+ "review": {
+  "status": "approved_with_changes",
+  "reviewer": "Claude",
+  "reviewedAt": "2026-11-04T08:57+03:00",
+  "summary": "Yeniden teyit: TÜFE (Cumhuriyet, Habertürk), Roku rakamları (ppc.land, SEC kopyası Claude oturumunda açılamadı), Publicis kapanışı (Digiday; resmî açıklama Claude oturumunda açılamadı, 2,2 milyar dolar değeri Mayıs duyurusundan, Marketing Dive), Torku Banada (Memleket, Konhaber; yalnız aynı şirket metni), Pierre Cardin (MediaCat ve resmî koleksiyon sayfası açıldı), ITV vakası (ScreenVoice, egta), bu akşam akışı (GZT, Milli Gazete, İlkses), FB–Liverpool saati (İlkses), Trabzonspor–Freiburg saati (Sporx), Celtic–Beşiktaş saati (Milli Gazete). Değişiklik: Sagra 1936–PUDO haberi 30 Ekim bülteninde yayımlandığı ve ilk haber 28 Ekim olduğu için çıkarıldı (paket 3 Kasım gösteriyordu); Lupin sinyali dijital gündem öğesiyle aynı olduğu için birleştirildi; pakette TV ana kartı olmadığından çarşamba akışı karşılaştırma kartı eklendi; Roku kartına gösterim %33 ve fiyat -%7, Publicis kartına Digiday tarafsızlık tartışması, TÜFE kartına beklenti ve gıda katkısı, Torku kartına “dörtte birden üçte bire” beyanı eklendi; ITV vakasında fikrin ITV'ye ait olduğu, Cadbury'nin katılımcı olduğu netleştirildi; Reklam Kurulu sinyali eklendi; TV tablosunda üç dizinin TKR'si kaldırıldı. Kanal akışları, TRT 1, S Sport, Alessi ve adidas MediaCat sayfaları Claude oturumunda açılamadı (izin/zaman aşımı); bu bilgilerde ChatGPT kontrolü ve ikincil kaynak kullanıldı. Fenerbahçe–Baskonia ve Efes–Paris saatleri, Sultanlar Ligi derbisi yeniden teyit edilemedi."
+ },
+ "source": {
+  "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+ },
+ "articles": [
+  {
+   "id": "mac-gecesi-akis-ayristi",
+   "title": "Maç gecesi kuralı genel değil: Fenerbahçe–Liverpool akşamında Show TV ve NOW yeni bölümde",
+   "region": "Türkiye",
+   "category": "TV & Entertainment",
+   "layer": "Medya tüketimi ve izleyici",
+   "market": "Türkiye",
+   "eventDate": "4-5 Kasım 2026, 20.00 (planlanan yayın); karşılaştırma 3 Kasım",
+   "label": "Kanal teyitli",
+   "summary": "Fenerbahçe–Liverpool akşamında Show TV ve NOW yeni bölümle çıkıyor; salı gecesindeki toplu dizi arası bugünkü resmî akışlarda görünmüyor.",
+   "body": [
+    "4 Kasım 20.00: Sevdan Bir Ateş 9. bölüm (Show), Yeraltı yeni bölüm (NOW) akışta; TRT 1 maçı 20.45.",
+    "TV takviminde Kanal D ve Star'ın çarşamba dizisi yok; akışta Uzak Şehir tekrarı ve film var, yeni erteleme görünmüyor.",
+    "5 Kasım kanal kayıtları: Muhtemel Aşk 20. bölüm, Halef yeni bölüm, Güneşin Doğduğu Yer 8. bölüm fragmanı.",
+    "Karşılaştırma: 3 Kasım Galatasaray–Stuttgart akşamı Haysiyet, Anne Yarısı ve Mehmed yeni bölümsüzdü.",
+    "Üç dizinin 10 Kasım dönüşü kanal teyitsiz; Tuzlu Kahve'nin 3 Kasım yayını resmî arşivde doğrulanamadı."
+   ],
+   "impact": "Veri böyle: salı toplu ara vardı, çarşamba ve perşembe akışlarında aynı tablo görünmüyor. Bizim okumamız: “maç gecesi yeni bölüm yok” genel kural değil, gün ve kanal bazında veriliyor. Ajans için maç akşamı spotu tek tek kontrol ister; marka sabit takvim varsaymamalı; izleyici bu akşam maç dışında yeni dizi de bulabiliyor.",
+   "action": "Maç akşamı rezervasyonlarında yeni bölüm durumunu kanal bazında, yayın günü sabahı resmî akıştan doğrulayın.",
+   "counterView": "Akış niyettir, yayının gerçekleştiğini kanıtlamaz ve son dakika değişebilir. Bursada Bugün'ün Altuntaş'tan aktardığı 35-40 milyon TL bölüm maliyeti ve %60 doluluk ölçülmüş veri değildir; reklam gerekçesi hâlâ teyitsiz.",
+   "sources": [
+    {
+     "name": "Show TV • Yayın akışı",
+     "url": "https://www.showtv.com.tr/yayin-akisi",
+     "published": "4 Kasım 2026 ChatGPT kontrolü",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "NOW • Yayın akışı",
+     "url": "https://www.nowtv.com.tr/yayin-akisi",
+     "published": "4 Kasım 2026 ChatGPT kontrolü",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "GZT • Yeraltı 4 Kasım yeni bölüm",
+     "url": "https://www.gzt.com/gundem/yeralti-yeni-bolum-bugun-var-mi-yok-mu-4-kasim-yeralti-yeni-bolum-ne-zaman-yayinlanacak-saat-kacta-4275305",
+     "published": "2026-11-04 00:01",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Milli Gazete • Sevdan Bir Ateş 4 Kasım",
+     "url": "https://www.milligazete.com.tr/sevdan-bir-ates-bugun-yeni-bolumu-var-mi-yok-mu-4-kasim-carsamba-show-tv-yayin-akisi",
+     "published": "4 Kasım 2026 akışı haberi",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "İlkses • 4 Kasım TV yayın akışı",
+     "url": "https://ilkses.com.tr/genel/4-kasim-2026-carsamba-tv-yayin-akisi-bu-aksam-televizyonda-hangi-diziler-var-466556",
+     "published": "4 Kasım 2026 akışı haberi",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Bursada Bugün • Kanalların maç gecesi kararı (Altuntaş aktarımı)",
+     "url": "https://bursadabugun.com/haber/televizyon-kanallarindan-radikal-karar-yeni-donem-basliyor-1960804.html",
+     "published": "2026-11-03 10:08",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ]
+  },
+  {
+   "id": "pierre-cardin-yeralti-ticaret",
+   "title": "Pierre Cardin, Yeraltı karakterlerini eş zamanlı perakende koleksiyonuna taşıyor",
+   "region": "Türkiye",
+   "category": "Ajans & Marka",
+   "layer": "Marka ve kampanya",
+   "market": "Türkiye",
+   "eventDate": "3 Kasım 2026 (duyuru)",
+   "label": "Şirket açıklaması",
+   "summary": "Pierre Cardin Paris, Yeraltı karakterlerinden uyarlanan ürünleri yayınla eş zamanlı satışa sunan içerik-perakende modelini anlattı.",
+   "body": [
+    "3 Kasım: MediaCat, modeli Aydınlı Grup CMO'su Zeliha Şener'in açıklamasıyla aktardı; ortaklar NOW ve Medyapım.",
+    "Şirket anlatımı: Ürünler karakter dünyasından tasarlanıyor, yayın akışıyla eş zamanlı müşteriye sunuluyor.",
+    "Uraz Kaygılaroğlu'lu advertorial; lineer TV, sosyal medya, mağaza vitrini ve e-ticareti birleştiriyor.",
+    "Resmî Yeraltı X Pierre Cardin sayfası 144 ürün listeliyor; sayfa tarihsiz.",
+    "Satış, mağaza trafiği veya bütçe açıklanmadı; MediaCat metninde sponsorlu etiketi yok, dili şirket açıklaması."
+   ],
+   "impact": "Veri böyle: dizi koleksiyonu mağazada ve e-ticarette satışta, etkisi açıklanmamış. Bizim okumamız: entegrasyonun değeri görünürlüğün yanında ürünün o an bulunabilmesine bağlanıyor; bu yüzden dizinin yayın takvimi perakende takvimine de dönüşüyor. Tüketici için ekranda görülen ile satın alınan arasındaki mesafe kısalıyor.",
+   "action": "Sponsorluk anlaşmalarına bölüm ertelemesi durumunda stok, vitrin ve satış takvimini güncelleyen ortak süreç ekleyin.",
+   "counterView": "Bu bir şirket anlatımıdır; satış artışı kanıtı yok. “Sponsorluğun ötesinde” ifadesi modelin hedefi, ölçülmüş sonucu değil.",
+   "sources": [
+    {
+     "name": "MediaCat • Yeraltı entegrasyonu",
+     "url": "https://mediacat.com/pierre-cardin-paris-yeralti-dizisine-entegre-oluyor/",
+     "published": "2026-11-03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Pierre Cardin • Yeraltı koleksiyonu",
+     "url": "https://www.pierrecardin.com.tr/yeraltixpierrecardin/",
+     "published": "Tarihsiz; 2026-11-04 kontrol",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.mediacat.com/uploads/2026/11/Adsiz-Tasarim-7-1.jpg",
+    "alt": "Pierre Cardin Yeraltı kampanya görseli",
+    "credit": "Pierre Cardin / MediaCat",
+    "sourceUrl": "https://mediacat.com/pierre-cardin-paris-yeralti-dizisine-entegre-oluyor/"
+   }
+  },
+  {
+   "id": "publicis-liveramp-kapanis",
+   "title": "Publicis, LiveRamp'i aldı; tartışma artık veri altyapısının tarafsızlığında",
+   "region": "Global",
+   "category": "Dijital & AI",
+   "layer": "Platform ve ürün",
+   "market": "Global, ağırlıklı ABD",
+   "eventDate": "2 Kasım 2026 (kapanış)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "Publicis yaklaşık 2,2 milyar dolarlık LiveRamp satın almasını tamamladı; rakip gruplar alternatif kimlik çözümlerine yöneliyor.",
+   "body": [
+    "2 Kasım: Publicis, yaklaşık 2,2 milyar dolarlık LiveRamp satın almasının tamamlandığını açıkladı.",
+    "Vaat: LiveRamp veri iş birliğini Epsilon kimliğiyle birleştiren, müşterinin sahip olduğu yapay zekâ altyapısı.",
+    "Publicis'e göre FTC koşulları rakip erişimi, güvenlik duvarı ve bağımsız denetim gerektiriyor (Digiday).",
+    "Digiday: WPP ve Omnicom geri çekiliyor; WPP InfoSum'u öne çıkarıyor, Omnicom'un Acxiom'u Real ID'yi kuruyor.",
+    "LiveRamp'in yaklaşık 800 milyon dolarlık yıllık gelirinin yaklaşık %95'i ABD'den (Digiday)."
+   ],
+   "impact": "Veri böyle: pazarın bağımsız veri köprüsü artık bir ajans grubunun. Bizim okumamız: ajans tarafında kimlik ve ölçüm altyapısı tedarikçi seçimi, marka tarafında verinin kimde kaldığı sorusu öne çıkıyor. Türkiye etkisi sınırlı başlar, çünkü gelir büyük ölçüde ABD'de; asıl izlenecek şey global müşterilerin kararı.",
+   "action": "Global müşterilerde veri taşınabilirliği, rakip ajans erişimi ve bağımsız ölçüm hükümlerini sözleşmede kontrol edin.",
+   "counterView": "Müşteri kontrolü vaadi şirket beyanıdır, bağımsız kanıtı yok. Tersine, Havas'ın Kuzey Amerika'da LiveRamp'te kalacağı aktarılıyor ve üçüncü taraf veri ihtiyacı azalıyorsa tartışma abartılı olabilir.",
+   "sources": [
+    {
+     "name": "Publicis • LiveRamp acquisition closing",
+     "url": "https://www.publicisgroupe.com/en/news/press-releases/publicis-groupe-completes-liveramp-acquisition-launches-the-industry-s-first-plug-and-play-ai-growth-engine-that-clients-fully-own-and-control",
+     "published": "2026-11-02",
+     "country": "Fransa",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Digiday • Publicis'in LiveRamp'iyle kalmanın artıları ve eksileri",
+     "url": "https://digiday.com/media-buying/the-case-for-and-against-sticking-with-a-publicis-owned-liveramp",
+     "published": "2026-11-04",
+     "country": "ABD",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Marketing Dive • Publicis buys LiveRamp for $2.2B (Mayıs duyurusu)",
+     "url": "https://marketingdive.com/news/publicis-buys-liveramp-for-22b-to-improve-ai-agent-sophistication/820455/",
+     "published": "2026-05-18",
+     "country": "ABD",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Marketing-Interactive • Publicis completes LiveRamp acquisition",
+     "url": "https://www.marketing-interactive.com/publicis-groupe-completes-liveramp-acquisition-launches-ai-growth-engine",
+     "published": "2026-11-03",
+     "country": "Singapur",
+     "language": "İngilizce"
+    }
+   ]
+  },
+  {
+   "id": "roku-q3-reklam",
+   "title": "Roku'da reklam geliri yüzde 23 arttı; gösterim başına fiyat yüzde 7 düştü",
+   "region": "Global",
+   "category": "Dijital & AI",
+   "layer": "Reklam pazarı ve para",
+   "market": "ABD ağırlıklı, uluslararası operasyonlar",
+   "eventDate": "2 Kasım 2026 (2026 üçüncü çeyrek sonuçları)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "Roku üçüncü çeyrekte 727,4 milyon dolar reklam geliri açıkladı; gösterim %33 artarken ortalama fiyat %7 geriledi.",
+   "body": [
+    "727,4 milyon dolar: Roku'nun üçüncü çeyrek reklam geliri; yıllık artış %23.",
+    "Video reklam gösterimi %33 arttı; gösterim başına ortalama fiyat %7 düştü (ppc.land aktarımı).",
+    "Roku fiyat düşüşünü ürün ve ülke karışımındaki değişime bağlıyor.",
+    "Video içi gösterimlerin %80'inden fazlası programatik teslim edildi; metrik çeyrekler arasında doğrudan karşılaştırılamıyor.",
+    "Siyasi reklam 2024 başkanlık dönemi çeyreğini aştı, tutar yok; Fox satın alması ABD rekabet incelemesinde."
+   ],
+   "impact": "Veri böyle: büyümeyi fiyat değil hacim taşıdı. Bizim okumamız: CTV'de arz arttıkça satın alma avantajı alıcıya geçebilir, ama ucuz gösterim etkili gösterim demek değildir. Ajans için frekans ve tekil erişim kontrolü, marka için gösterim başı maliyetin dışında sonuç ölçümü önem kazanıyor.",
+   "action": "CTV tekliflerini gösterim fiyatıyla değil tekil erişim, frekans kontrolü ve veri maliyetiyle birlikte karşılaştırın.",
+   "counterView": "Şirket denetlenmemiş çeyrek verisi; fiyat düşüşü talep zayıflığı değil, ülke ve ürün karışımı olabilir. Siyasi dönem tek seferliktir ve ABD verisi Türkiye CTV pazarına genellenemez.",
+   "sources": [
+    {
+     "name": "Roku • Q3 2026 shareholder letter, SEC",
+     "url": "https://www.sec.gov/Archives/edgar/data/1428439/000162828026068877/a04fy2026q3exhibit991.htm",
+     "published": "2026-11-02",
+     "country": "ABD",
+     "language": "İngilizce"
+    },
+    {
+     "name": "PPC Land • Roku ad revenue gains 23%",
+     "url": "https://ppc.land/roku-ad-revenue-gains-23-to-727m-as-average-impression-price-drops-7/",
+     "published": "Kasım 2026",
+     "country": "İspanya",
+     "language": "İngilizce"
+    }
+   ]
+  },
+  {
+   "id": "tuik-ekim-tufe",
+   "title": "Ekim TÜFE beklentiyi aştı: aylık yüzde 2,58, yıllık yüzde 29,77",
+   "region": "Türkiye",
+   "category": "Ölçüm & Araştırma",
+   "layer": "Tüketici ve ekonomi",
+   "market": "Türkiye",
+   "eventDate": "3 Kasım 2026 (Ekim verisi)",
+   "summary": "TÜİK'e göre Ekim'de tüketici fiyatları aylık %2,58, yıllık %29,77 arttı; yıllık orandaki dört aylık düşüş durdu.",
+   "body": [
+    "Aylık %2,58, yıllık %29,77: TÜİK'in Ekim 2026 TÜFE verisi.",
+    "Beklenti aylık %2,20, yıllık %29,28 idi (AA Finans anketi, Cumhuriyet aktarımı); Eylül yıllık oranı %29,73.",
+    "Gıda ve alkolsüz içecek aylık %3,50 artışla en yüksek katkıyı verdi: 0,84 puan (Habertürk).",
+    "Aylık artışta yeşil yapraklı sebze %71,79, taze meyve %27,82 ile öne çıktı (Habertürk).",
+    "B çekirdek endeksi aylık %2, yıllık %28,46; 174 alt gruptan 134'ü yükseldi (Habertürk)."
+   ],
+   "impact": "Veri böyle: aylık artış beklentinin üzerinde, gıda en büyük kalem. Bizim okumamız: Kasım planlarında bütçe ve ciro artışı reel talep sanılmamalı; marka tarafında fiyat ve gramaj kararları, tüketici tarafında sepet küçülmesi ayrıca izlenmeli.",
+   "action": "Kasım planında nominal büyüme hedeflerini fiyat ve hacim bileşenlerine ayırarak değerlendirin.",
+   "counterView": "Genel TÜFE medya fiyat endeksi değildir. Gıda artışını taze ürünler sürüklüyor; bu, çikolata veya paketli atıştırmalık enflasyonu anlamına gelmez ve mevsimsel olabilir.",
+   "sources": [
+    {
+     "name": "TÜİK • Haber bültenleri, Ekim TÜFE",
+     "url": "https://www.tuik.gov.tr/Home/HaberBultenleriPartial",
+     "published": "2026-11-03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Cumhuriyet • TÜİK ekim ayı enflasyonu",
+     "url": "https://www.cumhuriyet.com.tr/ekonomi/tuik-ekim-ayi-enflasyonunu-acikladi-2552715",
+     "published": "2026-11-03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Habertürk • Ekim enflasyonu açıklandı",
+     "url": "https://www.haberturk.com/ekonomi/son-dakika-ekim-enflasyonu-aciklandi-3924495",
+     "published": "2026-11-03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ]
+  },
+  {
+   "id": "torku-banada-biskuvi",
+   "title": "Torku, Banada markasını bisküviye taşıdı; şirketten pazar payı iddiası",
+   "region": "Türkiye",
+   "category": "Rekabet",
+   "layer": "Marka ve kampanya",
+   "market": "Türkiye",
+   "eventDate": "3 Kasım 2026 (duyuru)",
+   "label": "Şirket açıklaması",
+   "summary": "Konya Şeker, Torku Banada Bisküvi'nin raflarda olduğunu duyurdu; şirket cam kavanoz kategorisinde her üç satıştan birini Banada'ya bağlıyor.",
+   "body": [
+    "3 Kasım: Şirket Konya Şeker, marka Torku Banada; yeni ürün Banada Bisküvi raflarda.",
+    "Ürün, iki bisküvi arasında Banada kreması; şirkete göre bisküvide %5, kremada %13,5 fındık var.",
+    "Şirket beyanı: Cam kavanoz krem çikolatada geçen yıl her dört, bu yıl her üç üründen biri Banada.",
+    "Payın veri kaynağı, dönemi ve adet veya değer temeli açıklanmadı.",
+    "Yerel haberler aynı şirket metnini aktarıyor; bağımsız doğrulama değiller."
+   ],
+   "impact": "Veri böyle: yeni format raflarda, pazar payı şirket beyanı. Bizim okumamız: krem çikolata markası bisküvi rafına geçerek kategori sınırını zorluyor. Rakipler için soru, marka bilinirliğinin yeni formata taşınıp taşınmadığı; tüketici için bilinen tat daha düşük bir deneme bedeliyle sunuluyor olabilir.",
+   "action": "Banada Bisküvi'nin dağıtım yaygınlığını, raf yerini ve iletişim başlangıcını izleyin; pay iddiasını bağımsız panelle sınayın.",
+   "counterView": "Duyuru ulusal dağıtımı veya kampanya bütçesini kanıtlamıyor. Cam kavanoz alt segmenti tüm sürülebilir çikolata pazarı değildir; “adet” payı değer payından farklı olabilir.",
+   "sources": [
+    {
+     "name": "Konya Şeker • Banada zirveye oynuyor",
+     "url": "https://www.konyaseker.com.tr/tr/haber/detay/12398/torku-banada-zirveye-oynuyor-satilan-her-uc-u",
+     "published": "2026-11-03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Konya Şeker • Tarihli haber listesi",
+     "url": "https://www.konyaseker.com.tr/tr/haber/liste/507/haberler",
+     "published": "2026-11-03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Memleket • Torku Banada pazar payı",
+     "url": "https://www.memleket.com.tr/torku-banada-pazar-payini-buyuttu-yeni-urununu-satisa-sundu-2366536h.htm",
+     "published": "2026-11-03 14:30",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Konhaber • Torku Banada zirveye oynuyor",
+     "url": "https://www.konhaber.com/guncel/torku_banada_zirveye_oynuyor_satilan_her_uc_urunden_biri_banada-2012699h",
+     "published": "2026-11-03 13:19",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://konyaseker.com.tr/Upload/Contents/6972000_BANADA.png",
+    "alt": "Torku Banada ürün görseli",
+    "credit": "Konya Şeker",
+    "sourceUrl": "https://www.konyaseker.com.tr/tr/haber/detay/12398/torku-banada-zirveye-oynuyor-satilan-her-uc-u"
+   }
+  },
+  {
+   "id": "itv-sessiz-reklam-kusagi-2023",
+   "title": "ITV'nin sessiz reklam kuşağı: fikir filmde değil, kuşağın kendisinde",
+   "region": "Global",
+   "category": "Yaratıcı Mecra",
+   "layer": "Marka ve kampanya",
+   "market": "Birleşik Krallık",
+   "eventDate": "Mayıs 2023 (2-8 Mayıs, İşitme Engelliler Farkındalık Haftası); arşiv vaka",
+   "label": "Arşiv vaka",
+   "summary": "ITV, Cadbury'nin de katıldığı reklam kuşağını tüm izleyiciye sessiz yayımlayarak erişilebilirliği kuşağın kuralına dönüştürdü.",
+   "body": [
+    "Mayıs 2023: ITV, Loose Women'ın erişilebilir özel bölümünde tüm izleyiciye sessiz reklam kuşağı yayımladı.",
+    "Katılanlar Cadbury, Aldi, Boots Hearingcare, McCain ve HSL; uygulama ITV Commercial eliyle yürüdü.",
+    "Filmler altyazı ve işaret diliyle erişilebilir kılındı; ITVX yayınında ekranda işaret dili çevirmeni vardı.",
+    "ITV sonra Code of Silence dizisinde 10 reklamverenle sessiz kuşak yaptı (Media Week Awards finalist sayfası, ITV beyanı).",
+    "2023 uygulaması için izlenme, dikkat veya satış sonucu yayımlanmadı."
+   ],
+   "impact": "Neden çalıştı: sessizlik tek filmin fikri değil, bütün kuşağın kuralı oldu ve izleyici değişimi anında fark etti. Program bağlamı da fikri taşıdı, çünkü bölüm erişilebilirlik üzerine kuruluydu. Türkiye uyarlaması: uygun bir programla, işitme engelli danışmanlarla tasarlanan altyazılı ve işaret dilli ortak kuşak. Etki yorumu bağlama dayanır; ölçülmüş sonuç yok.",
+   "action": "Çikolata kategorisinde birkaç reklamverenli ortak kuşak için kanala erişilebilirlik fikri götürün. Tartışma sorusu: bu kuşak fikri hangi çikolata alt kategorisine uyarlanabilir?",
+   "counterView": "Sessizliği deneyimlemek işitme engelli yaşamını temsil etmez ve fikir araçsallaşma riski taşır. Kuşak koordinasyonu maliyetlidir; 2023 için dikkat veya satış artışı yayımlanmadı.",
+   "sources": [
+    {
+     "name": "Thinkbox • Accessible TV advertising",
+     "url": "https://www.thinkbox.tv/how-to-use-tv/tvs-positive-impact/accessible-tv-advertising-on-uk-tv",
+     "published": "2026-06-15; güncelleme 2026-06-17",
+     "country": "Birleşik Krallık",
+     "language": "İngilizce"
+    },
+    {
+     "name": "ScreenVoice / egta • ITV silent ad break",
+     "url": "https://www.screenvoice.cz/en/case-studies-en/egtabite-430-itvs-silent-ad-break-as-part-of-the-deaf-awareness-week-2/",
+     "published": "2023-05-26",
+     "country": "Çekya",
+     "language": "İngilizce"
+    },
+    {
+     "name": "egta • ITV silent ad break",
+     "url": "https://www.egta.com/?p=2871",
+     "published": "2023-05-25",
+     "country": "Belçika",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Media Week Awards • Code of Silence: The Silent Ad Break",
+     "url": "https://www.mediaweekawards.co.uk/finalists/code-of-silence-the-silent-ad-break-o6htvv0o092bvww",
+     "published": "Tarih belirtilmiyor; 2026 ödül sayfası",
+     "country": "Birleşik Krallık",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://www.screenvoice.cz/wp-content/uploads/2023/05/aaa.png",
+    "alt": "Loose Women stüdyosunda erişilebilir yayın",
+    "credit": "ITV / ScreenVoice",
+    "sourceUrl": "https://www.screenvoice.cz/en/case-studies-en/egtabite-430-itvs-silent-ad-break-as-part-of-the-deaf-awareness-week-2/"
+   }
+  }
+ ],
+ "signals": [
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Türkiye",
+   "text": "Reklam Kurulu, Antalya'da bir ayakkabı mağazasının “2. ürüne %50 indirim” tabelalarını yanıltıcı buldu; 108.370 TL ceza ve durdurma kararı verdi.",
+   "source": "GZT",
+   "url": "https://gzt.com/ekonomi/ticaret-bakanligindan-indirim-cezasi-2-urune-yuzde-50-indirim-reklamina-108-bin-tl-4275029",
+   "published": "2026-11-03"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Türkiye",
+   "text": "Alessi'nin Türkiye distribütörü Mokka Labs, 360 derece iletişim için The Third Creative Club ile anlaştı; medya satın alma kapsamı belirtilmedi.",
+   "source": "MediaCat",
+   "url": "https://mediacat.com/the-third-creative-cluba-yeni-musteri-2/",
+   "published": "2026-11-03"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Türkiye",
+   "text": "Gülistan Naycı 1 Kasım'da adidas Türkiye Kıdemli Marka Direktörü oldu; duyuru 3 Kasım'da yayımlandı.",
+   "source": "MediaCat",
+   "url": "https://mediacat.com/adidas-turkiyede-ust-duzey-atama-2/",
+   "published": "2026-11-03"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Türkiye",
+   "text": "Effie Europe 2026 kısa listesinde Türkiye'den Castrol, Puffy ve Turkcell Tumbara kampanyaları yer aldı; bu üçü toplam Türkiye finalist sayısı değildir.",
+   "source": "Effie Europe",
+   "url": "https://www.effie-europe.com/2026/10/29/effie-europe-shortlist-2026/",
+   "published": "2026-10-29"
+  }
+ ],
+ "attitudeRadar": {
+  "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+  "items": [
+   {
+    "tag": "özel gün akışı",
+    "text": "Salı maç gecesi dizilerde ara vardı, çarşamba akışlarında yeni bölüm sürüyor; prime time takvimi kanal ve gün bazında okunmalı, genel kural sanılmamalı.",
+    "basis": "İşaret",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "mac-gecesi-akis-ayristi"
+    ]
+   },
+   {
+    "tag": "CTV fiyatı",
+    "text": "Roku'da gösterim %33 artarken gösterim başı fiyat %7 düştü; tek şirket ve ABD ağırlıklı veri, nedeni ülke ve ürün karışımı olabilir.",
+    "basis": "Veri",
+    "recurrence": "Yeni",
+    "refs": [
+     "roku-q3-reklam"
+    ]
+   },
+   {
+    "tag": "ajans konsolidasyonu",
+    "text": "LiveRamp'in Publicis'e geçmesiyle rakip gruplar kendi kimlik çözümlerine yöneliyor; veri altyapısı tarafsızlığı tedarik gündemine giriyor.",
+    "basis": "İşaret",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "publicis-liveramp-kapanis"
+    ]
+   },
+   {
+    "tag": "içerikten rafa",
+    "text": "Pierre Cardin–Yeraltı örneğinde dizi ürünü yayınla eş zamanlı satışa çıkıyor; tek şirket anlatımı, satış etkisi açıklanmadı.",
+    "basis": "İşaret",
+    "recurrence": "Tek günlük olabilir",
+    "refs": [
+     "pierre-cardin-yeralti-ticaret"
+    ]
+   }
+  ]
+ },
+ "matchesWindow": "4-8 Kasım 2026",
+ "matches": [
+  {
+   "date": "2026-11-04",
+   "time": "19:30",
+   "sport": "Basketbol",
+   "competition": "EuroCup",
+   "home": "Türk Telekom",
+   "away": "Skyliners Frankfurt",
+   "broadcaster": null,
+   "source": "https://mobilet.com/tr/event/turk-telekom-skyliners-frankfurt-56854/",
+   "note": "Mobilet resmî bilet sayfası 4 Kasım 19.30'u doğruluyor. TRT Spor sayfası 403; ikincil yayın listesi tek başına yeterli sayılmadı."
+  },
+  {
+   "date": "2026-11-04",
+   "time": "20:00",
+   "sport": "Basketbol",
+   "competition": "Basketbol Şampiyonlar Ligi",
+   "home": "Legia Varşova",
+   "away": "Galatasaray MCT Technic",
+   "broadcaster": null,
+   "source": "https://www.galatasaray.org/haber/basketbol/erkek-basketbol/yukatel-denizli-basket-74-87-galatasaray-mct-technic/61278",
+   "note": "Kulübün 31 Ekim haberi 4 Kasım 20.00 TSİ'yi doğruluyor. İkincil listelerde TRT Spor Yıldız/YouTube çelişkisi var; yayıncı null bırakıldı."
+  },
+  {
+   "date": "2026-11-04",
+   "time": "20:45",
+   "sport": "Futbol",
+   "competition": "UEFA Şampiyonlar Ligi",
+   "home": "Fenerbahçe",
+   "away": "Liverpool",
+   "broadcaster": "TRT 1",
+   "source": "https://www.trt1.com.tr/",
+   "note": "TRT 1 ana sayfası (ChatGPT kontrolü); İlkses akışı 20.45, 20.00 maç önü; şifresiz."
+  },
+  {
+   "date": "2026-11-05",
+   "time": "20:15",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Anadolu Efes",
+   "away": "Paris Basketball",
+   "broadcaster": "S Sport 2 / S Sport Plus",
+   "source": "https://www.anadoluefessk.org/tr",
+   "note": "Kulüp 5 Kasım 20.15; S Sport Plus akışında 19.30 maç önü, 20.15 karşılaşma. https://www.ssportplus.com/yayin-akisi/"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "20:45",
+   "sport": "Futbol",
+   "competition": "UEFA Konferans Ligi",
+   "home": "Trabzonspor",
+   "away": "Freiburg",
+   "broadcaster": "TRT 1",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/02aa-21f10eaba7bb-44b3e170c431-1000--conference-league-matchday-3-briefing-trabzonspor-monaco-p/",
+   "note": "UEFA 18.45 CET = 20.45 TSİ; TRT 1 duyurusu ChatGPT kontrolü; saat Sporx ile teyitli."
+  },
+  {
+   "date": "2026-11-05",
+   "time": "21:00",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Fenerbahçe",
+   "away": "Baskonia",
+   "broadcaster": "S Sport / S Sport Plus",
+   "source": "https://ssrprod.passo.com.tr/en/event/fenerbahce-tarfin-kosner-baskonia-basket-mac-bileti/13612319",
+   "note": "Passo ve S Sport Plus 21.00 (ChatGPT çapraz kontrolü); 20.15 maç önü. Claude ikinci kez doğrulayamadı."
+  },
+  {
+   "date": "2026-11-05",
+   "time": "23:00",
+   "sport": "Futbol",
+   "competition": "UEFA Avrupa Ligi",
+   "home": "Celtic",
+   "away": "Beşiktaş",
+   "broadcaster": "TRT 1",
+   "source": "https://www.trt1.com.tr/",
+   "note": "TRT 1 ana sayfası 23.00 (ChatGPT kontrolü); Milli Gazete saat aynı, yayıncıyı kesin yazmıyor."
+  },
+  {
+   "date": "2026-11-06",
+   "time": "20:00",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Beşiktaş",
+   "away": "Zalgiris",
+   "broadcaster": "S Sport Plus",
+   "source": "https://bjk.com.tr/tr/mac_merkezi/canli/25826",
+   "note": "Kulüp 6 Kasım 20.00; S Sport Plus 19.15 maç önü, 20.00 karşılaşma. https://www.ssportplus.com/yayin-akisi/"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "14:00",
+   "sport": "Kadın voleybolu",
+   "competition": "Sultanlar Ligi",
+   "home": "Galatasaray Daikin",
+   "away": "Beşiktaş",
+   "broadcaster": "TRT Spor Yıldız",
+   "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+   "note": "TVF programında saat ve yayıncı mevcut; derbi.",
+   "tags": [
+    "Derbi"
+   ]
+  }
+ ],
+ "social": {
+  "window": "4 Kasım 2026 sabah gözlemi; liste dönemleri öğelerde",
+  "note": "Google arama talebini, Netflix ülke içi haftalık sıralamayı, Apple podcast keşif/sıralama yüzeyini gösterir. Bunlar birbirine eşdeğer erişim veya reklam dikkati ölçümleri değildir. Sayısal yüksek video izlenmesi doğrulanamadı.",
+  "items": [
+   {
+    "platform": "Google",
+    "type": "Arama trendi",
+    "title": "Galatasaray–VfB Stuttgart puan durumu aramaları",
+    "metric": "Google Trends: 100 bin+ arama; +%1000 artış (Türkiye, son 24 saat)",
+    "whyItMatters": "Maç sonrası arama ilgisi, canlı yayın sonrası içerik ve arama iletişiminin zamanlamasını test etmek için sinyal verir.",
+    "url": "https://trends.google.com/trending?geo=TR",
+    "source": "Google Trends",
+    "published": "2026-11-04 gözlemi; son 24 saat",
+    "market": "Türkiye"
+   },
+   {
+    "platform": "Netflix",
+    "type": "Top 10",
+    "rank": 2,
+    "title": "Lupin: 4. Kısım",
+    "whyItMatters": "Önceki kısımlar da 4., 5. ve 9. sırada; katalog yeniden keşfediliyor, ama sıralama reklama dikkat kanıtı değil.",
+    "url": "https://www.netflix.com/tudum/top10/turkey/tv",
+    "source": "Netflix Tudum",
+    "published": "26 Ekim–1 Kasım 2026",
+    "market": "Türkiye"
+   },
+   {
+    "platform": "Apple Podcasts",
+    "type": "Öne çıkan içerik",
+    "title": "Merdiven Altı Terapi: Margarin Fırçasının Faydaları",
+    "whyItMatters": "Açık reklam bildirimi ve içerik özelindeki indirim kodu, podcast sponsorluğunda yanıt takibi yapılabilen bir uygulama örneği.",
+    "url": "https://podcasts.apple.com/tr/podcast/margarin-f%C4%B1r%C3%A7as%C4%B1n%C4%B1n-faydalar%C4%B1/id1497612287?i=1000799402207",
+    "source": "Apple Podcasts Türkiye",
+    "published": "2026-11-02 15:07 TSİ; 4 Kasım keşif yüzeyinde gözlendi",
+    "market": "Türkiye"
+   }
+  ]
+ },
+ "highlights": [
+  "Fenerbahçe–Liverpool akşamında Show TV ve NOW yeni bölümle çıkıyor; salıdaki toplu ara bugün yok.",
+  "Ekim TÜFE aylık %2,58 ile beklentinin üzerinde; en yüksek katkı gıdadan.",
+  "Publicis LiveRamp'i tamamladı; Roku'da gösterim %33 arttı, gösterim başı fiyat %7 düştü."
+ ],
+ "watchlist": [
+  "4-5 Kasım akışlarının fiilen yayınlanıp yayınlanmadığı (Yeraltı, Sevdan Bir Ateş, Halef, Muhtemel Aşk, Güneşin Doğduğu Yer).",
+  "Haysiyet, Anne Yarısı ve Mehmed'in 10 Kasım'da yeni bölümle dönüşü; Mehmed'in saati.",
+  "Kızılcık Şerbeti 145. bölüm 6 Kasım; Başkalarının Hayatı 7 Kasım tarihli teyit.",
+  "NOW'un 9 Kasım pazartesi 20.00 yerine koyacağı yapım.",
+  "Ekim reklam geliri iddiası için ölçülmüş pazar verisi veya kanal açıklaması.",
+  "LiveRamp'te WPP, Omnicom ve Havas'ın Türkiye'yi etkileyebilecek global kararları.",
+  "Banada Bisküvi'nin zincir market bulunurluğu ve iletişim başlangıcı.",
+  "Platformların Türkiye'de 15-18 yaş reklam hedeflemesi; Meta Commercial Terms 20 Kasım."
+ ],
+ "limitations": [
+  "Yedi kanalın resmî akışı, TRT 1 ve S Sport Plus Claude oturumunda açılamadı (izin/zaman aşımı). TV ve maç bilgileri ChatGPT'nin resmî kontrolü ile ikincil kaynaklardan karşılaştırıldı; çarşamba yayınları henüz gerçekleşmedi.",
+  "Tuzlu Kahve'nin 3 Kasım yayını resmî arşivde doğrulanamadı; GZT yayınlanmadığını yazıyor, Star arşivi ilk yayın tarihi göstermiyor. Reklam geliri ve doluluk iddiası hâlâ tek kaynaklı.",
+  "Altı şirketin resmî sayfası paket araştırmasında okunamadı: FİSKOBİRLİK, NESTLÉ Türkiye, DOĞKAR, FERRERO Türkiye, ALTINKILIÇLAR, LİDER ÇİKOLATA. Bu şirketlerde yeni gelişme olmadığı kesinleştirilemez.",
+  "TBF, EuroLeague, TRT Spor, CEV ve beIN BSL fikstür sayfaları paket araştırmasında açılamadı; Türk Telekom–Frankfurt ve Legia–Galatasaray yayıncıları teyitsiz. BSL ve kadın voleybolunda eksiksizlik iddiası yok.",
+  "Dijital gündemde Spotify, YouTube ve TikTok listeleri okunamadı; yüksek video izlenme sayısı yok. Lupin bilgisi tek öğede birleştirildi.",
+  "Guru kontrolünde yeni çalışma doğrulanmadı, panel çıkmıyor. Sinema çarşamba kapsam dışı. Reyting araması yapılmadı.",
+  "7 ana haberin 3'ünde görsel var. Global haberler ABD ve Avrupa ağırlıklı; EGTA sayfasının ayrıntıları ve ITV sonuç verisi bağımsız doğrulanmadı."
+ ],
+ "corrections": []
+}

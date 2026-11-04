@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "note": "Kayıtlar 22 Ekim 2026'da kanalların resmî yayın akışı sayfalarından gün gün yeniden kontrol edildi. Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -27,7 +27,7 @@
    "title": "Var Mısın Yok Musun",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.atv.com.tr/var-misin-yok-musun"
   },
   {
@@ -36,7 +36,7 @@
    "title": "Var Mısın Yok Musun",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-10-22",
+   "checked": "2026-11-04",
    "source": "https://www.atv.com.tr/yayin-akisi"
   },
   {
@@ -45,7 +45,7 @@
    "title": "Güneşin Doğduğu Yer",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.atv.com.tr/gunesin-dogdugu-yer"
   },
   {
@@ -87,11 +87,11 @@
    "channel": "KANAL D",
    "day": "Salı",
    "title": "Haysiyet",
-   "status": "kanal-teyitli",
+   "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-03",
-   "source": "https://www.kanald.com.tr/yayin-akisi",
-   "air": "tkr"
+   "checked": "2026-11-04",
+   "source": "https://www.kanald.com.tr/yayin-akisi/sali",
+   "note": "10 Kasım yeni bölüm teyidi bekleniyor"
   },
   {
    "channel": "KANAL D",
@@ -161,7 +161,7 @@
    "title": "Sevdiğim Sensin",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.startv.com.tr/dizi/sevdigim-sensin"
   },
   {
@@ -170,7 +170,7 @@
    "title": "Başkalarının Hayatı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.startv.com.tr/dizi/baskalarinin-hayati"
   },
   {
@@ -179,7 +179,7 @@
    "title": "Sevdan Bir Ateş",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -188,7 +188,7 @@
    "title": "Muhtemel Aşk",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -197,7 +197,7 @@
    "title": "Kızılcık Şerbeti",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -206,7 +206,7 @@
    "title": "Güldür Güldür Show",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -231,11 +231,11 @@
    "channel": "NOW",
    "day": "Salı",
    "title": "Anne Yarısı",
-   "status": "kanal-teyitli",
+   "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-03",
+   "checked": "2026-11-04",
    "source": "https://www.nowtv.com.tr/yayin-akisi",
-   "air": "tkr"
+   "note": "10 Kasım yeni bölüm teyidi bekleniyor"
   },
   {
    "channel": "NOW",
@@ -243,7 +243,7 @@
    "title": "Yeraltı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
@@ -252,7 +252,7 @@
    "title": "Halef: Köklerin Çağrısı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
@@ -285,11 +285,10 @@
    "channel": "TRT 1",
    "day": "Salı",
    "title": "Mehmed: Fetihler Sultanı",
-   "status": "kanal-teyitli",
-   "time": "23.00",
-   "checked": "2026-11-03",
-   "source": "https://www.trt1.com.tr/yayin-akisi",
-   "air": "tkr"
+   "status": "belirsiz",
+   "checked": "2026-11-04",
+   "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
+   "note": "10 Kasım yeni bölüm teyidi bekleniyor"
   },
   {
    "channel": "TRT 1",
@@ -324,7 +323,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi"
   },
   {
@@ -333,7 +332,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/03-11-2026"
   },
   {
@@ -342,7 +341,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/04-11-2026"
   },
   {
@@ -351,7 +350,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/05-11-2026"
   },
   {
@@ -360,7 +359,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/06-11-2026"
   },
   {
@@ -369,7 +368,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/07-11-2026"
   },
   {
@@ -378,7 +377,7 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/08-11-2026"
   }
  ]
