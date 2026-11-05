@@ -1,0 +1,571 @@
+{
+  "date": "2026-11-05",
+  "title": "Maç gecesi yeni bölüm sürüyor; Criteo'da bütçe büyüdü gelir düştü; Trendyol Go, Uber Eats oluyor",
+  "summary": "Bu akşam beş kanal TRT 1'in çift maçına karşı yeni bölümle çıkıyor. ETİ TRUBAR ilk Türkiye filmini gösterdi, Trendyol Go yeşile geçiyor. Globalde Criteo'da harcama ile gelir ayrıştı, JCDecaux'da dijital pay %45'i aştı.",
+  "edition": "daily",
+  "window": "4 Kasım 2026 07:40 – 5 Kasım 2026 07:41 TSİ (ChatGPT araştırma kesimi); Claude teyidi 08:40-09:05",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-05T09:02+03:00",
+    "summary": "Yeniden teyit: ETİ TRUBAR (Foreks'te ETİ açıklaması, Ajansgiller, Ekonomi Politikası), Trendyol Go–Uber Eats (ShiftDelete, Bisektör; aynı bülten metni), Criteo rakamları (TradingView'daki PR Newswire kopyası), JCDecaux rakamları (PPC Land), Yaratıcılık raporu (MediaCat açıldı), Felis (MediaCat), Snickers 500 bin (Digital Strategy Consulting), Trabzonspor–Freiburg ve Celtic–Beşiktaş saat/yayıncı (Sporx, Habertürk, İlkses), Efes–Paris saati (TRT Spor) ve yayıncısı (Habertürk, Spor Ekranı), Fenerbahçe–Baskonia saati (Habertürk, Fotomaç), bu akşamki akış (İlkses). Değişiklik: Trendyol Go–Uber Eats sinyalden ana karta alındı, ajans ve Uber satın alma arka planı eklendi; TV kartı çarşamba arşivinden perşembe akşamı tablosuna çevrildi (beş kanal yeni bölüm, Kanal D tekrar, TRT 1 çift maç); ETİ kartına Çırağan tanıtımı, 173 milyon dolar ve ETİ'nin tonaj beyanı eklendi; Criteo kartına TAC hariç katkı, Retail Media geliri ve Q4 beklentisi, JCDecaux kartına segment farkı ve Q4 beklentisi eklendi; raporda %54/%37 ifadesi kaynağa göre düzeltildi, %41/%50/%68/%43 eklendi; Felis sinyali eklendi; maç notlarındaki yinelenen medya etkisi yorumu çıkarıldı; TV tablosunda iki kayıt işlendi. Yedi kanal akışından denenen altısı (TRT 1, Kanal D, Show, ATV, NOW, Star), Criteo, JCDecaux, Ad Just Brand, Patron Rehberi ve Marketing Türkiye alt adresleri Claude oturumunda açılamadı (izin/zaman aşımı); bu bilgilerde ChatGPT kontrolü ve ikincil kaynak kullanıldı. Kanal D'deki TEKRAR notu, Reddit ve Google Kanada yalnız ChatGPT kontrolüne dayanıyor; Beşiktaş–Zalgiris ve voleybol derbisi yeniden teyit edilemedi."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "persembe-mac-gecesi-yeni-bolum",
+      "title": "Maç gecesi yeni bölüm sürüyor: bu akşam beş kanal TRT 1'in çift maçının karşısında",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "4-5 Kasım 2026 (5 Kasım akşamı planlanan yayın)",
+      "label": "Kanal teyitli",
+      "summary": "Çarşamba bölümleri arşive düştü; perşembe akışında beş kanal yeni bölümle çıkıyor, Kanal D tekrarda, TRT 1'de iki Avrupa maçı var.",
+      "body": [
+        "4 Kasım: Sevdan Bir Ateş 9. ve Yeraltı 21. tam bölüm resmî arşivde; arşiv ilk yayın saatini göstermiyor.",
+        "5 Kasım 20.00 yeni bölüm planı: Muhtemel Aşk 20, Halef 41, Güneşin Doğduğu Yer 8, Sevdiğim Sensin, MasterChef.",
+        "Kanal D 20.00'de Daha 17'yi tekrar olarak listeliyor; kanalın perşembe için yeni dizisi takvimde yok.",
+        "TRT 1 akşamı: 20.45 Trabzonspor–Freiburg, 23.00 Celtic–Beşiktaş; ikisi de şifresiz.",
+        "Karşılaştırma: 3 Kasım salı Haysiyet, Anne Yarısı ve Mehmed yeni bölümsüzdü; 10 Kasım dönüşleri hâlâ teyitsiz."
+      ],
+      "impact": "Veri böyle: salı toplu ara vardı, çarşamba ve perşembe kanallar yeni bölümü korudu. Bizim okumamız: ara kararı yalnız maç takvimine değil, güne ve kanala da bağlı görünüyor. Ajans için aynı saatte şifresiz futbol ve yeni dizi yan yana; marka sabit takvim varsaymamalı; izleyici bu akşam iki güçlü seçenek görüyor.",
+      "action": "Perşembe rezervasyonlarında yeni bölüm ve tekrar durumunu kanal bazında doğrulayın, Kanal D tekrar kuşağını ayrı değerlendirin.",
+      "counterView": "Akış niyettir ve son dakika değişebilir; arşiv ilk yayın tarihini kanıtlamaz. Çarşamba ve perşembe tablosu talep sinyali değil, önceden çekilmiş bölüm takvimi de olabilir; iki günden kural çıkmaz.",
+      "sources": [
+        {
+          "name": "Show TV • 9. bölüm",
+          "url": "https://www.showtv.com.tr/dizi/tum_bolumler/sevdan-bir-ates-sezon-1-bolum-9-izle/135860",
+          "published": "Tarihsiz arşiv; 2026-11-05 kontrol",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "NOW • Yeraltı arşivi",
+          "url": "https://www.nowtv.com.tr/Yeralti/izle",
+          "published": "Tarihsiz arşiv; 2026-11-05 kontrol",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Kanal D • 5 Kasım akışı",
+          "url": "https://www.kanald.com.tr/yayin-akisi",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "TRT 1 • 5 Kasım akışı",
+          "url": "https://www.trt1.com.tr/yayin-akisi",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "İlkses • 5 Kasım TV yayın akışı",
+          "url": "https://ilkses.com.tr/genel/5-kasim-2026-persembe-tv-yayin-akisi-bu-aksam-televizyonda-hangi-diziler-var-466648",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Habertürk • 5 Kasım maç programı",
+          "url": "https://www.haberturk.com/bilgi/foto/bugunku-maclar-5-kasim-2026-besiktas-ve-trabzonspor-avrupa-da-sahne-aliyor-uefa-avrupa-ligi-ve-konferans-ligi-nde-bugun-kimin-maci-var-saat-kacta-ve-hangi-kanalda-3925022",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "eti-trubar-ilk-film",
+      "title": "ETİ TRUBAR, Pınar Deniz'li ilk Türkiye filmiyle protein barı lezzetle anlatıyor",
+      "region": "Türkiye",
+      "category": "Rekabet",
+      "layer": "Marka ve kampanya",
+      "market": "Türkiye",
+      "eventDate": "4 Kasım 2026",
+      "summary": "ETİ, 2026'da 173 milyon dolara aldığı TRUBAR'ın Türkiye tanıtımını Pınar Deniz'li ilk reklam filmiyle yaptı.",
+      "body": [
+        "4 Kasım: Çırağan'daki tanıtımda Pınar Deniz'li ilk Türkiye filmi gösterildi; slogan \"TRUBAR. Evet. Protein bar.\"",
+        "Film TBWA\\İstanbul imzalı; dijitalde milklab, yönetmen Ece Naz Kızıltan.",
+        "Mecra: Ekonomi Politikası ve Ad Just Brand TV, dijital ve açık hava yazıyor; medya planı açıklanmadı.",
+        "ETİ beyanı: 2026 başından beri fonksiyonel bar tonajı %19,2, protein bar %103 arttı; ölçüm kaynağı belirtilmedi.",
+        "Türkiye'de üç tat var: çilek, hindistan cevizi, yer fıstığı; ürün 5 Ekim'de satışa duyurulmuştu."
+      ],
+      "impact": "Veri böyle: ETİ'ye göre protein bar tonajı iki katına çıkıyor. Bizim okumamız: marka kategoriyi spor rafından çıkarıp tatlı atıştırmalık rekabetine taşıyor. Ajans ve marka için ünlü yüzlü geniş mecra, atıştırmalık kuşaklarında ses yarışını artırabilir; tüketici için “sağlıklı” ile “lezzetli” ayrımı daralıyor.",
+      "action": "Kategori rekabet takibine protein barı ekleyin; TV, dijital ve raf görünürlüğünü birlikte izleyin.",
+      "counterView": "%103 düşük tabandan gelebilir ve şirket beyanıdır; pazar payı veya satış verisi yok. Ünlü yüzlü lansman ilk denemeyi anlatır, tekrar satın almayı kanıtlamaz.",
+      "sources": [
+        {
+          "name": "Ad Just Brand • TRUBAR ilk reklam",
+          "url": "https://www.adjustbrand.com/kreatif/kampanyalar/trubar-ilk-reklam-filminde-protein-bari-lezzet-uzerinden-anlatiyor/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ETİ • Grup şirketleri",
+          "url": "https://www.etietieti.com/tr-tr/biz-kimiz/grup-sirketleri",
+          "published": "Tarihsiz; 2026-11-05 kontrol",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Foreks • ETİ TRUBAR tanıtımı",
+          "url": "https://www.foreks.com/haber/detay/6aeb44984b1852391445b78c/FRKS/tr/eti-173-milyon-dolarlik-yatirim-ile-portfoyune-kattigi-trubar-markasini-turkiye-de-tanitti-04-11-26/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Ajansgiller • TRUBAR künye",
+          "url": "https://ajansgiller.com/trubar-protein-bar-reklamlarinin-ezberini-bozmaya-geldi/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Ekonomi Politikası • TRUBAR reklam filmi",
+          "url": "https://ekonomipolitikasi.com.tr/trubar-reklam-filmi-turkiyede-izleyiciyle-bulustu/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Herkes Duysun • TRUBAR satışa sunuldu",
+          "url": "https://herkesduysun.com/ekonomi/protein-bar-markalarindan-trubar-turkiye-de-satisa-sunuldu-051026235/",
+          "published": "2026-10-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://ajansgiller.com/wp-content/uploads/2026/11/trubar1.jpg",
+        "alt": "TRUBAR reklam filminden Pınar Deniz'li görsel",
+        "credit": "ETİ / TBWA\\İstanbul; Ajansgiller",
+        "sourceUrl": "https://ajansgiller.com/trubar-protein-bar-reklamlarinin-ezberini-bozmaya-geldi/"
+      }
+    },
+    {
+      "id": "trendyolgo-uber-eats-yesil-kampanya",
+      "title": "Trendyol Go, Uber Eats oluyor: turuncudan yeşile geçiş Gökhan Özoğuz'lu filmle duyuruldu",
+      "region": "Türkiye",
+      "category": "Ajans & Marka",
+      "layer": "Marka ve kampanya",
+      "market": "Türkiye",
+      "eventDate": "4 Kasım 2026",
+      "summary": "Trendyol Go, Uber Eats kimliğine geçişini Gökhan Özoğuz'un saçının turuncudan yeşile döndüğü reklam filmiyle duyurdu.",
+      "body": [
+        "4 Kasım: \"İşin rengi değişti, sevdikleriniz değişmedi\" sloganlı film, Trendyol Go'nun Uber Eats'e dönüşümünü anlatıyor.",
+        "Turuncu saçıyla bilinen Gökhan Özoğuz filmde yeşile dönüyor; marka rengi değişimi bu jestle gösteriliyor.",
+        "Ajans aRthuR İstanbul, yapım Depo Film, yönetmen Martin Werner.",
+        "Arka plan: Uber, Trendyol Go'nun %85'ini Mayıs 2025'te 700 milyon dolara almıştı; bu yeni bir satın alma değil.",
+        "Geçiş takvimi ve medya planı açıklanmadı; erişilen haberlerde yalnız YouTube filmi doğrulandı."
+      ],
+      "impact": "Veri böyle: ad ve renk değişiyor, film hizmetin aynı kaldığını söylüyor. Bizim okumamız: ünlü yüz, marka hafızasını yeni renge taşıma aracı. Ajans için ad değişimi bilinirliği yeniden kurmayı gerektirir; rakipler için bu dönem açıklık yaratır; tüketici uygulama, ikon ve kurye renginde kısa süreli karışıklık yaşayabilir.",
+      "action": "Yemek siparişi kategorisinde geçiş dönemi arama, uygulama mağazası ve sokak görünürlüğünü izleyin.",
+      "counterView": "Film duyurusu geçişin başarılı olduğunu veya sipariş artışını göstermez. Uber Eats adının Türkiye'deki bilinirliği ölçülmüş değil; Trendyol adının yerel güveni yeni markaya taşınmayabilir.",
+      "sources": [
+        {
+          "name": "Patron Rehberi • Turuncu dönem",
+          "url": "https://www.patronrehberi.com/genel/57692/trendyol-goda-turuncu-donem-kapaniyor/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Trendyol Go • resmî site",
+          "url": "https://trendyolgo.com/",
+          "published": "Tarihsiz; 2026-11-05 kontrol",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ShiftDelete • Uber Eats reklamı",
+          "url": "https://shiftdelete.net/uber-eats-trendyol-go-gokhan-ozoguz-reklam",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Bisektör • Trendyol Go, Uber Eats oluyor",
+          "url": "https://www.bisektor.com/trendyol-go-uber-eats-oluyor/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "CNBC-e • Uber-Trendyol anlaşması",
+          "url": "https://www.cnbce.com/sirket-haberleri/uber-ile-trendyol-arasinda-700-milyon-dolarlik-anlasma-trendyol-gonun-yuzde-85-hissesini-satin-aliyor-h12429",
+          "published": "2025-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://ares.shiftdelete.net/static/sdnweb-rehber/2026/11/uber-eats-gokhan-ozoguz-reklam-kapak.webp",
+        "alt": "Uber Eats reklam filminde yeşil saçlı Gökhan Özoğuz",
+        "credit": "Uber Eats; ShiftDelete.Net",
+        "sourceUrl": "https://shiftdelete.net/uber-eats-trendyol-go-gokhan-ozoguz-reklam"
+      }
+    },
+    {
+      "id": "criteo-q3-harcama-gelir",
+      "title": "Criteo'da medya harcaması %9 büyüdü, gelir %11 geriledi",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global",
+      "eventDate": "4 Kasım 2026 (açıklama); dönem 30 Eylül'de biten çeyrek",
+      "summary": "Criteo üçüncü çeyrekte 1,2 milyar dolar medya harcamasına aracılık etti; gelir, TAC hariç katkı ve retail media geliri düştü.",
+      "body": [
+        "1,2 milyar dolar: üçüncü çeyrek medya harcaması, sabit kurla yıllık %9 arttı.",
+        "416 milyon dolar: gelir, yıllık %11 düştü; sabit kurla düşüş %10.",
+        "240 milyon dolar: TAC hariç katkı, yıllık %17 düştü; Retail Media geliri 51,9 milyon dolarla %23 geriledi.",
+        "Şirket: iki retail media müşterisindeki kapsam değişikliği 20 milyon dolar etkiledi; hariç tutulunca katkı %10 arttı.",
+        "Dördüncü çeyrek beklentisi: TAC hariç katkıda sabit kurla yıllık %9-11 düşüş."
+      ],
+      "impact": "Veri böyle: platformdan geçen bütçe artıyor, şirketin kalan payı azalıyor. Bizim okumamız: aracının geliri ile reklamverenin bütçesi aynı gösterge değil. Ajans için müşteri kapsamı değişimi hizmet riskine dönüşebilir; marka için sağlayıcının gelir baskısı fiyat ve hizmet şartlarına yansıyabilir.",
+      "action": "Retail media sözleşmelerinde yönetilen bütçe, net gelir, hizmet kapsamı ve perakendeci bağımlılığını ayrı değerlendirin.",
+      "counterView": "İki müşterinin etkisi tüm retail media pazarındaki talep daralması olarak okunamaz. Asıl baskı Performance Media'da (%9 gelir düşüşü) da var; %10'luk altta yatan büyüme şirket hesabıdır.",
+      "sources": [
+        {
+          "name": "Criteo • Q3 2026 results",
+          "url": "https://criteo.investorroom.com/2026-11-04-CRITEO-REPORTS-THIRD-QUARTER-2026-RESULTS",
+          "published": "2026-11-04",
+          "country": "Fransa",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Criteo • PR Newswire kopyası (TradingView)",
+          "url": "https://www.tradingview.com/news/prnewswire:28fc6e4a84b94:0-criteo-reports-third-quarter-2026-results/",
+          "published": "2026-11-04",
+          "country": "Fransa",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "jcdecaux-q3-dijital-ooh",
+      "title": "JCDecaux'da dijital açık hava gelirin %45,4'üne çıktı, programatik %37,5 büyüdü",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global",
+      "eventDate": "4 Kasım 2026 (açıklama); üçüncü çeyrek",
+      "summary": "JCDecaux üçüncü çeyrekte %6,6 organik büyürken dijital pay %45,4'e çıktı; klasik billboard büyümesi sınırlı kaldı.",
+      "body": [
+        "1.010,5 milyon avro: üçüncü çeyrek düzeltilmiş gelir; organik %6,6, şirket beklentisi yaklaşık %5'ti.",
+        "Dijital organik %15,3 büyüdü; gelir payı bir yılda %41,8'den %45,4'e çıktı.",
+        "Programatik organik %37,5 arttı; dijital gelirin %13,3'ü.",
+        "Organik büyüme: Transport %7,7, Street Furniture %7,3, Billboard yalnız %1,4.",
+        "Dördüncü çeyrek beklentisi yaklaşık %6 organik; IFRS gelir 935,9 milyon avro."
+      ],
+      "impact": "Veri böyle: büyümenin ana kaynağı dijital ve programatik satış. Bizim okumamız: açık hava alımı zaman, konum ve otomatik satın alma seçenekleriyle genişliyor, klasik pano ise yerinde sayıyor. Ajans için ekran ve panoyu ayrı değerlendirmek gerekir; marka için kısa dönemli OOH esnekliği artıyor.",
+      "action": "Dijital OOH tekliflerinde ekran kapsamı ve ölçüm yöntemini, programatik ek maliyetlerle birlikte karşılaştırın.",
+      "counterView": "Gelir büyümesi izleyici veya kampanya etkisi değildir. Şirket Dünya Kupası katkısını da belirtiyor; PPC Land yaklaşık 1,3 puan tahmin ediyor. Küresel veri Türkiye'ye doğrudan genellenemez.",
+      "sources": [
+        {
+          "name": "JCDecaux • Q3 2026 trading update",
+          "url": "https://www.jcdecaux.com/news-media/press-releases/q3-2026-trading-update-strong-revenue-growth-driven-digital-and",
+          "published": "2026-11-04",
+          "country": "Fransa",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • JCDecaux Q3",
+          "url": "https://ppc.land/jcdecaux-beats-q3-target-as-programmatic-revenue-climbs-37-5/",
+          "published": "2026-11-04",
+          "country": "İspanya",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/jcdecaux-q3-6-6-organic-digital-96-growth-scissor-lift-billboard-ticker-tape.jpg",
+        "alt": "JCDecaux üçüncü çeyrek haberi için açık hava pano görseli",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/jcdecaux-beats-q3-target-as-programmatic-revenue-climbs-37-5/"
+      }
+    },
+    {
+      "id": "turkiye-yaraticilik-raporu",
+      "title": "Yaratıcılık raporu: denenmemiş fikirlerin ciddiye alınmasında erkek-kadın farkı 17 puan",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Düzenleme ve sektör",
+      "market": "Türkiye",
+      "eventDate": "4 Kasım 2026 (Brand Week İstanbul)",
+      "summary": "MediaCat'in Brand Week'te sunduğu rapor, işyerinde denenmemiş yaklaşımların erkek ve kadın çalışanlarca farklı karşılandığını gösteriyor.",
+      "body": [
+        "%54 erkek, %37 kadın çalışan işyerinde denenmemiş yaklaşımların ciddiye alındığını söylüyor (BAREM, 799 çalışan).",
+        "Toplum araştırması: %41 kendini yaratıcı görüyor, %50 yaratıcılığın doğuştan olduğuna inanıyor (Veri Enstitüsü, 1.200 kişi).",
+        "%68 garanti seçeneği yeğliyor; yaratıcılığın önündeki en büyük engel %43 ile ekonomik kaygı.",
+        "Saha tarihi, hata payı, ağırlıklandırma ve finansman sayfada yok; MediaCat raporun ortak yayıncısı."
+      ],
+      "impact": "Veri böyle: fikir üretmek kadar fikrin karşılanışı da farklı algılanıyor. Bizim okumamız: risk almaya kapalı ortam, yeni mecra ve kreatif testlerini de sınırlar. Ajans ve marka için deneme bütçesi kültürel bir konu; ekonomik kaygı tüketicide de “garanti seçenek” eğilimini güçlendiriyor olabilir.",
+      "action": "Deneme bütçelerinin ve fikir değerlendirme ölçütlerinin ekipler arasında nasıl uygulandığını inceleyin.",
+      "counterView": "Öz bildirim verisi; cinsiyetin farkın nedeni olduğunu veya bu farkın kampanya performansını etkilediğini kanıtlamaz. Yöntem ayrıntıları yayımlanmadan genelleme zayıf kalır.",
+      "sources": [
+        {
+          "name": "MediaCat • Türkiye'nin Yaratıcılık Raporu",
+          "url": "https://mediacat.com/turkiyenin-yaraticilik-raporu-brand-week-istanbulda/",
+          "published": "2026-11-04",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.mediacat.com/uploads/2026/11/yaraticilik-raporu-1252x704.jpg",
+        "alt": "Brand Week İstanbul'da yaratıcılık raporunun sunumu",
+        "credit": "MediaCat / Brand Week İstanbul",
+        "sourceUrl": "https://mediacat.com/turkiyenin-yaraticilik-raporu-brand-week-istanbulda/"
+      }
+    },
+    {
+      "id": "snickers-google-yazim-hatalari-2013",
+      "title": "Snickers, yanlış yazılan aramaları açlık fikrine bağladı",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Birleşik Krallık",
+      "eventDate": "Nisan-Mayıs 2013; arşiv vaka",
+      "label": "Arşiv vaka",
+      "summary": "Snickers, Google'da yanlış yazılan arama kelimelerine reklam vererek “aç olunca kendin değilsin” fikrini arama davranışının içine taşıdı.",
+      "body": [
+        "2013: Snickers, Google'da yanlış yazılan arama kelimelerine reklam vererek açlık temasını arama davranışına bağladı.",
+        "AMV BBDO ve MediaCom uygulamasında reklam metnindeki yazım hataları, kullanıcının yaptığı hatayı sürdürüyordu.",
+        "500 binden fazla kişi: ajansın ilk üç gün için açıkladığı sonuç; bağımsız teyit ve erişim tanımı yok."
+      ],
+      "impact": "Neden çalıştı: mecra fikrin parçasıydı; sorgudaki hata mesajın tetikleyicisine dönüştü ve reklam, kullanıcının kendi davranışına karşılık verdi. Türkiye uyarlaması: atıştırmalık kategorisinde mola ve dalgınlık anlarına bağlı küçük bir arama testi. Etki yorumu ajans beyanına dayanır.",
+      "action": "Atıştırmalık kategorisinde sorgu ve metin uyumunu önceden denetleyerek küçük bir arama testi planlayın. Tartışma sorusu: bu arama bağlamı fikri hangi atıştırmalık markası için anlamlı olur?",
+      "counterView": "Yazım hatası açlığın kanıtı değildir. 2013 uygulamasının bugünkü eşleme kurallarıyla aynen çalışacağı varsayılamaz; maliyet ve satış etkisi açıklanmıyor.",
+      "sources": [
+        {
+          "name": "AMV BBDO / LBB • Snickers case",
+          "url": "https://lbbonline.com/news/snickers-youre-not-you-when-youre-hungry",
+          "published": "2013-05-01",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "The Drum • Google fikri",
+          "url": "https://www.thedrum.com/news/snickers-reveals-foosball-and-google-ideas-amv-bbdo-following-you-re-not-you-when",
+          "published": "2013-04-30",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Digital Strategy Consulting • Snickers misspelling",
+          "url": "https://digitalstrategyconsulting.com/industries/cpg/snickers-misspelling-search-keyword-campaign-reaches-500000-people-in-3-days/10237",
+          "published": "2013",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "21. Felis'in ilk gecesinde Yılın Medya Ajansı Publicis Groupe Türkiye oldu; Outdoor Büyük Ödülü TBWA\\Istanbul'un THY \"Sightseeing\" işine gitti.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/21-felis-odullerinde-ilk-gece-geride-kaldi/",
+      "published": "2026-11-04"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Türkiye",
+      "text": "Brand Week İstanbul'da YouGov, The Tomorrow Company ve Aicarta temsilcileri AI-IQ Endeksi oturumunda konuştu; tam rapor ve örneklem yayımlanmadı.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/brand-week-istanbul-ilk-gun-2026/",
+      "published": "2026-11-04"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Gecikmeli fakat önemli: Reddit, kendi arama sonuçlarında sınırlı reklamveren grubuyla reklam yerleşimi testini duyurdu; ülke kapsamı açıklanmadı.",
+      "source": "Reddit",
+      "url": "https://redditinc.com/news/we-are-testing-ad-placements-in-reddit-search-pages",
+      "published": "2026-11-03"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Google, Kanada'da AI Mode ve Gemini içinde belirli perakendecilerle doğrudan ödeme deneyiminin yayılımını duyurdu; Merchant Center entegrasyonu 2027 planı.",
+      "source": "Google Kanada",
+      "url": "https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/",
+      "published": "2026-11-04"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "özel gün akışı",
+        "text": "Salı maç gecesi ara verilmişti; çarşamba ve perşembe kanallar yeni bölümü koruyor. Prime time takvimi maçtan çok kanal ve gün bazında okunmalı.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "persembe-mac-gecesi-yeni-bolum"
+        ]
+      },
+      {
+        "tag": "perakende medya",
+        "text": "Criteo'da medya harcaması %9 artarken Retail Media geliri %23 düştü; iki müşterinin kapsam etkisi var, tek şirket verisi pazar daralması sayılmamalı.",
+        "basis": "Veri",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "criteo-q3-harcama-gelir"
+        ]
+      },
+      {
+        "tag": "dijital açık hava",
+        "text": "JCDecaux'da dijital pay %45,4'e çıktı, programatik %37,5 büyüdü, Billboard %1,4'te kaldı. Tek şirket verisi; Dünya Kupası katkısı da var.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "jcdecaux-q3-dijital-ooh"
+        ]
+      },
+      {
+        "tag": "protein atıştırmalık",
+        "text": "ETİ protein bar tonajında %103 artış beyan ediyor ve ünlü yüzle geniş mecraya çıkıyor; şirket beyanı, pazar verisi değil.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "eti-trubar-ilk-film"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "5-8 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-05",
+      "time": "20:15",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Paris Basketball",
+      "broadcaster": "S Sport 2 / S Sport Plus",
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "TRT Spor 20.15; yayıncı S Sport akışı (ChatGPT), Habertürk ve Spor Ekranı ile uyumlu."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi",
+      "home": "Trabzonspor",
+      "away": "Freiburg",
+      "broadcaster": "TRT 1",
+      "source": "https://www.trt1.com.tr/yayin-akisi",
+      "note": "Sporx 20.45; TRT 1 İlkses ve Habertürk ile uyumlu; şifresiz."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Kosner Baskonia",
+      "broadcaster": "S Sport / S Sport Plus",
+      "source": "https://ssrprod.passo.com.tr/en/event/fenerbahce-tarfin-kosner-baskonia-basket-mac-bileti/13612319",
+      "note": "Passo bilet sayfası 21.00; Habertürk S Sport Plus, Fotomaç S Sport yazıyor."
+    },
+    {
+      "date": "2026-11-05",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi",
+      "home": "Celtic",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT 1",
+      "source": "https://bjk.com.tr/tr/mac_merkezi/canli/27166",
+      "note": "Kulüp ve Sporx 23.00; TRT 1 İlkses ve Habertürk ile uyumlu; şifresiz."
+    },
+    {
+      "date": "2026-11-06",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Zalgiris Kaunas",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/mac_merkezi/canli/25826",
+      "note": "Kulüp ve S Sport Plus akışı (ChatGPT); lineer S Sport kanalı bu maç için gösterilmiyor."
+    },
+    {
+      "date": "2026-11-08",
+      "time": "14:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Vodafone Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT Spor Yıldız",
+      "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+      "note": "TVF resmî fikstürü tarih, saat ve yayıncıyı birlikte veriyor (ChatGPT kontrolü).",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "social": {
+    "window": "2026-11-05 sabah kontrolü; liste dönemleri öğe bazında",
+    "note": "Google Trends arama ilgisini; Kworb/Spotify günlük dinlemeyi gösterir. Bunlar tekil kişi, reklam erişimi veya attention ölçümü değildir. Kworb son görünen gün iki gün geridedir.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "Fenerbahçe ve Liverpool karşılaşması etrafında arama yoğunluğu",
+        "metric": "Google Trends Türkiye: 'fb' 2 milyon+ arama, yüzde 1000+ artış; ilişkili puan durumu sorguları aynı kümeye alındı.",
+        "whyItMatters": "Maç sonrasındaki arama ilgisi, ertesi sabah spor bağlamlı içerik zamanlamasını değerlendirmeye yardımcı olabilir.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "2026-11-05 canlı liste; yaklaşık son 11 saat",
+        "market": "Türkiye"
+      },
+      {
+        "platform": "Spotify",
+        "type": "Top 10",
+        "rank": 1,
+        "title": "Aykut Aksöz — Yüreğime Mi Sorsam",
+        "metric": "Kworb'un Spotify Türkiye 3 Kasım listesinde günlük 596.054 dinleme.",
+        "whyItMatters": "Müzik ve içerik ortaklıklarında güncel popülerlik için aday sinyali; hedef kitle uyumu ayrıca ölçülmeli.",
+        "url": "https://kworb.net/spotify/country/tr_daily.html",
+        "source": "Kworb / Spotify",
+        "published": "2026-11-03 liste dönemi; 2026-11-05 kontrol",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "highlights": [
+    "Bu akşam beş kanal yeni bölümle TRT 1'in çift maçının karşısında; Kanal D tekrarda.",
+    "Criteo'da medya harcaması %9 arttı, gelir %11 ve Retail Media geliri %23 düştü.",
+    "Trendyol Go, Uber Eats kimliğine geçişi duyurdu; ETİ TRUBAR ilk Türkiye filmini gösterdi."
+  ],
+  "watchlist": [
+    "5 Kasım akşamı yeni bölümlerin fiilen yayınlanması (Muhtemel Aşk, Halef, Güneşin Doğduğu Yer, Sevdiğim Sensin).",
+    "Haysiyet, Anne Yarısı ve Mehmed'in 10 Kasım dönüşü; Mehmed'in saati; NOW'un 9 Kasım pazartesi programı.",
+    "Kızılcık Şerbeti 6 Kasım, Güldür Güldür 7 Kasım yeni bölüm planları.",
+    "Uber Eats geçiş tarihi, uygulama adı değişimi ve medya planı.",
+    "TRUBAR'ın TV kuşakları ve raf görünürlüğü; rakip protein bar hamleleri.",
+    "Felis ikinci gecesi (5 Kasım) ve Brand Week kapanışı; AI-IQ Endeksi tam metodolojisi.",
+    "Meta Commercial Terms 20 Kasım; platformların Türkiye'de 15-18 yaş reklam hedeflemesi."
+  ],
+  "limitations": [
+    "Kanal akışları ve TRT 1 Claude oturumunda açılamadı (izin/zaman aşımı). TV bilgileri ChatGPT'nin resmî kontrolü ve İlkses ile karşılaştırıldı; Daha 17'nin tekrar olduğu yalnız ChatGPT kontrolüne dayanıyor. Bu akşamki yayınlar henüz gerçekleşmedi.",
+    "Tuzlu Kahve'nin 3 Kasım yayını, Haysiyet/Anne Yarısı/Mehmed'in 10 Kasım dönüşleri ve NOW'un 9 Kasım programı kesinleştirilemedi.",
+    "Yedi şirketin resmî sayfası paket araştırmasında okunamadı: FİSKOBİRLİK, MONDELEZ, NESTLÉ, DOĞKAR, FERRERO, ALTINKILIÇLAR, LİDER ÇİKOLATA. Bu şirketlerde yeni gelişme olmadığı kesinleştirilemez.",
+    "TBF, EuroLeague ve TRT Spor fikstür sayfaları paket araştırmasında açılamadı; kadın Avrupa kupalarında eksiksizlik iddiası yok. BJK–Zalgiris ve voleybol derbisi Claude tarafından yeniden teyit edilemedi.",
+    "Tüketici ve ekonomi katmanında pencereye ait yeni, doğrulanmış içerik bulunamadı. KVKK ve RTÜK duyuru sayfaları açılamadı; Halk TV durumu açık kaldı; Meta Commercial Terms birincil metinden teyit edilmedi.",
+    "Dijital gündemde iki kaynak var (hedef üç); YouTube, TikTok okunamadı, Kworb son listesi 3 Kasım. Guru kontrolünde yeni çalışma doğrulanmadı, panel çıkmıyor. Sinema perşembe kapsam dışı. Reyting araması yapılmadı.",
+    "7 ana haberin 3'ünde görsel yok (TV, Criteo, Snickers). Yaratıcılık raporunun saha ve finansman ayrıntıları ile AI-IQ metodolojisi erişilen sayfalarda yok. Global seçim Avrupa ve Kuzey Amerika ağırlıklı."
+  ],
+  "corrections": []
+}

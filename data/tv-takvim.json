@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "note": "Kayıtlar 22 Ekim 2026'da kanalların resmî yayın akışı sayfalarından gün gün yeniden kontrol edildi. Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -179,8 +179,8 @@
    "title": "Sevdan Bir Ateş",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.showtv.com.tr/yayin-akisi"
+   "checked": "2026-11-05",
+   "source": "https://www.showtv.com.tr/dizi/tum_bolumler/sevdan-bir-ates-sezon-1-bolum-9-izle/135860"
   },
   {
    "channel": "SHOW TV",
@@ -243,8 +243,8 @@
    "title": "Yeraltı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.nowtv.com.tr/yayin-akisi"
+   "checked": "2026-11-05",
+   "source": "https://www.nowtv.com.tr/Yeralti/izle"
   },
   {
    "channel": "NOW",
