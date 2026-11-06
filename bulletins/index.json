@@ -1,6 +1,21 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-06",
+      "title": "Kanallar yapımda %25 indirim istiyor; Netflix'ten 10 milyar TL; Snap'te reklam %4'te kaldı",
+      "summary": "TV'de reklam baskısı yapım maliyetine indi: kuliste %25 indirim, yapımcıdan isimli uyarı var. Aynı gün Netflix üç yılda 10 milyar TL yapım taahhüdü açıkladı. Globalde Snap büyümesini reklam değil abonelik taşıdı.",
+      "edition": "daily",
+      "articleCount": 7,
+      "categories": [
+        "Dijital & AI",
+        "Sinema",
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved_with_changes"
+    },
+    {
       "date": "2026-11-05",
       "title": "Maç gecesi yeni bölüm sürüyor; Criteo'da bütçe büyüdü gelir düştü; Trendyol Go, Uber Eats oluyor",
       "summary": "Bu akşam beş kanal TRT 1'in çift maçına karşı yeni bölümle çıkıyor. ETİ TRUBAR ilk Türkiye filmini gösterdi, Trendyol Go yeşile geçiyor. Globalde Criteo'da harcama ile gelir ayrıştı, JCDecaux'da dijital pay %45'i aştı.",

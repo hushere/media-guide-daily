@@ -1,0 +1,590 @@
+{
+  "date": "2026-11-06",
+  "title": "Kanallar yapımda %25 indirim istiyor; Netflix'ten 10 milyar TL; Snap'te reklam %4'te kaldı",
+  "summary": "TV'de reklam baskısı yapım maliyetine indi: kuliste %25 indirim, yapımcıdan isimli uyarı var. Aynı gün Netflix üç yılda 10 milyar TL yapım taahhüdü açıkladı. Globalde Snap büyümesini reklam değil abonelik taşıdı.",
+  "edition": "daily",
+  "window": "5 Kasım 2026 07:41 – 6 Kasım 2026 07:44 TSİ (ChatGPT araştırma kesimi); Claude teyidi 08:40-09:05",
+  "status": "published",
+  "review": {
+    "status": "approved_with_changes",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-06T09:06+03:00",
+    "summary": "Yeniden teyit: Netflix (Webrazzi açıldı; Ekonomim köşe yazısı önceki New York anılmasını gösteriyor), %25 kulisi (Onedio'nun Birsen Altuntaş aktarımı açıldı; Birsen sayfası Claude oturumunda açılamadı), Snap rakamları (basın metni kopyası, kazanç çağrısı dökümü), Felis (MediaCat), Cadbury sonuçları (Mobile Marketing), Türkiye–Belçika saat/yayıncı (Yeni Asır, Halk TV), 2 Aile Arasında tarihi (Beyazperde), derbi takvimi (Evrensel). Değişiklik: kulis kartına Polat Yağcı'nın isimli açıklaması, 110 dakika ve maliyet ayrıntıları eklendi; Netflix kartına kapsam ve ayrıntılar eklendi; Snap kartının ana mesajı toplam gelirden reklamın %4 büyümesine çevrildi (pakette yoktu); Türkiye'nin Lovemark'ları ana kart olarak, cuma akşamı TV kartı eklendi; 2 Aile Arasında dağıtımcı ayrışması yazıldı; Hexe ve sinema eşikleri sinyale aktarıldı; Türkiye–Belçika'ya ATV yazıldı; BJK–Zalgiris yayıncısı dünkü kayda göre S Sport Plus bırakıldı. Kanal akışları Claude oturumunda açılamadı (izin/zaman aşımı); bu bilgiler ChatGPT kontrolüne dayanıyor. Hamal için TV tablosu önerisi işlendi, kaynak açılamadı. Matterist, Ben's Original, UIP, Box Office Türkiye ve voleybol derbisi yeniden teyit edilemedi."
+  },
+  "source": {
+    "writer": "ChatGPT araştırması, Claude teyit ve yazım"
+  },
+  "articles": [
+    {
+      "id": "kanallar-yuzde-25-indirim-kulisi",
+      "title": "Kulis: kanallar yapımcılardan %25 indirim istiyor, 110 dakikalık bölüm ve son kuşağın kaldırılması masada",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Reklam pazarı ve para",
+      "market": "Türkiye",
+      "eventDate": "4 Kasım 2026 toplantı iddiası; 5 Kasım 2026 haber",
+      "label": "Kulis",
+      "summary": "Birsen Altuntaş'a göre kanallar yapımcılardan %25 indirim istedi; Tuzlu Kahve'nin yapımcısı Polat Yağcı da reklam düşüşünü açıkça dile getirdi.",
+      "body": [
+        "%25: Birsen Altuntaş'a göre kanalların toplantıda yapımcılardan istediği indirim; kanal ve yapımcı adı verilmedi.",
+        "Öneri: 140 dakikaya çıkan bölümler 110 dakikaya sabitlensin, son reklam kuşağına ihtiyaç kalmadan bitsin.",
+        "Kuliste bölüm maliyeti 27-40 milyon TL, ekstralarla oyuncu ücreti 5 milyon TL'ye kadar geçiyor.",
+        "Polat Yağcı (Tuzlu Kahve): “Hep beraber hareket etmezsek ana akım diye bir televizyon kalmaz.”",
+        "Yağcı reklam düşüşünün 9. bölümde vurduğunu söyledi; Onedio, 3 Kasım'daki yeni bölümün ertelendiğini yazıyor.",
+        "Bağlantı: 3 Kasım bülteni: Ekim 30 yılın en düşük reklam geliri kulisi; ölçülmüş veri hâlâ yok."
+      ],
+      "impact": "Veri böyle: elde bir gazetecinin kulisi ve bir yapımcının isimli açıklaması var, ölçülmüş reklam verisi yok. Bizim okumamız: bir haftadır aynı başlık büyüyor; kaynaklar bölüm süresine dokunursa kuşak yapısı ve kuşak içi pozisyon değeri de değişir. Ajans için envanter, marka için kuşak yakınlığı, izleyici için daha kısa bölüm demek.",
+      "action": "Kanal satış ekiplerinden kasım-aralık için bölüm süresi ve kuşak sayısı planını yazılı isteyin; satın almayı kulise göre değiştirmeyin.",
+      "counterView": "İndirim yapım maliyetine dönük, reklam fiyatına değil. Bir pazarlık açılışı da olabilir; zayıf reklam tablosu kampanya takvimi ve bayram kaymasıyla da açıklanabilir.",
+      "sources": [
+        {
+          "name": "Onedio • Kanallar yüzde 25 indirim istedi",
+          "url": "https://onedio.com/haber/kanallar-yuzde-25-indirim-istedi-bolumler-kisalabilir-milyonluk-oyuncu-ucretleri-dusebilir-1393591",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Onedio • Polat Yağcı açıklaması",
+          "url": "https://onedio.com/haber/tuzlu-kahve-nin-yapimcisi-polat-yagci-dan-reklam-krizi-cikisi-ana-akim-diye-bir-televizyon-kalmaz-1393598",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Birsen Altuntaş",
+          "url": "https://www.birsenaltuntas.com/dizi/79056/79056/",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "netflix-turkiye-10-milyar",
+      "title": "Netflix, Türkiye'deki dizi ve filmlere üç yılda 10 milyar TL yatıracağını açıkladı",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Platform ve ürün",
+      "market": "Türkiye",
+      "eventDate": "5 Kasım 2026 (açıklama); kapsam 2026-2028",
+      "summary": "Netflix, Türkiye'deki onuncu yılında 2026-2028 için 10 milyar TL'lik yapım yatırımı açıkladı; yıllara dağılım ve yapım sayısı verilmedi.",
+      "body": [
+        "10 milyar TL: 2026-2028 döneminde Türkiye'deki dizi ve filmler için açıklanan toplam plan.",
+        "Yıllara dağılım, yapım sayısı ve istihdam rakamı açıklanmadı; yeni yapımlar farklı şehirlerde çekilecek.",
+        "Netflix: Türkiye'de 90'dan fazla yerli yapım yayımlandı, 30'dan fazla şehirde çekim yapıldı.",
+        "30 Kasım: “Sıradaki Hikaye” proje sunum günü düzenlenecek; yetenek programı üç şehre daha taşınacak.",
+        "10 milyar liralık plan daha önce New York'taki yatırım konferansında da anılmıştı (Ekonomim köşe yazısı, tarihsiz)."
+      ],
+      "impact": "Veri böyle: bu bir yapım taahhüdü, reklam bütçesi değil. Bizim okumamız: kaba hesapla tutar, kuliste geçen bölüm maliyetiyle 250-370 TV bölümüne denk; kanallar maliyet kısarken yapım kapasitesi ve oyuncu için güçlü bir alternatif alıcı büyüyor. İzleyici tarafında yerli premium içerik arzı artar.",
+      "action": "Türkiye yapım takvimini izleyin ve 30 Kasım sonrası duyurulacak projeleri premium içerik ve sponsorluk planlarına aday olarak not edin.",
+      "counterView": "Üç yıllık nominal şirket beyanıdır; enflasyonla reel değeri düşer, gerçekleşen harcama değildir. Ekonomim'deki iş insanı tahmini 200 milyon doların biraz üzeri; yeni para olup olmadığı belirsiz.",
+      "sources": [
+        {
+          "name": "Webrazzi • Netflix 10 milyar TL",
+          "url": "https://webrazzi.com/2026/11/05/netflix-turkiyedeki-dizi-ve-film-yapimlarina-10-milyar-tl-yatirim-yapacak/",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Marketing Türkiye",
+          "url": "https://www.marketingturkiye.com.tr/haberler/netflix-turk-yapimlarina-3-yilda-10-milyar-tl-yatirim-yapacak/",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Ekonomim • köşe yazısı",
+          "url": "https://www.ekonomim.com/kose-yazisi/netflix-turkiyeye-10-milyar-lira-yatiracak/920617",
+          "published": "Tarihsiz; 2026 Eylül sonrası",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.webrazzi.com/uploads/2025/05/netflix-1-320.png",
+        "alt": "Netflix logosu",
+        "credit": "Webrazzi",
+        "sourceUrl": "https://webrazzi.com/2026/11/05/netflix-turkiyedeki-dizi-ve-film-yapimlarina-10-milyar-tl-yatirim-yapacak/"
+      }
+    },
+    {
+      "id": "cuma-aksami-kizilcik-donus",
+      "title": "Cuma akşamı: Kızılcık Şerbeti dönüyor, ATV ve Star prime time'ı filmle dolduruyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "6 Kasım 2026, 20.00 (planlanan yayın)",
+      "label": "Kanal teyitli",
+      "summary": "Bu akşam Show, Kanal D ve TV8 yeni bölümle çıkıyor; ATV ve Star film yayınlıyor, NOW'da Ömür Usta'nın cuma kaydı yeni bölüm değil.",
+      "body": [
+        "Show TV 20.00: Kızılcık Şerbeti yeni bölüm; 30 Ekim'de yeni bölüm verilmemişti.",
+        "Kanal D Beyaz'la Joker, TV8 MasterChef yeni bölüm; TRT 1'de Taşacak Bu Deniz akışta.",
+        "ATV 20.00 Ölümcül Çarpışma, Star 20.00 Tosun Paşa: iki kanal cuma prime time'ında film yayınlıyor.",
+        "NOW'un Ömür Usta kaydı yeni bölüm etiketi taşımıyor; pazar 8 Kasım yeni bölüm, gün değişikliği değil.",
+        "5 Kasım: Muhtemel Aşk 20 arşivde; Halef 41'in fiilen yayını arşivle kesinleşmedi."
+      ],
+      "impact": "Veri böyle: yedi kanaldan ikisi cuma 20.00'yi filmle dolduruyor. Bizim okumamız: tek akşamdan kural çıkmaz, ama reklam baskısı kulisiyle birlikte izlenmeli. Ajans için film ve dizi kuşağı aynı değerde değil; marka için Kızılcık'ın ara sonrası dönüşü bu akşamın ana sınavı; izleyici cuma akşamı daha az yeni dizi görüyor.",
+      "action": "Cuma kuşaklarında film ve yeni bölüm ayrımını kanal bazında doğrulayın, Kızılcık Şerbeti dönüş bölümünün gerçekleşen yayınını haftalık raporda ayrı işaretleyin.",
+      "counterView": "Akış niyettir, son dakika değişebilir. ATV ve Star cuma filmi kalıcı bir tercih de olabilir; tablo reklam krizinin kanıtı sayılmamalı.",
+      "sources": [
+        {
+          "name": "Show TV • yayın akışı",
+          "url": "https://www.showtv.com.tr/yayin-akisi",
+          "published": "2026-11-06 (ChatGPT kontrolü)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Kanal D • cuma akışı",
+          "url": "https://www.kanald.com.tr/yayin-akisi/cuma",
+          "published": "2026-11-06 (ChatGPT kontrolü)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "ATV • yayın akışı",
+          "url": "https://www.atv.com.tr/yayin-akisi",
+          "published": "2026-11-06 (ChatGPT kontrolü)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Star TV • yayın akışı",
+          "url": "https://www.startv.com.tr/yayin-akisi",
+          "published": "2026-11-06 (ChatGPT kontrolü)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "NOW • yayın akışı",
+          "url": "https://www.nowtv.com.tr/yayin-akisi",
+          "published": "2026-11-06 (ChatGPT kontrolü)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "TV8 • yayın akışı",
+          "url": "https://www.tv8.com.tr/yayin-akisi",
+          "published": "2026-11-06 (ChatGPT kontrolü)",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "lovemarks-2026-ipsos",
+      "title": "Türkiye'nin Lovemark'ları 2026: çikolata kaplı gofrette Ülker, online yemekte Yemeksepeti",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Marka ve kampanya",
+      "market": "Türkiye",
+      "eventDate": "5 Kasım 2026 (Brand Week Istanbul töreni)",
+      "summary": "MediaCat ve Ipsos'un 2.000 kişilik araştırmasında 16 kategorinin kazananları açıklandı; çikolata kaplı gofrette Ülker öne çıktı.",
+      "body": [
+        "2.000 kişi: 15-55 yaş, eşit kadın-erkek, bilgisayar destekli telefon görüşmesi; 16 kategori.",
+        "Kazananlar: çikolata kaplı gofrette Ülker, e-ticarette Trendyol, online yemekte Yemeksepeti, süpermarkette Migros.",
+        "Skor; akılda yer, duygusal yakınlık, beklentiyi karşılama ve vazgeçilmezliği birleştiren yapısal modelle hesaplandı.",
+        "Kategori kazananlarının skorları ve ikinci sıralar MediaCat haberinde yok."
+      ],
+      "impact": "Veri böyle: kategori birincileri açıklandı, puan farkı yok. Bizim okumamız: 5 Kasım'da duyurulan Uber Eats geçişi, online yemekte Yemeksepeti'nin duygusal üstünlüğüyle karşılaşacak. Marka için bu liste yakınlık ölçer; ajans için medya etkisinin değil, uzun dönem marka birikiminin göstergesidir.",
+      "action": "Kendi kategorinizde birinciyle farkı MediaCat veya Ipsos'tan isteyin; sonucu marka takibinizdeki yakınlık ölçütleriyle karşılaştırın.",
+      "counterView": "Araştırmayı ödülü veren kurum yayımlıyor; telefon ve 15-55 yaş çerçevesi tüm tüketiciyi temsil etmez. Sevgi skoru satın alma veya kampanya etkisi değildir; mevcut büyük markaları kayırabilir.",
+      "sources": [
+        {
+          "name": "MediaCat • Türkiye'nin Lovemark'ları sahnede",
+          "url": "https://mediacat.com/turkiyenin-lovemarklari-sahnede-2026/",
+          "published": "2026-11-05",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "snap-q3-reklam-yuzde-4",
+      "title": "Snap'te gelir %14 arttı ama reklam yalnız %4 büyüdü; marka reklamı FMCG harcamasıyla geriledi",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global; şirket merkezi ABD",
+      "eventDate": "1 Temmuz-30 Eylül 2026; açıklama 4 Kasım 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Snap üçüncü çeyrekte 1,72 milyar dolar gelir ve kâr açıkladı; büyümeyi reklam değil, abonelik ağırlıklı diğer gelirler taşıdı.",
+      "body": [
+        "1,72 milyar dolar: çeyrek geliri, yıllık %14 arttı; net kâr 56 milyon dolar (geçen yıl 104 milyon zarar).",
+        "Reklam geliri %4 büyüdü; abonelik ağırlıklı diğer gelir %84 arttı, ödeyen abone 30 milyonu aştı.",
+        "Üst huni marka reklamı geriledi; Snap ABD ekonomik baskısını ve Orta Doğu'yu gösterip FMCG harcamasındaki düşüşe bağladı.",
+        "Performans reklamı gelirin yaklaşık %77'si; uygulama satın alma kampanyası geliri %54'ün üzerinde arttı.",
+        "Günlük kullanıcı 495 milyon: Kuzey Amerika %6, Avrupa %1 düştü; diğer bölgeler %9 arttı.",
+        "Q4 gelir beklentisi 1,95-1,985 milyar dolar; 2027'den itibaren ana ölçüt aylık kullanıcı olacak."
+      ],
+      "impact": "Veri böyle: toplam büyümenin ana motoru reklam değil abonelik. Bizim okumamız: FMCG'nin marka bütçesi kısmen geri çekilirken performans ayakta kalıyor; bu, küresel bir tüketici markası için dikkat edilecek bir sinyal. Ayrıca platformun günlük kullanıcıdan aylık kullanıcıya geçmesi, kıyas yaparken erişim tabanını değiştirecek.",
+      "action": "Snapchat planlarında Türkiye erişimini ve sonuçlarını küresel rakamlardan ayrı raporlayın; 2027'de değişecek kullanıcı ölçütüne göre dönem karşılaştırmalarını şimdiden hazırlayın.",
+      "counterView": "Marka düşüşü şirket yorumudur; karşılaştırma tabanı ve Snap'e özgü pay kaybı da açıklayabilir. Tek platform verisi küresel FMCG kesintisini kanıtlamaz; Türkiye verisi yoktur.",
+      "sources": [
+        {
+          "name": "Snap Q3 2026 sonuçları (metin kopyası)",
+          "url": "https://investingnews.com/snap-inc-announces-third-quarter-2026-financial-results/",
+          "published": "2026-11-04",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Snap Q3 2026 kazanç çağrısı",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/snap-inc-snap-q3-2026-earnings-call-transcript/",
+          "published": "2026-11-05",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Snap yatırımcı ilişkileri",
+          "url": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "published": "2026-11-04",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ]
+    },
+    {
+      "id": "2-aile-arasinda-dort-hafta",
+      "title": "Vizyona 4 hafta: 2 Aile Arasında, 4 Aralık'ta geliyor",
+      "region": "Türkiye",
+      "category": "Sinema",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "4 Aralık 2026 (planlanan vizyon)",
+      "label": "Vizyona 4 hafta",
+      "summary": "Ozan Açıktan'ın yönettiği devam komedisi 2 Aile Arasında dört haftalık eşiğe girdi; tarihi iki sinema kaynağı aynı veriyor, dağıtımcı bilgisi ayrışıyor.",
+      "body": [
+        "4 Aralık 2026: Box Office Türkiye ve Beyazperde'nin verdiği planlanan vizyon tarihi.",
+        "Komedi; yönetmen Ozan Açıktan, başrollerde Engin Günaydın ve Demet Evgar; yapım BKM.",
+        "Dağıtımcı ayrışıyor: Box Office Türkiye CJ ENM, Beyazperde BKM Film yazıyor; resmî teyit yok.",
+        "Aynı hafta Vahşi Gece 2 de 4 hafta eşiğinde; komedi ve yetişkin aksiyonu birlikte geliyor."
+      ],
+      "impact": "Veri böyle: tarih iki kaynakta aynı; ön satış ve salon sayısı yok. Bizim okumamız (tahmin): tanınmış yerli devam filmi aralık başında geniş yetişkin kitle için güçlü bir aday, sinema reklamı envanterini de erken doldurabilir. İzleyici için yıl sonu yerli komedi seçeneği.",
+      "action": "4 Aralık haftası sinema reklamı rezervasyonunu ve açılış salon kapsamını dağıtımcıyla teyit ederek bu hafta teklif isteyin.",
+      "counterView": "Seri bilinirliği gişe garantisi değildir; ilk filmin başarısı dokuz yıl sonra otomatik taşınmaz. Hedef kitle eşleşmesi ve salon dağılımı doğrulanmadan bütçe ayrılmamalı.",
+      "sources": [
+        {
+          "name": "Box Office Türkiye • 2 Aile Arasında",
+          "url": "https://boxofficeturkiye.com/film/2-aile-arasinda--2018360",
+          "published": "Tarih duyurusu 2026-06-05; kontrol 2026-11-06",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Beyazperde • 2 Aile Arasında",
+          "url": "https://www.beyazperde.com/filmler/film-324523/",
+          "published": "Kontrol 2026-11-06",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "cadbury-worldwide-hide-2021",
+      "title": "Cadbury, Google Haritalar'ı kişisel bir Paskalya yumurtası saklama oyununa çevirdi",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Birleşik Krallık, İrlanda, Avustralya, Yeni Zelanda",
+      "eventDate": "Mart-Nisan 2021; arşiv vaka",
+      "label": "Arşiv vaka",
+      "summary": "Cadbury Worldwide Hide, sevilen birinin hatıra yerine haritada sanal yumurta saklatıp bulana gerçek çikolata göndererek haritayı hediyeleşme mecrasına çevirdi.",
+      "body": [
+        "2021: Cadbury ve VCCP, Google Maps üzerinden sevilen bir yere sanal Paskalya yumurtası saklatmayı sağladı.",
+        "Kişisel ipucuyla yumurtayı bulan alıcıya satın alınan gerçek çikolata teslim ediliyordu.",
+        "680 binden fazla yumurta, 1,78 milyon ziyaret, 14.500 satış: Cadbury'nin açıkladığı sonuçlar; bağımsız teyit yok.",
+        "Fiziksel açık hava uygulaması değildi; tamamı dijital haritada, kargo ile fiziksel dünyaya bağlandı."
+      ],
+      "impact": "Neden çalıştı: harita reklam alanı değil, oyunun sahası oldu; ortak anılar kişisel olduğu için paylaşım kendiliğinden geldi. Türkiye uyarlaması: yetişkinlere yönelik çikolata hediyeleşmesinde özel gün ve hatıra yerine ipucu bırakma. Etki yorumu şirket beyanına dayanır; pandemi Paskalya'sı uzak sevdikleri için güçlü bir bağlamdı.",
+      "action": "Yetişkinlere yönelik hediye çikolatada özel gün için konum ve ipucu fikrini küçük bir testle değerlendirin, adres verisi ve teslimat izinlerini önceden kurun. Tartışma sorusu: bu konuma bağlı hediyeleşme fikri hangi çikolata markasına uyarlanabilir?",
+      "counterView": "14.500 satış ölçek olarak küçüktür; asıl değer kazanılmış medya iddiasıdır ve ölçülmemiştir. Pandemi bağlamı ve e-ticaret, lojistik altyapısı fikrin aktarımını sınırlar.",
+      "sources": [
+        {
+          "name": "Google Maps Platform • VCCP vaka anlatımı",
+          "url": "https://mapsplatform.google.com/resources/blog/cadbury-worldwide-hide-inspiring-ritual-hiding-eggs-and-connecting-people-google-maps-platform/",
+          "published": "2021-05-13",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Mobile Marketing • sonuçlar",
+          "url": "https://mobilemarketingmagazine.com/cadburys-worldwide-hide-virtual-easter-egg-hunt-see-over-half-a-million-virtual-eggs-hidden/",
+          "published": "2021-04-12",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://lh3.googleusercontent.com/nSA8Rc7dKovgWy-aBWmuUHQS1SD65ncUdh0j-DSWmBG_G7e9c1vhmAcy3XAx0R_2QiuIjyIHxPN30Zrp80SLkPIh4f7SQb_MNzHz%3De365-pa-nu-s0",
+        "alt": "Cadbury Worldwide Hide harita üzerinde çikolata yumurtası saklama deneyimi",
+        "credit": "Cadbury / VCCP; Google Maps Platform vaka sayfası",
+        "sourceUrl": "https://mapsplatform.google.com/resources/blog/cadbury-worldwide-hide-inspiring-ritual-hiding-eggs-and-connecting-people-google-maps-platform/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "text": "Felis ikinci gecesinde Büyük Ödül, Concept İstanbul'un Yataş Grup/Puffy için yaptığı Duruş Bozukluğu işine verildi; yedi bölüm açıklandı.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/felis-2026da-oduller-sahiplerini-bulmaya-devam-ediyor/",
+      "published": "2026-11-05"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Ümit Taşlı, İstanbul merkezli bağımsız yaratıcı şirket Matterist'i kurdu; Buse Şay kreatif, Pelin Karagöz Hüner strateji lideri ve ortak.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/matteristten-sektore-merhaba/",
+      "published": "2026-11-05"
+    },
+    {
+      "layer": "Tüketici ve ekonomi",
+      "region": "Global",
+      "text": "Mars'ın Ben's Original markası için yapılan 2.000 ebeveynli BK anketinde yüzde 56, hata korkusunun çocuğunu yaratıcı faaliyetten uzaklaştırdığını söyledi.",
+      "source": "Mars",
+      "url": "https://www.mars.com/news-and-stories/press-releases-statements/over-half-of-parents-say-fear-of-getting-it-wrong-stops",
+      "published": "2026-11-05"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 4 hafta: Vahşi Gece 2, 4 Aralık'ta vizyonda; yönetmen Tommy Wirkola, oyuncular David Harbour ve Kristen Bell (UIP Türkiye).",
+      "source": "UIP Türkiye",
+      "url": "https://www.uip.com.tr/movies/vahsi-gece-2/",
+      "published": "2026-11-06"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 3 hafta: Disney animasyonu Hexe: Sihir Krallığı 27 Kasım'da vizyonda (UIP Türkiye).",
+      "source": "UIP Türkiye",
+      "url": "https://www.uip.com.tr/movies/Disneys-Hexed/",
+      "published": "2026-11-06"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Vizyona 2 hafta: Açlık Oyunları: Hasatta Gündoğumu 20 Kasım'da vizyonda; dağıtım Global Pictures (Box Office Türkiye).",
+      "source": "Box Office Türkiye",
+      "url": "https://boxofficeturkiye.com/film/aclik-oyunlari-hasatta-gundogumu--2018047",
+      "published": "2026-11-06"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "TV reklam talebi",
+        "text": "Reklam düşüşü kuliste artık yapım maliyetine indi: %25 indirim talebi iddiası ve bir yapımcının isimli uyarısı var; ölçülmüş reklam verisi hâlâ yok.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "kanallar-yuzde-25-indirim-kulisi"
+        ]
+      },
+      {
+        "tag": "marka ve performans",
+        "text": "Snap'te reklam %4 büyüdü, marka reklamı FMCG harcamasıyla geriledi, performans gelirin yaklaşık %77'si oldu. Tek platform verisi; küresel kesinti kanıtı değil.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "snap-q3-reklam-yuzde-4"
+        ]
+      },
+      {
+        "tag": "yerel premium içerik",
+        "text": "Kanallar maliyet kısma konuşurken Netflix üç yılda 10 milyar TL yapım taahhüdü açıkladı. Yapım kapasitesinin ağırlığı platforma kayabilir; şimdilik beyan.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "netflix-turkiye-10-milyar",
+          "kanallar-yuzde-25-indirim-kulisi"
+        ]
+      },
+      {
+        "tag": "özel gün akışı",
+        "text": "Cuma akşamı ATV ve Star filmle, üç kanal yeni bölümle çıkıyor; prime time takvimi hafta içinde kanal ve gün bazında ayrışmaya devam ediyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "cuma-aksami-kizilcik-donus"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "6-15 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-06",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Beşiktaş",
+      "away": "Zalgiris Kaunas",
+      "broadcaster": "S Sport Plus",
+      "source": "https://bjk.com.tr/tr/mac_merkezi/canli/25826",
+      "note": "Kulüp ve S Sport Plus akışı (ChatGPT). 5 Kasım kontrolünde lineer S Sport gösterilmiyordu, bugünkü pakette yazıyor; kesinleşmedi."
+    },
+    {
+      "date": "2026-11-08",
+      "time": "14:00",
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Galatasaray Daikin",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT Spor Yıldız",
+      "source": "https://tvf.org.tr/lig/sultanlar-ligi?sekme=fikstur",
+      "note": "TVF tarih, saat ve yayıncı kaydı; zorunlu derbi.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Paris Basketball",
+      "away": "Fenerbahçe Tarfin",
+      "broadcaster": "S Sport / S Sport Plus",
+      "source": "https://www.ssportplus.com/yayin-akisi/",
+      "note": "Yayıncı akışı ve takvim bağlantısındaki 11 Kasım 22:45 Türkiye zamanı."
+    },
+    {
+      "date": "2026-11-12",
+      "time": "20:00",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar A Ligi",
+      "home": "Türkiye",
+      "away": "Belçika",
+      "broadcaster": "ATV",
+      "source": "https://www.yeniasir.com.tr/spor/2026/10/31/izmirde-nefesler-tutulacak-turkiye-belcika-maci-ne-zaman-saat-kacta-hangi-kanalda-izmirde-milli-heyecan",
+      "note": "TFF tarih/saat; Yeni Asır: İzmir Gürsel Aksel, ATV şifresiz (aynı medya grubu). Halk TV: eylül-ekim millî maçları ATV'de.",
+      "tags": [
+        "Millî maç"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Virtus Bologna",
+      "broadcaster": null,
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp ana sayfasındaki yaklaşan maç kartı; yayıncı doğrulanamadı."
+    },
+    {
+      "date": "2026-11-13",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "ASVEL",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp maç merkezi; yayıncı doğrulanamadı."
+    },
+    {
+      "date": "2026-11-15",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "Basketbol Süper Ligi",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp ana sayfasındaki yaklaşan maç kartı; yayıncı doğrulanamadı."
+    },
+    {
+      "date": "2026-11-15",
+      "time": "22:45",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar A Ligi",
+      "home": "Fransa",
+      "away": "Türkiye",
+      "broadcaster": null,
+      "source": "https://www.tff.org/default.aspx?pageID=1764",
+      "note": "TFF tarih/saat; eylül-ekim millî maçları ATV'deydi, bu maç için yayıncı teyitsiz.",
+      "tags": [
+        "Millî maç"
+      ]
+    }
+  ],
+  "social": {
+    "window": "6 Kasım 2026 sabah kontrolü; Google son 24 saat",
+    "note": "Arama talebi, video izlenmesi veya reklam attention ölçümü değildir. Eski listeler yeni gündem gibi yinelenmedi.",
+    "items": [
+      {
+        "platform": "Google",
+        "type": "Arama trendi",
+        "title": "celtic - beşiktaş puan durumları",
+        "metric": "Google Trends: 500 bin+ arama; %1000+ artış",
+        "whyItMatters": "Maç sonrasındaki bilgi arayışı spor içeriklerinin bağlamsal erişim fırsatına işaret ediyor; kampanya erişimi değil.",
+        "url": "https://trends.google.com/trending?geo=TR",
+        "source": "Google Trends",
+        "published": "2026-11-06 kontrolü, son 24 saat",
+        "market": "Türkiye"
+      }
+    ]
+  },
+  "weekly": {
+    "window": "2-6 Kasım 2026",
+    "items": [
+      {
+        "title": "TV'de reklam geliri ve yapım maliyeti tartışması büyüdü",
+        "text": "Kuliste Ekim 30 yılın en düşüğü, maç gecesi ara ve %25 yapım indirimi konuşuluyor. Ölçülmüş veri yok, ama kuşak ve bölüm süresi planları risk altında.",
+        "ref": "2026-11-06#kanallar-yuzde-25-indirim-kulisi"
+      },
+      {
+        "title": "Yaş doğrulama 1 Kasım'da yürürlüğe girdi",
+        "text": "Yeni hesaplar e-Devlet belirteciyle doğrulanıyor. Genç kitle erişimi ve platform reklam hedeflemesi yeniden gözden geçirilmeli.",
+        "ref": "2026-11-02#yas-dogrulama-1-kasim-yururluk"
+      },
+      {
+        "title": "Criteo'da harcama büyüdü, gelir düştü",
+        "text": "Medya harcaması 1,2 milyar dolara ulaşırken gelir ve retail media geliri geriledi. Retail media'da harcama ile platform geliri ayrı okunmalı.",
+        "ref": "2026-11-05#criteo-q3-harcama-gelir"
+      }
+    ],
+    "open": [
+      "Ekim reklam geliri kulisi için ölçülmüş veri yok; kanal veya ajans teyidi bekleniyor.",
+      "Haysiyet, Anne Yarısı ve Mehmed'in 10 Kasım dönüşü ve Mehmed'in saati belirsiz.",
+      "NOW'un 9 Kasım pazartesi programı açıklanmadı.",
+      "Uber Eats geçiş tarihi ve medya planı açıklanmadı.",
+      "Meta Ticari Reklam Şartları 20 Kasım; birincil metin okunmadı.",
+      "Zor Baba 4 Türkiye vizyon tarihi (25/27 Kasım) çelişkili."
+    ]
+  },
+  "highlights": [
+    "Kuliste kanallar yapımcılardan %25 indirim istiyor, 110 dakikalık bölüm önerisi masada; Polat Yağcı isimli uyarı yaptı.",
+    "Netflix, 2026-2028 için Türkiye'de 10 milyar TL yapım taahhüdü açıkladı.",
+    "Snap'te gelir %14 arttı, reklam %4'te kaldı; marka reklamı FMCG ile geriledi."
+  ],
+  "watchlist": [
+    "Kanal veya yapımcı tarafından %25 indirim ve 110 dakikalık bölüm kararının teyidi; kasım kuşak planlarına etkisi.",
+    "Kızılcık Şerbeti'nin bu akşamki yeni bölümünün gerçekleşmesi; Güldür Güldür 7 Kasım.",
+    "Haysiyet, Anne Yarısı ve Mehmed'in 10 Kasım dönüşü; NOW'un 9 Kasım programı.",
+    "Netflix 30 Kasım proje sunum günü ve yeni Türkiye yapımları.",
+    "Brand Week Istanbul kapanışı (6 Kasım) ve Felis'in kalan sonuçları.",
+    "Zor Baba 4 için dağıtımcı tarihi (UIP 25 Kasım, Box Office Türkiye 27 Kasım).",
+    "Meta Commercial Terms 20 Kasım; Uber Eats geçiş tarihi."
+  ],
+  "limitations": [
+    "Kanal akışları ve Birsen Altuntaş sayfası Claude oturumunda açılamadı (izin/zaman aşımı). TV kartı ChatGPT'nin resmî akış kontrolüne dayanıyor; bu akşamki yayınlar henüz gerçekleşmedi, Taşacak Bu Deniz'in yeni bölüm etiketi teyitsiz.",
+    "Yapım indirimi iddiası ve bölüm maliyeti rakamları tek gazetecinin kulisidir; kanal, yapımcı birliği veya RTÜK teyidi yok. Ekim reklam geliri için ölçülmüş veri yok.",
+    "Yedi şirketin resmî sayfası paket araştırmasında okunamadı: FİSKOBİRLİK, MONDELEZ, NESTLÉ, DOĞKAR, FERRERO, ALTINKILIÇLAR, LİDER ÇİKOLATA. Bu şirketlerde yeni gelişme olmadığı kesinleştirilemez. Taranan kaynaklarda yeni kategori gelişmesi bulunmadı.",
+    "EuroLeague, TBF, CEV ve TRT Spor sayfaları paket araştırmasında açılamadı; Avrupa basketbolu ve kadın voleybolunda eksiksizlik garantisi yok. Dört maçta yayıncı teyitsiz, BJK–Zalgiris ve voleybol derbisi yeniden teyit edilemedi.",
+    "Snap reklam gelirinin dolar tutarı ve Netflix'in resmî metni okunamadı; Netflix haber merkezi açılmadı, bilgi sektör haberlerine dayanıyor.",
+    "Dijital gündemde yalnız bir kaynak ve bir öğe var (hedef üç); Spotify ve Netflix listeleri eski. Guru kontrolünde yeni çalışma doğrulanmadı, panel çıkmıyor; Nelson-Field kaynağına erişilemedi. Reyting araması yapılmadı.",
+    "Sinema: 2 Aile Arasında dağıtımcısı ve resmî fragmanı teyitsiz; Açlık Oyunları resmî fragmanı açılamadı; UIP ve Box Office sayfaları Claude oturumunda yeniden açılmadı. Yeni bilet kampanyası doğrulanmadı. 7 ana haberin 5'inde görsel yok."
+  ],
+  "corrections": []
+}
