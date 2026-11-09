@@ -1,6 +1,19 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-09",
+      "title": "Ölçüm tabanı değişiyor: Meta Pixel 12 Kasım'da, PMax marka aramasında; salı akşamı dört dizi dönüyor",
+      "summary": "Yedek bülten: araştırma paketi boş geldi, Claude kendi araştırmasıyla hazırladı. Meta ve Google'ın ölçüm/kampanya değişiklikleri Kasım indirim döneminde raporları etkileyebilir; salı 20.00'de dört dizi geri dönüyor.",
+      "edition": "selection",
+      "articleCount": 5,
+      "categories": [
+        "Dijital & AI",
+        "TV & Entertainment",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "unreviewed_fallback"
+    },
+    {
       "date": "2026-11-06",
       "title": "Kanallar yapımda %25 indirim istiyor; Netflix'ten 10 milyar TL; Snap'te reklam %4'te kaldı",
       "summary": "TV'de reklam baskısı yapım maliyetine indi: kuliste %25 indirim, yapımcıdan isimli uyarı var. Aynı gün Netflix üç yılda 10 milyar TL yapım taahhüdü açıkladı. Globalde Snap büyümesini reklam değil abonelik taşıdı.",

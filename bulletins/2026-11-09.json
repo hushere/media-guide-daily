@@ -1,0 +1,406 @@
+{
+  "date": "2026-11-09",
+  "title": "Ölçüm tabanı değişiyor: Meta Pixel 12 Kasım'da, PMax marka aramasında; salı akşamı dört dizi dönüyor",
+  "summary": "Yedek bülten: araştırma paketi boş geldi, Claude kendi araştırmasıyla hazırladı. Meta ve Google'ın ölçüm/kampanya değişiklikleri Kasım indirim döneminde raporları etkileyebilir; salı 20.00'de dört dizi geri dönüyor.",
+  "edition": "selection",
+  "window": "6 Kasım 2026 07:44 – 9 Kasım 2026 09:00 TSİ (Claude yedek araştırması, 08:45-09:00)",
+  "status": "published",
+  "review": {
+    "status": "unreviewed_fallback",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-09T08:56+03:00",
+    "summary": "ChatGPT araştırma paketi (research/2026-11-09.json) 07:50'de yalnız boş iskelet olarak geldi (items boş, window yok); validate_research.py HATA verdi. Bülten Claude'un kısa yedek araştırmasıyla seçki olarak yazıldı. Kanal akışları, TFF, TVF, MediaCat, Marketing Türkiye ve Campaign Türkiye bu oturumda açılamadı (izin/zaman aşımı); TV bilgileri haber sitelerine dayanıyor. Maç listesi 6 Kasım bülteninden taşındı, yalnız Fransa–Türkiye saati beIN haberiyle yeniden teyit edildi."
+  },
+  "source": {
+    "writer": "Claude (yedek)"
+  },
+  "articles": [
+    {
+      "id": "tv-sali-donusler-10-kasim",
+      "title": "Salı 20.00'de dört dizi dönüyor: Haysiyet, Anne Yarısı, Mehmed ve Tuzlu Kahve 10 Kasım'da bekleniyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "10 Kasım 2026, 20.00 (beklenen yeni bölümler)",
+      "label": "Haber kaynaklı",
+      "summary": "3 Kasım'da maç nedeniyle tekrar veren dört salı dizisinin yeni bölümlerle 10 Kasım 20.00'de dönmesi bekleniyor; kanal akışları açılamadı.",
+      "body": [
+        "3 Kasım: Haysiyet, Anne Yarısı ve Tuzlu Kahve tekrar verdi; TRT 1 Galatasaray maçını yayımladı (Politikam).",
+        "Haysiyet: Milli Gazete'ye göre Kanal D program sayfası 10 Kasım 20.00 dönüşü gösteriyor.",
+        "Mehmed: Fetihler Sultanı yeni bölüm 10 Kasım 20.00 (Yeni Asır); TV tablosundaki 21.30 kaydıyla çelişiyor.",
+        "Anne Yarısı (NOW) ve Tuzlu Kahve (Star): 10 Kasım yeni bölüm haber sitelerinde 'bekleniyor', kanal teyidi yok.",
+        "Bu akşam (9 Kasım) 20.00 listesi tek ikincil kaynakta; yeni bölüm/tekrar ayrımı doğrulanamadı."
+      ],
+      "impact": "Veri böyle: salı prime time'ında dört yerli dizi aynı akşam dönüyor. Bizim okumamız: tekrar haftasından sonra rekabet sertleşir; ajans için salı kuşağının değeri bu hafta geçen haftadan farklı, marka için aynı akşam dört dizide yer almak tekrar değil yeni izleyici demek olabilir.",
+      "action": "10 Kasım salı kuşağı rezervasyonlarını yayın günü kanal akışından yeni bölüm etiketiyle doğrulayın; Mehmed'in saatini 20.00 olarak teyit edin.",
+      "counterView": "Haber sitelerinin 'bekleniyor' ifadesi kanal kararı değildir; son dakika maç veya özel yayın akışı yine değiştirebilir.",
+      "sources": [
+        {
+          "name": "Politikam • 3 Kasım yayın akışı",
+          "url": "https://www.politikam.com/3-kasim-tv-yayin-akisi-belli-oldu-haysiyet-anne-yarisi-ve-tuzlu-kahve-tekrar-trt-1de-galatasaray-maci-yayinlanacak",
+          "published": "3 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • Haysiyet 10 Kasım",
+          "url": "https://www.milligazete.com.tr/haysiyet-bu-hafta-neden-yayinlanmadi-final-mi-yapti-kanal-d-dizisi-10-kasimda-donecek-mi",
+          "published": "4 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Yeni Asır • Mehmed: Fetihler Sultanı",
+          "url": "https://www.yeniasir.com.tr/yasam/2026/11/03/mehmed-fetihler-sultani-bu-aksam-var-mi-3-kasim-sali-trt-1-yayin-akisi-aciklandi",
+          "published": "3 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Timeturk • Anne Yarısı",
+          "url": "https://www.timeturk.com/anne-yarisi-bu-aksam-neden-yok-yeni-bolum-10-kasimda-bekleniyor",
+          "published": "3 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Timeturk • Tuzlu Kahve",
+          "url": "https://www.timeturk.com/tuzlu-kahve-bu-aksam-neden-yok-ne-zaman-yeni-bolum-10-kasimda-bekleniyor",
+          "published": "3 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "İlkses • 9 Kasım yayın akışı",
+          "url": "https://ilkses.com.tr/genel/9-kasim-2026-pazartesi-tv-yayin-akisi-bu-aksam-televizyonda-hangi-diziler-var-466987",
+          "published": "8 Kasım 2026 23:57",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "meta-pixel-cihazda-olcum-12-kasim",
+      "title": "Meta Pixel 12 Kasım'dan itibaren cihaz üzerinde dönüşüm ölçümünü varsayılan olarak açıyor; Türkiye kapsamda",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Platform ve ürün",
+      "market": "Global, Türkiye'de de görünür",
+      "eventDate": "12 Kasım 2026 (Events Manager'da görünen başlangıç)",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Meta'nın 'Measure conversions on customer devices' ayarı AB ve BK dışında uygun pikselerde varsayılan açık geliyor; Türkiye'deki hesaplar bu hafta etkilenebilir.",
+      "body": [
+        "Events Manager'da 'Measurement starting November 12, 2026' görünüyor; tarih Meta yardım sayfalarında yok.",
+        "Ayar AB ve BK'daki kişiler için çalışmıyor; Türkiye dahil diğer pazarlarda uygun pikselerde varsayılan açık.",
+        "Eşleştirme müşterinin cihazında, e-posta gibi verilerle yapılıyor; Meta'ya yalnız satın alma ve kampanya bilgisi gidiyor.",
+        "Koşul: piksel sayfaya doğrudan kurulu, sitede e-posta veya telefonla giriş zorunlu olmalı.",
+        "Ayar piksel bazında Events Manager > Veri kaynakları > Ayarlar'dan kapatılabiliyor."
+      ],
+      "impact": "Veri böyle: aynı kampanya için raporlanan dönüşüm sayısı 12 Kasım'dan sonra artabilir. Bizim okumamız: Kasım indirim döneminin ortasında ölçüm tabanı değişiyor; ajans için dönem karşılaştırması bozulur, marka için Meta'nın 'daha iyi' görünmesi gerçek satış artışı olmayabilir.",
+      "action": "12 Kasım öncesi ve sonrası Meta dönüşümlerini ayrı işaretleyin, ayarın her pikselde açık mı kapalı mı olduğunu müşteriyle kayda geçirin.",
+      "counterView": "Ek dönüşümler önceden ölçülemeyen gerçek satışlar olabilir; ancak Meta değer, para birimi ve rıza işleyişini açıklamadı, artış bağımsız ölçümle sınanmalı.",
+      "sources": [
+        {
+          "name": "Relevant Audience • Meta Pixel cihazda ölçüm",
+          "url": "https://www.relevantaudience.com/meta/meta-pixel-measure-conversions-on-customer-devices/",
+          "published": "28 Ekim 2026",
+          "country": "Tayland",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Meta pixel 12 Kasım",
+          "url": "https://ppc.land/meta-pixel-will-count-more-conversions-from-nov-12-unless-advertisers-opt-out/",
+          "published": "27 Ekim 2026",
+          "country": "Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ypkxvhriisnfa5zf.public.blob.vercel-storage.com/news_meta_device_hero-gzWhzSjxVXkfgyamrw8q4SDhEyBdYi.jpg",
+        "alt": "Meta cihaz üzerinde dönüşüm ölçümü haber görseli",
+        "credit": "Relevant Audience",
+        "sourceUrl": "https://www.relevantaudience.com/meta/meta-pixel-measure-conversions-on-customer-devices/"
+      }
+    },
+    {
+      "id": "google-pmax-marka-aramalari",
+      "title": "Google: Performance Max marka aramalarını Search kampanyalarına bırakabilir",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global, Türkiye'de de görünür",
+      "eventDate": "8 Kasım 2026 (yardım metni değişikliği; yürürlük tarihi yok)",
+      "summary": "Google'ın PMax yardım metni, kampanyanın navigasyonel ve marka aramalarını filtreleyip ayrı Search kampanyasına bırakabileceğini söylüyor.",
+      "body": [
+        "Yeni metin: PMax 'navigasyonel veya markaya özgü aramaları filtreleyebilir'; değişikliğin tarihi verilmedi.",
+        "PMax negatif anahtar kelime sınırı Mart 2025'te 100'den 10.000'e çıkmıştı.",
+        "Haus analizi (Ağustos 2024): marka terimlerini dışlamak müşteri edinme maliyetini ortalama %40 düşürdü.",
+        "Aynı hafta Google, Search kampanyalarında dil hedeflemesini kaldırdı; dili reklam metni ve sayfa belirliyor."
+      ],
+      "impact": "Veri böyle: PMax'in marka aramasından aldığı kolay dönüşüm payı azalabilir. Bizim okumamız: PMax raporları kötüleşmiş görünebilir, ama bu yeni müşteri kazanımının daha dürüst okunması olabilir; marka için marka aramasını kimin sahiplendiği bütçe kararını değiştirir.",
+      "action": "Hesaplarda marka Search kampanyasının açık olduğunu kontrol edin ve PMax/Search marka trafiği payını haftalık ayrı izleyin.",
+      "counterView": "Haus verisi tek analiz ve 2024 tarihli; Google filtrenin ne sıklıkla uygulanacağını açıklamadı, değişiklik pratikte küçük kalabilir.",
+      "sources": [
+        {
+          "name": "PPC Land • PMax marka aramaları",
+          "url": "https://ppc.land/googles-performance-max-may-stop-serving-brand-searches/",
+          "published": "8 Kasım 2026",
+          "country": "Global",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Search dil hedeflemesi kalktı",
+          "url": "https://ppc.land/google-ads-drops-language-targeting-from-search-campaigns/",
+          "published": "8 Kasım 2026",
+          "country": "Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/google-pmax-may-filter-brand-searches-search-campaigns-giant-sieve-calling-card-empty-cup.jpg",
+        "alt": "PMax marka aramaları filtresi illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/googles-performance-max-may-stop-serving-brand-searches/"
+      }
+    },
+    {
+      "id": "ziff-davis-google-trafigi-yuzde-37",
+      "title": "Ziff Davis'in Google trafiği %37 düştü: AI Overviews açık web envanterini daraltıyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global, Türkiye'de de görünür",
+      "eventDate": "Q3 2026 sonuçları (7 Kasım 2026 haberi)",
+      "summary": "ABD'li yayıncı Ziff Davis'in organik Google trafiği üçüncü çeyrekte yaklaşık %37 düştü; USA TODAY Co. yılda 100 milyon dolar kesinti yapıyor.",
+      "body": [
+        "Ziff Davis organik Google yönlendirmeleri Q3'te yaklaşık %37 geriledi; bir yıl önce düşüş yaklaşık %23'tü.",
+        "İçeriği AI Overviews ve AI Mode'da yaklaşık 2,7 milyar kez göründü; tıklamanın yaklaşık 10 katı.",
+        "USA TODAY Co. Q3 geliri %7,4 düşüşle 519,2 milyon dolar; dolaylı dijital reklam %32 geriledi.",
+        "Şirket yıllık 100 milyon dolar maliyet kesintisi yapıyor."
+      ],
+      "impact": "Veri böyle: yayıncılar görünür olmaya devam ediyor ama tıklama ve programatik gelir kaybediyor. Bizim okumamız: açık web'de kaliteli envanter azalır, fiyat ve kalite dengesi değişir; ajans için PMP ve doğrudan anlaşmalar önem kazanır, tüketici yanıtı yayıncıya gitmeden arama sayfasında alıyor.",
+      "action": "Programatik planlarda yayıncı listesini Q4 için yeniden gözden geçirin ve Türk haber sitelerinde Google trafik değişimini yayıncılara sorun.",
+      "counterView": "Veriler ABD yayıncılarına ait ve düşüşün tamamı AI'a bağlanamaz; algoritma güncellemeleri ve şirket içi tercihler de etkili olabilir.",
+      "sources": [
+        {
+          "name": "PPC Land • Ziff Davis %37",
+          "url": "https://ppc.land/ziff-davis-loses-37-of-google-traffic-as-publishers-count-the-ai-bill/",
+          "published": "7 Kasım 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/landline-2026-11-07-ziff-davis-37-google-traffic-2-7bn-ai-overviews-slide-projector-crowd-empty-doorway.jpg",
+        "alt": "Yayıncı trafiği düşüşü illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/ziff-davis-loses-37-of-google-traffic-as-publishers-count-the-ai-bill/"
+      }
+    },
+    {
+      "id": "amazon-shop-direct",
+      "title": "Amazon 'Shop Direct' ile Amazon'da satmayan perakendecileri arama sonuçlarına alıyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Tüketici ve ekonomi",
+      "market": "Global, Türkiye'de henüz yok",
+      "eventDate": "4 Kasım 2026 (ABD lansmanı)",
+      "summary": "Amazon 4 Kasım'da, kendi platformunda satış yapmayan perakendecilerin ürünlerini ABD Amazon aramasında listeleyen ücretsiz 'Shop Direct' portalını açtı.",
+      "body": [
+        "Shop Direct ücretsiz; Amazon'da satmayan perakendeciler ürünlerini ABD Amazon aramasına ekleyebiliyor.",
+        "Blend Commerce eylülde bir AI alışveriş ajanını 200 BK ve ABD perakendecisine gönderdi; 29'u ajanı engelledi.",
+        "Engelleme oranı büyük perakendecilerde %20, orta ölçekte %15, yeni markalarda %2,5."
+      ],
+      "impact": "Veri böyle: Amazon arama sayfasını kendi stoğu dışına açıyor. Bizim okumamız: retail media'nın değeri envanterden çok arama trafiğine kayıyor; marka için Amazon dışındaki satış kanalı da Amazon'un reklam alanına girebilir.",
+      "action": "Türkiye'deki pazaryerlerinin (Trendyol, Hepsiburada, Amazon.com.tr) benzer adımlarını retail media planında izleme maddesi olarak ekleyin.",
+      "counterView": "Şimdilik yalnız ABD ve ücretsiz; Amazon'un bu trafiği nasıl paraya çevireceği ve Türkiye'ye gelip gelmeyeceği belli değil.",
+      "sources": [
+        {
+          "name": "PPC Land • Amazon Shop Direct",
+          "url": "https://ppc.land/amazon-opens-its-search-to-outside-stores-as-bots-block-ai-shoppers/",
+          "published": "6 Kasım 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/size/w1200/2026/11/landline-2026-11-06-amazon-shop-direct-ai-shoppers-blocked-29-of-200-giant-rolodex-basket-shopper-rejected-card.jpg",
+        "alt": "Amazon Shop Direct illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/amazon-opens-its-search-to-outside-stores-as-bots-block-ai-shoppers/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "Meta, Instagram ve Threads hesaplarını vazgeçme seçeneği sunmadan Meta Accounts'a taşıyor; yeni iş koşulları 20 Kasım'da yürürlüğe giriyor.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/meta-forces-users-onto-meta-accounts-with-no-opt-out-offered/",
+      "published": "2026-11-07"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Google, 1,3 milyondan fazla TV kutusunda arka kapı bulunan Videostrong'u sertifikalı Android programından çıkardı; enfeksiyon en çok Malezya, Brezilya ve Irak'ta.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/google-bans-videostrong-over-a-backdoor-built-into-1-3-million-tv-boxes/",
+      "published": "2026-11-08"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "TikTok 'Q5' dönemini 1 Aralık 2026 – 31 Ocak 2027 olarak tanımladı; yaklaşık iki aylık yılbaşı sonrası reklam penceresi.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/google-bans-videostrong-over-a-backdoor-built-into-1-3-million-tv-boxes/",
+      "published": "2026-11-08"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Google Ads Search kampanyalarında dil hedeflemesi kaldırıldı; PMax'te ayar yalnız YouTube, Display, Discover ve Gmail için kalıyor.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/google-ads-drops-language-targeting-from-search-campaigns/",
+      "published": "2026-11-08"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+    "items": [
+      {
+        "tag": "ölçüm güveni",
+        "text": "Meta cihazda dönüşüm sayımını, Google PMax marka filtresini aynı haftada değiştiriyor; platform raporları Kasım indirimlerinde dönem karşılaştırmasına daha az uygun olacak.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "meta-pixel-cihazda-olcum-12-kasim",
+          "google-pmax-marka-aramalari"
+        ]
+      },
+      {
+        "tag": "açık web erozyonu",
+        "text": "Ziff Davis Google trafiğinin %37'sini kaybetti, USA TODAY dolaylı dijital reklamda %32 düştü: AI yanıtları yayıncı tıklamasını ve programatik geliri azaltıyor.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "ziff-davis-google-trafigi-yuzde-37"
+        ]
+      },
+      {
+        "tag": "TV reklam talebi",
+        "text": "Salı dizilerinin maç nedeniyle tekrar verip birlikte dönmesi, kanalların yayın planını reklam ve maliyet baskısıyla esnettiği haftalara işaret ediyor; ölçülmüş reklam verisi yok.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "tv-sali-donusler-10-kasim"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "9-15 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-11",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Paris Basketball",
+      "away": "Fenerbahçe Tarfin",
+      "broadcaster": "S Sport / S Sport Plus",
+      "source": "https://www.ssportplus.com/yayin-akisi/",
+      "note": "6 Kasım kontrolünden taşındı (yayıncı akışı); bugün yeniden açılamadı."
+    },
+    {
+      "date": "2026-11-12",
+      "time": "20:00",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar A Ligi",
+      "home": "Türkiye",
+      "away": "Belçika",
+      "broadcaster": "ATV",
+      "source": "https://www.yeniasir.com.tr/spor/2026/11/06/milli-mac-takvimi-turkiye-belcika-maci-ne-zaman-saat-kacta-hangi-kanalda",
+      "note": "Yeni Asır 6 Kasım: 20.00, ATV şifresiz (aynı medya grubu; önceki millî maçlar da ATV'deydi). TFF bugün açılamadı.",
+      "tags": [
+        "Millî maç"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "Anadolu Efes",
+      "away": "Virtus Bologna",
+      "broadcaster": null,
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp maç kartı (6 Kasım kontrolü); yayıncı doğrulanamadı."
+    },
+    {
+      "date": "2026-11-13",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague",
+      "home": "ASVEL",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://bjk.com.tr/tr/mac_merkezi",
+      "note": "Kulüp maç merkezi (6 Kasım kontrolü); bugünkü bir liste ev sahibini ters gösteriyor, yayıncı doğrulanamadı."
+    },
+    {
+      "date": "2026-11-15",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "Basketbol Süper Ligi",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://www.anadoluefessk.org/tr",
+      "note": "Kulüp maç kartı (6 Kasım kontrolü); yayıncı doğrulanamadı.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "time": "22:45",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar A Ligi",
+      "home": "Fransa",
+      "away": "Türkiye",
+      "broadcaster": null,
+      "source": "https://beinsports.com.tr/haber/fransa-turkiye-macinin-biletleri-satisa-cikti",
+      "note": "Saat beIN Sports haberi ve TFF (6 Kasım) ile tutarlı; ATV yalnız Yeni Asır'da, teyitsiz.",
+      "tags": [
+        "Millî maç"
+      ]
+    }
+  ],
+  "highlights": [
+    "Meta Pixel cihaz üzerinde dönüşüm ölçümü 12 Kasım'da Türkiye dahil AB/BK dışında varsayılan açık.",
+    "Google PMax marka aramalarını Search kampanyalarına bırakabilir; Search'te dil hedeflemesi kalktı.",
+    "10 Kasım salı 20.00: Haysiyet, Anne Yarısı, Mehmed ve Tuzlu Kahve'nin dönmesi bekleniyor (haber kaynaklı)."
+  ],
+  "watchlist": [
+    "12 Kasım: Meta Pixel ölçüm değişikliği sonrası dönüşüm sıçraması.",
+    "20 Kasım: Meta yeni iş koşulları.",
+    "10 Kasım akşamı salı dizilerinin gerçekleşen yayını; Mehmed saati.",
+    "Halef için 44. bölümde final kulisi (Milli Gazete, Mynet atfı; 26 Kasım hesabı), resmî teyit yok.",
+    "Kanalların %25 indirim talebi ve 110 dakika kulisinde isimli teyit.",
+    "Netflix 30 Kasım proje sunum günü."
+  ],
+  "limitations": [
+    "ChatGPT araştırma paketi boş geldi; bülten Claude'un ~15 dakikalık yedek araştırmasıyla seçki olarak hazırlandı.",
+    "Dijital gündem araştırması yapılmadı (yalnız ChatGPT yapar).",
+    "Guru notları araştırılmadı (paket gelmedi).",
+    "7 kanal yayın akışı, Birsen Altuntaş, TFF, TVF, MediaCat, Marketing Türkiye ve Campaign Türkiye izin/zaman aşımı nedeniyle açılamadı; TV kartı haber sitelerine dayanıyor.",
+    "Türkiye pencere içi sektör haberi (ajans, RTÜK, Reklam Kurulu, araştırma) bulunamadı; bu 'gelişme yok' demek değildir.",
+    "Rakip kontrolü yalnız haber aramasıyla yapıldı (Ülker, ETİ, Nestlé, Mondelez, Ferrero, Sagra, Şölen); şirket sayfaları açılmadı; Torku, Mars, Altınmarka, Fiskobirlik, Doğkar, Altınkılıçlar, Lider aranmadı. Pencere içi gelişme bulunmadı.",
+    "Yaratıcı mecra vakası yok: aday (Cadbury Twirl Caramel gizli reklamlar, 2022) sonuçları zayıf ve 6 Kasım vakasına çok benzediği için seçilmedi.",
+    "Süper Lig ve Sultanlar Ligi bu hafta için TFF/TVF'den kontrol edilemedi; millî arada lig maçı beklenmiyor, teyitsiz.",
+    "TV tablosu (data/tv-takvim.json) güncellenmedi; pazartesi tam yenilemesi yapılamadı.",
+    "Görsel: 5 ana haberin 4'ünde."
+  ],
+  "corrections": []
+}
