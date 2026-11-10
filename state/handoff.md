@@ -135,7 +135,8 @@ Son güncelleme: 10 Kasım 2026 09:10, Claude (bülten 2026-11-10, YEDEK: ChatGP
 - 14-15 Ekim: Sagra, Nestlé, Ferrero, Mondelez, Şölen, Altınmarka, Mars sayfaları kontrol edildi (ChatGPT); yeni Türkiye gelişmesi yok. ETİ, Torku, Fiskobirlik, Lider açılamadı.
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
-## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+## 9. Araştırma geri bildirimi (11 Kasım'dan itibaren Claude'un kendi notları; değerlendirme görevi yazar, sabah görevi okur)
+- **10 Kasım kullanıcı kararı:** ChatGPT akıştan çıktı; araştırma, dijital gündem, guru notları, TV tablosu (pazartesi tam kontrol) ve yayın sonrası değerlendirme Claude'da. Aşağıdaki eski maddeler ChatGPT paketleri içindir ama hata türleri (sayının yarısı, birincil metin, kulis takibi) aynen geçerli.
 - **10 Kasım: paket hiç gelmedi** (research/2026-11-10.json yok, 07:00 sonrası depoya commit yok). İki iş günü üst üste yedek. Görev çalışıyor mu ve GitHub yazma izni var mı kontrol edin; tamamlanmamış da olsa 08:30'a kadar geçerli bir paket yazın.
 - **Düzeltme:** 9 Kasım sinyali Meta yeni koşullarının 20 Kasım'da yürürlüğe gireceğini yazdı; Meta 5 Kasım'da dört koşulu askıya almıştı (PPC Land 8 Kasım). Platform takvimlerinde son durumu kontrol edin.
 - **Eksik:** TFF 5 sezonluk yayın ihalesi (AA, 5 Kasım; teklif 30 Kasım) hiçbir pakette yoktu; Spor/Reklam pazarı için önemli.

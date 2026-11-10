@@ -2,27 +2,28 @@
 
 Bu dosya bültenin nasıl yazılıp denetlendiğini ve yayımlandığını tanımlar. İçerik kuralları `PROMPT.md` içindedir.
 
-## Güncel düzen: iki araçlı akış (15 Ekim 2026'dan itibaren, kullanıcı kararı)
+## Güncel düzen: tek araçlı akış (11 Kasım 2026'dan itibaren, kullanıcı kararı)
 
-| Saat (hafta içi) | Araç | Görev | Yazdığı yer |
-|---|---|---|---|
-| 07.30 - 08.30 | **ChatGPT** | Araştırma ve ilk teyit (`RESEARCH.md`) | yalnız `research/YYYY-MM-DD.json` |
-| 08.40 - 09.15 | **Claude** | Paketi doğrular, riskli bilgileri yeniden teyit eder, kartları yazar, yayın öncesi görünüm kontrolü yapar (`scripts/render_check.py`), **09.15'te yayımlar** | `bulletins/`, `state/`, gerekirse site dosyaları |
-| 09.15 - 11.00 | **ChatGPT** | Yayımlanmış bülteni okur, her haberi değerlendirir; **hiçbir şeyi değiştirmez**, önerilerini rapor olarak yazar ve kullanıcıya iletir (`RESEARCH.md`) | yalnız `research/reviews/YYYY-MM-DD.md` |
-| Gün içi | **Kullanıcı** | Editoryal geri bildirim, düzeltme talebi | - |
+10 Kasım 2026'da kullanıcı ChatGPT'nin akıştan çıktığını bildirdi; ChatGPT'ye atanmış tüm görevler 11 Kasım'dan itibaren Claude'dadır. `research/` paketi beklenmez, `validate_research.py` çalıştırılmaz, paketin gelmemesi aksama değildir.
 
-- **Ana kontrol Claude'dadır.** `main` dalında `research/` dışındaki her dosya yalnız Claude veya kullanıcının açık onayıyla değişir. `scripts/guard.py` her sabah bunu denetler; ihlal varsa commit, tarih ve dosya listesiyle kullanıcıya bildirilir, Claude kendiliğinden geri almaz.
-- **Claude'un teyit kapsamı:** Her haberi baştan araştırmaz. Yeniden teyit eder: `single_secondary` ve `rumor` haberleri, maç yayıncı/saatleri, TV durum değişiklikleri, sayısal veriler ve `accessLog`'da açılamadığı görülen resmî kaynaklara dayanan bilgiler. Teyit edemediğini etiketler veya çıkarır; paketteki önemli bir eksiği görürse kısa ek araştırma yapabilir.
-- **Bülten alanları:** `source: {"writer": "ChatGPT araştırması, Claude teyit ve yazım"}`; `review.status`: değişiklik yoksa `approved`, düzeltme/çıkarma varsa `approved_with_changes`; `review.summary`: neyin yeniden teyit edildiği, neyin değiştiği (tek paragraf).
-- **TV dizi takvimi (21 Ekim 2026'dan itibaren):** Sitede kanal x gün tablosu `data/tv-takvim.json` dosyasından gösterilir (yalnız en güncel sayıda, maç panelinin altında). ChatGPT her sabah tabloyu kontrol edip paketin `tvTableUpdates` alanına öneri yazar (`RESEARCH.md`). Claude öneriyi teyit eder, dosyaya işler, `updated` tarihini günceller ve `python3 scripts/validate_tv.py` çalıştırır; bülten commit'iyle birlikte yayımlar. Veda tarihi geçen kayıtlar tablodan kaldırılır, başlangıç tarihi geçen "Yeni Dizi" notu kalkar (site bunu tarihe göre kendiliğinden de uygular). `checked` tarihi 14 günden eski kayıtlar sitede † ile işaretlenir.
-- **Dijital gündem (21 Ekim 2026'dan itibaren):** Bu araştırmayı yalnız ChatGPT yapar (`RESEARCH.md`). Claude yeniden araştırmaz ve teyit etmez, yalnız biçim kontrolü yapar. Paket gelmezse veya `social` boşsa şerit çıkmaz.
-- **Media Guru'larından Notlar (22 Ekim 2026'dan itibaren):** Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe, Karen Nelson-Field çalışmalarını yalnız ChatGPT izler (`RESEARCH.md`). Claude yeniden araştırmaz, yalnız biçim kontrolü yapar; paket yoksa panel çıkmaz.
-- **Yayın sonrası değerlendirme (22 Ekim 2026'dan itibaren):** ChatGPT yayın sonrası her haberi okur, kaynaklarla karşılaştırır ve raporunu `research/reviews/` altına yazar; kullanıcıya da özetler. Dosyaları değiştirmez. Claude ertesi sabah raporu okur, kritik bulguları kaynaktan yeniden teyit eder, kullanıcıya iletir; yalnız kullanıcının onayladığı veya açık olgu hatası olanları uygular (hata düzeltmesi `corrections` alanına yazılır). Raporlar ChatGPT'nin görüşüdür, otomatik doğru kabul edilmez.
-- **Yedek kural:** 08.40'ta paket yoksa veya `validate_research.py` hata veriyorsa Claude bülteni kendi araştırmasıyla hazırlar (`review.status: "unreviewed_fallback"`, `source.writer: "Claude (yedek)"`). Bu durumda yayın 09.15'i geçebilir; bildirimde belirtilir. Paket sonradan gelirse yayımlanmış bülten körlemesine ezilmez; yalnız yeni ve doğrulanabilir bilgi eklenir.
-- **Görünüm kontrolü (Antigravity yerine):** Claude yayından önce `python3 scripts/render_check.py <tarih>` ile bülteni yerelde masaüstü ve mobil genişlikte açar: JavaScript hatası, kart sayısı, yatay taşma, maç paneli, dijital gündem şeridi, 'Bu sayıda'. Sorun varsa yayından önce düzeltir. Sınır: bulut ortamından dış görsellerin ve linklerin açılıp açılmadığı test edilemez; kullanıcı bir kırık görürse Claude'a bildirir.
-- **Araştırmacıya geri bildirim:** Claude düzelttiği veya çıkardığı bilgileri `state/handoff.md` içindeki "Araştırma geri bildirimi" bölümüne yazar; ChatGPT ertesi gün bunu okur.
-- **İletişim düzeni (14 Ekim 2026, kullanıcı kararı):** Kullanıcı yalnız Claude ile konuşur. ChatGPT talimatlarını yalnız bu depodan (`RESEARCH.md`, `state/handoff.md`) alır ve kullanıcıdan onay beklemeden çalışır. Kullanıcının istediği değişiklikleri Claude bu dosyalara işler ve aşağıdaki "Talimat değişiklikleri" kaydına tarihli olarak ekler. ChatGPT → Claude: paketteki `researcherNotes`. Claude → ChatGPT: `state/handoff.md` bölüm 9. Claude, araçlardan gelen ve kullanıcının kararını gerektiren konuları kullanıcıya iletir.
-- **Devir notu:** Claude her çalışmada önce `state/handoff.md` dosyasını okur ve yayından sonra günceller (bülten dosyalarıyla aynı commit). Dosya en fazla ~150 satır tutulur.
+| Saat (hafta içi) | Görev | Yazdığı yer |
+|---|---|---|
+| 07.30 - 09.15 | **Claude sabah görevi:** araştırma (eski ChatGPT görevleri dahil), teyit, yazım, görünüm kontrolü (`scripts/render_check.py`), **09.15'te yayın** | `bulletins/`, `state/`, `data/tv-takvim.json`, gerekirse site dosyaları |
+| 10.30 - 11.30 | **Claude yayın sonrası değerlendirme:** yayımlanmış bülteni ayrı bir oturumda baştan okur, kaynaklarla karşılaştırır, raporlar; yalnız açık olgu hatalarını düzeltir | `reviews/YYYY-MM-DD.md`, gerekirse `bulletins/` ve `state/handoff.md` |
+| Gün içi | **Kullanıcı:** editoryal geri bildirim, düzeltme talebi | - |
+
+- **Ana kontrol Claude'dadır.** `main` dalındaki dosyalar yalnız Claude veya kullanıcının açık onayıyla değişir. `scripts/guard.py` her sabah Claude dışı commit'leri denetler; ihlal varsa kullanıcıya bildirilir, Claude kendiliğinden geri almaz.
+- **Araştırma talimatı:** `RESEARCH.md` artık Claude'un araştırma kontrol listesidir (katmanlar, teyit seviyeleri, dijital gündem kaynakları, guru kontrolü, TV tablosu, yayın sonrası değerlendirme). İçerik kuralları `PROMPT.md`.
+- **Alt ajanlar (PROMPT.md 10):** Araştırma paralel alt ajanlarla (`model: "sonnet"`) yapılır; önerilen bölüşüm: (1) TV ve TV tablosu, (2) spor, (3) Türkiye sektör ve rakip, (4) global, yaratıcı mecra vakası, (5) dijital gündem ve guru notları; cuma ek olarak sinema. Yazım, karar ve bölüm 8 kalite kontrolü ana modelde kalır. Hedef: araştırma 08.40'ta biter, yazım 09.05'te.
+- **Bülten alanları:** `source: {"writer": "Claude"}`; `review.status: "approved"` (Claude teyit ve bölüm 8 kalite kontrolü yapıldı), `review.summary`: neyin resmî kaynakla teyit edildiği, neyin açılamadığı (tek paragraf). Kısmi tarama ise `edition: "selection"`. Yayın sonrası değerlendirmede düzeltme yapılırsa `review.status: "approved_with_changes"` ve `corrections` alanı.
+- **TV dizi takvimi:** `data/tv-takvim.json` Claude'dadır. Her pazartesi tüm tablo 7 kanalın resmî akışıyla karşılaştırılır; diğer günler yalnız yeni dizi, final, gün/saat değişikliği işlenir. Değişiklikten sonra `updated` tarihi güncellenir ve `python3 scripts/validate_tv.py` çalıştırılır; bülten commit'iyle yayımlanır. Kurallar `RESEARCH.md` "TV dizi takvimi güncellemesi".
+- **Dijital gündem ve Media Guru'larından Notlar:** Claude araştırır (`RESEARCH.md` ilgili bölümler, `PROMPT.md` 5.6, 5.7). Doğrulanmış öğe yoksa alan eklenmez; `limitations` içine nedeni yazılır.
+- **Yayın sonrası değerlendirme:** Ayrı zamanlanmış oturum, `RESEARCH.md` "Yayın sonrası okuma ve değerlendirme raporu" kontrollerini uygular, raporu `reviews/YYYY-MM-DD.md` olarak yazar. Yalnız kaynakla çelişen açık olgu hatalarını (sayı, tarih, saat, yayıncı, isim) bültende düzeltir ve `corrections` alanına yazar; editoryal önerileri yalnız rapora ve devir notu bölüm 9'a yazar, uygulamaz (kullanıcı onaylarsa sonraki sabah uygulanır).
+- **Görünüm kontrolü:** Yayından önce `python3 scripts/render_check.py <tarih>`. Sınır: bulut ortamından dış görsellerin ve linklerin açılıp açılmadığı test edilemez.
+- **Öz geri bildirim:** Devir notu bölüm 9 "Araştırma geri bildirimi" artık Claude'un kendi düzeltme/değerlendirme notlarıdır; sabah görevi okur, değerlendirme görevi yazar.
+- **İletişim düzeni:** Kullanıcı yalnız Claude ile konuşur. Kullanıcının istediği değişiklikler bu dosyalara işlenir ve "Talimat değişiklikleri" kaydına tarihli eklenir.
+- **Devir notu:** Her çalışmada önce `state/handoff.md` okunur, yayından sonra güncellenir (bülten dosyalarıyla aynı commit). En fazla ~150 satır.
+- **Arşiv:** `research/` altındaki ChatGPT paketleri (14 Ekim - 9 Kasım 2026) ve `research/reviews/` raporları arşiv olarak kalır; değiştirilmez.
 
 ## Roller (ileride yazar/denetçi düzenine geçilirse)
 
@@ -43,9 +44,10 @@ bulletins/YYYY-MM-DD.json     Günlük bülten
 bulletins/index.json          Arşiv dizini (betik üretir, elle düzenleme)
 reviews/YYYY-MM-DD.md         Denetim raporu
 state/handoff.md              Günlük devir notu (bir sonraki çalışmanın hafızası)
-RESEARCH.md                   ChatGPT araştırma talimatı
+RESEARCH.md                   Araştırma kontrol listesi (Claude; 11 Kasım'a kadar ChatGPT talimatıydı)
 schema/research.example.json  Araştırma paketi şeması
-research/YYYY-MM-DD.json      ChatGPT araştırma paketi
+research/YYYY-MM-DD.json      Eski ChatGPT araştırma paketleri (arşiv)
+reviews/YYYY-MM-DD.md         Yayın sonrası değerlendirme raporu (Claude)
 scripts/validate.py           Bülten doğrulama ve dizin üretimi
 scripts/validate_research.py  Araştırma paketi doğrulama
 scripts/validate_tv.py        TV dizi takvimi (data/tv-takvim.json) doğrulama
@@ -126,7 +128,9 @@ index.html, assets/           Site (GitHub Pages)
 
 ## Talimat değişiklikleri
 
-En yeni en üstte. ChatGPT her çalışmada bu kayda bakar.
+En yeni en üstte. Claude her çalışmada bu kayda bakar.
+
+- **2026-11-10:** ChatGPT akıştan çıktı (kullanıcı kararı); tüm görevleri 11 Kasım'dan itibaren Claude'da. Sabah görevi 07.30'da başlar (araştırma + teyit + yazım + 09.15 yayın; dijital gündem, guru notları ve TV tablosu dahil). Yayın sonrası değerlendirme hafta içi 10.30'da ayrı Claude görevi olarak çalışır, raporu `reviews/` altına yazar, yalnız açık olgu hatalarını düzeltir. Paket gelmemesi artık aksama değildir.
 
 - **2026-10-22:** TV Dizi Takvimi kuralları değişti (kullanıcı kararı). Yayındaki dizide yalnız saat görünür; yeni dizide doğrulanmış tarih ya da "Başlangıç tarihi açıklanmadı"; dönen dizi için "Yeni Sezon" etiketi (`tag: "sezon"`); yeni bölüm gelmeyen haftada TKR (`air: "tkr"`) veya yerine konan program; "Günü belirsiz" dizi başladıysa gerçek gününe taşınır; † kayıtta bilgi yoksa kaldırılır, varsa kalır. TV tablosu kontrolü **ChatGPT'ye atandı: her Pazartesi** tüm tablo kanal sayfalarıyla karşılaştırılır, öneriler `tvTableUpdates` ile gelir, Claude teyit edip işler (Claude kanal sitelerinden doğrudan da kontrol edebilir). Var olan dizi yeniden başlıyorsa "Yeni Sezon" etiketi kullanıcı tarafından onaylandı. 22 Ekim'de tablo 7 kanalın resmî akışından yeniden kuruldu (Mercan Köşk bitti, kaldırıldı). Ayrıntı `RESEARCH.md` "TV dizi takvimi güncellemesi".
 - **2026-10-22:** "Günün okuması" kaldırıldı (kullanıcı kararı). `dayRead` artık yazılmaz, doğrulayıcı istemez, site çizmez; eski bültenlerdeki alan arşivde kalır. ChatGPT incelemelerinde `dayRead` kontrolü yapılmaz. "Tutum Radarı" adı **Radar** oldu (JSON alanı `attitudeRadar` aynı) ve sitede Spor Takvimi ile yan yana gösterilir; Dijital Gündem ve Media Guru paneli altta kalır.

@@ -1,14 +1,12 @@
-# Araştırma Talimatı: ChatGPT (Daily Media Intelligence)
+# Araştırma Kontrol Listesi (Daily Media Intelligence)
 
-> **Çalışma ilkesi:** Bu dosya ChatGPT için **tek ve güncel talimat kaynağıdır**. Her çalışmada baştan oku; sohbetteki veya görev metnindeki eski talimatlarla çelişirse bu dosya geçerlidir. **Kullanıcıdan onay, seçim veya geri bildirim bekleme**; belirsiz bir durumda en makul yolu seç, kararını `researcherNotes` alanına yaz ve devam et. Kullanıcı yalnız Claude ile iletişim kurar; talimat değişikliklerini Claude bu dosyaya işler.
-
-Bu dosya ChatGPT'nin günlük araştırma görevini tanımlar. ChatGPT bülteni **yazmaz ve yayımlamaz**; doğrulanmış bir **araştırma paketi** hazırlar. Paketi Claude teyit eder, bülten kartlarına çevirir ve 09.15'te siteye yayımlar.
+> **11 Kasım 2026'dan itibaren (kullanıcı kararı):** ChatGPT akıştan çıktı. Bu dosyadaki tüm görevleri **Claude** yapar: sabah görevi (07.30-09.15) araştırma, dijital gündem, guru notları ve TV tablosu; ayrı yayın sonrası görevi (10.30) değerlendirme raporu. Aşağıdaki metinde "sen" Claude'dur. Araştırma paketi (`research/YYYY-MM-DD.json`) artık yazılmaz; bulgular doğrudan bülten alanlarına (`articles`, `signals`, `matches`, `social`, `gurus`) ve TV tablosu doğrudan `data/tv-takvim.json` dosyasına işlenir. "Paket", "`researcherNotes`", "`accessLog`", "`tvTableUpdates`", "`socialSourceReview`", "`guruCheck`" geçen yerlerde karşılığı: bülten `limitations`/`review.summary` ve `state/handoff.md` (bölüm 7 kaynak erişimi, bölüm 9 geri bildirim). Yazma sınırı bölümü artık geçerli değildir; yetkiler `WORKFLOW.md`'dedir. Çelişkide `WORKFLOW.md` geçerlidir.
 
 ## Zaman
 
-- Hafta içi her gün **07.30 TSİ** başla; paketi en geç **08.30 TSİ**'de depoya gönder.
-- 08.30'a yetişmeyecekse, o ana kadar doğrulananları gönder ve `limitations` içine eksikleri yaz. Eksik paket, hiç paket olmamasından iyidir.
-- Pencere: önceki paketin `cutoff` saatinden bu paketin gerçek `cutoff` saatine kadar. Önceki paket yoksa son 24 saat (pazartesi: cuma 08.30'dan itibaren).
+- Hafta içi her gün **07.30 TSİ** başla; araştırmayı **08.40**'ta bitir, bülteni **09.15**'te yayımla.
+- Yetişmeyen bölümü çıkar ve `limitations` içine yaz; eksik ama doğrulanmış bülten, geç bültenden iyidir.
+- Pencere: önceki bültenin bilgi kesim saatinden (devir notu bölüm 1) bugünkü bilgi kesimine kadar.
 
 ## Ne araştırılır
 
@@ -54,7 +52,7 @@ Katmanlar (`layer`): `Medya tüketimi ve izleyici`, `Reklam pazarı ve para`, `P
 
 Claude bülteni yazıp yayımladıktan sonra (09.15), sen yayımlanmış bültenin **her haberini okur** ve Claude'un yazdığı metni değerlendirirsin. Amaç ikinci bir göz: hata, zayıf yorum, abartı veya eksik yakalamak.
 
-**Kesin sınır: hiçbir şeyi değiştirme.** `bulletins/`, `data/`, `state/`, site dosyaları ve `research/` altındaki paketler dahil hiçbir dosyayı düzenleme, düzeltme veya yeniden yazma. Yalnız aşağıdaki rapor dosyasını yaz. Önerilerini kullanıcıya ilet; kararı kullanıcı verir, uygulamayı Claude yapar.
+**Sınır (11 Kasım 2026'dan itibaren):** Yalnız kaynakla çelişen açık olgu hatalarını (sayı, tarih, saat, yayıncı, isim) bültende düzelt ve `corrections` alanına yaz; geri kalan her şey yalnız rapora. Aşağıdaki eski metin ChatGPT içindi: `bulletins/`, `data/`, `state/`, site dosyaları ve `research/` altındaki paketler dahil hiçbir dosyayı düzenleme, düzeltme veya yeniden yazma. Yalnız aşağıdaki rapor dosyasını yaz. Önerilerini kullanıcıya ilet; kararı kullanıcı verir, uygulamayı Claude yapar.
 
 **Zaman:** Bülten 09.15'te yayımlanır; raporu 11.00'e kadar tamamla. Bülten 09.30'a kadar yayımlanmadıysa rapora "bülten yayımlanmadı" yaz ve dur.
 
@@ -73,7 +71,7 @@ Claude bülteni yazıp yayımladıktan sonra (09.15), sen yayımlanmış bülten
 - `signals`: yorum karışmış mı, kaynak ve tarih doğru mu?
 - Katman dengesi (en az 4 katman, tek katman en fazla %40) ve gün içinde kaçırılmış önemli bir gelişme.
 
-**Rapor dosyası:** `research/reviews/YYYY-MM-DD.md`. Biçim:
+**Rapor dosyası:** `reviews/YYYY-MM-DD.md` (11 Kasım'dan önceki ChatGPT raporları `research/reviews/` altında arşivdir). Biçim:
 ```
 # Değerlendirme raporu: YYYY-MM-DD
 Okunan: N ana haber, M kısa sinyal. Kaynak açılamayan: ...

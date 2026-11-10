@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Ana siteyi koruma kontrolü.
 
-Claude dışındaki commit'lerin izinli klasör (`research/`: ChatGPT araştırma paketi) dışındaki dosyaları değiştirip değiştirmediğini listeler. Ana sitenin dosyaları yalnız Claude veya kullanıcının
+Claude dışındaki commit'lerin izinli klasör (`research/`: 9 Kasım 2026'ya kadar ChatGPT araştırma paketi; artık arşiv) dışındaki dosyaları değiştirip değiştirmediğini listeler. Ana sitenin dosyaları yalnız Claude veya kullanıcının
 açık onayıyla değişmelidir.
 
 Kullanım:

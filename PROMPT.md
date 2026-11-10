@@ -12,7 +12,7 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 
 ## 2. Zamanlama ve tarama penceresi
 
-- Hafta içi (pazartesi-cuma): ChatGPT 07.30'da araştırmaya başlar ve paketi 08.30'a kadar gönderir; Claude 08.40'ta paketi teyit edip yazar ve bülteni **09.15 Türkiye saatinde** yayımlar (15 Ekim 2026'dan itibaren; ayrıntı `WORKFLOW.md`). Bilgi kesimi araştırma paketinin `cutoff` saatidir; Claude'un ek teyitte bulduğu yeni gelişmeler 09.00'a kadar eklenebilir.
+- Hafta içi (pazartesi-cuma): Claude 07.30'da araştırmaya başlar, teyit edip yazar ve bülteni **09.15 Türkiye saatinde** yayımlar (11 Kasım 2026'dan itibaren tek araçlı akış; ayrıntı `WORKFLOW.md`). Bilgi kesimi araştırmanın fiilen bittiği saattir; 09.00'a kadar görülen yeni gelişmeler eklenebilir.
 - Tarama penceresi: önceki bültenin gerçek bilgi kesim saatinden bugünkü gerçek bilgi kesim saatine kadar. Önceki bülten okunamıyorsa normal günlerde son 24 saat, pazartesi günleri cuma 08.30'dan itibaren kullan ve bunu limitations içinde belirt.
 - Bilgi kesim saati, araştırmanın fiilen bittiği saattir. Her bültenin başında (window alanında) Türkiye saatine göre gerçek pencereyi yaz.
 - Yayın/duyuru tarihi ile olay tarihini ayrı kontrol et. Daha önce atlanan önemli haberleri, ait oldukları tarihi göstererek "Gecikmeli fakat önemli" etiketiyle ekle.
@@ -144,7 +144,7 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 
 ### 5.6 Dijital gündem: sosyal medyada konuşulanlar ve en çok izlenenler (13 Ekim 2026 eklemesi)
 
-- **Araştırmayı yalnız ChatGPT yapar (21 Ekim 2026, kullanıcı kararı).** Kaynak listesi, süzme kuralları ve erişim kuralları `RESEARCH.md` içindeki "Dijital gündem araştırması" bölümündedir. Claude bu bölüm için araştırma yapmaz. Paket gelmezse veya `social` boşsa yedek akışta da araştırma yapılmaz; `social` alanı eklenmez ve `limitations` içine "dijital gündem araştırması yapılmadı" yazılır. Claude yalnız paketteki öğeleri biçimlendirir ve şunları kontrol eder: https adresi, tarih, uydurma metrik olmaması, siyasi veya kişisel içerik olmaması.
+- **Araştırmayı Claude yapar (11 Kasım 2026'dan itibaren; önce ChatGPT'deydi).** Kaynak listesi, süzme kuralları ve erişim kuralları `RESEARCH.md` içindeki "Dijital gündem araştırması" bölümündedir. Doğrulanmış öğe yoksa `social` alanı eklenmez ve `limitations` içine nedeni yazılır. Her öğede kontrol: https adresi, tarih, uydurma metrik olmaması, siyasi veya kişisel içerik olmaması.
 - Kapsam: Türkiye'de görünen gündem ile global trend olup Türkiye'de henüz görünmeyen konular birlikte verilir. Her öğede `market` alanı ("Türkiye", "Global, Türkiye'de henüz yok" veya "Global, Türkiye'de de görünür") yazılır. Sonuçlar bültenin `social` alanına yazılır; sitede bülten akışının üstünde ayrı bir şerit olarak görünür.
 - Platform listeleri (Türkiye; yalnız platformun kendi veya resmî listeleri): Netflix Top 10 (Türkiye, haftalık), YouTube'un Türkiye listeleri/trend sayfaları, TikTok Creative Center (Türkiye trend hashtag/şarkı/video), Google Trends Türkiye günlük aramalar, Spotify Türkiye listeleri, Disney+/Prime Video gibi platformların kendi Top 10 listeleri. X gündemi için resmî bir liste erişilebilir değilse üçüncü taraf trend sitelerini yalnız "sinyal" olarak, kaynağını açıkça yazarak kullan.
 - Medya açısından anlamlı olanları seç: marka/reklam içeren viral içerikler, kampanyalar, diziler ve programlar, genç kitle trendleri, rakip markaların sosyal hareketleri. Siyasi, kişisel veya hassas gündemleri ve özel kişileri listeleme.
@@ -156,8 +156,8 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 ### 5.7 Media Guru'larından Notlar (22 Ekim 2026, kullanıcı kararı)
 
 - Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe ve Karen Nelson-Field'in yeni çalışmaları her gün kontrol edilir; önemli gelişme varsa bültenin `gurus` alanına yazılır. Sitede Dijital Gündem ve Spor Takvimi panellerinin yanında ayrı bir panel olarak görünür.
-- **Araştırmayı yalnız ChatGPT yapar** (`RESEARCH.md` "Media Guru'larından Notlar"). Claude bu bölüm için araştırma yapmaz, yeniden teyit etmez, yedek akışta da yapmaz. Paket gelmezse veya `gurus` yoksa alan eklenmez; `limitations` içine yalnız paket gelmediyse "guru notları araştırılmadı" yazılır.
-- Claude yalnız biçim ve güvenlik kontrolü yapar: https birincil kaynak, yayın tarihi, en fazla 3 öğe, `evidence` etiketi, uzun alıntı veya kopya metin olmaması. Veri, kaynak yorumu ve çıkarım ayrı kalmalı; çalışmanın finansörü ve ticari bağı `counterView` içinde belirtilmeli.
+- **Araştırmayı Claude yapar (11 Kasım 2026'dan itibaren; önce ChatGPT'deydi)** (`RESEARCH.md` "Media Guru'larından Notlar"). Önemli yeni yayın yoksa `gurus` alanı eklenmez.
+- Biçim ve güvenlik kontrolü: https birincil kaynak, yayın tarihi, en fazla 3 öğe, `evidence` etiketi, uzun alıntı veya kopya metin olmaması. Veri, kaynak yorumu ve çıkarım ayrı kalmalı; çalışmanın finansörü ve ticari bağı `counterView` içinde belirtilmeli.
 - Önemli yayın yoksa panel çıkmaz. Dolgu not yazılmaz.
 
 ### 5.8 Katmanlı haber seçimi, kısa sinyaller ve Radar (21 Ekim 2026, kullanıcı kararı; 22 Ekim bülteninden itibaren)
@@ -184,7 +184,7 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 
 **Radar (eski adı Tutum Radarı; `attitudeRadar`, her gün, 2-4 öğe):** Sitede Spor Takvimi ile yan yana gösterilir. JSON alan adı değişmedi. Günün haberlerinden okunan medya tutumu sinyalleri. Her öğe: `tag` (kısa etiket: ör. kısa video, ikinci ekran, platform güveni, fiyat duyarlılığı), `text` (en fazla 35 kelime, ne görüyoruz), `basis` (`Veri` yalnız sayısal veya ölçülmüş kaynağa dayanıyorsa; tek haber veya kulis ise `İşaret`), `recurrence` (`Yeni`, `Tekrar ediyor` önceki bültenlerde aynı etiket görüldüyse, `Tek günlük olabilir`), isteğe bağlı `refs` (ilgili haber `id`leri). Claude yazar; yazmadan önce son 5 bültenin `attitudeRadar` etiketlerine bakar. Tek haberden trend çıkarma: tek kaynaklı sinyal `İşaret` olarak etiketlenir ve kanıt gibi sunulmaz. Korelasyonu nedensellik gibi yazma.
 
-**Araştırma tarafı:** Katmanlı araştırma, `layer`, `tier` ve isteğe bağlı `attitudeTag` alanları `RESEARCH.md` içinde ChatGPT'ye verilmiştir. Katman kaynak listeleri ChatGPT araştırmasında önerilir, `state/handoff.md` bölüm 9'da güncellenir.
+**Araştırma tarafı:** Katmanlı araştırma kontrol listesi `RESEARCH.md` içindedir (11 Kasım 2026'dan itibaren Claude uygular). Katman kaynak listeleri `state/handoff.md` bölüm 9'da güncellenir.
 
 ## 6. Haber yapısı ve editoryal standart
 
