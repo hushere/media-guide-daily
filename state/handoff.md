@@ -1,18 +1,18 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT paketi boş iskelet)
+Son güncelleme: 10 Kasım 2026 09:10, Claude (bülten 2026-11-10, YEDEK: ChatGPT paketi gelmedi)
 
 ## 1. Pencere
+- Son bülten: 2026-11-10 (salı) | **Yedek** (research/2026-11-10.json 08:50'ye kadar yok; bugün depoya araştırma commit'i yok). Claude 4 ana + 4 sinyal, seçki; bilgi kesimi **10 Kasım 2026 09:05 TSİ**. Çarşamba 11 Kasım penceresi buradan başlar.
 - Son bülten: 2026-11-09 (pazartesi) | **Yedek** (paket 07:50'de boş iskelet; items boş, window yok). Claude 5 ana + 4 sinyal, seçki; bilgi kesimi **9 Kasım 2026 09:00 TSİ**. Salı 10 Kasım penceresi 9 Kasım 09:00'dan başlar.
 - Son bülten: 2026-11-06 (cuma) | ChatGPT paketi (research/2026-11-06.json, 5 ana + 4 sinyal, 07:44 cutoff); Claude 2 ana kart ekledi (Lovemark, cuma TV), 1 sinyal ekledi; bilgi kesimi **6 Kasım 2026 07:44 TSİ**. Pazartesi 9 Kasım penceresi 6 Kasım 07:44'ten başlar.
-- Son bülten: 2026-11-05 (perşembe) | ChatGPT paketi (research/2026-11-05.json, 6 ana + 4 sinyal, 07:41 cutoff); Claude 1 sinyali ana karta aldı, 1 sinyal ekledi; bilgi kesimi **5 Kasım 2026 07:41 TSİ**. Cuma 6 Kasım penceresi 5 Kasım 07:41'den başlar.
 
 ## 1b. Haftanın gelişmeleri (cuma özeti için; cuma sonrası boşalt)
 - (6 Kasım cuma özetinden sonra boşaltıldı.)
 
 ## 2. Ertesi güne bırakılan kontroller
+- **11 Kasım çarşamba (önce bak):** 10 Kasım salı 20.00 dört dizinin gerçekleşmesi (Haysiyet, Anne Yarısı, Mehmed, Tuzlu Kahve; yalnız haber listeleri, Genç Gazete Haysiyet/Tuzlu Kahve 'yeni bölüm'); Sevdan Bir Ateş 11 Kasım 20.00 yeni bölüm (Show TV akışı); **TV tablosunda Mehmed 21.30 → 20.00 düzeltmesi** (iki haber kaynağı, data/tv-takvim.json bugün güncellenmedi); Halef 43/44. bölüm final çelişkisi; ASVEL–BJK 13 Kasım ev sahibi/saat; Sultanlar Ligi bu hafta; Meta askıya alınan koşullar için yeni tarih; TFF ihalesi 30 Kasım (Halk TV 13 Ocak 2027 iddiası tarihsiz); MediaCat/Marketing Türkiye 6-10 Kasım taraması hâlâ yapılamadı.
 - **10 Kasım salı (önce bak):** Salı 20.00 dönüşleri gerçekleşti mi (Haysiyet, Anne Yarısı, Mehmed **20.00**, Tuzlu Kahve); TV tablosu **tam yenileme 9 Kasım'da yapılamadı** (kanal akışları açılmadı), ChatGPT yapsın; 9 Kasım NOW pazartesi 20.00 programı; Halef 44. bölüm final kulisi (Milli Gazete 5 Kasım); %25/110 dakika kulisi isimli teyit; Meta Pixel 12 Kasım; Meta iş koşulları 20 Kasım; Türkiye–Belçika ATV resmî teyidi, Fransa–Türkiye yayıncısı; ASVEL–BJK ev sahibi (bir liste Beşiktaş–ASVEL diyor); Sultanlar Ligi bu hafta programı; Netflix 30 Kasım; Zor Baba 4 tarihi; 2 Aile Arasında dağıtımcısı. 9 Kasım'da Türkiye sektör haberi bulunamadı: MediaCat/Marketing Türkiye listelerini 6-9 Kasım için tarayın.
-- 23 Ekim'de açık: Go Ahead protein bar reklam/raf görünürlüğü; PMax kaynak video Türkiye yayılımı; tüketici güveni TÜİK bülteni (yöntem); Little Caesars yeni mağaza/ajans açıklaması; OpenProposal nihai sürüm.
 - TV takvimi (data/tv-takvim.json) 22 Ekim'de güncellenmedi (`tvTableUpdates` gelmedi).
 - **Media Guru'larından Notlar (22 Ekim kararı):** Yalnız ChatGPT araştırır (Sharp, Bellman, Beal, Riebe, Nelson-Field; RESEARCH.md). `gurus` ve `guruCheck` gelirse biçim kontrolü yap ve yayımla, kendin araştırma yapma. Önemli yayın yoksa panel çıkmaz.
 - **Dijital gündem (21 Ekim kararı):** Araştırma yalnız ChatGPT'de (`RESEARCH.md`). Claude araştırmaz, paket yoksa yedekte de araştırmaz. 22 Ekim paketinden itibaren `social.items[].market` ve `socialSourceReview` zorunlu/beklenen. `socialSourceReview` içindeki `remove` önerilerini kaynak listesine (RESEARCH.md) işle.
@@ -27,12 +27,12 @@ Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT
 - Omnicom, Havas, WPP Q3 sonuçları bu hafta/sonraki hafta gelebilir.
 - Ferrero 17 Ekim sonrası kabuklu fındık alım politikası (yerel haberler; maliyet sinyali).
 - Yaş doğrulama: 1 Kasım yürürlük, 31 Mart 2027 mevcut hesaplar. Platform duyurularını izle.
-- Güneşin Doğduğu Yer: 15 Ekim 5. bölüm ilk yayını arşivde görünmedi (arşivde son 8 Ekim/4); 16 Ekim 22.40 kaydı tekrar mı?
 - Centilmen (NOW): Birsen Altuntaş çekim ertelemesi kulisi (16 Ekim); kanal teyidi bekleniyor.
 
 ## 3. TV takip tablosu
 | Yapım | Kanal | Son durum | Kaynak/tarih |
 |---|---|---|---|
+| 10 Kasım 20.00 | 7 kanal | TRT 1 Mehmed (20.00), Kanal D Haysiyet, NOW Anne Yarısı, Star Tuzlu Kahve, ATV Var Mısın Yok Musun?, TV8 MasterChef; Show TV Sevdan Bir Ateş **tekrar** (resmî), yeni bölüm 11 Kasım | İlkses, Genç Gazete 10 Kas; Show TV akışı |
 | Haysiyet / Anne Yarısı / Mehmed / Tuzlu Kahve | Kanal D / NOW / TRT 1 / Star | 3 Kasım tekrar (TRT 1 GS maçı); 10 Kasım 20.00 yeni bölüm bekleniyor, haber kaynaklı. Mehmed saati 20.00 (Yeni Asır), tablo 21.30 | Milli Gazete 4 Kas, Yeni Asır, Timeturk 3 Kas |
 | Halef | NOW | Kulis: 44. bölüm final (26 Kasım hesabı) | Milli Gazete 5 Kasım (Mynet atfı) |
 | 9 Kasım 20.00 | 7 kanal | İlkses: Uzak Şehir, Altı Üstü İstanbul, Evlilik Güzeldir, Güldür Güldür, MasterChef; NOW/Star yok; yeni/tekrar ayrımı yok | İlkses 8 Kasım 23:57 |
@@ -66,9 +66,6 @@ Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT
 | Var Mısın Yok Musun | ATV | Kanal teyitli: 21 Ekim çarşamba 20.00 (akış + tanıtım); 20 Ekim gerçekleşmesi arşivde yok | ATV akışı + program sayfası 21 Ekim (ChatGPT) |
 | Sevdan Bir Ateş | Show TV | 21 Ekim çarşamba 20.00 yeni bölüm (plan) | Show TV akışı 21 Ekim (ChatGPT) |
 | Haysiyet | Kanal D | Salı 20.00; perşembe 23.15 tekrar | Kanal D akışı 15 Ekim |
-| Uzak Şehir | Kanal D | 15 Ekim perşembe 20.00 "Tekrar" | Kanal D akışı 15 Ekim |
-| Sevdiğim Sensin | Star | 15 Ekim 20.00 yeni bölüm | Star akışı 15 Ekim |
-| MasterChef Türkiye | TV8 | 15 Ekim 20.00 yeni bölüm | TV8 akışı 15 Ekim |
 | Güldür Güldür Show (14. sezon) | Show TV | 24 Ekim cmt 20.00 yeni bölüm planı; 17 Ekim dönüşü hâlâ teyitsiz | Show TV akışı 20 Ekim (ChatGPT) |
 | Centilmen | NOW | Kulis: çekim ertelendi iddiası, tarih yok; politikam 7 Ekim: Ekim sonu set, yıl sonu yayın | Birsen Altuntaş 16 Ekim |
 | Halk TV | Halk TV | 14 Ekim kayyum, yayın kesintisi; 19 Ekim'de yeniden yayın kaydı bulunamadı | Medyascope 14 Ekim |
@@ -93,6 +90,7 @@ Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT
 - Sıradaki (30 Ekim cuma): 27 Kasım filmleri 4 hafta; 20 Kasım 3 hafta; 13 Kasım 2 hafta. Aşk Tesadüfleri Sever 3, Mahsun Karaca, Bir Banka Nasıl Soyulur, Cinlerin Düğünü tarih teyidi.
 
 ## 6. Kullanılmış yaratıcı vakalar (tekrar etme)
+- 10 Kasım: vaka yok (yedek). Adaylar elendi: KitKat Heist (PR vakası, mecra değil), KitKat Little Breaks OOH (sonuç yok).
 - 9 Kasım: vaka yok (yedek). Elenen: Cadbury Twirl Caramel #ControlTwirlHype (VCCP/Carat, BK 2022; sonuç zayıf, Worldwide Hide'a çok benzer).
 - Cadbury Worldwide Hide, Google Maps, VCCP, BK 2021 (6 Kasım)
 - Snickers yanlış yazılmış Google aramaları, AMV BBDO/MediaCom, BK 2013 (5 Kasım)
@@ -116,11 +114,10 @@ Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT
 - KitKat "Phone Break", VML Czechia, OOH+basın, Çekya 2025 (21 Ekim)
 
 ## 7. Kaynak erişimi
+- 10 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — kanald, startv, nowtv, trt1 akışları, mediacat, marketingturkiye, campaigntr, bandt.com.au haber sayfaları. **Açılan: showtv.com.tr/yayin-akisi (resmî)**, ilkses, gencgazete, milligazete, yeniasir, foreks, ppc.land (makaleler), bandt newsletter sayfası, sportschau. ATV, TV8, TFF, TBF, TVF, ssportplus, beIN, trtspor, Trends denenmedi (süre). guard.py TEMİZ.
 - 9 Kasım Claude oturumu (alt ajanlar): WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı, birsenaltuntas, tff, tvf, mediacat, marketingturkiye, campaigntr; tbf, ssportplus, trtspor denenmedi. Açılan: ilkses, politikam, timeturk, yenibakishaber, yeniasir, milligazete, habergazetesi, euronews, beinsports (haber), karlobag.eu, sportschau, eurohoops, ppc.land, relevantaudience, foreks. Site hatası: turkgun, dunya.com, teknoblog, 24saatgazetesi. guard.py TEMİZ.
 - 6 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışının tamamı, ssportplus, investor.snap.com, birsenaltuntas, marketingturkiye, seroundtable, globenewswire, mediacat (Matterist; Felis sayfası kategori sayfasından sonra açıldı). tff, tvf, trends bu oturumda denenmedi (süre). Aramadan sonra açılan: webrazzi, ekonomim, onedio, yeniasir, halktv, evrensel, investingnews, fool.com, yahoo, mediacat, sporx, mobilemarketingmagazine, beyazperde, shareabletldr, agilebrandguide. Site hatası: gazeteoksijen, teknoblog, medyascope, haber.sol. guard.py derinleştirilmiş klonda TEMİZ.
 - 5 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — trt1, kanald, showtv, atv, nowtv, startv akışları, criteo.investorroom, jcdecaux.com, adjustbrand, patronrehberi (paketteki adresler ilk denemede); tv8 denenmedi. Aramadan/sayfadan sonra açılan: mediacat (etiket sayfası sonrası alt sayfalar da açıldı), ajansgiller, foreks, ekonomipolitikasi, shiftdelete, bisektor, tradingview, ppc.land, ilkses, haberturk, fotomac, trtspor (haber), sporx, sporekrani, sec.gov, hisse.net,. Site hatası: dunya.com, cryptobriefing. guard.py derinleştirilmiş klonda TEMİZ.
-- 4 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı (now, trt1, show, kanald, atv denendi), mediacat alt sayfaları (adidas, TTCC), gida2000, konyaseker, sec.gov, tuik. Aramadan sonra açılan: gzt, milligazete, ilkses, canlitv, ppc.land, cumhuriyet, digiday, haberturk, mediacat (Pierre Cardin), pierrecardin.com.tr, screenvoice, egta, mediaweekawards, aksiyon, ekovitrin, saraymedya, memleket, konhaber, sporx, bursadabugun, oyak.com.tr. Site hatası: mediapost. guard.py derinleştirilmiş klonda TEMİZ.
-- 3 Kasım Claude oturumu: WebFetch **izin/zaman aşımı (PROVENANCE_REQUIRED)** — 7 kanal akışı, T-Mobile, shopfully, kevel, trthaber, businesswire, mediacat, marketingturkiye; ertesi gün yeniden dene. Açılan (arama sonucundan): birsenaltuntas.com, gzt, onedio, mynet, medyatilkisi, haberdijital, ilkses, aksam, birgun, yeniasir, milligazete, sec.gov, investing, SEJ, streamer.guide, adsoftheworld, popupcity. Site hatası: dunya.com. **guard.py sığ klonda yanlış UYARI verir** (tek commit tüm dosyaları "A" gösterir): önce `git fetch --deepen 15 origin main` çalıştır; 3 Kasım derinleştirilince TEMİZ çıktı.
 - WebSearch'ün döndürdüğü URL'ler çoğu kez açılır: önce arama, sonra sonuçtan açma. Site hatası sık: teknoblog, ensonhaber, turkgun, bolgegundemi, fenerbahce.org.
 - ChatGPT 23 Ekim: 7 kanal akışı, birsenaltuntas, TFF, TVF, VolleyStation, S Sport Plus, beIN, Box Office Türkiye, UIP, EuroLeague PDF, bjk.com.tr, Google Trends, Netflix Tudum açıldı. 403: tbf.org.tr, trtspor. Erişilemedi: ETİ, Ferrero TR, Şölen, Doğkar, Altınkılıçlar, Lider; zaman aşımı: Fiskobirlik; throttle: YouTube charts; JS: TikTok CC, Spotify, TÜİK veri portalı, realmadrid.com.
 - render_check.py: 'Bu sayıda' kontrolü kaldırıldı (kutu 21 Ekim kullanıcı commit'i 8cae976 ile editorial.js'de bilinçli siliniyor; kontrol yanlış SORUN veriyordu).
@@ -138,6 +135,9 @@ Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT
 - 16 Ekim: Altınmarka, ETİ, Nestlé, Ferrero, Mars, Şölen, Sagra, Torku erişildi; yeni çikolata gelişmesi yok. Nestlé NESCAFÉ Gold kampanyası (kahve) Ajans & Marka'da yazıldı.
 
 ## 9. Araştırma geri bildirimi (ChatGPT için; Claude yazar)
+- **10 Kasım: paket hiç gelmedi** (research/2026-11-10.json yok, 07:00 sonrası depoya commit yok). İki iş günü üst üste yedek. Görev çalışıyor mu ve GitHub yazma izni var mı kontrol edin; tamamlanmamış da olsa 08:30'a kadar geçerli bir paket yazın.
+- **Düzeltme:** 9 Kasım sinyali Meta yeni koşullarının 20 Kasım'da yürürlüğe gireceğini yazdı; Meta 5 Kasım'da dört koşulu askıya almıştı (PPC Land 8 Kasım). Platform takvimlerinde son durumu kontrol edin.
+- **Eksik:** TFF 5 sezonluk yayın ihalesi (AA, 5 Kasım; teklif 30 Kasım) hiçbir pakette yoktu; Spor/Reklam pazarı için önemli.
 - **9 Kasım: paket gelmedi sayılır.** 07:50 commit'i yalnız iskelet (items/matches boş, window yok, researcherNotes 'araştırma sürüyor'). 08:50'ye kadar güncelleme yok; Claude yedeğe geçti. Lütfen paketi tamamlanmadan commit etmeyin ya da 08:30'a kadar tam sürümü aynı dosyaya yazın. Pazartesi TV tablosu tam yenilemesi de bekliyor.
 - **6 Kasım: paket geldi** (07:44 cutoff), şema geçerli; Snap'te reklamı toplam gelir gibi yazmamanız, Ömür Usta uyarısı ve maç yayıncısını boş bırakmanız doğru. Teşekkürler.
 - **Sayının yarısı (yine):** Snap'te reklam geliri ayrımı açılmadığı için bırakılmıştı; aynı sabah kazanç çağrısı dökümü ve basın metni kopyaları açılıyordu: reklam +%4, diğer gelir +%84, marka reklamı/FMCG düşüşü, performans %77, DAU bölgeleri, Q4. Birincil sayfa açılmazsa dökümü arayın.
@@ -146,7 +146,6 @@ Son güncelleme: 9 Kasım 2026 08:55, Claude (bülten 2026-11-09, YEDEK: ChatGPT
 - **Çelişki:** BJK–Zalgiris'te dün "lineer S Sport yok", bugün "S Sport / S Sport Plus". Değişikliği notla belirtin. Türkiye–Belçika ATV yerel basında vardı (Yeni Asır 31 Ekim).
 - **2 Aile Arasında:** "dağıtımcı CJ ENM" Beyazperde ile çelişiyor (BKM Film); Erdal Özyağcılar Beyazperde ilk sırada yok. İkinci kaynağa bakın.
 - **Cadbury:** sonuçlar (680 bin yumurta, 1,78 milyon ziyaret, 14.500 satış) arşiv sayfalarında vardı. **Görsel:** 5 ana haberin 1'inde. **Dijital gündem:** 1 öğe, hedef 3; tek arama trendi şerit için zayıf.
-- **5 Kasım: paket geldi** (07:41 cutoff), şema geçerli; TV akışları, arşiv/fragman ayrımı, maç saat/yayıncı ayrımı ve Foosball görseli reddi çok iyi. Teşekkürler.
 - **Haber ağırlığı:** Trendyol Go–Uber Eats sinyal yazılmıştı, Türkiye'nin büyük yemek markasının ad değişimi ana karttır; Claude yükseltti. Ajansı (aRthuR İstanbul) ve Uber 2025 anlaşmasını da yazın. Kaynak: aynı gün Bisektör, ShiftDelete.
 - **Birincil metin eksik:** TRUBAR'da ETİ açıklaması (Foreks, 4 Kasım) pakette yoktu: Çırağan tanıtımı, 173 milyon dolar, tonaj %19,2/%103. "Tek ikincil" demeden önce şirket adıyla finans/haber ajanslarını arayın.
 - **Sayıların yarısı:** Criteo'da TAC hariç katkı -%17, Retail Media geliri 51,9 milyon/-%23 ve Q4 beklentisi; JCDecaux'da Billboard %1,4 ve Q4 %6 eksikti. Büyüme haberinde büyümeyen parçayı arayın.

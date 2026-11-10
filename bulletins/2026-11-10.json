@@ -1,0 +1,349 @@
+{
+ "date": "2026-11-10",
+ "title": "Meta 20 Kasım koşullarını askıya aldı; TFF yayın ihalesi 30 Kasım'da; salı 20.00'de diziler akışta",
+ "summary": "Yedek bülten: araştırma paketi gelmedi, Claude kendi araştırmasıyla hazırladı. Meta'nın tartışmalı reklam koşulları yürürlüğe girmiyor, TFF 2027-32 yayın ihalesine teklifler 30 Kasım'da; bu akşam salı dizileri akışlarda.",
+ "edition": "selection",
+ "window": "9 Kasım 2026 09:00 – 10 Kasım 2026 09:05 TSİ (Claude yedek araştırması, 08:45-09:05)",
+ "status": "published",
+ "review": {
+  "status": "unreviewed_fallback",
+  "reviewer": "Claude",
+  "reviewedAt": "2026-11-10T09:10+03:00",
+  "summary": "ChatGPT araştırma paketi (research/2026-11-10.json) 08:50'ye kadar depoya gelmedi; bugün depoya hiç araştırma commit'i yok. Bülten Claude'un kısa yedek araştırmasıyla seçki olarak yazıldı. Show TV akışı resmî kaynaktan açıldı; Kanal D, Star, NOW ve TRT 1 akışları izin/zaman aşımı nedeniyle açılamadı. Maç listesi 9 Kasım bülteninden taşındı; Türkiye–Belçika ATV iki kaynakla yeniden teyit edildi. 9 Kasım sinyalindeki Meta 20 Kasım koşulları bilgisi düzeltildi."
+ },
+ "source": {
+  "writer": "Claude (yedek)"
+ },
+ "articles": [
+  {
+   "id": "tv-sali-20-10-kasim",
+   "title": "Bu akşam 20.00: Haysiyet, Anne Yarısı, Mehmed ve Tuzlu Kahve akışta; Show TV tekrar veriyor",
+   "region": "Türkiye",
+   "category": "TV & Entertainment",
+   "layer": "Medya tüketimi ve izleyici",
+   "market": "Türkiye",
+   "eventDate": "10 Kasım 2026, 20.00",
+   "label": "Haber kaynaklı",
+   "summary": "Geçen salı tekrar veren dört dizi bu akşam 20.00 akış listelerinde; Show TV'de Sevdan Bir Ateş resmî akışta tekrar.",
+   "body": [
+    "İlkses ve Genç Gazete (10 Kasım): TRT 1 Mehmed, Kanal D Haysiyet, NOW Anne Yarısı, Star Tuzlu Kahve 20.00'de.",
+    "Genç Gazete Haysiyet ve Tuzlu Kahve'yi yeni bölüm gösteriyor; Mehmed ve Anne Yarısı için ayrım yok.",
+    "Show TV resmî akışı: Sevdan Bir Ateş 20.00 tekrar, yeni bölüm 11 Kasım çarşamba 20.00.",
+    "ATV'de Var Mısın Yok Musun?, TV8'de MasterChef Türkiye 20.00'de.",
+    "Mehmed saati iki kaynakta 20.00; TV tablosundaki 21.30 kaydı düzeltilmeli."
+   ],
+   "impact": "Veri böyle: salı 20.00'de dört yerli dizi aynı akşam akışta, Show TV ise kuşağı tekrarla geçiyor. Bizim okumamız: ajans için salı rekabeti bu hafta geçen haftadan sert; Show TV'nin tekrar kuşağı daha düşük maliyetli ama daha düşük izleyicili alternatif olabilir.",
+   "action": "Salı rezervasyonlarını bu akşam kanal akışlarındaki 'yeni bölüm' etiketiyle kontrol edin; Mehmed spotlarını 20.00 kuşağına göre planlayın.",
+   "counterView": "Haber sitelerinin akış listeleri kanal kararı değildir; Kanal D, Star, NOW ve TRT 1 resmî akışları bu sabah açılamadı.",
+   "sources": [
+    {
+     "name": "İlkses • 10 Kasım yayın akışı",
+     "url": "https://ilkses.com.tr/genel/10-kasim-tv-yayin-akisi-bu-aksam-ekranlarda-hangi-yapimlar-izleyiciyle-bulusacak-467118",
+     "published": "10 Kasım 2026",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Genç Gazete • 10 Kasım TV yayın akışı",
+     "url": "https://www.gencgazete.net/10-kasim-2026-tv-yayin-akisi-bugun-hangi-diziler-var-atv-kanal-d-show-tv-star-tv-trt-1-ve-tv8",
+     "published": "10 Kasım 2026 07:30",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Show TV • Yayın akışı",
+     "url": "https://www.showtv.com.tr/yayin-akisi",
+     "published": "10 Kasım 2026'da kontrol edildi",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://ilkses.com.tr/image/2026/11/10/10-kasim-tv-yayin-akisi-bu-aksam-ekranlarda-hangi-yapimlar-izleyiciyle-bulusacak_large.webp",
+    "alt": "10 Kasım TV yayın akışı haber görseli",
+    "credit": "İlkses",
+    "sourceUrl": "https://ilkses.com.tr/genel/10-kasim-tv-yayin-akisi-bu-aksam-ekranlarda-hangi-yapimlar-izleyiciyle-bulusacak-467118"
+   }
+  },
+  {
+   "id": "meta-20-kasim-kosullari-askida",
+   "title": "Meta, 20 Kasım'da yürürlüğe girecek dört reklam koşulunu süresiz askıya aldı",
+   "region": "Global",
+   "category": "Dijital & AI",
+   "layer": "Düzenleme ve sektör",
+   "market": "Global, Türkiye dahil reklamverenler",
+   "eventDate": "5 Kasım 2026 (duyuru); 8 Kasım 2026 (PPC Land)",
+   "summary": "Meta; ticari, katalog, self-serve reklam ve üretken AI kreatif koşullarındaki güncellemeleri durdurdu, mevcut koşullar geçerli kalıyor.",
+   "body": [
+    "Askıya alınan dört metin: Commercial Terms, Product Catalog Terms, Self-Serve Ad Terms, Ad Creative Generative AI Terms.",
+    "Yeni metin Meta'ya reklamveren sitelerini otomatik tarama hakkı veriyordu; AI kreatif sorumluluğu reklamverene yükleniyordu.",
+    "Meta yeni tarih vermedi; Commercial Terms için 6 Mart 2024 sürümü geçerli kalıyor.",
+    "Öncesinde Oslo mahkemesi (28 Ekim), São Paulo mahkemesi (3 Kasım) ve İngiltere CMA soruşturması (30 Ekim) vardı.",
+    "Meta'ya göre üçüncü çeyrekte yaklaşık 10 milyon reklamveren üretken AI kreatif aracı kullandı."
+   ],
+   "impact": "Veri böyle: tarama ve AI sorumluluğu maddeleri şimdilik yürürlükte değil. Bizim okumamız: marka için site verisinin AI eğitimine açılması ertelendi; ajans için Advantage+ ve AI kreatif kullanımında sözleşme riski şimdilik eski çerçevede kalıyor.",
+   "action": "Hukuk ve marka ekipleriyle Meta site taraması ve AI kreatif sorumluluğu konusundaki tutumunuzu yeni tarih açıklanmadan netleştirin.",
+   "counterView": "Askıya alma geri çekme değildir; Meta metni değiştirip kısa sürede yeniden yayımlayabilir ve tarama başka yollarla sürebilir.",
+   "sources": [
+    {
+     "name": "PPC Land • Meta halts its Nov 20 terms",
+     "url": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/",
+     "published": "8 Kasım 2026",
+     "country": "Global",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://ppc.land/content/images/2026/11/meta-pauses-four-crawl-terms-nov-20-no-new-date-crane-claw-clothespin-storefronts.jpg",
+    "alt": "Meta'nın askıya aldığı koşulları anlatan illüstrasyon",
+    "credit": "PPC Land",
+    "sourceUrl": "https://ppc.land/meta-halts-its-nov-20-terms-that-would-let-it-crawl-business-websites/"
+   }
+  },
+  {
+   "id": "tff-yayin-ihalesi-30-kasim",
+   "title": "TFF, 2027-28'den başlayan 5 sezonluk Süper Lig ve 1. Lig yayın ihalesini açtı; teklifler 30 Kasım'da",
+   "region": "Türkiye",
+   "category": "Spor",
+   "layer": "Reklam pazarı ve para",
+   "market": "Türkiye",
+   "eventDate": "5 Kasım 2026 (duyuru); 30 Kasım 2026 14.00 (teklif)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "TFF, Süper Lig ve 1. Lig yayın haklarını beş paket halinde kapalı zarf ve açık artırmayla ihaleye çıkardı.",
+   "body": [
+    "Kapsam: 2027-28'den itibaren beş sezon; maç verisi hakları ihale dışında.",
+    "Paketler: A Süper Lig yayını, B 1. Lig ve radyo, C uluslararası, D bahis siteleri ve dijital özet, E tümü.",
+    "Şartname bedeli 750.000 TL; teklifler 30 Kasım 14.00-14.10'da Riva tesislerinde noter huzurunda.",
+    "TFF tüm teklifleri reddetme veya ihaleyi iptal etme hakkını saklı tutuyor.",
+    "Halk TV'deki 13 Ocak 2027 ihale tarihi ve Turkcell görüşmesi tarihsiz; teyitsiz."
+   ],
+   "impact": "Veri böyle: 2027 sonrası futbolun hangi platformda, hangi paketle yayınlanacağı bu ihalede belirlenecek. Bizim okumamız: dijital özet ve radyonun ayrı paketlenmesi, markaların futbol erişimini birden fazla yayıncıdan satın alması anlamına gelebilir.",
+   "action": "2027-28 sezonu spor bütçe senaryolarını yayıncı belirsizliğine göre iki seçenekle (şifreli platform ve dijital/OTT) hazırlayın.",
+   "counterView": "İhale açılışı sonucu göstermez; TFF iptal hakkını saklı tutuyor ve önceki ihalelerde süreç ertelenmişti.",
+   "sources": [
+    {
+     "name": "Anadolu Ajansı (Foreks) • TFF yayın ihalesi",
+     "url": "https://www.foreks.com/haber/detay/6aebfccd4b1852391445c147/AA/tr/turkiye-futbol-federasyonu-nun-5-sezonluk-super-lig-ve-1-lig-yayin-ihalesi-sureci-basladi-05-11-26/",
+     "published": "5 Kasım 2026 06:49",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Halk TV • Yayın ihalesinde Turkcell",
+     "url": "https://halktv.com.tr/spor/yayin-ihalesinde-turkcell-surprizi-haciosmanoglu-ile-kritik-gorusme-1056761h",
+     "published": "Tarih görünmüyor",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ]
+  },
+  {
+   "id": "brainlabs-meta-ai-kreatif-olcum",
+   "title": "Brainlabs: Meta'nın AI kreatif araçları markaların neyin çalıştığını öğrenmesini zorlaştırabilir",
+   "region": "Global",
+   "category": "Ölçüm & Araştırma",
+   "layer": "Platform ve ürün",
+   "market": "Global",
+   "eventDate": "9 Kasım 2026",
+   "summary": "Brainlabs yöneticisine göre Meta'nın AI ile ürettiği kreatif varyasyonlarından çıkan öğrenim platform içinde kalıyor; artış iddiaları bağımsız ölçülmüyor.",
+   "body": [
+    "Meta iddiası: Advantage+ creative kullanıcılarında ROAS %22, görüntü üretimiyle dönüşüm %7 artış.",
+    "Bir artımsallık testi Advantage+'a platformun raporladığı dönüşümlerin yalnız %17'sini atfetti.",
+    "EMARKETER-Perion anketi (111 kişi): %89,2 kreatifi önemli buluyor, yalnız %3,6 iyi anladığını söylüyor.",
+    "Kroger çalışması (Vidmob, MMA; 1.934 reklam): yatırımın yaklaşık yarısı zayıf puanlı kreatife gitti.",
+    "Meta'ya göre AI kreatif aracı kullanan reklamveren sayısı Q1'de 8 milyonu aştı, Q3'te ~10 milyon."
+   ],
+   "impact": "Veri böyle: platform raporları ile artımsallık testleri arasında büyük fark var. Bizim okumamız: ajans için AI kreatif otomasyonu performans gösterse de hangi mesajın çalıştığı bilgisi markaya dönmüyor; marka, kreatif öğrenimini kaybetme riski taşıyor.",
+   "action": "Meta'da AI kreatif kullanan kampanyalarda dönemsel holdout veya conversion lift testi planlayın ve varyasyon raporunu ayrıca isteyin.",
+   "counterView": "Brainlabs bağımsız bir ajans ve kendi ölçüm hizmetini satıyor; tek artımsallık testi genellenemez.",
+   "sources": [
+    {
+     "name": "PPC Land • Brainlabs warns Meta's AI creative",
+     "url": "https://ppc.land/brainlabs-warns-metas-ai-creative-could-leave-brands-unsure-what-worked/",
+     "published": "9 Kasım 2026",
+     "country": "Global",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://ppc.land/content/images/2026/11/brainlabs-meta-ai-creative-learnings-stay-in-walled-garden-breeze-block-wall-topiary-arrow-empty-notebook.jpg",
+    "alt": "Duvarlı bahçe ve boş defter illüstrasyonu",
+    "credit": "PPC Land",
+    "sourceUrl": "https://ppc.land/brainlabs-warns-metas-ai-creative-could-leave-brands-unsure-what-worked/"
+   }
+  }
+ ],
+ "signals": [
+  {
+   "layer": "Platform ve ürün",
+   "region": "Global",
+   "text": "Meta, reklamveren sitesinde bulduğu indirimleri Facebook ve Instagram reklamlarına ekleyebiliyor; promosyonu kapalı kopyalanmış reklamlarda da. Kontrol Commerce Manager'daki 'Detected offers' kutusunda.",
+   "source": "PPC Land",
+   "url": "https://ppc.land/meta-can-add-website-offers-to-copied-ads-even-with-promotions-turned-off/",
+   "published": "2026-11-06"
+  },
+  {
+   "layer": "Medya tüketimi ve izleyici",
+   "region": "Global",
+   "text": "Avustralya'da Ramayana ve Godzilla hafta sonu gişesinde ilk iki sırayı aldı; B&T bunu yabancı dilde bir ilk olarak bildirdi. Godzilla Minus Zero Türkiye'de 13 Kasım'da vizyonda.",
+   "source": "B&T",
+   "url": "https://www.bandt.com.au/newsletter/bt-newsletter-2026-11-09/",
+   "published": "2026-11-10"
+  },
+  {
+   "layer": "Medya tüketimi ve izleyici",
+   "region": "Global",
+   "text": "Avustralya'da Rugby Ligi Dünya Kupası yarı finalleri 6-8 Kasım hafta sonunda yaklaşık 6,5 milyon kişiye ulaştı.",
+   "source": "B&T",
+   "url": "https://www.bandt.com.au/newsletter/bt-newsletter-2026-11-09/",
+   "published": "2026-11-09"
+  },
+  {
+   "layer": "Marka ve kampanya",
+   "region": "Global",
+   "text": "Nestlé'nin Nescafé markası Avustralya'da hazır kahve (RTD) pazarına Saatchi & Saatchi kampanyasıyla girdi; hedef daha genç kitle.",
+   "source": "B&T",
+   "url": "https://www.bandt.com.au/newsletter/bt-newsletter-2026-11-09/",
+   "published": "2026-11-09"
+  }
+ ],
+ "attitudeRadar": {
+  "note": "Günün haberlerinden okunan tutum sinyalleri; ölçülmüş trend değildir.",
+  "items": [
+   {
+    "tag": "platform güveni",
+    "text": "Meta önce tarama ve AI sorumluluğu koşullarını, mahkeme ve regülatör baskısıyla askıya aldı; aynı hafta AI kreatifin öğrenimi markaya geri vermediği eleştirisi geldi.",
+    "basis": "İşaret",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "meta-20-kasim-kosullari-askida",
+     "brainlabs-meta-ai-kreatif-olcum"
+    ]
+   },
+   {
+    "tag": "ölçüm güveni",
+    "text": "Platformun raporladığı dönüşüm ile artımsallık testi arasında büyük fark (tek testte %17) bildiriliyor; platform raporu tek başına karar verisi olarak zayıflıyor.",
+    "basis": "İşaret",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "brainlabs-meta-ai-kreatif-olcum"
+    ]
+   },
+   {
+    "tag": "futbol hakları",
+    "text": "TFF 2027 sonrası hakları beş pakete ayırdı; dijital özet ve bahis paketleri ayrı satılacak. Futbol erişimi tek yayıncıdan çok parçalı alıma dönebilir.",
+    "basis": "İşaret",
+    "recurrence": "Yeni",
+    "refs": [
+     "tff-yayin-ihalesi-30-kasim"
+    ]
+   }
+  ]
+ },
+ "matchesWindow": "10-15 Kasım 2026",
+ "matches": [
+  {
+   "date": "2026-11-11",
+   "time": "22:45",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Paris Basketball",
+   "away": "Fenerbahçe Tarfin",
+   "broadcaster": "S Sport / S Sport Plus",
+   "source": "https://www.ssportplus.com/yayin-akisi/",
+   "note": "Yayıncı 6 Kasım S Sport Plus akışından taşındı (hak sahibi S Sport); maç bazında bugün yeniden açılamadı. Saat sportschau ile tutarlı."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "20:00",
+   "sport": "Futbol",
+   "competition": "UEFA Uluslar A Ligi",
+   "home": "Türkiye",
+   "away": "Belçika",
+   "broadcaster": "ATV",
+   "source": "https://www.milligazete.com.tr/turkiye-belcika-milli-maci-hangi-sehirde-hangi-stadyumda-saat-kacta-hangi-gun-ve-nereden-izlenir",
+   "note": "İzmir Gürsel Aksel; 20.00 ATV şifresiz: Milli Gazete (30 Ekim) ve Yeni Asır (4 Kasım) birlikte. TFF bugün açılmadı.",
+   "tags": [
+    "Millî maç"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "time": "20:30",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Anadolu Efes",
+   "away": "Virtus Bologna",
+   "broadcaster": null,
+   "source": "https://www.anadoluefessk.org/tr",
+   "note": "Kulüp maç kartı (6 Kasım kontrolü); yayıncı doğrulanamadı."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "22:30",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "ASVEL",
+   "away": "Beşiktaş",
+   "broadcaster": null,
+   "source": "https://bjk.com.tr/tr/mac_merkezi",
+   "note": "Kulüp maç merkezi (6 Kasım kontrolü); 10 Kasım aramasında maç bağımsız kaynakta bulunamadı, ev sahibi ve saat yeniden teyit edilmeli."
+  },
+  {
+   "date": "2026-11-15",
+   "time": "20:30",
+   "sport": "Basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "home": "Fenerbahçe Tarfin",
+   "away": "Anadolu Efes",
+   "broadcaster": null,
+   "source": "https://www.anadoluefessk.org/tr",
+   "note": "Kulüp maç kartı (6 Kasım kontrolü); yayıncı doğrulanamadı (BSL hak sahibi beIN, maç bazında teyitsiz).",
+   "tags": [
+    "Derbi"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "time": "22:45",
+   "sport": "Futbol",
+   "competition": "UEFA Uluslar A Ligi",
+   "home": "Fransa",
+   "away": "Türkiye",
+   "broadcaster": null,
+   "source": "https://beinsports.com.tr/haber/fransa-turkiye-macinin-biletleri-satisa-cikti",
+   "note": "Bordeaux; 22.45 Milli Gazete ve Yeni Asır'da da aynı; yayıncıyı bu iki kaynak belirtmiyor, teyitsiz.",
+   "tags": [
+    "Millî maç"
+   ]
+  }
+ ],
+ "highlights": [
+  "Meta, 20 Kasım'da yürürlüğe girecek site tarama ve AI kreatif koşullarını süresiz askıya aldı; mevcut koşullar geçerli.",
+  "TFF 2027-28'den başlayan 5 sezonluk yayın ihalesinde teklifler 30 Kasım 14.00'te.",
+  "Bu akşam 20.00: Haysiyet, Anne Yarısı, Mehmed ve Tuzlu Kahve akışta; Show TV tekrar."
+ ],
+ "watchlist": [
+  "10 Kasım akşamı dört salı dizisinin gerçekleşen yeni bölüm yayını.",
+  "12 Kasım: Meta Pixel cihazda ölçüm değişikliği sonrası dönüşüm sıçraması.",
+  "Meta'nın askıya aldığı koşullar için yeni tarih veya metin.",
+  "30 Kasım: TFF yayın ihalesi teklifleri.",
+  "Halef final kulisi: Milli Gazete 7 Kasım 43. bölüm, 5 Kasım 44. bölüm diyor; NOW teyidi yok.",
+  "Netflix 30 Kasım proje sunum günü."
+ ],
+ "limitations": [
+  "ChatGPT araştırma paketi gelmedi; bülten Claude'un ~20 dakikalık yedek araştırmasıyla seçki olarak hazırlandı.",
+  "Dijital gündem araştırması yapılmadı (yalnız ChatGPT yapar).",
+  "Guru notları araştırılmadı (paket gelmedi).",
+  "Kanal D, Star, NOW, TRT 1 akışları ile MediaCat, Marketing Türkiye, Campaign Türkiye izin/zaman aşımı nedeniyle açılamadı; ATV, TV8, Birsen Altuntaş, TFF, TBF, TVF, S Sport Plus, beIN, TRT Spor ve Google Trends denenmedi (süre).",
+  "Türkiye pencere içi sektör haberi (ajans, RTÜK, Reklam Kurulu, araştırma) bulunamadı; bu 'gelişme yok' demek değildir.",
+  "Rakip kontrolü yalnız haber aramasıyla yapıldı; şirket sayfaları açılmadı, pencere içi rakip haberi bulunamadı.",
+  "Yaratıcı mecra vakası yok: doğrulanmış, kullanılmamış güçlü vaka bulunamadı.",
+  "Maç listesi 9 Kasım bülteninden taşındı; yalnız Türkiye–Belçika ve Fransa–Türkiye yeniden kontrol edildi. Sultanlar Ligi bu hafta programı bulunamadı.",
+  "B&T sinyalleri bülten özet sayfasından alındı; haber sayfaları açılamadı.",
+  "1 ana haberde görsel yok (TFF)."
+ ],
+ "corrections": [
+  "9 Kasım sinyali Meta'nın yeni iş koşullarının 20 Kasım'da yürürlüğe gireceğini yazmıştı; Meta 5 Kasım'da dört koşul güncellemesini askıya almıştı, mevcut koşullar geçerli. Meta Accounts geçişi ayrı konu, bu düzeltmenin dışında."
+ ]
+}

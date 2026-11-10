@@ -1,6 +1,20 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-10",
+      "title": "Meta 20 Kasım koşullarını askıya aldı; TFF yayın ihalesi 30 Kasım'da; salı 20.00'de diziler akışta",
+      "summary": "Yedek bülten: araştırma paketi gelmedi, Claude kendi araştırmasıyla hazırladı. Meta'nın tartışmalı reklam koşulları yürürlüğe girmiyor, TFF 2027-32 yayın ihalesine teklifler 30 Kasım'da; bu akşam salı dizileri akışlarda.",
+      "edition": "selection",
+      "articleCount": 4,
+      "categories": [
+        "Dijital & AI",
+        "Spor",
+        "TV & Entertainment",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "unreviewed_fallback"
+    },
+    {
       "date": "2026-11-09",
       "title": "Ölçüm tabanı değişiyor: Meta Pixel 12 Kasım'da, PMax marka aramasında; salı akşamı dört dizi dönüyor",
       "summary": "Yedek bülten: araştırma paketi boş geldi, Claude kendi araştırmasıyla hazırladı. Meta ve Google'ın ölçüm/kampanya değişiklikleri Kasım indirim döneminde raporları etkileyebilir; salı 20.00'de dört dizi geri dönüyor.",
