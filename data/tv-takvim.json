@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-06",
+ "updated": "2026-11-11",
  "note": "Kayıtlar 22 Ekim 2026'da kanalların resmî yayın akışı sayfalarından gün gün yeniden kontrol edildi. Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -43,10 +43,11 @@
    "channel": "ATV",
    "day": "Perşembe",
    "title": "Güneşin Doğduğu Yer",
-   "status": "yayinda",
+   "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.atv.com.tr/gunesin-dogdugu-yer"
+   "checked": "2026-11-11",
+   "source": "https://onedio.com/haber/milli-mac-engeli-atv-dizisinin-yeni-bolumu-iptal-edildi-1393790",
+   "note": "12 Kasım millî maç; yeni bölüm 19 Kasım (haber)"
   },
   {
    "channel": "ATV",
@@ -90,9 +91,9 @@
    "title": "Haysiyet",
    "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "source": "https://www.kanald.com.tr/yayin-akisi/sali",
-   "note": "10 Kasım yeni bölüm teyidi bekleniyor"
+   "note": "10 Kasım yeni bölüm haber kaynaklı; resmî teyit yok"
   },
   {
    "channel": "KANAL D",
@@ -180,8 +181,8 @@
    "title": "Sevdan Bir Ateş",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-05",
-   "source": "https://www.showtv.com.tr/dizi/tum_bolumler/sevdan-bir-ates-sezon-1-bolum-9-izle/135860"
+   "checked": "2026-11-11",
+   "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
    "channel": "SHOW TV",
@@ -234,9 +235,9 @@
    "title": "Anne Yarısı",
    "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "source": "https://www.nowtv.com.tr/yayin-akisi",
-   "note": "10 Kasım yeni bölüm teyidi bekleniyor"
+   "note": "10 Kasım yeni bölüm haber kaynaklı; resmî teyit yok"
   },
   {
    "channel": "NOW",
@@ -287,9 +288,10 @@
    "day": "Salı",
    "title": "Mehmed: Fetihler Sultanı",
    "status": "belirsiz",
-   "checked": "2026-11-04",
+   "checked": "2026-11-11",
    "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
-   "note": "10 Kasım yeni bölüm teyidi bekleniyor"
+   "note": "10 Kasım 20.00 haber kaynaklı; resmî akış açılmadı",
+   "time": "20.00"
   },
   {
    "channel": "TRT 1",

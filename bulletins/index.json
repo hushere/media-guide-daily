@@ -1,6 +1,21 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-11",
+      "title": "Millî maç haftası TV akışını değiştiriyor, The Trade Desk ilk kez küçüldü, bugün 11.11",
+      "summary": "ATV perşembe ve pazar millî maçları yayınlıyor, perşembe dizisi 19 Kasım'a kaydı. Bağımsız DSP The Trade Desk halka arzdan beri ilk gelir düşüşünü bildirdi; AI tarif siteleri programatik bütçeyi çekiyor. ChatGPT'de yeni görsel reklam formatı görüldü; 11.11'de tüketici fiyatı yakından izliyor.",
+      "edition": "selection",
+      "articleCount": 6,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved"
+    },
+    {
       "date": "2026-11-10",
       "title": "Meta 20 Kasım koşullarını askıya aldı; TFF yayın ihalesi 30 Kasım'da; salı 20.00'de diziler akışta",
       "summary": "Yedek bülten: araştırma paketi gelmedi, Claude kendi araştırmasıyla hazırladı. Meta'nın tartışmalı reklam koşulları yürürlüğe girmiyor, TFF 2027-32 yayın ihalesine teklifler 30 Kasım'da; bu akşam salı dizileri akışlarda.",

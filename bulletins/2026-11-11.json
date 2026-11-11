@@ -1,0 +1,504 @@
+{
+ "date": "2026-11-11",
+ "title": "Millî maç haftası TV akışını değiştiriyor, The Trade Desk ilk kez küçüldü, bugün 11.11",
+ "summary": "ATV perşembe ve pazar millî maçları yayınlıyor, perşembe dizisi 19 Kasım'a kaydı. Bağımsız DSP The Trade Desk halka arzdan beri ilk gelir düşüşünü bildirdi; AI tarif siteleri programatik bütçeyi çekiyor. ChatGPT'de yeni görsel reklam formatı görüldü; 11.11'de tüketici fiyatı yakından izliyor.",
+ "edition": "selection",
+ "window": "10 Kasım 2026 09:05 – 11 Kasım 2026 08:00 TSİ (Claude araştırması 07:35-08:00)",
+ "status": "published",
+ "review": {
+  "status": "approved",
+  "reviewer": "Claude",
+  "reviewedAt": "2026-11-11T08:00+03:00",
+  "summary": "Tek araçlı akışın ilk günü: araştırma beş paralel alt ajanla yapıldı, riskli bilgiler ana oturumda kontrol edildi. Resmî kaynakla teyit: Türkiye–Belçika ve Fransa–Türkiye tarih, saat ve ATV yayıncısı (TFF sayfası açıldı), Sevdan Bir Ateş bu akşam yeni bölüm (Show TV akışı). Ana oturumda açılıp karşılaştırılanlar: Trade Desk rakamları (PPC Land), DecryptAds aktarımı, ChatGPT reklam gözlemi, Hepsiburada anketi (CNBC-e), Indigo derlemesi, Bakanlık 10 gün kuralı (Alo Maliye), Uber Eats vaka sayfası, YouTube ve TikTok sinyalleri; Tim Cook ziyareti Marketing Türkiye ve NTV ile karşılaştırıldı (akademi planı tek kaynak). Açılamayan: ATV, Kanal D, Star, NOW, TRT 1, TV8 akışları, Birsen Altuntaş, MediaCat, Campaign Türkiye, Google Trends, Netflix Tudum, S Sport Plus, VolleyStation (izin/zaman aşımı). Çıkarılan: PwC Efsane Cuma (26 Ekim'de kullanıldı), reyting listesi (kapsam dışı), Halef final kulisi (watchlist'e), Kantar Media Reactions (2 Ekim, eski)."
+ },
+ "source": {
+  "writer": "Claude"
+ },
+ "articles": [
+  {
+   "id": "milli-mac-haftasi-atv-persembe",
+   "title": "Millî maç haftası: ATV perşembe dizisini 19 Kasım'a kaydırdı, Fransa–Türkiye de pazar 22.45'te ATV'de",
+   "region": "Türkiye",
+   "category": "TV & Entertainment",
+   "layer": "Medya tüketimi ve izleyici",
+   "market": "Türkiye",
+   "eventDate": "12 Kasım 2026 20.00 ve 15 Kasım 2026 22.45 (maçlar); 11 Kasım 20.00 (çarşamba akışı)",
+   "label": "Haber kaynaklı",
+   "summary": "TFF'ye göre iki millî maç da ATV'de; perşembe 20.00'de Güneşin Doğduğu Yer yerine Türkiye–Belçika yayınlanacak.",
+   "body": [
+    "TFF (6 Kasım): Türkiye–Belçika 12 Kasım 20.00 İzmir, Fransa–Türkiye 15 Kasım 22.45 Bordeaux; ikisi de ATV'de.",
+    "Önceki bilgi: Fransa–Türkiye yayıncısı 10 Kasım bülteninde teyitsizdi; TFF sayfası ATV diyor.",
+    "Onedio (6 Kasım): Güneşin Doğduğu Yer 9. bölüm 12 Kasım'da yok, 19 Kasım'da bekleniyor.",
+    "Show TV resmî akışı: bu akşam 20.00 Sevdan Bir Ateş yeni bölüm.",
+    "Haber listeleri (11 Kasım): NOW Yeraltı, ATV Var Mısın Yok Musun?, TV8 MasterChef 20.00'de; TRT 1 film yayınlıyor.",
+    "Perşembe Halef, Muhtemel Aşk ve Sevdiğim Sensin'in maç karşısında yeni bölümle çıkacağı resmî olarak teyit edilmedi."
+   ],
+   "impact": "Veri böyle: perşembe 20.00'de ATV dizisini maça bırakıyor, pazar gecesi de geç saatte ikinci maç var. Bizim okumamız: ajans için perşembe prime time'da izleyici ATV'ye toplanabilir; diğer kanallarda yeni bölüm varsa rekabet sertleşir, yoksa reklam kuşakları zayıflar. Tüketici açısından iki gün üst üste ekran başına geçici bir futbol odağı oluşuyor.",
+   "action": "12 Kasım perşembe ve 15 Kasım pazar rezervasyonlarını kanalların bugünkü akışlarıyla yeniden kontrol edin; maç kuşağı ile dizi kuşağını ayrı fiyatlayın.",
+   "counterView": "Güneşin Doğduğu Yer ertelemesi ve diğer kanalların perşembe planı haber kaynaklıdır; ATV, NOW, Star ve Kanal D resmî akışları bu sabah açılamadı. Millî maç izleyicisi sonuca ve maçın gidişine göre değişir.",
+   "sources": [
+    {
+     "name": "TFF • A Millî Takım aday kadrosu ve maç programı",
+     "url": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+     "published": "6 Kasım 2026",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Onedio • Millî maç engeli: ATV dizisinin yeni bölümü",
+     "url": "https://onedio.com/haber/milli-mac-engeli-atv-dizisinin-yeni-bolumu-iptal-edildi-1393790",
+     "published": "6 Kasım 2026 19:31",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Show TV • Yayın akışı",
+     "url": "https://www.showtv.com.tr/yayin-akisi",
+     "published": "11 Kasım 2026'da kontrol edildi",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "İlkses • 11 Kasım TV yayın akışı",
+     "url": "https://ilkses.com.tr/genel/11-kasim-tv-yayin-akisi-belli-oldu-bugun-televizyonda-hangi-diziler-ve-programlar-var-467245",
+     "published": "11 Kasım 2026 00:10",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://img-s1.onedio.com/id-6aedf470d2f34213e2151fdf/rev-0/raw/s-316338ba62753fe98ca2d04811f9bc7763e7ad51.jpg",
+    "alt": "Güneşin Doğduğu Yer dizisinden kare",
+    "credit": "Onedio",
+    "sourceUrl": "https://onedio.com/haber/milli-mac-engeli-atv-dizisinin-yeni-bolumu-iptal-edildi-1393790"
+   }
+  },
+  {
+   "id": "trade-desk-q3-ilk-gelir-dususu",
+   "title": "The Trade Desk'te halka arzdan beri ilk gelir düşüşü: Q3'te 736 milyon dolar, Q4 beklentisi %11 aşağıda",
+   "region": "Global",
+   "category": "Dijital & AI",
+   "layer": "Reklam pazarı ve para",
+   "market": "ABD ağırlıklı, küresel DSP pazarı",
+   "eventDate": "9 Kasım 2026 (sonuç açıklaması)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "Bağımsız DSP The Trade Desk, 2016'dan beri ilk kez yıllık gelir kaybı bildirdi; Q4 için de düşüş bekliyor.",
+   "body": [
+    "Q3 2026 geliri 736 milyon dolar; geçen yıl 739 milyon dolardı (-%0,5).",
+    "Net kâr %67 düşüşle 38 milyon dolar; Eylül'deki yaklaşık 575 kişilik küçülmenin gideri 44,3 milyon dolar.",
+    "Q4 rehberliği en az 755 milyon dolar; geçen yılın 847 milyon dolarının yaklaşık %11 altında.",
+    "PPC Land: Kuzey Amerika durağan, Asya Pasifik dokuz ayda %30 büyüdü.",
+    "PPC Land ikinci yazı: çeyreğe tekrarlanmayacak bir ortak anlaşmasından yaklaşık 3 puanlık katkı geldi.",
+    "Harcamanın düşük %50'leri video, ses %7; ses en hızlı büyüyen kanal olarak anıldı."
+   ],
+   "impact": "Veri böyle: büyük bağımsız alım platformu büyümeyi kaybetti, düşüşü bir kerelik gelir sınırladı. Bizim okumamız: ajanslar DSP seçiminde Amazon ve kapalı platformlara kayışı fiyat pazarlığında kullanabilir; markalar için açık web programatik bütçesinin verimliliği yeniden sorgulanıyor. Türkiye'ye etki dolaylı, global hesap anlaşmaları üzerinden gelir.",
+   "action": "Programatik planlarda DSP ücretlerini ve teslimat raporlarını bu çeyrek yeniden karşılaştırın; tek DSP bağımlılığı varsa alternatif teklif isteyin.",
+   "counterView": "Düşük gelir pazarın küçüldüğünü değil, harcamanın başka alım yollarına kaydığını gösterebilir; Digiday aynı çeyrekte Zeta ve PubMatic gibi rakiplerin büyüdüğünü yazdı. Şirketin basın bülteni bu oturumda açılmadı.",
+   "sources": [
+    {
+     "name": "PPC Land • The Trade Desk posts its first revenue decline",
+     "url": "https://ppc.land/the-trade-desk-posts-its-first-revenue-decline-since-its-2016-listing/",
+     "published": "10 Kasım 2026 05:16 UTC",
+     "country": "ABD",
+     "language": "İngilizce"
+    },
+    {
+     "name": "PPC Land • Trade Desk's flat Q3 included 3 points from a partner deal",
+     "url": "https://ppc.land/trade-desks-flat-q3-included-3-points-from-a-partner-deal-that-wont-recur/",
+     "published": "10 Kasım 2026",
+     "country": "ABD",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Adweek • The Trade Desk clears low expectations as revenue stalls",
+     "url": "https://www.adweek.com/programmatic/the-trade-desk-clears-wall-streets-low-expectations-as-revenue-stalls/",
+     "published": "9 Kasım 2026",
+     "country": "ABD",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Digiday • The Trade Desk posts a rare quarterly revenue decline",
+     "url": "https://digiday.com/marketing/amid-a-difficult-transitional-year-the-trade-desk-posts-a-rare-quarterly-revenue-decline/",
+     "published": "10 Kasım 2026",
+     "country": "ABD",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://ppc.land/content/images/2026/11/landline-2026-11-10-trade-desk-first-revenue-decline-0-5-736m-doorframe-height-chart-lower-notch.jpg",
+    "alt": "The Trade Desk gelir düşüşünü anlatan illüstrasyon",
+    "credit": "PPC Land",
+    "sourceUrl": "https://ppc.land/the-trade-desk-posts-its-first-revenue-decline-since-its-2016-listing/"
+   }
+  },
+  {
+   "id": "mfa-ai-tarif-siteleri-decryptads",
+   "title": "DecryptAds: sahte şefli AI tarif sitelerinde büyük marka reklamları; riskli listede Türkiye kaynaklı sistemler de var",
+   "region": "Global",
+   "category": "Ölçüm & Araştırma",
+   "layer": "Reklam pazarı ve para",
+   "market": "Global, Türkiye bağlantılı",
+   "eventDate": "Rapor 18 Ekim 2026; haber 9 Kasım 2026",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "Bir reklam doğrulama raporu, AI ile üretilmiş yaklaşık 400 tarif sitesinde Adobe, Pepsi gibi markaların reklamlarını belgeledi.",
+   "body": [
+    "Yaklaşık 400 AI tarif sitesi doğrulandı; bağlantılı reklam amaçlı (MFA) alan adı havuzu 2.100'ü aşıyor.",
+    "Bu havuzda ads.txt beyanlarının %96,3'ü iki yöneticide: HBagency %77,1, Ezoic %19,2.",
+    "Görülen reklamlar arasında Adobe, Pepsi, HBO Max, Siemens, LinkedIn ve Google Workspace var.",
+    "Tek örnek sitede 153 ortaktan 9'u riskli işaretlendi; bunların 4'ü Türkiye'den reklam teknolojisi sistemi.",
+    "Raporda harcama tutarı yok; analiz dönemi Temmuz-Ekim 2026."
+   ],
+   "impact": "Veri böyle: ucuz gösterim satan AI siteleri büyük markaların programatik bütçesini çekiyor. Bizim okumamız: ajans için site listesi (inclusion list) ve satış yolu kontrolü yeniden önem kazanıyor; Türkiye'deki reklam teknolojisi ortaklarının bu zincirlerde göründüğünü bilmek, yerel açık borsa alımlarında soru sormayı gerektiriyor. Marka açısından gösterim ucuz görünse de kalite kaybı riski var.",
+   "action": "Açık borsa kampanyalarında site raporlarını isteyip AI üretimi içerik sitelerini ve bunları satan yeniden satıcıları dışlama listesine ekleyin.",
+   "counterView": "Rapordaki Türkiye işareti davranışa değil ülke risk sınıflamasına dayanıyor ve tek örnek siteden geliyor; şirketler hakkında genelleme yapılamaz. Birincil rapor açılmadı, rakamlar PPC Land aktarımı.",
+   "sources": [
+    {
+     "name": "PPC Land • Adobe and Pepsi ads ran on AI recipe sites with fake chefs",
+     "url": "https://ppc.land/adobe-and-pepsi-ads-ran-on-ai-recipe-sites-with-fake-chefs-decryptads-finds/",
+     "published": "9 Kasım 2026",
+     "country": "Global",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://ppc.land/content/images/2026/11/decryptads-ai-recipe-sites-fake-chefs-hbagency-ezoic-96-face-hole-chef-boards-pinned-ad-cards.jpg",
+    "alt": "Sahte şef temalı AI tarif siteleri illüstrasyonu",
+    "credit": "PPC Land",
+    "sourceUrl": "https://ppc.land/adobe-and-pepsi-ads-ran-on-ai-recipe-sites-with-fake-chefs-decryptads-finds/"
+   }
+  },
+  {
+   "id": "chatgpt-gorsel-uretim-reklami",
+   "title": "ChatGPT'de görsel üretilirken reklam gösteriliyor: yeni format canlıda görüldü",
+   "region": "Global",
+   "category": "Dijital & AI",
+   "layer": "Platform ve ürün",
+   "market": "Global, Türkiye'de henüz yok",
+   "eventDate": "10 Kasım 2026",
+   "summary": "OpenAI'nin yaklaşık bir ay önce duyurduğu görsel reklam formatı, kullanıcı görsel isterken bekleme süresinde gösterilmeye başladı.",
+   "body": [
+    "Reklam 'Here's an ad while we create your image' başlığıyla çıkıyor, görsel hazır olunca kayboluyor.",
+    "Search Engine Roundtable'a göre format konuşmanın konusuyla ilgisiz de görünebiliyor.",
+    "Formatın hangi ülkelerde açık olduğu kaynakta yok; Türkiye için bilgi bulunamadı.",
+    "OpenAI'nin bu gözleme dair açıklaması yok; duyuru sayfası bu oturumda açılamadı."
+   ],
+   "impact": "Veri böyle: AI sohbet asistanı, bekleme anını reklam alanına çeviriyor. Bizim okumamız: bu, TV'deki reklam arasına benzeyen yeni bir 'zorunlu bekleme' envanteri; ajanslar ölçüm ve marka güvenliği şartlarını henüz bilmiyor. Tüketici açısından AI aracına güven, alakasız reklamla zedelenebilir.",
+   "action": "Global müşterilerle ChatGPT reklamlarının Türkiye'ye açılış takvimini ve ölçüm koşullarını takip listesine alın; test bütçesi ayırmadan önce format raporlamasını isteyin.",
+   "counterView": "Tek bir kullanıcı gözlemine dayanan erken görünüm; format sınırlı testte olabilir ve ölçeği bilinmiyor.",
+   "sources": [
+    {
+     "name": "Search Engine Roundtable • ChatGPT visual ads",
+     "url": "https://www.seroundtable.com/openai-chatgpt-ads-visual-ads-42493.html",
+     "published": "10 Kasım 2026 05:45 (ABD Doğu)",
+     "country": "ABD",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://images.seroundtable.com/visual-chatgpt-ads-while-you-wait-RyeRh5de.png",
+    "alt": "ChatGPT'de görsel üretimi sırasında gösterilen reklamın ekran görüntüsü",
+    "credit": "Search Engine Roundtable",
+    "sourceUrl": "https://www.seroundtable.com/openai-chatgpt-ads-visual-ads-42493.html"
+   }
+  },
+  {
+   "id": "11-11-kasim-indirim-niyeti",
+   "title": "Bugün 11.11: Hepsiburada anketinde katılımcıların %57'si 11 Kasım fırsatlarına bakacak, %96'sı fiyat izliyor",
+   "region": "Türkiye",
+   "category": "Ajans & Marka",
+   "layer": "Tüketici ve ekonomi",
+   "market": "Türkiye",
+   "eventDate": "11 Kasım 2026 (11.11); Efsane Cuma 27 Kasım 2026",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "Kasım indirim döneminin ilk zirvesi bugün; şirket anketi yüksek alışveriş niyeti ile güçlü fiyat takibini birlikte gösteriyor.",
+   "body": [
+    "Hepsiburada anketi (26 Ekim): Kasım'da alışveriş planlayan 18-55 yaş 2.422 kişi, çevrim içi.",
+    "Katılımcıların %69'u bu ay kesin alışveriş planlıyor; ortalama bütçe yaklaşık 28.000 TL.",
+    "%57'si 11.11'e, %43'ü Efsane Cuma'ya bakmayı planlıyor; %62'si en az bir alımı Kasım'a erteledi.",
+    "%96'sı almadan önce fiyat izliyor; %76'sı kredi veya taksite açık.",
+    "Trendyol Süper Alışveriş Günleri 6-11 Kasım; Efsane Cuma 27 Kasım (Indigo Dergisi derlemesi).",
+    "Ticaret Bakanlığı (28 Ekim): Kasım indirim reklamları tüm mecralarda izleniyor; referans fiyat son 10 günün en düşüğü."
+   ],
+   "impact": "Veri böyle: niyet yüksek ama tüketici fiyatı izliyor ve alımı indirime saklıyor. Bizim okumamız: ajans için 11.11 ile 27 Kasım arası arama ve perakende medya fiyatlarının yükseldiği bir dönem; marka açısından indirim iletişiminde referans fiyat kuralına uyum, fiyat şüphesi yüksek tüketicide güvenin ön şartı.",
+   "action": "11-30 Kasım planlarında arama ve pazaryeri reklam CPC'lerini günlük izleyin, indirimli fiyat iddialarını yayından önce son 10 gün fiyat geçmişiyle kontrol edin.",
+   "counterView": "Anket satıcının kendi araştırması ve yalnız Kasım'da alışveriş planlayanlara yapılmış; genel nüfus niyetini temsil etmez, araştırma şirketi ve hata payı açıklanmadı. Niyet satışa dönüşmeyebilir.",
+   "sources": [
+    {
+     "name": "CNBC-e • Kasım indirimleri başladı: alışveriş bütçesi 28 bin TL'ye ulaştı",
+     "url": "https://www.cnbce.com/sirket-haberleri/kasim-indirimleri-basladi-alisveris-butcesi-28-bin-tlye-ulasti-h40340",
+     "published": "26 Ekim 2026 16:03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Indigo Dergisi • E-ticaret Kasım indirimleri 2026",
+     "url": "https://indigodergisi.com/2026/11/e-ticaret-kasim-indirimleri-2026/",
+     "published": "4 Kasım 2026",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Alo Maliye • Kasım indirimlerinde aldatıcı reklama 39,9 milyon TL'ye kadar ceza",
+     "url": "https://www.alomaliye.com/2026/10/28/kasim-indirimlerinde-aldatici-reklama-39-9-milyon-tl-ceza/",
+     "published": "28 Ekim 2026 11:52",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ]
+  },
+  {
+   "id": "uber-eats-ad-jacking-tf1",
+   "title": "Yaratıcı mecra: Uber Eats, TF1'deki reklam arasını diğer markaların reklamlarına bildirim balonu koyarak ele geçirdi",
+   "region": "Global",
+   "category": "Yaratıcı Mecra",
+   "layer": "Marka ve kampanya",
+   "market": "Fransa",
+   "eventDate": "Pazar akşamı TF1 film kuşağı, Eylül 2022",
+   "summary": "Uber Eats, Fransa'da prime time reklam kuşağında başka markaların filmlerinin üzerine kendi sipariş bildirimlerini yerleştirdi.",
+   "body": [
+    "Marka/ülke/yıl: Uber Eats, Fransa, 2022; ajanslar Buzzman (yaratıcı) ve Mediacom (medya).",
+    "Fikir: herkesin tanıdığı Uber Eats bildirimini, reklam arasındaki atıştırma ve sipariş anına yerleştirmek.",
+    "Mecra: TF1 Pazar film kuşağında Oasis, Carte Noire, Burger King, Free, Celio reklamlarının içine bildirimler kondu.",
+    "Bildirim sesi de eklendi; ekrana bakmayan, telefonla ilgilenen izleyiciyi yakalamak hedeflendi.",
+    "EssenceMediacom beyanı: yaklaşık 4 milyon kişi gördü, 24 saatte indirme iki katı; bağımsız doğrulama yok."
+   ],
+   "impact": "Veri böyle: fikir reklamın kendisi değil, reklam arasının düzeni ve izleyicinin ikinci ekran davranışı. Bizim okumamız: TV kuşağı yalnız yer değil yaratıcı malzeme olabilir; kanal ve komşu reklamverenlerle iş birliği medya satın almanın parçası olur. Tüketici gözüyle, 'reklam arasında telefona bakma' alışkanlığı bu sefer markanın lehine kullanıldı.",
+   "action": "Kanal satış ekipleriyle kuşak içi çoklu marka iş birliği (ortak spot, bildirim, devam eden hikâye) imkânını ve RTÜK uyumunu sorup bir pilot fikir çıkarın.",
+   "counterView": "Sonuçlar ajans beyanı; yöntem ve uzun dönem satış etkisi açıklanmadı. Fikir diğer reklamverenlerin iznine ve kanalın esnekliğine bağlı, her pazarda tekrarlanamayabilir; ilk seferin sürpriz etkisi ikincide azalır.",
+   "learning": "Kuşak ele geçirme (ad-jacking): bir markanın, reklam arasındaki diğer reklamlarla etkileşen yerleşimlerle kuşağın tamamını kendi fikrine dönüştürmesi. Tartışma sorusu: Bu fikir Türkiye'de hangi atıştırmalık veya çikolata markasının dizi arası 'tatlı molası' anına uyarlanabilir?",
+   "sources": [
+    {
+     "name": "EssenceMediacom • Uber hijacks primetime (vaka)",
+     "url": "https://www.essencemediacom.com/case-studies/uber-hijacks-primetime-ads",
+     "published": "Tarih belirtilmiyor; 11 Kasım 2026'da kontrol edildi",
+     "country": "Fransa",
+     "language": "İngilizce"
+    },
+    {
+     "name": "The Media Leader FR • Uber Eats s'insinue dans le tunnel publicitaire",
+     "url": "https://fr.themedialeader.com/lapplication-de-livraison-uber-eats-sinsinue-dans-le-tunnel-publicitaire/",
+     "published": "26 Eylül 2022",
+     "country": "Fransa",
+     "language": "Fransızca"
+    },
+    {
+     "name": "La Réclame • Buzzman: Uber Eats incruste ses notifications sur TF1",
+     "url": "https://lareclame.fr/buzzman-ubereats-incruste-ses-notifications-sur-tf1-268977",
+     "published": "Eylül 2022",
+     "country": "Fransa",
+     "language": "Fransızca"
+    },
+    {
+     "name": "AdForum • When Uber Eats up screen time",
+     "url": "https://ca.adforum.com/case-studies/when-uber-eats-up-screen-time",
+     "published": "Tarih belirtilmiyor",
+     "country": "Global",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://www.datocms-assets.com/134341/1718628436-uber_eats.png",
+    "alt": "Uber Eats TF1 reklam kuşağı vaka görseli",
+    "credit": "EssenceMediacom",
+    "sourceUrl": "https://www.essencemediacom.com/case-studies/uber-hijacks-primetime-ads"
+   }
+  }
+ ],
+ "signals": [
+  {
+   "layer": "Reklam pazarı ve para",
+   "region": "Global",
+   "text": "Radyo grubu Global, İngiltere'de 1.500'ü aşkın dijital billboard ve 4.000'i aşkın mekân ekranı işleten Alight Media'yı satın alıyor; tamamlanma 2027 ilk çeyrek.",
+   "source": "PPC Land",
+   "url": "https://ppc.land/media-group-global-to-acquire-alight-media-and-its-5-500-plus-uk-ad-sites/",
+   "published": "2026-11-09"
+  },
+  {
+   "layer": "Marka ve kampanya",
+   "region": "Türkiye",
+   "text": "Apple Yönetim Kurulu Başkanı Tim Cook 8-9 Kasım'da İstanbul ve Ankara'da içerik üreticileriyle görüştü; Marketing Türkiye'ye göre Apple üç yılda beş Developer Academy açacak.",
+   "source": "Marketing Türkiye",
+   "url": "https://www.marketingturkiye.com.tr/haberler/applein-turkiyeye-ilgilisi-neden-artti-tim-cookun-ziyareti-ne-anlama-geliyor/",
+   "published": "2026-11-10"
+  },
+  {
+   "layer": "Platform ve ürün",
+   "region": "Global",
+   "text": "YouTube, 'Hype with Jewels' özelliğini 6 Kasım'dan itibaren Türkiye dahil 9 pazarda 500-500.000 aboneli Partner Program üreticilerine açtı.",
+   "source": "Social Media Today",
+   "url": "https://socialmediatoday.com/news/youtube-expands-custom-feeds-and-offers-new-partnership-options/874068",
+   "published": "2026-11-08"
+  },
+  {
+   "layer": "Platform ve ürün",
+   "region": "Global",
+   "text": "TikTok Symphony'de reklam başına referans sayısı 9'dan 50'ye, üretilen video süresi 15'ten 30 saniyeye çıktı; BytePlus token alımı Kuzey Amerika dışına açıldı.",
+   "source": "Social Media Today",
+   "url": "https://socialmediatoday.com/news/tiktok-updates-its-ai-video-ad-tools/874209",
+   "published": "2026-11-09"
+  },
+  {
+   "layer": "Platform ve ürün",
+   "region": "Global",
+   "text": "Microsoft Advertising, boş sayfa ve giriş döngüsü şikâyetleri sonrası arayüzünü yeniledi; Conversions API genel kullanıma açıldı.",
+   "source": "PPC Land",
+   "url": "https://ppc.land/microsoft-advertising-overhauls-interface-after-advertiser-complaints/",
+   "published": "2026-11-09"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Global",
+   "text": "Avrupa Komisyonu'nun yayımladığı bağımsız çalışma, çoğunlukla İngiltere verisiyle yaş doğrulama başına medyan maliyeti yaklaşık 0,07 avro buldu.",
+   "source": "PPC Land",
+   "url": "https://ppc.land/commission-study-puts-the-median-cost-of-an-age-check-at-7-euro-cents/",
+   "published": "2026-11-09"
+  }
+ ],
+ "attitudeRadar": {
+  "note": "Günün haberlerinden okunan sinyaller; tek haber trend sayılmaz.",
+  "items": [
+   {
+    "tag": "özel gün akışı",
+    "text": "Millî maçlar perşembe dizisini erteletiyor, pazar gecesi de futbol var; prime time haftalık düzeni yine özel yayınla bozuluyor.",
+    "basis": "İşaret",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "milli-mac-haftasi-atv-persembe"
+    ]
+   },
+   {
+    "tag": "açık web erozyonu",
+    "text": "Bağımsız DSP'de gelir düşüşü ve MFA sitelerine akan marka bütçesi, açık web programatiğinde hem büyüme hem kalite sorununa işaret ediyor.",
+    "basis": "Veri",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "trade-desk-q3-ilk-gelir-dususu",
+     "mfa-ai-tarif-siteleri-decryptads"
+    ]
+   },
+   {
+    "tag": "AI reklam envanteri",
+    "text": "ChatGPT bekleme anını reklama açıyor, TikTok AI video üretimini genişletiyor; AI hem yeni alan hem hızlı kreatif üretimi olarak reklama giriyor.",
+    "basis": "İşaret",
+    "recurrence": "Yeni",
+    "refs": [
+     "chatgpt-gorsel-uretim-reklami"
+    ]
+   },
+   {
+    "tag": "fiyat duyarlılığı",
+    "text": "Kasım indirimlerinde ankete katılanların %96'sı fiyat izliyor, %62'si alımı ertelemiş; niyet yüksek ama fiyat güveni belirleyici.",
+    "basis": "Veri",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "11-11-kasim-indirim-niyeti"
+    ]
+   }
+  ]
+ },
+ "matchesWindow": "11-15 Kasım 2026",
+ "matches": [
+  {
+   "date": "2026-11-11",
+   "time": "22:45",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Paris Basketball",
+   "away": "Fenerbahçe Beko",
+   "broadcaster": null,
+   "source": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385871/paris-basketball_fenerbahce/blitztabelle",
+   "note": "Saat Sportschau ve Basketnews ile tutarlı. Hak sahibi S Sport, maç bazında teyitsiz (S Sport Plus bugün açılmadı)."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "20:00",
+   "sport": "Futbol",
+   "competition": "UEFA Uluslar Ligi A",
+   "home": "Türkiye",
+   "away": "Belçika",
+   "broadcaster": "ATV",
+   "source": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+   "note": "TFF resmî (6 Kasım): İzmir Gürsel Aksel, 20.00, ATV.",
+   "tags": [
+    "Millî maç"
+   ]
+  },
+  {
+   "date": "2026-11-13",
+   "time": "20:30",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "Anadolu Efes",
+   "away": "Virtus Bologna",
+   "broadcaster": null,
+   "source": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385892/anadolu-efes_virtus-bologna/blitztabelle",
+   "note": "Saat Sportschau ve Basketnews ile tutarlı; yayıncı maç bazında teyitsiz (hak sahibi S Sport)."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "22:30",
+   "sport": "Basketbol",
+   "competition": "EuroLeague",
+   "home": "LDLC ASVEL",
+   "away": "Beşiktaş",
+   "broadcaster": null,
+   "source": "https://basketnews.com/leagues/25-euroleague/schedules.html",
+   "note": "Ev sahibi ASVEL tek kaynakta (Basketnews); resmî EuroLeague sayfası açılmadı. Yayıncı teyitsiz."
+  },
+  {
+   "date": "2026-11-15",
+   "time": "20:30",
+   "sport": "Basketbol",
+   "competition": "Basketbol Süper Ligi",
+   "home": "Fenerbahçe Beko",
+   "away": "Anadolu Efes",
+   "broadcaster": null,
+   "source": "https://www.sporekrani.com/home/match/493810/2026/11/15/fenerbahce-tarfin-anadolu-efes-basketbol-super-ligi-hangi-kanalda",
+   "note": "Tarih/saat tek ikincil kaynak; Spor Ekranı beIN Sports 5 diyor, BSL hak sahibi beIN, maç bazında teyitsiz.",
+   "tags": [
+    "Derbi"
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "time": "22:45",
+   "sport": "Futbol",
+   "competition": "UEFA Uluslar Ligi A",
+   "home": "Fransa",
+   "away": "Türkiye",
+   "broadcaster": "ATV",
+   "source": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+   "note": "TFF resmî (6 Kasım): Bordeaux, 22.45 TSİ, ATV. Ağustos'taki bazı haberler 16 Kasım yazmıştı; güncel TFF sayfası 15 Kasım.",
+   "tags": [
+    "Millî maç"
+   ]
+  }
+ ],
+ "highlights": [
+  "TFF: Türkiye–Belçika 12 Kasım 20.00 ve Fransa–Türkiye 15 Kasım 22.45 ATV'de; Güneşin Doğduğu Yer 19 Kasım'a kaydı (haber kaynaklı).",
+  "The Trade Desk Q3 geliri 736 milyon dolar (-%0,5); Q4 beklentisi geçen yılın yaklaşık %11 altında.",
+  "Bugün 11.11: Hepsiburada anketinde katılımcıların %96'sı fiyat izliyor, %57'si 11 Kasım fırsatlarına bakacak."
+ ],
+ "watchlist": [
+  "12 Kasım perşembe: Halef, Muhtemel Aşk, Sevdiğim Sensin maç karşısında yeni bölümle mi çıkıyor (resmî akış).",
+  "Halef final kulisi: 43. bölüm / 19 Kasım iddiası (Milli Gazete 7 Kasım, Birsen Altuntaş kaynaklı); NOW açıklaması yok.",
+  "Anne Yarısı erken final iddiası (Milli Gazete); NOW teyidi yok.",
+  "ChatGPT reklamlarının Türkiye'ye açılışı ve ölçüm koşulları.",
+  "27 Kasım Efsane Cuma öncesi Ticaret Bakanlığı indirim reklamı denetim sonuçları.",
+  "30 Kasım: TFF yayın ihalesi teklifleri; Netflix proje sunum günü."
+ ],
+ "limitations": [
+  "Seçki: MediaCat ve Campaign Türkiye izin/zaman aşımı nedeniyle açılamadı; Marketing Türkiye yalnız kısmen açıldı. Pencere içinde doğrulanmış Türkiye ajans, RTÜK veya Reklam Kurulu haberi bulunamadı; bu 'gelişme yok' demek değildir.",
+  "Rakip kontrolü yalnız haber aramasıyla yapıldı; şirket basın sayfaları açılmadı. Pencere içinde doğrulanmış rakip gelişmesi bulunamadı; Altınmarka, Fiskobirlik, Doğkar, Sagra, Mars, Altınkılıçlar ve Lider için ayrı arama yapılamadı.",
+  "TV: ATV, Kanal D, Star, NOW, TRT 1, TV8 resmî akışları ve Birsen Altuntaş açılamadı; yalnız Show TV akışı resmî kaynaktan görüldü. 10 Kasım salı dört dizinin yeni bölüm yayını yalnız haber listeleriyle görüldü, 'Fiilen yayında' yazılmadı.",
+  "Dijital gündem şeridi yok: Google Trends, Netflix Tudum, YouTube trend ve TikTok Creative Center açılamadı veya denenemedi; doğrulanmış güncel liste bulunamadı. Platform format değişiklikleri kısa sinyallere alındı.",
+  "Media Guru'larından Notlar yok: Sharp, Bellman, Beal, Riebe ve Nelson-Field için pencere içinde yeni çalışma bulunamadı; Ehrenberg-Bass haber sayfası ve dergi sayfaları açılamadı.",
+  "Spor: Sultanlar Ligi 11-15 Kasım programı bulunamadı (TVF fikstürü ve VolleyStation açılmadı); EuroCup'ta Türk takımlarının bu hafta maçları doğrulanamadı. Basketbol yayıncıları maç bazında teyitsiz.",
+  "Global haberlerin çoğu pencerenin hemen öncesinde (9-10 Kasım sabahı) yayımlandı ve önceki bültene girmediği için alındı; Trade Desk ve DecryptAds 'Gecikmeli fakat önemli' etiketli.",
+  "Tüketici ve ekonomi katmanında pencere içi TÜİK/TCMB verisi doğrulanamadı.",
+  "1 ana haberde görsel yok (11.11 kartı; kaynak görseli konuyla ilgisiz)."
+ ],
+ "corrections": [
+  "Güncelleme: 10 Kasım bülteninde Fransa–Türkiye (15 Kasım 22.45) yayıncısı teyitsiz bırakılmıştı; TFF'nin 6 Kasım tarihli sayfası maçın ATV'de olduğunu yazıyor."
+ ]
+}
