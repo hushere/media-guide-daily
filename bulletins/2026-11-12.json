@@ -1,0 +1,415 @@
+{
+  "date": "2026-11-12",
+  "title": "AB Dijital Adalet Yasası reklam kurallarını sıkılaştırıyor, MRC AI ölçüm standardını 2027'ye bıraktı; bu akşam millî maç gecesi",
+  "summary": "Avrupa Komisyonu profilleme reklamı, influencer ve dark pattern kurallarını sıkılaştıran teklifi kabul etti; MRC AI ölçüm standartlarını 2027'ye erteledi. Google'ın araştırması AI kullanan alışverişçinin yolculuğunun uzadığını söylüyor. Bu akşam ATV millî maçı veriyor, rakip kanallar dizide.",
+  "edition": "selection",
+  "window": "11 Kasım 2026 08:00 – 12 Kasım 2026 08:15 TSİ (Claude araştırması 07:55-08:15, 5 alt ajan)",
+  "status": "published",
+  "review": {
+    "status": "approved",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-12T08:20+03:00",
+    "summary": "Araştırma beş paralel alt ajanla yapıldı; riskli bilgiler ana oturumda kontrol edildi. Resmî kaynakla teyit: millî maç tarih, saat ve ATV yayıncısı (TFF 6 Kasım sayfası, önceki gün açılmıştı; bugün iki bağımsız ikincil kaynakla örtüşüyor). Ana oturumda açılıp karşılaştırılanlar: AB Dijital Adalet Yasası, MRC takvimi, Google/Ipsos araştırması (PPC Land), Magna Works açıklaması (Foreks), Ticaret Bakanlığı Kasım indirim duyurusu (28 Ekim, daha önce işlendiği için kullanılmadı). Açılamayan: yedi kanalın resmî akışı, Birsen Altuntaş, MediaCat, Marketing Türkiye ve Campaign Türkiye ana sayfaları, Google Trends, Netflix Tudum, VolleyStation, EuroLeague maç merkezi (izin/zaman aşımı). Çıkarılan: Ferrero fındık soruşturması (tarihi 2025 olabilir), 11.11 sonuç haberleri (yalnız 2023/2025 verisi bulundu), TV reklamının %75'i dijitale kaydı iddiası (köşe yazısı, kaynaksız), KitKat YouTube vakası (dijital, sonuç doğrulanamadı), dijital gündem öğeleri (güncel liste yok)."
+  },
+  "source": {
+    "writer": "Claude"
+  },
+  "articles": [
+    {
+      "id": "ab-digital-fairness-act-yuzde-6-ceza",
+      "title": "AB Dijital Adalet Yasası teklifi: profilleme reklamına sınır, influencer sorumluluğu markaya, ceza cironun %6'sına kadar",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Düzenleme ve sektör",
+      "market": "Avrupa Birliği; AB'de satış yapan Türk markaları ve ajanslar",
+      "eventDate": "11 Kasım 2026 (Komisyon teklifi kabul etti)",
+      "label": "Teklif aşamasında",
+      "summary": "Avrupa Komisyonu 11 Kasım'da Dijital Adalet Yasası teklifini kabul etti; reklam, influencer, dark pattern ve abonelik kuralları sıkılaşıyor.",
+      "body": [
+        "Teklif COM(2026) 1100; Parlamento ve Konsey onayı gerekiyor, uygulama yürürlükten 12 ay sonra başlıyor.",
+        "Madde 12: reşit olmadığı bilinen kullanıcılara ve hassas verilerle profilleme temelli reklam tüm tüccarlar için yasak.",
+        "Madde 11(6): marka ve ajans, influencer'ın 'reklam' ya da 'ticari işbirliği' açıklamasını sözleşmeyle sağlamakla yükümlü.",
+        "Ceza üst sınırı dünya cirosunun %6'sı; dark pattern listesine 'her koşulda haksız' on yeni uygulama ekleniyor.",
+        "Abonelikte deneme bitmeden hatırlatma ve tek tıkla fesih işlevi zorunlu; AI alışveriş ajanlarına onay düzeyi kuralı geliyor."
+      ],
+      "impact": "Veri böyle: kurallar henüz teklif, ama sorumluluğu platformdan markaya ve ajansa kaydırıyor. Bizim okumamız: AB'de influencer ve kişiselleştirilmiş reklam kullanan markalar sözleşme ve onay süreçlerini değiştirmek zorunda kalacak; tüketici tarafında genç kitleye hedefleme daralıyor.",
+      "action": "AB pazarındaki influencer sözleşmelerine açıklama ve uyum maddesi ekleyin; 18 yaş altına erişen kampanyalarda profilleme hedeflemesini şimdiden envanterleyin.",
+      "counterView": "Teklif Parlamento ve Konsey'de değişebilir; DSA ve GDPR ile örtüşen kısımlar pratikte yeni bir yük getirmeyebilir. Etki rakamları Komisyon'un kendi değerlendirmesidir.",
+      "sources": [
+        {
+          "name": "PPC Land • EU's Digital Fairness Act would let Brussels fine firms up to 6% of turnover",
+          "url": "https://ppc.land/eus-digital-fairness-act-would-let-brussels-fine-firms-up-to-6-of-turnover/",
+          "published": "11 Kasım 2026 20:40 UTC",
+          "country": "AB",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/eu-digital-fairness-act-10-dark-patterns-6-percent-fines-giant-mousetrap-sealed-ribbon.jpg",
+        "alt": "Dijital Adalet Yasası haberinin kapak illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/eus-digital-fairness-act-would-let-brussels-fine-firms-up-to-6-of-turnover/"
+      }
+    },
+    {
+      "id": "mrc-ai-olcum-standartlari-2027",
+      "title": "MRC, ölçümde yapay zekâ standartlarının ilk taslağını 2027'nin ilk çeyreğine erteledi",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Düzenleme ve sektör",
+      "market": "ABD; global ölçüm ve doğrulama sağlayıcıları",
+      "eventDate": "10 Kasım 2026 (MRC duyurusu)",
+      "label": "Takvim değişikliği",
+      "summary": "Media Rating Council, AI kullanan ölçüm için ilk taslak standartları 2027 ilk çeyreğinde görüşe açacak; ikinci aşama 2027 ortasında.",
+      "body": [
+        "Önceki plan: Temmuz 2026 rehberi standartların 2026 boyunca ve 2027 başına kadar tamamlanacağını söylüyordu.",
+        "Yeni takvim: ilk aşama Q1 2027'de kamuoyu görüşüne, ikinci aşama 2027 ortasına; gecikme nedeni açıklanmadı.",
+        "Kapsam: model yönetişimi, geçersiz trafik, marka güvenliği, LLM içi konuşma reklamı ölçümü, sentetik kitleler, açık artırma şeffaflığı.",
+        "Çalışmaya ANA, 4As, IAB Tech Lab, denetim firmaları, alıcılar, satıcılar ve ölçüm şirketleri katılıyor."
+      ],
+      "impact": "Veri böyle: ChatGPT ve AI arama reklamları yayılırken bunları ölçecek bağımsız standart en erken 2027'de geliyor. Bizim okumamız: ajans için AI envanterinde ölçüm büyük ölçüde platform beyanına dayanmaya devam edecek; marka tarafı bu bütçeyi deney bütçesi olarak tutmalı.",
+      "action": "AI arama ve sohbet reklamı tekliflerinde platform raporuna ek olarak bağımsız lift veya kontrol grubu testi şartı koyun.",
+      "counterView": "MRC standartları ABD odaklıdır ve Türkiye'de bağlayıcı değildir; standart gelse bile platformların akreditasyona girmesi gönüllüdür.",
+      "sources": [
+        {
+          "name": "PPC Land • Media Rating Council sets Q1 2027 draft for first AI measurement standards",
+          "url": "https://ppc.land/media-rating-council-sets-q1-2027-draft-for-first-ai-measurement-standards/",
+          "published": "11 Kasım 2026 07:38 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/mrc-ai-measurement-standards-q1-2027-draft-7-rulebooks-standard-weights-case-paper-template.jpg",
+        "alt": "MRC yapay zekâ ölçüm standartları haberinin kapak illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/media-rating-council-sets-q1-2027-draft-for-first-ai-measurement-standards/"
+      }
+    },
+    {
+      "id": "google-ipsos-ai-alisveris-12-temas",
+      "title": "Google'ın Ipsos araştırması: AI kullanan alışverişçi yolculukta 12 temas noktasına uğruyor, kullanmayan yaklaşık 4",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "market": "25 ülke (Türkiye örneklemde yok)",
+      "eventDate": "Saha Aralık 2025; PPC Land analizi 11 Kasım 2026",
+      "label": "Platform finansmanlı araştırma",
+      "summary": "Google'ın Ipsos'a yaptırdığı 25 ülkelik ankette AI araçları kullanan alışverişçilerin yaklaşık üç kat daha fazla temas noktası ziyaret ettiği belirtiliyor.",
+      "body": [
+        "Örneklem 36.186 çevrimiçi alışverişçi; 14.305'i (yaklaşık %40) yolculukta AI platformu kullandığını söyledi.",
+        "AI kullananlar ortalama 12 temas noktası bildirdi; PPC Land hesabına göre kullanmayanlarda bu sayı yaklaşık 4.",
+        "Google AI Overviews veya AI Mode kullananların %77'si 'daha hızlı', %75'i 'daha emin' karar verdiğini söyledi.",
+        "'Temas noktası' tanımlanmadı; kategori, fiyat ve pazar farkları kontrol edilmedi. Türkiye 25 ülke arasında yok."
+      ],
+      "impact": "Veri böyle: AI kullanan alışverişçi daha uzun ve parçalı bir yolculuk bildiriyor. Bizim okumamız: tek kanallı son tıklama ölçümü bu kitlede daha da yanıltıcı olur; marka için AI yanıtlarında görünmek yeni bir raf sayılabilir, ama kanıt anket beyanıdır.",
+      "action": "Kasım kampanyalarında arama ve AI yüzeylerini son tıklama yerine artımlılık testleriyle değerlendirin.",
+      "counterView": "Çalışmanın finansörü Google'dır ve sonuç Google'ın AI reklam ürünlerini destekliyor; daha çok temas, AI'nin neden olduğunu değil, zaten araştırmacı alışverişçilerin AI kullandığını gösteriyor olabilir.",
+      "sources": [
+        {
+          "name": "PPC Land • Google says AI search shoppers visit 12 touchpoints, nearly 3x more",
+          "url": "https://ppc.land/google-says-ai-search-shoppers-visit-12-touchpoints-nearly-3x-more/",
+          "published": "11 Kasım 2026 20:38 UTC",
+          "country": "ABD/Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/touchpoints-nearly-3x-ipsos-no-clicks-mini-golf-hole-twelve-obstacles-untouched-cup.jpg",
+        "alt": "AI alışveriş yolculuğu araştırması haberinin kapak illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/google-says-ai-search-shoppers-visit-12-touchpoints-nearly-3x-more/"
+      }
+    },
+    {
+      "id": "news-corp-avustralya-anahtar-kelime-engelleme",
+      "title": "News Corp Australia anahtar kelime engellemesine karşı Mobian ile bağlamsal marka uygunluğu aracı kuruyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Avustralya",
+      "eventDate": "12 Kasım 2026 (Mumbrella Travel Marketing Summit oturumu)",
+      "summary": "News Corp Australia, haber envanterini kısan anahtar kelime engellemesi yerine bağlamsal analizle çalışan marka uygunluğu araçları için Mobian'ı görevlendirdi.",
+      "body": [
+        "ThinkNewsBrands raporu: on büyük yayıncıdan 1.200 haberin %57'si en az bir dışlama terimi içeriyor.",
+        "Aynı rapor, kötü uygulanan engellemenin Avustralya haber yayıncılarına yılda 180 milyon dolar fırsat kaybettirdiğini tahmin ediyor.",
+        "News Corp yöneticisi Michael Miller, Telegraph UK envanterinin %62'sinin engelli olduğunu aktardı; bağımsız teyit yok.",
+        "News Australia ad tech yöneticisi: engellenen envanterin önemli kısmı markalar için uygun."
+      ],
+      "impact": "Veri böyle: yayıncılar engelleme listelerinin güvenli haber içeriğini de dışarıda bıraktığını sayıyla gösteriyor. Bizim okumamız: Türkiye'de de geniş kelime listeleri haber sitelerinde erişimi ve fiyat verimliliğini düşürüyor olabilir; marka güvenliği ile erişim arasında yeniden denge kurulmalı.",
+      "action": "Haber sitelerindeki kampanyalarda kullandığınız engelleme listesini gözden geçirin ve bağlamsal uygunluk seçeneğini bir kampanyada test edin.",
+      "counterView": "Rakamlar yayıncı birliği ThinkNewsBrands ve News Corp'tan geliyor; yayıncının çıkarı engellemenin gevşemesinden yana. Bağlamsal araçların hata oranı açıklanmadı.",
+      "sources": [
+        {
+          "name": "Mumbrella • News Corp building new tool in fight against keyword blocking",
+          "url": "https://mumbrella.com.au/news-corp-building-new-tool-in-fight-against-keyword-blocking-944446",
+          "published": "12 Kasım 2026 02:04 UTC",
+          "country": "Avustralya",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://mumbrella.com.au/wp-content/uploads/2026/11/At_Mumbrellas_Travel_Marketing_Summit_2026_News_Corp_held_a_session_at_which_the_foolishness_of_keyword_block_was_highlighted_in_a_crowd_participation_exercise_Mumbrella_2026-11-12.jpg",
+        "alt": "Mumbrella Travel Marketing Summit 2026'da News Corp oturumu",
+        "credit": "Mumbrella",
+        "sourceUrl": "https://mumbrella.com.au/news-corp-building-new-tool-in-fight-against-keyword-blocking-944446"
+      }
+    },
+    {
+      "id": "tv-persembe-12-kasim-mac-gecesi",
+      "title": "Bu akşam millî maç gecesi: ATV'de Türkiye–Belçika, rakip kanallarda dizi; Güneşin Doğduğu Yer'in maç sonrası yayını belirsiz",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "12 Kasım 2026, 20.00",
+      "label": "Haber kaynaklı",
+      "summary": "ATV 20.00'de Türkiye–Belçika'yı veriyor; akış derlemelerine göre Show, Star ve TV8 yeni bölümle karşısında, Kanal D tekrar yayınlıyor.",
+      "body": [
+        "Türkiye–Belçika Uluslar Ligi A maçı 20.00'de İzmir'de, ATV'de; ATV 18.45'te maç öncesi yayına başlıyor.",
+        "Genç Gazete akışı: Show Muhtemel Aşk, Star Sevdiğim Sensin, TV8 MasterChef yeni bölüm; Kanal D tekrar, TRT 1 film.",
+        "NOW 20.00'de Halef akışta; yeni bölüm notu yok. Haber Gazetesi 42. bölümün bu akşam olduğunu yazıyor.",
+        "Önceki bilgi (Onedio, 6 Kasım): Güneşin Doğduğu Yer bu hafta yok, 9. bölüm 19 Kasım'da.",
+        "Çelişki: iki akış derlemesi bu gece 22.15'te ATV'de Güneşin Doğduğu Yer gösteriyor; ATV resmî akışı açılamadı.",
+        "11 Kasım (haber kaynaklı): Sevdan Bir Ateş ve Yeraltı yeni bölüm, Kanal D'de Daha 17 tekrar."
+      ],
+      "impact": "Veri böyle: ATV prime time'ı maça veriyor, diğer üç büyük kanal yeni bölümle karşısında. Bizim okumamız: ajans için perşembe kuşaklarında izleyici bölünmesi sert olabilir; maç sonrası ATV'de dizi olup olmaması gece kuşağı fiyatını değiştirir. Tüketici açısından futbol ve dizi izleyicisi aynı saatte ayrışıyor.",
+      "action": "Bu akşam ATV 22.00 sonrası rezervasyonlarını kanaldan teyit edin; maç ve dizi kuşaklarını ayrı değerlendirin.",
+      "counterView": "Bilgilerin tamamı akış derleyen haber sitelerinden; yedi kanalın resmî akışı açılamadı. 22.15 kaydı derleyicilerin eski haftalık şablonundan gelmiş olabilir.",
+      "sources": [
+        {
+          "name": "A Spor • Türkiye–Belçika maçı hangi kanalda",
+          "url": "https://www.aspor.com.tr/haberler/2026/11/09/milli-mac-ne-zaman-turkiye-belcika-maci-hangi-kanalda",
+          "published": "9 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Genç Gazete • 12 Kasım 2026 perşembe TV yayın akışı",
+          "url": "https://www.gencgazete.net/12-kasim-2026-persembe-tv-yayin-akisibu-aksam-hangi-diziler-var-atv-kanal-d-star-tv-show-tv-trt-1-ve-tv8-yayin-aki",
+          "published": "12 Kasım 2026 akışı",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Elips Haber • 12 Kasım perşembe TV yayın akışı",
+          "url": "https://www.elipshaber.com/12-kasim-persembe-gunu-tv-yayin-akisi-televizyonda-neler-var",
+          "published": "11 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Haber Gazetesi • Halef final mi yapıyor",
+          "url": "https://www.habergazetesi.com.tr/halef-koklerin-cagrisi-final-mi-yapiyor-43-bolum-karari-ve-son-yayin-tarihi",
+          "published": "6 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Ege Telgraf • 11 Kasım 2026 TV yayın akışı",
+          "url": "https://www.egetelgraf.com/tv-yayin-akisi-11-kasim-2026-bu-aksam-televizyonda-hangi-diziler-var-sevdan-bir-ates-ekranlarda-olacak-mi",
+          "published": "11 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "magna-works-indirim-marka-degeri",
+      "title": "Magna Works: tekrar eden 'son fırsat' indirimleri satış getirirken marka tercihini ve kârı aşındırabilir",
+      "region": "Türkiye",
+      "category": "Ajans & Marka",
+      "layer": "Marka ve kampanya",
+      "market": "Türkiye",
+      "eventDate": "5 Kasım 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Ajans Magna Works, Kasım indirim döneminde sık indirimin normal fiyata güveni zayıflatabileceğini PwC ve Capgemini verileriyle savundu.",
+      "body": [
+        "PwC Türkiye (saha 29 Eylül-9 Ekim): tüketicilerin %94'ü Kasım indirimlerinde alışveriş planlıyor, %54'ü fiyat geçmişine bakıyor.",
+        "Aynı ankette katılımcıların %50'si indirimin gerçekliğini karşılaştırma siteleriyle kontrol ediyor.",
+        "Capgemini (12 ülke, 12.000 kişi, Türkiye'ye özgü değil): %62'si rakibin daha iyi promosyonunu marka değiştirme nedeni sayıyor.",
+        "Ajansın örnek hesabı: %20 indirim birim brüt kârı yarıya indiriyor; aynı kâr için iki kat satış gerekiyor."
+      ],
+      "impact": "Veri böyle: tüketici indirimi bekliyor ama gerçekliğini denetliyor. Bizim okumamız: marka için indirim iletişimi kısa vadede hacim, uzun vadede fiyat algısı riski taşıyor; ajans Kasım planında promosyon mesajı ile marka mesajını ayrı bütçelemeli.",
+      "action": "Kasım planında promosyon ve marka iletişimini ayrı hedef ve KPI ile ayırın; indirim sonrası fiyat algısını izleyin.",
+      "counterView": "Metin bir ajans açıklamasıdır, özgün veri içermez; hesap örneği varsayımsaldır. İndirimin marka değerini düşürdüğüne dair Türkiye'ye özgü ölçüm sunulmadı.",
+      "sources": [
+        {
+          "name": "Foreks • Magna Works: İndirim kampanyaları satış getirirken marka değerini düşürebilir",
+          "url": "https://www.foreks.com/haber/detay/6aec3c124b1852391445c428/FRKS/tr/magna-works-indirim-kampanyalari-satis-getirirken-marka-degerini-dusurebilir-05-11-26/",
+          "published": "5 Kasım 2026 11:19",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Google Kasım 2026 çekirdek güncellemesi 11 Kasım'da başladı; yayılımın yaklaşık iki hafta sürmesi bekleniyor.",
+      "source": "Search Engine Roundtable",
+      "url": "https://seroundtable.com/google-november-2026-core-update-42504.html",
+      "published": "2026-11-11"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Google Ads, genel bakış sayfasında kampanyaların dönüşüm yolculuğu aşamalarını gösteren 'Customer Journey Insights' kartını uygun reklamverenlerle pilot olarak sunuyor.",
+      "source": "Search Engine Roundtable",
+      "url": "https://www.seroundtable.com/google-ads-customer-journey-insights-42510.html",
+      "published": "2026-11-11"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "EuroLeague'de Fenerbahçe, 11 Kasım'da Paris Basketball'a uzatmada 111-109 yenildi.",
+      "source": "Sportschau (maç sayfası)",
+      "url": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385871/paris-basketball_fenerbahce/blitztabelle",
+      "published": "2026-11-11"
+    },
+    {
+      "layer": "Marka ve kampanya",
+      "region": "Türkiye",
+      "text": "Ülker Bisküvi KAP'a Ocak-Eylül 2026 cirosunu 95,7 milyar TL olarak bildirdi; haberde büyüme oranı yer almıyor.",
+      "source": "Karar",
+      "url": "https://www.karar.com/ekonomi-haberleri/ulkerin-9-aylik-cirosu-957-milyar-tlye-ulasti-2082851",
+      "published": "2026-11-07"
+    }
+  ],
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan sinyaller; tek haber trend sayılmaz.",
+    "items": [
+      {
+        "tag": "ölçüm güveni",
+        "text": "AI reklam yüzeyleri büyürken bağımsız ölçüm standardı 2027'ye kayıyor; elimizdeki AI etki verisi büyük ölçüde platform finansmanlı.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "mrc-ai-olcum-standartlari-2027",
+          "google-ipsos-ai-alisveris-12-temas"
+        ]
+      },
+      {
+        "tag": "hedefleme sınırı",
+        "text": "AB teklifi gençlere ve hassas veriye profilleme reklamını tüm tüccarlara yasaklıyor; Türkiye'de 15-17 yaşa kişiselleştirilmiş reklam yasağıyla aynı yöne gidiyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "ab-digital-fairness-act-yuzde-6-ceza"
+        ]
+      },
+      {
+        "tag": "marka güvenliği maliyeti",
+        "text": "Yayıncılar kelime engellemesinin haber envanterinin yarısından fazlasını kestiğini sayıyla öne sürüyor; güvenlik ile erişim arasındaki denge yeniden tartışılıyor.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "news-corp-avustralya-anahtar-kelime-engelleme"
+        ]
+      },
+      {
+        "tag": "özel gün akışı",
+        "text": "Millî maç perşembe prime time'ını yine bölüyor; rakip kanallar yeni bölümle karşısında.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "tv-persembe-12-kasim-mac-gecesi"
+        ]
+      }
+    ]
+  },
+  "matchesWindow": "12-15 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-12",
+      "time": "20:00",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar Ligi A, 1. Grup",
+      "home": "Türkiye",
+      "away": "Belçika",
+      "broadcaster": "ATV",
+      "source": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+      "note": "TFF resmî (6 Kasım): İzmir Gürsel Aksel; A Spor ve Gazete Vatan da ATV diyor.",
+      "tags": [
+        "Millî maç"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 11. hafta",
+      "home": "Anadolu Efes",
+      "away": "Virtus Bologna",
+      "broadcaster": null,
+      "source": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385892/anadolu-efes_virtus-bologna/blitztabelle",
+      "note": "Saat Sportschau'dan (18.30 Orta Avrupa). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-13",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 11. hafta",
+      "home": "LDLC ASVEL",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://karlobag.eu/en/sports/basketball/europe/euroleague/asvel-vs-besiktas-u1d5f/",
+      "note": "Ev sahibi ASVEL (Lyon); saat Fransa saatiyle 20.30 varsayımıyla, resmî teyit yok. Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-15",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "Basketbol Süper Ligi",
+      "home": "Fenerbahçe Tarfin",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://www.fenerbahce.org/haberler/basketbol-erkek/2026/11/fenerbahce-tarfin-anadolu-efes-macinin-bilet-satisi-basliyor",
+      "note": "Fenerbahçe bilet satışı haberi başlığı var, sayfa açılmadı; 15 Kasım 20.30 tek ikincil kaynak. Tarih ve saat teyitsiz.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "time": "22:45",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar Ligi A, 1. Grup",
+      "home": "Fransa",
+      "away": "Türkiye",
+      "broadcaster": "ATV",
+      "source": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+      "note": "TFF resmî (6 Kasım): Bordeaux, 22.45, ATV. Grubun son maç günü.",
+      "tags": [
+        "Millî maç"
+      ]
+    }
+  ],
+  "highlights": [
+    "AB Dijital Adalet Yasası teklifi: influencer uyumundan marka ve ajans sorumlu, ceza cironun %6'sına kadar.",
+    "MRC'nin AI ölçüm standartları en erken 2027 ilk çeyreğinde taslak olarak geliyor.",
+    "Bu akşam 20.00 ATV'de Türkiye–Belçika; Güneşin Doğduğu Yer'in maç sonrası yayını kanalca teyit edilmedi."
+  ],
+  "watchlist": [
+    "Güneşin Doğduğu Yer: 12 Kasım 22.15 mi, 19 Kasım mı? ATV resmî akışıyla teyit.",
+    "Halef (NOW): 43. bölüm final kulisi; kanal açıklaması yok.",
+    "Fenerbahçe–Anadolu Efes BSL maç tarihi ve saati (resmî teyit bekleniyor).",
+    "AB Dijital Adalet Yasası'nın Parlamento ve Konsey süreci.",
+    "TFF yayın ihalesi teklifleri 30 Kasım; Efsane Cuma 27 Kasım; Dentsu Q3 sonuçları (Kasım ortası)."
+  ],
+  "limitations": [
+    "Seçki: yedi kanalın resmî akışı, Birsen Altuntaş, MediaCat, Marketing Türkiye ve Campaign Türkiye ana sayfaları izin/zaman aşımı nedeniyle açılamadı. TV bilgileri akış derleyen haber sitelerinden; 'Fiilen yayında' yazılmadı.",
+    "Pencere içinde doğrulanmış Türkiye ajans, RTÜK, Reklam Kurulu veya rakip marka gelişmesi bulunamadı; rakip kontrolü yalnız haber aramasıyla yapıldı, şirket basın sayfaları açılmadı. Bu 'gelişme yok' demek değildir.",
+    "Dijital gündem şeridi çıkmadı: Google Trends ve Netflix Tudum açılmadı; Spotify, TikTok ve YouTube resmî listeleri denenemedi; bulunan öğeler güncel liste değildi.",
+    "Media Guru'larından Notlar çıkmadı: 5-12 Kasım arasında Sharp, Bellman, Beal, Riebe ve Nelson-Field için yeni önemli yayın bulunamadı.",
+    "Yaratıcı mecra vakası çıkmadı: tekrar listesinde olmayan, doğrulanmış güçlü TV/OOH/basın/radyo vakası bulunamadı; tek aday (KitKat YouTube molası, BAE 2020) dijital ve sonuçları doğrulanamadı.",
+    "Global haberler ağırlıkla tek ikincil kaynağa (PPC Land, Mumbrella) dayanıyor; Komisyon, MRC ve Google birincil metinleri açılmadı. Latin Amerika, Orta Doğu ve kıta Avrupası yayınlarından pencere içi haber bulunamadı.",
+    "Sultanlar Ligi 9. hafta programı ve 12-15 Kasım kadın voleybolu maçları bulunamadı; EuroLeague maç bazında yayıncı teyidi yapılamadı.",
+    "Görsel: 6 ana haberin 2'sinde görsel eklenemedi."
+  ],
+  "corrections": [
+    "11 Kasım bülteni Güneşin Doğduğu Yer'in bu hafta yayınlanmayacağını yazdı (Onedio, 6 Kasım); bugün iki akış derlemesi 12 Kasım 22.15'te diziyi gösteriyor. Çelişki resmî akışla çözülemedi; kart ve watchlist'te belirtildi."
+  ]
+}

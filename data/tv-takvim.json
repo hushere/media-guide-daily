@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "note": "Kayıtlar 22 Ekim 2026'da kanalların resmî yayın akışı sayfalarından gün gün yeniden kontrol edildi. Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -45,9 +45,9 @@
    "title": "Güneşin Doğduğu Yer",
    "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-11",
+   "checked": "2026-11-12",
    "source": "https://onedio.com/haber/milli-mac-engeli-atv-dizisinin-yeni-bolumu-iptal-edildi-1393790",
-   "note": "12 Kasım millî maç; yeni bölüm 19 Kasım (haber)"
+   "note": "12 Kasım 20.00 millî maç; Onedio 9. bölüm 19 Kasım dedi, akış derlemeleri 12 Kasım 22.15 gösteriyor (çelişki, resmî teyit yok)"
   },
   {
    "channel": "ATV",
