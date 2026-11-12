@@ -6,7 +6,7 @@
   "window": "11 Kasım 2026 08:00 – 12 Kasım 2026 08:15 TSİ (Claude araştırması 07:55-08:15, 5 alt ajan)",
   "status": "published",
   "review": {
-    "status": "approved",
+    "status": "approved_with_changes",
     "reviewer": "Claude",
     "reviewedAt": "2026-11-12T08:20+03:00",
     "summary": "Araştırma beş paralel alt ajanla yapıldı; riskli bilgiler ana oturumda kontrol edildi. Resmî kaynakla teyit: millî maç tarih, saat ve ATV yayıncısı (TFF 6 Kasım sayfası, önceki gün açılmıştı; bugün iki bağımsız ikincil kaynakla örtüşüyor). Ana oturumda açılıp karşılaştırılanlar: AB Dijital Adalet Yasası, MRC takvimi, Google/Ipsos araştırması (PPC Land), Magna Works açıklaması (Foreks), Ticaret Bakanlığı Kasım indirim duyurusu (28 Ekim, daha önce işlendiği için kullanılmadı). Açılamayan: yedi kanalın resmî akışı, Birsen Altuntaş, MediaCat, Marketing Türkiye ve Campaign Türkiye ana sayfaları, Google Trends, Netflix Tudum, VolleyStation, EuroLeague maç merkezi (izin/zaman aşımı). Çıkarılan: Ferrero fındık soruşturması (tarihi 2025 olabilir), 11.11 sonuç haberleri (yalnız 2023/2025 verisi bulundu), TV reklamının %75'i dijitale kaydı iddiası (köşe yazısı, kaynaksız), KitKat YouTube vakası (dijital, sonuç doğrulanamadı), dijital gündem öğeleri (güncel liste yok)."
@@ -30,7 +30,7 @@
         "Madde 12: reşit olmadığı bilinen kullanıcılara ve hassas verilerle profilleme temelli reklam tüm tüccarlar için yasak.",
         "Madde 11(6): marka ve ajans, influencer'ın 'reklam' ya da 'ticari işbirliği' açıklamasını sözleşmeyle sağlamakla yükümlü.",
         "Ceza üst sınırı dünya cirosunun %6'sı; dark pattern listesine 'her koşulda haksız' on yeni uygulama ekleniyor.",
-        "Abonelikte deneme bitmeden hatırlatma ve tek tıkla fesih işlevi zorunlu; AI alışveriş ajanlarına onay düzeyi kuralı geliyor."
+        "Abonelikte deneme bitmeden hatırlatma ve 'sonlandır' ile 'onayla' düğmeli fesih işlevi zorunlu; AI alışveriş ajanlarına onay düzeyi kuralı geliyor."
       ],
       "impact": "Veri böyle: kurallar henüz teklif, ama sorumluluğu platformdan markaya ve ajansa kaydırıyor. Bizim okumamız: AB'de influencer ve kişiselleştirilmiş reklam kullanan markalar sözleşme ve onay süreçlerini değiştirmek zorunda kalacak; tüketici tarafında genç kitleye hedefleme daralıyor.",
       "action": "AB pazarındaki influencer sözleşmelerine açıklama ve uyum maddesi ekleyin; 18 yaş altına erişen kampanyalarda profilleme hedeflemesini şimdiden envanterleyin.",
@@ -248,10 +248,10 @@
     {
       "layer": "Platform ve ürün",
       "region": "Global",
-      "text": "Google Kasım 2026 çekirdek güncellemesi 11 Kasım'da başladı; yayılımın yaklaşık iki hafta sürmesi bekleniyor.",
+      "text": "Google Kasım 2026 çekirdek güncellemesi 10 Kasım'da başladı; Google'a göre yayılım iki haftaya kadar sürebilir.",
       "source": "Search Engine Roundtable",
       "url": "https://seroundtable.com/google-november-2026-core-update-42504.html",
-      "published": "2026-11-11"
+      "published": "2026-11-10"
     },
     {
       "layer": "Platform ve ürün",
@@ -410,6 +410,8 @@
     "Görsel: 6 ana haberin 2'sinde görsel eklenemedi."
   ],
   "corrections": [
-    "11 Kasım bülteni Güneşin Doğduğu Yer'in bu hafta yayınlanmayacağını yazdı (Onedio, 6 Kasım); bugün iki akış derlemesi 12 Kasım 22.15'te diziyi gösteriyor. Çelişki resmî akışla çözülemedi; kart ve watchlist'te belirtildi."
+    "11 Kasım bülteni Güneşin Doğduğu Yer'in bu hafta yayınlanmayacağını yazdı (Onedio, 6 Kasım); bugün iki akış derlemesi 12 Kasım 22.15'te diziyi gösteriyor. Çelişki resmî akışla çözülemedi; kart ve watchlist'te belirtildi.",
+    "Yayın sonrası düzeltme (10:49): AB Dijital Adalet Yasası kartında 'tek tıkla fesih' ifadesi düzeltildi; teklif tek tık değil, 'sözleşmeyi buradan sonlandır' işlevi ve ardından onay düğmesi öngörüyor (PPC Land, 11 Kasım).",
+    "Yayın sonrası düzeltme (10:49): Google Kasım 2026 çekirdek güncellemesi sinyalinde başlangıç tarihi 11 Kasım değil 10 Kasım (yaklaşık 21.07 TSİ); kaynak yayın tarihi 10 Kasım, süre 'iki haftaya kadar' (Search Engine Roundtable)."
   ]
 }
