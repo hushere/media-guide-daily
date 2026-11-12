@@ -89,16 +89,19 @@ Okunan: N ana haber, M kısa sinyal. Kaynak açılamayan: ...
 
 **Kullanıcıya iletme:** Raporu dosyaya yazdıktan sonra kısa bir özetini (kritik bulgu sayısı, en önemli 3 öneri, dosya yolu) kendi sohbetinde de kullanıcıya sun. Claude ertesi sabah raporu okur, kritik bulguları kaynaktan yeniden teyit eder, kullanıcıya iletir ve yalnız onaylananları uygular.
 
-## TV dizi takvimi güncellemesi (her hafta Pazartesi, 22 Ekim 2026 kullanıcı kararı)
+## TV dizi takvimi güncellemesi (her gün, 12 Kasım 2026 kullanıcı kararı)
 
-Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv-takvim.json` dosyasıdır. Bu dosyayı sen değiştirme, yalnız oku. Önerilerini paketin `tvTableUpdates` alanına yaz. Claude teyit eder ve dosyaya işler.
+Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv-takvim.json` dosyasıdır ve **Claude her sabah** günceller (bülten commit'iyle yayımlanır). Tablo sitede güncel kalmalıdır; bir gün atlanırsa bir sonraki gün tam kontrol yapılır.
 
-**Her Pazartesi yapılacaklar (görev ChatGPT'dedir)**
-1. Pazartesi günkü araştırmada `data/tv-takvim.json` dosyasını oku ve tüm tabloyu 7 kanalın resmî yayın akışı sayfalarıyla gün gün karşılaştır (o haftanın Pazartesi-Pazar akışı). Diğer günlerde tablo için ayrı iş yoktur; yalnız o gün gelen yeni dizi, final veya yayın değişikliği haberini `tvTableUpdates` içine yazabilirsin.
-2. Yeni dizi, yeni sezon, final, gün veya saat değişikliği, kanal değişikliği, tekrar (TKR) veya yerine konan program varsa `tvTableUpdates` içine yaz. Değişiklik yoksa alanı boş liste bırak ve `researcherNotes` içinde "tablo kontrol edildi, değişiklik yok" de.
-3. Her öneride `checked` (kontrol ettiğin tarih) ve mümkünse `source` (resmî kaynak, https) ver.
-4. `checked` tarihi 14 günden eski kayıtlar sitede † ile görünür. Bu kayıtta dizi hakkında hiçbir bilgi bulamazsan `remove` öner. Bilgi varsa kayıt kalır ve `checked` güncellenir.
-5. Dosyayı sen değiştirmezsin. Claude önerileri kanal sayfasından teyit edip işler.
+**Her sabah yapılacaklar (hafta içi, bülten yayınından önce)**
+1. 7 kanalın resmî yayın akışı sayfasını aç ve **bulunulan haftanın Pazartesi-Pazar akışını** gün gün oku (kanal başına 7 gün; en az bugün ve yarın zorunlu, haftanın geri kalanı da bakılır). Resmî sayfa açılmıyorsa (ör. TV8 "yenileniyor") kaydı değiştirme, `checked` tarihini ilerletme ve bunu bülten `limitations` alanına ve `state/handoff.md` içine yaz.
+2. Tabloyla karşılaştır. Farkları doğrudan `data/tv-takvim.json` içine işle: yeni bölüm yoksa TKR (`air: "tkr"`) veya yerine konan program (maç, film, özel yayın), saat kayması, yeni dizi, yeni sezon, final, günü belirsiz dizinin başlaması.
+3. Her kontrol edilen kayda `checked` (bugün) ve `source` (kanalın resmî akış sayfası, https) yaz. Bugünün tarihini `updated` alanına yaz.
+4. İşledikten sonra `python3 scripts/validate_tv.py` çalıştır.
+5. `checked` tarihi 14 günden eski kayıtlar sitede † ile görünür. Günlük kontrol çalışıyorsa nadir olmalı. Bu kayıtta dizi hakkında hiçbir bilgi bulamazsan kaydı kaldır, bilgi varsa kalır ve `checked` güncellenir.
+6. Resmî kaynakla çelişen haber veya kulis bilgisini tabloya işleme; `note` içinde "teyitsiz" diye belirt.
+
+Hafta sonu: Cumartesi ve Pazar bülten çıkmıyorsa bakılmaz; Pazartesi sabahı hafta tam kontrol edilir.
 
 **Görünüm kuralları (22 Ekim 2026, kullanıcı kararı)**
 - Bu hafta yeni bölümle yayınlanan dizide yalnız saat görünür. Not yazma.
