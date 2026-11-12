@@ -130,6 +130,7 @@ index.html, assets/           Site (GitHub Pages)
 
 En yeni en üstte. Claude her çalışmada bu kayda bakar.
 
+- **2026-11-12 (ek):** Tablodaki kanallarda maç yayını varsa maçın kendisi (MAÇ rozeti, `air: "mac"`) ve maçtan önce veya sonra kaydırılmış yeni bölümlü diziler gerçek saatiyle tabloya eklenir (kullanıcı kararı). Resmî akışta "Yeni Bölüm" yazıyorsa eklenir, tekrar ise TKR. Ayrıntı `RESEARCH.md` "TV dizi takvimi güncellemesi" madde 7.
 - **2026-11-12:** TV Dizi Takvimi kontrolü **günlük** oldu (kullanıcı kararı; eski kural "her Pazartesi" kalktı). Claude her sabah 7 kanalın resmî akışıyla tabloyu karşılaştırıp aynı gün günceller. Neden: 9 Kasım haftalık kontrolü yapılmamış, ATV Cumartesi kaydı 3 hafta eski kalmış, ATV Perşembe maç nedeniyle yanlıştı. 12 Kasım'da düzeltildi (ATV Perşembe 22.15 TKR, Cumartesi kaydı kaldırıldı). TV8 sitesi o gün "yenileniyor" sayfasındaydı, doğrulanamadı.
 - **2026-11-10:** ChatGPT akıştan çıktı (kullanıcı kararı); tüm görevleri 11 Kasım'dan itibaren Claude'da. Sabah görevi 07.30'da başlar (araştırma + teyit + yazım + 09.15 yayın; dijital gündem, guru notları ve TV tablosu dahil). Yayın sonrası değerlendirme hafta içi 10.30'da ayrı Claude görevi olarak çalışır, raporu `reviews/` altına yazar, yalnız açık olgu hatalarını düzeltir. Paket gelmemesi artık aksama değildir.
 

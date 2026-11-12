@@ -100,6 +100,7 @@ Sitede "2026 TV Dizi Takvimi" tablosu vardır (kanal x gün). Kaynağı `data/tv
 4. İşledikten sonra `python3 scripts/validate_tv.py` çalıştır.
 5. `checked` tarihi 14 günden eski kayıtlar sitede † ile görünür. Günlük kontrol çalışıyorsa nadir olmalı. Bu kayıtta dizi hakkında hiçbir bilgi bulamazsan kaydı kaldır, bilgi varsa kalır ve `checked` güncellenir.
 6. Resmî kaynakla çelişen haber veya kulis bilgisini tabloya işleme; `note` içinde "teyitsiz" diye belirt.
+7. **Maç yayını olan günler (12 Kasım 2026 kullanıcı kararı):** Tablodaki kanallarda maç yayını varsa (millî maç, Avrupa kupası, derbi vb.) maçın kendisi o günün hücresine gerçek saatiyle eklenir (`air: "mac"`, sitede MAÇ rozeti, başlık "Takım - Takım" biçiminde, kanalın akışındaki yazımla). Maçtan önce veya sonra kaydırılmış **yeni bölümlü** dizi varsa o da gerçek saatiyle eklenir (ör. 22.15). Kayan bölüm tekrar ise `air: "tkr"`. Kaymış saati resmî akıştan ("Yeni Bölüm" ibaresi) teyit et; haber veya kulis yetmez. Maç günü geçince kaydı kaldır. Maç öncesi ve sonrası program (ör. "Milli Maça Doğru") yazılmaz.
 
 Hafta sonu: Cumartesi ve Pazar bülten çıkmıyorsa bakılmaz; Pazartesi sabahı hafta tam kontrol edilir.
 

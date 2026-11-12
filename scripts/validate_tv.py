@@ -17,7 +17,7 @@ CHANNELS = ["ATV", "KANAL D", "STAR TV", "SHOW TV", "NOW", "TRT 1", "TV8"]
 DAYS = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar", "Günü belirsiz"]
 STATUS = {"yayinda", "kanal-teyitli", "planlanan", "belirsiz"}
 TAGS = {"yeni", "sezon", "final"}
-AIR = {"tkr"}  # bu hafta yeni bölüm yok: tekrar (TKR) gösterilir
+AIR = {"tkr", "mac"}  # tkr: bu hafta yeni bölüm yok, tekrar; mac: kanalın o gün yayınladığı maç
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 

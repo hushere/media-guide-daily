@@ -18,7 +18,7 @@
    "title": "Altı Üstü İstanbul",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-12",
    "source": "https://www.atv.com.tr/yayin-akisi"
   },
   {
@@ -27,8 +27,8 @@
    "title": "Var Mısın Yok Musun",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.atv.com.tr/var-misin-yok-musun"
+   "checked": "2026-11-12",
+   "source": "https://www.atv.com.tr/yayin-akisi"
   },
   {
    "channel": "ATV",
@@ -36,7 +36,7 @@
    "title": "Var Mısın Yok Musun",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-12",
    "source": "https://www.atv.com.tr/yayin-akisi"
   },
   {
@@ -74,18 +74,17 @@
    "title": "Uzak Şehir",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-12",
    "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
    "channel": "KANAL D",
    "day": "Salı",
    "title": "Haysiyet",
-   "status": "belirsiz",
+   "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-11",
-   "source": "https://www.kanald.com.tr/yayin-akisi/sali",
-   "note": "10 Kasım yeni bölüm haber kaynaklı; resmî teyit yok"
+   "checked": "2026-11-12",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
    "channel": "KANAL D",
@@ -93,8 +92,8 @@
    "title": "Beyaz'la Joker",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.kanald.com.tr/yayin-akisi/cuma"
+   "checked": "2026-11-12",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
    "channel": "KANAL D",
@@ -102,8 +101,8 @@
    "title": "Güller ve Günahlar",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.kanald.com.tr/yayin-akisi/cumartesi"
+   "checked": "2026-11-12",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
    "channel": "KANAL D",
@@ -111,8 +110,8 @@
    "title": "Daha 17",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.kanald.com.tr/yayin-akisi/pazar"
+   "checked": "2026-11-12",
+   "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
    "channel": "KANAL D",
@@ -147,8 +146,8 @@
    "title": "Tuzlu Kahve",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.startv.com.tr/"
+   "checked": "2026-11-12",
+   "source": "https://www.startv.com.tr/yayin-akisi"
   },
   {
    "channel": "STAR TV",
@@ -156,8 +155,8 @@
    "title": "Sevdiğim Sensin",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.startv.com.tr/dizi/sevdigim-sensin"
+   "checked": "2026-11-12",
+   "source": "https://www.startv.com.tr/yayin-akisi"
   },
   {
    "channel": "STAR TV",
@@ -165,8 +164,8 @@
    "title": "Başkalarının Hayatı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.startv.com.tr/dizi/baskalarinin-hayati"
+   "checked": "2026-11-12",
+   "source": "https://www.startv.com.tr/yayin-akisi"
   },
   {
    "channel": "SHOW TV",
@@ -174,7 +173,7 @@
    "title": "Sevdan Bir Ateş",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-11",
+   "checked": "2026-11-12",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -183,7 +182,7 @@
    "title": "Muhtemel Aşk",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-12",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -192,7 +191,7 @@
    "title": "Kızılcık Şerbeti",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-12",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -201,7 +200,7 @@
    "title": "Güldür Güldür Show",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-12",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -226,11 +225,10 @@
    "channel": "NOW",
    "day": "Salı",
    "title": "Anne Yarısı",
-   "status": "belirsiz",
+   "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-11",
-   "source": "https://www.nowtv.com.tr/yayin-akisi",
-   "note": "10 Kasım yeni bölüm haber kaynaklı; resmî teyit yok"
+   "checked": "2026-11-12",
+   "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
    "channel": "NOW",
@@ -238,8 +236,8 @@
    "title": "Yeraltı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-05",
-   "source": "https://www.nowtv.com.tr/Yeralti/izle"
+   "checked": "2026-11-12",
+   "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
    "channel": "NOW",
@@ -247,7 +245,7 @@
    "title": "Halef: Köklerin Çağrısı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
+   "checked": "2026-11-12",
    "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
@@ -256,7 +254,7 @@
    "title": "Ömür Usta",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
+   "checked": "2026-11-12",
    "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
@@ -281,10 +279,9 @@
    "channel": "TRT 1",
    "day": "Salı",
    "title": "Mehmed: Fetihler Sultanı",
-   "status": "belirsiz",
-   "checked": "2026-11-11",
-   "source": "https://www.trt1.com.tr/diziler/mehmed-fetihler-sultani",
-   "note": "10 Kasım 20.00 haber kaynaklı; resmî akış açılmadı",
+   "status": "yayinda",
+   "checked": "2026-11-12",
+   "source": "https://www.trt1.com.tr/yayin-akisi",
    "time": "20.00"
   },
   {
@@ -293,8 +290,8 @@
    "title": "Taşacak Bu Deniz",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.trt1.com.tr/diziler/tasacak-bu-deniz"
+   "checked": "2026-11-12",
+   "source": "https://www.trt1.com.tr/yayin-akisi"
   },
   {
    "channel": "TRT 1",
@@ -302,8 +299,8 @@
    "title": "Gönül Dağı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.trt1.com.tr/diziler/gonul-dagi"
+   "checked": "2026-11-12",
+   "source": "https://www.trt1.com.tr/yayin-akisi"
   },
   {
    "channel": "TRT 1",
@@ -311,8 +308,8 @@
    "title": "Teşkilat",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-02",
-   "source": "https://www.trt1.com.tr/diziler/teskilat"
+   "checked": "2026-11-12",
+   "source": "https://www.trt1.com.tr/yayin-akisi"
   },
   {
    "channel": "TV8",
@@ -376,6 +373,26 @@
    "time": "20.00",
    "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/08-11-2026"
+  },
+  {
+   "channel": "ATV",
+   "day": "Perşembe",
+   "title": "Türkiye - Belçika",
+   "status": "yayinda",
+   "time": "20.00",
+   "air": "mac",
+   "checked": "2026-11-12",
+   "source": "https://www.atv.com.tr/yayin-akisi"
+  },
+  {
+   "channel": "ATV",
+   "day": "Pazar",
+   "title": "Fransa - Türkiye",
+   "status": "yayinda",
+   "time": "22.45",
+   "air": "mac",
+   "checked": "2026-11-12",
+   "source": "https://www.atv.com.tr/yayin-akisi"
   }
  ]
 }

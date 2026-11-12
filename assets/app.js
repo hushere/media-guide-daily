@@ -460,6 +460,9 @@
       badge = '<span class="tv-badge final">Dizi Finali</span> <span class="tv-when">' + (e.final ? "Veda: " + esc(fmtShort(e.final)) : "Tarih açıklanmadı") + '</span>';
     } else if ((e.tag === "yeni" || e.tag === "sezon") && !(e.start && e.start <= b.date)) {
       badge = '<span class="tv-badge new">' + (e.tag === "sezon" ? "Yeni Sezon" : "Yeni Dizi") + '</span> <span class="tv-when">' + (e.start ? "Başlangıç: " + esc(fmtShort(e.start)) : "Başlangıç tarihi açıklanmadı") + '</span>';
+    } else if (e.air === "mac") {
+      /* Kanalın o gün yayınladığı maç (12 Kasım 2026, kullanıcı kararı) */
+      badge = '<span class="tv-badge mac" title="Maç yayını">MAÇ</span>';
     } else if (e.air === "tkr") {
       /* Bu hafta yeni bölüm yok: tekrar yayınlanıyor (22 Ekim 2026, kullanıcı kararı) */
       badge = '<span class="tv-badge tkr" title="Tekrar">TKR</span>';
@@ -485,7 +488,7 @@
     }).join("") + '</tr>';
     var rows = (tv.channels || []).map(function (ch) {
       var cells = TV_DAYS.map(function (day) {
-        var items = entries.filter(function (e) { return e.channel === ch && e.day === day; }).map(function (e) { return tvItemHTML(e, b, tv.updated); }).join("");
+        var items = entries.filter(function (e) { return e.channel === ch && e.day === day; }).map(function (e, i) { return { e: e, i: i }; }).sort(function (a, c) { var ta = a.e.time || "99.99", tc = c.e.time || "99.99"; return ta < tc ? -1 : ta > tc ? 1 : a.i - c.i; }).map(function (x) { return x.e; }).map(function (e) { return tvItemHTML(e, b, tv.updated); }).join("");
         return '<td' + (day === today ? ' class="tv-today"' : "") + '>' + items + '</td>';
       }).join("");
       return '<tr><th scope="row">' + esc(ch) + '</th>' + cells + '</tr>';
