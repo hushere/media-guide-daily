@@ -9,7 +9,7 @@
     "writer": "Claude"
   },
   "review": {
-    "status": "approved",
+    "status": "approved_with_changes",
     "reviewer": "Claude",
     "reviewedAt": "2026-11-13T08:10+03:00",
     "summary": "Araştırma altı paralel alt ajanla yapıldı; riskli bilgiler ana oturumda kontrol edildi. Ana oturumda kaynakla karşılaştırılanlar: ProSiebenSat.1, Skydance–WBD ve Amazon DVA rakamları (PPC Land, 12 Kasım), Cadbury Snack sonuçları (egta vaka sayfası). Resmî kaynak: Rekabet Kurumu fındık soruşturması duyurusu (6 Kasım 2026; dünkü 'yılı 2025 olabilir' şüphesi kapandı). Açılamayan (izin/zaman aşımı): yedi kanalın resmî akışı, Birsen Altuntaş, MediaCat, Marketing Türkiye, Campaign Türkiye, Google Trends, Netflix Tudum, şirket basın sayfaları, TFF, TVF, VolleyStation. Çıkarılan: Türkiye–Belçika skoru (kaynaklar çelişkili), TV kartı (12-15 Kasım akışı doğrulanamadı), Lufthansa ajans haberinin ayrıntıları (giriş duvarı), Süper Lig 12. hafta rutin maçları (kapsam dışı)."
@@ -66,7 +66,7 @@
       },
       {
         "tag": "fiyat duyarlılığı",
-        "text": "TCMB Başkanı yıl sonu %21'i makul buluyor, ama son üç ayın ana eğilimi %23-24; Kasım indirim döneminde fiyat algısı hassas kalıyor.",
+        "text": "TCMB 2026 sonu tahminini %29,5'e yükseltti; Karahan 2027 sonu için %21'i makul buluyor, son üç ayın ana eğilimi %23-24. Kasım indirim döneminde fiyat algısı hassas kalıyor.",
         "basis": "İşaret",
         "recurrence": "Tekrar ediyor",
         "refs": [
@@ -184,16 +184,16 @@
     },
     {
       "id": "karahan-yuzde-21-enflasyon",
-      "title": "TCMB Başkanı Karahan: yıl sonu %21 enflasyon tahmini makul, son üç ayın ana eğilimi %23-24",
+      "title": "TCMB Başkanı Karahan: 2027 sonu için %21 enflasyon tahmini makul, son üç ayın ana eğilimi %23-24",
       "region": "Türkiye",
       "category": "Ölçüm & Araştırma",
       "layer": "Tüketici ve ekonomi",
       "market": "Türkiye",
       "eventDate": "12 Kasım 2026 (Enflasyon Raporu toplantısı)",
       "tier": "main",
-      "summary": "TCMB Başkanı Fatih Karahan, 2026'nın dördüncü Enflasyon Raporu toplantısında yıl sonu %21 tahmininin çok iyimser olmadığını söyledi.",
+      "summary": "TCMB, 2026'nın dördüncü Enflasyon Raporu'nda 2026 sonu tahminini %29,5'e yükseltti; Karahan 2027 sonu için %21'in çok iyimser olmadığını söyledi.",
       "body": [
-        "Karahan: yıl sonu %21 tahmini makul, 'çok iyimser' değil.",
+        "Karahan: 2027 sonu için %21 tahmini makul, 'çok iyimser' değil. 2026 sonu tahmini %29,5'e yükseltildi.",
         "Son üç aylık ana eğilim yıllıklandırıldığında yaklaşık %23-24 düzeyinde.",
         "%21 için sıkı para politikası, destekleyici maliye ve yönetilen fiyatlarda eşgüdüm gerektiği belirtildi.",
         "Kaynak ikincil (Foreks aktarımı); TCMB metni bu çalışmada açılmadı."
@@ -206,6 +206,13 @@
           "name": "Foreks • Karahan: Yüzde 21 enflasyon tahmini makul",
           "url": "https://www.foreks.com/haber/detay/6af57b0d635b284a64306d97/PICNEWS/tr/karahan-yuzde-21-enflasyon-tahmini-makul-12-11-26/",
           "published": "12 Kasım 2026 11:38",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Foreks • TCMB 2026 yıl sonu enflasyon tahminini yüzde 29,5'e yükseltti",
+          "url": "https://www.foreks.com/haber/detay/6af571f195131d72027dc2c3/PICNEWS/tr/tcmb-2026-yil-sonu-enflasyon-tahminini-yuzde-29-5-e-yukseltti-12-11-26/",
+          "published": "12 Kasım 2026 10:59",
           "country": "Türkiye",
           "language": "Türkçe"
         }
@@ -462,6 +469,7 @@
   "corrections": [
     "6 Kasım bülteninde 4 Aralık vizyonlu (UIP) olarak bildirilen Vahşi Gece 2 bugün hiçbir kaynakta doğrulanamadı; tarih teyitsiz sayılmalı.",
     "12 Kasım bülteninde 'tarihi 2025 olabilir' diye çıkarılan Ferrero fındık soruşturması haberi Rekabet Kurumu sayfasıyla 6 Kasım 2026 tarihli olarak teyit edildi ve bugün yazıldı.",
-    "12 Kasım panelindeki ASVEL–Beşiktaş 22.30 saati varsayımdı; bugün teyit edilemedi, saat boş bırakıldı."
+    "12 Kasım panelindeki ASVEL–Beşiktaş 22.30 saati varsayımdı; bugün teyit edilemedi, saat boş bırakıldı.",
+    "Yayın sonrası düzeltme (10:45): Karahan haberinde ve Radar'da '%21 yıl sonu tahmini' 2027 sonu içindir; TCMB 2026 sonu tahminini %29,5'e yükseltti (Foreks, 12 Kasım 10:59 ve 11:36 'Gelecek yıl sonu için açıklanan %21'). Başlık, özet, ilk madde ve Radar metni düzeltildi, kaynak eklendi."
   ]
 }
