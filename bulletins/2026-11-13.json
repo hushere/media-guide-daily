@@ -1,0 +1,467 @@
+{
+  "date": "2026-11-13",
+  "title": "Avrupa'da TV reklamı geriliyor: ProSiebenSat.1'de -%13; Amazon ajans ücretini görünür kılıyor, Ferrero fındık soruşturmasında",
+  "summary": "Lineer TV reklam gelirindeki düşüş Almanya ve ABD sonuçlarında sürüyor; Amazon DSP'de ajans ücreti yeni düzene geçiyor, Türkiye'de enflasyon beklentisi ve fındık alımı gündemde.",
+  "edition": "selection",
+  "window": "12 Kasım 2026 08:15 – 13 Kasım 2026 08:05 TSİ (Claude araştırması 07:45-08:05, 6 alt ajan)",
+  "status": "published",
+  "source": {
+    "writer": "Claude"
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-13T08:10+03:00",
+    "summary": "Araştırma altı paralel alt ajanla yapıldı; riskli bilgiler ana oturumda kontrol edildi. Ana oturumda kaynakla karşılaştırılanlar: ProSiebenSat.1, Skydance–WBD ve Amazon DVA rakamları (PPC Land, 12 Kasım), Cadbury Snack sonuçları (egta vaka sayfası). Resmî kaynak: Rekabet Kurumu fındık soruşturması duyurusu (6 Kasım 2026; dünkü 'yılı 2025 olabilir' şüphesi kapandı). Açılamayan (izin/zaman aşımı): yedi kanalın resmî akışı, Birsen Altuntaş, MediaCat, Marketing Türkiye, Campaign Türkiye, Google Trends, Netflix Tudum, şirket basın sayfaları, TFF, TVF, VolleyStation. Çıkarılan: Türkiye–Belçika skoru (kaynaklar çelişkili), TV kartı (12-15 Kasım akışı doğrulanamadı), Lufthansa ajans haberinin ayrıntıları (giriş duvarı), Süper Lig 12. hafta rutin maçları (kapsam dışı)."
+  },
+  "weekly": {
+    "window": "9-13 Kasım 2026",
+    "items": [
+      {
+        "title": "Meta, 20 Kasım'da yürürlüğe girecek reklam koşullarını askıya aldı",
+        "text": "Platform takvimi son anda değişti; yeni tarih yok. Sözleşme ve ölçüm hazırlıkları bekletilmeli, son durum her hafta kontrol edilmeli.",
+        "ref": "2026-11-10#meta-20-kasim-kosullari-askida"
+      },
+      {
+        "title": "TFF 5 sezonluk yayın ihalesine çıktı, teklif 30 Kasım",
+        "text": "2027-28'den itibaren Süper Lig hakları yeniden dağıtılacak. Yayıncı değişirse futbol sponsorluk ve reklam envanteri planları baştan kurulur.",
+        "ref": "2026-11-10#tff-yayin-ihalesi-30-kasim"
+      },
+      {
+        "title": "AB Dijital Adalet Yasası teklifi sorumluluğu markaya kaydırıyor",
+        "text": "Influencer açıklaması, gençlere profilleme reklamı ve abonelik feshi için kurallar sıkılaşıyor. AB'de satış yapan Türk markaları sözleşmelerini gözden geçirmeli.",
+        "ref": "2026-11-12#ab-digital-fairness-act-yuzde-6-ceza"
+      }
+    ],
+    "open": [
+      "Güneşin Doğduğu Yer'in 12 Kasım'da yayınlanıp yayınlanmadığı resmî akışla teyit edilemedi.",
+      "Halef finali: 43. mü 44. bölüm mü, tarih yok (kulis).",
+      "Meta askıya aldığı koşullar için yeni tarih açıklamadı.",
+      "TFF ihalesinde teklif günü 30 Kasım; Turkcell ve yayıncı değişikliği iddiaları resmî değil.",
+      "Zor Baba 4 dağıtımcısı ve 2 Aile Arasında dağıtımcısı resmî kaynakla teyit edilmedi.",
+      "Dentsu Q3 sonuçları bekleniyor."
+    ]
+  },
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan sinyaller; tek haber trend sayılmaz.",
+    "items": [
+      {
+        "tag": "TV reklam talebi",
+        "text": "Almanya'da ProSiebenSat.1 TV reklamı -%13, ABD'de Paramount Skydance reklam geliri -%3; iki şirkette de akış büyüyor ama lineer kaybı kapatmıyor.",
+        "basis": "Veri",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "prosiebensat1-tv-reklam-yuzde-13",
+          "skydance-wbd-6-milyar-faiz"
+        ]
+      },
+      {
+        "tag": "ajans ücret şeffaflığı",
+        "text": "Amazon DSP'de ajans ücreti kampanya bütçesinden ayrı bir rapor sütununa taşınıyor; ücret yapısı reklamverenle aynı ekranda konuşulur hale gelebilir.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "amazon-dva-ajans-ucreti-31-ocak"
+        ]
+      },
+      {
+        "tag": "fiyat duyarlılığı",
+        "text": "TCMB Başkanı yıl sonu %21'i makul buluyor, ama son üç ayın ana eğilimi %23-24; Kasım indirim döneminde fiyat algısı hassas kalıyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "karahan-yuzde-21-enflasyon"
+        ]
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "prosiebensat1-tv-reklam-yuzde-13",
+      "title": "ProSiebenSat.1'de TV reklam geliri üçüncü çeyrekte %13 düştü, dijital reklam yalnız %1 büyüdü",
+      "region": "Global",
+      "category": "TV & Entertainment",
+      "layer": "Reklam pazarı ve para",
+      "market": "Almanya, Avusturya, İsviçre (DACH)",
+      "eventDate": "12 Kasım 2026 (Q3 sonuçları ve yönlendirme teyidi)",
+      "tier": "main",
+      "summary": "Alman yayıncı ProSiebenSat.1'in TV reklam geliri üçüncü çeyrekte %13 düşüşle 261 milyon euroya geriledi; dijital büyüme kaybı telafi etmedi.",
+      "body": [
+        "TV reklam geliri Q3'te -%13, 261 milyon euro; dokuz ayda -%12, 827 milyon euro.",
+        "DACH dijital ve akıllı reklam yalnız +%1, 72 milyon euro; dokuz ayda +%4.",
+        "Joyn AVoD geliri +%12; aylık ortalama video kullanıcısı 11,8 milyon, +%54.",
+        "Grup geliri -%15, 701 milyon euro; organik -%4. 2026 organik beklentisi 'hafif düşüş'e çekildi."
+      ],
+      "impact": "Veri böyle: büyük bir Avrupa yayıncısında lineer reklam çift haneli düşüyor, akış kullanıcısı artsa da gelir aynı hızda büyümüyor. Bizim okumamız: Türkiye'de de TV ve dijital video bütçesini kanal toplamı yerine 'aynı içeriğin lineer + akış erişimi' olarak pazarlık etmek önem kazanıyor.",
+      "action": "Kanallarla yıl sonu ve 2027 görüşmelerinde lineer ve dijital (AVoD) envanteri birlikte fiyatlayan paket teklifi isteyin.",
+      "counterView": "Düşüşün bir kısmı şirkete özgü pay kaybı ve Almanya'nın zayıf ekonomisi olabilir; tek yayıncı tüm pazarı temsil etmez. Rakamlar şirket sonuçlarının PPC Land aktarımıdır.",
+      "sources": [
+        {
+          "name": "PPC Land • ProSiebenSat.1 TV ad revenue drops 13% in the third quarter",
+          "url": "https://ppc.land/prosiebensat-1-tv-ad-revenue-drops-13-in-the-third-quarter/",
+          "published": "12 Kasım 2026 21:21 UTC",
+          "country": "Almanya",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/prosiebensat1-tv-ad-revenue-13-percent-drop-console-tv-lighthouse-short-beam-dock-lantern.jpg",
+        "alt": "ProSiebenSat.1 TV reklam geliri haberinin kapak illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/prosiebensat-1-tv-ad-revenue-drops-13-in-the-third-quarter/"
+      }
+    },
+    {
+      "id": "skydance-wbd-6-milyar-faiz",
+      "title": "Paramount Skydance–Warner Bros. Discovery birleşmesi: yıllık 6 milyar dolar faiz, pazarlamadan en az 1 milyar dolar kesinti hedefi",
+      "region": "Global",
+      "category": "TV & Entertainment",
+      "layer": "Reklam pazarı ve para",
+      "market": "ABD; global içerik ve CTV pazarı",
+      "eventDate": "6 Ekim 2026 birleşme; Q3 sonuçları 9 Kasım; analiz 12 Kasım",
+      "label": "Analiz",
+      "tier": "main",
+      "summary": "97,4 milyar dolarlık birleşmenin borç yükü yıllık yaklaşık 6 milyar dolar faiz getiriyor; reklam geliri Q3'te %3 düştü ve pazarlama bütçesi kesintide.",
+      "body": [
+        "Birleşme 6 Ekim'de kapandı; ön bedel 97,4 milyar dolar, brüt borç yaklaşık 87 milyar dolar.",
+        "Üç yılda en az 6 milyar dolar sinerji hedefi; en az 1 milyar doları yaklaşık 5 milyar dolarlık pazarlama bütçesinden.",
+        "Q3 reklam geliri -%3, 1,889 milyar dolar; siyasi reklam toplamı 4 puan destekledi.",
+        "Paramount+ geliri +%21, 2,134 milyar dolar, 82,2 milyon abone; TV Media geliri -%7."
+      ],
+      "impact": "Veri böyle: siyasi reklam olmasa reklam düşüşü daha derin olurdu, büyüme akış aboneliğinden geliyor. Bizim okumamız: borç baskısı içerik fiyatlarını ve uluslararası lisans pazarlıklarını sertleştirebilir; şirketin kendi pazarlama kesintisi büyük reklamverenlerin de verimlilik baskısında olduğunu gösteriyor.",
+      "action": "Uluslararası içerik ve CTV anlaşmalarında 2027 fiyat artışı ve paket koşulu değişikliklerini sorun; abone verisinin Q4 sonrası açıklanmayacağını not edin.",
+      "counterView": "Q3 karşılaştırması pro forma; birleşme sonrası muhasebe dönemi kıyası yanıltabilir. 'Altta yatan %7 düşüş' yazarın hesabıdır, şirketin açıkladığı rakam değildir; abone açıklaması Q4 ile bitiyor.",
+      "sources": [
+        {
+          "name": "PPC Land • Skydance faces $6bn yearly interest bill after $97bn Warner takeover",
+          "url": "https://ppc.land/skydance-faces-6bn-yearly-interest-bill-after-97bn-warner-takeover/",
+          "published": "12 Kasım 2026 21:16 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/skydance-warner-6bn-interest-bill-tightrope-walker-film-canister-chain-soundstages.jpg",
+        "alt": "Skydance–Warner faiz yükü haberinin kapak illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/skydance-faces-6bn-yearly-interest-bill-after-97bn-warner-takeover/"
+      }
+    },
+    {
+      "id": "amazon-dva-ajans-ucreti-31-ocak",
+      "title": "Amazon DSP'de ajans ücreti yeni düzene geçiyor: eski kampanya bazlı ayar 31 Ocak 2027'den sonra eklenemeyecek",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Tüm Amazon Ads pazaryerleri; Amazon DSP kullanan ajanslar",
+      "eventDate": "11 Kasım 2026 (Amazon destek sayfası güncellemesi)",
+      "tier": "main",
+      "summary": "Amazon, Display, Video ve Audio kampanyalarında ajans ücretini yönetici hesaptan tanımlama özelliğini açık betaya aldı; eski ayar Mart 2027 sonunda kalkıyor.",
+      "body": [
+        "Yeni ücret aracı tüm pazaryerlerinde açık betada; başlangıç tarihi açıklanmadı.",
+        "Beş hesaplama yöntemi: dördü maliyet üstüne markup, biri kampanya bütçesi üzerinden marj.",
+        "Eski kampanya bazlı ücret 31 Ocak 2027'ye kadar eklenebiliyor, Mart 2027 sonunda kaldırılıyor.",
+        "Amazon ücreti faturalamıyor; tüm ajans ücretleri raporda tek bir 'Agency fees' sütununda görünüyor."
+      ],
+      "impact": "Veri böyle: ücret artık bütçeden ayrı kalem olarak raporda duruyor. Bizim okumamız: ajans tarafında ücret yöntemi seçimi bütçe teslimini değiştirir; marka tarafı medya maliyeti ile hizmet ücretini daha net ayırabilir.",
+      "action": "Amazon DSP kampanyalarınızda kullanılan ücret yöntemini listeleyin ve 31 Ocak 2027'den önce yeni araca geçiş takvimini müşteriyle yazılı olarak netleştirin.",
+      "counterView": "Reklamveren kullanıcısının 'Agency fees' sütununu görüp görmediği belirsiz; Türkiye'de Amazon DSP kullanımı sınırlı olabilir, etki ölçeği doğrulanmadı.",
+      "sources": [
+        {
+          "name": "PPC Land • Agencies lose Amazon's legacy DVA fee setting after January 31, 2027",
+          "url": "https://ppc.land/agencies-lose-amazons-legacy-dva-fee-setting-after-january-31-2027/",
+          "published": "12 Kasım 2026 21:31 UTC",
+          "country": "Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/amazon-dva-agency-fees-3-5-margin-takes-3-63-sommelier-split-pour-brimming-tastevin.jpg",
+        "alt": "Amazon DVA ajans ücreti haberinin kapak illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/agencies-lose-amazons-legacy-dva-fee-setting-after-january-31-2027/"
+      }
+    },
+    {
+      "id": "karahan-yuzde-21-enflasyon",
+      "title": "TCMB Başkanı Karahan: yıl sonu %21 enflasyon tahmini makul, son üç ayın ana eğilimi %23-24",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Tüketici ve ekonomi",
+      "market": "Türkiye",
+      "eventDate": "12 Kasım 2026 (Enflasyon Raporu toplantısı)",
+      "tier": "main",
+      "summary": "TCMB Başkanı Fatih Karahan, 2026'nın dördüncü Enflasyon Raporu toplantısında yıl sonu %21 tahmininin çok iyimser olmadığını söyledi.",
+      "body": [
+        "Karahan: yıl sonu %21 tahmini makul, 'çok iyimser' değil.",
+        "Son üç aylık ana eğilim yıllıklandırıldığında yaklaşık %23-24 düzeyinde.",
+        "%21 için sıkı para politikası, destekleyici maliye ve yönetilen fiyatlarda eşgüdüm gerektiği belirtildi.",
+        "Kaynak ikincil (Foreks aktarımı); TCMB metni bu çalışmada açılmadı."
+      ],
+      "impact": "Veri böyle: resmî tahmin ile son ayların eğilimi arasında 2-3 puanlık fark var. Bizim okumamız: 2027 medya bütçe ve fiyat görüşmelerinde enflasyon varsayımı tek sayı yerine aralık olarak kurulmalı; tüketici tarafında fiyat duyarlılığı Kasım indirimlerinde yüksek kalacak.",
+      "action": "2027 medya enflasyonu senaryolarını %21 ve %24 olmak üzere iki uçla hazırlayın ve kanal fiyat artışı tekliflerini bu aralıkla karşılaştırın.",
+      "counterView": "Merkez bankası tahminleri iletişim aracıdır; piyasa katılımcıları beklentisi Ekim'de daha yüksekti. Medya fiyatları genel enflasyondan farklı (talep ve envanter) dinamikle belirlenir.",
+      "sources": [
+        {
+          "name": "Foreks • Karahan: Yüzde 21 enflasyon tahmini makul",
+          "url": "https://www.foreks.com/haber/detay/6af57b0d635b284a64306d97/PICNEWS/tr/karahan-yuzde-21-enflasyon-tahmini-makul-12-11-26/",
+          "published": "12 Kasım 2026 11:38",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "rekabet-kurumu-findik-yedi-sirket-ferrero",
+      "title": "Rekabet Kurumu fındık soruşturmasını Ferrero dahil 7 şirkete genişletti",
+      "region": "Türkiye",
+      "category": "Rekabet",
+      "layer": "Düzenleme ve sektör",
+      "market": "Türkiye; fındık ve çikolata kategorisi",
+      "eventDate": "6 Kasım 2026 (Rekabet Kurumu duyurusu)",
+      "label": "Gecikmeli fakat önemli",
+      "tier": "main",
+      "summary": "Rekabet Kurumu, büyük alıcıların fındık fiyatını birlikte baskılayıp baskılamadığını inceleyen soruşturmayı Ferrero dahil yedi şirkete genişletti.",
+      "body": [
+        "Kapsamdaki şirketler: Atalay, Balsu, Ferrero, Karaçuha, Ofi, Özyılmaz, Şenocak.",
+        "İnceleme konusu: alım fiyatı ve politikalarının birlikte belirlenip fiyatın yapay olarak baskılanması.",
+        "Ferrero'nun 2024 taahhütlerine uyumu da kapsamda: TMO fiyatının altında almamak, Eylül-Aralık'ta en az 45.000 ton.",
+        "Duyuru 6 Kasım 2026 tarihli; önceki bültenlerde yer almadı, yılı resmî sayfayla teyit edildi."
+      ],
+      "impact": "Veri böyle: soruşturma sürüyor, karar yok. Bizim okumamız: fındık maliyeti ve tedarik kuralları kategoride fiyat, gramaj ve promosyon kararlarını etkileyebilir; fındık vurgulu iletişim kamuoyu hassasiyeti nedeniyle dikkat ister.",
+      "action": "Fındık içerikli ürün iletişiminde 'yerli üretici' ve fiyat mesajlarını soruşturma süresince hukuk ekibiyle birlikte gözden geçirin.",
+      "counterView": "Soruşturma ihlal anlamına gelmez; sonuç aylar sürebilir. Fındık maliyeti üzerinde rekolte ve döviz kuru etkisi soruşturmadan daha belirleyici olabilir.",
+      "sources": [
+        {
+          "name": "Rekabet Kurumu • Soruşturma genişliyor: Fındıkta fiyat oyunlarına geçit yok",
+          "url": "https://haber.rekabet.gov.tr/haber/sorusturma-genisliyor-findikta-fiyat-oyunlarina-gecit-yok-4",
+          "published": "6 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "CNBC-e • Fındık piyasasında büyük soruşturma",
+          "url": "https://www.cnbce.com/haberler/findik-piyasasinda-buyuk-sorusturma-ferrero-dahil-7-sirket-mercek-altinda-h41196",
+          "published": "6 Kasım 2026 12:36",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "sinema-zor-baba-4-iki-hafta",
+      "title": "Vizyona 2 hafta: Zor Baba 4 27 Kasım'da; 2 Aile Arasında ön satışta, 11 Aralık için büyük film görünmüyor",
+      "region": "Türkiye",
+      "category": "Sinema",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "27 Kasım ve 4 Aralık 2026 (planlanan vizyon)",
+      "label": "Vizyona 2 hafta",
+      "tier": "main",
+      "summary": "Zor Baba 4 iki sinema kaynağında 27 Kasım'da görünüyor; 4 Aralık'taki 2 Aile Arasında biletleri satışa çıktı, 11 Aralık eşiğinde güçlü aday yok.",
+      "body": [
+        "Zor Baba 4: planlanan 27 Kasım (Webtekno, Beyazperde); yönetmen John Hamburg, Ben Stiller, Robert De Niro, Ariana Grande.",
+        "Dağıtımcı ve tarih resmî kaynakla teyit edilmedi; 6 Kasım'da UIP 25 Kasım, Box Office Türkiye 27 Kasım diyordu.",
+        "2 Aile Arasında (4 Aralık, IMAX dahil): biletler Paribu Cineverse, Biletinial ve Biletiva'da ön satışta.",
+        "Beyazperde film sayfası dağıtımcıyı BKM Film yazıyor; Yemeksepeti sponsor. 11 Aralık için öne çıkan film bulunamadı."
+      ],
+      "impact": "Veri böyle: iki aile komedisi arka arkaya iki hafta sonu geliyor, biri yerli. Bizim okumamız (tahmin): 27 Kasım-6 Aralık arası aile ve yetişkin komedi kitlesi için yoğun salon trafiği bekleniyor; Efsane Cuma haftasıyla çakışma sinema reklamı fiyatını yükseltebilir.",
+      "action": "27 Kasım ve 4 Aralık haftaları için sinema reklamı kuşaklarını zincirlerle bu hafta teyit edin; 2 Aile Arasında seanslarındaki sponsor yoğunluğunu sorun.",
+      "counterView": "Seri bilinirliği gişeyi garanti etmez; Zor Baba serisinin son filmi 2010'daydı. Tarihler ikincil kaynaklı, dağıtımcı duyurusu olmadan kesin sayılmamalı.",
+      "sources": [
+        {
+          "name": "Webtekno • Kasım 2026'da vizyona girecek filmler",
+          "url": "https://www.webtekno.com/kasim-2026-vizyona-girecek-filmler-h228094.html",
+          "published": "2 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Beyazperde • Vizyon takvimi",
+          "url": "https://www.beyazperde.com/filmler/takvim/ay/",
+          "published": "tarih yok",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Beyazperde • 2 Aile Arasında haberi",
+          "url": "https://www.beyazperde.com/haberler/filmler/haberler-1000231287/",
+          "published": "8 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "cadbury-snack-purple-vs-yellow-radyo",
+      "title": "Cadbury Snack, İrlanda'da 15 yerel radyoyu mor ile sarı arasında bir 'seçim yayınına' çevirdi",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "İrlanda",
+      "eventDate": "2024 başı; arşiv vaka (egta, Ağustos 2025)",
+      "label": "Arşiv vaka",
+      "tier": "main",
+      "summary": "Cadbury Snack'in iki çeşidi için düzenlenen parodi seçimde dinleyiciler SMS ile oy verdi, yerel radyolar her cuma bölge sonucunu canlı açıkladı.",
+      "body": [
+        "2024: Spark Foundry ve IRS+ ağı, 15 yerel radyoda üç haftalık 'Snack Purple mı, Snack Yellow mu' seçimi kurdu.",
+        "Dinleyici SMS ile oy verdi; her bölgenin kazananı her cuma canlı yayında açıklandı, kazananlara kupon verildi.",
+        "Açıklanan sonuçlar: 10.000'den fazla SMS oyu, 368 GRP, 1 milyondan fazla erişim, hedef kitlenin %33'ü etkileşimde.",
+        "Satış değeri +%3,9 (2024 ikinci yarı, 2023'e göre) ve 5,6 ton ek satış; sonuçlar vaka sayfasından, bağımsız teyit yok."
+      ],
+      "impact": "Neden çalıştı: radyonun yerel, canlı ve haftalık ritmi seçim yayını formatına birebir uydu; reklam kuşağı yerine programın kendisi kampanya oldu. Türkiye uyarlaması: iki çeşitli çikolata kaplı ürünler için yerel radyo ağlarında il bazında oylama ve maç günü gibi canlı sonuç anonsu.",
+      "action": "Çift çeşitli bir ürün için 3-4 haftalık yerel radyo oylaması fikrini radyo satış evleriyle maliyet ve SMS altyapısı açısından değerlendirin. Tartışma sorusu: bu 'mecrayı seçim yayınına çevirme' fikri hangi marka veya kategoriye uyarlanabilir?",
+      "counterView": "Satış artışı fiyat, dağıtım veya promosyonla açıklanabilir; nedensellik gösterilmemiş. 'Sektör ölçütünün iki katı' kıyası vaka sahibinin beyanıdır; Türkiye'de SMS katılımı ve yarışma mevzuatı ek maliyet getirir.",
+      "sources": [
+        {
+          "name": "egta • Purple vs Yellow campaign (Cadbury)",
+          "url": "https://www.egta.com/purple-vs-yellow-campaign-cadbury/",
+          "published": "25 Ağustos 2025 (güncelleme 18 Eylül 2025)",
+          "country": "İrlanda",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://www.egta.com/wp-content/uploads/2025/08/cadbury-case-logos-2.png",
+        "alt": "Cadbury Snack Purple vs Yellow vakası kampanya ve ortak logoları",
+        "credit": "egta",
+        "sourceUrl": "https://www.egta.com/purple-vs-yellow-campaign-cadbury/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "NIQ Q3'te halka arzdan beri ilk GAAP kârını (35,8 milyon dolar) açıkladı; EMEA Activation geliri -%4,7, ürün verisi Google Shopping Graph'a entegre edilecek.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/niq-swings-to-35-8m-profit-its-first-since-the-july-2025-ipo/",
+      "published": "2026-11-12"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "Lufthansa Group global medya ajansı olarak Omnicom Media'yı atadı; önceki ajans WPP idi (ayrıntılar giriş duvarı arkasında).",
+      "source": "Campaign Asia",
+      "url": "https://www.campaignasia.com/article/lufthansa-group-appoints-omnicom-media-as-global-media-agency-of-record/4cd1qmrzs2fn8vnhyhxya2chms",
+      "published": "2026-11-12"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "Zeta Global Q3 geliri %46 arttı; satın alma ve siyasi harcama hariç büyüme %30, Q4 organik beklentisi %22-24.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/zeta-global-raises-2026-revenue-forecast-to-1-855bn-after-46-q3-jump/",
+      "published": "2026-11-12"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Beyazperde, Avengers: Doomsday'in Türkiye'de 18 Aralık 2026'da vizyona girmesini planlanan tarih olarak listeliyor; resmî dağıtımcı teyidi görülmedi.",
+      "source": "Beyazperde",
+      "url": "https://www.beyazperde.com/filmler/en-merak-edilenler/",
+      "published": "2026-11-13"
+    }
+  ],
+  "matchesWindow": "13-22 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-13",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 11. hafta",
+      "home": "Anadolu Efes",
+      "away": "Virtus Bologna",
+      "broadcaster": null,
+      "source": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385892/anadolu-efes_virtus-bologna/blitztabelle",
+      "note": "Saat Sportschau'dan (18.30 Orta Avrupa varsayımı). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-13",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 11. hafta",
+      "home": "LDLC ASVEL",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://karlobag.eu/en/sports/basketball/europe/euroleague/asvel-vs-besiktas-u1d5f/",
+      "note": "Dün 22.30 varsayımla yazıldı; bugün saat resmî kaynakla teyit edilemedi. Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-15",
+      "time": "22:45",
+      "sport": "Futbol",
+      "competition": "UEFA Uluslar Ligi A, 1. Grup",
+      "home": "Fransa",
+      "away": "Türkiye",
+      "broadcaster": "ATV",
+      "source": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+      "note": "TFF resmî (6 Kasım): Bordeaux, 22.45, ATV. Timeturk 10 Kasım da ATV diyor. Grubun son maç günü.",
+      "tags": [
+        "Millî maç"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "Basketbol Süper Ligi",
+      "home": "Fenerbahçe Beko",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://www.fenerbahce.org/haberler/basketbol-erkek/2026/11/fenerbahce-tarfin-anadolu-efes-macinin-bilet-satisi-basliyor",
+      "note": "Kulüp bilet haberi başlığına dayanıyor, sayfa açılmadı; tarih ve saat teyitsiz.",
+      "tags": [
+        "Derbi"
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "time": "19:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 12. hafta",
+      "home": "Dubai Basketball",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385901/dubai-basketball_anadolu-efes/blitztabelle",
+      "note": "Saat Sportschau'dan (17.00 Orta Avrupa varsayımı), resmî teyit yok. Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-18",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 12. hafta",
+      "home": "Beşiktaş",
+      "away": "Real Madrid",
+      "broadcaster": null,
+      "source": "https://www.sportschau.de/live-und-ergebnisse/basketball/euroleague-basketball/ma12385928/besiktas-jk_real-madrid/blitztabelle",
+      "note": "Saat Sportschau'dan (18.00 Orta Avrupa varsayımı), resmî teyit yok. Hak sahibi S Sport, maç bazında teyitsiz."
+    }
+  ],
+  "highlights": [
+    "Avrupa'da lineer TV reklamı geriliyor: ProSiebenSat.1'de -%13, dijital yalnız +%1.",
+    "Amazon DSP'de eski ajans ücreti ayarı 31 Ocak 2027'den sonra eklenemeyecek.",
+    "Rekabet Kurumu fındık soruşturması Ferrero dahil 7 şirkete genişledi (6 Kasım, resmî)."
+  ],
+  "watchlist": [
+    "Güneşin Doğduğu Yer ve Halef: yayın ve final tarihleri resmî akışla teyit edilmeli.",
+    "Fransa–Türkiye (15 Kasım 22.45 ATV) pazar prime time akışını nasıl değiştirecek?",
+    "Süper Lig 12. hafta (21-23 Kasım) derbisiz; BJK–GS derbisi 13. haftada, 29/30 Kasım çelişkili.",
+    "Dentsu Q3 sonuçları ve WPP/Omnicom ajans kazanım-kayıpları.",
+    "TFF yayın ihalesi teklif günü 30 Kasım."
+  ],
+  "limitations": [
+    "Sürüm seçki: yedi kanalın resmî akışı, Birsen Altuntaş ve derleme akış haberleri bulunamadı; 12-15 Kasım TV prime time durumu doğrulanamadı, TV kartı yazılmadı ve TV tablosu değiştirilmedi.",
+    "MediaCat, Marketing Türkiye, Campaign Türkiye ve rakip şirket basın sayfaları açılmadı (izin/zaman aşımı); Türkiye ajans ve kampanya taraması ikincil aramalarla sınırlı kaldı, 'rakip haberi yok' denemez.",
+    "Dijital gündem şeridi yok: Google Trends, Netflix Tudum ve Spotify listeleri açılmadı, güncel resmî liste bulunamadı.",
+    "Guru notları yok: Ehrenberg-Bass ve Amplified Intelligence'ta yeni yayın görülmedi (sayfa güncelliği doğrulanamadı).",
+    "Spor: TFF, TBF, TVF, VolleyStation ve EuroLeague resmî sayfaları açılmadı; Sultanlar Ligi bu dönem programı ve Fenerbahçe Beko'nun EuroLeague 12. hafta tarihi bulunamadı. Türkiye–Belçika (12 Kasım) skoru kaynaklarda çelişkili olduğu için verilmedi.",
+    "Sinema: resmî dağıtımcı ve Box Office Türkiye sayfaları açılmadı; tarihler ikincil kaynaklı. Salon kampanyası (Efsane Cuma dahil) bulunamadı.",
+    "Görsel: 7 ana haberin 3'ünde (Karahan, Rekabet Kurumu, sinema) görsel eklenemedi."
+  ],
+  "corrections": [
+    "6 Kasım bülteninde 4 Aralık vizyonlu (UIP) olarak bildirilen Vahşi Gece 2 bugün hiçbir kaynakta doğrulanamadı; tarih teyitsiz sayılmalı.",
+    "12 Kasım bülteninde 'tarihi 2025 olabilir' diye çıkarılan Ferrero fındık soruşturması haberi Rekabet Kurumu sayfasıyla 6 Kasım 2026 tarihli olarak teyit edildi ve bugün yazıldı.",
+    "12 Kasım panelindeki ASVEL–Beşiktaş 22.30 saati varsayımdı; bugün teyit edilemedi, saat boş bırakıldı."
+  ]
+}

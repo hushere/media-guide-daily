@@ -1,6 +1,22 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-13",
+      "title": "Avrupa'da TV reklamı geriliyor: ProSiebenSat.1'de -%13; Amazon ajans ücretini görünür kılıyor, Ferrero fındık soruşturmasında",
+      "summary": "Lineer TV reklam gelirindeki düşüş Almanya ve ABD sonuçlarında sürüyor; Amazon DSP'de ajans ücreti yeni düzene geçiyor, Türkiye'de enflasyon beklentisi ve fındık alımı gündemde.",
+      "edition": "selection",
+      "articleCount": 7,
+      "categories": [
+        "Dijital & AI",
+        "Rekabet",
+        "Sinema",
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved"
+    },
+    {
       "date": "2026-11-12",
       "title": "AB Dijital Adalet Yasası reklam kurallarını sıkılaştırıyor, MRC AI ölçüm standardını 2027'ye bıraktı; bu akşam millî maç gecesi",
       "summary": "Avrupa Komisyonu profilleme reklamı, influencer ve dark pattern kurallarını sıkılaştıran teklifi kabul etti; MRC AI ölçüm standartlarını 2027'ye erteledi. Google'ın araştırması AI kullanan alışverişçinin yolculuğunun uzadığını söylüyor. Bu akşam ATV millî maçı veriyor, rakip kanallar dizide.",
