@@ -1,9 +1,9 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 16 Kasım 2026 08:45, Claude (bülten 2026-11-16)
+Son güncelleme: 16 Kasım 2026 08:08, Claude (bülten 2026-11-16)
 
 ## 1. Pencere
-- Son bülten: 2026-11-16 (pzt) | Claude, 5 alt ajan; 5 ana + 4 sinyal, **seçki**; bilgi kesimi **16 Kasım 2026 08:20 TSİ**. Salı penceresi buradan başlar.
+- Son bülten: 2026-11-16 (pzt) | Claude, 5 alt ajan; 5 ana + 4 sinyal, **seçki**; bilgi kesimi **16 Kasım 2026 08:05 TSİ**. Salı penceresi buradan başlar.
 - 2026-11-13 (cuma) | Claude, 6 alt ajan; 7 ana + 4 sinyal + weekly, **seçki**; bilgi kesimi **13 Kasım 2026 08:05 TSİ**. Pazartesi 16 Kasım penceresi buradan başlar (pazartesi: TV tablosu tam karşılaştırma).
 - 2026-11-12 (perşembe): 6 ana + 4 sinyal, seçki, kesim 12 Kasım 08:15.
 - 2026-11-11 (çarşamba): 6 ana + 6 sinyal, seçki, kesim 11 Kasım 08:00.
