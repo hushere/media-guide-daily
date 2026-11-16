@@ -1,0 +1,409 @@
+{
+  "date": "2026-11-16",
+  "title": "İtalya'dan Meta'ya 805 milyon euro gizlilik cezası; Amazon'un 78 milyar dolarlık reklam işi varsayılanları belirliyor",
+  "summary": "Hafta sonunun ana gelişmeleri globalde: İtalya'nın Meta'ya rıza cezası, Amazon DSP'de otomatik kampanya varsayılanları ve DV360'ta YouTube yaratıcı ortaklıklarının kolaylaşması. Türkiye'de millî takım Uluslar Ligi'ni puansız bitirdi; bu hafta ekranda basketbol yoğun.",
+  "edition": "selection",
+  "window": "13 Kasım 2026 08:05 – 16 Kasım 2026 08:20 TSİ (Claude araştırması 07:45-08:20, 5 alt ajan)",
+  "status": "published",
+  "source": {
+    "writer": "Claude"
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-16T08:40+03:00",
+    "summary": "Araştırma beş paralel alt ajanla yapıldı. Ana oturumda kaynakla karşılaştırılanlar: Garante–Meta cezası ve Amazon 78 milyar dolar/DVA+ ayrıntıları (PPC Land, 14 Kasım). Resmî kaynak açılan: Ticaret Bakanlığı Kasım indirim duyurusu (28 Ekim, pencere dışı, kullanılmadı). Açılamayan (izin/zaman aşımı): yedi kanalın resmî akışı, Birsen Altuntaş, MediaCat, Marketing Türkiye, Campaign Türkiye, Netflix Tudum, Google Trends, marketingscience.info, EuroLeague game center, VolleyStation. Garante kararı ve Google/Amazon birincil duyuruları açılmadı; global kartlar tek ikincil kaynaklı. Çıkarılanlar: EMARKETER İngiltere mobil payı (rakamlar tutarsız), Türkiye'de pencere dışı adaylar (Felis, PwC, 15 yaş sınırı), yaratıcı mecra vakası (güçlü ve yeni aday bulunamadı)."
+  },
+  "attitudeRadar": {
+    "note": "Hafta sonu haberlerinden okunan işaretler; ölçülmüş eğilim değildir.",
+    "items": [
+      {
+        "tag": "hedefleme sınırı",
+        "text": "İtalya Meta'ya varsayılan açık veri erişimi için ceza kesti, Hindistan rıza yöneticisi kaydını açtı. Veri izni maliyeti ve rıza adımı, hedefleme ölçeğini daraltan bir kalem olmayı sürdürüyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "garante-meta-805-milyon-euro"
+        ]
+      },
+      {
+        "tag": "ajans ücret şeffaflığı",
+        "text": "Amazon DSP'de otomatik DVA+ yolu önceden seçili geliyor; ajans ücretlerinin bu yolda nasıl görüneceği belirsiz. 13 Kasım'daki ücret düzeni değişikliğinin devamı.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "amazon-78-milyar-dva-varsayilan"
+        ]
+      },
+      {
+        "tag": "yaratıcı ortaklı reklam",
+        "text": "Google, YouTube içerik üreticisi videolarını programatik satın almaya bağlamayı paylaşılan kodla kolaylaştırıyor. Yaratıcı içerik, medya satın almanın standart envanterine yaklaşıyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "dv360-youtube-yaratici-paylasilan-kod"
+        ]
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "garante-meta-805-milyon-euro",
+      "title": "İtalya'dan Meta'ya 805 milyon euro ceza: Facebook'un Android galerisine varsayılan erişimi rıza kuralını ihlal etti",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Düzenleme ve sektör",
+      "market": "İtalya / AB",
+      "eventDate": "14 Kasım 2026 (karar)",
+      "label": "Tek ikincil kaynak",
+      "summary": "İtalya veri koruma otoritesi Garante, Facebook'un Android fotoğraf galerisine varsayılan açık erişimi nedeniyle Meta'ya 805 milyon euro ceza verdi.",
+      "body": [
+        "Ceza 805 milyon euro; PPC Land'e göre grup cirosunun yaklaşık %0,47'si.",
+        "İtalya'da yaklaşık 20 milyon Android kullanıcısının etkilendiği belirtiliyor.",
+        "Garante, dosyanın İrlanda DPC'ye devri talebini reddetti; gerekçe ePrivacy'de tek durak mekanizmasının olmaması.",
+        "Meta 60 gün içinde özelliği ayrı rızayla ve varsayılan kapalı sunmalı; 30 ve 90 günlük bildirim süreleri var.",
+        "AI eğitimi ve bulut işleme özellikleri ayrı değerlendirmeye bırakıldı; Meta'nın itiraz edip etmeyeceği bilinmiyor."
+      ],
+      "impact": "Veri böyle: AB'de rıza varsayılanları ulusal otoritelerce de cezalandırılabiliyor. Bizim okumamız: Meta'nın Avrupa'da veri toplama varsayılanlarını kısması hedefleme ve ölçüm sinyallerini zayıflatabilir; Türkiye'deki KVKK pratiği için de emsal tartışması doğurur.",
+      "action": "Meta kampanyalarında birinci taraf veri ve Conversions API kurulumunun rıza akışlarını KVKK açısından gözden geçirin.",
+      "counterView": "Karar tek ülkede ve Meta itiraz edebilir; ceza cirosuna oranla küçük olduğu için reklam ürünlerinde hızlı bir değişiklik garanti değil.",
+      "sources": [
+        {
+          "name": "PPC Land • Italy fines Meta EUR805m over Facebook's access to Android photo galleries",
+          "url": "https://ppc.land/italy-fines-meta-eur805m-over-facebooks-access-to-android-photo-galleries/",
+          "published": "14 Kasım 2026 19:44 UTC",
+          "country": "İtalya / Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/italy-garante-meta-805m-fine-facebook-android-photo-gallery-access-master-key-open-drawers-gavel.jpg",
+        "alt": "Garante–Meta cezasını anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/italy-fines-meta-eur805m-over-facebooks-access-to-android-photo-galleries/"
+      }
+    },
+    {
+      "id": "amazon-78-milyar-dva-varsayilan",
+      "title": "Amazon'un reklam geliri 12 ayda 78 milyar dolar; DSP'de otomatik DVA+ yolu artık önceden seçili",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "Global",
+      "eventDate": "14 Kasım 2026 (yayın)",
+      "summary": "PPC Land'in hesabına göre Amazon'un son 12 aylık reklam geliri 78 milyar dolar; DSP'de otomatik DVA+ kampanya yolu varsayılan hâle geldi.",
+      "body": [
+        "30 Eylül 2026'da biten 12 ayda reklam geliri 78,0 milyar dolar; rakam çeyrek açıklamalarından PPC Land'in toplamı.",
+        "Q3 2026 reklam geliri 19,64 milyar dolar, yıllık +%10,9; Amazon Q4 için 'high teens' büyüme bekliyor.",
+        "Q3 yavaşlaması Prime Day'in Haziran'a kaymasına ve NBA maçlarının olmamasına bağlandı.",
+        "DVA+ otomatik kampanyası önceden seçili; kampanya başına en fazla 20 ürün, KPI değişirse öğrenme sıfırlanıyor.",
+        "Ajans ücretinin DVA+ kampanyalarına nasıl uygulanacağı Amazon sayfasında açıklanmıyor."
+      ],
+      "impact": "13 Kasım'daki ajans ücreti değişikliğinin devamı. Platform varsayılanları otomasyona kaydıkça ajansın katma değeri ve ücreti daha az görünür hâle gelebilir; marka tarafında ise kontrol yerine sistem öğrenmesine güvenmek gerekiyor.",
+      "action": "Amazon DSP kullanan müşterilerde DVA+ kampanyaları için KPI'ı başlangıçta sabitleyin ve ajans ücretinin raporlarda nerede göründüğünü yazılı teyit edin.",
+      "counterView": "78 milyar dolar Amazon'un açıkladığı tek bir rakam değil, toplamadır; Q3'teki yavaşlama takvim etkisi olabilir ve büyümenin hangi kısmının DSP'den geldiği ayrışmıyor.",
+      "sources": [
+        {
+          "name": "PPC Land • Amazon's $78bn ad machine now sets the defaults agencies buy inside",
+          "url": "https://ppc.land/amazons-78bn-ad-machine-now-sets-the-defaults-agencies-buy-inside/",
+          "published": "14 Kasım 2026 14:06 UTC",
+          "country": "Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/amazon-ads-78bn-dva-plus-defaults-agencies-stranded-desk-conveyor-belt.jpg",
+        "alt": "Amazon DVA+ varsayılanlarını anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/amazons-78bn-ad-machine-now-sets-the-defaults-agencies-buy-inside/"
+      }
+    },
+    {
+      "id": "dv360-youtube-yaratici-paylasilan-kod",
+      "title": "Google DV360, YouTube içerik üreticisi videolarını reklamverene paylaşılan kodla bağlayacak",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "Global",
+      "eventDate": "13 Kasım 2026 (Google bildirimi); lansman tarihi yok",
+      "summary": "Google, DV360'ta içerik üreticisi videolarını marka ortaklığı için bağlamayı paylaşılan kodla kolaylaştıracağını duyurdu; tarih verilmedi.",
+      "body": [
+        "Mevcut bağlantı talebi altı adım; üreticinin YouTube Studio'da ayrıca onay vermesi gerekiyor.",
+        "Yeni yöntemde üretici kodu reklamverenle paylaşacak; Google lansman için yalnız 'yakında' diyor.",
+        "Google'ın 'creator boost' artış iddiası Mayıs'ta %20 iken Ekim'de %30 oldu; veri dönemi aynı kaldı.",
+        "Videoyu reklam olarak kullanma haklarını reklamveren kendisi almak zorunda.",
+        "Ayrıca DV360 API v5 artık duyarlı YouTube reklamı oluşturabiliyor; API Ekim'den beri halka açık betada."
+      ],
+      "impact": "Influencer işbirlikleri ayrı bir bütçe kalemi olmaktan çıkıp programatik video planının içine giriyor. Ajans için satın alma kolaylaşıyor, ama hak yönetimi ve sözleşme yükü marka tarafında kalıyor.",
+      "action": "YouTube üretici işbirliklerinde sözleşmelere reklam olarak kullanım hakkı ve süresini standart madde olarak ekleyin.",
+      "counterView": "Artış yüzdeleri Google'ın kendi ölçümüdür, aynı veri dönemiyle değişmesi yöntemi sorgulatır; lansman tarihi belli değil.",
+      "sources": [
+        {
+          "name": "PPC Land • Google's DV360 to let YouTube creators link videos to advertisers by code",
+          "url": "https://ppc.land/googles-dv360-to-let-youtube-creators-link-videos-to-advertisers-by-code/",
+          "published": "14 Kasım 2026 19:40 UTC",
+          "country": "Global",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Google's DV360 API v5 can now create responsive YouTube ads",
+          "url": "https://ppc.land/googles-dv360-api-v5-can-now-create-responsive-youtube-ads/",
+          "published": "14 Kasım 2026 20:03 UTC",
+          "country": "Global",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/google-dv360-youtube-creator-shared-codes-brand-partner-access-torn-ticket-halves-skipped-queue.jpg",
+        "alt": "DV360 paylaşılan kod özelliğini anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/googles-dv360-to-let-youtube-creators-link-videos-to-advertisers-by-code/"
+      }
+    },
+    {
+      "id": "milli-takim-uluslar-ligi-puansiz",
+      "title": "Millî takım Uluslar Ligi grubunu puansız bitirdi: Fransa'ya 2-1, Belçika'ya 1-2 yenildi",
+      "region": "Türkiye",
+      "category": "Spor",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "12 ve 15 Kasım 2026",
+      "summary": "A Millî Takım, ATV'de yayınlanan son iki Uluslar Ligi maçını kaybetti ve grubu altı maçta sıfır puanla tamamladı.",
+      "body": [
+        "15 Kasım: Fransa 2-1 Türkiye, Bordeaux; Türkiye'nin golü 90. dakikada Bardakçı'dan.",
+        "12 Kasım: Türkiye 1-2 Belçika; skor TFF sayfası ve Flashscore'da aynı.",
+        "ESPN'e göre Türkiye altı maçta 0 puan, averaj -11; Fransa grup birincisi.",
+        "Türkiye'nin B Ligi'ne doğrudan düşüp düşmediği bu sabah doğrulanamadı.",
+        "Kasım millî arası bitti; bu hafta millî futbol maçı yok."
+      ],
+      "impact": "Millî maçlar ATV'de prime time'ı iki gece doldurdu, ama sonuçlar zayıf. Sonraki millî maçlarda izleyici ilgisi ve sponsor iletişiminin tonu bu performanstan etkilenebilir.",
+      "action": "Millî takım sponsorluğu olan markalarda kalan dönemin iletişim tonunu sonuç odaklı değil taraftar odaklı planlayın.",
+      "counterView": "Uluslar Ligi'nin izleyici ilgisi zaten eleme maçlarından düşüktür; puansızlığın izlenmeye etkisi ölçülmüş değil, varsayımdır.",
+      "sources": [
+        {
+          "name": "ESPN • France vs Türkiye maç raporu",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401861177",
+          "published": "15 Kasım 2026",
+          "country": "Global",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Flashscore • Türkiye–Belçika",
+          "url": "https://www.flashscore.com.tr/mac/futbol/belcika-GbB957na/turkiye-QeijuHo5/",
+          "published": "12 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "TFF • Fransa–Türkiye maç duyurusu",
+          "url": "https://www.tff.org/default.aspx?pageID=202&ftxtID=51843",
+          "published": "6 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "tv-hafta-belirsiz-akis-16-kasim",
+      "title": "Bu hafta TV: Evlilik Güzeldir'in dönüşü, Halef finali ve Daha 17 belirsiz; resmî akışlar açılamadı",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "16-22 Kasım 2026",
+      "label": "Haber kaynaklı",
+      "summary": "Yedi kanalın resmî akışı açılamadı; haberlere göre üç dizide bu hafta yayın durumu belirsiz, tabloda bu dizilere not düşüldü.",
+      "body": [
+        "Evlilik Güzeldir (TRT 1): 9 Kasım bölümü İzmir patlaması sonrası yayınlanmadı; 16 Kasım dönüşü haberlerde koşullu.",
+        "Daha 17 (Kanal D): 15 Kasım yeni bölümü için kaynaklar çelişiyor; resmî açıklama yok.",
+        "Halef (NOW): 43. bölümde final iddiası sürüyor (Kulis); olası tarih 19 Kasım, resmî teyit yok.",
+        "Güneşin Doğduğu Yer (ATV): 12 Kasım maç gecesi sonrası 9. bölümün 19 Kasım'da gelip gelmeyeceği teyitsiz.",
+        "Millî maç kayıtları tablodan kaldırıldı; diğer kayıtlar değiştirilmedi."
+      ],
+      "impact": "Prime time'da üç-dört dizinin yayın durumu belirsiz; spot planında bu gecelerde yeni bölüm varsayımı risk taşır.",
+      "action": "Bu hafta Pazartesi, Perşembe ve Pazar 20.00 kuşaklarında yayın öncesi kanal teyidini satın alma ekibinden isteyin.",
+      "counterView": "Bilgiler haber sitelerinden geliyor ve bir kısmı 'izlenecek' dilinde; diziler programına normal devam ediyor da olabilir.",
+      "sources": [
+        {
+          "name": "Milli Gazete • Evlilik Güzeldir neden yok",
+          "url": "https://www.milligazete.com.tr/trt-1-evlilik-guzeldir-bitti-mi-final-aciklamasi-geldi-mi-yeni-bolum-neden-ertelendi-dizi-devam-edecek-mi",
+          "published": "10 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Yeni Asır • İzmir'deki acı olay sonrası yayın akışı değişti",
+          "url": "https://www.yeniasir.com.tr/yasam/2026/11/10/izmirdeki-aci-olay-sonrasi-yayin-akisi-degisti-o-dizinin-yeni-bolumu-saatler-kala-yayina-verilmedi",
+          "published": "10 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • Daha 17 bitiyor mu",
+          "url": "https://www.milligazete.com.tr/daha-17-dizi-bitiyor-mu-son-bolum-ne-zaman-kacinci-bolumde-bitecek-final-karari-alindi-mi",
+          "published": "15 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • Halef 43. bölümde final mi yapacak",
+          "url": "https://www.milligazete.com.tr/halef-43-bolumde-final-mi-yapacak-ilhan-sen-ve-biran-damla-yilmazin-dizisi-neden-bitiyor",
+          "published": "7 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://milligazetecomtr.teimg.com/crop/1280x720/milligazete-com-tr/uploads/2026/11/evlilik-guzeldir-neden-yok-final-mi-yapti-yeni-bolum-tarihi-gundemde-1828294-20261110073458.jpg",
+        "alt": "Evlilik Güzeldir dizisinden kare",
+        "credit": "Milli Gazete",
+        "sourceUrl": "https://www.milligazete.com.tr/trt-1-evlilik-guzeldir-bitti-mi-final-aciklamasi-geldi-mi-yeni-bolum-neden-ertelendi-dizi-devam-edecek-mi"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "Hindistan'da DPDP rıza yöneticisi çerçevesi 13 Kasım'da yürürlüğe girdi; kayıt portalı açıldı, başvuru için 2 crore rupi net değer tabanı var.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/india-opens-consent-manager-registration-with-a-2-crore-net-worth-floor/",
+      "published": "2026-11-15"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Amazon Ad Tag, reklamveren sitelerine son görüntülemeden itibaren 30 gün geçerli birinci taraf çerez ekliyor; yalnız Kuzey Amerika'da.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/amazon-ad-tag-adds-a-30-day-first-party-cookie-to-advertiser-websites/",
+      "published": "2026-11-14"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "EuroLeague 11. haftada Beşiktaş, ASVEL deplasmanında 95-91 kazandı (13 Kasım).",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/basketbol/2026/11/13/besiktas-deplasmanda-asveli-maglup-etti",
+      "published": "2026-11-13"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Basketbol Süper Ligi'nde Fenerbahçe Tarfin, Anadolu Efes'i 77-75 yendi (15 Kasım).",
+      "source": "A Spor",
+      "url": "https://www.aspor.com.tr/basketbol/2026/11/15/fenerbahce-tarfin-evinde-anadolu-efesi-maglup-etti",
+      "published": "2026-11-15"
+    }
+  ],
+  "matchesWindow": "16-22 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-17",
+      "time": "19:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 12. hafta",
+      "home": "Dubai Basketball",
+      "away": "Anadolu Efes",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/anadolu-efes",
+      "note": "Saat iki kaynakta aynı (Dubai kulübü, Sportschau). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-17",
+      "time": "21:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 12. hafta",
+      "home": "Fenerbahçe Tarfin",
+      "away": "ASVEL",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/493872/2026/11/17/fenerbahce-tarfin-asvel-villeurbanne-euroleague-hangi-kanalda",
+      "note": "Saat tek kaynakta (Spor Ekranı). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-18",
+      "time": "20:00",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 12. hafta",
+      "home": "Beşiktaş",
+      "away": "Real Madrid",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/493879/2026/11/18/besiktas-real-madrid-euroleague-hangi-kanalda",
+      "note": "Saat iki kaynakta aynı (Sportschau 18.00 Orta Avrupa). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-19",
+      "time": "22:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 13. hafta",
+      "home": "Olimpia Milano",
+      "away": "Fenerbahçe Tarfin",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/fenerbahce-tarfin",
+      "note": "Saat iki kaynakta aynı (Sportschau 20.30 Orta Avrupa). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-20",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 13. hafta",
+      "home": "Anadolu Efes",
+      "away": "ASVEL",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/anadolu-efes",
+      "note": "Saat iki kaynakta aynı (Sportschau 18.30 Orta Avrupa). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-20",
+      "time": "22:45",
+      "sport": "Basketbol",
+      "competition": "EuroLeague, 13. hafta",
+      "home": "Partizan",
+      "away": "Beşiktaş",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/besiktas",
+      "note": "Saat tek kaynakta (Spor Ekranı). Hak sahibi S Sport, maç bazında teyitsiz."
+    },
+    {
+      "date": "2026-11-22",
+      "time": "20:30",
+      "sport": "Basketbol",
+      "competition": "Basketbol Süper Ligi",
+      "home": "Beşiktaş",
+      "away": "Fenerbahçe Tarfin",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/493818/2026/11/22/besiktas-fenerbahce-tarfin-basketbol-super-ligi-hangi-kanalda",
+      "note": "Saat tek kaynakta (Spor Ekranı). Hak sahibi beIN, maç bazında teyitsiz.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "highlights": [
+    "İtalya Garante'den Meta'ya 805 milyon euro rıza cezası.",
+    "Amazon'un 12 aylık reklam geliri 78 milyar dolar; DSP'de otomatik DVA+ varsayılan.",
+    "Bu hafta yedi kapsam içi basketbol maçı; Süper Lig'de derbi yok."
+  ],
+  "watchlist": [
+    "Garante kararına Meta'nın itirazı ve AB'deki diğer otoritelerin tutumu.",
+    "DV360 paylaşılan kod özelliğinin lansman tarihi.",
+    "Halef final tarihi ve Güneşin Doğduğu Yer 19 Kasım yayını.",
+    "Türkiye'nin Uluslar Ligi'nde lig değiştirip değiştirmediği.",
+    "TFF yayın ihalesi teklifleri, 30 Kasım.",
+    "Efsane Cuma, 27 Kasım: Reklam Kurulu indirim denetimi."
+  ],
+  "limitations": [
+    "Sürüm seçki: Türkiye sektör kaynakları (MediaCat, Marketing Türkiye, Campaign Türkiye) açılmadı (izin/zaman aşımı); pencere içinde doğrulanmış Türkiye ajans, kampanya veya tüketici/ekonomi haberi bulunamadı. 'Gelişme yok' denemez.",
+    "Rakip izleme: Ülker, Sagra, Ferrero, Nestlé, Mars, Mondelez için aramalarla pencere içi gelişme bulunamadı; ETİ, Altınmarka, Fiskobirlik, Doğkar, Şölen, Torku, Altınkılıçlar, Lider ayrı kontrol edilemedi, şirket sayfaları açılmadı.",
+    "TV: yedi kanalın resmî akışı ve Birsen Altuntaş açılmadı; 16-22 Kasım akışı doğrulanamadı. Tablo kayıtlarının kontrol tarihi ilerletilmedi; yalnız geçmiş maç kayıtları kaldırıldı ve üç diziye not eklendi.",
+    "Marka ve kampanya ile Tüketici ve ekonomi katmanlarında pencere içi doğrulanmış içerik yok.",
+    "Yaratıcı mecra vakası yok: güçlü, yeni ve sonuçları doğrulanabilir aday bulunamadı (Milka 'Last Square' daha önce elenmişti; Ritter Sport DOOH mecra fikri değil, sonuçlar satıcı araştırması).",
+    "Dijital gündem şeridi yok: Netflix Tudum, Google Trends açılmadı; FlixPatrol verisi bayat (Mayıs 2026).",
+    "Media Guru notları yok: marketingscience.info ve Amplified Intelligence açılmadı; aramada pencere içi yeni yayın görülmedi.",
+    "Global kartlar tek ikincil kaynağa (PPC Land) dayanıyor; Garante kararı, Google ve Amazon duyuruları doğrudan açılmadı.",
+    "Maçlarda yayıncılar resmî sayfayla teyit edilemedi; Süper Lig 12. hafta derbisiz olduğu için listelenmedi, Sultanlar Ligi 10. haftada büyükler arası maç yok.",
+    "Bir haberde (millî takım) görsel eklenemedi."
+  ],
+  "corrections": [
+    "13 Kasım bülteni maç panelinde Fenerbahçe'nin basketbol takımı 'Fenerbahçe Beko' yazıldı; takım bu sezon 'Fenerbahçe Tarfin' adını kullanıyor (A Spor, 15 Kasım 2026)."
+  ]
+}

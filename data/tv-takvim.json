@@ -1,6 +1,6 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-12",
+ "updated": "2026-11-16",
  "note": "Kayıtlar her gün kanalların resmî yayın akışı sayfalarından kontrol edilir (son tam kontrol 12 Kasım 2026). Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
@@ -44,11 +44,10 @@
    "day": "Perşembe",
    "title": "Güneşin Doğduğu Yer",
    "status": "kanal-teyitli",
-   "time": "22.15",
+   "time": "20.00",
    "checked": "2026-11-12",
    "source": "https://www.atv.com.tr/yayin-akisi",
-   "note": "12 Kasım 20.00 millî maç; 22.15 8. bölüm tekrarı. Yeni bölüm 19 Kasım iddiası resmî teyitsiz",
-   "air": "tkr"
+   "note": "19 Kasım yeni bölüm resmî akışta teyitsiz"
   },
   {
    "channel": "ATV",
@@ -108,10 +107,11 @@
    "channel": "KANAL D",
    "day": "Pazar",
    "title": "Daha 17",
-   "status": "yayinda",
+   "status": "belirsiz",
    "time": "20.00",
    "checked": "2026-11-12",
-   "source": "https://www.kanald.com.tr/yayin-akisi"
+   "source": "https://www.kanald.com.tr/yayin-akisi",
+   "note": "15 Kasım yeni bölüm haberlerde çelişkili; resmî teyit yok"
   },
   {
    "channel": "KANAL D",
@@ -270,10 +270,11 @@
    "channel": "TRT 1",
    "day": "Pazartesi",
    "title": "Evlilik Güzeldir",
-   "status": "yayinda",
+   "status": "belirsiz",
    "time": "20.00",
    "checked": "2026-11-02",
-   "source": "https://www.trt1.com.tr/yayin-akisi"
+   "source": "https://www.trt1.com.tr/yayin-akisi",
+   "note": "9 Kasım bölümü ertelendi (haber kaynaklı); 16 Kasım teyitsiz"
   },
   {
    "channel": "TRT 1",
@@ -373,26 +374,6 @@
    "time": "20.00",
    "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/08-11-2026"
-  },
-  {
-   "channel": "ATV",
-   "day": "Perşembe",
-   "title": "Türkiye - Belçika",
-   "status": "yayinda",
-   "time": "20.00",
-   "air": "mac",
-   "checked": "2026-11-12",
-   "source": "https://www.atv.com.tr/yayin-akisi"
-  },
-  {
-   "channel": "ATV",
-   "day": "Pazar",
-   "title": "Fransa - Türkiye",
-   "status": "yayinda",
-   "time": "22.45",
-   "air": "mac",
-   "checked": "2026-11-12",
-   "source": "https://www.atv.com.tr/yayin-akisi"
   }
  ]
 }
