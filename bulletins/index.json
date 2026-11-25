@@ -1,6 +1,23 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-25",
+      "title": "TFF yayın ihalesine beş gün, Walmart'ta AI ajanı, CTV'de sahte trafik",
+      "summary": "Süper Lig'in 2027 sonrası yayın hakları 30 Kasım'da satılıyor; Walmart Meta'nın alışveriş ajanına kapıyı açtı, CTV'de günde 40 milyar sahte istek raporlandı. Kasım güveni yükseldi, Reklam Kurulu indirim reklamlarını cezalandırdı.",
+      "edition": "selection",
+      "articleCount": 8,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "Rekabet",
+        "Spor",
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved"
+    },
+    {
       "date": "2026-11-16",
       "title": "İtalya'dan Meta'ya 805 milyon euro gizlilik cezası; Amazon'un 78 milyar dolarlık reklam işi varsayılanları belirliyor",
       "summary": "Hafta sonunun ana gelişmeleri globalde: İtalya'nın Meta'ya rıza cezası, Amazon DSP'de otomatik kampanya varsayılanları ve DV360'ta YouTube yaratıcı ortaklıklarının kolaylaşması. Türkiye'de millî takım Uluslar Ligi'ni puansız bitirdi; bu hafta ekranda basketbol yoğun.",

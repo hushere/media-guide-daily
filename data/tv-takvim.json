@@ -1,7 +1,7 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-16",
- "note": "Kayıtlar her gün kanalların resmî yayın akışı sayfalarından kontrol edilir (son tam kontrol 12 Kasım 2026). Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
+ "updated": "2026-11-25",
+ "note": "Kayıtlar her gün kanalların resmî yayın akışı sayfalarından kontrol edilir (son kontrol 25 Kasım 2026; Star TV, ATV ve TRT 1 akışı doğrulanamadı). Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
   "KANAL D",
@@ -73,7 +73,7 @@
    "title": "Uzak Şehir",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
@@ -82,7 +82,7 @@
    "title": "Haysiyet",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
@@ -91,7 +91,7 @@
    "title": "Beyaz'la Joker",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
@@ -100,7 +100,7 @@
    "title": "Güller ve Günahlar",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
@@ -109,18 +109,9 @@
    "title": "Daha 17",
    "status": "belirsiz",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.kanald.com.tr/yayin-akisi",
-   "note": "15 Kasım yeni bölüm haberlerde çelişkili; resmî teyit yok"
-  },
-  {
-   "channel": "KANAL D",
-   "day": "Günü belirsiz",
-   "title": "Arka Sokaklar",
-   "status": "belirsiz",
-   "tag": "sezon",
-   "checked": "2026-11-12",
-   "source": "https://www.gzt.com/gundem/arka-sokaklar-21-sezon-olacak-mi-efsane-dizi-arka-sokaklar-icin-karar-verildi-arka-sokaklar-yeni-sezon-ne-zaman-2026-4250990"
+   "note": "Akış menüsünde var; yeni bölüm resmî teyitsiz"
   },
   {
    "channel": "KANAL D",
@@ -128,7 +119,7 @@
    "title": "Susuz Yaz",
    "status": "kanal-teyitli",
    "tag": "yeni",
-   "checked": "2026-11-02",
+   "checked": "2026-11-25",
    "source": "https://www.kanald.com.tr/susuz-yaz"
   },
   {
@@ -173,7 +164,7 @@
    "title": "Sevdan Bir Ateş",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -182,7 +173,7 @@
    "title": "Muhtemel Aşk",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -191,7 +182,7 @@
    "title": "Kızılcık Şerbeti",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -200,7 +191,7 @@
    "title": "Güldür Güldür Show",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.showtv.com.tr/yayin-akisi"
   },
   {
@@ -236,16 +227,7 @@
    "title": "Yeraltı",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
-   "source": "https://www.nowtv.com.tr/yayin-akisi"
-  },
-  {
-   "channel": "NOW",
-   "day": "Perşembe",
-   "title": "Halef: Köklerin Çağrısı",
-   "status": "yayinda",
-   "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
@@ -254,7 +236,7 @@
    "title": "Ömür Usta",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.nowtv.com.tr/yayin-akisi"
   },
   {
@@ -281,9 +263,10 @@
    "day": "Salı",
    "title": "Mehmed: Fetihler Sultanı",
    "status": "yayinda",
-   "checked": "2026-11-12",
+   "checked": "2026-11-25",
    "source": "https://www.trt1.com.tr/yayin-akisi",
-   "time": "20.00"
+   "time": "20.00",
+   "air": "tkr"
   },
   {
    "channel": "TRT 1",
@@ -336,8 +319,8 @@
    "title": "MasterChef Türkiye",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-04",
-   "source": "https://www.tv8.com.tr/yayin-akisi/04-11-2026"
+   "checked": "2026-11-25",
+   "source": "https://www.tv8.com.tr/yayin-akisi"
   },
   {
    "channel": "TV8",

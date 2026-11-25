@@ -1,0 +1,590 @@
+{
+ "date": "2026-11-25",
+ "title": "TFF yayın ihalesine beş gün, Walmart'ta AI ajanı, CTV'de sahte trafik",
+ "summary": "Süper Lig'in 2027 sonrası yayın hakları 30 Kasım'da satılıyor; Walmart Meta'nın alışveriş ajanına kapıyı açtı, CTV'de günde 40 milyar sahte istek raporlandı. Kasım güveni yükseldi, Reklam Kurulu indirim reklamlarını cezalandırdı.",
+ "edition": "selection",
+ "window": "24 Kasım 2026 08:00 – 25 Kasım 2026 12:40 TSİ (proje 16-24 Kasım arasında dondurulduğu için önceki bülten kesiminden değil, kullanıcı kararıyla 24 Kasım 08:00'den; Claude araştırması 12:20-12:40, 5 alt ajan)",
+ "status": "published",
+ "source": {
+  "writer": "Claude",
+  "note": "Bülten 25 Kasım'da elle yeniden başlatıldı; yayın saati 09.15 değil öğleden sonra."
+ },
+ "review": {
+  "status": "approved",
+  "reviewer": "Claude",
+  "reviewedAt": "2026-11-25T13:05+03:00",
+  "summary": "Araştırma beş paralel alt ajanla yapıldı. Resmî kaynakla teyit edilen: TV8 (MasterChef), NOW (Yeraltı) ve Show TV'nin haftalık akışı, Kanal D akış menüsü; Google Trends Türkiye. Diğer olgular ikincil kaynaklı: TFF ihalesi (Hürriyet + Politikam), TÜİK endeksleri (A Haber, Forbes Türkiye; TÜİK sayfası açılmadı), Reklam Kurulu (Sondakika; Bakanlık duyurusu açılmadı), Walmart–Meta ve BADBOX (PPC Land; birincil duyurular açılmadı), Halef finali (iki haber), Haysiyet finali ve Susuz Yaz tarihi (kulis/tek kaynak). Açılamayan: Star TV akışı (site hatası), ATV ve TRT 1 akışında tarih bilgisi, TFF, TBF, UEFA, TVF, VolleyStation. Çıkarılanlar: haftalık reyting listesi (kapsam dışı), Evyap PR ajansı ataması (zayıf), PwC Efsane Cuma verisi (pencere dışı, daha önce kullanıldı), Karen Nelson-Field'in şirket vaka notları (birincil URL yok)."
+ },
+ "attitudeRadar": {
+  "note": "Günün haberlerinden okunan işaretler; ölçülmüş eğilim değildir.",
+  "items": [
+   {
+    "tag": "AI ajanlı alışveriş",
+    "text": "Walmart, Meta'nın AI ajanına kapıyı açtı ama ürün seçimini kendinde tuttu. Ajanlı alışverişte görünürlüğün perakendecinin rafından ve retail media'sından geçeceği işareti.",
+    "basis": "İşaret",
+    "recurrence": "Yeni",
+    "refs": [
+     "walmart-meta-muse-black-friday"
+    ]
+   },
+   {
+    "tag": "fiyat duyarlılığı",
+    "text": "Tüketici beklentisi iyileşirken mevcut durum yatay; Reklam Kurulu yanıltıcı indirim ve taksit dilini cezalandırıyor. Efsane Cuma'da fiyat iddiası hem talep hem risk kalemi.",
+    "basis": "Veri",
+    "recurrence": "Tekrar ediyor",
+    "refs": [
+     "tuik-kasim-guven-endeksleri",
+     "reklam-kurulu-375-toplanti-35-9-milyon"
+    ]
+   },
+   {
+    "tag": "CTV güveni",
+    "text": "Bir güvenlik firmasının raporu bağlı TV'de büyük ölçekli sahte istek gösteriyor; bütçe CTV'ye kayarken doğrulama talebi artabilir.",
+    "basis": "İşaret",
+    "recurrence": "Yeni",
+    "refs": [
+     "badbox-3-ctv-reklam-sahtekarligi"
+    ]
+   },
+   {
+    "tag": "prime-time yeniden dağılım",
+    "text": "Halef bitti, Haysiyet için final konuşuluyor; Aralık'ta iki kuşakta yeni yapım riski var.",
+    "basis": "İşaret",
+    "recurrence": "Yeni",
+    "refs": [
+     "halef-final-haysiyet-susuz-yaz"
+    ]
+   }
+  ]
+ },
+ "articles": [
+  {
+   "id": "tff-yayin-ihalesi-30-kasim",
+   "title": "TFF'nin 5 sezonluk yayın ihalesi 30 Kasım'da: şartnameyi altı kurum aldı",
+   "region": "Türkiye",
+   "category": "Spor",
+   "layer": "Reklam pazarı ve para",
+   "market": "Türkiye",
+   "eventDate": "30 Kasım 2026, 14.00 (teklif teslimi)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "TFF, Süper Lig ve 1. Lig'in 2027-28'den başlayan beş sezonluk yayın haklarını 30 Kasım'da kapalı teklif ve açık artırmayla satacak.",
+   "body": [
+    "İhale önce 13 Ocak 2027'deydi; TFF Yönetim Kurulu tarihi 30 Kasım 2026'ya çekti (Hürriyet, 21 Kasım).",
+    "Teklifler 30 Kasım 14.00-14.10 arasında Riva'da noter huzurunda teslim edilecek; açık artırma aynı gün.",
+    "Paketler: A Süper Lig, B 1. Lig ve radyo/özetler, C yurt dışı, D bahis ve dijital özetler, E tümü.",
+    "Şartname 750 bin TL'den satıldı ve altı kurum aldı; Hürriyet beşini sayıyor: beIN/Digiturk, TRT, Turkcell, Türk Telekom, Saran-Amazon.",
+    "TFF'nin resmî duyurusu bu sabah açılamadı; bilgiler iki haber kaynağına dayanıyor."
+   ],
+   "impact": "Veri böyle: Süper Lig'in 2027 sonrası evi beş gün içinde belli olabilir. Bizim okumamız: TRT veya bir telekom/Amazon kazanırsa futbolun şifresiz ya da yayın akışlı erişimi değişir; spor sponsorluğu ve maç kuşağı fiyatlaması 2027 planlarında yeniden hesaplanır.",
+   "action": "2027-28 spor sponsorluk ve maç kuşağı görüşmelerinde 30 Kasım sonucunu bekleyecek esneklik maddesi bırakın.",
+   "counterView": "İhale ertelenebilir veya tek teklif çıkabilir; kazananın şifresiz yayın yapacağı da garanti değil, paket bölünmesi erişimi parçalayabilir.",
+   "sources": [
+    {
+     "name": "Hürriyet Sporarena • Süper Lig yayın ihalesi ne zaman?",
+     "url": "https://www.hurriyet.com.tr/sporarena/galeri-super-lig-yayin-ihalesi-ne-zaman-2027-super-lig-yayin-ihalesine-kimler-katilacak-43386334",
+     "published": "21 Kasım 2026 17:34",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Politikam • TFF Süper Lig yayın ihalesi",
+     "url": "https://www.politikam.com/tff-super-lig-yayin-ihalesi-trt-amazon-bein-30-kasim-2026",
+     "published": "17 Kasım 2026 11:11",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://image.hurimg.com/i/hurriyet/90/0x0/6b01a3e49a30875a045788da.jpg",
+    "alt": "Süper Lig yayın ihalesi haber görseli",
+    "credit": "Hürriyet",
+    "sourceUrl": "https://www.hurriyet.com.tr/sporarena/galeri-super-lig-yayin-ihalesi-ne-zaman-2027-super-lig-yayin-ihalesine-kimler-katilacak-43386334"
+   }
+  },
+  {
+   "id": "walmart-meta-muse-black-friday",
+   "title": "Meta'nın yapay zekâ ajanı Muse Walmart'ta alışveriş yapıyor; ürünü Walmart seçiyor",
+   "region": "Global",
+   "category": "Dijital & AI",
+   "layer": "Platform ve ürün",
+   "market": "ABD",
+   "eventDate": "24 Kasım 2026 (duyuru)",
+   "label": "Tek ikincil kaynak",
+   "summary": "Walmart, Black Friday öncesi Meta'nın Muse asistanının kullanıcı adına Walmart'tan alışveriş yapabileceği entegrasyonu duyurdu.",
+   "body": [
+    "Kullanıcı onay eşiğini seçiyor: 0, 50, 100 dolar veya özel tutar; eşik üstü sipariş onay istiyor.",
+    "Ürün seçimini Walmart yapıyor; ajan mağazanın sunduğu seçenekler arasından alıyor.",
+    "Walmart Connect reklam geliri 3. çeyrekte %36, Walmart ABD e-ticareti %23 büyüdü.",
+    "Büyümeyen taraf: Walmart, ChatGPT içi ödemenin dönüşümünün kendi sitesine göre üç kat düşük olduğunu Mart'ta söylemişti.",
+    "Amazon, Muse'un Amazon.com'da alışveriş yapmasını 20 Eylül'de engellemişti."
+   ],
+   "impact": "Veri böyle: perakendeci, AI ajanına kapıyı açarken rafı kendi kontrolünde tutuyor. Bizim okumamız: ajanlı alışverişte görünürlük perakendecinin retail media'sından geçecek; marka için ürün verisi ve perakende reklam bütçesi daha belirleyici olur.",
+   "action": "E-ticaret partnerlerinden ürün katalog verisinin AI asistanlarına nasıl açıldığını ve hangi reklam ürününe bağlandığını sorun.",
+   "counterView": "ABD'ye özgü ve yeni bir entegrasyon; dönüşüm verisi yok, Walmart'ın kendi açıklaması da ajan alışverişinin düşük dönüştüğünü gösteriyor.",
+   "sources": [
+    {
+     "name": "PPC Land • Meta's Muse AI can now shop at Walmart",
+     "url": "https://ppc.land/metas-muse-ai-can-now-shop-at-walmart-but-walmart-picks-the-products/",
+     "published": "25 Kasım 2026 06:01 UTC",
+     "country": "ABD",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://ppc.land/content/images/2026/11/walmart-meta-muse-agent-gateway-black-friday-butler-service-hatch-shopkeeper-hand.jpg",
+    "alt": "Walmart ve Meta Muse alışveriş ajanı illüstrasyonu",
+    "credit": "PPC Land",
+    "sourceUrl": "https://ppc.land/metas-muse-ai-can-now-shop-at-walmart-but-walmart-picks-the-products/"
+   }
+  },
+  {
+   "id": "badbox-3-ctv-reklam-sahtekarligi",
+   "title": "BADBOX 3.0: ucuz TV kutularından günde 40 milyar sahte CTV reklam isteği",
+   "region": "Global",
+   "category": "Ölçüm & Araştırma",
+   "layer": "Reklam pazarı ve para",
+   "market": "Global",
+   "eventDate": "23 Kasım 2026 (HUMAN raporu)",
+   "label": "Tek ikincil kaynak",
+   "summary": "Güvenlik şirketi HUMAN, virüslü Android TV kutularının zirvede günde yaklaşık 40 milyar sahte bağlı TV reklam isteği ürettiğini açıkladı.",
+   "body": [
+    "Zirvede günde yaklaşık 40 milyar teklif isteği; önceki VASTFLUX vakasının 12 milyar zirvesinin üç katından fazla.",
+    "HUMAN'ın gözlemlediği bağlı TV trafiğinin %4'ünden fazlası bu ağdan geliyor.",
+    "Trafik payı: ABD %32,6, Brezilya %12,2, Meksika %10,9; Türkiye payı verilmedi.",
+    "Mali zarar belirsiz; Digiday'e konuşan analist CTV ortalama doluluk oranını yaklaşık %2 olarak veriyor."
+   ],
+   "impact": "Veri böyle: sahte istek hacmi büyük, gerçek harcamaya etkisi ölçülmemiş. Bizim okumamız: Black Friday'de CTV bütçesi artarken açık programatik CTV'de cihaz ve uygulama doğrulaması pazarlık konusu olmalı.",
+   "action": "Programatik CTV alımlarında doğrulama raporunu, uygulama listesini ve cihaz türü kırılımını kampanya başlamadan isteyin.",
+   "counterView": "Rakamlar bir güvenlik satıcısının kendi gözlemi; teklif isteği harcama değildir ve kapalı/doğrudan CTV alımları bu riskten daha az etkilenir.",
+   "sources": [
+    {
+     "name": "PPC Land • HUMAN traces up to 40 billion fraudulent ad requests a day",
+     "url": "https://ppc.land/human-traces-up-to-40-billion-fraudulent-ad-requests-a-day-to-cheap-tv-boxes/",
+     "published": "24 Kasım 2026 00:02 UTC",
+     "country": "Global",
+     "language": "İngilizce"
+    },
+    {
+     "name": "PPC Land • BADBOX fakes 40bn TV ad requests a day",
+     "url": "https://ppc.land/badbox-fakes-40bn-tv-ad-requests-a-day-as-black-friday-budgets-rise-up-to-30/",
+     "published": "24 Kasım 2026 06:38 UTC",
+     "country": "Global",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://ppc.land/content/images/2026/11/human-security-badbox-3-ctv-ad-fraud-tv-box-hidden-screens-swarm.jpg",
+    "alt": "TV kutularından sahte reklam istekleri illüstrasyonu",
+    "credit": "PPC Land",
+    "sourceUrl": "https://ppc.land/human-traces-up-to-40-billion-fraudulent-ad-requests-a-day-to-cheap-tv-boxes/"
+   }
+  },
+  {
+   "id": "tuik-kasim-guven-endeksleri",
+   "title": "Kasım'da tüketici güveni 86,8'e çıktı, perakende güveni de yükseldi",
+   "region": "Türkiye",
+   "category": "Ölçüm & Araştırma",
+   "layer": "Tüketici ve ekonomi",
+   "market": "Türkiye",
+   "eventDate": "20 ve 24 Kasım 2026 (TÜİK açıklamaları)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "TÜİK verilerine göre tüketici güveni Kasım'da %2,4 artarak 86,8'e, perakende ticaret güveni %0,9 artarak 113,6'ya yükseldi.",
+   "body": [
+    "Tüketici güven endeksi Ekim'de 84,8 idi; Kasım'da 86,8 (20 Kasım açıklaması).",
+    "Dayanıklı mal harcama niyeti 102,7'den 105,3'e çıktı.",
+    "Hanenin 12 aylık maddi durum beklentisi 86,4'ten 89,4'e yükseldi; mevcut maddi durum 68,4'te yatay.",
+    "Sektörel güven (24 Kasım): hizmet 109,9 (+%0,6), perakende 113,6 (+%0,9), inşaat 80,2 (-%3,8)."
+   ],
+   "impact": "Veri böyle: beklentiler iyileşiyor ama hanenin bugünkü durumu yerinde sayıyor. Bizim okumamız: Efsane Cuma haftasına ölçülü bir harcama iştahıyla giriliyor; tüketici fiyat ve taksit avantajı arayacak, marka iletişimi değer vurgusundan kopmamalı.",
+   "action": "Efsane Cuma ve yılbaşı planlarında fiyat/taksit mesajlı yaratıcıları ayrı ölçün ve dayanıklı olmayan kategorilerde beklentiyi temkinli tutun.",
+   "counterView": "Endeks 100'ün altında, yani karamsar bölgede; bir aylık artış eğilim sayılmaz ve beklenti harcamaya dönüşmeyebilir.",
+   "sources": [
+    {
+     "name": "A Haber • Tüketici güven endeksi Kasım ayında yüzde 2,4 yükseldi",
+     "url": "https://www.ahaber.com.tr/ekonomi/2026/11/20/tuketici-guven-endeksi-kasim-ayinda-yuzde-2-4-yukseldi",
+     "published": "20 Kasım 2026 10:36",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Forbes Türkiye • Kasım ayında güven endeksi hizmet ve perakendede arttı",
+     "url": "https://www.forbes.com.tr/ekonomi/kasim-ayinda-guven-endeksi-hizmet-ve-perakendede-artti-insaatta-geriledi",
+     "published": "24 Kasım 2026 11:03",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://files.forbes.com.tr/host/Image/article/kasim-ayinda-guven-endeksi-hizmet-ve-perakendede-artti-insaatta-geriledi-2026-11-24-11-07-12.jpeg",
+    "alt": "Kasım güven endeksleri haber görseli",
+    "credit": "Forbes Türkiye",
+    "sourceUrl": "https://www.forbes.com.tr/ekonomi/kasim-ayinda-guven-endeksi-hizmet-ve-perakendede-artti-insaatta-geriledi"
+   }
+  },
+  {
+   "id": "ulker-cikolata-istanbul-clio-bronz",
+   "title": "Ülker Çikolata İstanbul'un gizemli lansman kampanyasına Clio Creator Awards bronzu",
+   "region": "Türkiye",
+   "category": "Rekabet",
+   "layer": "Marka ve kampanya",
+   "market": "Türkiye / Global",
+   "eventDate": "24 Kasım 2026 (haber)",
+   "label": "Haber kaynaklı",
+   "summary": "Ülker'in Çikolata İstanbul lansmanı, altı kıtadan içerik üreticisiyle kurgulanan 'social first' kampanyasıyla Clio Creator Awards'ta bronz aldı.",
+   "body": [
+    "Ödül 'Launch / Relaunch / Rebrand' kategorisinde; tören Los Angeles'ta Dolby Theatre'da yapıldı.",
+    "Kampanya 60'tan fazla içerik üreticisiyle yürütüldü; marka ve ürün adı önce gizli tutulup sonra açıklandı.",
+    "Yaratıcı ajans ROSWO; haber bunun sektörde ilk benzer uluslararası ödül olduğunu söylüyor, bağımsız doğrulanmadı.",
+    "Kampanyanın satış veya erişim sonucu haberde yok."
+   ],
+   "impact": "Veri böyle: kategori lansmanında içerik üreticisi ağı ana mecra olarak kullanıldı ve ödül aldı. Bizim okumamız: çikolata kategorisinde gizem-açılış kurgusu sosyal öncelikli lansmanların referansı olabilir; ödül etki kanıtı değildir.",
+   "action": "Kategori lansman planlarında içerik üreticisi ağının erişim ve tekrar verisini ayrı raporlatacak ölçüm kurgusunu baştan yazın.",
+   "counterView": "Ödül yaratıcı başarıyı gösterir, satış etkisini değil; sonuç verisi açıklanmadığı için ölçek ve maliyet etkinliği bilinmiyor.",
+   "sources": [
+    {
+     "name": "Karar • 6 kıtada merak uyandıran gizemli kampanya dünyadan ödülle döndü",
+     "url": "https://www.karar.com/guncel-haberler/6-kitada-merak-uyandiran-gizemli-kampanya-dunyadan-odulle-dondu-ulker-2086041",
+     "published": "24 Kasım 2026 18:58",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.karar.com/news/1949947.jpg",
+    "alt": "Ülker Çikolata İstanbul ödül haberi görseli",
+    "credit": "Karar",
+    "sourceUrl": "https://www.karar.com/guncel-haberler/6-kitada-merak-uyandiran-gizemli-kampanya-dunyadan-odulle-dondu-ulker-2086041"
+   }
+  },
+  {
+   "id": "halef-final-haysiyet-susuz-yaz",
+   "title": "Halef 43. bölümle bitti; Kanal D'de Haysiyet için final, Susuz Yaz için 1 Aralık konuşuluyor",
+   "region": "Türkiye",
+   "category": "TV & Entertainment",
+   "layer": "Medya tüketimi ve izleyici",
+   "market": "Türkiye",
+   "eventDate": "19 Kasım 2026 (Halef finali); 1 Aralık 2026 (Susuz Yaz, iddia)",
+   "label": "Haber kaynaklı",
+   "summary": "NOW'un perşembe dizisi Halef 19 Kasım'da final yaptı; Kanal D'de Haysiyet'in 13. bölümde bitirileceği, Susuz Yaz'ın 1 Aralık salı başlayacağı konuşuluyor.",
+   "body": [
+    "Halef: Köklerin Çağrısı 43. bölümle 19 Kasım 20.00'de final yaptı; yeni sezon planı açıklanmadı (Milli Gazete, Politikam).",
+    "NOW'un resmî akışı perşembe için hâlâ Halef gösteriyor; 26 Kasım'da yerine ne geleceği bulunamadı.",
+    "Kulis: Haysiyet 13. bölümde final yapacak; gerekçe reklam geliri düşüşü (Birsen Altuntaş'a atfen, Politikam 19 Kasım).",
+    "Haysiyet 24 Kasım'da 11. bölümle yayındaydı; Susuz Yaz için 1 Aralık salı tarihi Birsen Altuntaş sitesinde, kanal duyurusu yok.",
+    "TRT 1'de Mehmed: Fetihler Sultanı 24 Kasım'da Galatasaray–Aston Villa maçı nedeniyle yayınlanmadı; yeni bölüm 1 Aralık bekleniyor."
+   ],
+   "impact": "Veri böyle: iki prime-time slotunda değişim var, biri gerçekleşti, biri kulis. Bizim okumamız: NOW perşembe ve Kanal D salı kuşaklarında Aralık'ta izleyici yeniden dağılacak; yeni dizilerin ilk haftaları fiyat ve performans açısından belirsiz.",
+   "action": "Aralık TV satın almalarında NOW perşembe ve Kanal D salı 20.00 kuşaklarını program değişikliği maddesiyle ve haftalık kontrolle alın.",
+   "counterView": "Haysiyet finali ve Susuz Yaz tarihi resmî değil; kanal planı değişebilir, Halef'in yerine güçlü bir yapım gelirse kuşak kaybı olmayabilir.",
+   "sources": [
+    {
+     "name": "Milli Gazete • Halef 43. bölüm final mi?",
+     "url": "https://www.milligazete.com.tr/halef-43-bolum-final-mi-dizi-tamamen-bitti-mi-44-bolum-gelecek-mi-finalde-neler-yasaniyor",
+     "published": "19 Kasım 2026",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Politikam • Haysiyet dizisi ne zaman final yapacak?",
+     "url": "https://www.politikam.com/haysiyet-dizisi-ne-zaman-final-yapacak-kanal-dnin-sevilen-yapimina-erken-veda",
+     "published": "19 Kasım 2026",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Birsen Altuntaş • ana sayfa (Susuz Yaz)",
+     "url": "https://www.birsenaltuntas.com",
+     "published": "25 Kasım 2026'da kontrol edildi",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    },
+    {
+     "name": "Sabah • Mehmed: Fetihler Sultanı bu akşam var mı?",
+     "url": "https://www.sabah.com.tr/yasam/mehmed-fetihler-sultani-bu-aksam-var-mi-yok-mu-24-kasim-trt-1-yayin-akisi-7708364",
+     "published": "24 Kasım 2026",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ]
+  },
+  {
+   "id": "reklam-kurulu-375-toplanti-35-9-milyon",
+   "title": "Reklam Kurulu 119 dosyada durdurma ve 35,9 milyon TL ceza verdi; bir perakendeciye yanıltıcı indirim cezası",
+   "region": "Türkiye",
+   "category": "Ajans & Marka",
+   "layer": "Düzenleme ve sektör",
+   "market": "Türkiye",
+   "eventDate": "12 Kasım 2026 (375. toplantı); 17 Kasım (duyuru)",
+   "label": "Gecikmeli fakat önemli",
+   "summary": "Ticaret Bakanlığı Reklam Kurulu 375. toplantısında 141 dosyayı inceledi, 119'unda durdurma ve toplam 35,9 milyon TL ceza verdi.",
+   "body": [
+    "İncelenen 141 dosyanın 119'unda ihlal bulundu; toplam idari para cezası 35.866.446 TL.",
+    "Bir perakendeciye yanıltıcı indirim reklamı nedeniyle 5 milyon TL ceza ve durdurma verildi.",
+    "Öne çıkan ihlaller: '12 ay' denip daha kısa sürebilen tarifeler ve eksik taksit bilgisi.",
+    "Kaynağı belirtilmeden gösterilen yurt dışı ürün yıldız puanları da ihlal sayıldı."
+   ],
+   "impact": "Veri böyle: indirim, taksit ve yorum puanı iddiaları ceza listesinde. Bizim okumamız: Efsane Cuma haftasında 'indirim' ve 'taksit' dili en riskli alan; ajans tarafında hukuki onay süresi uzayabilir.",
+   "action": "27 Kasım öncesi yayına girecek tüm indirim ve taksit görsellerinde önceki fiyat dayanağını ve dipnotları yeniden kontrol ettirin.",
+   "counterView": "Kurul kararları dosya bazlıdır ve geç açıklanır; ceza tutarı büyük markalar için caydırıcı olmayabilir, denetim yoğunluğu da her kampanyaya ulaşmaz.",
+   "sources": [
+    {
+     "name": "Sondakika • Ticaret Bakanlığı Reklam Kurulu 119 dosyada 35,9 milyon TL ceza",
+     "url": "https://www.sondakika.com/guncel/haber-ticaret-bakanligi-reklam-kurulu-119-dosyada-35-9-20434889/",
+     "published": "17 Kasım 2026 11:15",
+     "country": "Türkiye",
+     "language": "Türkçe"
+    }
+   ]
+  },
+  {
+   "id": "magnum-radyo-dooh-citirti",
+   "title": "Yaratıcı Mecra: Magnum'un çıtırtısını radyo ile yol kenarı ekranları birlikte duyurdu",
+   "region": "Global",
+   "category": "Yaratıcı Mecra",
+   "layer": "Marka ve kampanya",
+   "market": "Birleşik Krallık",
+   "eventDate": "Mart 2025 (kampanya)",
+   "label": "Kategori dışı",
+   "summary": "Magnum, kabuğunun çıtırtı sesini sürücüler dijital yol ekranına yaklaşırken radyoda çalarak OOH ile radyoyu aynı anda kullanan bir mecra fikri kurdu.",
+   "body": [
+    "Marka/ülke/yıl: Magnum (Unilever), Birleşik Krallık, 2025; ajans Mindshare, ortaklar Global, Ocean Outdoor, DOOH.com.",
+    "Global'in verisiyle Heart ve Global Player yayını dijital yol kenarı ekranlarıyla eşleştirildi; ekrana yaklaşan sürücü çıtırtıyı radyoda duydu.",
+    "Ekranlar fizikseldi (Londra yol kenarı, Westfield London, Manchester); kampanya TV, sinema ve sosyalle desteklendi.",
+    "Ödül başvurusundaki sonuçlar: farkındalık +%16, satın alma niyeti +%17, mesaj hatırlama %56; bağımsız doğrulama yok."
+   ],
+   "impact": "Neden çalıştı: ürünün ayırt edici duyusu (ses) iki mecranın kesişiminde, sürücünün dikkatinin zaten yolda olduğu anda verildi. Bizim okumamız: çikolata kaplı ürünlerde kırılma sesi aynı mantıkla radyo ve OOH'u birlikte kullanan bir fikir olabilir.",
+   "action": "Türkiye'de radyo grubunun konum/yayın verisi ile dijital OOH ağının zamanlama eşleşmesi teknik olarak mümkün mü, iki satıcıdan teklif isteyin.",
+   "counterView": "Dondurma kategorisi, çikolata değil; sonuçlar ödül başvurusu, eşleşmenin teknik maliyeti ve Türkiye'de radyo-OOH veri entegrasyonu belirsiz.",
+   "learning": "Tartışma sorusu: Kırılma veya çıtırtı sesi olan hangi çikolata kaplı ürün bu radyo + DOOH eşleşmesine uyarlanabilir?",
+   "sources": [
+    {
+     "name": "Marketing Beat • Magnum OOH immersive",
+     "url": "https://www.marketing-beat.co.uk/2025/03/10/magnum-ooh-immersive/",
+     "published": "10 Mart 2025",
+     "country": "Birleşik Krallık",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Creative Bloq • Magnum abducts our radio waves",
+     "url": "https://www.creativebloq.com/design/branding/magnum-abducts-our-radio-waves-with-ingenious-sonic-branding-ad",
+     "published": "12 Mart 2025",
+     "country": "Birleşik Krallık",
+     "language": "İngilizce"
+    },
+    {
+     "name": "Media Week Awards • Nothing Cracks Like a Magnum (finalist)",
+     "url": "https://www.mediaweekawards.co.uk/finalists/nothing-cracks-like-a-magnum-evnfnku4bz35pmw",
+     "published": "2025",
+     "country": "Birleşik Krallık",
+     "language": "İngilizce"
+    }
+   ],
+   "image": {
+    "url": "https://www.marketing-beat.co.uk/wp-content/uploads/2025/03/mags.jpg",
+    "alt": "Magnum çıtırtı kampanyası OOH ekranı",
+    "credit": "Marketing Beat",
+    "sourceUrl": "https://www.marketing-beat.co.uk/2025/03/10/magnum-ooh-immersive/"
+   }
+  }
+ ],
+ "signals": [
+  {
+   "layer": "Platform ve ürün",
+   "region": "Global",
+   "text": "Microsoft Advertising arama kampanyaları Pinterest ana akış, arama ve ilgili Pin alanlarına uzatılabilecek; ilk pazarlar Kuzey Amerika, Avustralya ve Yeni Zelanda.",
+   "source": "MediaCat (Ad Age aktarımı)",
+   "url": "https://mediacat.com/microsoft-arama-reklamlari-pintereste-tasiniyor/",
+   "published": "2026-11-24"
+  },
+  {
+   "layer": "Platform ve ürün",
+   "region": "Global",
+   "text": "Google 24 Kasım'da arama sıralama ilkelerini ve AI özetlerinde kaynak seçimi sayfasını yayımladı; Aralık 2026 çekirdek güncellemesini tarihsiz ön duyurdu.",
+   "source": "Search Engine Roundtable",
+   "url": "https://www.seroundtable.com/google-december-2026-core-update-42615.html",
+   "published": "2026-11-24"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Global",
+   "text": "Avustralya'da Labor ve Yeşiller dijital 'özen yükümlülüğü' yasasında uzlaştı: ihlalde küresel cironun %5'ine kadar ceza, bağımlılık yaratan tasarımlar için risk azaltma zorunluluğu.",
+   "source": "Mumbrella",
+   "url": "https://mumbrella.com.au/big-tech-faces-billions-in-fines-after-labor-greens-digital-duty-of-care-deal-945816",
+   "published": "2026-11-24"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Global",
+   "text": "İspanya'da Maldita'nın TikTok'ta zararlı içerik bulgularının ardından Banco Santander ve Moeve TikTok kampanyalarını durdurdu, El Corte Inglés de katıldı.",
+   "source": "PPC Land",
+   "url": "https://ppc.land/tiktok-bans-devices-after-maldita-finds-child-abuse-posts-with-48m-views/",
+   "published": "2026-11-25"
+  },
+  {
+   "layer": "Tüketici ve ekonomi",
+   "region": "Global",
+   "text": "LG Ad Solutions anketinde tatilde daha çok harcamayı planlayanlar Brezilya'da %65, ABD'de %31; örneklem yalnız LG TV sahibi 2.000 hane.",
+   "source": "PPC Land (LG Ad Solutions verisi)",
+   "url": "https://ppc.land/31-of-us-homes-with-lg-tvs-plan-bigger-holiday-budgets-65-in-brazil/",
+   "published": "2026-11-25"
+  },
+  {
+   "layer": "Düzenleme ve sektör",
+   "region": "Türkiye",
+   "text": "598 sıra no'lu tebliğle bilgi fişi uygulaması kalkıyor; 1 Ocak 2027'den sinemalarda bilet doğrudan e-bilet olarak verilecek.",
+   "source": "Marketing Türkiye",
+   "url": "https://www.marketingturkiye.com.tr/haberler/bilgi-fisi-uygulamasi-kaldirildi-dogrudan-e-fatura-donemi-basliyor/",
+   "published": "2026-11-24"
+  }
+ ],
+ "matchesWindow": "25-29 Kasım 2026",
+ "matches": [
+  {
+   "date": "2026-11-25",
+   "time": "23:00",
+   "sport": "Futbol",
+   "competition": "UEFA Şampiyonlar Ligi, 5. hafta",
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahçe",
+   "broadcaster": "TRT 1",
+   "source": "https://www.yeniasir.com.tr/spor/2026/11/19/fenerbahce-maci-sifresiz-mi-shakhtar-donetsk-fenerbahce-maci-ne-zaman-saat-kacta-shakhtar-donetsk-fenerbahce-maci-hangi-kanalda",
+   "note": "Saat ve yayıncı iki bağımsız haber kaynağında aynı (Yeni Asır, Timeturk); UEFA sayfası açılmadı."
+  },
+  {
+   "date": "2026-11-25",
+   "time": "22:30",
+   "sport": "Basketbol",
+   "competition": "EuroLeague, 14. hafta",
+   "home": "Baskonia",
+   "away": "Anadolu Efes",
+   "broadcaster": null,
+   "source": "https://www.sporekrani.com/home/team/anadolu-efes",
+   "note": "Hak sahibi S Sport Plus, maç bazında tek kaynak (Spor Ekranı)."
+  },
+  {
+   "date": "2026-11-26",
+   "time": "20:45",
+   "sport": "Futbol",
+   "competition": "UEFA Avrupa Ligi, 5. hafta",
+   "home": "Hapoel Beer-Sheva",
+   "away": "Beşiktaş",
+   "broadcaster": null,
+   "source": "https://www.aspor.com.tr/avrupa-ligi/2026/11/25/uefa-avrupa-liginde-5-hafta-heyecani-basliyor",
+   "note": "Batum'da oynanacak (A Spor); yayıncı teyitsiz, saat tek kaynak."
+  },
+  {
+   "date": "2026-11-26",
+   "time": "22:00",
+   "sport": "Basketbol",
+   "competition": "FIBA 2027 Dünya Kupası Avrupa Elemeleri",
+   "home": "İtalya",
+   "away": "Türkiye",
+   "broadcaster": "TRT Spor, S Sport",
+   "source": "https://www.aa.com.tr/tr/spor/a-milli-erkek-basketbol-takimi-dunya-kupasi-elemelerinde-yarin-italyaya-konuk-olacak/4136606",
+   "note": "Yayıncı AA ve Spor Ekranı'nda aynı; salon bilgisi kaynaklarda çelişkili.",
+   "tags": [
+    "Millî maç"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "time": null,
+   "sport": "Basketbol",
+   "competition": "FIBA 2027 Dünya Kupası Avrupa Elemeleri",
+   "home": "Türkiye",
+   "away": "İzlanda",
+   "broadcaster": null,
+   "source": "https://www.sporekrani.com/home/team/turkiye",
+   "note": "Spor Ekranı 19.00 ve S Sport diyor; tek kaynak, TBF açılmadı.",
+   "tags": [
+    "Millî maç"
+   ]
+  }
+ ],
+ "social": {
+  "window": "23-25 Kasım 2026 (Google Trends: 25 Kasım sabahı son 24 saat)",
+  "note": "Platform duyuruları ve arama trendleridir; erişim, izlenme veya reklam etkisi ölçümü değildir. Google Trends hacimleri yaklaşık aralıktır.",
+  "items": [
+   {
+    "platform": "Google",
+    "type": "Arama trendi",
+    "title": "Şampiyonlar Ligi gecesi: Galatasaray – Aston Villa",
+    "market": "Türkiye",
+    "metric": "Google Trends: 2M+ arama, %1.000 artış",
+    "whyItMatters": "Maç gecesi arama ve ikinci ekran trafiği yükseliyor; maç çevresi arama ve sosyal planı için zamanlama sinyali.",
+    "url": "https://trends.google.com/trending?geo=TR",
+    "source": "Google Trends Türkiye",
+    "published": "2026-11-25"
+   },
+   {
+    "platform": "Google",
+    "type": "Arama trendi",
+    "title": "Anne Yarısı son bölüm izle",
+    "market": "Türkiye",
+    "metric": "Google Trends: 20K+ arama, %300 artış",
+    "whyItMatters": "Yayın sonrası 'son bölüm izle' aramaları dizi çevresinde dijital video ve arama reklamı için bağlam sunuyor.",
+    "url": "https://trends.google.com/trending?geo=TR",
+    "source": "Google Trends Türkiye",
+    "published": "2026-11-25"
+   },
+   {
+    "platform": "YouTube",
+    "type": "Platform değişikliği",
+    "title": "YouTube Shorts'a özel kapak görseli açıldı",
+    "market": "Global, Türkiye'de de görünür",
+    "whyItMatters": "Marka ve içerik üreticisi Shorts'larında ilk kare yerine seçilen kapak kullanılabilir; tıklama için yaratıcı yönetim alanı.",
+    "url": "https://www.socialmediatoday.com/news/youtube-enables-custom-shorts-thumbnails/875687/",
+    "source": "Social Media Today",
+    "published": "2026-11-24"
+   },
+   {
+    "platform": "Instagram",
+    "type": "Araştırma",
+    "title": "Meta/Ipsos: yılsonu alışverişçilerinin %37'si hediye keşfinde sosyal medyayı kullanıyor",
+    "market": "Global, Türkiye'de de görünür",
+    "metric": "Meta/Ipsos, 18 ülke, 14.473 kişi: sosyal medya %37, arama %41, TV reklamı %27",
+    "whyItMatters": "Hediye keşfinde sosyal medya TV reklamının önünde, aramanın arkasında; platformun kendi araştırması olduğu için temkinle okunmalı.",
+    "url": "https://www.socialmediatoday.com/news/meta-says-festive-shoppers-use-social-media-for-gift-discovery/875523/",
+    "source": "Social Media Today (Meta/Ipsos verisi)",
+    "published": "2026-11-24"
+   },
+   {
+    "platform": "TikTok",
+    "type": "Platform değişikliği",
+    "title": "TikTok yapay zekâ içerik kontrolü ve aile eşleştirme güncellemeleri",
+    "market": "Global, Türkiye'de de görünür",
+    "whyItMatters": "AI içerik etiketleme ve genç kullanıcı kontrolleri, genç hedefli kampanyalarda marka güvenliği ve erişim tartışmasını etkiliyor.",
+    "url": "https://www.socialmediatoday.com/news/tiktok-adds-new-ai-transparency-and-parental-controls/875424/",
+    "source": "Social Media Today",
+    "published": "2026-11-22"
+   }
+  ]
+ },
+ "highlights": [
+  "TFF'nin Süper Lig yayın ihalesi 30 Kasım'da; şartnameyi TRT, beIN, Turkcell, Türk Telekom ve Saran-Amazon dahil altı kurum aldı.",
+  "Walmart, Meta'nın AI ajanı Muse'a alışveriş yetkisi verdi; ürün seçimini kendisi yapıyor.",
+  "Tüketici güveni Kasım'da 86,8; Reklam Kurulu yanıltıcı indirim reklamlarına ceza verdi."
+ ],
+ "watchlist": [
+  "30 Kasım TFF yayın ihalesi sonucu ve kazananın şifresiz yayın planı.",
+  "30 Kasım pazartesi 21.00 Beşiktaş–Galatasaray derbisi (A Spor, Van Haber; TFF teyidi yok, panel dışı).",
+  "NOW'un 26 Kasım perşembe 20.00'de Halef yerine yayınlayacağı program.",
+  "Haysiyet finali ve Susuz Yaz'ın 1 Aralık başlangıcı için Kanal D duyurusu.",
+  "Netflix Türkiye 30 Kasım proje sunum günü; 27 Kasım Efsane Cuma reklam yoğunluğu.",
+  "Aralık başı yayımlanması beklenen ajans reklam harcama tahminleri (WPP Media, Magna, Dentsu)."
+ ],
+ "limitations": [
+  "16-24 Kasım taranmadı (proje donduruldu); yalnız hâlâ güncel ve önemli gelişmeler 'Gecikmeli fakat önemli' etiketiyle alındı.",
+  "Bülten 09.15 yerine öğleden sonra, elle başlatılan çalışmayla yayımlandı; araştırma kısa tutuldu, sürüm seçki.",
+  "TV tablosu: Star TV akışı açılmadı (site hatası); ATV ve TRT 1 resmî akışı tek gün gösterip tarih vermediği için kullanılamadı. Bu kanalların kayıtları değiştirilmedi, checked tarihleri ilerletilmedi.",
+  "Spor: TFF, TBF, TVF, UEFA ve VolleyStation açılmadı; Sultanlar Ligi ve CEV Şampiyonlar Ligi kadınlar için bu haftaya ait 2026 tarihli kaynak bulunamadı, panelde voleybol yok. Süper Lig 13. haftasında 25-29 Kasım arasında derbi yok.",
+  "Rakip izleme: yalnız Ülker için pencere içi haber bulundu; Altınmarka, Fiskobirlik, Doğkar, Sagra, Mars, Şölen, Torku, Altınkılıçlar ve Lider için şirket sayfaları açılmadı, yalnız arama yapıldı.",
+  "Medya ajansı konkur/müşteri haberi, RTÜK kararı, Reklamcılar Derneği 9 ay verisi pencere içinde bulunamadı.",
+  "Media Guru'larından Notlar: beş isim için yeni hakemli çalışma bulunamadı; Amplified'ın 20 Kasım şirket vaka notları birincil URL olmadığı için alınmadı. Panel yok.",
+  "Yaratıcı mecra vakası kategori dışı (dondurma); güçlü ve yeni bir çikolata vakası bulunamadı.",
+  "2 ana haberde (Halef/Haysiyet, Reklam Kurulu) görsel eklenemedi."
+ ],
+ "corrections": [
+  "16 Kasım bülteni için yayın sonrası değerlendirme yapılmadı (proje donduruldu); bugün kontrol edilen bilgiyle düzeltilecek açık olgu hatası bulunmadı."
+ ]
+}
