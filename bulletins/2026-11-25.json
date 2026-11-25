@@ -3,7 +3,7 @@
  "title": "TFF yayın ihalesine beş gün, Walmart'ta AI ajanı, CTV'de sahte trafik",
  "summary": "Süper Lig'in 2027 sonrası yayın hakları 30 Kasım'da satılıyor; Walmart Meta'nın alışveriş ajanına kapıyı açtı, CTV'de günde 40 milyar sahte istek raporlandı. Kasım güveni yükseldi, Reklam Kurulu indirim reklamlarını cezalandırdı.",
  "edition": "selection",
- "window": "24 Kasım 2026 08:00 – 25 Kasım 2026 12:40 TSİ (proje 16-24 Kasım arasında dondurulduğu için önceki bülten kesiminden değil, kullanıcı kararıyla 24 Kasım 08:00'den; Claude araştırması 12:20-12:40, 5 alt ajan)",
+ "window": "24 Kasım 2026 08:00 – 25 Kasım 2026 12:30 TSİ (proje 16-24 Kasım arasında dondurulduğu için önceki bülten kesiminden değil, kullanıcı kararıyla 24 Kasım 08:00'den; Claude araştırması 12:20-12:30, 5 alt ajan)",
  "status": "published",
  "source": {
   "writer": "Claude",
@@ -12,7 +12,7 @@
  "review": {
   "status": "approved",
   "reviewer": "Claude",
-  "reviewedAt": "2026-11-25T13:05+03:00",
+  "reviewedAt": "2026-11-25T12:34+03:00",
   "summary": "Araştırma beş paralel alt ajanla yapıldı. Resmî kaynakla teyit edilen: TV8 (MasterChef), NOW (Yeraltı) ve Show TV'nin haftalık akışı, Kanal D akış menüsü; Google Trends Türkiye. Diğer olgular ikincil kaynaklı: TFF ihalesi (Hürriyet + Politikam), TÜİK endeksleri (A Haber, Forbes Türkiye; TÜİK sayfası açılmadı), Reklam Kurulu (Sondakika; Bakanlık duyurusu açılmadı), Walmart–Meta ve BADBOX (PPC Land; birincil duyurular açılmadı), Halef finali (iki haber), Haysiyet finali ve Susuz Yaz tarihi (kulis/tek kaynak). Açılamayan: Star TV akışı (site hatası), ATV ve TRT 1 akışında tarih bilgisi, TFF, TBF, UEFA, TVF, VolleyStation. Çıkarılanlar: haftalık reyting listesi (kapsam dışı), Evyap PR ajansı ataması (zayıf), PwC Efsane Cuma verisi (pencere dışı, daha önce kullanıldı), Karen Nelson-Field'in şirket vaka notları (birincil URL yok)."
  },
  "attitudeRadar": {
