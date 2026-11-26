@@ -1,0 +1,493 @@
+{
+  "date": "2026-11-26",
+  "title": "ChatGPT erişim ve frekansla raporluyor, Netflix reklamı Amazon'da satışa bağlanıyor; Efsane Cuma öncesi indirim kuralı",
+  "summary": "Gece gelen platform haberlerinde iki eğilim öne çıkıyor: ChatGPT reklamları erişim-frekans diline geçiyor, Amazon Netflix izlenmesini alışverişe bağlıyor. Türkiye'de yarın Efsane Cuma; indirim reklamlarında Bakanlık kuralları geçerli, bu akşam TRT 1 iki Avrupa maçı yayınlıyor.",
+  "edition": "selection",
+  "window": "25 Kasım 2026 12:30 – 26 Kasım 2026 08:05 TSİ (Claude araştırması 07:38-08:05; 5 alt ajan + 4 sayfa okuma turu)",
+  "status": "published",
+  "source": {
+    "writer": "Claude"
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-26T08:20+03:00",
+    "summary": "Bu sabah alt ajanların WebFetch çağrılarının çoğu izin/zaman aşımı hatası verdi: yedi kanalın resmî akışı, Birsen Altuntaş, TFF, TBF, TVF, UEFA, EuroLeague, VolleyStation, S Sport Plus, beIN, TRT Spor, MediaCat/Marketing Türkiye/Campaign TR ana sayfaları, Resmî Gazete, Google Trends ve Netflix Top 10 açılamadı. Arama sonucundan açılan sayfalar kullanıldı. Resmî kaynakla teyit edilen: Ticaret Bakanlığı indirim kuralları (28 Ekim), D&AD ve Effie vaka sayfaları. İkincil: global haberler PPC Land aktarımı (birincil Amazon, OpenAI, Vermont belgeleri doğrudan açılmadı), TV akışı üç derleme sitesi, maç yayıncıları iki bağımsız haber kaynağı. Çıkarılanlar: ETİ Deniz Baysal filmi (13 Kasım'da kullanıldı), Ülker Afra Saraçoğlu filmi (yayın tarihi yok), Nestlé 1927 bülteni (2019), 158 milyar TL dijital yatırım haberi (2024 verisi), PwC Efsane Cuma anketi (daha önce kullanıldı), Tide satış rakamları (tek ikincil kaynak)."
+  },
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan işaretler; ölçülmüş eğilim değildir.",
+    "items": [
+      {
+        "tag": "AI reklamında erişim dili",
+        "text": "ChatGPT reklamları tıklama yerine tekil kişi ve frekansla raporlanmaya başladı; sohbet içi reklam erişim planına aday oluyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "chatgpt-reklam-reach-frequency"
+        ]
+      },
+      {
+        "tag": "CTV'de satış ölçümü",
+        "text": "Amazon Netflix izlenmesini alışverişe, Trade Desk doğrudan bağlantıyı gelir artışına bağlıyor; bağlı TV bütçesi performans diliyle savunulmaya başlıyor.",
+        "basis": "İşaret",
+        "recurrence": "Yeni",
+        "refs": [
+          "amazon-dsp-netflix-satis-metrikleri",
+          "trade-desk-dazn-openpath-41"
+        ]
+      },
+      {
+        "tag": "fiyat duyarlılığı",
+        "text": "Efsane Cuma öncesi indirim reklamı kuralları ve ceza aralığı gündemde; dünkü Reklam Kurulu cezasıyla birlikte fiyat iddiası risk kalemi olmayı sürdürüyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "efsane-cuma-indirim-reklam-kurallari"
+        ]
+      },
+      {
+        "tag": "CTV güveni",
+        "text": "LG ana ekran envanterine bağımsız sahtekârlık doğrulaması geldi; dünkü BADBOX raporunun ardından CTV'de doğrulama talebi ikinci gün de haberde.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": []
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "chatgpt-reklam-reach-frequency",
+      "title": "ChatGPT reklam raporlarına erişim ve frekans geldi: reklamveren artık kaç kişiye ulaştığını görüyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "ABD ve ChatGPT reklamlarının açık olduğu pazarlar",
+      "eventDate": "25 Kasım 2026 (OpenAI reklamveren e-postası)",
+      "summary": "OpenAI, ChatGPT Ads Manager ve Ads API'ye başta Reach ve Frequency olmak üzere dokuz kitle metriği ekledi.",
+      "body": [
+        "Reach, seçili dönemde reklamı en az bir kez gören tekil kişi sayısı; Frequency, gösterimin Reach'e bölünmesi.",
+        "Dokuz metriğin yedisi yalnız adıyla duyuruldu (Click Reach, Total Reach, Cost per 1,000 Reached vb.); tanımlar yayımlanmadı.",
+        "Business Agents ABD dışındaki 'desteklenen pazarlara' açılıyor; hangi pazarlar olduğu belirtilmedi.",
+        "PPC Land'e göre ChatGPT reklamları Ekim'de 89 ülkeye ulaşmıştı; Türkiye'nin durumu kaynakta yok.",
+        "Bilgi OpenAI'ın 25 Kasım tarihli reklamveren e-postasının PPC Land aktarımına dayanıyor; e-posta görülmedi."
+      ],
+      "impact": "Veri böyle: ChatGPT artık TV ve video gibi erişim-frekans diliyle raporluyor. Bizim okumamız: sohbet reklamları performans kanalından çok erişim planına girmeye hazırlanıyor; markalar için tekil kişi maliyeti diğer mecralarla kıyaslanabilir hale geliyor, ama tanımlar netleşmeden kıyas yanıltıcı olabilir.",
+      "action": "ChatGPT reklamlarını test eden ekiplerde Reach ve Frequency'yi diğer kanallarla aynı tabloya alın, tanımlar gelene kadar kıyası 'yaklaşık' diye işaretleyin.",
+      "counterView": "Platformun kendi saydığı tekil kişi bağımsız ölçüm değildir; çapraz cihaz ve oturumsuz kullanıcılar sayıyı şişirebilir veya düşürebilir.",
+      "sources": [
+        {
+          "name": "PPC Land • ChatGPT ad reports add 9 metrics",
+          "url": "https://ppc.land/chatgpt-ad-reports-add-9-metrics-built-on-how-many-people-see-the-ads/",
+          "published": "25 Kasım 2026 23:15 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/chatgpt-ads-reach-frequency-nine-audience-metrics-people-counter-crowd-speech-bubble.jpg",
+        "alt": "ChatGPT reklam erişim metriklerini anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/chatgpt-ad-reports-add-9-metrics-built-on-how-many-people-see-the-ads/"
+      }
+    },
+    {
+      "id": "amazon-dsp-netflix-satis-metrikleri",
+      "title": "Amazon DSP, Netflix reklamını izleyenlerin alışverişini beş yeni metrikle raporlayacak",
+      "region": "Global",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Reklam pazarı ve para",
+      "market": "ABD ve küresel",
+      "eventDate": "16 Kasım 2026 (Amazon Ads API sürüm notu); haber 25 Kasım",
+      "summary": "Amazon Ads API'ye Netflix reklam izlenmesine bağlı satın alma, satış tutarı, ürün sayfası görüntüleme ve Amazon dışı dönüşüm alanları eklendi.",
+      "body": [
+        "Beş alan: satın alma, iki satış tutarı (bütçe ve dönüştürülmüş para birimi), ürün sayfası görüntüleme, Amazon dışı dönüşüm.",
+        "Sürüm notunda atıf penceresi, ülke listesi ve başlangıç tarihi verilmedi.",
+        "PPC Land'e göre Netflix 2026 reklam gelir beklentisini yaklaşık 3 milyar dolardan 2,7 milyar dolara indirmişti (20 Ekim).",
+        "Amazon reklam hizmetleri geliri 3. çeyrekte 19,64 milyar dolar, yıllık %11 artış."
+      ],
+      "impact": "Veri böyle: streaming reklamı ile alışveriş verisi aynı raporda birleşiyor. Bizim okumamız: Netflix envanteri 'marka filmi' alanından satış ölçülebilen alana çekiliyor; bu, CTV bütçesini performans ekiplerinin de savunabileceği anlamına gelir. Tüketici açısından izlediği reklam ile alışverişi arasındaki bağ daha sıkı izleniyor.",
+      "action": "Netflix reklamı planlayan markalarda Amazon DSP satın alma seçeneğini sorun ve atıf penceresi açıklanmadan sonuçları kampanya başarısı diye raporlamayın.",
+      "counterView": "Atıf penceresi ve kontrol grubu bilinmeden 'Netflix reklamından gelen satış' kısmen zaten olacak satışları sayabilir; Netflix'in gelir beklentisini düşürmesi talebin sınırlı olduğunu da gösteriyor.",
+      "sources": [
+        {
+          "name": "PPC Land • Amazon adds five metrics to count sales from Netflix ads",
+          "url": "https://ppc.land/amazon-adds-five-metrics-to-count-sales-from-netflix-ads/",
+          "published": "25 Kasım 2026 20:35 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Amazon Ads API • Release notes",
+          "url": "https://advertising.amazon.com/API/docs/en-us/release-notes/index#netflix-attribution-metrics-in-amazon-dsp-reports",
+          "published": "16 Kasım 2026 (PPC Land aktarımı; doğrudan açılmadı)",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/amazon-dsp-netflix-attribution-metrics-api-v1-tv-to-shopping-bag-dotted-path.jpg",
+        "alt": "Televizyondan alışveriş çantasına uzanan noktalı çizgi illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/amazon-adds-five-metrics-to-count-sales-from-netflix-ads/"
+      }
+    },
+    {
+      "id": "trade-desk-dazn-openpath-41",
+      "title": "Trade Desk: DAZN Media+ doğrudan bağlantıyla açık artırma gelirini %41 artırdı",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Reklam pazarı ve para",
+      "market": "Avustralya",
+      "eventDate": "25 Kasım 2026 (vaka çalışması haberi)",
+      "summary": "Kayo Sports, BINGE ve Foxtel'in reklam satış kolu DAZN Media+, OpenPath ile doğrudan bağlandıktan sonra açık artırma gelirinin %41 arttığını bildirdi.",
+      "body": [
+        "Karşılaştırma lansman sonrası 110 gün ile öncesindeki 110 gün; lansman tarihi verilmedi.",
+        "Fill rate 16 kat, açık artırma kazanma oranı 2,9 kat yükseldi; ham oranlar yayımlanmadı.",
+        "Kurulum: OpenPath, Sellers and Publishers 500+ listesi ve UID2 birlikte kullanıldı; etkilerin payı ayrılmadı.",
+        "Trade Desk'in 3. çeyrek geliri 736 milyon dolar, yıllık %0,5 düşüş; halka arzdan bu yana ilk düşüş (PPC Land, 9 Kasım)."
+      ],
+      "impact": "Veri böyle: aracıyı azaltan doğrudan bağlantı yayıncı geliri artırmış görünüyor. Bizim okumamız: spor ve yayın envanterinde programatik satın almanın yolu kısalıyor; ajanslar için daha temiz tedarik, yayıncılar için daha yüksek fiyat demek. Satın alma tarafında aynı izlenimin daha pahalıya gelmesi de mümkün.",
+      "action": "Programatik CTV ve spor envanteri alımlarında yayıncıya doğrudan yol (OpenPath, PMP) ile aracı zincir arasındaki fiyat ve fill farkını raporlatın.",
+      "counterView": "Rakamlar Trade Desk'in kendi vaka çalışması; gelirin yeni talepten mi başka kanaldan kayan harcamadan mı geldiği ayrılmamış, şirketin geliri düşerken bu vaka satış mesajı da taşıyor.",
+      "sources": [
+        {
+          "name": "PPC Land • Trade Desk says direct connection lifted DAZN Media+ auction revenue 41%",
+          "url": "https://ppc.land/trade-desk-says-direct-connection-lifted-dazn-media-auction-revenue-41/",
+          "published": "25 Kasım 2026 19:42 UTC",
+          "country": "Avustralya",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Trade Desk revenue drops 0.5%",
+          "url": "https://ppc.land/trade-desk-revenue-drops-0-5-its-first-decline-since-its-2016-ipo/",
+          "published": "9 Kasım 2026",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/trade-desk-openpath-dazn-media-plus-41-percent-biddable-revenue-direct-cable-bypasses-switchboard.jpg",
+        "alt": "Santrali atlayan doğrudan kablo illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/trade-desk-says-direct-connection-lifted-dazn-media-auction-revenue-41/"
+      }
+    },
+    {
+      "id": "vermont-cocuk-verisi-akis-yasagi",
+      "title": "Vermont, 1 Ocak 2027'den itibaren çocuk verisiyle sıralanan akışları yasaklıyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Düzenleme ve sektör",
+      "market": "ABD (Vermont)",
+      "eventDate": "1 Ocak 2027 (yürürlük); kurallar 19 Ekim 2026'da onaylandı",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Vermont'un yaşa uygun tasarım yasasının iki kuralı, reşit olmayanlara kişisel veya davranışsal veriyle sıralanan içerik sunmayı 1 Ocak 2027'den yasaklıyor.",
+      "body": [
+        "Kurallar: 26P027 yasak veri ve tasarım uygulamaları, 26P028 yaş doğrulama gizliliği; ikisi de 1 Ocak 2027'de yürürlükte.",
+        "Küçüğün açık talebi, seçtiği ayar veya araması dışında davranış verisiyle akış sıralaması yasak.",
+        "Yaş kontrolü verisi, yaş aralığı belirlendikten sonra hemen silinmeli; doğruluk eşiği tanımlanmadı.",
+        "Cezalar ve kapsanan işletmeler yayımlanan belgelerde yok; kuralların nihai statüsü kaynaklarda farklı anlatılıyor."
+      ],
+      "impact": "Veri böyle: ABD'de eyaletler çocuklar için algoritmik akışı sınırlıyor. Bizim okumamız: Türkiye'de 15 yaş altı sosyal medya düzenlemesiyle birlikte genç hedefli dijital planlarda platform hedeflemesinin daralacağı yön netleşiyor; marka tarafında genç erişimi içerik ve bağlam üzerinden kurmak daha önemli hale geliyor.",
+      "action": "Genç kitleye yönelik dijital planlarda davranış verisi hedeflemesi yerine bağlamsal ve içerik ortaklığı seçeneklerini 2027 için hazır tutun.",
+      "counterView": "Tek eyalet kuralı küresel platform davranışını hemen değiştirmeyebilir; Meta'nın California yasasına açtığı dava benzer kuralların mahkemede durdurulabileceğini gösteriyor.",
+      "sources": [
+        {
+          "name": "PPC Land • Vermont bans feeds built on kids' data from January 1, 2027",
+          "url": "https://ppc.land/vermont-bans-feeds-built-on-kids-data-from-january-1-2027/",
+          "published": "25 Kasım 2026 20:48 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Vermont Başsavcılığı • Age-Appropriate Design Code rulemaking",
+          "url": "https://ago.vermont.gov/vermont-age-appropriate-design-code-rulemaking",
+          "published": "Resmî sayfa (PPC Land aktarımı; doğrudan açılmadı)",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/vermont-age-appropriate-design-code-rules-ban-data-ranked-feeds-for-minors-stop-hand-conveyor.jpg",
+        "alt": "Bant üzerindeki içeriği durduran el illüstrasyonu",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/vermont-bans-feeds-built-on-kids-data-from-january-1-2027/"
+      }
+    },
+    {
+      "id": "efsane-cuma-indirim-reklam-kurallari",
+      "title": "Efsane Cuma yarın: indirim reklamlarında Bakanlığın 'son 10 günün en düşük fiyatı' kuralı geçerli",
+      "region": "Türkiye",
+      "category": "Ajans & Marka",
+      "layer": "Düzenleme ve sektör",
+      "market": "Türkiye",
+      "eventDate": "27 Kasım 2026 (Efsane Cuma); Bakanlık duyurusu 28 Ekim 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "27 Kasım Efsane Cuma öncesi Ticaret Bakanlığı'nın Kasım kampanyalarını yakın takipte tuttuğu duyuru ve 1 Ağustos'ta yürürlüğe giren indirim reklamı kuralları geçerli.",
+      "body": [
+        "Aldatıcı reklamda ceza, mecra ve ihlale göre 99.339 TL ile 39.916.524 TL arasında (Ticaret Bakanlığı, 28 Ekim).",
+        "İndirim öncesi fiyat, kampanyadan önceki 10 günün en düşük fiyatı olmalı; başlangıç ve bitiş tarihi yazılmalı.",
+        "'%70 + %10 + %5' gibi birleşik oranların birlikte gösterilmesi yaptırım örnekleri arasında sayılıyor.",
+        "Trendyol peşin fiyatına 3 ve 6 taksit ile Amazon'un Kasım kampanyası 30 Kasım'a kadar sürüyor (İndigo, 4 Kasım).",
+        "Reklam Kurulu 25 Kasım'da yanıltıcı indirim reklamına ceza vermişti (önceki sayı)."
+      ],
+      "impact": "Veri böyle: kural ve ceza aralığı belli, kampanya dönemi 30 Kasım'a kadar uzuyor. Bizim okumamız: Efsane Cuma reklamlarında fiyat iddiası hem satış hem hukuk kalemi; marka ve perakende ortaklarının kreatiflerindeki 'önceki fiyat' ve oran dili son kez kontrol edilmeli. Tüketici tarafında fiyat geçmişine bakma alışkanlığı güçleniyor.",
+      "action": "Yarın yayına girecek indirim kreatiflerinde önceki fiyat dayanağını, kampanya tarihlerini ve birleşik oran kullanımını yayın öncesi kontrol listesine ekleyin.",
+      "counterView": "Bakanlık duyurusu Ekim tarihli ve yeni bir denetim açıklaması pencere içinde bulunamadı; ceza aralığı üst sınırdır, uygulamada verilen cezalar çok daha düşük olabilir.",
+      "sources": [
+        {
+          "name": "T.C. Ticaret Bakanlığı • Kasım ayı indirim kampanyaları Ticaret Bakanlığının yakın takibinde",
+          "url": "https://ticaret.gov.tr/haberler/kasim-ayi-indirim-kampanyalari-ticaret-bakanliginin-yakin-takibinde",
+          "published": "28 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "İndigo Dergisi • E-ticaret Kasım indirimleri 2026",
+          "url": "https://indigodergisi.com/2026/11/e-ticaret-kasim-indirimleri-2026/",
+          "published": "4 Kasım 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://indigodergisi.com/wp-content/uploads/2026/11/kolaj-eticaret.jpg",
+        "alt": "E-ticaret platformlarının Kasım kampanya kolajı",
+        "credit": "İndigo Dergisi",
+        "sourceUrl": "https://indigodergisi.com/2026/11/e-ticaret-kasim-indirimleri-2026/"
+      }
+    },
+    {
+      "id": "persembe-prime-time-trt1-iki-mac",
+      "title": "Perşembe prime time: TRT 1'de iki Avrupa maçı, NOW'da Halef sonrası ilk perşembe",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "26 Kasım 2026, 19.00-24.00",
+      "label": "Haber kaynaklı",
+      "summary": "Bu akşam TRT 1 Beşiktaş ve Trabzonspor'un Avrupa maçlarını arka arkaya yayınlıyor; NOW'da 20.00 kuşağında Yeraltı var, Halef bitti.",
+      "body": [
+        "TRT 1: 20.45 Hapoel Beer-Sheva–Beşiktaş (Avrupa Ligi, Batum), 23.00 CSKA Sofya–Trabzonspor (Konferans Ligi).",
+        "NOW: 20.00 Yeraltı, 22.45 Ömür Usta; Halef 25 Kasım'da 43. bölümle bitmişti (önceki sayı).",
+        "Kanal D: 20.00 ve 22.00 İngiliz Anahtarı: Recep Usta ('TV'de ilk' film), 23.45 Uzak Şehir.",
+        "ATV Güneşin Doğduğu Yer, Star Sevdiğim Sensin, Show Muhtemel Aşk, TV8 MasterChef 20.00'de; yeni bölüm notu derlemelerde.",
+        "Kaynak: üç günlük yayın akışı derlemesi; yedi kanalın resmî akışı bu sabah açılamadı."
+      ],
+      "impact": "Veri böyle: TRT 1 perşembe gecesini üç saatten uzun futbola ayırıyor, iki kanal 20.00'de dizi yerine film ve eski yapım yayınlıyor. Bizim okumamız: futbol izleyicisi şifresiz kanala toplanırken dizi kuşağı bölünüyor; erkek ağırlıklı erişim için TRT 1 maç arası, kadın ve aile hedefi için ATV, Star ve Show 20.00 kuşağı daha belirgin.",
+      "action": "Bu akşamki prime time spotlarının kanal dağılımını maç saatlerine göre kontrol edin; NOW ve Kanal D perşembe kuşağı için önümüzdeki haftaların içerik planını kanallardan isteyin.",
+      "counterView": "Derleme siteleri birbirini kopyalayabilir ve kanallar akışı gün içinde değiştirebilir; yeni bölüm ibaresi resmî akışla teyit edilmedi.",
+      "sources": [
+        {
+          "name": "Genç Gazete • 26 Kasım 2026 Perşembe TV yayın akışı",
+          "url": "https://www.gencgazete.net/26-kasim-2026-persembe-tv-yayin-akisi-bugun-hangi-diziler-ve-maclar-var",
+          "published": "26 Kasım 2026 07:30",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "İlkses • 26 Kasım 2026 TV yayın akışı",
+          "url": "https://ilkses.com.tr/genel/26-kasim-2026-tv-yayin-akisi-bu-aksam-hangi-diziler-ve-filmler-var-468972",
+          "published": "26 Kasım 2026 00:12",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Ajansspor • Beşiktaş–Hapoel Beer-Sheva maçı ne zaman, hangi kanalda?",
+          "url": "https://ajansspor.com/haber/besiktas-hapoel-beer-sheva-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-739386",
+          "published": "25 Kasım 2026 14:35",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "yaratici-mecra-tide-ad",
+      "title": "Yaratıcı Mecra: Tide, Super Bowl reklam kuşağının kendisini mecraya çevirdi",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "ABD",
+      "eventDate": "4 Şubat 2018 (Super Bowl LII)",
+      "summary": "Tide'ın 'It's a Tide Ad' kampanyası, temiz kıyafet gösteren her reklamın Tide reklamı olabileceği fikriyle Super Bowl kuşağının tamamını markaya bağladı.",
+      "body": [
+        "Marka P&G Tide; ajans Saatchi & Saatchi New York, medya Hearts & Science; oyuncu David Harbour (LBB, D&AD).",
+        "Her çeyrekte bir spot: araba, parfüm, bira reklamı kalıbıyla başlayıp Tide'a dönüyor; Old Spice ve Mr. Clean spotları 'ele geçirildi'.",
+        "Fikir yayın sırasına dayanıyor: sonraki her reklamda izleyici 'bu da mı Tide?' diye bakıyor; sosyal ekip canlı tepki verdi.",
+        "Cannes Lions 2018 Film Grand Prix, D&AD Black Pencil ve 2019 Grand Effie aldı (D&AD, Effie).",
+        "Satış artışı rakamları yalnız ikincil kaynakta; birincil Effie sayfasında doğrulanamadığı için alınmadı."
+      ],
+      "impact": "Veri böyle: ödül jürileri ve bağımsız bir biyometrik ölçüm, sonraki spotların ilk filmden daha güçlü tepki aldığını gösteriyor. Bizim okumamız: fikir kreatifte değil kuşak planında; kısa ve dağıtılmış spotlar, tek uzun filmden daha çok hatırlanmış. Türkiye'de maç ve final gibi tek seferlik yüksek izlenme gecelerinde aynı marka ailesinin kuşak içinde birbirine göz kırpması uyarlanabilir.",
+      "action": "Büyük maç veya dizi finali gecesi için tek uzun film yerine kuşaklara dağılmış, birbirine gönderme yapan kısa spot planını fiyatlatın.",
+      "counterView": "Etki Super Bowl'un 'reklam izleme' kültürüne bağlı; yaklaşık 15 milyon dolarlık maliyet iddiası doğrulanmadı ve Ipsos'a göre açılış filmi zayıf kaldı, kategori de çikolata değil.",
+      "learning": "Kuşak içi plan (pod planning): spotların hangi reklam kuşağında ve sırada yayınlanacağını kreatif fikrin parçası yapmak. Tartışma sorusu: Bu kuşak planı fikri, Türkiye'de büyük bir maç gecesinde hangi kategoriye veya marka ailesine uyarlanabilir?",
+      "sources": [
+        {
+          "name": "D&AD • Tide Ad campaign case study",
+          "url": "https://www.dandad.org/insights/awards/tide-ad-campaign-case-study-insights",
+          "published": "10 Temmuz 2018",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Effie • It's a Tide Ad wins Grand Effie",
+          "url": "https://www.effie.org/pl/news/its-a-tide-ad-by-procter-gamble-saatchi-saatchi-new-york-wins-grand-effie-at-the-2019-effie-awards-u-s",
+          "published": "30 Mayıs 2019",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "LBB • Saatchi & Saatchi wins Film Grand Prix",
+          "url": "https://lbbonline.com/news/its-a-tide-ad-award-publicis-groupes-saatchi-saatchi-wins-film-grand-prix",
+          "published": "22 Haziran 2018",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Ipsos Connect • POV: Tide Super Bowl",
+          "url": "https://www.ipsos.com/sites/default/files/ct/publication/documents/2018-02/ipsosconnect_pov_tidesuperbowl.pdf",
+          "published": "Şubat 2018",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://cms.dandad.org/images/5WcfrP8S88FGldw6JHSujGp40TY=/347/width-500/419540_9719f86d37c84534a33c0ce23d8163ad.jpg",
+        "alt": "Tide 'It's a Tide Ad' kampanyasından kare",
+        "credit": "D&AD / Saatchi & Saatchi New York",
+        "sourceUrl": "https://www.dandad.org/insights/awards/tide-ad-campaign-case-study-insights"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Global",
+      "text": "LG Ad Solutions, TV ana ekran reklam envanterine DoubleVerify sahtekârlık ve geçersiz trafik doğrulamasını küresel olarak açtı; ülke listesi verilmedi.",
+      "source": "PPC Land (Business Wire duyurusu)",
+      "url": "https://ppc.land/lg-lets-doubleverify-check-its-tv-home-screen-ads-for-fraud/",
+      "published": "2026-11-25"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Amazon'un ABD'deki Review Requests formatında alışverişçinin puan veya yorum bırakması ücretli tıklama sayılıyor; 1.000 yorumu geçen ürünlerde reklam otomatik duruyor.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/amazon-counts-a-shoppers-rating-as-the-click-advertisers-pay-for/",
+      "published": "2026-11-25"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Amazon Autos 2027 başında İngiltere'de açılıyor; ABD dışındaki ilk pazarda lansman ortakları Hyundai ve Vertu Motors.",
+      "source": "PPC Land (Amazon UK duyurusu)",
+      "url": "https://ppc.land/amazon-autos-to-list-hyundai-cars-in-the-uk-from-early-2027",
+      "published": "2026-11-25"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "Google, ABD'de aday ve görevlilerin partiye ve kampanyaya atıf yapmayan ticari reklamlarını seçim reklamı doğrulama kurallarından muaf tuttu.",
+      "source": "PPC Land (Google reklam politikası)",
+      "url": "https://ppc.land/google-frees-us-candidates-business-ads-from-election-ad-rules/",
+      "published": "2026-11-25"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "Google'ın 19 Kasım'da yayımlanan patent başvurusu, izleyiciyi içeriğe yerleştiren ve araya reklam eklenebilen yapay zekâ TV kanalını tarif ediyor; ürün duyurusu yok.",
+      "source": "PPC Land (USPTO yayını)",
+      "url": "https://ppc.land/google-patent-describes-an-ai-tv-channel-that-stars-the-viewer/",
+      "published": "2026-11-25"
+    },
+    {
+      "layer": "Reklam pazarı ve para",
+      "region": "Türkiye",
+      "text": "Süper Lig yayın ihalesinde teklifler 30 Kasım 14.00-14.10'da Riva'da alınacak; Fotomaç beş kurumu adıyla sayıyor, altıncısı netleşmedi.",
+      "source": "Fotomaç",
+      "url": "https://www.fotomac.com.tr/haberler/2026/11/17/super-lig-yayin-ihalesi-ne-zaman-2027-kimler-katilacak",
+      "published": "2026-11-17"
+    }
+  ],
+  "matchesWindow": "26-29 Kasım 2026",
+  "matches": [
+    {
+      "date": "2026-11-26",
+      "time": "20:45",
+      "sport": "Futbol",
+      "competition": "UEFA Avrupa Ligi, 5. hafta",
+      "home": "Hapoel Beer-Sheva",
+      "away": "Beşiktaş",
+      "broadcaster": "TRT 1",
+      "source": "https://ajansspor.com/haber/besiktas-hapoel-beer-sheva-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-739386",
+      "note": "Batum'da (Gürcistan). Yayıncı Ajansspor ve günlük yayın akışında aynı; UEFA ve TRT sayfası açılmadı."
+    },
+    {
+      "date": "2026-11-26",
+      "time": "22:00",
+      "sport": "Basketbol",
+      "competition": "FIBA 2027 Dünya Kupası Avrupa Elemeleri",
+      "home": "İtalya",
+      "away": "Türkiye",
+      "broadcaster": "TRT Spor, S Sport",
+      "source": "https://www.aa.com.tr/tr/spor/a-milli-erkek-basketbol-takimi-dunya-kupasi-elemelerinde-yarin-italyaya-konuk-olacak/4136606",
+      "note": "Dünkü kontrol: AA ve Spor Ekranı aynı; bugün TBF açılmadı.",
+      "tags": [
+        "Millî maç"
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "time": "23:00",
+      "sport": "Futbol",
+      "competition": "UEFA Konferans Ligi, 4. hafta",
+      "home": "CSKA Sofya",
+      "away": "Trabzonspor",
+      "broadcaster": "TRT 1",
+      "source": "https://www.gazetevatan.com/galeri/cska-sofya-trabzonspor-maci-ne-zaman-saat-kacta-hangi-kanalda-uefa-konferans-ligi-2468505",
+      "note": "Saat ve yayıncı Gazete Vatan ve Haber61'de aynı; UEFA sayfası açılmadı."
+    },
+    {
+      "date": "2026-11-29",
+      "time": null,
+      "sport": "Basketbol",
+      "competition": "FIBA 2027 Dünya Kupası Avrupa Elemeleri",
+      "home": "Türkiye",
+      "away": "İzlanda",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/team/turkiye",
+      "note": "Spor Ekranı 19.00 ve S Sport diyor; tek kaynak, TBF açılmadı.",
+      "tags": [
+        "Millî maç"
+      ]
+    }
+  ],
+  "highlights": [
+    "ChatGPT reklam raporlarına Reach ve Frequency dahil dokuz kitle metriği eklendi.",
+    "Amazon DSP, Netflix reklamını izleyenlerin satın alma ve dönüşümlerini raporlayacak.",
+    "Efsane Cuma yarın: indirim reklamında önceki fiyat son 10 günün en düşüğü olmalı."
+  ],
+  "watchlist": [
+    "30 Kasım TFF yayın ihalesi teklifleri (14.00-14.10, Riva) ve kazanan.",
+    "30 Kasım pazartesi 21.00 Beşiktaş–Galatasaray derbisi: yayıncı ve TFF teyidi (pazartesi paneli).",
+    "27 Kasım Efsane Cuma: Ticaret Bakanlığı denetim açıklaması ve e-ticaret hacim verileri.",
+    "NOW ve Kanal D'nin perşembe 20.00 kuşağına koyacağı yeni yapım; Haysiyet finali ve Susuz Yaz başlangıcı için Kanal D duyurusu.",
+    "ChatGPT reklam metriklerinin tanımları ve Business Agents'ın açılacağı pazarlar.",
+    "Aralık başı ajans reklam harcama tahminleri (WPP Media, Magna, Dentsu)."
+  ],
+  "limitations": [
+    "Bu sabah WebFetch izin/zaman aşımı hatası nedeniyle yedi kanalın resmî yayın akışı açılmadı; TV kartı derleme sitelerine dayanıyor, TV dizi takvimi değiştirilmedi ve checked tarihleri ilerletilmedi.",
+    "Spor resmî kaynakları (TFF, TBF, TVF, UEFA, EuroLeague, VolleyStation, yayıncı siteleri) açılmadı. EuroLeague bu haftaki Türk takımı maçları ve Sultanlar Ligi hafta sonu programı doğrulanamadı; panelde yok. Süper Lig 14. haftasında 26-29 Kasım arasında derbi bulunamadı.",
+    "Türkiye sektör siteleri (MediaCat, Marketing Türkiye, Campaign TR) ana sayfaları ve Resmî Gazete 26 Kasım açılmadı; pencere içinde doğrulanmış ajans/konkur, RTÜK kararı veya Reklamcılar Derneği 9 ay verisi bulunamadı.",
+    "Rakip izleme: şirketlerin kendi sayfaları açılmadı; marka adlarıyla aramada pencere içi yeni çikolata gelişmesi bulunamadı (ETİ Deniz Baysal filmi 13 Kasım'da yazıldı; Ülker Afra Saraçoğlu filminin yayın tarihi doğrulanamadı).",
+    "Tüketici ve ekonomi katmanında pencere içinde yeni resmî veri bulunamadı.",
+    "Dijital gündem: Google Trends, Netflix Top 10 ve platform haber odaları açılmadı; doğrulanmış öğe olmadığı için şerit yok.",
+    "Media Guru'larından Notlar: kaynaklara erişilemedi (unreachable); yeni çalışma olmadığı anlamına gelmez, panel yok.",
+    "Global haberlerin tamamı PPC Land'den; Avrupa dışı, Latin Amerika ve Asya'dan pencere içi doğrulanmış haber bulunamadı.",
+    "Yaratıcı mecra vakası kategori dışı (deterjan) ve 2018 tarihli; güçlü ve yeni bir çikolata vakası doğrulanamadı.",
+    "1 ana haberde (TV akışı) görsel eklenmedi."
+  ],
+  "corrections": [
+    "25 Kasım maç panelinde 26 Kasım 23.00 CSKA Sofya–Trabzonspor (UEFA Konferans Ligi, TRT 1) eksikti; dün 'Konferans Ligi'nde Türk takımı bulunamadı' yazılmıştı. Bu sayıda panele eklendi."
+  ]
+}

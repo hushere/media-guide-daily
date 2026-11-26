@@ -1,6 +1,21 @@
 {
   "bulletins": [
     {
+      "date": "2026-11-26",
+      "title": "ChatGPT erişim ve frekansla raporluyor, Netflix reklamı Amazon'da satışa bağlanıyor; Efsane Cuma öncesi indirim kuralı",
+      "summary": "Gece gelen platform haberlerinde iki eğilim öne çıkıyor: ChatGPT reklamları erişim-frekans diline geçiyor, Amazon Netflix izlenmesini alışverişe bağlıyor. Türkiye'de yarın Efsane Cuma; indirim reklamlarında Bakanlık kuralları geçerli, bu akşam TRT 1 iki Avrupa maçı yayınlıyor.",
+      "edition": "selection",
+      "articleCount": 7,
+      "categories": [
+        "Ajans & Marka",
+        "Dijital & AI",
+        "TV & Entertainment",
+        "Yaratıcı Mecra",
+        "Ölçüm & Araştırma"
+      ],
+      "review": "approved"
+    },
+    {
       "date": "2026-11-25",
       "title": "TFF yayın ihalesine beş gün, Walmart'ta AI ajanı, CTV'de sahte trafik",
       "summary": "Süper Lig'in 2027 sonrası yayın hakları 30 Kasım'da satılıyor; Walmart Meta'nın alışveriş ajanına kapıyı açtı, CTV'de günde 40 milyar sahte istek raporlandı. Kasım güveni yükseldi, Reklam Kurulu indirim reklamlarını cezalandırdı.",
