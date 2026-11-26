@@ -9,7 +9,7 @@
     "writer": "Claude"
   },
   "review": {
-    "status": "approved",
+    "status": "approved_with_changes",
     "reviewer": "Claude",
     "reviewedAt": "2026-11-26T07:59+03:00",
     "summary": "Bu sabah alt ajanların WebFetch çağrılarının çoğu izin/zaman aşımı hatası verdi: yedi kanalın resmî akışı, Birsen Altuntaş, TFF, TBF, TVF, UEFA, EuroLeague, VolleyStation, S Sport Plus, beIN, TRT Spor, MediaCat/Marketing Türkiye/Campaign TR ana sayfaları, Resmî Gazete, Google Trends ve Netflix Top 10 açılamadı. Arama sonucundan açılan sayfalar kullanıldı. Resmî kaynakla teyit edilen: Ticaret Bakanlığı indirim kuralları (28 Ekim), D&AD ve Effie vaka sayfaları. İkincil: global haberler PPC Land aktarımı (birincil Amazon, OpenAI, Vermont belgeleri doğrudan açılmadı), TV akışı üç derleme sitesi, maç yayıncıları iki bağımsız haber kaynağı. Çıkarılanlar: ETİ Deniz Baysal filmi (13 Kasım'da kullanıldı), Ülker Afra Saraçoğlu filmi (yayın tarihi yok), Nestlé 1927 bülteni (2019), 158 milyar TL dijital yatırım haberi (2024 verisi), PwC Efsane Cuma anketi (daha önce kullanıldı), Tide satış rakamları (tek ikincil kaynak)."
@@ -229,7 +229,7 @@
         "İndirim öncesi fiyat, kampanyadan önceki 10 günün en düşük fiyatı olmalı; başlangıç ve bitiş tarihi yazılmalı.",
         "'%70 + %10 + %5' gibi birleşik oranların birlikte gösterilmesi yaptırım örnekleri arasında sayılıyor.",
         "Trendyol peşin fiyatına 3 ve 6 taksit ile Amazon'un Kasım kampanyası 30 Kasım'a kadar sürüyor (İndigo, 4 Kasım).",
-        "Reklam Kurulu 25 Kasım'da yanıltıcı indirim reklamına ceza vermişti (önceki sayı)."
+        "Reklam Kurulu 12 Kasım toplantısında (duyuru 17 Kasım) bir perakendeciye yanıltıcı indirim reklamı cezası vermişti (önceki sayı)."
       ],
       "impact": "Veri böyle: kural ve ceza aralığı belli, kampanya dönemi 30 Kasım'a kadar uzuyor. Bizim okumamız: Efsane Cuma reklamlarında fiyat iddiası hem satış hem hukuk kalemi; marka ve perakende ortaklarının kreatiflerindeki 'önceki fiyat' ve oran dili son kez kontrol edilmeli. Tüketici tarafında fiyat geçmişine bakma alışkanlığı güçleniyor.",
       "action": "Yarın yayına girecek indirim kreatiflerinde önceki fiyat dayanağını, kampanya tarihlerini ve birleşik oran kullanımını yayın öncesi kontrol listesine ekleyin.",
@@ -268,8 +268,8 @@
       "label": "Haber kaynaklı",
       "summary": "Bu akşam TRT 1 Beşiktaş ve Trabzonspor'un Avrupa maçlarını arka arkaya yayınlıyor; NOW'da 20.00 kuşağında Yeraltı var, Halef bitti.",
       "body": [
-        "TRT 1: 20.45 Hapoel Beer-Sheva–Beşiktaş (Avrupa Ligi, Batum), 23.00 CSKA Sofya–Trabzonspor (Konferans Ligi).",
-        "NOW: 20.00 Yeraltı, 22.45 Ömür Usta; Halef 25 Kasım'da 43. bölümle bitmişti (önceki sayı).",
+        "TRT 1: 20.45 Beşiktaş–Hapoel Beer-Sheva (Avrupa Ligi, Batum), 23.00 CSKA Sofya–Trabzonspor (Konferans Ligi).",
+        "NOW: 20.00 Yeraltı, 22.45 Ömür Usta; Halef 19 Kasım'da 43. bölümle bitmişti (önceki sayı).",
         "Kanal D: 20.00 ve 22.00 İngiliz Anahtarı: Recep Usta ('TV'de ilk' film), 23.45 Uzak Şehir.",
         "ATV Güneşin Doğduğu Yer, Star Sevdiğim Sensin, Show Muhtemel Aşk, TV8 MasterChef 20.00'de; yeni bölüm notu derlemelerde.",
         "Kaynak: üç günlük yayın akışı derlemesi; yedi kanalın resmî akışı bu sabah açılamadı."
@@ -416,11 +416,11 @@
       "time": "20:45",
       "sport": "Futbol",
       "competition": "UEFA Avrupa Ligi, 5. hafta",
-      "home": "Hapoel Beer-Sheva",
-      "away": "Beşiktaş",
+      "home": "Beşiktaş",
+      "away": "Hapoel Beer-Sheva",
       "broadcaster": "TRT 1",
       "source": "https://ajansspor.com/haber/besiktas-hapoel-beer-sheva-maci-ne-zaman-hangi-kanalda-muhtemel-11ler-sakat-ve-cezalilar-739386",
-      "note": "Batum'da (Gürcistan). Yayıncı Ajansspor ve günlük yayın akışında aynı; UEFA ve TRT sayfası açılmadı."
+      "note": "Batum'da (Gürcistan) tarafsız sahada; ev sahibi Beşiktaş. Yayıncı Ajansspor ve günlük yayın akışında aynı; UEFA ve TRT sayfası açılmadı."
     },
     {
       "date": "2026-11-26",
@@ -488,6 +488,9 @@
     "1 ana haberde (TV akışı) görsel eklenmedi."
   ],
   "corrections": [
-    "25 Kasım maç panelinde 26 Kasım 23.00 CSKA Sofya–Trabzonspor (UEFA Konferans Ligi, TRT 1) eksikti; dün 'Konferans Ligi'nde Türk takımı bulunamadı' yazılmıştı. Bu sayıda panele eklendi."
+    "25 Kasım maç panelinde 26 Kasım 23.00 CSKA Sofya–Trabzonspor (UEFA Konferans Ligi, TRT 1) eksikti; dün 'Konferans Ligi'nde Türk takımı bulunamadı' yazılmıştı. Bu sayıda panele eklendi.",
+    "Yayın sonrası düzeltme (10:45): Beşiktaş'ın Avrupa Ligi maçında ev sahibi Beşiktaş (Batum'da tarafsız sahada); maç paneli ve TV kartında takım sırası 'Beşiktaş–Hapoel Beer-Sheva' olarak düzeltildi (TRT Haber/AA, Milli Gazete).",
+    "Yayın sonrası düzeltme (10:45): TV kartında Halef'in final tarihi 25 Kasım değil 19 Kasım (43. bölüm) olarak düzeltildi (önceki sayı, Televizyon Gazetesi).",
+    "Yayın sonrası düzeltme (10:45): Efsane Cuma kartında Reklam Kurulu cezasının tarihi 25 Kasım değil; karar 12 Kasım toplantısında alındı, 17 Kasım'da duyuruldu (önceki sayı, Alomaliye)."
   ]
 }
