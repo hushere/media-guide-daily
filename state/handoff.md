@@ -1,10 +1,10 @@
 # Devir notu (bir sonraki çalışmanın hafızası)
 
-Son güncelleme: 26 Kasım 2026 08:25, Claude (bülten 2026-11-26)
+Son güncelleme: 26 Kasım 2026 08:00, Claude (bülten 2026-11-26)
 
 ## 1. Pencere
 - **25 Kasım 2026 (kullanıcı kararı):** Proje 16-25 Kasım arası donduruldu, bu arada bülten çıkmadı. Yeni bülten **16-25 Kasım arasını tek tek taramaz**: pencere **24 Kasım 2026 08:00 TSİ**'den bugünkü kesime kadardır. Daha eski gelişmeleri yalnız hâlâ güncel ve önemliyse tek maddede an, `limitations` içine "16-24 Kasım taranmadı (proje donduruldu)" yaz. İlk bülten 25 Kasım (çarşamba) elle başlatıldı, 26 Kasım'dan itibaren zamanlanmış görev devam eder.
-- **Son bülten: 2026-11-26 (perşembe)** | Claude, 5 alt ajan + 4 web-fetch turu; 7 ana + 6 sinyal + 4 maç, social/gurus yok, **seçki**; bilgi kesimi **26 Kasım 2026 08:05 TSİ**. **27 Kasım cuma penceresi buradan başlar** (cuma: sinema + weekly).
+- **Son bülten: 2026-11-26 (perşembe)** | Claude, 5 alt ajan + 4 web-fetch turu; 7 ana + 6 sinyal + 4 maç, social/gurus yok, **seçki**; bilgi kesimi **26 Kasım 2026 07:57 TSİ**. **27 Kasım cuma penceresi buradan başlar** (cuma: sinema + weekly).
 - 2026-11-25 (çarşamba) | 8 ana + 6 sinyal + social (5), seçki; kesim 25 Kasım 12:30 (elle başlatılan geç çalışma).
 - 2026-11-16 (pzt) | Claude, 5 alt ajan; 5 ana + 4 sinyal, **seçki**; bilgi kesimi **16 Kasım 2026 08:05 TSİ**. Salı penceresi buradan başlar.
 - 2026-11-13 (cuma) | Claude, 6 alt ajan; 7 ana + 4 sinyal + weekly, **seçki**; bilgi kesimi **13 Kasım 2026 08:05 TSİ**. Pazartesi 16 Kasım penceresi buradan başlar (pazartesi: TV tablosu tam karşılaştırma).

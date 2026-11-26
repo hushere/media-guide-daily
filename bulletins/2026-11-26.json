@@ -3,7 +3,7 @@
   "title": "ChatGPT erişim ve frekansla raporluyor, Netflix reklamı Amazon'da satışa bağlanıyor; Efsane Cuma öncesi indirim kuralı",
   "summary": "Gece gelen platform haberlerinde iki eğilim öne çıkıyor: ChatGPT reklamları erişim-frekans diline geçiyor, Amazon Netflix izlenmesini alışverişe bağlıyor. Türkiye'de yarın Efsane Cuma; indirim reklamlarında Bakanlık kuralları geçerli, bu akşam TRT 1 iki Avrupa maçı yayınlıyor.",
   "edition": "selection",
-  "window": "25 Kasım 2026 12:30 – 26 Kasım 2026 08:05 TSİ (Claude araştırması 07:38-08:05; 5 alt ajan + 4 sayfa okuma turu)",
+  "window": "25 Kasım 2026 12:30 – 26 Kasım 2026 07:57 TSİ (Claude araştırması 07:38-07:57; 5 alt ajan + 4 sayfa okuma turu)",
   "status": "published",
   "source": {
     "writer": "Claude"
@@ -11,7 +11,7 @@
   "review": {
     "status": "approved",
     "reviewer": "Claude",
-    "reviewedAt": "2026-11-26T08:20+03:00",
+    "reviewedAt": "2026-11-26T07:59+03:00",
     "summary": "Bu sabah alt ajanların WebFetch çağrılarının çoğu izin/zaman aşımı hatası verdi: yedi kanalın resmî akışı, Birsen Altuntaş, TFF, TBF, TVF, UEFA, EuroLeague, VolleyStation, S Sport Plus, beIN, TRT Spor, MediaCat/Marketing Türkiye/Campaign TR ana sayfaları, Resmî Gazete, Google Trends ve Netflix Top 10 açılamadı. Arama sonucundan açılan sayfalar kullanıldı. Resmî kaynakla teyit edilen: Ticaret Bakanlığı indirim kuralları (28 Ekim), D&AD ve Effie vaka sayfaları. İkincil: global haberler PPC Land aktarımı (birincil Amazon, OpenAI, Vermont belgeleri doğrudan açılmadı), TV akışı üç derleme sitesi, maç yayıncıları iki bağımsız haber kaynağı. Çıkarılanlar: ETİ Deniz Baysal filmi (13 Kasım'da kullanıldı), Ülker Afra Saraçoğlu filmi (yayın tarihi yok), Nestlé 1927 bülteni (2019), 158 milyar TL dijital yatırım haberi (2024 verisi), PwC Efsane Cuma anketi (daha önce kullanıldı), Tide satış rakamları (tek ikincil kaynak)."
   },
   "attitudeRadar": {
