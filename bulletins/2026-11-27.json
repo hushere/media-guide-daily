@@ -9,10 +9,11 @@
     "writer": "Claude"
   },
   "review": {
-    "status": "approved",
+    "status": "approved_with_changes",
     "reviewer": "Claude",
     "reviewedAt": "2026-11-27T08:15+03:00",
-    "summary": "Resmî kaynakla teyit edilen: Menekşe'nin 30 Kasım 16.30 başlangıcı (Show TV fragman sayfası), Kanal D cuma ve cumartesi akışı, Netflix Türkiye Top 10 (Tudum), Paribu Cineverse vizyon tarihleri ve Box Office Türkiye Aralık takvimi. Açılamayan (izin/zaman aşımı): ATV, NOW, Star, TRT 1, TV8 akışları, Birsen Altuntaş, TFF, TBF, TVF, VolleyStation, S Sport Plus, beIN, TRT Spor, Google Trends TR, Digiday asıl makalesi, Campaign TR ana sayfa; bestmediainfo ve proballers site hatası. İkincil: global haberler PPC Land, ExchangeWire, Digital Commerce 360 ve Digiday aktarımı; maç saatleri iki haber kaynağı, yayıncılar tek kaynak (null). Çıkarılanlar: PwC Efsane Cuma 2026 anketi (26 Ekim'de kullanıldı), Omnicom–Adidas (Haziran 2026), Ampersand devri (20 Kasım, PPC dışı tek özet), Pixalate 'Mayfly' (yalnız özet yazıda), RTÜK Yemekteyiz cezası (sayfa açılmadı), Tony's Chocolonely TV filmi (mecra fikri yok), eski yıl Efsane Cuma hacim haberleri."
+    "summary": "Resmî kaynakla teyit edilen: Menekşe'nin 30 Kasım 16.30 başlangıcı (Show TV fragman sayfası), Kanal D cuma ve cumartesi akışı, Netflix Türkiye Top 10 (Tudum), Paribu Cineverse vizyon tarihleri ve Box Office Türkiye Aralık takvimi. Açılamayan (izin/zaman aşımı): ATV, NOW, Star, TRT 1, TV8 akışları, Birsen Altuntaş, TFF, TBF, TVF, VolleyStation, S Sport Plus, beIN, TRT Spor, Google Trends TR, Digiday asıl makalesi, Campaign TR ana sayfa; bestmediainfo ve proballers site hatası. İkincil: global haberler PPC Land, ExchangeWire, Digital Commerce 360 ve Digiday aktarımı; maç saatleri iki haber kaynağı, yayıncılar tek kaynak (null). Çıkarılanlar: PwC Efsane Cuma 2026 anketi (26 Ekim'de kullanıldı), Omnicom–Adidas (Haziran 2026), Ampersand devri (20 Kasım, PPC dışı tek özet), Pixalate 'Mayfly' (yalnız özet yazıda), RTÜK Yemekteyiz cezası (sayfa açılmadı), Tony's Chocolonely TV filmi (mecra fikri yok), eski yıl Efsane Cuma hacim haberleri.",
+    "reportPath": "reviews/2026-11-27.md"
   },
   "attitudeRadar": {
     "note": "Günün haberlerinden okunan işaretler; ölçülmüş eğilim değildir.",
@@ -29,7 +30,7 @@
       },
       {
         "tag": "fiyat duyarlılığı",
-        "text": "İndirim haftasında bütçe retail media ve aramaya kayıyor, derin indirim yapan markalar gelirde öne çıkıyor; fiyat iletişimi kreatifin önüne geçiyor.",
+        "text": "İndirim haftasında bütçe retail media ve aramaya kayıyor, ürünlerinin çoğunda indirim yapan markalar gelirde öne çıkıyor; fiyat iletişimi kreatifin önüne geçiyor.",
         "basis": "İşaret",
         "recurrence": "Tekrar ediyor",
         "refs": [
@@ -38,7 +39,7 @@
       },
       {
         "tag": "prime-time yeniden dağılım",
-        "text": "Menekşe gündüz kuşağına giriyor; salı akşamı Haysiyet finali, Susuz Yaz ve Hamal konuşuluyor. Aralık'ın ilk yarısında kanal programları yeniden kuruluyor.",
+        "text": "Menekşe gündüz kuşağına giriyor; Kanal D salıya Susuz Yaz'ı alıp Haysiyet'i perşembeye taşıyor, Hamal konuşuluyor. Aralık'ın ilk yarısında kanal programları yeniden kuruluyor.",
         "basis": "İşaret",
         "recurrence": "Tekrar ediyor",
         "refs": [
@@ -78,7 +79,7 @@
     "open": [
       "TFF yayın ihalesinin sonucu ve kazanan (30 Kasım).",
       "Beşiktaş–Galatasaray (30 Kasım 21.00) yayıncısının resmî teyidi.",
-      "Haysiyet finali (8 Aralık?), Susuz Yaz (1 Aralık?) ve Hamal (15 Aralık?) için kanal duyuruları.",
+      "Haysiyet'in perşembe kuşağındaki final tarihi ve Hamal (15 Aralık?) için kanal duyuruları.",
       "ChatGPT reklam metriklerinin tanımları ve Türkiye'de açılıp açılmayacağı.",
       "Aralık başı ajans reklam harcama tahminleri (WPP Media, Magna, Dentsu)."
     ]
@@ -95,15 +96,15 @@
       "label": "Kanal teyitli",
       "summary": "Show TV, yeni günlük dizisi Menekşe'nin 30 Kasım pazartesiden itibaren hafta içi her gün 16.30'da yayınlanacağını kendi sayfasında duyurdu.",
       "body": [
-        "Önceki bilgi: 19 Ekim'de Menekşe duyurulmuştu, başlangıç tarihi yoktu (önceki sayı).",
+        "Önceki bilgi: 16 Ekim'de Menekşe duyurulmuştu, başlangıç tarihi yoktu (19 Ekim sayısı).",
         "Güncel durum: 30 Kasım pazartesiden itibaren hafta içi her gün 16.30, Show TV (resmî fragman sayfası, 25 Kasım).",
         "Başrollerde Güz Bozkurt ve Batuhan Demir; yapım Limon Yapım (Show TV sayfası, Yorumla).",
         "Haber kaynaklı: ATV'nin Hamal'ı 15 Aralık salı başlıyor; saat yok, Sözcü atıflı (Maxi Magazin, 25 Kasım).",
-        "Haber kaynaklı: Kanal D'de Haysiyet finali 8 Aralık, Susuz Yaz 1 Aralık salı 'bekleniyor' (Televizyon Gazetesi, 23 Kasım)."
+        "Kanal D, Susuz Yaz'ın 1 Aralık salı 20.00'de başlayacağını tarihli fragmanla duyurdu; Haysiyet 3 Aralık'tan perşembe 20.00'de (Onedio, Televizyon Gazetesi)."
       ],
       "impact": "Veri böyle: gündüz kuşağına kanal teyitli yeni bir günlük dizi giriyor; salı akşamı için iki yeni yapım konuşuluyor. Bizim okumamız: Aralık'ın ilk yarısında hem 16.30 hem salı 20.00 kuşağında izleyici yeniden dağılacak; ev kadını ve gündüz izleyicisine yönelik markalar için yeni bir sabit kuşak açılıyor.",
       "action": "Show TV'den Menekşe'nin ilk iki haftası için kuşak fiyatı ve sponsorluk seçeneklerini isteyin; salı 20.00 planlarını Kanal D ve ATV'nin resmî duyurusuna kadar esnek tutun.",
-      "counterView": "Günlük dizilerde ilk haftalar sık değişir; Hamal, Haysiyet ve Susuz Yaz tarihleri kanal açıklaması değil haber kaynaklıdır, Susuz Yaz'ın 1 Aralık ve Haysiyet'in 8 Aralık finali aynı salı kuşağında çelişiyor.",
+      "counterView": "Günlük dizilerde ilk haftalar sık değişir; Hamal tarihi kanal açıklaması değil haber kaynaklıdır; perşembeye taşınan Haysiyet'in final tarihi açıklanmadı.",
       "sources": [
         {
           "name": "Show TV • Menekşe 1. Bölüm 3. Fragmanı",
@@ -130,6 +131,20 @@
           "name": "Televizyon Gazetesi • Haysiyet final yapıyor, Susuz Yaz ne zaman başlayacak?",
           "url": "https://televizyongazetesi.com/haysiyet-final-yapiyor-susuz-yaz-ne-zaman-baslayacak/264407",
           "published": "23 Kasım 2026 15:58",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Onedio • Susuz Yaz tarihli fragman: 1 Aralık Salı Kanal D",
+          "url": "https://onedio.com/haber/haysiyet-final-karari-alinca-sali-aksamlari-susuz-yaz-a-emanet-edildi-tarihli-fragman-geldi-1397137",
+          "published": "24 Kasım 2026 23:08",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Televizyon Gazetesi • Susuz Yaz başlıyor, Haysiyet perşembeye taşındı",
+          "url": "https://televizyongazetesi.com/susuz-yaz-ne-zaman-basliyor-haysiyet-yayin-gunu-degisti/264861",
+          "published": "25 Kasım 2026 15:15",
           "country": "Türkiye",
           "language": "Türkçe"
         }
@@ -240,7 +255,7 @@
         "1-22 Kasım online harcama 82,5 milyar dolar, yıllık +%9,1 (Adobe, Digital Commerce 360 aktarımı).",
         "Tahmin: Black Friday 12,9 milyar dolar (+%9,2), Cyber Monday 15,1 milyar dolar, Cyber 5 toplamı 47,5 milyar dolar.",
         "Üretken yapay zekâ kaynaklı perakende sitesi ziyaretleri +%127; Cyber 5 için +%110 bekleniyor.",
-        "Şimdi al sonra öde harcaması 6,1 milyar dolar (+%6,5) tahmini."
+        "Şimdi al sonra öde ile yapılan online alışveriş şimdiye kadar 6,1 milyar dolar (+%6,5); tahmin değil, gerçekleşen veri."
       ],
       "impact": "Veri böyle: harcama büyüyor ama alışverişçinin bir kısmı artık siteye arama ya da reklam yerine yapay zekâ asistanından geliyor. Bizim okumamız: Efsane Cuma'da Türkiye'de de fiyat karşılaştırma ve asistan kullanımı artıyorsa, ürün bilgisinin bu araçlarda doğru görünmesi reklam kadar önemli hale geliyor.",
       "action": "Efsane Cuma sonrası raporunuza, perakende sitelerine yapay zekâ asistanlarından gelen trafiği ayrı bir satır olarak ekletin.",
@@ -275,11 +290,11 @@
         "Artışın büyük kısmı retail media (özellikle Amazon), arama, CTV ve YouTube'a gidiyor (Digiday, beş medya alıcısı).",
         "Tinuiti: müşteriler Google'a %11-15 daha fazla harcıyor; Demand Gen ve Performance Max %30 arttı.",
         "AdCellerant: Kasım'da bazı bölgelerde CTV CPM'leri %18'e kadar yüksek.",
-        "PMG: ürünlerin %75'inde indirim yapan markalarda gelir %16 arttı, %25 ve altında indirim yapanlarda %11 düştü."
+        "PMG: Ekim'de ürün yelpazesinin %75'inde indirim yapan markalarda gelir %16 arttı, %25 veya azında yapanlarda %11 düştü."
       ],
       "impact": "Veri böyle: ABD'de indirim haftasında bütçe performans ve perakende kanallarına kayıyor, CTV fiyatı da yükseliyor. Bizim okumamız: Efsane Cuma haftasında Türkiye'de de pazar yeri reklamı ve arama fiyatları yükselir; marka bilinirliği bütçesini bu haftaya sıkıştırmak pahalıya patlayabilir.",
       "action": "Efsane Cuma haftasının arama ve pazar yeri CPC'lerini önceki iki haftayla karşılaştırın; bilinirlik bütçesini Aralık başına kaydırmayı değerlendirin.",
-      "counterView": "Rakamlar beş ajans yöneticisinin beyanı ve satıcı verisidir, ABD'ye aittir; PMG'nin indirim-gelir ilişkisi nedensellik değil, derin indirim yapan markalar zaten farklı olabilir.",
+      "counterView": "Rakamlar beş ajans yöneticisinin beyanı ve satıcı verisidir, ABD'ye aittir; PMG'nin indirim-gelir ilişkisi nedensellik değil, ürünlerinin çoğunda indirim yapan markalar zaten farklı olabilir.",
       "sources": [
         {
           "name": "Digiday • Brands boost Black Friday CTV, retail and search spending",
@@ -509,7 +524,7 @@
     "30 Kasım 14.00 TFF yayın ihalesi teklifleri ve sonucu.",
     "30 Kasım 21.00 Beşiktaş–Galatasaray: TFF ve yayıncı teyidi.",
     "Efsane Cuma sonrası Türkiye e-ticaret hacim açıklamaları ve Ticaret Bakanlığı denetim sonuçları.",
-    "Kanal D salı kuşağı: Susuz Yaz başlangıcı ve Haysiyet finali için resmî tarih.",
+    "Kanal D: Susuz Yaz'ın 1 Aralık açılışı ve perşembeye taşınan Haysiyet'in final tarihi.",
     "1 Aralık Character.ai açık artırması ve sohbet verisinin akıbeti.",
     "Aralık başı ajans reklam harcama tahminleri (WPP Media, Magna, Dentsu)."
   ],
@@ -526,6 +541,9 @@
     "16-24 Kasım taranmadı (proje donduruldu); 1 ana haberde (JustWatch) konuyla ilgili görsel bulunamadığı için görsel eklenmedi."
   ],
   "corrections": [
-    "26 Kasım maç panelinde Türkiye–İzlanda için saat teyitsiz bırakılmıştı; saat 19.00 Spor Ekranı ve A Spor'da aynı olduğu için bu sayıda panele yazıldı (yayıncı hâlâ teyitsiz)."
+    "26 Kasım maç panelinde Türkiye–İzlanda için saat teyitsiz bırakılmıştı; saat 19.00 Spor Ekranı ve A Spor'da aynı olduğu için bu sayıda panele yazıldı (yayıncı hâlâ teyitsiz).",
+    "Yayın sonrası düzeltme (10:45): Menekşe kartı ve Radar'da Kanal D bilgisi eskiydi. Kanal D 24 Kasım'da Susuz Yaz'ın 1 Aralık salı 20.00'de başlayacağını tarihli fragmanla duyurdu; Haysiyet 3 Aralık'tan itibaren perşembe 20.00'ye taşındı, '8 Aralık salı finali' ve 'çelişki' ifadeleri kaldırıldı (Onedio 24 Kasım, Televizyon Gazetesi 25 Kasım). Menekşe ilk duyurusu 16 Ekim'di (19 Ekim sayısı), '19 Ekim' düzeltildi.",
+    "Yayın sonrası düzeltme (10:45): Adobe kartında şimdi al sonra öde 6,1 milyar dolar (+%6,5) tahmin değil gerçekleşen veridir (Digital Commerce 360, 25 Kasım).",
+    "Yayın sonrası düzeltme (10:45): PMG verisi indirim derinliğini değil ürün yelpazesinin indirimli payını ölçüyor (%75 / %25 ve altı, Ekim geliri); Black Friday kartı ve Radar 'derin indirim' ifadesi düzeltildi (Digiday, 23 Kasım)."
   ]
 }
