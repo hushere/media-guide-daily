@@ -1,7 +1,7 @@
 {
  "title": "2026 TV Dizi Takvimi",
- "updated": "2026-11-25",
- "note": "Kayıtlar her gün kanalların resmî yayın akışı sayfalarından kontrol edilir (son kontrol 25 Kasım 2026; Star TV, ATV ve TRT 1 akışı doğrulanamadı). Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
+ "updated": "2026-11-27",
+ "note": "Kayıtlar her gün kanalların resmî yayın akışı sayfalarından kontrol edilir (son kontrol 27 Kasım 2026; yalnız Kanal D akışı ve Show TV program sayfası açıldı, diğer kanallar doğrulanamadı). Yeni bölümle yayındaki dizide yalnız saat görünür. Tekrar (TKR) veya yerine konan program gösterilir. Başlamayan diziler Yeni Dizi veya Yeni Sezon olarak, tarih yoksa 'Başlangıç tarihi açıklanmadı' ile durur.",
  "channels": [
   "ATV",
   "KANAL D",
@@ -91,7 +91,7 @@
    "title": "Beyaz'la Joker",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-25",
+   "checked": "2026-11-27",
    "source": "https://www.kanald.com.tr/yayin-akisi"
   },
   {
@@ -100,8 +100,8 @@
    "title": "Güller ve Günahlar",
    "status": "yayinda",
    "time": "20.00",
-   "checked": "2026-11-25",
-   "source": "https://www.kanald.com.tr/yayin-akisi"
+   "checked": "2026-11-27",
+   "source": "https://www.kanald.com.tr/yayin-akisi/cumartesi"
   },
   {
    "channel": "KANAL D",
@@ -205,12 +205,14 @@
   },
   {
    "channel": "SHOW TV",
-   "day": "Günü belirsiz",
+   "day": "Pazartesi",
    "title": "Menekşe",
    "status": "kanal-teyitli",
    "tag": "yeni",
-   "checked": "2026-11-02",
-   "source": "https://www.showtv.com.tr/dizi/fragman/menekse-yakinda-show-tvde-basliyor/135600"
+   "checked": "2026-11-27",
+   "source": "https://www.showtv.com.tr/dizi/fragman/menekse-1-bolum-3-fragmani/136419",
+   "time": "16.30",
+   "start": "2026-11-30"
   },
   {
    "channel": "NOW",
@@ -357,6 +359,16 @@
    "time": "20.00",
    "checked": "2026-11-04",
    "source": "https://www.tv8.com.tr/yayin-akisi/08-11-2026"
+  },
+  {
+   "channel": "ATV",
+   "day": "Cuma",
+   "title": "Altı Üstü İstanbul",
+   "status": "belirsiz",
+   "time": "20.00",
+   "checked": "2026-11-27",
+   "source": "https://www.gencgazete.net/27-kasim-2026-cuma-tv-yayin-akisi-bu-aksam-hangi-diziler-filmler-ve-yarismalar-var",
+   "note": "Haber kaynaklı; ATV resmî akışı açılmadı"
   }
  ]
 }

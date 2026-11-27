@@ -1,0 +1,531 @@
+{
+  "date": "2026-11-27",
+  "title": "Efsane Cuma'da asistan ve bütçe kayması; Menekşe 30 Kasım'da, Avengers ile Dune 18 Aralık'ta",
+  "summary": "Black Friday verisi iki şeyi gösteriyor: harcama büyüyor ve alışverişçinin bir kısmı yapay zekâ asistanından geliyor; Amazon da bu yüzden ChatGPT'de reklam alıyor. Türkiye'de Show TV'nin günlük dizisi Menekşe pazartesi başlıyor, JustWatch'a göre TV+ yükseliyor; sinemada 18 Aralık iki büyük filmi aynı güne topluyor.",
+  "edition": "selection",
+  "window": "26 Kasım 2026 07:57 – 27 Kasım 2026 08:05 TSİ (Claude araştırması 07:44-08:05; 6 alt ajan + 4 sayfa okuma turu)",
+  "status": "published",
+  "source": {
+    "writer": "Claude"
+  },
+  "review": {
+    "status": "approved",
+    "reviewer": "Claude",
+    "reviewedAt": "2026-11-27T08:15+03:00",
+    "summary": "Resmî kaynakla teyit edilen: Menekşe'nin 30 Kasım 16.30 başlangıcı (Show TV fragman sayfası), Kanal D cuma ve cumartesi akışı, Netflix Türkiye Top 10 (Tudum), Paribu Cineverse vizyon tarihleri ve Box Office Türkiye Aralık takvimi. Açılamayan (izin/zaman aşımı): ATV, NOW, Star, TRT 1, TV8 akışları, Birsen Altuntaş, TFF, TBF, TVF, VolleyStation, S Sport Plus, beIN, TRT Spor, Google Trends TR, Digiday asıl makalesi, Campaign TR ana sayfa; bestmediainfo ve proballers site hatası. İkincil: global haberler PPC Land, ExchangeWire, Digital Commerce 360 ve Digiday aktarımı; maç saatleri iki haber kaynağı, yayıncılar tek kaynak (null). Çıkarılanlar: PwC Efsane Cuma 2026 anketi (26 Ekim'de kullanıldı), Omnicom–Adidas (Haziran 2026), Ampersand devri (20 Kasım, PPC dışı tek özet), Pixalate 'Mayfly' (yalnız özet yazıda), RTÜK Yemekteyiz cezası (sayfa açılmadı), Tony's Chocolonely TV filmi (mecra fikri yok), eski yıl Efsane Cuma hacim haberleri."
+  },
+  "attitudeRadar": {
+    "note": "Günün haberlerinden okunan işaretler; ölçülmüş eğilim değildir.",
+    "items": [
+      {
+        "tag": "AI ajanlı alışveriş",
+        "text": "ABD'de yapay zekâ kaynaklı perakende ziyaretleri %127 arttı; Amazon asistanı içerik kaynağı olarak kapatıp ücretli trafik kanalı olarak kullanıyor.",
+        "basis": "Veri",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "adobe-tatil-harcamasi-ai-trafik-127",
+          "amazon-chatgpt-reklam-tarayici-engeli"
+        ]
+      },
+      {
+        "tag": "fiyat duyarlılığı",
+        "text": "İndirim haftasında bütçe retail media ve aramaya kayıyor, derin indirim yapan markalar gelirde öne çıkıyor; fiyat iletişimi kreatifin önüne geçiyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "black-friday-dijital-butce-yuzde-10-30"
+        ]
+      },
+      {
+        "tag": "prime-time yeniden dağılım",
+        "text": "Menekşe gündüz kuşağına giriyor; salı akşamı Haysiyet finali, Susuz Yaz ve Hamal konuşuluyor. Aralık'ın ilk yarısında kanal programları yeniden kuruluyor.",
+        "basis": "İşaret",
+        "recurrence": "Tekrar ediyor",
+        "refs": [
+          "menekse-30-kasim-aralik-yer-degisimi"
+        ]
+      },
+      {
+        "tag": "yerli SVOD yükselişi",
+        "text": "JustWatch Q3 verisinde TV+ çeyrekte en çok pay kazanan platform oldu, HBO Max yılda 15 puan kaybetti.",
+        "basis": "Veri",
+        "recurrence": "Yeni",
+        "refs": [
+          "justwatch-q3-turkiye-svod-paylari"
+        ]
+      }
+    ]
+  },
+  "weekly": {
+    "window": "23-27 Kasım 2026 (proje donduğu için 25-27 Kasım sayıları)",
+    "items": [
+      {
+        "title": "TFF'nin 5 sezonluk yayın ihalesi 30 Kasım'da",
+        "text": "Teklifler pazartesi 14.00-14.10'da alınacak; sonuç 2027-28'den itibaren Süper Lig'in hangi platformda ve hangi fiyatla satılacağını belirleyecek.",
+        "ref": "2026-11-25#tff-yayin-ihalesi-30-kasim"
+      },
+      {
+        "title": "ChatGPT reklamları erişim ve frekansla raporlanıyor",
+        "text": "Tekil kişi ve frekans metrikleri sohbet içi reklamı tıklama kanalından erişim planına aday yapıyor; bugün Amazon'un Black Friday için ChatGPT'de reklam aldığı da görüldü.",
+        "ref": "2026-11-26#chatgpt-reklam-reach-frequency"
+      },
+      {
+        "title": "Amazon DSP Netflix izleyicisini alışverişe bağlıyor",
+        "text": "Netflix reklamını izleyenlerin satın alma ve dönüşüm metrikleri CTV bütçesini performans diliyle savunmayı kolaylaştırıyor.",
+        "ref": "2026-11-26#amazon-dsp-netflix-satis-metrikleri"
+      }
+    ],
+    "open": [
+      "TFF yayın ihalesinin sonucu ve kazanan (30 Kasım).",
+      "Beşiktaş–Galatasaray (30 Kasım 21.00) yayıncısının resmî teyidi.",
+      "Haysiyet finali (8 Aralık?), Susuz Yaz (1 Aralık?) ve Hamal (15 Aralık?) için kanal duyuruları.",
+      "ChatGPT reklam metriklerinin tanımları ve Türkiye'de açılıp açılmayacağı.",
+      "Aralık başı ajans reklam harcama tahminleri (WPP Media, Magna, Dentsu)."
+    ]
+  },
+  "articles": [
+    {
+      "id": "menekse-30-kasim-aralik-yer-degisimi",
+      "title": "Show TV'nin günlük dizisi Menekşe 30 Kasım'da 16.30'da başlıyor; Aralık'ta prime time yenileniyor",
+      "region": "Türkiye",
+      "category": "TV & Entertainment",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "30 Kasım 2026 (Menekşe ilk bölüm); 1, 8 ve 15 Aralık 2026 (beklenen değişiklikler)",
+      "label": "Kanal teyitli",
+      "summary": "Show TV, yeni günlük dizisi Menekşe'nin 30 Kasım pazartesiden itibaren hafta içi her gün 16.30'da yayınlanacağını kendi sayfasında duyurdu.",
+      "body": [
+        "Önceki bilgi: 19 Ekim'de Menekşe duyurulmuştu, başlangıç tarihi yoktu (önceki sayı).",
+        "Güncel durum: 30 Kasım pazartesiden itibaren hafta içi her gün 16.30, Show TV (resmî fragman sayfası, 25 Kasım).",
+        "Başrollerde Güz Bozkurt ve Batuhan Demir; yapım Limon Yapım (Show TV sayfası, Yorumla).",
+        "Haber kaynaklı: ATV'nin Hamal'ı 15 Aralık salı başlıyor; saat yok, Sözcü atıflı (Maxi Magazin, 25 Kasım).",
+        "Haber kaynaklı: Kanal D'de Haysiyet finali 8 Aralık, Susuz Yaz 1 Aralık salı 'bekleniyor' (Televizyon Gazetesi, 23 Kasım)."
+      ],
+      "impact": "Veri böyle: gündüz kuşağına kanal teyitli yeni bir günlük dizi giriyor; salı akşamı için iki yeni yapım konuşuluyor. Bizim okumamız: Aralık'ın ilk yarısında hem 16.30 hem salı 20.00 kuşağında izleyici yeniden dağılacak; ev kadını ve gündüz izleyicisine yönelik markalar için yeni bir sabit kuşak açılıyor.",
+      "action": "Show TV'den Menekşe'nin ilk iki haftası için kuşak fiyatı ve sponsorluk seçeneklerini isteyin; salı 20.00 planlarını Kanal D ve ATV'nin resmî duyurusuna kadar esnek tutun.",
+      "counterView": "Günlük dizilerde ilk haftalar sık değişir; Hamal, Haysiyet ve Susuz Yaz tarihleri kanal açıklaması değil haber kaynaklıdır, Susuz Yaz'ın 1 Aralık ve Haysiyet'in 8 Aralık finali aynı salı kuşağında çelişiyor.",
+      "sources": [
+        {
+          "name": "Show TV • Menekşe 1. Bölüm 3. Fragmanı",
+          "url": "https://www.showtv.com.tr/dizi/fragman/menekse-1-bolum-3-fragmani/136419",
+          "published": "25 Kasım 2026 15:57",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "CNN Türk • Menekşe dizisi yayın tarihi",
+          "url": "https://www.cnnturk.com/magazin/menekse-dizisi-yayin-tarihi-menekse-dizisinin-konusu-nedir-oyunculari-kimler-3498765",
+          "published": "26 Kasım 2026 22:19",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Maxi Magazin • Hamal ATV ekranlarında 15 Aralık'ta başlıyor",
+          "url": "https://maximagazin.com/kultur-sanat/dizi-tv/hamal-atv-ekranlarinda-15-aralikta-basliyor/",
+          "published": "25 Kasım 2026 11:27",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Televizyon Gazetesi • Haysiyet final yapıyor, Susuz Yaz ne zaman başlayacak?",
+          "url": "https://televizyongazetesi.com/haysiyet-final-yapiyor-susuz-yaz-ne-zaman-baslayacak/264407",
+          "published": "23 Kasım 2026 15:58",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://image.cnnturk.com/i/cnnturk/75/1200x675/6b08865523710802fb066ea3.jpg",
+        "alt": "Menekşe dizisinin tanıtım görseli",
+        "credit": "CNN Türk / Show TV",
+        "sourceUrl": "https://www.cnnturk.com/magazin/menekse-dizisi-yayin-tarihi-menekse-dizisinin-konusu-nedir-oyunculari-kimler-3498765"
+      }
+    },
+    {
+      "id": "justwatch-q3-turkiye-svod-paylari",
+      "title": "JustWatch Q3: Türkiye'de Netflix %23 ile önde, TV+ çeyrekte 3 puan kazandı, HBO Max geriledi",
+      "region": "Türkiye",
+      "category": "Ölçüm & Araştırma",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "Veri dönemi 1 Temmuz – 30 Eylül 2026; yayın 26 Kasım 2026",
+      "summary": "JustWatch'un 2026 üçüncü çeyrek verisine göre Türkiye'de dijital yayın pazarında Netflix lider, en hızlı yükselen ise TV+.",
+      "body": [
+        "Netflix %23, Amazon Prime Video %18, Disney Plus %17, HBO Max %11, YouTube Premium %10, TV+ %5 (JustWatch, MediaCat).",
+        "TV+ çeyrekte 3 puan artışla en büyük kazancı yaptı; YouTube Premium çeyrekte +1, yıllık +6 puan.",
+        "HBO Max çeyrekte 2 puan, yıllıkta 15 puan geriledi (%26'dan %11'e).",
+        "Veri 60 platformda 15 milyondan fazla kullanıcı etkileşimine dayanıyor; abone sayısı değil."
+      ],
+      "impact": "Veri böyle: pay, JustWatch kullanıcılarının platform etkileşiminden hesaplanıyor. Bizim okumamız: Prime ve Disney Plus Netflix'e yaklaşırken yerli TV+ ve YouTube Premium büyüyor; reklamlı yayın envanteri arayan ajans için dijital video planı tek platforma dayanamaz.",
+      "action": "Dijital video planınızda Prime Video, Disney Plus ve TV+'ın reklam ya da sponsorluk seçeneklerini Netflix'le aynı brifle fiyatlatın.",
+      "counterView": "JustWatch verisi kendi uygulama kullanıcılarının ilgisini ölçer; izlenme süresi, abone sayısı veya reklam erişimi değildir ve genç, teknolojiye yatkın kullanıcıya kayabilir.",
+      "sources": [
+        {
+          "name": "MediaCat • Türkiye yayın pazarında Netflix liderliğini korurken TV+ yükselişe geçti",
+          "url": "https://mediacat.com/turkiye-yayin-pazarinda-netflix-liderligini-korurken-tv-yukselise-gecti/",
+          "published": "26 Kasım 2026 09:59",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ]
+    },
+    {
+      "id": "sinema-avengers-dune-18-aralik-3-hafta",
+      "title": "Vizyona 3 hafta: Avengers: Doomsday ve Dune: Bölüm Üç 18 Aralık'ta aynı gün geliyor",
+      "region": "Türkiye",
+      "category": "Sinema",
+      "layer": "Medya tüketimi ve izleyici",
+      "market": "Türkiye",
+      "eventDate": "18 Aralık 2026 (planlanan vizyon); 25 Aralık 2026 Rafadan Tayfa: Gordion",
+      "label": "Vizyona 4/3/2 hafta",
+      "summary": "Aralık'ın iki büyük stüdyo filmi Türkiye'de 18 Aralık'ta aynı gün vizyona giriyor; 25 Aralık'ta yerli animasyon Rafadan Tayfa: Gordion var.",
+      "body": [
+        "3 hafta: Avengers: Doomsday 18 Aralık, dağıtım UIP Türkiye; Box Office Türkiye ve Paribu Cineverse aynı tarihi veriyor.",
+        "Avengers: yönetmen Russo kardeşler; Robert Downey Jr., Chris Evans, Chris Hemsworth, Pedro Pascal; 3D ve IMAX (Milli Gazete).",
+        "3 hafta: Dune: Çöl Gezegeni Bölüm Üç 18 Aralık, TME Films; Villeneuve, Chalamet, Zendaya, Pattinson (Box Office Türkiye, Paribu).",
+        "4 hafta: Rafadan Tayfa: Gordion 25 Aralık, TME Films, aile animasyonu; Box Office Türkiye ve Paribu Cineverse teyitli.",
+        "2 hafta: 11 Aralık'ta güçlü yeni film yok; Dune ve Dune: Bölüm İki yeniden gösterimde (Box Office Türkiye)."
+      ],
+      "impact": "Veri böyle: iki büyük seri aynı hafta sonu salonları paylaşacak, bir hafta sonra yılbaşı tatiline yerli aile filmi giriyor. Bizim okumamız: 18-31 Aralık sinema envanteri yılın en kalabalık dönemi olacak; genç ve aile erişimi için perde reklamı ve ön gösterim sponsorluğu şimdi rezerve edilmeli.",
+      "action": "18 Aralık haftası ve yılbaşı dönemi için Avengers, Dune ve Rafadan Tayfa salonlarında perde reklamı ve IMAX fiyatlarını bugün sinema mecra satıcısından isteyin.",
+      "counterView": "Aynı gün iki büyük film salon ve seans payını böler; Avengers dışındaki filmlerde dağıtımcının resmî sayfası açılmadı, tarihler zincir ve sektör takvimine dayanıyor ve değişebilir.",
+      "sources": [
+        {
+          "name": "Box Office Türkiye • Aralık 2026 vizyon takvimi",
+          "url": "https://boxofficeturkiye.com/takvim/2026/aralik",
+          "published": "Tarih belirtilmiyor; 27 Kasım 2026'da kontrol edildi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Paribu Cineverse • Gelecek filmler",
+          "url": "https://www.paribucineverse.com/gelecek-filmler",
+          "published": "Tarih belirtilmiyor; 27 Kasım 2026'da kontrol edildi",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • Avengers: Doomsday Türkiye vizyon tarihi",
+          "url": "https://www.milligazete.com.tr/avengers-doomsday-turkiye-vizyon-tarihi-2026-marvelin-yeni-filmi-hangi-tarihte-sinemalarda-oyuncu-kadrosunda-kimler",
+          "published": "Tarih okunamadı",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        },
+        {
+          "name": "Milli Gazete • Dune: Part Three vizyon tarihi ve oyuncu kadrosu",
+          "url": "https://www.milligazete.com.tr/dune-part-three-vizyon-tarihi-oyuncu-kadrosu-konusu-ve-yeni-karakterleri",
+          "published": "2 Ekim 2026",
+          "country": "Türkiye",
+          "language": "Türkçe"
+        }
+      ],
+      "image": {
+        "url": "https://cdn-web.marsgate.tr/267//files/movie_posters/HO00008328_639247367062848312_avengers-doomsday.png",
+        "alt": "Avengers: Doomsday Türkiye afişi",
+        "credit": "Paribu Cineverse / UIP Türkiye",
+        "sourceUrl": "https://www.paribucineverse.com/gelecek-filmler"
+      }
+    },
+    {
+      "id": "adobe-tatil-harcamasi-ai-trafik-127",
+      "title": "Adobe: ABD'de tatil sezonu online harcaması 82,5 milyar dolar; yapay zekâdan gelen ziyaret %127 arttı",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Tüketici ve ekonomi",
+      "market": "ABD",
+      "eventDate": "1-22 Kasım 2026 verisi; yayın 25 Kasım 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Adobe verisine göre ABD'de 1-22 Kasım online harcaması %9,1 artarak 82,5 milyar dolara çıktı; Black Friday için 12,9 milyar dolar bekleniyor.",
+      "body": [
+        "1-22 Kasım online harcama 82,5 milyar dolar, yıllık +%9,1 (Adobe, Digital Commerce 360 aktarımı).",
+        "Tahmin: Black Friday 12,9 milyar dolar (+%9,2), Cyber Monday 15,1 milyar dolar, Cyber 5 toplamı 47,5 milyar dolar.",
+        "Üretken yapay zekâ kaynaklı perakende sitesi ziyaretleri +%127; Cyber 5 için +%110 bekleniyor.",
+        "Şimdi al sonra öde harcaması 6,1 milyar dolar (+%6,5) tahmini."
+      ],
+      "impact": "Veri böyle: harcama büyüyor ama alışverişçinin bir kısmı artık siteye arama ya da reklam yerine yapay zekâ asistanından geliyor. Bizim okumamız: Efsane Cuma'da Türkiye'de de fiyat karşılaştırma ve asistan kullanımı artıyorsa, ürün bilgisinin bu araçlarda doğru görünmesi reklam kadar önemli hale geliyor.",
+      "action": "Efsane Cuma sonrası raporunuza, perakende sitelerine yapay zekâ asistanlarından gelen trafiği ayrı bir satır olarak ekletin.",
+      "counterView": "Adobe verisi ABD'ye ve kendi müşteri sitelerine dayanır, enflasyondan arındırılmamıştır; yapay zekâ trafiği küçük bir tabandan büyüyor ve Türkiye'ye doğrudan taşınamaz. Birincil Adobe sayfası açılmadı.",
+      "sources": [
+        {
+          "name": "Digital Commerce 360 • Adobe data shows online holiday spending up 9.1% ahead of Thanksgiving",
+          "url": "https://www.digitalcommerce360.com/2026/11/25/adobe-online-holiday-spending-data/",
+          "published": "25 Kasım 2026 11:00 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://www.digitalcommerce360.com/wp-content/uploads/2026/11/holiday-season-spending-scaled.jpeg",
+        "alt": "Tatil sezonu online harcama görseli",
+        "credit": "Digital Commerce 360",
+        "sourceUrl": "https://www.digitalcommerce360.com/2026/11/25/adobe-online-holiday-spending-data/"
+      }
+    },
+    {
+      "id": "black-friday-dijital-butce-yuzde-10-30",
+      "title": "Medya alıcıları: Black Friday dijital bütçeleri %10-30 arttı, para retail media, arama ve CTV'ye gidiyor",
+      "region": "Global",
+      "category": "Ajans & Marka",
+      "layer": "Reklam pazarı ve para",
+      "market": "ABD",
+      "eventDate": "27-30 Kasım 2026 (Black Friday – Cyber Monday); yayın 23 Kasım 2026",
+      "label": "Gecikmeli fakat önemli",
+      "summary": "Digiday'in görüştüğü beş medya alıcısına göre markalar Black Friday ve Cyber Monday'da dijital medyaya 2025'ten %10-30 daha fazla harcıyor.",
+      "body": [
+        "Artışın büyük kısmı retail media (özellikle Amazon), arama, CTV ve YouTube'a gidiyor (Digiday, beş medya alıcısı).",
+        "Tinuiti: müşteriler Google'a %11-15 daha fazla harcıyor; Demand Gen ve Performance Max %30 arttı.",
+        "AdCellerant: Kasım'da bazı bölgelerde CTV CPM'leri %18'e kadar yüksek.",
+        "PMG: ürünlerin %75'inde indirim yapan markalarda gelir %16 arttı, %25 ve altında indirim yapanlarda %11 düştü."
+      ],
+      "impact": "Veri böyle: ABD'de indirim haftasında bütçe performans ve perakende kanallarına kayıyor, CTV fiyatı da yükseliyor. Bizim okumamız: Efsane Cuma haftasında Türkiye'de de pazar yeri reklamı ve arama fiyatları yükselir; marka bilinirliği bütçesini bu haftaya sıkıştırmak pahalıya patlayabilir.",
+      "action": "Efsane Cuma haftasının arama ve pazar yeri CPC'lerini önceki iki haftayla karşılaştırın; bilinirlik bütçesini Aralık başına kaydırmayı değerlendirin.",
+      "counterView": "Rakamlar beş ajans yöneticisinin beyanı ve satıcı verisidir, ABD'ye aittir; PMG'nin indirim-gelir ilişkisi nedensellik değil, derin indirim yapan markalar zaten farklı olabilir.",
+      "sources": [
+        {
+          "name": "Digiday • Brands boost Black Friday CTV, retail and search spending",
+          "url": "https://digiday.com/media-buying/brands-boost-black-friday-ctv-retail-and-search-spending/",
+          "published": "23 Kasım 2026 05:01 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://digiday.com/wp-content/uploads/sites/3/2026/04/social-shopping-digiday.jpg",
+        "alt": "Sosyal alışveriş temalı illüstrasyon",
+        "credit": "Digiday",
+        "sourceUrl": "https://digiday.com/media-buying/brands-boost-black-friday-ctv-retail-and-search-spending/"
+      }
+    },
+    {
+      "id": "amazon-chatgpt-reklam-tarayici-engeli",
+      "title": "Amazon, OpenAI tarayıcılarını engellerken Black Friday için ChatGPT'de yine reklam veriyor",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Platform ve ürün",
+      "market": "ABD",
+      "eventDate": "26 Kasım 2026 (haber); ilk Amazon ChatGPT reklamı Haziran 2026",
+      "summary": "Amazon, ABD'de Black Friday için ChatGPT'de reklam alıyor; reklamlar ürün sayfasına değil Amazon arama sonuçlarına gidiyor.",
+      "body": [
+        "Reklamlar standart formatta, sohbetten ayrı; tıklama Amazon arama sonuçlarına gidiyor (ExchangeWire, Digiday'e atıfla, 26 Kasım).",
+        "Amazon aynı anda OpenAI bağlantılı tarayıcıları ve üçüncü taraf alışveriş ajanlarını sitesinden engelliyor.",
+        "İlk Amazon ChatGPT reklamı Haziran 2026'da görülmüştü (Business Insider aktarımı, Let's Data Science).",
+        "ChatGPT'deki fırsat bilgisini Amazon değil üçüncü taraf fiyat takip siteleri yüzeye çıkarıyor."
+      ],
+      "impact": "Veri böyle: en büyük perakende reklam platformu, yapay zekâ asistanını içerik kaynağı olarak kapatıp ücretli trafik kanalı olarak kullanıyor. Bizim okumamız: asistanlarda görünürlük organik değil ücretli hale geliyor; marka ve perakendeci için 'asistanda nasıl görünürüm' sorusu bir medya satın alma kalemine dönüşüyor.",
+      "action": "ChatGPT reklamlarının Türkiye'de açık olup olmadığını ve kategori kurallarını platformdan isteyin; açılırsa ilk test bütçesini arama bütçesinin içinden ayırın.",
+      "counterView": "Haber ikincil özetten geliyor, Digiday asıl metni açılmadı; Amazon'un harcama büyüklüğü bilinmiyor ve tek bir kampanya stratejik dönüşüm sayılmayabilir.",
+      "sources": [
+        {
+          "name": "ExchangeWire • Digest: Amazon advertises on ChatGPT despite blocking OpenAI's crawlers",
+          "url": "https://www.exchangewire.com/blog/2026/11/26/digest-amazon-advertises-on-chatgpt-despite-blocking-openais-crawlers-flipkart-ceo-steps-down-amid-ipo-delays/",
+          "published": "26 Kasım 2026",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        },
+        {
+          "name": "Let's Data Science • Amazon buys ChatGPT ads to drive storefront traffic",
+          "url": "https://letsdatascience.com/news/amazon-buys-chatgpt-ads-to-drive-storefront-traffic-6e87cbc2",
+          "published": "22 Haziran 2026 21:01 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.exchangewire.com/wp-content/uploads/2026/11/Digest-image-26-nov.jpg",
+        "alt": "ExchangeWire 26 Kasım özet görseli",
+        "credit": "ExchangeWire",
+        "sourceUrl": "https://www.exchangewire.com/blog/2026/11/26/digest-amazon-advertises-on-chatgpt-despite-blocking-openais-crawlers-flipkart-ceo-steps-down-amid-ipo-delays/"
+      }
+    },
+    {
+      "id": "character-ai-satis-google-itiraz",
+      "title": "İflastaki Character.ai'nin 10 milyon dolarlık satışına Google'dan 5,5 milyon dolarlık itiraz",
+      "region": "Global",
+      "category": "Dijital & AI",
+      "layer": "Düzenleme ve sektör",
+      "market": "ABD",
+      "eventDate": "25 Kasım 2026 (Google itirazı); 1 Aralık 2026 açık artırma",
+      "summary": "Chapter 11'deki Character.ai'nin varlık satışında Google, reklam ve bulut sözleşmelerinden doğan ödemelerin eksik hesaplandığını öne sürerek sınırlı itiraz sundu.",
+      "body": [
+        "Character Technologies 12 Ekim'de Chapter 11 başvurusu yaptı; Smirks and Pangs Acquisition 10 milyon dolar teklif veriyor (PPC Land, mahkeme dosyası).",
+        "Google 25 Kasım'da itiraz etti: bulut sözleşmesi 5.077.083 dolar, Ads sözleşmesi 440.613 dolar ödeme istiyor.",
+        "Google, Cloud, Play, Ads ve YouTube hesaplarının sözleşmeler olmadan alıcıya devrine karşı çıkıyor.",
+        "Satış uygulamayı, modelleri ve kullanıcı sohbetlerini kapsıyor; 42 eyalet ve DC itiraz etti (PPC Land, 26 Kasım).",
+        "Açık artırma 1 Aralık, satış duruşması 7-8 Aralık 2026."
+      ],
+      "impact": "Veri böyle: iflas eden bir yapay zekâ sohbet şirketinin varlıkları, kullanıcı sohbetleriyle birlikte satışa çıkıyor. Bizim okumamız: sohbet verisi yeni bir reklam ve hedefleme varlığı gibi el değiştirebiliyor; markalar için yapay zekâ ortaklarında veri devri ve silme koşulları sözleşme konusu olmalı.",
+      "action": "Yapay zekâ veya sohbet tabanlı reklam ortaklarınızın sözleşmelerinde şirket satışı ya da iflas halinde kullanıcı verisinin akıbetini yazılı olarak sorun.",
+      "counterView": "İtiraz alacak tutarıyla ilgili sınırlı bir hukuki adımdır; mahkeme veri devrini sınırlayabilir ve sonuç ABD iflas hukukuna özgüdür.",
+      "sources": [
+        {
+          "name": "PPC Land • Character.ai's $10m sale faces Google objection over $5.5m in bills",
+          "url": "https://ppc.land/character-ais-10m-sale-faces-google-objection-over-5-5m-in-bills/",
+          "published": "26 Kasım 2026 19:50 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        },
+        {
+          "name": "PPC Land • Character.ai asks judge to make $10m bid for users' chats the one to beat",
+          "url": "https://ppc.land/character-ai-asks-judge-to-make-10m-bid-for-users-chats-the-one-to-beat/",
+          "published": "26 Kasım 2026 19:48 UTC",
+          "country": "ABD",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://ppc.land/content/images/2026/11/character-ai-google-limited-objection-5-5m-cure-accounts-crate-tethered-to-safe.jpg",
+        "alt": "Character.ai satışına Google itirazını anlatan illüstrasyon",
+        "credit": "PPC Land",
+        "sourceUrl": "https://ppc.land/character-ais-10m-sale-faces-google-objection-over-5-5m-in-bills/"
+      }
+    },
+    {
+      "id": "yaratici-mecra-tonys-yenilebilir-pano",
+      "title": "Yaratıcı Mecra: Tony's Chocolonely'nin bedava çikolata dağıtan panosu, bitince mesajını açtı",
+      "region": "Global",
+      "category": "Yaratıcı Mecra",
+      "layer": "Marka ve kampanya",
+      "market": "Birleşik Krallık",
+      "eventDate": "2021 (markanın İngiltere'deki ilk ücretli medya kampanyası)",
+      "summary": "Tony's Chocolonely, Londra, Bristol ve Manchester'da gezen bir panodan tam boy çikolata dağıttı; çikolatalar bitince 'Bedava çikolata diye bir şey yoktur' mesajı göründü.",
+      "body": [
+        "Marka Tony's Chocolonely (Hollanda); 2021'de İngiltere'deki ilk ücretli medya kampanyası; uygulayıcı OOH şirketi Talon.",
+        "Mecra fikri: pano reklam değil dağıtım noktası; boşaldıkça kakao sömürüsü mesajı ortaya çıkıyor.",
+        "Destek: büyük format bannerlar, afiş yapıştırma, yol kenarı panolar ve perakende medyası; marka elçileri sahada.",
+        "Talon'a göre 14,5 milyon yetişkine erişim ve 26.000'den fazla çikolata örneği; farkındalık artışı rakamsız.",
+        "Ajans adı ve bağımsız ölçüm yok; sonuçlar mecra şirketinin vaka sayfasından."
+      ],
+      "impact": "Veri böyle: sonuçlar mecra şirketinin beyanı. Bizim okumamız: fikir mecranın fiziksel durumuna bağlı; pano doluyken ürünü, boşaldıkça markanın derdini anlatıyor. Örneklemeyi açık hava panosunun içine koymak, tadım ile mesajı aynı noktada birleştiriyor.",
+      "action": "Yeni bir çikolata lansmanı için AVM veya metro istasyonunda ürün dağıtan ve stok bittikçe mesajı değişen tek bir pano maliyetini mecra satıcısından isteyin.",
+      "counterView": "Yenilebilir pano fikri daha önce başka çikolata markalarında da denendi; erişim rakamı muhtemelen kampanyanın tüm OOH ağını kapsıyor, gıda dağıtımı izin ve hijyen kuralları nedeniyle ölçeklenmesi zor.",
+      "learning": "Örnekleme panosu (sampling billboard): ürün dağıtımını mecranın kendisine yerleştiren OOH uygulaması. Tartışma sorusu: Bu 'stok bittikçe mesaj değişir' fikri hangi çikolata veya atıştırmalık markasına uyarlanabilir?",
+      "sources": [
+        {
+          "name": "Talon • Tony's Chocolonely OOH case study",
+          "url": "https://talonooh.com/case-studies/tonys-chocolonely-ooh/",
+          "published": "Tarih belirtilmiyor; sayfa 16 Temmuz 2026'da güncellenmiş",
+          "country": "Birleşik Krallık",
+          "language": "İngilizce"
+        }
+      ],
+      "image": {
+        "url": "https://talonooh.com/wp-content/uploads/2022/11/211016_Itch_Tonys_Bristol_A30I4467-1-scaled.jpg",
+        "alt": "Bristol'de Tony's Chocolonely çikolata dağıtan pano",
+        "credit": "Talon",
+        "sourceUrl": "https://talonooh.com/case-studies/tonys-chocolonely-ooh/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Netflix Türkiye haftalık listesinde (16-22 Kasım) dizide Ethos 2. sezon, filmde Guarding Stars birinci; ilk 10'da iki Noel filmi var.",
+      "source": "Netflix Tudum Top 10 (Türkiye)",
+      "url": "https://www.netflix.com/tudum/top10/turkey",
+      "published": "2026-11-22"
+    },
+    {
+      "layer": "Platform ve ürün",
+      "region": "Global",
+      "text": "YouTube TV, ABD'de Sports + News planını yalnız yeni abonelere ilk 6 ay 49,99 dolardan sunuyor; normal fiyat 71,99 dolar, teklif 2 Aralık'ta bitiyor.",
+      "source": "PPC Land (YouTube TV sayfası, 9to5Google)",
+      "url": "https://ppc.land/youtube-tv-cuts-price-of-sports-news-plan-to-49-99-for-new-users-only/",
+      "published": "2026-11-26"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Global",
+      "text": "Flipkart CEO'su Kalyan Krishnamurthy 11 yılı aşkın görevinden 4 Aralık'ta ayrılıyor; halefi önümüzdeki haftalarda açıklanacak, geçici yönetim Balaji Thiagarajan ve yönetim kurulunda.",
+      "source": "ExchangeWire (Walmart iç yazısı)",
+      "url": "https://www.exchangewire.com/blog/2026/11/26/digest-amazon-advertises-on-chatgpt-despite-blocking-openais-crawlers-flipkart-ceo-steps-down-amid-ipo-delays/",
+      "published": "2026-11-26"
+    },
+    {
+      "layer": "Medya tüketimi ve izleyici",
+      "region": "Türkiye",
+      "text": "Bugün vizyonda: Zor Baba 4 ve Hexe: Sihir Krallığı (UIP Türkiye) dahil 11 yeni film; dağıtımcı bilgisi ikincil kaynakta.",
+      "source": "Fragman.net",
+      "url": "https://www.fragman.net/bu-hafta-vizyona-giren-filmler-27-kasim-2026.html",
+      "published": "2026-11-27"
+    },
+    {
+      "layer": "Düzenleme ve sektör",
+      "region": "Türkiye",
+      "text": "Üniversiteler arası sürdürülebilirlik temalı reklam yarışması Kırmızı Fular Ödülleri'nin finali bugün Bandırma Onyedi Eylül Üniversitesi'nde; 10 ekip jüriye sunum yapıyor.",
+      "source": "MediaCat",
+      "url": "https://mediacat.com/kirmizi-fular-odullerine-geri-sayim-suruyor/",
+      "published": "2026-11-11"
+    }
+  ],
+  "matchesWindow": "27 Kasım – 6 Aralık 2026",
+  "matches": [
+    {
+      "date": "2026-11-29",
+      "time": null,
+      "sport": "Kadın voleybolu",
+      "competition": "Sultanlar Ligi",
+      "home": "Eczacıbaşı",
+      "away": "Galatasaray Daikin",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/496465/2026/11/29/eczacibasi-galatasaray-daikin-tvf-sultanlar-ligi-hangi-kanalda",
+      "note": "Spor Ekranı 18.00 ve TRT Spor Yıldız diyor; tek kaynak, TVF ve VolleyStation açılmadı."
+    },
+    {
+      "date": "2026-11-29",
+      "time": "19:00",
+      "sport": "Basketbol",
+      "competition": "FIBA 2027 Dünya Kupası Avrupa Elemeleri",
+      "home": "Türkiye",
+      "away": "İzlanda",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/498165/2026/11/29/turkiye-izlanda-fiba-dunya-kupasi-elemeleri-hangi-kanalda",
+      "note": "Saat Spor Ekranı ve A Spor'da aynı; yayıncı yalnız Spor Ekranı'nda (S Sport 2, S Sport Plus). TBF açılmadı.",
+      "tags": [
+        "Millî maç"
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "time": "21:00",
+      "sport": "Futbol",
+      "competition": "Süper Lig, 13. hafta",
+      "home": "Beşiktaş",
+      "away": "Galatasaray",
+      "broadcaster": null,
+      "source": "https://www.sporekrani.com/home/match/497155/2026/11/30/besiktas-galatasaray-trendyol-super-lig-hangi-kanalda",
+      "note": "Saat Spor Ekranı ve Fotomaç'ta aynı; hak sahibi beIN Sports, maç bazında tek kaynak. TFF açılmadı.",
+      "tags": [
+        "Derbi"
+      ]
+    }
+  ],
+  "highlights": [
+    "ABD'de yapay zekâ asistanlarından perakende sitelerine gelen ziyaret %127 arttı; Amazon ChatGPT'de reklam alıyor.",
+    "Show TV'nin günlük dizisi Menekşe 30 Kasım'dan itibaren hafta içi 16.30'da.",
+    "Avengers: Doomsday ve Dune: Bölüm Üç 18 Aralık'ta aynı gün vizyonda."
+  ],
+  "watchlist": [
+    "30 Kasım 14.00 TFF yayın ihalesi teklifleri ve sonucu.",
+    "30 Kasım 21.00 Beşiktaş–Galatasaray: TFF ve yayıncı teyidi.",
+    "Efsane Cuma sonrası Türkiye e-ticaret hacim açıklamaları ve Ticaret Bakanlığı denetim sonuçları.",
+    "Kanal D salı kuşağı: Susuz Yaz başlangıcı ve Haysiyet finali için resmî tarih.",
+    "1 Aralık Character.ai açık artırması ve sohbet verisinin akıbeti.",
+    "Aralık başı ajans reklam harcama tahminleri (WPP Media, Magna, Dentsu)."
+  ],
+  "limitations": [
+    "Bu sabah ATV, NOW, Star, TRT 1 ve TV8 resmî akışları ile Birsen Altuntaş izin/zaman aşımı hatası verdi; yalnız Kanal D akışı ve Show TV program sayfası açıldı. 26 Kasım perşembe ve 27 Kasım cuma kuşakları derleme sitelerinden okundu; Show TV'de bu akşam Kızılcık Şerbeti mi Güldür Güldür mü olduğu çelişkili (Genç Gazete: Güldür Güldür; Show sayfası menüsü: Güldür Güldür cumartesi). TV dizi takviminde yalnız Kanal D cuma/cumartesi, Menekşe ve haber kaynaklı ATV cuma kaydı işlendi.",
+    "Spor resmî kaynakları (TFF, TBF, TVF, VolleyStation, S Sport Plus, beIN, TRT Spor) açılmadı. EuroLeague'de 27 Kasım ve 2-5 Aralık Türk takımı maçları ile 3-4 Aralık Avrupa kupası maçları doğrulanamadı; panelde yok. Süper Lig 14. haftasında (4-7 Aralık) derbi yok; program Eylül tarihli ikincil kaynakta.",
+    "Türkiye sektör: Campaign TR ana sayfası açılmadı; MediaCat ve Marketing Türkiye'de pencere içinde ajans/konkur, RTÜK kararı, Reklamcılar Derneği verisi veya 2026 Efsane Cuma hacim açıklaması bulunamadı.",
+    "Rakip izleme: Altınmarka, ETİ, Fiskobirlik, Ülker, Mondelez, Nestlé, Doğkar, Ferrero, Sagra, Mars, Şölen, Torku, Altınkılıçlar ve Lider için marka adıyla arama yapıldı, pencere içi yeni gelişme bulunamadı; şirketlerin kendi basın sayfaları açılmadı.",
+    "Dijital gündem: yalnız Netflix Türkiye Top 10 doğrulandı (tek kaynak); Google Trends TR açılmadı, YouTube, Spotify ve TikTok listeleri kontrol edilemedi. Tek platform şeridi dolduramayacağı için social şeridi yok; Netflix listesi kısa sinyalde.",
+    "Media Guru'larından Notlar: 20-27 Kasım tarihli doğrulanabilir birincil yayın bulunamadı; Ehrenberg-Bass ve Amplified sayfaları doğrudan açılmadı. Panel yok.",
+    "Global haberlerin çoğu pencere öncesi (23-25 Kasım) ya da ikincil özetlerden; Avrupa, Asya ve Latin Amerika'dan pencere içi doğrulanmış haber bulunamadı. Adobe ve Digiday kartları 'Gecikmeli fakat önemli'.",
+    "Sinema: dağıtımcıların (UIP, TME) resmî sayfaları açılmadı; tarihler Box Office Türkiye ve Paribu Cineverse'e dayanıyor. Salon kampanyalarında yeni bir ulusal kampanya bulunamadı; Paribu Cineverse çarşamba 160 TL uygulaması 31 Aralık'a kadar sürüyor.",
+    "Yaratıcı mecra vakası 2021 tarihli ve sonuçları yalnız mecra şirketinin vaka sayfasında; bağımsız ölçüm yok.",
+    "16-24 Kasım taranmadı (proje donduruldu); 1 ana haberde (JustWatch) konuyla ilgili görsel bulunamadığı için görsel eklenmedi."
+  ],
+  "corrections": [
+    "26 Kasım maç panelinde Türkiye–İzlanda için saat teyitsiz bırakılmıştı; saat 19.00 Spor Ekranı ve A Spor'da aynı olduğu için bu sayıda panele yazıldı (yayıncı hâlâ teyitsiz)."
+  ]
+}
