@@ -10,7 +10,9 @@ Yalnız Python standart kütüphanesi kullanır. Hata varsa çıkış kodu 1 olu
 import json
 import re
 import sys
+from datetime import date as _date
 from pathlib import Path
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -239,6 +241,73 @@ def validate(path: Path, data: dict) -> list:
     return errs
 
 
+# --- Kapsam günlüğü (27 Kasım 2026): coverage/YYYY-MM-DD.json ---
+COVERAGE_FROM = "2026-11-30"   # bu tarihten itibaren günlük dosya beklenir (eksikse UYARI)
+COV_STATUSES = {"opened", "partial", "search_only", "inaccessible", "not_checked"}
+COV_ERRORS = {"permission", "timeout", "site_error", "paywall", "js", "robots", "other"}
+DOMAIN_WARN_SHARE = 0.5
+
+
+def load_sources():
+    f = ROOT / "data" / "sources.json"
+    if not f.exists():
+        return None
+    return {s["id"]: s for s in json.loads(f.read_text(encoding="utf-8"))["sources"]}
+
+
+def due_today(src, d):
+    wd = _date.fromisoformat(d).weekday()
+    c = src.get("cadence", "daily")
+    return c == "daily" or (c == "wed" and wd == 2) or (c == "fri" and wd == 4)
+
+
+def coverage_checks(path, data):
+    """(hatalar, uyarılar) döndürür. Yayını yalnız biçim hatası durdurur; eksik dosya UYARI'dır."""
+    errs, warns = [], []
+    d = data["date"]
+    sources = load_sources()
+    cf = ROOT / "coverage" / f"{d}.json"
+    if sources is not None and cf.exists():
+        try:
+            cov = json.loads(cf.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            return [f"coverage/{d}.json okunamadı: {e}"], warns
+        got = cov.get("sources")
+        if cov.get("date") != d or not isinstance(got, dict):
+            return [f"coverage/{d}.json: date bülten tarihiyle aynı olmalı ve sources nesne olmalı"], warns
+        for sid, e in got.items():
+            tag = f"coverage/{d}.json {sid}"
+            if sid not in sources:
+                errs.append(f"{tag}: data/sources.json içinde yok")
+                continue
+            if not isinstance(e, dict) or e.get("status") not in COV_STATUSES:
+                errs.append(f"{tag}: status şunlardan biri olmalı: {sorted(COV_STATUSES)}")
+                continue
+            if e["status"] == "inaccessible" and e.get("error") not in COV_ERRORS:
+                errs.append(f"{tag}: inaccessible için error gerekli: {sorted(COV_ERRORS)}")
+            if e["status"] in ("opened", "partial") and "relevant" not in e:
+                errs.append(f"{tag}: opened/partial için relevant (true/false) gerekli")
+        if not cov.get("backfill"):
+            for sid, s in sources.items():
+                if s.get("critical") and due_today(s, d) and sid not in got:
+                    errs.append(f"coverage/{d}.json: kritik kaynak için durum yok: {sid}")
+    elif d >= COVERAGE_FROM:
+        warns.append(f"coverage/{d}.json yok (PROMPT 4.2); kapsam kaydı olmadan 'kontrol edildi' denemez")
+    # tek alan adı yoğunluğu (26 Kasım'dan beri ölçülür)
+    if d >= "2026-11-26":
+        doms = []
+        for a in data.get("articles", []):
+            for s in a.get("sources", []):
+                h = urlparse(s.get("url", "")).hostname or ""
+                doms.append(h.removeprefix("www."))
+        if len(doms) >= 6:
+            top = max(set(doms), key=doms.count)
+            share = doms.count(top) / len(doms)
+            if share > DOMAIN_WARN_SHARE:
+                warns.append(f"kaynak bağlantılarının %{round(share*100)}'i tek alan adında ({top}); asıl yayıncıya inildi mi, limitations içinde belirt")
+    return errs, warns
+
+
 def main():
     check_only = "--check" in sys.argv
     BULLETINS = bulletin_dir()
@@ -253,6 +322,11 @@ def main():
             all_errs[p.name] = [f"JSON okunamadı: {e}"]
             continue
         errs = validate(p, data)
+        if not errs:
+            cerrs, cwarns = coverage_checks(p, data)
+            errs = errs + cerrs
+            for w in cwarns:
+                print(f"UYARI {p.name}: {w}")
         if errs:
             all_errs[p.name] = errs
             continue

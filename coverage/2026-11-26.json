@@ -1,0 +1,118 @@
+{
+ "date": "2026-11-26",
+ "backfill": true,
+ "source_of_record": "state/handoff.md bölüm 7 ve bülten limitations alanı; elle yeniden kurulmuştur, kaydedilmemiş kaynaklar yazılmadı",
+ "sources": {
+  "tv-atv": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-now": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-show": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-kanald": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-star": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-trt1": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-tv8": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-birsen": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-tff": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-tbf": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-tvf": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-volleystation": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-ssportplus": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-bein": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-trtspor": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "sektor-mediacat": {
+   "status": "inaccessible",
+   "error": "permission",
+   "note": "ana sayfa; bir makale açıldı"
+  },
+  "sektor-marketingturkiye": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "sektor-campaigntr": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "dijital-trends-tr": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "dijital-netflix-tr": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "global-ppcland": {
+   "status": "partial",
+   "relevant": true,
+   "note": "ana sayfa izin hatası; makaleler açıldı"
+  },
+  "rakip-marka-arama": {
+   "status": "opened",
+   "relevant": false,
+   "note": "marka adlarıyla arama; pencere içi yeni gelişme yok"
+  },
+  "guru-byron-sharp": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "guru-steven-bellman": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "guru-virginia-beal": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "guru-erica-riebe": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "guru-karen-nelson-field": {
+   "status": "inaccessible",
+   "error": "permission"
+  }
+ }
+}

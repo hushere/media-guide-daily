@@ -27,6 +27,8 @@ Bu dosya bültenin nasıl yazılıp denetlendiğini ve yayımlandığını tanı
 
 ## Roller (ileride yazar/denetçi düzenine geçilirse)
 
+> **Arşiv notu (27 Kasım 2026):** Bu bölüm ve aşağıdaki "Günlük akış 09.15 Yazar / 10.45 Denetçi" ile "Denetim raporu şablonu" bölümleri 14 Ekim - 10 Kasım düzenine aittir; **geçerli değildir**. Geçerli düzen: "Güncel düzen: tek araçlı akış". Başlıklar, zamanlanmış görev metinleri atıf yaptığı için yerinde bırakıldı.
+
 | Rol | Görev | Yetki |
 |---|---|---|
 | **Yazar** | Araştırır, bülteni taslak olarak yazar | Yalnız `draft/YYYY-MM-DD` dalına yazar |
@@ -58,6 +60,8 @@ index.html, assets/           Site (GitHub Pages)
 ```
 
 ## Günlük akış (hafta içi, Türkiye saati)
+
+> **Arşiv notu (27 Kasım 2026):** Bu bölüm eski üç/iki araçlı akışa aittir; geçerli değildir (bkz. "Güncel düzen: tek araçlı akış").
 
 ### 1. Yazar: 09.15
 
@@ -129,6 +133,8 @@ index.html, assets/           Site (GitHub Pages)
 ## Talimat değişiklikleri
 
 En yeni en üstte. Claude her çalışmada bu kayda bakar.
+
+- **2026-11-27 (araştırma güvenilirliği, kullanıcı: "en mantıklısını uygula"):** (1) Teşhis: 26-27 Kasım'da kritik kaynakların %6-11'i açıldı; neden talimat değil `PROVENANCE_REQUIRED` izin hatası. PROMPT 4.1'deki "kullanıcı verdiği için izinli sayılır" varsayımı kaldırıldı. (2) Yeni `data/sources.json` (kaynak kaydı, kritik ve vadeli kaynaklar, yedekler) ve `coverage/YYYY-MM-DD.json` günlük kapsam günlüğü (PROMPT 4.2; durumlar opened/partial/search_only/inaccessible/not_checked); `scripts/validate.py` biçimi ve eksik kritik kaynağı denetler, 30 Kasım'dan itibaren dosya yoksa UYARI, tek alan adı payı %50'yi aşarsa UYARI. (3) Sayı kontrol listesi PROMPT 8'e eklendi. (4) Rakip şirket sayfaları haftalık (Çarşamba), marka araması günlük; offline mecra taraması haftalık (RESEARCH). (5) Cuma konu odaklı guru taraması. (6) Yayın sonrası görev türev metni (Radar, watchlist vb.) yalnız düzeltilmiş olguya hizalayabilir ve kapsam günlüğünü karşılaştırır. (7) `scripts/quality_report.py` ölçüm tablosu; trend için en az 10 iş günü beklenir. (8) Çelişkiler: zamanlanmış ana görevdeki "pazartesi tam tablo" ifadesi RESEARCH'teki günlük kurala uyduruldu; "yalnız ChatGPT" başlıkları ve eski roller arşiv notuyla işaretlendi (bölüm numaraları ve başlıklar bilerek korundu, görev metni atıf yapıyor). Ertelenen: kaynak çeşitliliği kotası (ölçüm gösterdi: 27 Kasım'da tek alan adı %11), yayın öncesi ayrı denetçi turu (maliyet; sayı kontrol listesi ve yayın sonrası görev yeterli görüldü).
 
 - **2026-11-12 (ek):** Tablodaki kanallarda maç yayını varsa maçın kendisi (MAÇ rozeti, `air: "mac"`) ve maçtan önce veya sonra kaydırılmış yeni bölümlü diziler gerçek saatiyle tabloya eklenir (kullanıcı kararı). Resmî akışta "Yeni Bölüm" yazıyorsa eklenir, tekrar ise TKR. Ayrıntı `RESEARCH.md` "TV dizi takvimi güncellemesi" madde 7.
 - **2026-11-12:** TV Dizi Takvimi kontrolü **günlük** oldu (kullanıcı kararı; eski kural "her Pazartesi" kalktı). Claude her sabah 7 kanalın resmî akışıyla tabloyu karşılaştırıp aynı gün günceller. Neden: 9 Kasım haftalık kontrolü yapılmamış, ATV Cumartesi kaydı 3 hafta eski kalmış, ATV Perşembe maç nedeniyle yanlıştı. 12 Kasım'da düzeltildi (ATV Perşembe 22.15 TKR, Cumartesi kaydı kaldırıldı). TV8 sitesi o gün "yenileniyor" sayfasındaydı, doğrulanamadı.

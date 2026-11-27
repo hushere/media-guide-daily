@@ -1,0 +1,128 @@
+{
+ "date": "2026-11-27",
+ "backfill": true,
+ "source_of_record": "state/handoff.md bölüm 7 ve bülten limitations alanı; elle yeniden kurulmuştur, kaydedilmemiş kaynaklar yazılmadı",
+ "sources": {
+  "tv-atv": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-now": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-show": {
+   "status": "partial",
+   "relevant": true,
+   "note": "program (fragman) sayfası açıldı; yayın akışı açılmadı"
+  },
+  "tv-kanald": {
+   "status": "opened",
+   "relevant": true,
+   "note": "akış ve /cumartesi açıldı"
+  },
+  "tv-star": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-trt1": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-tv8": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "tv-birsen": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-tff": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-tbf": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-tvf": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-volleystation": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-ssportplus": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-bein": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "spor-trtspor": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "sektor-mediacat": {
+   "status": "partial",
+   "relevant": false,
+   "note": "makaleler açıldı, ana sayfa/liste açılmadı"
+  },
+  "sektor-marketingturkiye": {
+   "status": "partial",
+   "relevant": false,
+   "note": "limitations'a göre arandı; erişim kaydı belirsiz"
+  },
+  "sektor-campaigntr": {
+   "status": "inaccessible",
+   "error": "permission",
+   "note": "ana sayfa"
+  },
+  "dijital-trends-tr": {
+   "status": "inaccessible",
+   "error": "permission"
+  },
+  "dijital-netflix-tr": {
+   "status": "opened",
+   "relevant": true,
+   "note": "ikinci denemede açıldı"
+  },
+  "global-ppcland": {
+   "status": "partial",
+   "relevant": true,
+   "note": "makaleler açıldı"
+  },
+  "rakip-marka-arama": {
+   "status": "opened",
+   "relevant": false,
+   "note": "marka adlarıyla arama; pencere içi yeni gelişme yok"
+  },
+  "guru-byron-sharp": {
+   "status": "search_only",
+   "relevant": false,
+   "note": "sayfalar doğrudan açılmadı"
+  },
+  "guru-steven-bellman": {
+   "status": "search_only",
+   "relevant": false,
+   "note": "sayfalar doğrudan açılmadı"
+  },
+  "guru-virginia-beal": {
+   "status": "search_only",
+   "relevant": false,
+   "note": "sayfalar doğrudan açılmadı"
+  },
+  "guru-erica-riebe": {
+   "status": "search_only",
+   "relevant": false,
+   "note": "sayfalar doğrudan açılmadı"
+  },
+  "guru-karen-nelson-field": {
+   "status": "search_only",
+   "relevant": false,
+   "note": "sayfalar doğrudan açılmadı"
+  }
+ }
+}

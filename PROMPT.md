@@ -41,7 +41,7 @@ Türkiye'de çalışan bir media planner/buyer için Türkçe bir Daily Media In
 
 GPT karşılaştırmasında görülen açıkları kapatmak için:
 
-**Erişim:** Aşağıdaki resmî adresler her çalışmada doğrudan açılır. 14 Ekim'de bunların açılamaması sitelerin engeli değil, gözetimsiz çalışmadaki izin adımıydı; bu adresler kullanıcı tarafından verildiği için izinli kaynak sayılır.
+**Erişim (27 Kasım 2026 düzeltmesi):** Aşağıdaki resmî adresler her çalışmada denenir (tam kayıt: `data/sources.json`). "Kullanıcı verdiği için izinli sayılır" varsayımı uygulamada tutmadı: 16, 26 ve 27 Kasım'da bu adresler gözetimsiz oturumda `PROVENANCE_REQUIRED` (izin isteği yanıtsız kaldı) hatası verdi; 26-27 Kasım'da kritik kaynakların yalnız %6-11'i açıldı. Bu bir site engeli değil, oturumun izin durumudur. Sonuçları: (a) aynı hatayı aynı gün tekrar deneme; (b) önce WebSearch ile kaynağın o günkü sayfasını bul, sonuç URL'sini aç (bu yol çalışıyor); (c) açılamayanı 4.2'deki kapsam günlüğüne hata türüyle yaz, "taranmadı/bulunamadı" diye karıştırma; (d) kalıcı çözüm kullanıcının izin ayarındadır (alan adlarının önceden izinlenmesi), talimatla çözülmez.
 - TV yayın akışları: https://www.atv.com.tr/yayin-akisi · https://www.nowtv.com.tr/yayin-akisi · https://www.showtv.com.tr/yayin-akisi · https://www.kanald.com.tr/yayin-akisi · https://www.startv.com.tr/yayin-akisi · https://www.trt1.com.tr/yayin-akisi · https://www.tv8.com.tr/yayin-akisi
 - Dizi bölüm arşivleri: ilgili kanalın program sayfası (örn. https://www.nowtv.com.tr/<Dizi-Adı>/bolumler)
 - TV kulis: https://www.birsenaltuntas.com
@@ -63,6 +63,19 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 **Yazım:** `body` maddeleri hedef 18 kelime, üst sınır 22 kelime.
 
 ## 5. Zorunlu bölümler ve kontroller
+
+### 4.2 Kapsam günlüğü (27 Kasım 2026, kullanıcı onaylı)
+
+Her çalışmada, yayından önce `coverage/<bugün>.json` yazılır (`data/sources.json` kayıt defteri, `scripts/validate.py` denetler). Amaç haber sayısı değil, hangi kaynağın gerçekten okunduğunu kayda geçirmektir.
+
+- Biçim: `{"date": "YYYY-MM-DD", "sources": {"<kaynak id>": {"status": ..., "relevant": true|false, "error": ..., "note": ...}}}`.
+- `status`: `opened` (kaynağın kendi sayfası okundu), `partial` (yalnız makale/alt sayfa okundu, ana sayfa veya liste değil), `search_only` (yalnız arama sonucu görüldü, kaynak okunmadı), `inaccessible` (açılmadı; `error`: permission, timeout, site_error, paywall, js, robots, other zorunlu), `not_checked` (hiç denenmedi).
+- `relevant` yalnız `opened` ve `partial` için: pencerede ilgili gelişme var mı. "Gelişme yok" yalnız `opened` durumunda yazılabilir; `partial`, `search_only` ve `inaccessible` kaynak için bülten metninde "gelişme bulunamadı" denmez, "kontrol tamamlanamadı" denir.
+- Kritik kaynakların (`critical: true`) o günkü durumu zorunludur; eksikse doğrulayıcı hata verir. Vadesi gelmeyen (`wed`, `fri`) kaynaklar yazılmaz.
+- Yedek yol: `alternates` listesindeki kaynak açılırsa onun da durumu yazılır; ikincil kaynağa dayanan bilgi "haber kaynaklı" etiketlenir (4.1).
+- Aynı kritik kaynak art arda 2 iş günü `inaccessible` ise `state/handoff.md` içine "art arda N gün" yaz. Günlük bildirim gönderme (arıza kalıcı olabilir, her gün mesaj gürültü olur). Yalnız **Cuma** bülteninde, haftanın kritik kaynak açılma oranı %50'nin altındaysa tek kısa mesaj gönder: oran, en çok başarısız alan adları ve çözümün kullanıcıda olduğu (alan adı izinleri).
+- Doğrulayıcı bir alan adının kaynak bağlantılarının yarısından fazlasını oluşturduğunu bildirirse (UYARI), haberlerin asıl yayıncısına inilip inilmediğini `limitations` içinde belirt.
+- `python3 scripts/quality_report.py` ölçüm tablosunu verir; yalnız bilgi içindir.
 
 ### 5.1 TV & Entertainment Türkiye
 
@@ -91,6 +104,8 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 - Diğer şirketlerin Türkiye'deki tablet/solid çikolata, krem çikolata, çikolata kaplı ürün ve atıştırmalık çikolata markalarında kampanya, lansman, ürün yeniliği, mecra kullanımı, sponsorluk, branded content, promosyon, ambalaj, reklam yüzü, fiyat, dağıtım ve önemli kurumsal gelişmeleri önceliklendir.
 - Haberde şirketi ve tüketici markasını ayrı yaz. Marka alt listesini varsayımla genişletme; şirket-marka sahipliğini güncel birincil veya güvenilir kaynakla doğrula.
 - Anlamlı yeni gelişme yoksa bölüm ekleme; kontrol tam yapılamadıysa limitations içinde belirt.
+- Kontrol iki katmandır (27 Kasım 2026): **her gün** marka adlarıyla arama (`rakip-marka-arama`, 4.2'de `opened` = aramalar yapıldı, şirket sayfası okundu değil); **her Çarşamba** 14 şirketin kendi basın/haber sayfası. Şirket sayfasının doğrulanmış URL'si `data/sources.json` içinde yoksa ilk Çarşamba WebSearch ile resmî sayfayı bul, URL'yi ve doğrulanmış marka listesini o kayda yaz (marka/şirket sahipliği birincil kaynakla doğrulanır, tahminle yazılmaz). Şirket sayfası okunmadıysa "rakip gelişmesi yok" yazılmaz.
+- Mecra ayrımı: her rakip gelişmesinde mecrayı belirt (TV, dijital, OOH, radyo, basın, sponsorluk, sinema, satış noktası). Offline mecra taraması haftalıktır: `RESEARCH.md` "Haftalık offline mecra taraması".
 
 ### 5.3 Yaklaşan Önemli Maçlar
 
@@ -159,6 +174,7 @@ GPT karşılaştırmasında görülen açıkları kapatmak için:
 - **Araştırmayı Claude yapar (11 Kasım 2026'dan itibaren; önce ChatGPT'deydi)** (`RESEARCH.md` "Media Guru'larından Notlar"). Önemli yeni yayın yoksa `gurus` alanı eklenmez.
 - Biçim ve güvenlik kontrolü: https birincil kaynak, yayın tarihi, en fazla 3 öğe, `evidence` etiketi, uzun alıntı veya kopya metin olmaması. Veri, kaynak yorumu ve çıkarım ayrı kalmalı; çalışmanın finansörü ve ticari bağı `counterView` içinde belirtilmeli.
 - Önemli yayın yoksa panel çıkmaz. Dolgu not yazılmaz.
+- Konu odaklı tarama (27 Kasım 2026): yazar odaklı günlük kontrole ek olarak yalnız **Cuma** haftanın öne çıkan 1-2 konusu için (ör. dikkat ölçümü, retail media, CTV, marka büyümesi) ilgili hakemli çalışma veya araştırma kuruluşu yayını aranır. Aynı kurallar geçerlidir (birincil kaynak, tarih, yöntem, finansör); kişi listesi dışından bulunan çalışma `person` yerine kurumla etiketlenir. Bulunmazsa panel eklenmez.
 
 ### 5.8 Katmanlı haber seçimi, kısa sinyaller ve Radar (21 Ekim 2026, kullanıcı kararı; 22 Ekim bülteninden itibaren)
 
@@ -263,6 +279,8 @@ Yayımlamadan önce kontrol et:
 - 22 Ekim'den itibaren: her ana haberde `layer`; en az 4 katman, tek katman en fazla %40; `signals` 4-6 adet; `attitudeRadar` var (`dayRead` yazılmaz); Radar'da `basis` ve `recurrence` dürüst
 - Biçim: `summary` tek cümle, `body` maddeleri en fazla 22 kelime, `action` tek somut cümle
 - Bölüm 4.1: TV durumu resmî kaynakla mı, maç yayıncısı resmî/iki bağımsız kaynakla mı, rakip şirket sayfaları kontrol edildi mi
+- Bölüm 4.2: `coverage/<bugün>.json` yazıldı mı; "gelişme yok" denen her yerde kaynağın durumu `opened` mı; limitations kapsam günlüğüyle çelişmiyor mu
+- Sayı kontrolü (27 Kasım 2026): başlık, `summary`, `impact`, `action`, Radar, sinyal ve `weekly` içindeki her rakam için şunları denetle: (1) kaynakta aynen geçiyor mu ve hangi cümlede; (2) tahmin/öngörü mü gerçekleşen mi (ayrı yaz, karıştırma); (3) birim, para birimi, dönem, pazar; (4) yüzde mi puan mı, yıllık mı çeyreklik mi; (5) tek ikincil kaynaksa "X'e göre" ile atfet; (6) iki kaynakta farklıysa farkı yaz. Bu kapsamın dışındaki gövde (`body`) rakamları için kaynak uyumu yeterlidir.
 - Görseller haberin konusuyla ilgili, kredili ve doğrudan https adresli; `social` öğelerinde metrikler kaynaklı ve uydurma değil
 
 Yapılmamış kontrollerin tamamlandığını iddia etme.

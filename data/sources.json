@@ -1,0 +1,520 @@
+{
+ "updated": "2026-11-27",
+ "note": "Kaynak kaydı. critical=true: o gün kapsam günlüğünde durumu zorunlu. cadence: daily (hafta içi), wed, fri. url null: doğrulanmış tam adres yok, uydurulmaz.",
+ "sources": [
+  {
+   "id": "tv-atv",
+   "name": "ATV yayın akışı",
+   "group": "tv",
+   "url": "https://www.atv.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-now",
+   "name": "NOW yayın akışı",
+   "group": "tv",
+   "url": "https://www.nowtv.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-show",
+   "name": "Show TV yayın akışı",
+   "group": "tv",
+   "url": "https://www.showtv.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-kanald",
+   "name": "Kanal D yayın akışı",
+   "group": "tv",
+   "url": "https://www.kanald.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-star",
+   "name": "Star TV yayın akışı",
+   "group": "tv",
+   "url": "https://www.startv.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-trt1",
+   "name": "TRT 1 yayın akışı",
+   "group": "tv",
+   "url": "https://www.trt1.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-tv8",
+   "name": "TV8 yayın akışı",
+   "group": "tv",
+   "url": "https://www.tv8.com.tr/yayin-akisi",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "tv-canlitv-haftalik",
+    "tv-televizyongazetesi"
+   ]
+  },
+  {
+   "id": "tv-canlitv-haftalik",
+   "name": "canlitv haftalık program",
+   "group": "tv",
+   "url": null,
+   "tier": "secondary",
+   "critical": false,
+   "cadence": "daily",
+   "note": "26 Kasım'da açıldı; resmî akış açılmazsa yedek. Haber kaynaklı etiketi gerekir."
+  },
+  {
+   "id": "tv-televizyongazetesi",
+   "name": "Televizyon Gazetesi",
+   "group": "tv",
+   "url": null,
+   "tier": "secondary",
+   "critical": false,
+   "cadence": "daily",
+   "note": "27 Kasım'da açıldı; yedek."
+  },
+  {
+   "id": "tv-birsen",
+   "name": "Birsen Altuntaş",
+   "group": "tv",
+   "url": "https://www.birsenaltuntas.com",
+   "tier": "secondary",
+   "critical": false,
+   "cadence": "daily",
+   "note": "Kulis; kanal veya platformla çapraz kontrol şart."
+  },
+  {
+   "id": "spor-tff",
+   "name": "TFF",
+   "group": "spor",
+   "url": "https://www.tff.org",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-tbf",
+   "name": "TBF",
+   "group": "spor",
+   "url": "https://www.tbf.org.tr",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-tvf",
+   "name": "TVF",
+   "group": "spor",
+   "url": "https://www.tvf.org.tr",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-volleystation",
+   "name": "VolleyStation Sultanlar",
+   "group": "spor",
+   "url": "https://sultanlar.volleystation.com/en/schedule/",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-ssportplus",
+   "name": "S Sport Plus",
+   "group": "spor",
+   "url": "https://www.ssportplus.com",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-bein",
+   "name": "beIN Sports TR",
+   "group": "spor",
+   "url": "https://beinsports.com.tr",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-trtspor",
+   "name": "TRT Spor",
+   "group": "spor",
+   "url": "https://www.trtspor.com.tr",
+   "tier": "official",
+   "critical": true,
+   "cadence": "daily",
+   "alternates": [
+    "spor-sporekrani",
+    "spor-kulup-mac-merkezleri"
+   ]
+  },
+  {
+   "id": "spor-sporekrani",
+   "name": "sporekrani maç sayfaları",
+   "group": "spor",
+   "url": null,
+   "tier": "secondary",
+   "critical": false,
+   "cadence": "daily",
+   "note": "26-27 Kasım'da açıldı; yayıncı için tek başına yetmez (PROMPT 4.1)."
+  },
+  {
+   "id": "spor-kulup-mac-merkezleri",
+   "name": "Kulüp maç merkezleri",
+   "group": "spor",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "sektor-mediacat",
+   "name": "MediaCat",
+   "group": "sektor",
+   "url": "https://mediacat.com",
+   "tier": "secondary",
+   "critical": true,
+   "cadence": "daily",
+   "note": "Ana sayfa sık açılmıyor; makale URL'leri WebSearch sonucundan açılıyor."
+  },
+  {
+   "id": "sektor-marketingturkiye",
+   "name": "Marketing Türkiye",
+   "group": "sektor",
+   "url": "https://www.marketingturkiye.com.tr",
+   "tier": "secondary",
+   "critical": true,
+   "cadence": "daily",
+   "note": "Ana sayfa sık açılmıyor; makale URL'leri WebSearch sonucundan açılıyor."
+  },
+  {
+   "id": "sektor-campaigntr",
+   "name": "Campaign Türkiye",
+   "group": "sektor",
+   "url": "https://www.campaigntr.com",
+   "tier": "secondary",
+   "critical": true,
+   "cadence": "daily",
+   "note": "Ana sayfa sık açılmıyor; makale URL'leri WebSearch sonucundan açılıyor."
+  },
+  {
+   "id": "sektor-rtuk-reklamkurulu",
+   "name": "RTÜK / Reklam Kurulu / Resmî Gazete",
+   "group": "sektor",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "dijital-trends-tr",
+   "name": "Google Trends TR",
+   "group": "dijital",
+   "url": "https://trends.google.com/trending?geo=TR",
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "dijital-netflix-tr",
+   "name": "Netflix Türkiye Top 10",
+   "group": "dijital",
+   "url": "https://www.netflix.com/tudum/top10/turkey",
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "sinema-boxoffice",
+   "name": "Box Office Türkiye",
+   "group": "sinema",
+   "url": null,
+   "tier": "secondary",
+   "critical": false,
+   "cadence": "fri",
+   "alternates": [
+    "sinema-paribu"
+   ]
+  },
+  {
+   "id": "sinema-paribu",
+   "name": "Paribu Cineverse",
+   "group": "sinema",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "fri"
+  },
+  {
+   "id": "global-ppcland",
+   "name": "PPC Land",
+   "group": "global",
+   "url": "https://ppc.land",
+   "tier": "secondary",
+   "critical": false,
+   "cadence": "daily",
+   "note": "Tek yayın yoğunluğu izleniyor; haber asıl yayıncıya kadar izlenmeli."
+  },
+  {
+   "id": "rakip-marka-arama",
+   "name": "Rakip marka adlarıyla arama",
+   "group": "rakip",
+   "url": null,
+   "tier": "search",
+   "critical": true,
+   "cadence": "daily",
+   "note": "'opened' bu kaynakta aramaların yapıldığı anlamına gelir; şirket sayfası okunduğu anlamına gelmez."
+  },
+  {
+   "id": "rakip-altinmarka",
+   "name": "ALTINMARKA basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-eti",
+   "name": "ETİ basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-fiskobirlik",
+   "name": "FİSKOBİRLİK basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-ulker",
+   "name": "ÜLKER basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-mondelez",
+   "name": "MONDELEZ basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-nestle",
+   "name": "NESTLÉ basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-dogkar",
+   "name": "DOĞKAR basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-ferrero",
+   "name": "FERRERO basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-sagra",
+   "name": "SAGRA basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-mars",
+   "name": "MARS basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-solen",
+   "name": "ŞÖLEN basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-torku",
+   "name": "TORKU basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-altinkiliclar",
+   "name": "ALTINKILIÇLAR basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "rakip-lider-cikolata",
+   "name": "LİDER ÇİKOLATA basın/haber sayfası",
+   "group": "rakip",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "wed",
+   "note": "Resmî basın sayfası URL'si henüz doğrulanmadı; ilk açılışta URL ve marka listesi bu kayda yazılır (PROMPT 5.2)."
+  },
+  {
+   "id": "guru-byron-sharp",
+   "name": "Byron Sharp",
+   "group": "guru",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "guru-steven-bellman",
+   "name": "Steven Bellman",
+   "group": "guru",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "guru-virginia-beal",
+   "name": "Virginia Beal",
+   "group": "guru",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "guru-erica-riebe",
+   "name": "Erica Riebe",
+   "group": "guru",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  },
+  {
+   "id": "guru-karen-nelson-field",
+   "name": "Karen Nelson-Field",
+   "group": "guru",
+   "url": null,
+   "tier": "official",
+   "critical": false,
+   "cadence": "daily"
+  }
+ ]
+}

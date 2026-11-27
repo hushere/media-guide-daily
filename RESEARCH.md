@@ -52,7 +52,7 @@ Katmanlar (`layer`): `Medya tüketimi ve izleyici`, `Reklam pazarı ve para`, `P
 
 Claude bülteni yazıp yayımladıktan sonra (09.15), sen yayımlanmış bültenin **her haberini okur** ve Claude'un yazdığı metni değerlendirirsin. Amaç ikinci bir göz: hata, zayıf yorum, abartı veya eksik yakalamak.
 
-**Sınır (11 Kasım 2026'dan itibaren):** Yalnız kaynakla çelişen açık olgu hatalarını (sayı, tarih, saat, yayıncı, isim) bültende düzelt ve `corrections` alanına yaz; geri kalan her şey yalnız rapora. Aşağıdaki eski metin ChatGPT içindi: `bulletins/`, `data/`, `state/`, site dosyaları ve `research/` altındaki paketler dahil hiçbir dosyayı düzenleme, düzeltme veya yeniden yazma. Yalnız aşağıdaki rapor dosyasını yaz. Önerilerini kullanıcıya ilet; kararı kullanıcı verir, uygulamayı Claude yapar.
+**Sınır (11 Kasım 2026'dan itibaren):** Yalnız kaynakla çelişen açık olgu hatalarını (sayı, tarih, saat, yayıncı, isim) bültende düzelt ve `corrections` alanına yaz; geri kalan her şey yalnız rapora. **Türev metin (27 Kasım 2026):** düzelttiğin olguya dayanan başka alanlar (Radar, `watchlist`, `highlights`, `weekly`, kısa sinyal, aynı haberin `impact`/`action` cümlesi) yeni olguyla çelişiyorsa yalnız çelişen rakam/ifadeyi düzeltilmiş olguya hizala; yorum ekleme, çıkarım değiştirme. Her hizalamayı `corrections` içinde belirt. **Kapsam kontrolü (27 Kasım 2026):** `coverage/<bugün>.json` ile bültenin `limitations` alanını karşılaştır; "gelişme yok" denen bir kaynak `opened` değilse veya kapsam dosyası yoksa raporun Bülten bütünü bölümüne yaz (bülten metnine dokunma). Rapora ayrıca `python3 scripts/quality_report.py --last 5` çıktısının tek satırlık özetini ekle. Aşağıdaki eski metin ChatGPT içindi: `bulletins/`, `data/`, `state/`, site dosyaları ve `research/` altındaki paketler dahil hiçbir dosyayı düzenleme, düzeltme veya yeniden yazma. Yalnız aşağıdaki rapor dosyasını yaz. Önerilerini kullanıcıya ilet; kararı kullanıcı verir, uygulamayı Claude yapar.
 
 **Zaman:** Bülten 09.15'te yayımlanır; raporu 11.00'e kadar tamamla. Bülten 09.30'a kadar yayımlanmadıysa rapora "bülten yayımlanmadı" yaz ve dur.
 
@@ -128,7 +128,14 @@ Hafta sonu: Cumartesi ve Pazar bülten çıkmıyorsa bakılmaz; Pazartesi sabah�
 - Dizi yayına başlayınca `tag` alanını boş bırakarak `update` öner (Yeni Dizi notu kalkar), `status` değerini `yayinda` yap.
 - Tarih ve saati tahminle doldurma. Teyitsiz bilgiyi `belirsiz` bırak.
 
-## Dijital gündem araştırması (yalnız ChatGPT, 21 Ekim 2026 kullanıcı kararı)
+## Haftalık offline mecra taraması (27 Kasım 2026, kullanıcı onaylı; her Çarşamba)
+
+Günlük tarama TV, spor, sinema ve dijitale ağırlıklıdır; OOH, radyo, basın, satış ortakları ve sponsorluk için düzenli, tarihli bir akış zayıftır. Her gün "haber yok" üretmemek için bu mecralar **haftada bir** (Çarşamba) taranır ve rakip şirket basın sayfaları (PROMPT 5.2) aynı gün okunur.
+- Mecralar: OOH/dijital OOH (yeni envanter, ihale, belediye düzenlemesi), radyo (ölçüm, yayıncı birleşmesi), basın/dergi (kapanış, tiraj, dijitale geçiş), TV/dijital satış ortakları ve reklam satış evleri (paket, fiyat, birleşme), sponsorluk (lig, takım, etkinlik, isim hakkı), sinema reklamcılığı.
+- Yöntem: MediaCat, Marketing Türkiye ve Campaign TR'de mecra adıyla WebSearch; resmî taraf için Reklam Kurulu, RTÜK, Reklamcılar Derneği. Kaynak listesi kullanıcı onayıyla `data/sources.json` içine eklenir; onaysız alan adı kayda yazılmaz ve kaynak uydurulmaz.
+- Bulgu yoksa bültende bölüm açılmaz, `limitations` içinde "haftalık offline tarama: gelişme bulunamadı (kaynak durumu: ...)" yazılır; kapsam günlüğüne `status` ile işlenir. Ana haber ancak pencere içi doğrulanmış, tarihli gelişmeyle yazılır.
+
+## Dijital gündem araştırması (eski başlık: "yalnız ChatGPT"; 11 Kasım'dan beri Claude, 21 Ekim 2026 kullanıcı kararı)
 
 Bu bölümün araştırmasını yalnız sen yaparsın. Claude bu konuda araştırma yapmaz, paket gelmezse yedek akışta da yapmaz; o gün sitede dijital gündem şeridi çıkmaz. Sonuçlar paketin `social` alanına yazılır (biçim: `schema/research.example.json`).
 
@@ -165,7 +172,7 @@ Bu liste başlangıçtır. Benzer, daha iyi veya günlük trend veren başka kay
 - Her pakette `socialSourceReview` listesi ver. Her kaynak için sonuç (`ok`, `login_required`, `paywall`, `no_response`, `poor_scope`) ve öneri (`keep`, `remove`, `add`) yaz. `remove` önerdiğin kaynağı sabah Claude bu listeden çıkarır. Sen listeyi kendin değiştirme, yalnız `research/` klasörüne yazabilirsin. Kaynağı çıkarmadan önce de aynı gün o kaynağı kullanma.
 - Aynı kaynak üç ardışık gün `remove` önerilirse Claude'dan beklemeden o kaynağı atla.
 
-## Media Guru'larından Notlar (yalnız ChatGPT, 22 Ekim 2026 kullanıcı kararı)
+## Media Guru'larından Notlar (eski başlık: "yalnız ChatGPT"; 11 Kasım'dan beri Claude, 22 Ekim 2026 kullanıcı kararı; Cuma konu odaklı tarama için PROMPT 5.7)
 
 Her gün şu araştırmacıların yeni çalışmalarını kontrol et: **Byron Sharp, Steven Bellman, Virginia Beal, Erica Riebe, Karen Nelson-Field**. Önemli bir gelişme varsa paketin `gurus` alanına yaz. Sitede Dijital Gündem ve Spor Takvimi panellerinin yanında "Media Guru'larından Notlar" paneli olarak görünür. Bu işi yalnız sen yaparsın. Claude araştırmaz ve içeriği yeniden teyit etmez, yalnız biçim kontrolü yapar. Paket gelmezse panel çıkmaz.
 
